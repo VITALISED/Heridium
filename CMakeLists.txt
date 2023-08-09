@@ -12,7 +12,7 @@ add_library(Heridium SHARED
         "dllmain.cpp"
         "framework.h"
         "common/utilities/TkString.h"
-        "common/utilities/TkArray.h" "memory.h" "memory.cpp" "hooks.h" "hooks.cpp"  "common/metadata/TkClassPointer.h" "common/xml/XMLNode.h" "common/xml/XMLClear.h" "common/xml/XMLAttribute.h" "common/utilities/TkLinearMemoryPool.h" "common/utilities/TkMemoryPool.h" "common/metadata/TkMetaData.h" "common/metadata/TkMetaDataClass.h" "dllmain.h")
+        "common/utilities/TkArray.h" "memory.h" "memory.cpp" "hooks.h" "hooks.cpp"  "common/metadata/TkClassPointer.h" "common/xml/XMLNode.h" "common/xml/XMLClear.h" "common/xml/XMLAttribute.h" "common/utilities/TkLinearMemoryPool.h" "common/utilities/TkMemoryPool.h" "common/metadata/TkMetaData.h" "common/metadata/TkMetaDataClass.h" "dllmain.h" "common/utilities/TkFlatMap.h" "common/utilities/allocators/TkSTLAllocator.h" "common/metadata/TkMetaDataXML.h"  "common/utilities/spookyhash/SpookyV2.h" "common/utilities/spookyhash/SpookyV2.cpp")
 
 target_link_libraries(
   Heridium PRIVATE ${CMAKE_SOURCE_DIR}/thirdparty/lib/MinHook.x64.lib)
