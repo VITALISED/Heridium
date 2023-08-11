@@ -9,3 +9,4 @@
 #include "common/metadata/TkMetaDataXML.h"
 #include <filesystem>
 #include <algorithm>
+#include "dumper.h"

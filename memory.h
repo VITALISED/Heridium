@@ -5,7 +5,7 @@
 #include <vector>
 
 
-#define _BASE (uintptr_t)GetModuleHandleA(NULL)
+#define _BASE (uintptr_t)GetModuleHandleA("NMS.exe")
 #define OFFSET(offset) (LPVOID)(_BASE + (uintptr_t)offset)
 #define SIGSCAN(pattern) (LPVOID)(Memory::ScanPattern(Memory::IdaPatternToByte(pattern)))
 

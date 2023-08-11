@@ -18,6 +18,7 @@ const struct __declspec(align(4)) FloatLimits
 
 const class cTkMetaDataEnumLookup
 {
+public:
 	__int64 miValue;
 	const char* mpacName;
 };

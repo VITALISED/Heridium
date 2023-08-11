@@ -1,40 +1,45 @@
 // dllmain.cpp : Defines the entry point for the DLL application.
 #include "dllmain.h" 
 
-DWORD WINAPI MainThread(LPVOID lpReserved)
+cTkMetaData::Register fpRegister = NULL;
+
+void RegisterHook(const cTkMetaDataClass* lpClassMetadata,
+    void(__fastcall* lDefaultFunction)(cTkClassPointer*, cTkLinearMemoryPool*),
+    void(__fastcall* lFixingFunction)(cTkClassPointer*, bool, unsigned __int64),
+    void(__fastcall* lValidateFunction)(cTkClassPointer*),
+    void(__fastcall* lRenderFunction)(cTkClassPointer*),
+    bool(__fastcall* lEqualsFunction)(const cTkClassPointer*, const cTkClassPointer*),
+    void(__fastcall* lCopyFunction)(cTkClassPointer*, const cTkClassPointer*),
+    cTkClassPointer* (__fastcall* lCreateFunction)(cTkClassPointer* result),
+    unsigned __int64(__fastcall* lHashFunction)(const cTkClassPointer*, unsigned __int64, bool),
+    void(__fastcall* lDestroyFunction)(cTkClassPointer*))
 {
-    std::ifstream DumpedNames("D:/GOG Games/No Man's Sky/Binaries/names.txt");
-    std::string line;
+    std::string key = lpClassMetadata->mpacName;
 
-    cTkMetaDataXML::GetLookup lookup = (cTkMetaDataXML::GetLookup)OFFSET(0x2FA7D90);
-    cTkMetaData::GetLookup lookup2 = (cTkMetaData::GetLookup)OFFSET(0x2FA7B90);
-
-    while (std::getline(DumpedNames, line))
+    if (key.find_first_of("c") != std::string::npos)
     {
-        cTkMetaDataXMLFunctionLookup* val = lookup(line.c_str());
-
-        if (val)
-        {
-            unsigned __int64 hash;
-
-            unsigned __int64 hash1 = HASH_SEED;
-            unsigned __int64 hash2 = HASH_SEED;
-
-            SpookyHash::Hash128(val->mName.macBuffer , sizeof(val->mName.macBuffer), &hash1, &hash2);
-            hash = hash1;
-
-            cTkMetaDataFunctionLookup* val2 = lookup2(SpookyHash::Rot64(hash, 0x9DDFEA08EB382D69));
-
-            if (val2)
-            {
-                spdlog::info(val2->mpClassMetadata->mpacName);
-            }
-        }
-        else {
-            spdlog::info("foiled {}", line);
-        }
+        key = key.substr(key.find_first_of("c"));
     }
 
+    std::transform(key.begin(), key.end(), key.begin(),
+        [](unsigned char c) { return std::tolower(c); });
+
+    std::string pathOptional = "/unmapped/" + key + ".meta.h";
+
+    for (int i = 0; i < classPaths.size(); i++)
+    {
+        if (classPaths[i].first == key)
+            pathOptional = classPaths[i].second;
+    }
+    
+    Dumper::Dump(pathOptional.c_str(), lpClassMetadata);
+    return fpRegister(lpClassMetadata, lDefaultFunction, lFixingFunction, lValidateFunction, lRenderFunction, lEqualsFunction, lCopyFunction, lCreateFunction, lHashFunction, lDestroyFunction);
+}
+
+DWORD WINAPI MainThread(LPVOID lpReserved)
+{
+    spdlog::info("Starting");
+    ADDHOOK(OFFSET(0x248ABC0), RegisterHook, reinterpret_cast<LPVOID*>(&fpRegister), cTkMetaData::GetLookup);
     return TRUE;
 }
 
@@ -46,6 +51,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
     switch (ul_reason_for_call)
     {
     case DLL_PROCESS_ATTACH:
+        AllocConsole();
         DisableThreadLibraryCalls(hModule);
         spdlog::set_level(spdlog::level::debug);
         MH_Initialize();

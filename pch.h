@@ -16,6 +16,7 @@
 #include "memory.h"
 #include "hooks.h"
 #include "common/utilities/spookyhash/SpookyV2.h"
+#include "paths.h"
 
 #define HASH_SEED 0x72C085E2EE7C6F27 
 
