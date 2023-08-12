@@ -145,17 +145,17 @@ void Dumper::ResolveMembers(std::ofstream* Header, const cTkMetaDataClass* lpMet
 	*Header << "\n";
 
 	//Class pointer funcs, will update to have addresses later.
-	*Header << "    bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);\n";
-	*Header << "    void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);\n";
-	*Header << "    cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);\n";
-	*Header << "    void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);\n";
-	*Header << "    void ClassPointerDestroy(cTkClassPointer* lPtr);\n";
-	*Header << "    void ClassPointerValidateData(cTkClassPointer* lPtr);\n";
-	*Header << "    unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);\n";
-	*Header << "    void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);\n";
-	*Header << "    void ClassPointerRender(cTkClassPointer* lPtr);\n";
-	*Header << "    bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);\n";
-	*Header << "    void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);\n";
+	*Header << "    static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);\n";
+	*Header << "    static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);\n";
+	*Header << "    static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);\n";
+	*Header << "    static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);\n";
+	*Header << "    static void ClassPointerDestroy(cTkClassPointer* lPtr);\n";
+	*Header << "    static void ClassPointerValidateData(cTkClassPointer* lPtr);\n";
+	*Header << "    static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);\n";
+	*Header << "    static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);\n";
+	*Header << "    static void ClassPointerRender(cTkClassPointer* lPtr);\n";
+	*Header << "    static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);\n";
+	*Header << "    static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);\n";
 }
 
 const char* Dumper::EnumToChar(cTkMetaDataMember::eType leType)
