@@ -6,6 +6,7 @@
 #include <filesystem>
 #include "pch.h"
 #include <comdef.h>
+#include <string>
 
 namespace Dumper
 {
