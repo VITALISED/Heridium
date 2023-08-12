@@ -23,7 +23,7 @@ void Dumper::Dump(const char* lpacFilename, const cTkMetaDataClass* lpMetaDataCl
 
 	Header << "    static const unsigned __int64 muNameHash = " << lpMetaDataClass->muNameHash << ";\n";
 	Header << "    static const unsigned __int64 muTemplateHash = " << lpMetaDataClass->muTemplateHash << ";\n";
-	Header << "    static const int miNumMembers = " << lpMetaDataClass->miNumMembers << ";\n";
+	Header << "    static const int miNumMembers = " << lpMetaDataClass->miNumMembers << ";\n\n";
 
 	if (lpMetaDataClass->miNumMembers)
 	{
