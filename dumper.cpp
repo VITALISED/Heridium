@@ -119,6 +119,8 @@ void Dumper::ResolveMembers(std::ofstream* Header, const cTkMetaDataClass* lpMet
 				innerString->append(laMember->mpClassMetadata->mpacName);
 
 			innerString->append(Dumper::EnumToChar(laMember->mInnerType));
+			if (innerString->back() == '>')
+				innerString->append(" ");
 			innerString->append(">");
 		}
 
