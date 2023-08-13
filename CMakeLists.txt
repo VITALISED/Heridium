@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_library(HermidiumDLL SHARED
 	"dllmain.cpp"
 	"framework.h"
-	"hermidium.h"
+	"heridium.h"
 	"common/metadata/TkClassPointer.h"
 	"common/utilities/allocators/TkSTLAllocator.h"
 	"common/utilities/TkArray.h"
