@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcTerrainOverlayColours
 {
-    static const unsigned __int64 muNameHash = 7054627383041577554;
-    static const unsigned __int64 muTemplateHash = 12603649125098818147;
+    static const unsigned __int64 muNameHash = 0x61E7123A54EFD252;
+    static const unsigned __int64 muTemplateHash = 0xAEE9281A2F2D8A63;
     static const int miNumMembers = 6;
 
     float mfCutoff;

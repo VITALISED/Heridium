@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eInstancing
 {
     EInstancing_PerVertex = 0,
@@ -9,8 +9,8 @@ enum eInstancing
 
 class cTkVertexElement
 {
-    static const unsigned __int64 muNameHash = 9693893514602478642;
-    static const unsigned __int64 muTemplateHash = 2164065473333076082;
+    static const unsigned __int64 muNameHash = 0x8687A0CA8457FC32;
+    static const unsigned __int64 muTemplateHash = 0x1E084E1510B4A072;
     static const int miNumMembers = 7;
 
     int miSemanticID;

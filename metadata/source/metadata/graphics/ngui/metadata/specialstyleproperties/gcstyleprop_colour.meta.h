@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcStyleProp_Colour
 {
-    static const unsigned __int64 muNameHash = 3116037077338916346;
-    static const unsigned __int64 muTemplateHash = 7106306819773759172;
+    static const unsigned __int64 muNameHash = 0x2B3E63365DBB85FA;
+    static const unsigned __int64 muTemplateHash = 0x629EAC66D98CFEC4;
     static const int miNumMembers = 1;
 
     cTkColour mColour;

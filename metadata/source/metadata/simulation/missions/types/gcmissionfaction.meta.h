@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eMissionFaction
 {
     EMissionFaction_Gek = 0,
@@ -16,8 +16,8 @@ enum eMissionFaction
 
 class cGcMissionFaction
 {
-    static const unsigned __int64 muNameHash = 2103196602340440999;
-    static const unsigned __int64 muTemplateHash = 6278485659144410446;
+    static const unsigned __int64 muNameHash = 0x1D300E2AA74F7BA7;
+    static const unsigned __int64 muTemplateHash = 0x5721A97130AFD54E;
     static const int miNumMembers = 1;
 
     eMissionFaction meMissionFaction;

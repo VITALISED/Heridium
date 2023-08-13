@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcDebugCamera
 {
-    static const unsigned __int64 muNameHash = 14371631991649274821;
-    static const unsigned __int64 muTemplateHash = 4689854588577601461;
+    static const unsigned __int64 muNameHash = 0xC7724B26F8E50BC5;
+    static const unsigned __int64 muTemplateHash = 0x4115B5E6806757B5;
     static const int miNumMembers = 5;
 
     float mfBaseSpeed;

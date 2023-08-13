@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eUniqueIdType
 {
     EUniqueIdType_Invalid = 0,
@@ -10,8 +10,8 @@ enum eUniqueIdType
 
 class cGcUniqueIdData
 {
-    static const unsigned __int64 muNameHash = 14580636202877284497;
-    static const unsigned __int64 muTemplateHash = 12724247307978358520;
+    static const unsigned __int64 muNameHash = 0xCA58D35FFFB37091;
+    static const unsigned __int64 muTemplateHash = 0xB0959B82BA453EF8;
     static const int miNumMembers = 5;
 
     eUniqueIdType meUniqueIdType;

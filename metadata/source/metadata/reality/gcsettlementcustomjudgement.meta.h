@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSettlementJudgementData;
 
 class cGcSettlementCustomJudgement
 {
-    static const unsigned __int64 muNameHash = 939765108771510023;
-    static const unsigned __int64 muTemplateHash = 12421143324392153832;
+    static const unsigned __int64 muNameHash = 0xD0AB76328A1D707;
+    static const unsigned __int64 muTemplateHash = 0xAC60C40B229BE2E8;
     static const int miNumMembers = 3;
 
     TkID<128> mID;

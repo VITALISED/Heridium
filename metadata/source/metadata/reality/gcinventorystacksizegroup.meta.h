@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eInventoryStackSizeGroup
 {
     EInventoryStackSizeGroup_Default = 0,
@@ -19,8 +19,8 @@ enum eInventoryStackSizeGroup
 
 class cGcInventoryStackSizeGroup
 {
-    static const unsigned __int64 muNameHash = 5231003140487255582;
-    static const unsigned __int64 muTemplateHash = 11273997664222894794;
+    static const unsigned __int64 muNameHash = 0x489841A427B2161E;
+    static const unsigned __int64 muTemplateHash = 0x9C754924B696DACA;
     static const int miNumMembers = 1;
 
     eInventoryStackSizeGroup meInventoryStackSizeGroup;

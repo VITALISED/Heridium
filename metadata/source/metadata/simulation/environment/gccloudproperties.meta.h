@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCloudProperties
 {
-    static const unsigned __int64 muNameHash = 2433502965843422343;
-    static const unsigned __int64 muTemplateHash = 12450077322486044620;
+    static const unsigned __int64 muNameHash = 0x21C58A0DDEF4EC87;
+    static const unsigned __int64 muTemplateHash = 0xACC78F5C88ED57CC;
     static const int miNumMembers = 33;
 
     float mfHorizonCoverageStart;

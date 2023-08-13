@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcJudgementMessageOptions
 {
-    static const unsigned __int64 muNameHash = 9952016019898641083;
-    static const unsigned __int64 muTemplateHash = 10292813930163996993;
+    static const unsigned __int64 muNameHash = 0x8A1CA9D7910E2ABB;
+    static const unsigned __int64 muTemplateHash = 0x8ED76BBC5E9E0941;
     static const int miNumMembers = 3;
 
     cTkFixedString<128,char> macMessageInSettlement;

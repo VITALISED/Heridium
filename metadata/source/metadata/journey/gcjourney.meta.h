@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcJourney
 {
-    static const unsigned __int64 muNameHash = 18077235997022827519;
-    static const unsigned __int64 muTemplateHash = 14376164852561821153;
+    static const unsigned __int64 muNameHash = 0xFADF3E5CAB7333FF;
+    static const unsigned __int64 muTemplateHash = 0xC78265C3E5673DE1;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcJourneyCategory> maCategories;

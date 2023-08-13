@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcFreighterBaseRoom
 {
-    static const unsigned __int64 muNameHash = 12070789716056192401;
-    static const unsigned __int64 muTemplateHash = 5717073131217725039;
+    static const unsigned __int64 muNameHash = 0xA7840F4AFFF7B591;
+    static const unsigned __int64 muTemplateHash = 0x4F571FB8F529A66F;
     static const int miNumMembers = 2;
 
     TkID<128> mName;

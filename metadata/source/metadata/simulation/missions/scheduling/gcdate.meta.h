@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMonth;
 
 class cGcDate
 {
-    static const unsigned __int64 muNameHash = 9254128863275494247;
-    static const unsigned __int64 muTemplateHash = 12512196656683732509;
+    static const unsigned __int64 muNameHash = 0x806D452BB139AB67;
+    static const unsigned __int64 muTemplateHash = 0xADA440911976CE1D;
     static const int miNumMembers = 5;
 
     int miMinute;

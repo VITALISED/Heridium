@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcResourceElement;
 class cGcResourceElement;
 class cGcResourceElement;
@@ -12,8 +12,8 @@ class cGcRarity;
 
 class cGcCreatureSpawnData
 {
-    static const unsigned __int64 muNameHash = 1705787391395361398;
-    static const unsigned __int64 muTemplateHash = 15439459362270774039;
+    static const unsigned __int64 muNameHash = 0x17AC2C984675F276;
+    static const unsigned __int64 muTemplateHash = 0xD643FA7CFC3A8317;
     static const int miNumMembers = 24;
 
     cGcResourceElement mResource;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eActionSetType
 {
     EActionSetType_None = 0,
@@ -23,8 +23,8 @@ enum eActionSetType
 
 class cGcActionSetType
 {
-    static const unsigned __int64 muNameHash = 11095572334301359591;
-    static const unsigned __int64 muTemplateHash = 7717661343360169554;
+    static const unsigned __int64 muNameHash = 0x99FB64404DAF2DE7;
+    static const unsigned __int64 muTemplateHash = 0x6B1AA41A13BF3652;
     static const int miNumMembers = 1;
 
     eActionSetType meActionSetType;

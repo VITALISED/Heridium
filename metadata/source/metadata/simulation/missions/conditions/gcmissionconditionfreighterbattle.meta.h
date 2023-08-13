@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eFreighterBattleStatus
 {
     EFreighterBattleStatus_None = 0,
@@ -12,8 +12,8 @@ class cTkEqualityEnum;
 
 class cGcMissionConditionFreighterBattle
 {
-    static const unsigned __int64 muNameHash = 17916047709999339311;
-    static const unsigned __int64 muTemplateHash = 14663606713658395098;
+    static const unsigned __int64 muNameHash = 0xF8A296780D76172F;
+    static const unsigned __int64 muTemplateHash = 0xCB7F989D6DA449DA;
     static const int miNumMembers = 3;
 
     eFreighterBattleStatus meFreighterBattleStatus;

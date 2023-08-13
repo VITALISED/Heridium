@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcWeightedFilename
 {
-    static const unsigned __int64 muNameHash = 8847406481617260312;
-    static const unsigned __int64 muTemplateHash = 6239217670148387207;
+    static const unsigned __int64 muNameHash = 0x7AC84D51C8490F18;
+    static const unsigned __int64 muTemplateHash = 0x5696276A0988F187;
     static const int miNumMembers = 2;
 
     cTkFixedString<128,char> macFilename;

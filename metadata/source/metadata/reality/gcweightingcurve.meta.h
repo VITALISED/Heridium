@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eWeightingCurve
 {
     EWeightingCurve_NoWeighting = 0,
@@ -14,8 +14,8 @@ enum eWeightingCurve
 
 class cGcWeightingCurve
 {
-    static const unsigned __int64 muNameHash = 12914953409418547341;
-    static const unsigned __int64 muTemplateHash = 9953400141622416784;
+    static const unsigned __int64 muNameHash = 0xB33B21B3131CD08D;
+    static const unsigned __int64 muTemplateHash = 0x8A2194B184BA1590;
     static const int miNumMembers = 1;
 
     eWeightingCurve meWeightingCurve;

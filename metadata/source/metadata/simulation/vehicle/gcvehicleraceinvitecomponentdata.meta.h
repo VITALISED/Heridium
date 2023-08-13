@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcVehicleRaceInviteComponentData
 {
-    static const unsigned __int64 muNameHash = 6160093412669882498;
-    static const unsigned __int64 muTemplateHash = 5691286849120366367;
+    static const unsigned __int64 muNameHash = 0x557D0C523D698082;
+    static const unsigned __int64 muTemplateHash = 0x4EFB833C4CABEF1F;
     static const int miNumMembers = 1;
 
     float mfRadius;

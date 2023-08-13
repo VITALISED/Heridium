@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcSelectableObjectData
 {
-    static const unsigned __int64 muNameHash = 12373959798389328704;
-    static const unsigned __int64 muTemplateHash = 15693244068657433162;
+    static const unsigned __int64 muNameHash = 0xABB922E067F5CB40;
+    static const unsigned __int64 muTemplateHash = 0xD9C99A5585D50A4A;
     static const int miNumMembers = 1;
 
     cTkFixedString<128,char> macFilename;

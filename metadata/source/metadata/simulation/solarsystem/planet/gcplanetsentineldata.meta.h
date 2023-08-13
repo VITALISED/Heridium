@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eSentinelLevel
 {
     ESentinelLevel_Low = 0,
@@ -10,8 +10,8 @@ enum eSentinelLevel
 
 class cGcPlanetSentinelData
 {
-    static const unsigned __int64 muNameHash = 2212891044530047054;
-    static const unsigned __int64 muTemplateHash = 7689225884869371551;
+    static const unsigned __int64 muNameHash = 0x1EB5C4AE3BDB484E;
+    static const unsigned __int64 muTemplateHash = 0x6AB59E33F960A69F;
     static const int miNumMembers = 2;
 
     eSentinelLevel meSentinelLevel;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcLightProperties
 {
-    static const unsigned __int64 muNameHash = 3793194284121447086;
-    static const unsigned __int64 muTemplateHash = 6830461246093831033;
+    static const unsigned __int64 muNameHash = 0x34A4221AAD19DAAE;
+    static const unsigned __int64 muTemplateHash = 0x5ECAAC50617EAB79;
     static const int miNumMembers = 3;
 
     cTkColour mSunColour;

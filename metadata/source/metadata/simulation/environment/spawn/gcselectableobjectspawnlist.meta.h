@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcSelectableObjectSpawnList
 {
-    static const unsigned __int64 muNameHash = 12176590297391670498;
-    static const unsigned __int64 muTemplateHash = 15982238120664461901;
+    static const unsigned __int64 muNameHash = 0xA8FBF05C737FA4E2;
+    static const unsigned __int64 muTemplateHash = 0xDDCC50E4A9E9724D;
     static const int miNumMembers = 2;
 
     TkID<128> mName;

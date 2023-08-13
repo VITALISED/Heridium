@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eInventoryClass
 {
     EInventoryClass_C = 0,
@@ -11,8 +11,8 @@ enum eInventoryClass
 
 class cGcInventoryClass
 {
-    static const unsigned __int64 muNameHash = 6641737247837419355;
-    static const unsigned __int64 muTemplateHash = 14496432636381881782;
+    static const unsigned __int64 muNameHash = 0x5C2C30D664D4775B;
+    static const unsigned __int64 muTemplateHash = 0xC92DACAD69EBE5B6;
     static const int miNumMembers = 1;
 
     eInventoryClass meInventoryClass;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInventoryType;
 
 class cGcTechnologyRequirement
 {
-    static const unsigned __int64 muNameHash = 59785075166607589;
-    static const unsigned __int64 muTemplateHash = 4467025094860327377;
+    static const unsigned __int64 muNameHash = 0xD46635882CF8E5;
+    static const unsigned __int64 muTemplateHash = 0x3DFE0FA80DE7C9D1;
     static const int miNumMembers = 3;
 
     TkID<128> mID;

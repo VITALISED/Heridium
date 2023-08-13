@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcLandingHelperComponentData
 {
-    static const unsigned __int64 muNameHash = 2389421246955557700;
-    static const unsigned __int64 muTemplateHash = 16225441584258098477;
+    static const unsigned __int64 muNameHash = 0x2128EDF6E38E9344;
+    static const unsigned __int64 muTemplateHash = 0xE12C5927A18E252D;
     static const int miNumMembers = 3;
 
     float mfActiveDistanceMin;

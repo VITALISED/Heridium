@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eWeatherColourSet
 {
     EWeatherColourSet_Common = 0,
@@ -9,8 +9,8 @@ enum eWeatherColourSet
 
 class cGcPlanetWeatherColourIndex
 {
-    static const unsigned __int64 muNameHash = 10324503210538277287;
-    static const unsigned __int64 muTemplateHash = 10058027786684600939;
+    static const unsigned __int64 muNameHash = 0x8F4800F7EA8399A7;
+    static const unsigned __int64 muTemplateHash = 0x8B954AFB7658126B;
     static const int miNumMembers = 2;
 
     eWeatherColourSet meWeatherColourSet;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eBaseAutoPowerSetting
 {
     EBaseAutoPowerSetting_UseDefault = 0,
@@ -10,8 +10,8 @@ enum eBaseAutoPowerSetting
 
 class cGcBaseAutoPowerSetting
 {
-    static const unsigned __int64 muNameHash = 9231757656821050406;
-    static const unsigned __int64 muTemplateHash = 14988023528619544062;
+    static const unsigned __int64 muNameHash = 0x801DCAAD4B4FAC26;
+    static const unsigned __int64 muTemplateHash = 0xD00027FD44908DFE;
     static const int miNumMembers = 1;
 
     eBaseAutoPowerSetting meBaseAutoPowerSetting;

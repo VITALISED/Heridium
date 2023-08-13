@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 enum eHotActionMenuTypes
 {
     EHotActionMenuTypes_OnFoot = 0,
@@ -10,8 +10,8 @@ enum eHotActionMenuTypes
 
 class cGcHotActionMenuTypes
 {
-    static const unsigned __int64 muNameHash = 17348080163580108598;
-    static const unsigned __int64 muTemplateHash = 7141692099758773821;
+    static const unsigned __int64 muNameHash = 0xF0C0C2FEA5315F36;
+    static const unsigned __int64 muTemplateHash = 0x631C63205D55D63D;
     static const int miNumMembers = 1;
 
     eHotActionMenuTypes meHotActionMenuTypes;

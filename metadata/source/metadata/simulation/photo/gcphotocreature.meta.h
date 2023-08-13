@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum ePhotoCreatureType
 {
     EPhotoCreatureType_Ground = 0,
@@ -10,8 +10,8 @@ enum ePhotoCreatureType
 
 class cGcPhotoCreature
 {
-    static const unsigned __int64 muNameHash = 11568528065574334657;
-    static const unsigned __int64 muTemplateHash = 16127737618874079535;
+    static const unsigned __int64 muNameHash = 0xA08BAAFBA2B1F0C1;
+    static const unsigned __int64 muTemplateHash = 0xDFD13BEA7BB1992F;
     static const int miNumMembers = 1;
 
     ePhotoCreatureType mePhotoCreatureType;

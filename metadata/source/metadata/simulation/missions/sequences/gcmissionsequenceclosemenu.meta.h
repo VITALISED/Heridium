@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eMenuToClose
 {
     EMenuToClose_QuickMenu = 0,
@@ -11,8 +11,8 @@ enum eMenuToClose
 
 class cGcMissionSequenceCloseMenu
 {
-    static const unsigned __int64 muNameHash = 16585498084000859990;
-    static const unsigned __int64 muTemplateHash = 13955708971393323635;
+    static const unsigned __int64 muNameHash = 0xE62B86A237CB0756;
+    static const unsigned __int64 muTemplateHash = 0xC1ACA35E74A19273;
     static const int miNumMembers = 3;
 
     float mfDelay;

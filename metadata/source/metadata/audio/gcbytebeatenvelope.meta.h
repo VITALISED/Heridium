@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eByteBeatEnvelope
 {
     EByteBeatEnvelope_Short = 0,
@@ -10,8 +10,8 @@ enum eByteBeatEnvelope
 
 class cGcByteBeatEnvelope
 {
-    static const unsigned __int64 muNameHash = 4435159774107901712;
-    static const unsigned __int64 muTemplateHash = 15568540974463596657;
+    static const unsigned __int64 muNameHash = 0x3D8CDA50E9CD9F10;
+    static const unsigned __int64 muTemplateHash = 0xD80E9187D6043871;
     static const int miNumMembers = 1;
 
     eByteBeatEnvelope meByteBeatEnvelope;

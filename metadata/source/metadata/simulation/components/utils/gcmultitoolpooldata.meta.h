@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMultitoolPoolData
 {
-    static const unsigned __int64 muNameHash = 13512020961352026283;
-    static const unsigned __int64 muTemplateHash = 2124037506143225224;
+    static const unsigned __int64 muNameHash = 0xBB8457797F0508AB;
+    static const unsigned __int64 muTemplateHash = 0x1D7A18DBB3460588;
     static const int miNumMembers = 5;
 
     cTkFixedString<128,char> macFile;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInteractionBufferType;
 
 class cGcPersistencyMissionOverride
 {
-    static const unsigned __int64 muNameHash = 15390217770218314159;
-    static const unsigned __int64 muTemplateHash = 14970743630217461582;
+    static const unsigned __int64 muNameHash = 0xD595098569C459AF;
+    static const unsigned __int64 muTemplateHash = 0xCFC2C403668DBF4E;
     static const int miNumMembers = 2;
 
     TkID<128> mMission;

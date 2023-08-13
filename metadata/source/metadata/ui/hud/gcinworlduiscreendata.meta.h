@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcInWorldUIScreenData
 {
-    static const unsigned __int64 muNameHash = 18422741371464633200;
-    static const unsigned __int64 muTemplateHash = 6433613869942473588;
+    static const unsigned __int64 muNameHash = 0xFFAAB9AB630ACB70;
+    static const unsigned __int64 muTemplateHash = 0x5948C9BA5BF28374;
     static const int miNumMembers = 3;
 
     float mfScreenScale;

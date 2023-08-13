@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 class cTkFloatRange
 {
-    static const unsigned __int64 muNameHash = 11297550654343695972;
-    static const unsigned __int64 muTemplateHash = 1773198271298457559;
+    static const unsigned __int64 muNameHash = 0x9CC8F67690234E64;
+    static const unsigned __int64 muTemplateHash = 0x189BAA6ED514CFD7;
     static const int miNumMembers = 2;
 
     float mfMinimum;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkLODComponentData
 {
-    static const unsigned __int64 muNameHash = 9165675433290793881;
-    static const unsigned __int64 muTemplateHash = 1237636921972308885;
+    static const unsigned __int64 muNameHash = 0x7F33053EA7D28399;
+    static const unsigned __int64 muTemplateHash = 0x112CF83927113B95;
     static const int miNumMembers = 3;
 
     cTkDynamicArray<cTkLODModelResource> maLODModels;

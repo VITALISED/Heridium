@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcHeightAdjustComponentData
 {
-    static const unsigned __int64 muNameHash = 5823537105679023088;
-    static const unsigned __int64 muTemplateHash = 435638129571474990;
+    static const unsigned __int64 muNameHash = 0x50D15C24A84DFBF0;
+    static const unsigned __int64 muTemplateHash = 0x60BB2921BB92E2E;
     static const int miNumMembers = 1;
 
     float mfHeightOffset;

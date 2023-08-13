@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionInVR
 {
-    static const unsigned __int64 muNameHash = 14204959783181369512;
-    static const unsigned __int64 muTemplateHash = 8510496012638988264;
+    static const unsigned __int64 muNameHash = 0xC52227A9653C40A8;
+    static const unsigned __int64 muTemplateHash = 0x761B5B086FB9A7E8;
     static const int miNumMembers = 5;
 
     bool mbNeedsHandControllers;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eCaveTypes
 {
     ECaveTypes_Underground = 0,
@@ -8,8 +8,8 @@ enum eCaveTypes
 
 class cTkCavesEnum
 {
-    static const unsigned __int64 muNameHash = 4038257697653915241;
-    static const unsigned __int64 muTemplateHash = 14424278876932553986;
+    static const unsigned __int64 muNameHash = 0x380AC5FAFC25FE69;
+    static const unsigned __int64 muTemplateHash = 0xC82D553728BC3D02;
     static const int miNumMembers = 1;
 
     eCaveTypes meCaveTypes;

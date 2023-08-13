@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCreatureDiscoveryThumbnailOverride
 {
-    static const unsigned __int64 muNameHash = 17878727919920430809;
-    static const unsigned __int64 muTemplateHash = 15426088978534715003;
+    static const unsigned __int64 muNameHash = 0xF81E00514EB73ED9;
+    static const unsigned __int64 muTemplateHash = 0xD6147A31EF214E7B;
     static const int miNumMembers = 3;
 
     TkID<256> mContainsDescriptor;

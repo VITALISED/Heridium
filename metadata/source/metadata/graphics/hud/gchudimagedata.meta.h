@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcHUDComponent;
 
 class cGcHUDImageData
 {
-    static const unsigned __int64 muNameHash = 15027485646968033969;
-    static const unsigned __int64 muTemplateHash = 2662167584860659199;
+    static const unsigned __int64 muNameHash = 0xD08C5A93AECF92B1;
+    static const unsigned __int64 muTemplateHash = 0x24F1EB504C2DDDFF;
     static const int miNumMembers = 3;
 
     cGcHUDComponent mData;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPlanetLife;
 class cGcPlanetLife;
 class cGcPlanetHazardData;
@@ -26,8 +26,8 @@ class cGcPlanetRingData;
 
 class cGcPlanetData
 {
-    static const unsigned __int64 muNameHash = 2733115490221403914;
-    static const unsigned __int64 muTemplateHash = 3296954860919094417;
+    static const unsigned __int64 muNameHash = 0x25EDFA0EC4C3AF0A;
+    static const unsigned __int64 muTemplateHash = 0x2DC122FA5D947C91;
     static const int miNumMembers = 31;
 
     cTkFixedString<128,char> macName;

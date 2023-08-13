@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eMissionObject
 {
     EMissionObject_PlayerShip = 0,
@@ -11,8 +11,8 @@ enum eMissionObject
 
 class cGcMissionConditionNearObject
 {
-    static const unsigned __int64 muNameHash = 8396404273484776487;
-    static const unsigned __int64 muTemplateHash = 11000051490659967840;
+    static const unsigned __int64 muNameHash = 0x748605335FA1C427;
+    static const unsigned __int64 muTemplateHash = 0x98A8088CCBCB2360;
     static const int miNumMembers = 2;
 
     eMissionObject meMissionObject;

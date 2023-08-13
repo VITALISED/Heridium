@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDiscoveryWorth
 {
-    static const unsigned __int64 muNameHash = 14544374890019810641;
-    static const unsigned __int64 muTemplateHash = 11008238904827153620;
+    static const unsigned __int64 muNameHash = 0xC9D7FFE72FBDED51;
+    static const unsigned __int64 muTemplateHash = 0x98C51EF5B4DB8CD4;
     static const int miNumMembers = 3;
 
     cTkFixedArray<int> maRecord;

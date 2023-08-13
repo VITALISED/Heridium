@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcObjectiveTextFormatOptions
 {
-    static const unsigned __int64 muNameHash = 3114107170949911440;
-    static const unsigned __int64 muTemplateHash = 5322249263128650829;
+    static const unsigned __int64 muNameHash = 0x2B3787F904F75390;
+    static const unsigned __int64 muTemplateHash = 0x49DC6D819EDE244D;
     static const int miNumMembers = 3;
 
     bool mbObjectivesCanBeFormattedBySequences;

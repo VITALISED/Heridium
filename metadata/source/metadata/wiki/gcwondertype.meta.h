@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eWonderType
 {
     EWonderType_Treasure = 0,
@@ -14,8 +14,8 @@ enum eWonderType
 
 class cGcWonderType
 {
-    static const unsigned __int64 muNameHash = 13443528534674955809;
-    static const unsigned __int64 muTemplateHash = 10365938549987228382;
+    static const unsigned __int64 muNameHash = 0xBA9101F9B520DE21;
+    static const unsigned __int64 muTemplateHash = 0x8FDB3630AB843ADE;
     static const int miNumMembers = 1;
 
     eWonderType meWonderType;

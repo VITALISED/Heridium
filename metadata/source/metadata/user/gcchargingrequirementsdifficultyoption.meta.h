@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eChargingRequirementsDifficulty
 {
     EChargingRequirementsDifficulty_None = 0,
@@ -11,8 +11,8 @@ enum eChargingRequirementsDifficulty
 
 class cGcChargingRequirementsDifficultyOption
 {
-    static const unsigned __int64 muNameHash = 6874577318783430634;
-    static const unsigned __int64 muTemplateHash = 17964409312411223638;
+    static const unsigned __int64 muNameHash = 0x5F6767A5FB0B2FEA;
+    static const unsigned __int64 muTemplateHash = 0xF94E671711FD8656;
     static const int miNumMembers = 1;
 
     eChargingRequirementsDifficulty meChargingRequirementsDifficulty;

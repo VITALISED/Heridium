@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionHasEntitlement
 {
-    static const unsigned __int64 muNameHash = 5745473589143420704;
-    static const unsigned __int64 muTemplateHash = 15962873746382156503;
+    static const unsigned __int64 muNameHash = 0x4FBC05C9DB483F20;
+    static const unsigned __int64 muTemplateHash = 0xDD878518EF8472D7;
     static const int miNumMembers = 1;
 
     TkID<128> mEntitlement;

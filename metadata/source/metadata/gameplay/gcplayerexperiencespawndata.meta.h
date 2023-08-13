@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eFaceDir
 {
     EFaceDir_Random = 0,
@@ -10,8 +10,8 @@ enum eFaceDir
 
 class cGcPlayerExperienceSpawnData
 {
-    static const unsigned __int64 muNameHash = 535455774353742736;
-    static const unsigned __int64 muTemplateHash = 13062599088476914746;
+    static const unsigned __int64 muNameHash = 0x76E523097495B90;
+    static const unsigned __int64 muTemplateHash = 0xB547ACA99002043A;
     static const int miNumMembers = 10;
 
     TkID<128> mArchetype;

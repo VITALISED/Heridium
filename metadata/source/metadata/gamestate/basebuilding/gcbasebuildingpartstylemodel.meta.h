@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBaseBuildingPartStyle;
 class cTkModelResource;
 class cTkModelResource;
 
 class cGcBaseBuildingPartStyleModel
 {
-    static const unsigned __int64 muNameHash = 10588607688126440011;
-    static const unsigned __int64 muTemplateHash = 13319143883245070675;
+    static const unsigned __int64 muNameHash = 0x92F24A976CBF224B;
+    static const unsigned __int64 muTemplateHash = 0xB8D71ACB4123A953;
     static const int miNumMembers = 3;
 
     cGcBaseBuildingPartStyle mStyle;

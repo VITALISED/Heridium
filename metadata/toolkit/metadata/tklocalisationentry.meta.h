@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 class cTkLocalisationEntry
 {
-    static const unsigned __int64 muNameHash = 13617243569647608600;
-    static const unsigned __int64 muTemplateHash = 15139541675840732186;
+    static const unsigned __int64 muNameHash = 0xBCFA2AE11CD16318;
+    static const unsigned __int64 muTemplateHash = 0xD21A74F102B57C1A;
     static const int miNumMembers = 18;
 
     TkID<256> mId;

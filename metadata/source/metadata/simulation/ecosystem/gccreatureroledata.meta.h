@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCreatureTypes;
 class cGcCreatureRoleDescription;
 class cGcCreatureInfo;
@@ -10,8 +10,8 @@ class cGcCreatureHemiSphere;
 
 class cGcCreatureRoleData
 {
-    static const unsigned __int64 muNameHash = 3688519138596047041;
-    static const unsigned __int64 muTemplateHash = 9317683886924961518;
+    static const unsigned __int64 muNameHash = 0x3330409D2B3F48C1;
+    static const unsigned __int64 muTemplateHash = 0x814F1020C18B16EE;
     static const int miNumMembers = 10;
 
     cTkSeed mSeed;

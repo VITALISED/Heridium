@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcBaseDefenceComponentData
 {
-    static const unsigned __int64 muNameHash = 3280461293031932268;
-    static const unsigned __int64 muTemplateHash = 3170901076868547185;
+    static const unsigned __int64 muNameHash = 0x2D868A2A5696416C;
+    static const unsigned __int64 muTemplateHash = 0x2C014DBAB0A74271;
     static const int miNumMembers = 5;
 
     cTkDynamicArray<cGcBaseDefenceTrigger> maTriggers;

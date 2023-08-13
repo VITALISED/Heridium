@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum ePortalType
 {
     EPortalType_Any = 0,
@@ -10,8 +10,8 @@ enum ePortalType
 
 class cGcMissionConditionUsingPortal
 {
-    static const unsigned __int64 muNameHash = 665824669216581233;
-    static const unsigned __int64 muTemplateHash = 14229383532788769073;
+    static const unsigned __int64 muNameHash = 0x93D7C024B58A671;
+    static const unsigned __int64 muTemplateHash = 0xC578ECEEBCAAE131;
     static const int miNumMembers = 1;
 
     ePortalType mePortalType;

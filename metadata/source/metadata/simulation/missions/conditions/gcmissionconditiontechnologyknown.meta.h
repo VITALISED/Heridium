@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionTechnologyKnown
 {
-    static const unsigned __int64 muNameHash = 2182583191870660036;
-    static const unsigned __int64 muTemplateHash = 18194072054807089849;
+    static const unsigned __int64 muNameHash = 0x1E4A17D964305DC4;
+    static const unsigned __int64 muTemplateHash = 0xFC7E542334A352B9;
     static const int miNumMembers = 3;
 
     TkID<128> mTechnology;

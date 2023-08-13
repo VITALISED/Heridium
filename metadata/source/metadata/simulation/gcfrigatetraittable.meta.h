@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcFrigateTraitTable
 {
-    static const unsigned __int64 muNameHash = 12009212756053736728;
-    static const unsigned __int64 muTemplateHash = 12970520457619224607;
+    static const unsigned __int64 muNameHash = 0xA6A94B5FC4AC3D18;
+    static const unsigned __int64 muTemplateHash = 0xB4008BA2AC54B81F;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcFrigateTraitData> maTraits;

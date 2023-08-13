@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcWonderType;
 
 class cGcWonderRecordCustomData
 {
-    static const unsigned __int64 muNameHash = 2466856568731047764;
-    static const unsigned __int64 muTemplateHash = 5139499206526678441;
+    static const unsigned __int64 muNameHash = 0x223C08FAB30D9754;
+    static const unsigned __int64 muTemplateHash = 0x47532B4C506CB5A9;
     static const int miNumMembers = 2;
 
     cTkFixedString<64,char> macCustomName;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAlienPodComponentData
 {
-    static const unsigned __int64 muNameHash = 8194169143764560612;
-    static const unsigned __int64 muTemplateHash = 4808907291486342043;
+    static const unsigned __int64 muNameHash = 0x71B7896BF38DAAE4;
+    static const unsigned __int64 muTemplateHash = 0x42BCABB3F2D44B9B;
     static const int miNumMembers = 17;
 
     float mfAgroRate;

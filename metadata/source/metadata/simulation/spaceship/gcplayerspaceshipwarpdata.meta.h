@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkCurveType;
 class cTkCurveType;
 
 class cGcPlayerSpaceshipWarpData
 {
-    static const unsigned __int64 muNameHash = 7615045965313061434;
-    static const unsigned __int64 muTemplateHash = 223743817874079488;
+    static const unsigned __int64 muNameHash = 0x69AE13F58EC1B23A;
+    static const unsigned __int64 muTemplateHash = 0x31AE5D12112FF00;
     static const int miNumMembers = 5;
 
     float mfEntryTime;

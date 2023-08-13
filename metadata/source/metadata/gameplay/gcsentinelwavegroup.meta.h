@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSentinelWaveGroup
 {
-    static const unsigned __int64 muNameHash = 16746184602787311099;
-    static const unsigned __int64 muTemplateHash = 12483755158056060586;
+    static const unsigned __int64 muNameHash = 0xE866662BD040EDFB;
+    static const unsigned __int64 muTemplateHash = 0xAD3F352CAAE1C6AA;
     static const int miNumMembers = 2;
 
     cTkDynamicArray<TkID<128> > maWaves;

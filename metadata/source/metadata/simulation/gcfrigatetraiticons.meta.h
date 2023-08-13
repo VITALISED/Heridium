@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcFrigateTraitIcons
 {
-    static const unsigned __int64 muNameHash = 16475565623772464765;
-    static const unsigned __int64 muTemplateHash = 13659395650299872837;
+    static const unsigned __int64 muNameHash = 0xE4A4F7A4BE98467D;
+    static const unsigned __int64 muTemplateHash = 0xBD8FEBF92EA3C645;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cTkFixedString<128,char> > maIcons;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eInventoryToCheck
 {
     EInventoryToCheck_All = 0,
@@ -13,8 +13,8 @@ enum eInventoryToCheck
 
 class cGcCostInstalledTech
 {
-    static const unsigned __int64 muNameHash = 17783105217510724927;
-    static const unsigned __int64 muTemplateHash = 11663439299847597869;
+    static const unsigned __int64 muNameHash = 0xF6CA47F9F51F553F;
+    static const unsigned __int64 muTemplateHash = 0xA1DCDC3F66BF2F2D;
     static const int miNumMembers = 2;
 
     TkID<128> mId;

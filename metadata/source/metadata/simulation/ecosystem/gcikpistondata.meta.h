@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcIkPistonData
 {
-    static const unsigned __int64 muNameHash = 2053563116107661892;
-    static const unsigned __int64 muTemplateHash = 17823819105184585297;
+    static const unsigned __int64 muNameHash = 0x1C7FB8C61B710244;
+    static const unsigned __int64 muTemplateHash = 0xF75AED0AA1591651;
     static const int miNumMembers = 2;
 
     cTkFixedString<256,char> macJoint1Name;

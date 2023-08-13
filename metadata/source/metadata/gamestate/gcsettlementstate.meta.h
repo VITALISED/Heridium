@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDiscoveryOwner;
 class cGcSettlementJudgementType;
 class cGcBuildingClassification;
 
 class cGcSettlementState
 {
-    static const unsigned __int64 muNameHash = 10590957920379587502;
-    static const unsigned __int64 muTemplateHash = 14607316972763747029;
+    static const unsigned __int64 muNameHash = 0x92FAA41D8355CBAE;
+    static const unsigned __int64 muTemplateHash = 0xCAB79D64D31E12D5;
     static const int miNumMembers = 24;
 
     cTkFixedString<64,char> macUniqueId;

@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcPetBehaviours;
 class cTkCurveType;
 
 class cGcDebugScene
 {
-    static const unsigned __int64 muNameHash = 13092411210373004800;
-    static const unsigned __int64 muTemplateHash = 7464089139947813454;
+    static const unsigned __int64 muNameHash = 0xB5B196A1179FFE00;
+    static const unsigned __int64 muTemplateHash = 0x6795C586BE70BA4E;
     static const int miNumMembers = 67;
 
     bool mbActive;

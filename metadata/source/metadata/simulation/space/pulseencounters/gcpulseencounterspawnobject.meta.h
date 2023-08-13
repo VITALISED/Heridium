@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkModelResource;
 
 class cGcPulseEncounterSpawnObject
 {
-    static const unsigned __int64 muNameHash = 9423718525494778401;
-    static const unsigned __int64 muTemplateHash = 6904278487556759293;
+    static const unsigned __int64 muNameHash = 0x82C7C611E7625A21;
+    static const unsigned __int64 muTemplateHash = 0x5FD0ECB439311EFD;
     static const int miNumMembers = 5;
 
     cTkModelResource mObject;

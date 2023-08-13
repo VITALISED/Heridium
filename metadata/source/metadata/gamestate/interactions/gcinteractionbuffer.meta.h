@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcInteractionBuffer
 {
-    static const unsigned __int64 muNameHash = 8310754701306424138;
-    static const unsigned __int64 muTemplateHash = 463099115133214241;
+    static const unsigned __int64 muNameHash = 0x7355BB5E5AC6EB4A;
+    static const unsigned __int64 muTemplateHash = 0x66D42310D501E21;
     static const int miNumMembers = 2;
 
     cTkDynamicArray<cGcInteractionData> maInteractions;

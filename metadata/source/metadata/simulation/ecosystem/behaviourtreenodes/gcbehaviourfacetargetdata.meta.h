@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcBehaviourFaceTargetData
 {
-    static const unsigned __int64 muNameHash = 15603032661144292851;
-    static const unsigned __int64 muTemplateHash = 13899516667760802550;
+    static const unsigned __int64 muNameHash = 0xD8891B897252CDF3;
+    static const unsigned __int64 muTemplateHash = 0xC0E500C43B80FAF6;
     static const int miNumMembers = 2;
 
     TkID<128> mTargetKey;

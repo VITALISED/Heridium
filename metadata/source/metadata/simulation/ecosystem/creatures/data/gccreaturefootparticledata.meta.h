@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcCreatureFootParticleData
 {
-    static const unsigned __int64 muNameHash = 1072035148879883315;
-    static const unsigned __int64 muTemplateHash = 14553362292971104724;
+    static const unsigned __int64 muNameHash = 0xEE0A249BBB7EC33;
+    static const unsigned __int64 muTemplateHash = 0xC9F7EDE6001B69D4;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcCreatureFootParticleSingleData> maParticleData;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcTextPreset;
 class cGcTextPreset;
 class cGcTextPreset;
@@ -9,8 +9,8 @@ class cTkCurveType;
 
 class cGcHUDManagerData
 {
-    static const unsigned __int64 muNameHash = 8460419094248475400;
-    static const unsigned __int64 muTemplateHash = 2331737279934369913;
+    static const unsigned __int64 muNameHash = 0x756972574B9CCB08;
+    static const unsigned __int64 muTemplateHash = 0x205BFEB3B8061079;
     static const int miNumMembers = 33;
 
     cGcTextPreset mTitleFont;

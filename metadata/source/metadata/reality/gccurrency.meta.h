@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eCurrency
 {
     ECurrency_Units = 0,
@@ -10,8 +10,8 @@ enum eCurrency
 
 class cGcCurrency
 {
-    static const unsigned __int64 muNameHash = 1706401930356055826;
-    static const unsigned __int64 muTemplateHash = 9238723764401411338;
+    static const unsigned __int64 muNameHash = 0x17AE5B83C6E9DF12;
+    static const unsigned __int64 muTemplateHash = 0x80368A509B1B150A;
     static const int miNumMembers = 1;
 
     eCurrency meCurrency;

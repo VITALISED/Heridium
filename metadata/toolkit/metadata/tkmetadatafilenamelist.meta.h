@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 class cTkMetadataFilenameList
 {
-    static const unsigned __int64 muNameHash = 4558459502697421487;
-    static const unsigned __int64 muTemplateHash = 14916757285371912107;
+    static const unsigned __int64 muNameHash = 0x3F42E6C415489AAF;
+    static const unsigned __int64 muTemplateHash = 0xCF02F7B7FB501FAB;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cTkFixedString<128,char> > maFilenames;

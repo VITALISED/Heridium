@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcStoryPageSeenData
 {
-    static const unsigned __int64 muNameHash = 928170023964683275;
-    static const unsigned __int64 muTemplateHash = 8947058772166693333;
+    static const unsigned __int64 muNameHash = 0xCE185B81994AC0B;
+    static const unsigned __int64 muTemplateHash = 0x7C2A568CBB89D1D5;
     static const int miNumMembers = 2;
 
     int miPageIdx;

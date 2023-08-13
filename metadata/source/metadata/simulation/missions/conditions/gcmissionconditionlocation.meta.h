@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eMissionPlayerLocation
 {
     EMissionPlayerLocation_OnPlanet = 0,
@@ -34,8 +34,8 @@ enum eMissionPlayerLocation
 
 class cGcMissionConditionLocation
 {
-    static const unsigned __int64 muNameHash = 7251803335337072466;
-    static const unsigned __int64 muTemplateHash = 17437714143128531914;
+    static const unsigned __int64 muNameHash = 0x64A394B637C25752;
+    static const unsigned __int64 muTemplateHash = 0xF1FF349FCBFB33CA;
     static const int miNumMembers = 1;
 
     eMissionPlayerLocation meMissionPlayerLocation;

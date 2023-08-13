@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionFaction;
 
 class cGcMissionConditionHasProcMissionForFaction
 {
-    static const unsigned __int64 muNameHash = 10203849622210754777;
-    static const unsigned __int64 muTemplateHash = 16253341235019377129;
+    static const unsigned __int64 muNameHash = 0x8D9B5B2B496038D9;
+    static const unsigned __int64 muTemplateHash = 0xE18F77BD4689E9E9;
     static const int miNumMembers = 1;
 
     cGcMissionFaction mFaction;

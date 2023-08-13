@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcSmokeBotStats
 {
-    static const unsigned __int64 muNameHash = 13764031000292161456;
-    static const unsigned __int64 muTemplateHash = 4957345621685384217;
+    static const unsigned __int64 muNameHash = 0xBF03A94511E0F7B0;
+    static const unsigned __int64 muTemplateHash = 0x44CC0793E9653419;
     static const int miNumMembers = 16;
 
     float mfAvgCpuFPS;

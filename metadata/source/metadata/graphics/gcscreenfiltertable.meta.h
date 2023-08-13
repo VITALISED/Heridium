@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcScreenFilterTable
 {
-    static const unsigned __int64 muNameHash = 15970540701811919371;
-    static const unsigned __int64 muTemplateHash = 13350976734468850313;
+    static const unsigned __int64 muNameHash = 0xDDA2C2271A6ACA0B;
+    static const unsigned __int64 muTemplateHash = 0xB948329A7E854289;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cGcScreenFilterData> maFilters;

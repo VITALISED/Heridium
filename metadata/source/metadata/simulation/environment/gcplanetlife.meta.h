@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eLifeSetting
 {
     ELifeSetting_Dead = 0,
@@ -11,8 +11,8 @@ enum eLifeSetting
 
 class cGcPlanetLife
 {
-    static const unsigned __int64 muNameHash = 2172924089095365670;
-    static const unsigned __int64 muTemplateHash = 13839965877996932134;
+    static const unsigned __int64 muNameHash = 0x1E27C6F2466B2426;
+    static const unsigned __int64 muTemplateHash = 0xC0116FA38588CC26;
     static const int miNumMembers = 1;
 
     eLifeSetting meLifeSetting;

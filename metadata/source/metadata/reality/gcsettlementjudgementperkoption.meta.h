@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSettlementJudgementPerkOption
 {
-    static const unsigned __int64 muNameHash = 12194403537853765456;
-    static const unsigned __int64 muTemplateHash = 3961633214467863545;
+    static const unsigned __int64 muNameHash = 0xA93B3968B18A5750;
+    static const unsigned __int64 muTemplateHash = 0x36FA8C6B3EBEF3F9;
     static const int miNumMembers = 2;
 
     TkID<128> mPerk;

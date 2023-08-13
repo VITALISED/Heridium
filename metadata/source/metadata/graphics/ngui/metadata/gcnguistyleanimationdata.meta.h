@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcNGuiStyleAnimationData
 {
-    static const unsigned __int64 muNameHash = 8990356366338607973;
-    static const unsigned __int64 muTemplateHash = 7639560510321983083;
+    static const unsigned __int64 muNameHash = 0x7CC4297B73C8CB65;
+    static const unsigned __int64 muTemplateHash = 0x6A052BCED9D7FE6B;
     static const int miNumMembers = 4;
 
     float mfLength;

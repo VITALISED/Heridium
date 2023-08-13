@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcTileTypeSet
 {
-    static const unsigned __int64 muNameHash = 3516614070302101802;
-    static const unsigned __int64 muTemplateHash = 15779163752094471607;
+    static const unsigned __int64 muNameHash = 0x30CD85DD787F512A;
+    static const unsigned __int64 muTemplateHash = 0xDAFAD9D4B84F95B7;
     static const int miNumMembers = 2;
 
     float mfProbability;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcInputActionMapping2
 {
-    static const unsigned __int64 muNameHash = 11608581319805419038;
-    static const unsigned __int64 muTemplateHash = 14316791249731270513;
+    static const unsigned __int64 muNameHash = 0xA119F734993CBE1E;
+    static const unsigned __int64 muTemplateHash = 0xC6AF75C9BBA73771;
     static const int miNumMembers = 4;
 
     cTkFixedString<32,char> macActionSet;

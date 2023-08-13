@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cAxisSpecification;
 class cAxisSpecification;
 class cAxisSpecification;
 
 class cGcClothAttachmentCirlce
 {
-    static const unsigned __int64 muNameHash = 16563257739859277154;
-    static const unsigned __int64 muTemplateHash = 2495999554386565810;
+    static const unsigned __int64 muNameHash = 0xE5DC8328938D3562;
+    static const unsigned __int64 muTemplateHash = 0x22A3925ECEBE9AB2;
     static const int miNumMembers = 19;
 
     bool mbEnabled;

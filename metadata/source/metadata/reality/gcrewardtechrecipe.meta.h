@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcTechnologyCategory;
 
 class cGcRewardTechRecipe
 {
-    static const unsigned __int64 muNameHash = 12498334751886823890;
-    static const unsigned __int64 muTemplateHash = 4665475648938725466;
+    static const unsigned __int64 muNameHash = 0xAD73013CE22251D2;
+    static const unsigned __int64 muTemplateHash = 0x40BF19624B3A505A;
     static const int miNumMembers = 2;
 
     cGcTechnologyCategory mCategory;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eMilestone
 {
     EMilestone_Bronze = 0,
@@ -10,8 +10,8 @@ enum eMilestone
 
 class cGcMissionSequenceWaitForStatMilestone
 {
-    static const unsigned __int64 muNameHash = 14805335939700225318;
-    static const unsigned __int64 muTemplateHash = 13894843143990480957;
+    static const unsigned __int64 muNameHash = 0xCD771E985A27F526;
+    static const unsigned __int64 muTemplateHash = 0xC0D46638AF53103D;
     static const int miNumMembers = 5;
 
     cTkFixedString<128,char> macMessage;

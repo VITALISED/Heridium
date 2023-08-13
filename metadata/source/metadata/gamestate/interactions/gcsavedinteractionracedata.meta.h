@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcSavedInteractionRaceData
 {
-    static const unsigned __int64 muNameHash = 11176013244269635730;
-    static const unsigned __int64 muTemplateHash = 4683773422947386111;
+    static const unsigned __int64 muNameHash = 0x9B192CD525C0A892;
+    static const unsigned __int64 muTemplateHash = 0x41001B1CCB31C2FF;
     static const int miNumMembers = 2;
 
     cTkFixedArray<int> maSavedRaceIndicies;

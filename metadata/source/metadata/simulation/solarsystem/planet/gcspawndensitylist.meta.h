@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcSpawnDensityList
 {
-    static const unsigned __int64 muNameHash = 17098232675347394085;
-    static const unsigned __int64 muTemplateHash = 4758198067144246010;
+    static const unsigned __int64 muNameHash = 0xED492007250EEE25;
+    static const unsigned __int64 muTemplateHash = 0x420883EE9B1542FA;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcSpawnDensity> maDensityList;

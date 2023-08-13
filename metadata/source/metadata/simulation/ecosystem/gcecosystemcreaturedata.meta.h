@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcTerrainTileType;
 
 class cGcEcosystemCreatureData
 {
-    static const unsigned __int64 muNameHash = 4465928526959418075;
-    static const unsigned __int64 muTemplateHash = 5779283897691103471;
+    static const unsigned __int64 muNameHash = 0x3DFA2A5571B31ADB;
+    static const unsigned __int64 muTemplateHash = 0x50342415C20360EF;
     static const int miNumMembers = 5;
 
     TkID<128> mCreature;

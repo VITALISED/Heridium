@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum egcwordcategorytableEnum
 {
     EgcwordcategorytableEnum_MISC = 0,
@@ -14,8 +14,8 @@ enum egcwordcategorytableEnum
 
 class cgcwordcategorytableEnum
 {
-    static const unsigned __int64 muNameHash = 5711063355148023793;
-    static const unsigned __int64 muTemplateHash = 6112923861635261488;
+    static const unsigned __int64 muNameHash = 0x4F41C5DCED5937F1;
+    static const unsigned __int64 muTemplateHash = 0x54D577DD4FC76430;
     static const int miNumMembers = 1;
 
     egcwordcategorytableEnum megcwordcategorytableEnum;

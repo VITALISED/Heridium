@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcTerrainEditing
 {
-    static const unsigned __int64 muNameHash = 5081979004926409196;
-    static const unsigned __int64 muTemplateHash = 614630370658976686;
+    static const unsigned __int64 muNameHash = 0x4686D0FAC0A1B9EC;
+    static const unsigned __int64 muTemplateHash = 0x8879B10CF4B83AE;
     static const int miNumMembers = 30;
 
     float mfEditPlaneMaxAdditiveOffsetFactor;

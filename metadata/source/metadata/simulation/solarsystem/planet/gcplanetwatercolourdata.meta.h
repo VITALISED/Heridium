@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPlanetWaterColourData
 {
-    static const unsigned __int64 muNameHash = 5857080056837324876;
-    static const unsigned __int64 muTemplateHash = 18308866825666602279;
+    static const unsigned __int64 muNameHash = 0x5148874790D0404C;
+    static const unsigned __int64 muTemplateHash = 0xFE16295F97CAA527;
     static const int miNumMembers = 5;
 
     cTkColour mWaterFogColourNear;

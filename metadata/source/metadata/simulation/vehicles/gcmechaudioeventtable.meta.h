@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcMechAudioEvent;
 class cGcMechAudioEvent;
 class cGcMechAudioEvent;
@@ -16,8 +16,8 @@ class cGcMechAudioEvent;
 
 class cGcMechAudioEventTable
 {
-    static const unsigned __int64 muNameHash = 16917666978507839051;
-    static const unsigned __int64 muTemplateHash = 15802509358861154732;
+    static const unsigned __int64 muNameHash = 0xEAC7A07BBA50D64B;
+    static const unsigned __int64 muTemplateHash = 0xDB4DCA895EB479AC;
     static const int miNumMembers = 12;
 
     cGcMechAudioEvent mMechEnter;

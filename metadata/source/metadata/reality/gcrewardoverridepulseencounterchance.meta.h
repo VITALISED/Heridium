@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardOverridePulseEncounterChance
 {
-    static const unsigned __int64 muNameHash = 13787297100635034998;
-    static const unsigned __int64 muTemplateHash = 8029061943744386431;
+    static const unsigned __int64 muNameHash = 0xBF5651AA301FD576;
+    static const unsigned __int64 muTemplateHash = 0x6F6CF54C4C7DD57F;
     static const int miNumMembers = 1;
 
     float mfChance;

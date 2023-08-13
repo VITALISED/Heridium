@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkResourceDescriptorList
 {
-    static const unsigned __int64 muNameHash = 7951385986973450048;
-    static const unsigned __int64 muTemplateHash = 8932470509121617105;
+    static const unsigned __int64 muNameHash = 0x6E58FF6D49923F40;
+    static const unsigned __int64 muTemplateHash = 0x7BF6829A0ED8BCD1;
     static const int miNumMembers = 2;
 
     TkID<128> mTypeId;

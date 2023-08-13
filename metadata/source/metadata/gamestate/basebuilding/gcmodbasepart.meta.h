@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcProductData;
 class cGcBaseBuildingEntry;
 
 class cGcModBasePart
 {
-    static const unsigned __int64 muNameHash = 7642692430674879373;
-    static const unsigned __int64 muTemplateHash = 7497994365862772359;
+    static const unsigned __int64 muNameHash = 0x6A104C45E1F1638D;
+    static const unsigned __int64 muTemplateHash = 0x680E3A2651217E87;
     static const int miNumMembers = 3;
 
     cTkFixedString<64,char> macID;

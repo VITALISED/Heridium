@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcBiomeSubType;
 
 class cGcBiomeFileListOption
 {
-    static const unsigned __int64 muNameHash = 11630102566985593456;
-    static const unsigned __int64 muTemplateHash = 8132508474503137953;
+    static const unsigned __int64 muNameHash = 0xA1666CAA6E88F270;
+    static const unsigned __int64 muTemplateHash = 0x70DC795EA39D0AA1;
     static const int miNumMembers = 3;
 
     cGcBiomeSubType mSubType;

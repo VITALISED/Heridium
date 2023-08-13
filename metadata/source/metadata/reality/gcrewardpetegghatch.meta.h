@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardPetEggHatch
 {
-    static const unsigned __int64 muNameHash = 13490168557577010722;
-    static const unsigned __int64 muTemplateHash = 6812959395017591557;
+    static const unsigned __int64 muNameHash = 0xBB36B4D442857E22;
+    static const unsigned __int64 muTemplateHash = 0x5E8C7E79212F0B05;
     static const int miNumMembers = 1;
 
     int miEggIndex;

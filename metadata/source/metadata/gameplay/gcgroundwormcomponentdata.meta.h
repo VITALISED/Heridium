@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcGroundWormComponentData
 {
-    static const unsigned __int64 muNameHash = 10648182489090976828;
-    static const unsigned __int64 muTemplateHash = 6723582366744716021;
+    static const unsigned __int64 muNameHash = 0x93C5F18EADCD6C3C;
+    static const unsigned __int64 muTemplateHash = 0x5D4EF68A1BE622F5;
     static const int miNumMembers = 41;
 
     cTkFixedString<256,char> macLookJoint;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBuildingSpawnSlot
 {
-    static const unsigned __int64 muNameHash = 11249731243097793389;
-    static const unsigned __int64 muTemplateHash = 554195723915131853;
+    static const unsigned __int64 muNameHash = 0x9C1F12F64375236D;
+    static const unsigned __int64 muTemplateHash = 0x7B0E6131C007BCD;
     static const int miNumMembers = 3;
 
     bool mbHasBuilding;

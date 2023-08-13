@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkAxisImageLookup
 {
-    static const unsigned __int64 muNameHash = 7643898076796557750;
-    static const unsigned __int64 muTemplateHash = 16871200494575344550;
+    static const unsigned __int64 muNameHash = 0x6A1494CD3EC019B6;
+    static const unsigned __int64 muTemplateHash = 0xEA228B765D8EDBA6;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cTkAxisPathMapping> maLookup;

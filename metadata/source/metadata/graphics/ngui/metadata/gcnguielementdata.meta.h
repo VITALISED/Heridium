@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkNGuiForcedStyle;
 class cGcNGuiLayoutData;
 
 class cGcNGuiElementData
 {
-    static const unsigned __int64 muNameHash = 17367436140276148212;
-    static const unsigned __int64 muTemplateHash = 15164990708287284897;
+    static const unsigned __int64 muNameHash = 0xF10587272870E7F4;
+    static const unsigned __int64 muTemplateHash = 0xD274DEB39D9026A1;
     static const int miNumMembers = 5;
 
     TkID<128> mID;

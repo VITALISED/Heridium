@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRealityCraftingRecipeData
 {
-    static const unsigned __int64 muNameHash = 6695881576754260990;
-    static const unsigned __int64 muTemplateHash = 10427004517510004943;
+    static const unsigned __int64 muNameHash = 0x5CEC8CD158852BFE;
+    static const unsigned __int64 muTemplateHash = 0x90B4295D3193C0CF;
     static const int miNumMembers = 2;
 
     cTkFixedArray<cGcRealitySubstanceCraftingMix> maInputs;

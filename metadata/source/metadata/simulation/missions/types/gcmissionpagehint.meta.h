@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eMissionPageHint
 {
     EMissionPageHint_None = 0,
@@ -19,8 +19,8 @@ enum eMissionPageHint
 
 class cGcMissionPageHint
 {
-    static const unsigned __int64 muNameHash = 13566373066938517587;
-    static const unsigned __int64 muTemplateHash = 13889044223517766023;
+    static const unsigned __int64 muNameHash = 0xBC45706D394C0853;
+    static const unsigned __int64 muTemplateHash = 0xC0BFCC224C77B187;
     static const int miNumMembers = 1;
 
     eMissionPageHint meMissionPageHint;

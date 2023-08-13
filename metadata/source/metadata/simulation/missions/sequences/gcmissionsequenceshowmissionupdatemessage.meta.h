@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eMissionUpdateMessage
 {
     EMissionUpdateMessage_Start = 0,
@@ -16,8 +16,8 @@ enum ePlayMusicSting
 
 class cGcMissionSequenceShowMissionUpdateMessage
 {
-    static const unsigned __int64 muNameHash = 2608142492916559542;
-    static const unsigned __int64 muTemplateHash = 15503996978849134997;
+    static const unsigned __int64 muNameHash = 0x2431FBC75DE4AEB6;
+    static const unsigned __int64 muTemplateHash = 0xD729431BCB083995;
     static const int miNumMembers = 8;
 
     eMissionUpdateMessage meMissionUpdateMessage;

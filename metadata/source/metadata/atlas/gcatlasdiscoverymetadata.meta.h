@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAtlasDiscoveryMetadata
 {
-    static const unsigned __int64 muNameHash = 12009052074456099312;
-    static const unsigned __int64 muTemplateHash = 333192404883098000;
+    static const unsigned __int64 muNameHash = 0xA6A8B93C2B1FA9F0;
+    static const unsigned __int64 muTemplateHash = 0x49FBCBA16EA4990;
     static const int miNumMembers = 1;
 
     cTkFixedString<128,char> macCustomName;

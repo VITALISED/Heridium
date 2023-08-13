@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 enum eVocalEmote
 {
     EVocalEmote_EmoteIdle = 0,
@@ -17,8 +17,8 @@ enum eVocalEmote
 
 class cGcCreatureVocalSoundData
 {
-    static const unsigned __int64 muNameHash = 9216358710224836127;
-    static const unsigned __int64 muTemplateHash = 16547968997857653685;
+    static const unsigned __int64 muNameHash = 0x7FE7156AA587561F;
+    static const unsigned __int64 muTemplateHash = 0xE5A63220EF7B73B5;
     static const int miNumMembers = 7;
 
     TkID<128> mId;

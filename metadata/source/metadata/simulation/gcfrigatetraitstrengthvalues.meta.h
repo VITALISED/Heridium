@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcFrigateTraitStrengthValues
 {
-    static const unsigned __int64 muNameHash = 17092722753365724138;
-    static const unsigned __int64 muTemplateHash = 8190102316459109236;
+    static const unsigned __int64 muNameHash = 0xED358CC87699CBEA;
+    static const unsigned __int64 muTemplateHash = 0x71A916A9EEA62B74;
     static const int miNumMembers = 3;
 
     cTkFixedArray<int> maStatAlteration;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkIdSceneFilename
 {
-    static const unsigned __int64 muNameHash = 1310523035276297462;
-    static const unsigned __int64 muTemplateHash = 17087704588082794338;
+    static const unsigned __int64 muNameHash = 0x122FE9C1D39C44F6;
+    static const unsigned __int64 muTemplateHash = 0xED23B8C9CF7CCF62;
     static const int miNumMembers = 2;
 
     TkID<128> mId;

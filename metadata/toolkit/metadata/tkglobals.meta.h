@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 enum eAssertsLevel
 {
     EAssertsLevel_Disabled = 0,
@@ -23,8 +23,8 @@ enum exEnabledChannels
 
 class cTkGlobals
 {
-    static const unsigned __int64 muNameHash = 13127540288117831734;
-    static const unsigned __int64 muTemplateHash = 10510287726802324712;
+    static const unsigned __int64 muNameHash = 0xB62E6456DFE47836;
+    static const unsigned __int64 muTemplateHash = 0x91DC0B006B334CE8;
     static const int miNumMembers = 18;
 
     eAssertsLevel meAssertsLevel;

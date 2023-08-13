@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcColourModifier
 {
-    static const unsigned __int64 muNameHash = 2722554977552228861;
-    static const unsigned __int64 muTemplateHash = 11323031114455587398;
+    static const unsigned __int64 muNameHash = 0x25C87553CE78E1FD;
+    static const unsigned __int64 muTemplateHash = 0x9D237CCE7DD21A46;
     static const int miNumMembers = 6;
 
     bool mbForceColour;

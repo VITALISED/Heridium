@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcMechMeshPartTypeData
 {
-    static const unsigned __int64 muNameHash = 3021625836217995094;
-    static const unsigned __int64 muTemplateHash = 9537363587719020886;
+    static const unsigned __int64 muNameHash = 0x29EEF8B053EA8F56;
+    static const unsigned __int64 muTemplateHash = 0x845B85A6E3BCC156;
     static const int miNumMembers = 2;
 
     cTkFixedString<32,char> macLocatorNodeName;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcMessageRequestTakeOff
 {
-    static const unsigned __int64 muNameHash = 12730400127827994589;
-    static const unsigned __int64 muTemplateHash = 18358124080206349374;
+    static const unsigned __int64 muNameHash = 0xB0AB7777BBC667DD;
+    static const unsigned __int64 muTemplateHash = 0xFEC52895DF3E843E;
     static const int miNumMembers = 2;
 
     float mfDelay;

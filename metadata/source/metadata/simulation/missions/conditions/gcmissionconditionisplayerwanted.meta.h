@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkEqualityEnum;
 
 class cGcMissionConditionIsPlayerWanted
 {
-    static const unsigned __int64 muNameHash = 5120282835484724153;
-    static const unsigned __int64 muTemplateHash = 10514003912622108709;
+    static const unsigned __int64 muNameHash = 0x470EE61C4698CBB9;
+    static const unsigned __int64 muTemplateHash = 0x91E93EDA5AE87025;
     static const int miNumMembers = 2;
 
     int miLevel;

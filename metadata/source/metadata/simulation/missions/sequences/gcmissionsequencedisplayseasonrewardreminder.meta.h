@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionSequenceDisplaySeasonRewardReminder
 {
-    static const unsigned __int64 muNameHash = 7666525434938038110;
-    static const unsigned __int64 muTemplateHash = 17381227295359916786;
+    static const unsigned __int64 muNameHash = 0x6A64F8439AFA975E;
+    static const unsigned __int64 muTemplateHash = 0xF1368622AC405AF2;
     static const int miNumMembers = 2;
 
     float mfTime;

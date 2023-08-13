@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eCheckpointType
 {
     ECheckpointType_Checkpoint = 0,
@@ -15,8 +15,8 @@ enum eRaceType
 
 class cGcVehicleCheckpointComponentData
 {
-    static const unsigned __int64 muNameHash = 17939911582999232148;
-    static const unsigned __int64 muTemplateHash = 11065004272694824931;
+    static const unsigned __int64 muNameHash = 0xF8F75E88F695BE94;
+    static const unsigned __int64 muTemplateHash = 0x998ECAC2D8278FE3;
     static const int miNumMembers = 3;
 
     eCheckpointType meCheckpointType;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionPercentageChance
 {
-    static const unsigned __int64 muNameHash = 739164863530651528;
-    static const unsigned __int64 muTemplateHash = 468544032606686142;
+    static const unsigned __int64 muNameHash = 0xA420A86F131CF88;
+    static const unsigned __int64 muTemplateHash = 0x6809A50B1268BBE;
     static const int miNumMembers = 4;
 
     int miPercent;

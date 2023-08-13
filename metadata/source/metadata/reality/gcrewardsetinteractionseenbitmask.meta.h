@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInteractionType;
 
 class cGcRewardSetInteractionSeenBitmask
 {
-    static const unsigned __int64 muNameHash = 8186709850374823437;
-    static const unsigned __int64 muTemplateHash = 13350904503519167283;
+    static const unsigned __int64 muNameHash = 0x719D093BDEC85E0D;
+    static const unsigned __int64 muTemplateHash = 0xB947F0E8EA6C4333;
     static const int miNumMembers = 3;
 
     cGcInteractionType mInteractionType;

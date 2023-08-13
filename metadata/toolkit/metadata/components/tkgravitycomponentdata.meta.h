@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkGravityComponentData
 {
-    static const unsigned __int64 muNameHash = 4517746084117037676;
-    static const unsigned __int64 muTemplateHash = 18445354123738913202;
+    static const unsigned __int64 muNameHash = 0x3EB24220A135426C;
+    static const unsigned __int64 muTemplateHash = 0xFFFB0FD90DBE99B2;
     static const int miNumMembers = 2;
 
     float mfStrength;

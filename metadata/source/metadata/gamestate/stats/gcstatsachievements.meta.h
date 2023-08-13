@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eStatsAchievements
 {
     EStatsAchievements_FirstWarp = 0,
@@ -9,8 +9,8 @@ enum eStatsAchievements
 
 class cGcStatsAchievements
 {
-    static const unsigned __int64 muNameHash = 12528684735407459813;
-    static const unsigned __int64 muTemplateHash = 8956904352956879301;
+    static const unsigned __int64 muNameHash = 0xADDED46314D20DE5;
+    static const unsigned __int64 muTemplateHash = 0x7C4D510DA52511C5;
     static const int miNumMembers = 1;
 
     eStatsAchievements meStatsAchievements;

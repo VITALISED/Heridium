@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcScanEffectData;
 class cGcTechnologyCategory;
 
 class cGcNPCPropInfo
 {
-    static const unsigned __int64 muNameHash = 10683035624600065062;
-    static const unsigned __int64 muTemplateHash = 4091378197710254004;
+    static const unsigned __int64 muNameHash = 0x9441C44CA7215426;
+    static const unsigned __int64 muTemplateHash = 0x38C77ECB344C2FB4;
     static const int miNumMembers = 6;
 
     cTkFixedString<128,char> macModel;

@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcSpaceshipClasses;
 class cGcInventoryClass;
 
 class cGcMissionConditionHasShip
 {
-    static const unsigned __int64 muNameHash = 10741610422836074707;
-    static const unsigned __int64 muTemplateHash = 4861549871541653460;
+    static const unsigned __int64 muNameHash = 0x9511DDC4A0C718D3;
+    static const unsigned __int64 muTemplateHash = 0x4377B1D9BF160FD4;
     static const int miNumMembers = 6;
 
     cGcSpaceshipClasses mShipType;

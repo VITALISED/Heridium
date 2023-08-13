@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eFrigateTraitStrength
 {
     EFrigateTraitStrength_NegativeLarge = 0,
@@ -17,8 +17,8 @@ enum eFrigateTraitStrength
 
 class cGcFrigateTraitStrength
 {
-    static const unsigned __int64 muNameHash = 7740353881401431321;
-    static const unsigned __int64 muTemplateHash = 12731860078735843076;
+    static const unsigned __int64 muNameHash = 0x6B6B42D850BF9519;
+    static const unsigned __int64 muTemplateHash = 0xB0B0A7490B06DF04;
     static const int miNumMembers = 1;
 
     eFrigateTraitStrength meFrigateTraitStrength;

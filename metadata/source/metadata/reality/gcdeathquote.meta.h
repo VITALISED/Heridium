@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDeathQuote
 {
-    static const unsigned __int64 muNameHash = 13614737586002095315;
-    static const unsigned __int64 muTemplateHash = 17023597867239897593;
+    static const unsigned __int64 muNameHash = 0xBCF143B353D06CD3;
+    static const unsigned __int64 muTemplateHash = 0xEC3FF810BBEE79F9;
     static const int miNumMembers = 3;
 
     cTkFixedString<128,char> macQuoteLine1;

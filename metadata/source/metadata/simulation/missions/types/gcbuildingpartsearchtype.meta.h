@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eBuildPartSearchType
 {
     EBuildPartSearchType_Base = 0,
@@ -11,8 +11,8 @@ enum eBuildPartSearchType
 
 class cGcBuildingPartSearchType
 {
-    static const unsigned __int64 muNameHash = 786969357880187314;
-    static const unsigned __int64 muTemplateHash = 17111351842809295434;
+    static const unsigned __int64 muNameHash = 0xAEBE0762190D9B2;
+    static const unsigned __int64 muTemplateHash = 0xED77BBD7595FB24A;
     static const int miNumMembers = 4;
 
     eBuildPartSearchType meBuildPartSearchType;

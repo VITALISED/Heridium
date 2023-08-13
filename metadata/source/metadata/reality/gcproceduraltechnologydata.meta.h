@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eQuality
 {
     EQuality_Normal = 0,
@@ -15,8 +15,8 @@ class cGcWeightingCurve;
 
 class cGcProceduralTechnologyData
 {
-    static const unsigned __int64 muNameHash = 7747443680779979052;
-    static const unsigned __int64 muTemplateHash = 8582520544262346920;
+    static const unsigned __int64 muNameHash = 0x6B8472FADE3C492C;
+    static const unsigned __int64 muTemplateHash = 0x771B3CF67E3FD8A8;
     static const int miNumMembers = 15;
 
     TkID<128> mID;

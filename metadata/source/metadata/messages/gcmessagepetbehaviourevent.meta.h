@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcPetBehaviours;
 class cGcAlienMood;
 
 class cGcMessagePetBehaviourEvent
 {
-    static const unsigned __int64 muNameHash = 10693134496681664473;
-    static const unsigned __int64 muTemplateHash = 3277195431725468903;
+    static const unsigned __int64 muNameHash = 0x9465A52B8A2F9FD9;
+    static const unsigned __int64 muTemplateHash = 0x2D7AEFE1BF878CE7;
     static const int miNumMembers = 7;
 
     TkID<128> mBehaviourEvent;

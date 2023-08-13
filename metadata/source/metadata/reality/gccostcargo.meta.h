@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcCostCargo
 {
-    static const unsigned __int64 muNameHash = 9546025478009350675;
-    static const unsigned __int64 muTemplateHash = 6283812859584554453;
+    static const unsigned __int64 muNameHash = 0x847A4B9861936A13;
+    static const unsigned __int64 muTemplateHash = 0x57349680B291A5D5;
     static const int miNumMembers = 1;
 
     int miSlots;

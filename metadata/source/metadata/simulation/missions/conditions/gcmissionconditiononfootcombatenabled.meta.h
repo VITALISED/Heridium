@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionOnFootCombatEnabled
 {
-    static const unsigned __int64 muNameHash = 3126308362001629864;
-    static const unsigned __int64 muTemplateHash = 6230558305534625164;
+    static const unsigned __int64 muNameHash = 0x2B62E0E42F70C2A8;
+    static const unsigned __int64 muTemplateHash = 0x567763C499C0458C;
     static const int miNumMembers = 1;
 
     bool mbEnabled;

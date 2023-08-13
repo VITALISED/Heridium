@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkEmitterData
 {
-    static const unsigned __int64 muNameHash = 17542472648764370678;
-    static const unsigned __int64 muTemplateHash = 6258400497948912639;
+    static const unsigned __int64 muNameHash = 0xF37361EE179B2EF6;
+    static const unsigned __int64 muTemplateHash = 0x56DA4E182E5F6BFF;
     static const int miNumMembers = 1;
 
     cTkFixedString<128,char> macParticle;

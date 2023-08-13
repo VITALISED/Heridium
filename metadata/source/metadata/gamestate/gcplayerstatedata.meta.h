@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcUniverseAddressData;
 class cGcUniverseAddressData;
 class cGcDifficultyStateData;
@@ -71,8 +71,8 @@ class cGcSeasonStateData;
 
 class cGcPlayerStateData
 {
-    static const unsigned __int64 muNameHash = 7801660325442288228;
-    static const unsigned __int64 muTemplateHash = 10371482178962223325;
+    static const unsigned __int64 muNameHash = 0x6C4510BB243EFA64;
+    static const unsigned __int64 muTemplateHash = 0x8FEEE8175F5670DD;
     static const int miNumMembers = 227;
 
     cGcUniverseAddressData mUniverseAddress;

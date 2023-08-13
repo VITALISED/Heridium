@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcNPCInteractiveObjectType;
 
 class cGcNPCSettlementBehaviourObjectTypeWeightEntry
 {
-    static const unsigned __int64 muNameHash = 15986704831574407403;
-    static const unsigned __int64 muTemplateHash = 4705296443182770215;
+    static const unsigned __int64 muNameHash = 0xDDDC2F57D70378EB;
+    static const unsigned __int64 muTemplateHash = 0x414C922F72D16827;
     static const int miNumMembers = 2;
 
     cGcNPCInteractiveObjectType mObjectType;

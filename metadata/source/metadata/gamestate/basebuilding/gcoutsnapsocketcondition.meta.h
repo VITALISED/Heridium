@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBaseSnapState;
 
 class cGcOutSnapSocketCondition
 {
-    static const unsigned __int64 muNameHash = 14458433902898959518;
-    static const unsigned __int64 muTemplateHash = 5256198481538139863;
+    static const unsigned __int64 muNameHash = 0xC8A6AD07D6C1D49E;
+    static const unsigned __int64 muTemplateHash = 0x48F1C4ABA10746D7;
     static const int miNumMembers = 6;
 
     cTkFixedString<128,char> macSnapPoint;

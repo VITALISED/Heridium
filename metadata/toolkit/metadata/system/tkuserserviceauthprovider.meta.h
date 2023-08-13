@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eAuthProvider
 {
     EAuthProvider_Null = 0,
@@ -14,8 +14,8 @@ enum eAuthProvider
 
 class cTkUserServiceAuthProvider
 {
-    static const unsigned __int64 muNameHash = 10515676881100156855;
-    static const unsigned __int64 muTemplateHash = 13761703568455875303;
+    static const unsigned __int64 muNameHash = 0x91EF3068AEC32FB7;
+    static const unsigned __int64 muTemplateHash = 0xBEFB647B9E09BAE7;
     static const int miNumMembers = 1;
 
     eAuthProvider meAuthProvider;

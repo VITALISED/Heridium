@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcMissionType;
 class cGcMissionDifficulty;
 
@@ -15,8 +15,8 @@ enum eDefaultItemTypeForInitialWarp
 
 class cGcMissionBoardOptions
 {
-    static const unsigned __int64 muNameHash = 15935756476159413749;
-    static const unsigned __int64 muTemplateHash = 18187989093430609255;
+    static const unsigned __int64 muNameHash = 0xDD272E15749CCDF5;
+    static const unsigned __int64 muTemplateHash = 0xFC68B7B7649C4567;
     static const int miNumMembers = 15;
 
     cGcMissionType mType;

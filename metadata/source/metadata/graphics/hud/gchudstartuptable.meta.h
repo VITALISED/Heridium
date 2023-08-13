@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcHUDStartupTable
 {
-    static const unsigned __int64 muNameHash = 12728176817752363277;
-    static const unsigned __int64 muTemplateHash = 17953596283732378950;
+    static const unsigned __int64 muNameHash = 0xB0A39161047DD10D;
+    static const unsigned __int64 muTemplateHash = 0xF927FCB2A4A44546;
     static const int miNumMembers = 7;
 
     float mfFadeInFlashTime;

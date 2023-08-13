@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBackgroundSpaceEncounterSpawnConditions;
 class cGcPulseEncounterSpawnObject;
 
 class cGcBackgroundSpaceEncounterInfo
 {
-    static const unsigned __int64 muNameHash = 10953604558879662324;
-    static const unsigned __int64 muTemplateHash = 5549908102052931488;
+    static const unsigned __int64 muNameHash = 0x9803054FC61F20F4;
+    static const unsigned __int64 muTemplateHash = 0x4D053C039EED67A0;
     static const int miNumMembers = 8;
 
     TkID<128> mId;

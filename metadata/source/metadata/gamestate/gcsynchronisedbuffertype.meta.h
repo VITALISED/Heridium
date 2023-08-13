@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eSyncBufferType
 {
     ESyncBufferType_Refiner = 0,
@@ -11,8 +11,8 @@ enum eSyncBufferType
 
 class cGcSynchronisedBufferType
 {
-    static const unsigned __int64 muNameHash = 610640059055688683;
-    static const unsigned __int64 muTemplateHash = 2002371179664688878;
+    static const unsigned __int64 muNameHash = 0x8796DE5FDA34BEB;
+    static const unsigned __int64 muTemplateHash = 0x1BC9D9FA9864C6EE;
     static const int miNumMembers = 1;
 
     eSyncBufferType meSyncBufferType;

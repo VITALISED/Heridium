@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcExactResource
 {
-    static const unsigned __int64 muNameHash = 13584147729168431309;
-    static const unsigned __int64 muTemplateHash = 18058313555392694772;
+    static const unsigned __int64 muNameHash = 0xBC849663458378CD;
+    static const unsigned __int64 muTemplateHash = 0xFA9C048067CD89F4;
     static const int miNumMembers = 2;
 
     cTkFixedString<128,char> macFilename;

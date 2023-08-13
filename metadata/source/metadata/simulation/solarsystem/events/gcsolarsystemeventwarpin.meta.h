@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcSolarSystemLocatorChoice;
 class cGcRealityCommonFactions;
 class cGcAISpaceshipRoles;
 
 class cGcSolarSystemEventWarpIn
 {
-    static const unsigned __int64 muNameHash = 8193859043426087857;
-    static const unsigned __int64 muTemplateHash = 7255577944017967211;
+    static const unsigned __int64 muNameHash = 0x71B66F631708B3B1;
+    static const unsigned __int64 muTemplateHash = 0x64B0FDB2C959986B;
     static const int miNumMembers = 14;
 
     cGcSolarSystemLocatorChoice mLocator;

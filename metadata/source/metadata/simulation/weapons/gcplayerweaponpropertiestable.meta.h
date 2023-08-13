@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCamouflageData;
 
 class cGcPlayerWeaponPropertiesTable
 {
-    static const unsigned __int64 muNameHash = 15638617084188209452;
-    static const unsigned __int64 muTemplateHash = 12356332324036762892;
+    static const unsigned __int64 muNameHash = 0xD90787619164B12C;
+    static const unsigned __int64 muTemplateHash = 0xAB7A82C834E35D0C;
     static const int miNumMembers = 2;
 
     cGcCamouflageData mCamouflageData;

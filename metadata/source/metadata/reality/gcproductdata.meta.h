@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkModelResource;
 class cTkTextureResource;
 class cTkTextureResource;
@@ -24,8 +24,8 @@ enum eWikiCategory
 
 class cGcProductData
 {
-    static const unsigned __int64 muNameHash = 16731374689875493494;
-    static const unsigned __int64 muTemplateHash = 14464729374819710591;
+    static const unsigned __int64 muNameHash = 0xE831C8A241FD8276;
+    static const unsigned __int64 muTemplateHash = 0xC8BD0ABA9E49767F;
     static const int miNumMembers = 44;
 
     TkID<128> mID;

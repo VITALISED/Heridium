@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkControllerList
 {
-    static const unsigned __int64 muNameHash = 239867328519224472;
-    static const unsigned __int64 muTemplateHash = 14235859229851637613;
+    static const unsigned __int64 muNameHash = 0x3542E107D9C3C98;
+    static const unsigned __int64 muTemplateHash = 0xC58FEE8B73C5D76D;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cTkControllerButtonLookup> maControllers;

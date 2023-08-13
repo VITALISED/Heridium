@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkOpenVRControllerLookup
 {
-    static const unsigned __int64 muNameHash = 6556491336174378458;
-    static const unsigned __int64 muTemplateHash = 9682114646636901957;
+    static const unsigned __int64 muNameHash = 0x5AFD5621E9999DDA;
+    static const unsigned __int64 muTemplateHash = 0x865DC7F91B663645;
     static const int miNumMembers = 3;
 
     cTkFixedString<32,char> macDeviceKeywords;

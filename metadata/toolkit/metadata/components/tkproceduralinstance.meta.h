@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkProceduralInstance
 {
-    static const unsigned __int64 muNameHash = 21825703259179839;
-    static const unsigned __int64 muTemplateHash = 10604930396959583259;
+    static const unsigned __int64 muNameHash = 0x4D8A5C89BC8B3F;
+    static const unsigned __int64 muTemplateHash = 0x932C48023A84AC1B;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cTkProceduralInstanceData> maData;

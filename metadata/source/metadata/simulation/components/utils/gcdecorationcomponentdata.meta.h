@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcDecorationComponentData
 {
-    static const unsigned __int64 muNameHash = 10080138632532969397;
-    static const unsigned __int64 muTemplateHash = 5289572082527024952;
+    static const unsigned __int64 muNameHash = 0x8BE3D8ADEED1C7B5;
+    static const unsigned __int64 muTemplateHash = 0x496855C8A0D8B738;
     static const int miNumMembers = 2;
 
     float mfStartOffset;

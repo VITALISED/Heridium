@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eEmitterShape
 {
     EEmitterShape_Sphere = 0,
@@ -10,8 +10,8 @@ enum eEmitterShape
 
 class cTkHeavyAirData
 {
-    static const unsigned __int64 muNameHash = 14638373863955827452;
-    static const unsigned __int64 muTemplateHash = 6833240485750603220;
+    static const unsigned __int64 muNameHash = 0xCB25F378CA730AFC;
+    static const unsigned __int64 muTemplateHash = 0x5ED48C0489FB7DD4;
     static const int miNumMembers = 22;
 
     cTkFixedString<128,char> macMaterial;

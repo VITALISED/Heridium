@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcBasePlacementComponentData
 {
-    static const unsigned __int64 muNameHash = 13424196792249174849;
-    static const unsigned __int64 muTemplateHash = 15459204112116814879;
+    static const unsigned __int64 muNameHash = 0xBA4C53DBACF34B41;
+    static const unsigned __int64 muTemplateHash = 0xD68A203BCCFB141F;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcBasePlacementRule> maRules;

@@ -12,7 +12,7 @@ void Dumper::Dump(const char* lpacFilename, const cTkMetaDataClass* lpMetaDataCl
 
 	std::ofstream Header(fullPath);
 
-	Header << "#pragma once\n\n";
+	Header << "#pragma once\n";
 
 	int depth = 0;
 
@@ -32,7 +32,7 @@ void Dumper::Dump(const char* lpacFilename, const cTkMetaDataClass* lpMetaDataCl
 		}
 	}
 
-	std::string pchInclude = fmt::format("#include \"{}\"\n", pchDepth);
+	std::string pchInclude = fmt::format("#include \"{}\"\n\n", pchDepth);
 	Header << pchInclude.c_str();
 
 	if (lpMetaDataClass->miNumMembers)
@@ -42,8 +42,11 @@ void Dumper::Dump(const char* lpacFilename, const cTkMetaDataClass* lpMetaDataCl
 
 	Header << "class " << lpMetaDataClass->mpacName; Header << "\n{\n";
 
-	Header << "    static const unsigned __int64 muNameHash = " << lpMetaDataClass->muNameHash << ";\n";
-	Header << "    static const unsigned __int64 muTemplateHash = " << lpMetaDataClass->muTemplateHash << ";\n";
+	std::string hashString = fmt::format("    static const unsigned __int64 muNameHash = 0x{:X};\n", lpMetaDataClass->muNameHash);
+	std::string templateHashString = fmt::format("    static const unsigned __int64 muTemplateHash = 0x{:X};\n", lpMetaDataClass->muTemplateHash);
+
+	Header << hashString.c_str();
+	Header << templateHashString.c_str();
 	Header << "    static const int miNumMembers = " << lpMetaDataClass->miNumMembers << ";\n\n";
 
 	if (lpMetaDataClass->miNumMembers)

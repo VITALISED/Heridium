@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcAudioWwiseEvents;
 
 class cGcHUDStartup
 {
-    static const unsigned __int64 muNameHash = 5414581764018548360;
-    static const unsigned __int64 muTemplateHash = 8863358328590223639;
+    static const unsigned __int64 muNameHash = 0x4B24756D3BA22E88;
+    static const unsigned __int64 muTemplateHash = 0x7B00F970949EC917;
     static const int miNumMembers = 3;
 
     cGcAudioWwiseEvents mAudio;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eSizeIndicator
 {
     ESizeIndicator_Small = 0,
@@ -10,8 +10,8 @@ enum eSizeIndicator
 
 class cGcSizeIndicator
 {
-    static const unsigned __int64 muNameHash = 2481864485843347808;
-    static const unsigned __int64 muTemplateHash = 15771168616703857799;
+    static const unsigned __int64 muNameHash = 0x22715A99B359A960;
+    static const unsigned __int64 muTemplateHash = 0xDADE724C336C1487;
     static const int miNumMembers = 1;
 
     eSizeIndicator meSizeIndicator;

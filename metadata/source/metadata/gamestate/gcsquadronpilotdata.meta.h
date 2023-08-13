@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcResourceElement;
 class cGcResourceElement;
 
 class cGcSquadronPilotData
 {
-    static const unsigned __int64 muNameHash = 1952220790940240160;
-    static const unsigned __int64 muTemplateHash = 4856769350435940471;
+    static const unsigned __int64 muNameHash = 0x1B17AE774F200920;
+    static const unsigned __int64 muTemplateHash = 0x4366B5FDF0BD2877;
     static const int miNumMembers = 4;
 
     cGcResourceElement mNPCResource;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkBlackboardDefaultValueFloat;
 
 class cGcCooldownDecoratorData
 {
-    static const unsigned __int64 muNameHash = 13053352499306422027;
-    static const unsigned __int64 muTemplateHash = 7008592761613412179;
+    static const unsigned __int64 muNameHash = 0xB526D2F0411DDF0B;
+    static const unsigned __int64 muTemplateHash = 0x614385FBCB576753;
     static const int miNumMembers = 3;
 
     TkID<128> mKey;

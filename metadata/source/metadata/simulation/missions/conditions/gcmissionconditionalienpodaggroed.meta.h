@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionAlienPodAggroed
 {
-    static const unsigned __int64 muNameHash = 11890652367043818;
-    static const unsigned __int64 muTemplateHash = 14705149317041412559;
+    static const unsigned __int64 muNameHash = 0x2A3E7C3E7C3CEA;
+    static const unsigned __int64 muTemplateHash = 0xCC132F648354D9CF;
     static const int miNumMembers = 1;
 
     float mfThreshold;

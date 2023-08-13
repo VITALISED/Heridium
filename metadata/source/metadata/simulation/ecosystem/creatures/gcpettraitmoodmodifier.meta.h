@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPetTraitMoodModifier
 {
-    static const unsigned __int64 muNameHash = 17007233068629351290;
-    static const unsigned __int64 muTemplateHash = 12464950198691641422;
+    static const unsigned __int64 muNameHash = 0xEC05D45E23EDDB7A;
+    static const unsigned __int64 muTemplateHash = 0xACFC6629DFF3384E;
     static const int miNumMembers = 4;
 
     float mfTraitMin;

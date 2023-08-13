@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eAIShipRole
 {
     EAIShipRole_Standard = 0,
@@ -14,8 +14,8 @@ enum eAIShipRole
 
 class cGcAISpaceshipRoles
 {
-    static const unsigned __int64 muNameHash = 4986559656495195417;
-    static const unsigned __int64 muTemplateHash = 1794224610445401514;
+    static const unsigned __int64 muNameHash = 0x4533D19670B0A519;
+    static const unsigned __int64 muTemplateHash = 0x18E65DC6E8DC9DAA;
     static const int miNumMembers = 1;
 
     eAIShipRole meAIShipRole;

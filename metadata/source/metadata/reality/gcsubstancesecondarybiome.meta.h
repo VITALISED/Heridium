@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSubstanceSecondaryBiome
 {
-    static const unsigned __int64 muNameHash = 12202598605306459595;
-    static const unsigned __int64 muTemplateHash = 11336907861900579534;
+    static const unsigned __int64 muNameHash = 0xA95856C785F7F5CB;
+    static const unsigned __int64 muTemplateHash = 0x9D54C9A287EAD2CE;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cGcSubstanceSecondary> maSecondarySubstanceByBiome;

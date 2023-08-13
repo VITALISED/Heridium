@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkEmitterFloatProperty;
 class cTkEmitterFloatProperty;
 
 class cTkParticleBurstData
 {
-    static const unsigned __int64 muNameHash = 5922939116212363508;
-    static const unsigned __int64 muTemplateHash = 6928301330381630634;
+    static const unsigned __int64 muNameHash = 0x523281BEC01AA0F4;
+    static const unsigned __int64 muTemplateHash = 0x6026455A2E436CAA;
     static const int miNumMembers = 3;
 
     cTkEmitterFloatProperty mBurstAmount;

@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcFrigateClass;
 class cGcAlienRace;
 
 class cGcRewardSpecificFrigate
 {
-    static const unsigned __int64 muNameHash = 13399257803132258699;
-    static const unsigned __int64 muTemplateHash = 1604271505199832563;
+    static const unsigned __int64 muNameHash = 0xB9F3B9FAC994498B;
+    static const unsigned __int64 muTemplateHash = 0x1643846F26B79DF3;
     static const int miNumMembers = 10;
 
     cGcFrigateClass mFrigateClass;

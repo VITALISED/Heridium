@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eBiome
 {
     EBiome_Lush = 0,
@@ -23,8 +23,8 @@ enum eBiome
 
 class cGcBiomeType
 {
-    static const unsigned __int64 muNameHash = 6696343983851140448;
-    static const unsigned __int64 muTemplateHash = 11483273853243699229;
+    static const unsigned __int64 muNameHash = 0x5CEE315FE3457560;
+    static const unsigned __int64 muTemplateHash = 0x9F5CC8BA811F301D;
     static const int miNumMembers = 1;
 
     eBiome meBiome;

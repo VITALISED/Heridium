@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 enum eWarpType
 {
     EWarpType_BlackHole = 0,
@@ -9,8 +9,8 @@ enum eWarpType
 
 class cGcWarpAction
 {
-    static const unsigned __int64 muNameHash = 4776966010596228134;
-    static const unsigned __int64 muTemplateHash = 15210894387334069674;
+    static const unsigned __int64 muNameHash = 0x424B3146F5B3FC26;
+    static const unsigned __int64 muTemplateHash = 0xD317F3DAC107BDAA;
     static const int miNumMembers = 1;
 
     eWarpType meWarpType;

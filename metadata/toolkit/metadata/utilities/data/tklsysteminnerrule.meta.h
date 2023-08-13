@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eMergeProbabilityOptions
 {
     EMergeProbabilityOptions_Balance = 0,
@@ -10,8 +10,8 @@ enum eMergeProbabilityOptions
 
 class cTkLSystemInnerRule
 {
-    static const unsigned __int64 muNameHash = 5731790378558398512;
-    static const unsigned __int64 muTemplateHash = 9509613472730688124;
+    static const unsigned __int64 muNameHash = 0x4F8B68FB20F9A030;
+    static const unsigned __int64 muTemplateHash = 0x83F8EF11C161AA7C;
     static const int miNumMembers = 3;
 
     cTkFixedString<32,char> macLocatorType;

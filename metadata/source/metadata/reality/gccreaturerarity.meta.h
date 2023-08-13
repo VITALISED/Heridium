@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eCreatureRarity
 {
     ECreatureRarity_Common = 0,
@@ -11,8 +11,8 @@ enum eCreatureRarity
 
 class cGcCreatureRarity
 {
-    static const unsigned __int64 muNameHash = 6904375423713304271;
-    static const unsigned __int64 muTemplateHash = 8862462517683645305;
+    static const unsigned __int64 muNameHash = 0x5FD144DDEE5E5ECF;
+    static const unsigned __int64 muTemplateHash = 0x7AFDCAB459BF6B79;
     static const int miNumMembers = 1;
 
     eCreatureRarity meCreatureRarity;

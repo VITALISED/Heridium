@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcNPCInteractionsDataTable
 {
-    static const unsigned __int64 muNameHash = 384069141790543332;
-    static const unsigned __int64 muTemplateHash = 10980886444471631559;
+    static const unsigned __int64 muNameHash = 0x5547CD97D9D4DE4;
+    static const unsigned __int64 muTemplateHash = 0x9863F20AC1A23EC7;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcNPCInteractionData> maNPCInteractions;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSettlementProductionSlotData
 {
-    static const unsigned __int64 muNameHash = 13201751087866634648;
-    static const unsigned __int64 muTemplateHash = 3844843587882052258;
+    static const unsigned __int64 muNameHash = 0xB7360AAB256AE198;
+    static const unsigned __int64 muTemplateHash = 0x355BA0DF50A5EAA2;
     static const int miNumMembers = 3;
 
     TkID<128> mElementId;

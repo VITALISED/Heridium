@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkBlackboardDefaultValueId;
 
 class cGcBehaviourLaunchProjectileData
 {
-    static const unsigned __int64 muNameHash = 4918752671131142857;
-    static const unsigned __int64 muTemplateHash = 140098901620257611;
+    static const unsigned __int64 muNameHash = 0x4442EB7E64C68AC9;
+    static const unsigned __int64 muTemplateHash = 0x1F1BB35707F734B;
     static const int miNumMembers = 5;
 
     cTkBlackboardDefaultValueId mProjectile;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPetActionMoodModifier
 {
-    static const unsigned __int64 muNameHash = 16956910874797390576;
-    static const unsigned __int64 muTemplateHash = 3933310080166594524;
+    static const unsigned __int64 muNameHash = 0xEB530C995C41BAF0;
+    static const unsigned __int64 muTemplateHash = 0x3695ECADA7CB07DC;
     static const int miNumMembers = 1;
 
     cTkFixedArray<float> maMoodModifiers;

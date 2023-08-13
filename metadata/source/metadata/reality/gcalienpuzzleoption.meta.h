@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAlienMood;
 class cGcNPCPropType;
 class cGcAudioWwiseEvents;
@@ -9,8 +9,8 @@ class cgcwordcategorytableEnum;
 
 class cGcAlienPuzzleOption
 {
-    static const unsigned __int64 muNameHash = 4605039464286305897;
-    static const unsigned __int64 muTemplateHash = 16580537351311992226;
+    static const unsigned __int64 muNameHash = 0x3FE862FE8570BE69;
+    static const unsigned __int64 muTemplateHash = 0xE619E6DFA20C25A2;
     static const int miNumMembers = 21;
 
     TkID<256> mName;

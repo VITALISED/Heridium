@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkCurveType;
 class cGcAudioWwiseEvents;
 class cGcSeasonSaveStateOnDeath;
 
 class cGcRewardDeath
 {
-    static const unsigned __int64 muNameHash = 12643170160496855428;
-    static const unsigned __int64 muTemplateHash = 1176827439070207212;
+    static const unsigned __int64 muNameHash = 0xAF7590464B3BC984;
+    static const unsigned __int64 muTemplateHash = 0x1054EE521BB65CEC;
     static const int miNumMembers = 14;
 
     TkID<128> mPlayerDamage;

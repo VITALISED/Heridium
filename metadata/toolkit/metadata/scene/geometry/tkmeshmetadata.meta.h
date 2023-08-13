@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkMeshMetaData
 {
-    static const unsigned __int64 muNameHash = 5545517161387680045;
-    static const unsigned __int64 muTemplateHash = 925875495639270140;
+    static const unsigned __int64 muNameHash = 0x4CF5A27A1458612D;
+    static const unsigned __int64 muTemplateHash = 0xCD95EDB97D142FC;
     static const int miNumMembers = 7;
 
     cTkFixedString<128,char> macIdString;

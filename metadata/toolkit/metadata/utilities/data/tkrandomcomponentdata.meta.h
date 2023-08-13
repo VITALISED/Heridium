@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkRandomComponentData
 {
-    static const unsigned __int64 muNameHash = 4557236761420127424;
-    static const unsigned __int64 muTemplateHash = 177840048956621395;
+    static const unsigned __int64 muNameHash = 0x3F3E8EB071CC5CC0;
+    static const unsigned __int64 muTemplateHash = 0x277D09510E5C253;
     static const int miNumMembers = 1;
 
     int miSeed;

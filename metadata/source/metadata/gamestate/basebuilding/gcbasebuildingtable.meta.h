@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkModelResource;
 class cTkModelResource;
 class cTkModelResource;
@@ -14,8 +14,8 @@ class cGcBaseBuildingGroup;
 
 class cGcBaseBuildingTable
 {
-    static const unsigned __int64 muNameHash = 7616767872527541649;
-    static const unsigned __int64 muTemplateHash = 7610142167673554326;
+    static const unsigned __int64 muNameHash = 0x69B43206529CA591;
+    static const unsigned __int64 muTemplateHash = 0x699CA7FB32674596;
     static const int miNumMembers = 17;
 
     cTkModelResource mLegModel;

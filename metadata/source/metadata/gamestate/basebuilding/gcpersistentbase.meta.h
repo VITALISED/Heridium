@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcDiscoveryOwner;
 class cGcPersistentBaseTypes;
 class cGcGameMode;
@@ -9,8 +9,8 @@ class cGcBaseAutoPowerSetting;
 
 class cGcPersistentBase
 {
-    static const unsigned __int64 muNameHash = 8297128158415217758;
-    static const unsigned __int64 muTemplateHash = 9613807719185675319;
+    static const unsigned __int64 muNameHash = 0x732552199A3AE45E;
+    static const unsigned __int64 muTemplateHash = 0x856B1B2F38F87437;
     static const int miNumMembers = 22;
 
     int miBaseVersion;

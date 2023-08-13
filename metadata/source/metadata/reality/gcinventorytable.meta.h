@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInventoryLayoutGenerationData;
 class cGcInventoryCostData;
 class cGcInventoryCostDataEntry;
@@ -9,8 +9,8 @@ class cGcWeaponInventoryMaxUpgradeCapacity;
 
 class cGcInventoryTable
 {
-    static const unsigned __int64 muNameHash = 3639523825947150949;
-    static const unsigned __int64 muTemplateHash = 11324183089595289473;
+    static const unsigned __int64 muNameHash = 0x32822FA2FD268A65;
+    static const unsigned __int64 muTemplateHash = 0x9D2794859AD00F81;
     static const int miNumMembers = 12;
 
     cTkDynamicArray<cGcInventoryTableEntry> maTable;

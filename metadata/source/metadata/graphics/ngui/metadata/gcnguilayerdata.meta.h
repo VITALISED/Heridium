@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcNGuiElementData;
 class cTkNGuiGraphicStyle;
 
@@ -13,8 +13,8 @@ enum eAltMode
 
 class cGcNGuiLayerData
 {
-    static const unsigned __int64 muNameHash = 6365893749474340513;
-    static const unsigned __int64 muTemplateHash = 8357250393406430209;
+    static const unsigned __int64 muNameHash = 0x585832A31F4C2EA1;
+    static const unsigned __int64 muTemplateHash = 0x73FAEAF445FBDC01;
     static const int miNumMembers = 6;
 
     cGcNGuiElementData mElementData;

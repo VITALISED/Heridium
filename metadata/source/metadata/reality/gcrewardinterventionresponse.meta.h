@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eResponseType
 {
     EResponseType_DontIntervene = 0,
@@ -11,8 +11,8 @@ enum eResponseType
 
 class cGcRewardInterventionResponse
 {
-    static const unsigned __int64 muNameHash = 4508186946217343496;
-    static const unsigned __int64 muTemplateHash = 10977019161375052817;
+    static const unsigned __int64 muNameHash = 0x3E904C2466567A08;
+    static const unsigned __int64 muTemplateHash = 0x985634C4BE6A9411;
     static const int miNumMembers = 2;
 
     eResponseType meResponseType;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkTextureResource;
 
 class cGcTradingCategoryData
 {
-    static const unsigned __int64 muNameHash = 4166207933470628035;
-    static const unsigned __int64 muTemplateHash = 10138656094260541953;
+    static const unsigned __int64 muNameHash = 0x39D1580ABEEE58C3;
+    static const unsigned __int64 muTemplateHash = 0x8CB3BE00363FBA01;
     static const int miNumMembers = 4;
 
     cTkFixedString<64,char> macName;

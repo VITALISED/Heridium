@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcStatModifyType;
 
 class cGcMissionSequenceModifyStat
 {
-    static const unsigned __int64 muNameHash = 14553929420153705000;
-    static const unsigned __int64 muTemplateHash = 4208414965609627808;
+    static const unsigned __int64 muNameHash = 0xC9F9F1B2965E5228;
+    static const unsigned __int64 muTemplateHash = 0x3A674B1D349980A0;
     static const int miNumMembers = 3;
 
     TkID<128> mStat;

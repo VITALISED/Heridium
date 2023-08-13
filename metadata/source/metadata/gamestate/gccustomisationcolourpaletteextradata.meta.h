@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcCustomisationColourPaletteExtraData
 {
-    static const unsigned __int64 muNameHash = 11172191748169786562;
-    static const unsigned __int64 muTemplateHash = 15305021934346686055;
+    static const unsigned __int64 muNameHash = 0x9B0B9933C035E4C2;
+    static const unsigned __int64 muTemplateHash = 0xD4665C5C1C4BCE67;
     static const int miNumMembers = 2;
 
     cTkDynamicArray<TkID<128> > maProductToUnlock;

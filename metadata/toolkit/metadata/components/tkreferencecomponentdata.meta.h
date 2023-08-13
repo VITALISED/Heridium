@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkReferenceComponentData
 {
-    static const unsigned __int64 muNameHash = 17075571695796821439;
-    static const unsigned __int64 muTemplateHash = 1483840439326382673;
+    static const unsigned __int64 muNameHash = 0xECF89DFCB0AF1DBF;
+    static const unsigned __int64 muTemplateHash = 0x1497A90491689A51;
     static const int miNumMembers = 2;
 
     cTkFixedString<128,char> macReference;

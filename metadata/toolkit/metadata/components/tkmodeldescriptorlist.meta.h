@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkModelDescriptorList
 {
-    static const unsigned __int64 muNameHash = 8269892269129222664;
-    static const unsigned __int64 muTemplateHash = 11851499034006161785;
+    static const unsigned __int64 muNameHash = 0x72C48F33F8324A08;
+    static const unsigned __int64 muTemplateHash = 0xA478FB9459D28979;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cTkResourceDescriptorList> maList;

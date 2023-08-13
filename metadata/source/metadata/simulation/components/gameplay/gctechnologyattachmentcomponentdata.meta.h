@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eInventory
 {
     EInventory_Vehicle = 0,
@@ -8,8 +8,8 @@ enum eInventory
 
 class cGcTechnologyAttachmentComponentData
 {
-    static const unsigned __int64 muNameHash = 8992050628092784752;
-    static const unsigned __int64 muTemplateHash = 8172033584049007970;
+    static const unsigned __int64 muNameHash = 0x7CCA2E6781CC7070;
+    static const unsigned __int64 muTemplateHash = 0x7168E53F55CDAD62;
     static const int miNumMembers = 3;
 
     cTkDynamicArray<TkID<128> > maTechs;

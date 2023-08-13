@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkVertexLayout;
 class cTkVertexLayout;
 
 class cTkGeometryData
 {
-    static const unsigned __int64 muNameHash = 12055749586726639486;
-    static const unsigned __int64 muTemplateHash = 3964813944386885844;
+    static const unsigned __int64 muNameHash = 0xA74EA06001E7577E;
+    static const unsigned __int64 muTemplateHash = 0x3705D946A3B218D4;
     static const int miNumMembers = 21;
 
     int miVertexCount;

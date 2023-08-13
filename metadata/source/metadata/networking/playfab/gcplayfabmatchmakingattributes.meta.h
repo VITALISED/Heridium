@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPlayfabMatchmakingAttributes
 {
-    static const unsigned __int64 muNameHash = 5279765841817034470;
-    static const unsigned __int64 muTemplateHash = 8986724569809248315;
+    static const unsigned __int64 muNameHash = 0x49457F0F4ABEDEE6;
+    static const unsigned __int64 muTemplateHash = 0x7CB74261EDC1603B;
     static const int miNumMembers = 9;
 
     cTkFixedString<64,char> macUA;

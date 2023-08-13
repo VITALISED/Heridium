@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcGeneratedBaseRoomTemplate
 {
-    static const unsigned __int64 muNameHash = 79467239321017935;
-    static const unsigned __int64 muTemplateHash = 4148035398814101665;
+    static const unsigned __int64 muNameHash = 0x11A53087B029E4F;
+    static const unsigned __int64 muTemplateHash = 0x3990C837CE0F70A1;
     static const int miNumMembers = 13;
 
     TkID<128> mName;

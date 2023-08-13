@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkParticleBurstData;
 class cTkEmitterFloatProperty;
 class cTkEmitFromParticleInfo;
@@ -72,8 +72,8 @@ class cTkFloatRange;
 
 class cTkParticleData
 {
-    static const unsigned __int64 muNameHash = 16812589714731780587;
-    static const unsigned __int64 muTemplateHash = 3836939554867853488;
+    static const unsigned __int64 muNameHash = 0xE9525144C4F949EB;
+    static const unsigned __int64 muTemplateHash = 0x353F8C32388B38B0;
     static const int miNumMembers = 54;
 
     unsigned int muiAudioEvent;

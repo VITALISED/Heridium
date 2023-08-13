@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eSimpleInteractionType
 {
     ESimpleInteractionType_Interact = 0,
@@ -49,8 +49,8 @@ class cGcDiscoveryType;
 
 class cGcSimpleInteractionComponentData
 {
-    static const unsigned __int64 muNameHash = 16925491151149439733;
-    static const unsigned __int64 muTemplateHash = 11569349992439140520;
+    static const unsigned __int64 muNameHash = 0xEAE36C86E1479AF5;
+    static const unsigned __int64 muTemplateHash = 0xA08E96856580D0A8;
     static const int miNumMembers = 37;
 
     eSimpleInteractionType meSimpleInteractionType;

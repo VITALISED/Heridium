@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkTextureResource;
 class cGcMissionPageHint;
 class cGcMissionCategory;
@@ -27,8 +27,8 @@ class cGcCustomNotifyTimerOptions;
 
 class cGcMissionSequenceGroup
 {
-    static const unsigned __int64 muNameHash = 5887142939920690534;
-    static const unsigned __int64 muTemplateHash = 12930113354149810668;
+    static const unsigned __int64 muNameHash = 0x51B3554FFBEBED66;
+    static const unsigned __int64 muTemplateHash = 0xB370FD96C3A251EC;
     static const int miNumMembers = 27;
 
     bool mbSilent;

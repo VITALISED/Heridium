@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eDiscoveryType
 {
     EDiscoveryType_Unknown = 0,
@@ -24,8 +24,8 @@ enum eDiscoveryType
 
 class cGcDiscoveryType
 {
-    static const unsigned __int64 muNameHash = 6609441023585619002;
-    static const unsigned __int64 muTemplateHash = 10405239006112164402;
+    static const unsigned __int64 muNameHash = 0x5BB97397B6B70C3A;
+    static const unsigned __int64 muTemplateHash = 0x9066D5BF2A5AAA32;
     static const int miNumMembers = 1;
 
     eDiscoveryType meDiscoveryType;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardRequirementsForRecipe
 {
-    static const unsigned __int64 muNameHash = 1064552928655282647;
-    static const unsigned __int64 muTemplateHash = 1410006252208753811;
+    static const unsigned __int64 muNameHash = 0xEC60D3F951991D7;
+    static const unsigned __int64 muTemplateHash = 0x1391593741FB8C93;
     static const int miNumMembers = 2;
 
     TkID<128> mRecipeID;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eScanEffectType
 {
     EScanEffectType_Building = 0,
@@ -12,8 +12,8 @@ enum eScanEffectType
 
 class cGcScanEffectData
 {
-    static const unsigned __int64 muNameHash = 14672217519538434406;
-    static const unsigned __int64 muTemplateHash = 2103408881708869437;
+    static const unsigned __int64 muNameHash = 0xCB9E3018E759F166;
+    static const unsigned __int64 muTemplateHash = 0x1D30CF3BCBA8A73D;
     static const int miNumMembers = 14;
 
     TkID<128> mId;

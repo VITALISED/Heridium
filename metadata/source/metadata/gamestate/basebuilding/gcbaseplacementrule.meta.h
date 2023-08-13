@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eTwinCriteria
 {
     ETwinCriteria_None = 0,
@@ -12,8 +12,8 @@ enum eTwinCriteria
 
 class cGcBasePlacementRule
 {
-    static const unsigned __int64 muNameHash = 16859504670095361022;
-    static const unsigned __int64 muTemplateHash = 604981534948690170;
+    static const unsigned __int64 muNameHash = 0xE9F8FE2C0612C3FE;
+    static const unsigned __int64 muTemplateHash = 0x86553802E4988FA;
     static const int miNumMembers = 5;
 
     cTkDynamicArray<cTkClassPointer> maConditions;

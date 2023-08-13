@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcNPCHabitationType;
 
 class cGcRewardWorker
 {
-    static const unsigned __int64 muNameHash = 17924399085661136113;
-    static const unsigned __int64 muTemplateHash = 13546420932200260436;
+    static const unsigned __int64 muNameHash = 0xF8C04200392B24F1;
+    static const unsigned __int64 muTemplateHash = 0xBBFE8E10D9B66354;
     static const int miNumMembers = 1;
 
     cGcNPCHabitationType mNPCHabitationType;

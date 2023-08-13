@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eGeneratorUnitType
 {
     EGeneratorUnitType_MiningUnit = 0,
@@ -11,8 +11,8 @@ class cGcMaintenanceComponentData;
 
 class cGcGeneratorUnitComponentData
 {
-    static const unsigned __int64 muNameHash = 16703931985194678184;
-    static const unsigned __int64 muTemplateHash = 18102477017859768981;
+    static const unsigned __int64 muNameHash = 0xE7D049A3A9D077A8;
+    static const unsigned __int64 muTemplateHash = 0xFB38EAEFCC344295;
     static const int miNumMembers = 4;
 
     eGeneratorUnitType meGeneratorUnitType;

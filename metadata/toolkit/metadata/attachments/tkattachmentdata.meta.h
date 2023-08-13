@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkAttachmentData
 {
-    static const unsigned __int64 muNameHash = 10905149845409080241;
-    static const unsigned __int64 muTemplateHash = 8033137347707368169;
+    static const unsigned __int64 muNameHash = 0x9756E001A603A3B1;
+    static const unsigned __int64 muTemplateHash = 0x6F7B6FDB3A0572E9;
     static const int miNumMembers = 2;
 
     cTkDynamicArray<cTkClassPointer> maComponents;

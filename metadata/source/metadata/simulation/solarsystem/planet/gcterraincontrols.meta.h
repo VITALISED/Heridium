@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcTerrainControls
 {
-    static const unsigned __int64 muNameHash = 192855512144768674;
-    static const unsigned __int64 muTemplateHash = 7963093247902813288;
+    static const unsigned __int64 muNameHash = 0x2AD2911065D6EA2;
+    static const unsigned __int64 muTemplateHash = 0x6E82971E628F0C68;
     static const int miNumMembers = 9;
 
     cTkFixedArray<float> maNoiseLayers;

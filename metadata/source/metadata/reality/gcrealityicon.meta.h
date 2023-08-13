@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkTextureResource;
 
 class cGcRealityIcon
 {
-    static const unsigned __int64 muNameHash = 2930539801188542693;
-    static const unsigned __int64 muTemplateHash = 11400446599053303389;
+    static const unsigned __int64 muNameHash = 0x28AB5E6C29FCA8E5;
+    static const unsigned __int64 muTemplateHash = 0x9E3685C79961DE5D;
     static const int miNumMembers = 2;
 
     TkID<256> mID;

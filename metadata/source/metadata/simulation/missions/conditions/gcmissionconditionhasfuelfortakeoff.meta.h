@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionHasFuelForTakeoff
 {
-    static const unsigned __int64 muNameHash = 9395095184067617768;
-    static const unsigned __int64 muTemplateHash = 3333523120362424206;
+    static const unsigned __int64 muNameHash = 0x8262154AE55563E8;
+    static const unsigned __int64 muTemplateHash = 0x2E430D9DBFC1078E;
     static const int miNumMembers = 1;
 
     bool mbFormatTextAsPercentage;

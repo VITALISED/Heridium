@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eFeatureTypes
 {
     EFeatureTypes_River = 0,
@@ -14,8 +14,8 @@ enum eFeatureTypes
 
 class cTkFeaturesEnum
 {
-    static const unsigned __int64 muNameHash = 3812321172012717099;
-    static const unsigned __int64 muTemplateHash = 2427873501405215593;
+    static const unsigned __int64 muNameHash = 0x34E815E84B84D42B;
+    static const unsigned __int64 muTemplateHash = 0x21B18A160AD77B69;
     static const int miNumMembers = 1;
 
     eFeatureTypes meFeatureTypes;

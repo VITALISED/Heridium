@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcSpaceshipClasses;
 class cTkModelRendererData;
 
 class cGcSpaceshipComponentData
 {
-    static const unsigned __int64 muNameHash = 2059543578834841203;
-    static const unsigned __int64 muTemplateHash = 9193872594562026492;
+    static const unsigned __int64 muNameHash = 0x1C94F7F917E32E73;
+    static const unsigned __int64 muTemplateHash = 0x7F973269DD118BFC;
     static const int miNumMembers = 8;
 
     cGcSpaceshipClasses mClass;

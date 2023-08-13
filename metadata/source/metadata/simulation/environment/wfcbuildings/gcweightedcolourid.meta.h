@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcWeightedColourId
 {
-    static const unsigned __int64 muNameHash = 10127914509515818976;
-    static const unsigned __int64 muTemplateHash = 2325227055074523241;
+    static const unsigned __int64 muNameHash = 0x8C8D94961F3707E0;
+    static const unsigned __int64 muTemplateHash = 0x2044DDAFDFD83869;
     static const int miNumMembers = 3;
 
     float mfRelativeProbability;

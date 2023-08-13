@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkIndexStream
 {
-    static const unsigned __int64 muNameHash = 5647593867009888314;
-    static const unsigned __int64 muTemplateHash = 6766951570428052836;
+    static const unsigned __int64 muNameHash = 0x4E6048B326CC903A;
+    static const unsigned __int64 muTemplateHash = 0x5DE90A99B7A2C564;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<int> maIndexStream;

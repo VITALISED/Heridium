@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcNumberedTextList;
 class cGcNumberedTextList;
 class cGcNumberedTextList;
@@ -14,8 +14,8 @@ class cGcNumberedTextList;
 
 class cGcExpeditionEventData
 {
-    static const unsigned __int64 muNameHash = 5233462889263605404;
-    static const unsigned __int64 muTemplateHash = 2490225727519272368;
+    static const unsigned __int64 muNameHash = 0x48A0FEC50BBF269C;
+    static const unsigned __int64 muTemplateHash = 0x228F0F1AFB532DB0;
     static const int miNumMembers = 19;
 
     TkID<256> mID;

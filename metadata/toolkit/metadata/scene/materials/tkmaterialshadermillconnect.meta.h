@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkMaterialShaderMillConnect
 {
-    static const unsigned __int64 muNameHash = 16599544328485333155;
-    static const unsigned __int64 muTemplateHash = 16860611891032962447;
+    static const unsigned __int64 muNameHash = 0xE65D6D9E5CB7E8A3;
+    static const unsigned __int64 muTemplateHash = 0xE9FCED2EFCBF358F;
     static const int miNumMembers = 3;
 
     cTkFixedString<32,char> macName;

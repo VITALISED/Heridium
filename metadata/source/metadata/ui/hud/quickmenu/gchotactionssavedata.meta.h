@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcHotActionsSaveData
 {
-    static const unsigned __int64 muNameHash = 16633181577126318337;
-    static const unsigned __int64 muTemplateHash = 2166877929416194538;
+    static const unsigned __int64 muNameHash = 0xE6D4EE849D2F9101;
+    static const unsigned __int64 muTemplateHash = 0x1E124BFF067C79EA;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cGcQuickMenuActionSaveData> maKeyActions;

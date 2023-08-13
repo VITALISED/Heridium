@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eScanEventTable
 {
     EScanEventTable_Space = 0,
@@ -13,8 +13,8 @@ enum eScanEventTable
 
 class cGcRewardScanEvent
 {
-    static const unsigned __int64 muNameHash = 15479645279083142985;
-    static const unsigned __int64 muTemplateHash = 1923112667296720212;
+    static const unsigned __int64 muNameHash = 0xD6D2BF5DDCCD9F49;
+    static const unsigned __int64 muTemplateHash = 0x1AB044C825466554;
     static const int miNumMembers = 6;
 
     TkID<256> mEvent;

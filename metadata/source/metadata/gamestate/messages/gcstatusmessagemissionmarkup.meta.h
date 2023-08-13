@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eMissionMarkup
 {
     EMissionMarkup_KillFiend = 0,
@@ -24,8 +24,8 @@ enum eMissionMarkup
 
 class cGcStatusMessageMissionMarkup
 {
-    static const unsigned __int64 muNameHash = 10272361964448923287;
-    static const unsigned __int64 muTemplateHash = 13707215910633112373;
+    static const unsigned __int64 muNameHash = 0x8E8EC2C807363E97;
+    static const unsigned __int64 muTemplateHash = 0xBE39D03F2CDE8335;
     static const int miNumMembers = 1;
 
     eMissionMarkup meMissionMarkup;

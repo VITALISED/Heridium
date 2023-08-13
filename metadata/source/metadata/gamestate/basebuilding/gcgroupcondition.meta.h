@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcGroupCondition
 {
-    static const unsigned __int64 muNameHash = 3758061068479591588;
-    static const unsigned __int64 muTemplateHash = 361108155238885830;
+    static const unsigned __int64 muNameHash = 0x342750A176F374A4;
+    static const unsigned __int64 muTemplateHash = 0x502E9F43682A9C6;
     static const int miNumMembers = 2;
 
     cTkDynamicArray<cTkClassPointer> maConditions;

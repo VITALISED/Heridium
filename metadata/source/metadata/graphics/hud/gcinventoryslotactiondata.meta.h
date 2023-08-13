@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkCurveType;
 class cGcAudioWwiseEvents;
 class cGcAudioWwiseEvents;
 
 class cGcInventorySlotActionData
 {
-    static const unsigned __int64 muNameHash = 13874755057318798038;
-    static const unsigned __int64 muTemplateHash = 12364664528215740533;
+    static const unsigned __int64 muNameHash = 0xC08D0836890AA2D6;
+    static const unsigned __int64 muTemplateHash = 0xAB981CE0AB2C1075;
     static const int miNumMembers = 9;
 
     bool mbLoops;

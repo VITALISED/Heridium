@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcMessageSubstanceMined
 {
-    static const unsigned __int64 muNameHash = 3154388092054484415;
-    static const unsigned __int64 muTemplateHash = 16437955924516579070;
+    static const unsigned __int64 muNameHash = 0x2BC6A341CEA135BF;
+    static const unsigned __int64 muTemplateHash = 0xE41F59D24256A6FE;
     static const int miNumMembers = 2;
 
     int miAmount;

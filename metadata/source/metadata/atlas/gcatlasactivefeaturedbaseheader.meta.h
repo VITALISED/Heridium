@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAtlasActiveFeaturedBaseHeader
 {
-    static const unsigned __int64 muNameHash = 6674535043502664035;
-    static const unsigned __int64 muTemplateHash = 10210051205384247695;
+    static const unsigned __int64 muNameHash = 0x5CA0B64244DF6963;
+    static const unsigned __int64 muTemplateHash = 0x8DB16379E37A198F;
     static const int miNumMembers = 9;
 
     bool mbDev;

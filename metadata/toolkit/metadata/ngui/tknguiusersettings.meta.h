@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkNGuiUserSettings
 {
-    static const unsigned __int64 muNameHash = 4639890232773415418;
-    static const unsigned __int64 muTemplateHash = 17200410853280826363;
+    static const unsigned __int64 muNameHash = 0x40643395614391FA;
+    static const unsigned __int64 muTemplateHash = 0xEEB4228A1493C3FB;
     static const int miNumMembers = 3;
 
     cTkFixedString<256,char> macLastLoadedModel;

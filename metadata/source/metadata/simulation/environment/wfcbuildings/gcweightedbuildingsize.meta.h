@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcWeightedBuildingSize
 {
-    static const unsigned __int64 muNameHash = 10438010535704350317;
-    static const unsigned __int64 muTemplateHash = 15887811228598929916;
+    static const unsigned __int64 muNameHash = 0x90DB43477E714E6D;
+    static const unsigned __int64 muTemplateHash = 0xDC7CD8229B1A09FC;
     static const int miNumMembers = 5;
 
     float mfRelativeProbability;

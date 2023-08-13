@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcExpeditionDebriefPunctuation
 {
-    static const unsigned __int64 muNameHash = 4133194646105888738;
-    static const unsigned __int64 muTemplateHash = 17205632391654670215;
+    static const unsigned __int64 muNameHash = 0x395C0EA1CCB017E2;
+    static const unsigned __int64 muTemplateHash = 0xEEC6AF803887FF87;
     static const int miNumMembers = 2;
 
     cTkFixedString<32,char> macPunctuation;

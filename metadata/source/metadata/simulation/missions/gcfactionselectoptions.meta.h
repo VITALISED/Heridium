@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eFactionOption
 {
     EFactionOption_DataDefined = 0,
@@ -11,8 +11,8 @@ class cGcMissionFaction;
 
 class cGcFactionSelectOptions
 {
-    static const unsigned __int64 muNameHash = 5320033577604815190;
-    static const unsigned __int64 muTemplateHash = 10815657919857119647;
+    static const unsigned __int64 muNameHash = 0x49D48E5A22491956;
+    static const unsigned __int64 muTemplateHash = 0x9618EF930539519F;
     static const int miNumMembers = 2;
 
     eFactionOption meFactionOption;

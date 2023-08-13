@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkNGuiGraphicStyleData;
 class cTkNGuiGraphicStyleData;
 class cTkNGuiGraphicStyleData;
@@ -19,8 +19,8 @@ enum eAnimate
 
 class cTkNGuiGraphicStyle
 {
-    static const unsigned __int64 muNameHash = 13188921036264893676;
-    static const unsigned __int64 muTemplateHash = 1483407535392601428;
+    static const unsigned __int64 muNameHash = 0xB70875CDF93EECEC;
+    static const unsigned __int64 muTemplateHash = 0x14961F4B4436B554;
     static const int miNumMembers = 14;
 
     cTkNGuiGraphicStyleData mDefault;

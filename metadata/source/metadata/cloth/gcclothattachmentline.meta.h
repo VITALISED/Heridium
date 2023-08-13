@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cAxisSpecification;
 
 class cGcClothAttachmentLine
 {
-    static const unsigned __int64 muNameHash = 4958134764168600992;
-    static const unsigned __int64 muTemplateHash = 2754488544085982268;
+    static const unsigned __int64 muNameHash = 0x44CED54C76C8DDA0;
+    static const unsigned __int64 muTemplateHash = 0x2639E8BCA820BC3C;
     static const int miNumMembers = 13;
 
     bool mbEnabled;

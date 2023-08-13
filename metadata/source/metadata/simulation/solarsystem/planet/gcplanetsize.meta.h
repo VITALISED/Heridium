@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum ePlanetSize
 {
     EPlanetSize_Large = 0,
@@ -11,8 +11,8 @@ enum ePlanetSize
 
 class cGcPlanetSize
 {
-    static const unsigned __int64 muNameHash = 16256012611533696559;
-    static const unsigned __int64 muTemplateHash = 17355424867970961369;
+    static const unsigned __int64 muNameHash = 0xE198F55796BC6E2F;
+    static const unsigned __int64 muTemplateHash = 0xF0DADAF6E563CFD9;
     static const int miNumMembers = 1;
 
     ePlanetSize mePlanetSize;

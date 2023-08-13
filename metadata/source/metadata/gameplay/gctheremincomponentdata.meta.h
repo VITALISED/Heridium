@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcThereminComponentData
 {
-    static const unsigned __int64 muNameHash = 15052613404996250442;
-    static const unsigned __int64 muTemplateHash = 714358107377533731;
+    static const unsigned __int64 muNameHash = 0xD0E5A023C215AB4A;
+    static const unsigned __int64 muTemplateHash = 0x9E9E8E9F0A88323;
     static const int miNumMembers = 12;
 
     cTkFixedString<32,char> macVolumeBBName;

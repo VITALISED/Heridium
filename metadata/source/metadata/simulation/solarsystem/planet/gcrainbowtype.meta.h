@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eRainbowType
 {
     ERainbowType_Always = 0,
@@ -11,8 +11,8 @@ enum eRainbowType
 
 class cGcRainbowType
 {
-    static const unsigned __int64 muNameHash = 8213696963635306759;
-    static const unsigned __int64 muTemplateHash = 13737238730081992491;
+    static const unsigned __int64 muNameHash = 0x71FCE9DED22FE107;
+    static const unsigned __int64 muTemplateHash = 0xBEA479D78D467F2B;
     static const int miNumMembers = 1;
 
     eRainbowType meRainbowType;

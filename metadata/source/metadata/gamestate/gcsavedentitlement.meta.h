@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSavedEntitlement
 {
-    static const unsigned __int64 muNameHash = 14907144527826744671;
-    static const unsigned __int64 muTemplateHash = 16964118781204434771;
+    static const unsigned __int64 muNameHash = 0xCEE0D0F77485755F;
+    static const unsigned __int64 muTemplateHash = 0xEB6CA826D9390F53;
     static const int miNumMembers = 1;
 
     cTkFixedString<256,char> macEntitlementId;

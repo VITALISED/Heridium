@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcAlienRace;
 
 class cGcNPCComponentData
 {
-    static const unsigned __int64 muNameHash = 5947383237680028814;
-    static const unsigned __int64 muTemplateHash = 17143443522668674959;
+    static const unsigned __int64 muNameHash = 0x5289598B4907DC8E;
+    static const unsigned __int64 muTemplateHash = 0xEDE9BF0DD3A33F8F;
     static const int miNumMembers = 6;
 
     cGcAlienRace mRace;

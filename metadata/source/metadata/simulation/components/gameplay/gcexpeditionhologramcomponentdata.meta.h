@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcExpeditionHologramComponentData
 {
-    static const unsigned __int64 muNameHash = 15906261501374962335;
-    static const unsigned __int64 muTemplateHash = 2174762085715688502;
+    static const unsigned __int64 muNameHash = 0xDCBE648F7DED1A9F;
+    static const unsigned __int64 muTemplateHash = 0x1E2E4E9836123C36;
     static const int miNumMembers = 4;
 
     float mfHologramRotationSpeedDegPerSec;

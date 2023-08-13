@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPlanetInfo
 {
-    static const unsigned __int64 muNameHash = 5011754247372121033;
-    static const unsigned __int64 muTemplateHash = 688888889430256808;
+    static const unsigned __int64 muNameHash = 0x458D53EF402BA3C9;
+    static const unsigned __int64 muTemplateHash = 0x98F6CCB88342CA8;
     static const int miNumMembers = 10;
 
     cTkFixedString<128,char> macPlanetDescription;

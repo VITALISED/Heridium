@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcActionSetType;
 class cGcActionUseType;
 
 class cGcActionSet
 {
-    static const unsigned __int64 muNameHash = 11619611111655761504;
-    static const unsigned __int64 muTemplateHash = 14725748864613231147;
+    static const unsigned __int64 muNameHash = 0xA14126BE226C6660;
+    static const unsigned __int64 muTemplateHash = 0xCC5C5E926EE22A2B;
     static const int miNumMembers = 6;
 
     cGcActionSetType mType;

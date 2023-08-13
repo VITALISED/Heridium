@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAntagonistFriend
 {
-    static const unsigned __int64 muNameHash = 18052701550965893213;
-    static const unsigned __int64 muTemplateHash = 5233011506365074787;
+    static const unsigned __int64 muNameHash = 0xFA881469CD77285D;
+    static const unsigned __int64 muTemplateHash = 0x489F643D466C0D63;
     static const int miNumMembers = 2;
 
     float mfArticulationFactor;

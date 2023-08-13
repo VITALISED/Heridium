@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPetBehaviourTable
 {
-    static const unsigned __int64 muNameHash = 4160515522289300772;
-    static const unsigned __int64 muTemplateHash = 8716191124431956487;
+    static const unsigned __int64 muNameHash = 0x39BD1ED2FC8D7524;
+    static const unsigned __int64 muTemplateHash = 0x78F621A5B62DEA07;
     static const int miNumMembers = 18;
 
     cTkFixedArray<cGcPetBehaviourData> maBehaviours;

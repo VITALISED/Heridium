@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eEngineSetting
 {
     EEngineSetting_FullScreen = 0,
@@ -57,8 +57,8 @@ enum eEngineSetting
 
 class cTkEngineSettingTypes
 {
-    static const unsigned __int64 muNameHash = 10680645320526537238;
-    static const unsigned __int64 muTemplateHash = 7227016457567490099;
+    static const unsigned __int64 muNameHash = 0x943946549DEC2216;
+    static const unsigned __int64 muTemplateHash = 0x644B852D83365033;
     static const int miNumMembers = 1;
 
     eEngineSetting meEngineSetting;

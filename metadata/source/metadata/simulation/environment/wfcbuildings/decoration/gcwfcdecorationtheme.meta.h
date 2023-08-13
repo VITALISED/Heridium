@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 enum eWFCDecorationTheme
 {
     EWFCDecorationTheme_Default = 0,
@@ -9,8 +9,8 @@ enum eWFCDecorationTheme
 
 class cGcWFCDecorationTheme
 {
-    static const unsigned __int64 muNameHash = 10823524801923734861;
-    static const unsigned __int64 muTemplateHash = 5028209475804951005;
+    static const unsigned __int64 muNameHash = 0x9634E2763C4B5D4D;
+    static const unsigned __int64 muTemplateHash = 0x45C7C9E0AD9B71DD;
     static const int miNumMembers = 1;
 
     eWFCDecorationTheme meWFCDecorationTheme;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardDummyLocID
 {
-    static const unsigned __int64 muNameHash = 17780577059833883105;
-    static const unsigned __int64 muTemplateHash = 6904517753905080985;
+    static const unsigned __int64 muNameHash = 0xF6C14CA160DBA9E1;
+    static const unsigned __int64 muTemplateHash = 0x5FD1C650C2E3EA99;
     static const int miNumMembers = 1;
 
     TkID<256> mLocID;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcEnvironmentProperties
 {
-    static const unsigned __int64 muNameHash = 12764800962724073828;
-    static const unsigned __int64 muTemplateHash = 6375086355853223884;
+    static const unsigned __int64 muNameHash = 0xB125AED843BB9164;
+    static const unsigned __int64 muTemplateHash = 0x5878DB43951227CC;
     static const int miNumMembers = 27;
 
     float mfFlightFogHeight;

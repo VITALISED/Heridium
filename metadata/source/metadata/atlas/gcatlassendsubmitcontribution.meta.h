@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAtlasSendSubmitContribution
 {
-    static const unsigned __int64 muNameHash = 5233114143794605478;
-    static const unsigned __int64 muTemplateHash = 17990685675105459814;
+    static const unsigned __int64 muNameHash = 0x489FC19669F32DA6;
+    static const unsigned __int64 muTemplateHash = 0xF9ABC14D825E9E66;
     static const int miNumMembers = 2;
 
     int miMissionIndex;

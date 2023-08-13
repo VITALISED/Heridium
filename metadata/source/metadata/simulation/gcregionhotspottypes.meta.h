@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eHotspotType
 {
     EHotspotType_Power = 1,
@@ -13,8 +13,8 @@ enum eHotspotType
 
 class cGcRegionHotspotTypes
 {
-    static const unsigned __int64 muNameHash = 122235180588452906;
-    static const unsigned __int64 muTemplateHash = 3248366920284541658;
+    static const unsigned __int64 muNameHash = 0x1B2443FC607CC2A;
+    static const unsigned __int64 muTemplateHash = 0x2D148480DFB092DA;
     static const int miNumMembers = 1;
 
     eHotspotType meHotspotType;

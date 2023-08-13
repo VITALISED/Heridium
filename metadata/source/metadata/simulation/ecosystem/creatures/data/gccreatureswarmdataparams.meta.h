@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcCreatureSwarmDataParams
 {
-    static const unsigned __int64 muNameHash = 7574798444458838138;
-    static const unsigned __int64 muTemplateHash = 8920354983111798262;
+    static const unsigned __int64 muNameHash = 0x691F170D5F26887A;
+    static const unsigned __int64 muTemplateHash = 0x7BCB779856C3ADF6;
     static const int miNumMembers = 36;
 
     cTkDynamicArray<TkID<256> > maValidDescriptors;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcBlockListPersistence;
 
 enum ePS4FixedFPS
@@ -77,8 +77,8 @@ class cGcInWorldUIScreenData;
 
 class cGcUserSettingsData
 {
-    static const unsigned __int64 muNameHash = 4202094314712265919;
-    static const unsigned __int64 muTemplateHash = 12764431690603878830;
+    static const unsigned __int64 muNameHash = 0x3A50D683FD1CF4BF;
+    static const unsigned __int64 muTemplateHash = 0xB1245EFE662ED9AE;
     static const int miNumMembers = 91;
 
     bool mbInvertLookControls;

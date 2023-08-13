@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkBlackboardDefaultValueBool;
 
 class cGcBehaviourDetailAnimsData
 {
-    static const unsigned __int64 muNameHash = 4468958706749639402;
-    static const unsigned __int64 muTemplateHash = 3856716049419203587;
+    static const unsigned __int64 muNameHash = 0x3E04EE4427B38AEA;
+    static const unsigned __int64 muTemplateHash = 0x3585CED02D2DF403;
     static const int miNumMembers = 1;
 
     cTkBlackboardDefaultValueBool mCanDetail;

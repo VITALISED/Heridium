@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionSequenceSendChatMessage
 {
-    static const unsigned __int64 muNameHash = 18341296619065123454;
-    static const unsigned __int64 muTemplateHash = 16359216520855722482;
+    static const unsigned __int64 muNameHash = 0xFE8960194373227E;
+    static const unsigned __int64 muTemplateHash = 0xE3079CC0394E99F2;
     static const int miNumMembers = 2;
 
     TkID<128> mStatusMessageId;

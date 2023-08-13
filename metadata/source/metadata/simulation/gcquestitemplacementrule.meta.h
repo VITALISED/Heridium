@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcQuestItemPlacementRule
 {
-    static const unsigned __int64 muNameHash = 13410676337242685384;
-    static const unsigned __int64 muTemplateHash = 8447238792686617353;
+    static const unsigned __int64 muNameHash = 0xBA1C4B136F163FC8;
+    static const unsigned __int64 muTemplateHash = 0x753A9EED32FC4309;
     static const int miNumMembers = 6;
 
     TkID<128> mQuestItemID;

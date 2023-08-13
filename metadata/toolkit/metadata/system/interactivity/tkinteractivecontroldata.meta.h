@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkInteractiveControlData
 {
-    static const unsigned __int64 muNameHash = 1110568299566953105;
-    static const unsigned __int64 muTemplateHash = 6831818534375258045;
+    static const unsigned __int64 muNameHash = 0xF6987FC027F7291;
+    static const unsigned __int64 muTemplateHash = 0x5ECF7EC2AF5DF7BD;
     static const int miNumMembers = 3;
 
     cTkFixedString<32,char> macId;

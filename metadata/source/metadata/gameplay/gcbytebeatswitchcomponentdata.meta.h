@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcByteBeatSwitchComponentData
 {
-    static const unsigned __int64 muNameHash = 13440739016175192691;
-    static const unsigned __int64 muTemplateHash = 12566782330256821386;
+    static const unsigned __int64 muNameHash = 0xBA8718EC51DB0A73;
+    static const unsigned __int64 muTemplateHash = 0xAE662DF29C9D0C8A;
     static const int miNumMembers = 1;
 
     float mfTemp;

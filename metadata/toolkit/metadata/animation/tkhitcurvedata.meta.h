@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkInOutCurve;
 
 class cTkHitCurveData
 {
-    static const unsigned __int64 muNameHash = 12201641402383470261;
-    static const unsigned __int64 muTemplateHash = 3624002664720862191;
+    static const unsigned __int64 muNameHash = 0xA954F03559C40EB5;
+    static const unsigned __int64 muTemplateHash = 0x324B0B3907C18BEF;
     static const int miNumMembers = 2;
 
     float mfTime;

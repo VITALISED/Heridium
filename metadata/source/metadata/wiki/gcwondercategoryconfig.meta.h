@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eWonderCategoryComparisonType
 {
     EWonderCategoryComparisonType_Max = 0,
@@ -9,8 +9,8 @@ enum eWonderCategoryComparisonType
 
 class cGcWonderCategoryConfig
 {
-    static const unsigned __int64 muNameHash = 8580077684137352799;
-    static const unsigned __int64 muTemplateHash = 10080921826877343908;
+    static const unsigned __int64 muNameHash = 0x77128F31CC435E5F;
+    static const unsigned __int64 muTemplateHash = 0x8BE6A0FD938188A4;
     static const int miNumMembers = 4;
 
     eWonderCategoryComparisonType meWonderCategoryComparisonType;

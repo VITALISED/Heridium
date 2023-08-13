@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDifficultySettingsData;
 class cGcDifficultyStartWithAllItemsKnownOptionData;
 class cGcDifficultyStartWithAllItemsKnownOptionData;
 
 class cGcDifficultyConfig
 {
-    static const unsigned __int64 muNameHash = 12000092056246545782;
-    static const unsigned __int64 muTemplateHash = 2654791325781547460;
+    static const unsigned __int64 muNameHash = 0xA688E4255C8FED76;
+    static const unsigned __int64 muTemplateHash = 0x24D7B6A525FF59C4;
     static const int miNumMembers = 55;
 
     TkID<256> mPresetLocId;

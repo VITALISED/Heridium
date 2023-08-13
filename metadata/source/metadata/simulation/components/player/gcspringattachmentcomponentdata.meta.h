@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcSpringAttachmentComponentData
 {
-    static const unsigned __int64 muNameHash = 506130425683188108;
-    static const unsigned __int64 muTemplateHash = 996754194618802647;
+    static const unsigned __int64 muNameHash = 0x70622F0C8DD198C;
+    static const unsigned __int64 muTemplateHash = 0xDD52EA8B2A261D7;
     static const int miNumMembers = 3;
 
     bool mbEnabled;

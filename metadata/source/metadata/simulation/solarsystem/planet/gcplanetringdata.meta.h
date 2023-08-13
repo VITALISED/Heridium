@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPlanetRingData
 {
-    static const unsigned __int64 muNameHash = 5011335125415609413;
-    static const unsigned __int64 muTemplateHash = 11368137315032432996;
+    static const unsigned __int64 muNameHash = 0x458BD6BED0D5C445;
+    static const unsigned __int64 muTemplateHash = 0x9DC3BCA8345F0164;
     static const int miNumMembers = 12;
 
     bool mbHasRings;

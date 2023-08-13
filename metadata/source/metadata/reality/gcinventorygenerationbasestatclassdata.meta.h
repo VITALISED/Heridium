@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInventoryGenerationBaseStatClassData
 {
-    static const unsigned __int64 muNameHash = 12529332992633288656;
-    static const unsigned __int64 muTemplateHash = 3294934725894489671;
+    static const unsigned __int64 muNameHash = 0xADE121F93A7D37D0;
+    static const unsigned __int64 muTemplateHash = 0x2DB9F5AD070A4647;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcInventoryGenerationBaseStatDataEntry> maBaseStats;

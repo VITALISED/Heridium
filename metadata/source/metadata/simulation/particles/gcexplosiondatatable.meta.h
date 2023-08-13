@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcExplosionDataTable
 {
-    static const unsigned __int64 muNameHash = 18013147553527306143;
-    static const unsigned __int64 muTemplateHash = 9781486521362834933;
+    static const unsigned __int64 muNameHash = 0xF9FB8E431EB1179F;
+    static const unsigned __int64 muTemplateHash = 0x87BED22AA91A65F5;
     static const int miNumMembers = 2;
 
     cTkFixedString<128,char> macName;

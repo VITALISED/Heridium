@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRegionHotspotsTable
 {
-    static const unsigned __int64 muNameHash = 9155104841663361789;
-    static const unsigned __int64 muTemplateHash = 2227995610705464675;
+    static const unsigned __int64 muNameHash = 0x7F0D775900CDB2FD;
+    static const unsigned __int64 muTemplateHash = 0x1EEB6E34193A8D63;
     static const int miNumMembers = 8;
 
     float mfRegionHotspotsPoleSpacing;

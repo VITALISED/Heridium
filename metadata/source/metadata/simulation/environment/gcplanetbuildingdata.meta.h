@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPlanetBuildingData
 {
-    static const unsigned __int64 muNameHash = 17735525928779025582;
-    static const unsigned __int64 muTemplateHash = 11390444309689298131;
+    static const unsigned __int64 muNameHash = 0xF6213EDD899A8CAE;
+    static const unsigned __int64 muTemplateHash = 0x9E12FCC020E66CD3;
     static const int miNumMembers = 10;
 
     cTkDynamicArray<cGcBuildingSpawnSlot> maBuildingSlots;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 class cTkCameraWanderData;
 
 class cTkModelRendererCameraData
 {
-    static const unsigned __int64 muNameHash = 16336953942099070836;
-    static const unsigned __int64 muTemplateHash = 6028644359519035039;
+    static const unsigned __int64 muNameHash = 0xE2B8850DAEBB8F74;
+    static const unsigned __int64 muTemplateHash = 0x53AA0C1A964B5E9F;
     static const int miNumMembers = 8;
 
     float mfDistance;

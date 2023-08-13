@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eGalacticFeature
 {
     EGalacticFeature_Anomaly = 0,
@@ -10,8 +10,8 @@ enum eGalacticFeature
 
 class cGcMissionGalacticFeature
 {
-    static const unsigned __int64 muNameHash = 6984794387486676941;
-    static const unsigned __int64 muTemplateHash = 14523673430609806356;
+    static const unsigned __int64 muNameHash = 0x60EEF97D074917CD;
+    static const unsigned __int64 muTemplateHash = 0xC98E74091146C414;
     static const int miNumMembers = 1;
 
     eGalacticFeature meGalacticFeature;

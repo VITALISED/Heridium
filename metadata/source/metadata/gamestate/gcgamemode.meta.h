@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum ePresetGameMode
 {
     EPresetGameMode_Unspecified = 0,
@@ -14,8 +14,8 @@ enum ePresetGameMode
 
 class cGcGameMode
 {
-    static const unsigned __int64 muNameHash = 3170101668641081465;
-    static const unsigned __int64 muTemplateHash = 14366090958072274132;
+    static const unsigned __int64 muNameHash = 0x2BFE76ABF5398879;
+    static const unsigned __int64 muTemplateHash = 0xC75E9B9C8ED95CD4;
     static const int miNumMembers = 1;
 
     ePresetGameMode mePresetGameMode;

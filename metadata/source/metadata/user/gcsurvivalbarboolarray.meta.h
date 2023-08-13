@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSurvivalBarBoolArray
 {
-    static const unsigned __int64 muNameHash = 17519938799816287136;
-    static const unsigned __int64 muTemplateHash = 297608509160032898;
+    static const unsigned __int64 muNameHash = 0xF323538389A223A0;
+    static const unsigned __int64 muTemplateHash = 0x421515CBE9E0A82;
     static const int miNumMembers = 1;
 
     cTkFixedArray<bool> maValues;

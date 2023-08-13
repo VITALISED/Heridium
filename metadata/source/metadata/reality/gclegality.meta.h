@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eLegality
 {
     ELegality_Legal = 0,
@@ -9,8 +9,8 @@ enum eLegality
 
 class cGcLegality
 {
-    static const unsigned __int64 muNameHash = 8546913665976977683;
-    static const unsigned __int64 muTemplateHash = 12513691550151413581;
+    static const unsigned __int64 muNameHash = 0x769CBCB21A7D4913;
+    static const unsigned __int64 muTemplateHash = 0xADA9902A1B950F4D;
     static const int miNumMembers = 1;
 
     eLegality meLegality;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionHasPendingSettlementJudgement
 {
-    static const unsigned __int64 muNameHash = 16903890479356839964;
-    static const unsigned __int64 muTemplateHash = 2275248446027723171;
+    static const unsigned __int64 muNameHash = 0xEA96AED4902C081C;
+    static const unsigned __int64 muTemplateHash = 0x1F934E68293DF1A3;
     static const int miNumMembers = 1;
 
     TkID<128> mSpecificID;

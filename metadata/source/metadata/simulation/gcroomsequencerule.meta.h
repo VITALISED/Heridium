@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRoomSequenceRule
 {
-    static const unsigned __int64 muNameHash = 9470202208888684669;
-    static const unsigned __int64 muTemplateHash = 11651555197346639117;
+    static const unsigned __int64 muNameHash = 0x836CEABBD3EE007D;
+    static const unsigned __int64 muTemplateHash = 0xA1B2A3B82AB3ED0D;
     static const int miNumMembers = 4;
 
     TkID<128> mRoomID;

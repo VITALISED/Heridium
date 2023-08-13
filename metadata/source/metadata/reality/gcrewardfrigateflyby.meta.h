@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcFrigateFlybyType;
 class cGcPlayerCommunicatorMessage;
 class cTkTextureResource;
@@ -9,8 +9,8 @@ class cGcAudioWwiseEvents;
 
 class cGcRewardFrigateFlyby
 {
-    static const unsigned __int64 muNameHash = 4588318330121962662;
-    static const unsigned __int64 muTemplateHash = 17023442413428573271;
+    static const unsigned __int64 muNameHash = 0x3FACFB36175544A6;
+    static const unsigned __int64 muTemplateHash = 0xEC3F6AAE52BA8457;
     static const int miNumMembers = 8;
 
     cGcFrigateFlybyType mFlybyType;

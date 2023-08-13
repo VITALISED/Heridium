@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkTextureResource;
 class cTkTextureResource;
 
 class cGcSeasonalMilestoneEncryption
 {
-    static const unsigned __int64 muNameHash = 10764359093053583109;
-    static const unsigned __int64 muTemplateHash = 7390352404165924970;
+    static const unsigned __int64 muNameHash = 0x9562AF9028346F05;
+    static const unsigned __int64 muTemplateHash = 0x668FCE5B1743986A;
     static const int miNumMembers = 8;
 
     bool mbIsEncrypted;

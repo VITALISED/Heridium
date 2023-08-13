@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eLinkNetworkType
 {
     ELinkNetworkType_Power = 0,
@@ -13,8 +13,8 @@ enum eLinkNetworkType
 
 class cGcLinkNetworkTypes
 {
-    static const unsigned __int64 muNameHash = 11732162781022846512;
-    static const unsigned __int64 muTemplateHash = 5810057087287033116;
+    static const unsigned __int64 muNameHash = 0xA2D103E3C1ECFE30;
+    static const unsigned __int64 muTemplateHash = 0x50A178234C7BFD1C;
     static const int miNumMembers = 1;
 
     eLinkNetworkType meLinkNetworkType;

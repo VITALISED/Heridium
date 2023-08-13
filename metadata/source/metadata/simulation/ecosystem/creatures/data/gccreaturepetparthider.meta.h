@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcCreaturePetPartHider
 {
-    static const unsigned __int64 muNameHash = 14389682740869686077;
-    static const unsigned __int64 muTemplateHash = 10839991623229403296;
+    static const unsigned __int64 muNameHash = 0xC7B26C36881B633D;
+    static const unsigned __int64 muTemplateHash = 0x966F62F2D6CC70A0;
     static const int miNumMembers = 2;
 
     cTkFixedString<256,char> macAccessorySlot;

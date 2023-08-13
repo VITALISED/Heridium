@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eInventoryStackLimitsDifficulty
 {
     EInventoryStackLimitsDifficulty_High = 0,
@@ -10,8 +10,8 @@ enum eInventoryStackLimitsDifficulty
 
 class cGcInventoryStackLimitsDifficultyOption
 {
-    static const unsigned __int64 muNameHash = 13559141478927260678;
-    static const unsigned __int64 muTemplateHash = 6851057373988078507;
+    static const unsigned __int64 muNameHash = 0xBC2BBF55EEB95C06;
+    static const unsigned __int64 muTemplateHash = 0x5F13D862186143AB;
     static const int miNumMembers = 1;
 
     eInventoryStackLimitsDifficulty meInventoryStackLimitsDifficulty;

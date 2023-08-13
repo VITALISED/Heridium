@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcSentinelResource
 {
-    static const unsigned __int64 muNameHash = 470984300260981587;
-    static const unsigned __int64 muTemplateHash = 15878083237277303888;
+    static const unsigned __int64 muNameHash = 0x68945B9C7D77B53;
+    static const unsigned __int64 muTemplateHash = 0xDC5A48941FFF8450;
     static const int miNumMembers = 5;
 
     cTkFixedString<128,char> macResource;

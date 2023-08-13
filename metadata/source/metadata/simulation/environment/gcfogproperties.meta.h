@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcHeavyAirSetting;
 
 class cGcFogProperties
 {
-    static const unsigned __int64 muNameHash = 3670926775109687120;
-    static const unsigned __int64 muTemplateHash = 3856282092258546356;
+    static const unsigned __int64 muNameHash = 0x32F1C073DAE21750;
+    static const unsigned __int64 muTemplateHash = 0x35844421A6C552B4;
     static const int miNumMembers = 17;
 
     float mfFogStrength;

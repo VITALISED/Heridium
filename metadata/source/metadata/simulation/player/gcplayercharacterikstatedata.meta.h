@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPlayerCharacterStateType;
 class cGcPlayerCharacterIKOverrideData;
 
 class cGcPlayerCharacterIKStateData
 {
-    static const unsigned __int64 muNameHash = 5566365297841765806;
-    static const unsigned __int64 muTemplateHash = 4822421518883577227;
+    static const unsigned __int64 muNameHash = 0x4D3FB3BF1BEB7DAE;
+    static const unsigned __int64 muTemplateHash = 0x42ECAED236415D8B;
     static const int miNumMembers = 3;
 
     cGcPlayerCharacterStateType mState;

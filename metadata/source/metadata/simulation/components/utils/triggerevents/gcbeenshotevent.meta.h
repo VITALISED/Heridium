@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 enum eShotBy
 {
     EShotBy_Player = 0,
@@ -10,8 +10,8 @@ enum eShotBy
 
 class cGcBeenShotEvent
 {
-    static const unsigned __int64 muNameHash = 17677996469588848189;
-    static const unsigned __int64 muTemplateHash = 14406677698558433392;
+    static const unsigned __int64 muNameHash = 0xF554DC208673EE3D;
+    static const unsigned __int64 muTemplateHash = 0xC7EECD09781E1870;
     static const int miNumMembers = 3;
 
     eShotBy meShotBy;

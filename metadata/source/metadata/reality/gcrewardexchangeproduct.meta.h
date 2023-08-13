@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardExchangeProduct
 {
-    static const unsigned __int64 muNameHash = 3430493407175253110;
-    static const unsigned __int64 muTemplateHash = 542183820876418565;
+    static const unsigned __int64 muNameHash = 0x2F9B8F940B001C76;
+    static const unsigned __int64 muTemplateHash = 0x786394FFE4D8E05;
     static const int miNumMembers = 7;
 
     TkID<128> mIDToGive;

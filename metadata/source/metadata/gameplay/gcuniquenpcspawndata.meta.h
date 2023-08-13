@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcResourceElement;
 class cGcAlienRace;
 
 class cGcUniqueNPCSpawnData
 {
-    static const unsigned __int64 muNameHash = 13271026669653034722;
-    static const unsigned __int64 muTemplateHash = 561430529606961688;
+    static const unsigned __int64 muNameHash = 0xB82C2871716786E2;
+    static const unsigned __int64 muTemplateHash = 0x7CA9A1793484A18;
     static const int miNumMembers = 4;
 
     TkID<128> mId;

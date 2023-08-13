@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eDeathConsequencesDifficulty
 {
     EDeathConsequencesDifficulty_None = 0,
@@ -11,8 +11,8 @@ enum eDeathConsequencesDifficulty
 
 class cGcDeathConsequencesDifficultyOption
 {
-    static const unsigned __int64 muNameHash = 3934644126873188958;
-    static const unsigned __int64 muTemplateHash = 16774697340726435718;
+    static const unsigned __int64 muNameHash = 0x369AA9FC9BDA7A5E;
+    static const unsigned __int64 muTemplateHash = 0xE8CBB25AF0B05F86;
     static const int miNumMembers = 1;
 
     eDeathConsequencesDifficulty meDeathConsequencesDifficulty;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCreatureGenerationWeightedListDomainEntry
 {
-    static const unsigned __int64 muNameHash = 9384361703012847410;
-    static const unsigned __int64 muTemplateHash = 6716174403552486403;
+    static const unsigned __int64 muNameHash = 0x823BF33F97DC4F32;
+    static const unsigned __int64 muTemplateHash = 0x5D34A50945512403;
     static const int miNumMembers = 2;
 
     float mfWeight;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardCrashSiteFly
 {
-    static const unsigned __int64 muNameHash = 2911307657167616252;
-    static const unsigned __int64 muTemplateHash = 11445365155893513937;
+    static const unsigned __int64 muNameHash = 0x28670AE3B159B8FC;
+    static const unsigned __int64 muTemplateHash = 0x9ED61AF819AA8ED1;
     static const int miNumMembers = 1;
 
     TkID<256> mNPCScanEvent;

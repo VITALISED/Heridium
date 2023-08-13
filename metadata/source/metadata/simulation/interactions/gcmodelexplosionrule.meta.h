@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eMatchNodeType
 {
     EMatchNodeType_Any = 0,
@@ -25,8 +25,8 @@ enum eExplodeAction
 
 class cGcModelExplosionRule
 {
-    static const unsigned __int64 muNameHash = 11978753941065398023;
-    static const unsigned __int64 muTemplateHash = 17740438358773636970;
+    static const unsigned __int64 muNameHash = 0xA63D153E45037707;
+    static const unsigned __int64 muTemplateHash = 0xF632B2B1C66A9F6A;
     static const int miNumMembers = 7;
 
     eMatchNodeType meMatchNodeType;

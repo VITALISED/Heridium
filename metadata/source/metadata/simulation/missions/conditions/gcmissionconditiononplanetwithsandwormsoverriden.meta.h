@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionOnPlanetWithSandwormsOverriden
 {
-    static const unsigned __int64 muNameHash = 11987787837509033520;
-    static const unsigned __int64 muTemplateHash = 16448016064757614439;
+    static const unsigned __int64 muNameHash = 0xA65D2D8631795E30;
+    static const unsigned __int64 muTemplateHash = 0xE44317772FCBC767;
     static const int miNumMembers = 2;
 
     bool mbAllowInShip;

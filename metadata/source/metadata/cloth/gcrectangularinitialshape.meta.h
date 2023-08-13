@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRectangularInitialShape
 {
-    static const unsigned __int64 muNameHash = 15128732507527696788;
-    static const unsigned __int64 muTemplateHash = 14217646288364535378;
+    static const unsigned __int64 muNameHash = 0xD1F40E0F6517D194;
+    static const unsigned __int64 muTemplateHash = 0xC54F39F8901E7E52;
     static const int miNumMembers = 4;
 
     cTkVector mTopLineStart;

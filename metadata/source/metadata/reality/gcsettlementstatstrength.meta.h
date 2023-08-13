@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eSettlementStatStrength
 {
     ESettlementStatStrength_PositiveWide = 0,
@@ -14,8 +14,8 @@ enum eSettlementStatStrength
 
 class cGcSettlementStatStrength
 {
-    static const unsigned __int64 muNameHash = 4286371642018497007;
-    static const unsigned __int64 muTemplateHash = 3947394513922999744;
+    static const unsigned __int64 muNameHash = 0x3B7C404C59D201EF;
+    static const unsigned __int64 muTemplateHash = 0x36C7F6656EB4C5C0;
     static const int miNumMembers = 1;
 
     eSettlementStatStrength meSettlementStatStrength;

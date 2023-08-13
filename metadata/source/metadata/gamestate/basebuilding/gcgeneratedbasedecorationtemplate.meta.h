@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkModelResource;
 
 enum eDecorationLayer
@@ -17,8 +17,8 @@ enum eDecorationLayer
 
 class cGcGeneratedBaseDecorationTemplate
 {
-    static const unsigned __int64 muNameHash = 7165245757998254034;
-    static const unsigned __int64 muTemplateHash = 3607032295471227228;
+    static const unsigned __int64 muNameHash = 0x6370110DC5DC47D2;
+    static const unsigned __int64 muTemplateHash = 0x320EC0C308ECA15C;
     static const int miNumMembers = 6;
 
     TkID<128> mId;

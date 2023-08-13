@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eShipWeapon
 {
     EShipWeapon_Laser = 0,
@@ -14,8 +14,8 @@ enum eShipWeapon
 
 class cGcShipWeapons
 {
-    static const unsigned __int64 muNameHash = 14690706126297396200;
-    static const unsigned __int64 muTemplateHash = 3395100954027310173;
+    static const unsigned __int64 muNameHash = 0xCBDFDF631D9C73E8;
+    static const unsigned __int64 muTemplateHash = 0x2F1DD25465633C5D;
     static const int miNumMembers = 1;
 
     eShipWeapon meShipWeapon;

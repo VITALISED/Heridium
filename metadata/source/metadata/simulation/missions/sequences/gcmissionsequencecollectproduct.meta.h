@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcDefaultMissionProductEnum;
 class cGcItemNeedPurpose;
 
 class cGcMissionSequenceCollectProduct
 {
-    static const unsigned __int64 muNameHash = 1413674622248804622;
-    static const unsigned __int64 muTemplateHash = 6668139896080909268;
+    static const unsigned __int64 muNameHash = 0x139E6194371FE10E;
+    static const unsigned __int64 muTemplateHash = 0x5C89FDE7FA8343D4;
     static const int miNumMembers = 16;
 
     cTkFixedString<128,char> macMessage;

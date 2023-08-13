@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eWealthClass
 {
     EWealthClass_Poor = 0,
@@ -11,8 +11,8 @@ enum eWealthClass
 
 class cGcWealthClass
 {
-    static const unsigned __int64 muNameHash = 13887175962503257952;
-    static const unsigned __int64 muTemplateHash = 17232441587370030564;
+    static const unsigned __int64 muNameHash = 0xC0B928F5E2599F60;
+    static const unsigned __int64 muTemplateHash = 0xEF25EE5283DBF5E4;
     static const int miNumMembers = 1;
 
     eWealthClass meWealthClass;

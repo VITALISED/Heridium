@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcMonthlyRecurrence
 {
-    static const unsigned __int64 muNameHash = 417575407607984297;
-    static const unsigned __int64 muTemplateHash = 6468812799794146215;
+    static const unsigned __int64 muNameHash = 0x5CB869EED69B0A9;
+    static const unsigned __int64 muTemplateHash = 0x59C5D6F7DA3AEBA7;
     static const int miNumMembers = 4;
 
     int miRecurrenceMinute;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eVolumeTriggerType
 {
     EVolumeTriggerType_Open = 0,
@@ -25,8 +25,8 @@ enum eVolumeTriggerType
 
 class cTkVolumeTriggerType
 {
-    static const unsigned __int64 muNameHash = 11885796946295927165;
-    static const unsigned __int64 muTemplateHash = 10010357453208292006;
+    static const unsigned __int64 muNameHash = 0xA4F2D5595864317D;
+    static const unsigned __int64 muTemplateHash = 0x8AEBEF11092A0AA6;
     static const int miNumMembers = 1;
 
     eVolumeTriggerType meVolumeTriggerType;

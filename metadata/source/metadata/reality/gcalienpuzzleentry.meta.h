@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAlienRace;
 class cGcInteractionType;
 class cGcAlienPuzzleCategory;
@@ -24,8 +24,8 @@ class cGcAudioWwiseEvents;
 
 class cGcAlienPuzzleEntry
 {
-    static const unsigned __int64 muNameHash = 16005537776342771906;
-    static const unsigned __int64 muTemplateHash = 8728737343435719619;
+    static const unsigned __int64 muNameHash = 0xDE1F17CE7E01A8C2;
+    static const unsigned __int64 muTemplateHash = 0x7922B45DF52C43C3;
     static const int miNumMembers = 24;
 
     int miProgressionIndex;

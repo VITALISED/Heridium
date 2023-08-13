@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAlienRace;
 class cGcGalaxyStarAnomaly;
 class cGcPlayerConflictData;
@@ -11,8 +11,8 @@ class cGcBiomeSubType;
 
 class cGcScanEventSolarSystemLookup
 {
-    static const unsigned __int64 muNameHash = 16511269002601515958;
-    static const unsigned __int64 muTemplateHash = 15881376410813697476;
+    static const unsigned __int64 muNameHash = 0xE523CFAD6AFB4BB6;
+    static const unsigned __int64 muTemplateHash = 0xDC65FBB3D6D18DC4;
     static const int miNumMembers = 32;
 
     bool mbUseStarType;

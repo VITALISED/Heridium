@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eBlackboardCategory
 {
     EBlackboardCategory_Local = 0,
@@ -10,8 +10,8 @@ enum eBlackboardCategory
 
 class cTkBlackboardCategory
 {
-    static const unsigned __int64 muNameHash = 187960066899453949;
-    static const unsigned __int64 muTemplateHash = 10689503415107726413;
+    static const unsigned __int64 muNameHash = 0x29BC4AF5B8027FD;
+    static const unsigned __int64 muTemplateHash = 0x9458BEB87AD22C4D;
     static const int miNumMembers = 1;
 
     eBlackboardCategory meBlackboardCategory;

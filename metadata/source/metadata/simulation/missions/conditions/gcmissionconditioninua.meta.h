@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionInUA
 {
-    static const unsigned __int64 muNameHash = 6143955972722854162;
-    static const unsigned __int64 muTemplateHash = 6719974105069035785;
+    static const unsigned __int64 muNameHash = 0x5543B767B5C90912;
+    static const unsigned __int64 muTemplateHash = 0x5D4224D83876A109;
     static const int miNumMembers = 1;
 
     cTkFixedString<256,char> macUA;

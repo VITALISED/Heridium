@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcResourceElement;
 class cGcAudioWwiseEvents;
 class cGcAudioWwiseEvents;
@@ -29,8 +29,8 @@ enum eClass
 
 class cGcProjectileData
 {
-    static const unsigned __int64 muNameHash = 11004062684979443703;
-    static const unsigned __int64 muTemplateHash = 4031198943604122442;
+    static const unsigned __int64 muNameHash = 0x98B648B5C054B7F7;
+    static const unsigned __int64 muTemplateHash = 0x37F1B214BC74234A;
     static const int miNumMembers = 44;
 
     TkID<128> mId;

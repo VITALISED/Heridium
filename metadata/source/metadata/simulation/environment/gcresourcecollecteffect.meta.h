@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcResourceCollectEffect
 {
-    static const unsigned __int64 muNameHash = 14812211627375035242;
-    static const unsigned __int64 muTemplateHash = 10459568105384814743;
+    static const unsigned __int64 muNameHash = 0xCD8F8BFF2399836A;
+    static const unsigned __int64 muTemplateHash = 0x9127D9C65177A897;
     static const int miNumMembers = 13;
 
     float mfPlayerOffset;

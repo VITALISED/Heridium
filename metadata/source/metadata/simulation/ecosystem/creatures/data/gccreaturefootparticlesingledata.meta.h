@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 enum eMoveSpeed
 {
     EMoveSpeed_Always = 0,
@@ -10,8 +10,8 @@ enum eMoveSpeed
 
 class cGcCreatureFootParticleSingleData
 {
-    static const unsigned __int64 muNameHash = 10146809180271245116;
-    static const unsigned __int64 muTemplateHash = 10428084417911788982;
+    static const unsigned __int64 muNameHash = 0x8CD0B53079BD773C;
+    static const unsigned __int64 muTemplateHash = 0x90B7FF87196B15B6;
     static const int miNumMembers = 5;
 
     TkID<128> mEffectName;

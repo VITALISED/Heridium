@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eAttractorType
 {
     EAttractorType_Food = 0,
@@ -9,8 +9,8 @@ enum eAttractorType
 
 class cGcCreatureAttractorComponentData
 {
-    static const unsigned __int64 muNameHash = 3409325529930184533;
-    static const unsigned __int64 muTemplateHash = 6422376942617028969;
+    static const unsigned __int64 muNameHash = 0x2F505B818F28B755;
+    static const unsigned __int64 muTemplateHash = 0x5920DDCD5658E969;
     static const int miNumMembers = 4;
 
     bool mbUniversal;

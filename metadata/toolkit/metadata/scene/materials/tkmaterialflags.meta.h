@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eMaterialFlag
 {
     EMaterialFlag__F01_DIFFUSEMAP = 0,
@@ -71,8 +71,8 @@ enum eMaterialFlag
 
 class cTkMaterialFlags
 {
-    static const unsigned __int64 muNameHash = 8169828175862301751;
-    static const unsigned __int64 muTemplateHash = 16866876716920193095;
+    static const unsigned __int64 muNameHash = 0x71610F70BA400437;
+    static const unsigned __int64 muTemplateHash = 0xEA132F026E55C047;
     static const int miNumMembers = 1;
 
     eMaterialFlag meMaterialFlag;

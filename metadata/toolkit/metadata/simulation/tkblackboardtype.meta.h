@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eBlackboardType
 {
     EBlackboardType_Invalid = 0,
@@ -14,8 +14,8 @@ enum eBlackboardType
 
 class cTkBlackboardType
 {
-    static const unsigned __int64 muNameHash = 5264053985994684399;
-    static const unsigned __int64 muTemplateHash = 9394868641888375850;
+    static const unsigned __int64 muNameHash = 0x490DAD35C9B137EF;
+    static const unsigned __int64 muTemplateHash = 0x82614740EF36942A;
     static const int miNumMembers = 1;
 
     eBlackboardType meBlackboardType;

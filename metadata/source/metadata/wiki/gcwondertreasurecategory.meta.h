@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eWonderTreasureCategory
 {
     EWonderTreasureCategory_Loot = 0,
@@ -20,8 +20,8 @@ enum eWonderTreasureCategory
 
 class cGcWonderTreasureCategory
 {
-    static const unsigned __int64 muNameHash = 6061133416234270980;
-    static const unsigned __int64 muTemplateHash = 8677847459372650350;
+    static const unsigned __int64 muNameHash = 0x541D78BA92E4C104;
+    static const unsigned __int64 muTemplateHash = 0x786DE8497EEECF6E;
     static const int miNumMembers = 1;
 
     eWonderTreasureCategory meWonderTreasureCategory;

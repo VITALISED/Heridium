@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkPostProcessData
 {
-    static const unsigned __int64 muNameHash = 17969354017226757180;
-    static const unsigned __int64 muTemplateHash = 12589171993105234339;
+    static const unsigned __int64 muNameHash = 0xF95FF845E00A143C;
+    static const unsigned __int64 muTemplateHash = 0xAEB5B93A395579A3;
     static const int miNumMembers = 10;
 
     float mfDOFNearPlane;

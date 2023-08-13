@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkCreatureTailJoints
 {
-    static const unsigned __int64 muNameHash = 256000943805254883;
-    static const unsigned __int64 muTemplateHash = 14324724163166954027;
+    static const unsigned __int64 muNameHash = 0x38D7F8085AD4CE3;
+    static const unsigned __int64 muTemplateHash = 0xC6CBA4BB1305622B;
     static const int miNumMembers = 10;
 
     cTkFixedString<32,char> macStartJoint;

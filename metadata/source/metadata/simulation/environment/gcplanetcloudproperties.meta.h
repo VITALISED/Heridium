@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eCloudiness
 {
     ECloudiness_CloudyWithClearSpells = 0,
@@ -9,8 +9,8 @@ enum eCloudiness
 
 class cGcPlanetCloudProperties
 {
-    static const unsigned __int64 muNameHash = 10872862482211952050;
-    static const unsigned __int64 muTemplateHash = 11498301768931613519;
+    static const unsigned __int64 muNameHash = 0x96E42AD217EA55B2;
+    static const unsigned __int64 muTemplateHash = 0x9F922C89C96A1B4F;
     static const int miNumMembers = 12;
 
     cTkSeed mSeed;

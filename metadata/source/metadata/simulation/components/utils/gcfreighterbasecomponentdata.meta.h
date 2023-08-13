@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eFreighterBaseGenerationMode
 {
     EFreighterBaseGenerationMode_Prefab = 0,
@@ -9,8 +9,8 @@ enum eFreighterBaseGenerationMode
 
 class cGcFreighterBaseComponentData
 {
-    static const unsigned __int64 muNameHash = 9368041025814500765;
-    static const unsigned __int64 muTemplateHash = 17772703410342257947;
+    static const unsigned __int64 muNameHash = 0x8201F7ADD0F5959D;
+    static const unsigned __int64 muTemplateHash = 0xF6A553967FD2E51B;
     static const int miNumMembers = 4;
 
     eFreighterBaseGenerationMode meFreighterBaseGenerationMode;

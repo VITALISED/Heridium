@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSeasonSaveStateOnDeath;
 
 class cGcSeasonStateData
 {
-    static const unsigned __int64 muNameHash = 5460358153749092980;
-    static const unsigned __int64 muTemplateHash = 17951919291607497523;
+    static const unsigned __int64 muNameHash = 0x4BC716CF849F5A74;
+    static const unsigned __int64 muTemplateHash = 0xF922077B7CBF3B33;
     static const int miNumMembers = 8;
 
     cTkDynamicArray<float> maMilestoneValues;

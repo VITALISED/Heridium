@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcWiringSocketComponentData
 {
-    static const unsigned __int64 muNameHash = 14766570959838333102;
-    static const unsigned __int64 muTemplateHash = 5695803120075886809;
+    static const unsigned __int64 muNameHash = 0xCCED660D23C348AE;
+    static const unsigned __int64 muTemplateHash = 0x4F0B8EC292AF50D9;
     static const int miNumMembers = 1;
 
     bool mbValue;

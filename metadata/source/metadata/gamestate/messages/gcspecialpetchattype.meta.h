@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eSpecialPetChatType
 {
     ESpecialPetChatType_Monster = 0,
@@ -10,8 +10,8 @@ enum eSpecialPetChatType
 
 class cGcSpecialPetChatType
 {
-    static const unsigned __int64 muNameHash = 3983580308971776271;
-    static const unsigned __int64 muTemplateHash = 5753945310870801292;
+    static const unsigned __int64 muNameHash = 0x3748852F6280E90F;
+    static const unsigned __int64 muTemplateHash = 0x4FDA1EC6477A8B8C;
     static const int miNumMembers = 1;
 
     eSpecialPetChatType meSpecialPetChatType;

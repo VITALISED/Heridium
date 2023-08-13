@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPlayerEmoteList
 {
-    static const unsigned __int64 muNameHash = 2658308152778182434;
-    static const unsigned __int64 muTemplateHash = 11317630566738678066;
+    static const unsigned __int64 muNameHash = 0x24E4352E3DDE4F22;
+    static const unsigned __int64 muTemplateHash = 0x9D104D097D8FD132;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcPlayerEmote> maEmotes;

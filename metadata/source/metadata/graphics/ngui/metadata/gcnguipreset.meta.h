@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcNGuiLayoutData;
 
 class cGcNGuiPreset
 {
-    static const unsigned __int64 muNameHash = 3581102350472978808;
-    static const unsigned __int64 muTemplateHash = 817178807194014936;
+    static const unsigned __int64 muNameHash = 0x31B2A19D40422178;
+    static const unsigned __int64 muTemplateHash = 0xB5733CBA8C6D4D8;
     static const int miNumMembers = 5;
 
     cTkFixedString<128,char> macFont;

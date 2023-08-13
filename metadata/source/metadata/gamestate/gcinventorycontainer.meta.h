@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInventoryClass;
 class cGcInventoryStackSizeGroup;
 
 class cGcInventoryContainer
 {
-    static const unsigned __int64 muNameHash = 12648175466744569361;
-    static const unsigned __int64 muTemplateHash = 7711365262255670573;
+    static const unsigned __int64 muNameHash = 0xAF875892F81EDE11;
+    static const unsigned __int64 muTemplateHash = 0x6B0445D97609452D;
     static const int miNumMembers = 11;
 
     cTkDynamicArray<cGcInventoryElement> maSlots;

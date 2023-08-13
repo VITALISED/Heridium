@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eGcStatEnum
 {
     EGcStatEnum_None = 0,
@@ -25,8 +25,8 @@ enum eGcStatEnum
 
 class cGcStatsEnum
 {
-    static const unsigned __int64 muNameHash = 12456515173934351074;
-    static const unsigned __int64 muTemplateHash = 746571622737470437;
+    static const unsigned __int64 muNameHash = 0xACDE6E8DA19EC2E2;
+    static const unsigned __int64 muTemplateHash = 0xA5C5AEF74A763E5;
     static const int miNumMembers = 1;
 
     eGcStatEnum meGcStatEnum;

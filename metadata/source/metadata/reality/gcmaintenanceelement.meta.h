@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcMaintenanceElementGroups;
 class cGcInventoryType;
 
@@ -32,8 +32,8 @@ enum eCompletionRequirement
 
 class cGcMaintenanceElement
 {
-    static const unsigned __int64 muNameHash = 8772372670641850262;
-    static const unsigned __int64 muTemplateHash = 14377612206952116651;
+    static const unsigned __int64 muNameHash = 0x79BDBA7746F3C796;
+    static const unsigned __int64 muTemplateHash = 0xC7878A2059B371AB;
     static const int miNumMembers = 12;
 
     cGcMaintenanceElementGroups mItemGroupOverride;

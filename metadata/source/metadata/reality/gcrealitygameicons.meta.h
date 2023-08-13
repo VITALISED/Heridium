@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eGameIcons
 {
     EGameIcons_Stamina = 0,
@@ -93,8 +93,8 @@ enum eGameIcons
 
 class cGcRealityGameIcons
 {
-    static const unsigned __int64 muNameHash = 9766355963954310889;
-    static const unsigned __int64 muTemplateHash = 17292269892950923537;
+    static const unsigned __int64 muNameHash = 0x878911013D83AEE9;
+    static const unsigned __int64 muTemplateHash = 0xEFFA7BD969859911;
     static const int miNumMembers = 1;
 
     eGameIcons meGameIcons;

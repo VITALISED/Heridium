@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcFrigateFlybyType;
 
 class cGcFrigateFlybyLayout
 {
-    static const unsigned __int64 muNameHash = 12806362726447573577;
-    static const unsigned __int64 muTemplateHash = 15298430018312326853;
+    static const unsigned __int64 muNameHash = 0xB1B9570C76B5EA49;
+    static const unsigned __int64 muTemplateHash = 0xD44EF10C0EADCEC5;
     static const int miNumMembers = 6;
 
     cGcFrigateFlybyType mFlybyType;

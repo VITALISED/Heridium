@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 class cTkModelResource;
 
 class cTkLODModelResource
 {
-    static const unsigned __int64 muNameHash = 14278209687796756481;
-    static const unsigned __int64 muTemplateHash = 2168411521701844638;
+    static const unsigned __int64 muNameHash = 0xC626640FD5AAB001;
+    static const unsigned __int64 muTemplateHash = 0x1E17BECA4DE7169E;
     static const int miNumMembers = 3;
 
     cTkModelResource mLODModel;

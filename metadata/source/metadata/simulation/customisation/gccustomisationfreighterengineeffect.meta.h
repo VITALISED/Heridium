@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkModelResource;
 
 class cGcCustomisationFreighterEngineEffect
 {
-    static const unsigned __int64 muNameHash = 650985547985669487;
-    static const unsigned __int64 muTemplateHash = 454838828632786952;
+    static const unsigned __int64 muNameHash = 0x908C3E825994D6F;
+    static const unsigned __int64 muTemplateHash = 0x64FE9813AB64808;
     static const int miNumMembers = 5;
 
     TkID<128> mName;

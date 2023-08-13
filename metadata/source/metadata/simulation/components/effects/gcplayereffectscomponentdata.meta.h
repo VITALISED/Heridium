@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPlayerEffectsComponentData
 {
-    static const unsigned __int64 muNameHash = 12641817697072487279;
-    static const unsigned __int64 muTemplateHash = 9179402123499649189;
+    static const unsigned __int64 muNameHash = 0xAF70C2375D409B6F;
+    static const unsigned __int64 muTemplateHash = 0x7F63C998C5A9B8A5;
     static const int miNumMembers = 3;
 
     float mfVehicleInOutTime;

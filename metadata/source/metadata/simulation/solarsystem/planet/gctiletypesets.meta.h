@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcTileTypeSets
 {
-    static const unsigned __int64 muNameHash = 17987373044467256701;
-    static const unsigned __int64 muTemplateHash = 10961640767294563918;
+    static const unsigned __int64 muNameHash = 0xF99FFC7B95E84D7D;
+    static const unsigned __int64 muTemplateHash = 0x981F92335A08664E;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcTileTypeSet> maTileTypeSets;

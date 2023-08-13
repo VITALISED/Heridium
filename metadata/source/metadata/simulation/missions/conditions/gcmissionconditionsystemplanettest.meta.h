@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPlayerHazardType;
 
 class cGcMissionConditionSystemPlanetTest
 {
-    static const unsigned __int64 muNameHash = 12837111294377203004;
-    static const unsigned __int64 muTemplateHash = 14023211501338083063;
+    static const unsigned __int64 muNameHash = 0xB22694B55382153C;
+    static const unsigned __int64 muTemplateHash = 0xC29C748FF36DBEF7;
     static const int miNumMembers = 2;
 
     bool mbRequiresExtremePlanet;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eKeyPress
 {
     EKeyPress_1 = 0,
@@ -20,8 +20,8 @@ enum eKeyPress
 
 class cGcExperienceDebugTriggerInput
 {
-    static const unsigned __int64 muNameHash = 850518907619779892;
-    static const unsigned __int64 muTemplateHash = 14351165319809353227;
+    static const unsigned __int64 muNameHash = 0xBCDA670B36E2534;
+    static const unsigned __int64 muTemplateHash = 0xC72994D29824460B;
     static const int miNumMembers = 2;
 
     eKeyPress meKeyPress;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcBiomeType;
 
 class cGcExternalObjectFileList
 {
-    static const unsigned __int64 muNameHash = 8562283163766121170;
-    static const unsigned __int64 muTemplateHash = 3692881622378482806;
+    static const unsigned __int64 muNameHash = 0x76D3572C2A9662D2;
+    static const unsigned __int64 muTemplateHash = 0x333FC04513700C76;
     static const int miNumMembers = 14;
 
     TkID<128> mId;

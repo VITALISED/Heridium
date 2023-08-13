@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDamageType;
 
 enum eHitType
@@ -12,8 +12,8 @@ enum eHitType
 
 class cGcMessageProjectileImpact
 {
-    static const unsigned __int64 muNameHash = 9132215918098444875;
-    static const unsigned __int64 muTemplateHash = 13231751554195318848;
+    static const unsigned __int64 muNameHash = 0x7EBC25FE326CF24B;
+    static const unsigned __int64 muTemplateHash = 0xB7A09FEF0808E840;
     static const int miNumMembers = 12;
 
     TkID<128> mId;

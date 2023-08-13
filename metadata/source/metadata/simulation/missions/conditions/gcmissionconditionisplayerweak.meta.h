@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eProgressType
 {
     EProgressType_ShipOrWeapon = 0,
@@ -10,8 +10,8 @@ enum eProgressType
 
 class cGcMissionConditionIsPlayerWeak
 {
-    static const unsigned __int64 muNameHash = 1975362634991941153;
-    static const unsigned __int64 muTemplateHash = 7476339575709844543;
+    static const unsigned __int64 muNameHash = 0x1B69E5D9C1463621;
+    static const unsigned __int64 muTemplateHash = 0x67C14B3B9661443F;
     static const int miNumMembers = 1;
 
     eProgressType meProgressType;

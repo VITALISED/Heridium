@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eSucceedWhen
 {
     ESucceedWhen_AllChildrenSucceed = 0,
@@ -15,8 +15,8 @@ enum eFailWhen
 
 class cTkBehaviourTreeConcurrentSelectorData
 {
-    static const unsigned __int64 muNameHash = 6521399169779243639;
-    static const unsigned __int64 muTemplateHash = 2862793245620880940;
+    static const unsigned __int64 muNameHash = 0x5A80A9FE39381A77;
+    static const unsigned __int64 muTemplateHash = 0x27BAAF4A069EC62C;
     static const int miNumMembers = 4;
 
     TkID<128> mName;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eActivationType
 {
     EActivationType_GroupNode = 0,
@@ -9,8 +9,8 @@ enum eActivationType
 
 class cGcObjectPlacementComponentData
 {
-    static const unsigned __int64 muNameHash = 7286990426740477303;
-    static const unsigned __int64 muTemplateHash = 4904874204197059124;
+    static const unsigned __int64 muNameHash = 0x6520972F5B89CD77;
+    static const unsigned __int64 muTemplateHash = 0x44119D1A01247A34;
     static const int miNumMembers = 7;
 
     cTkFixedString<32,char> macGroupNodeName;

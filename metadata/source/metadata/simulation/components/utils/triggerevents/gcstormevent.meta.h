@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcStormEvent
 {
-    static const unsigned __int64 muNameHash = 18283504278478900894;
-    static const unsigned __int64 muTemplateHash = 6269829330816328587;
+    static const unsigned __int64 muNameHash = 0xFDBC0E456811CE9E;
+    static const unsigned __int64 muTemplateHash = 0x5702E88EB1A1E38B;
     static const int miNumMembers = 1;
 
     bool mbInStorm;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAttachedNode
 {
-    static const unsigned __int64 muNameHash = 8026622453461042651;
-    static const unsigned __int64 muTemplateHash = 14871448885531236584;
+    static const unsigned __int64 muNameHash = 0x6F644A9834B845DB;
+    static const unsigned __int64 muTemplateHash = 0xCE61FFF81577D8E8;
     static const int miNumMembers = 11;
 
     bool mbEnabled;

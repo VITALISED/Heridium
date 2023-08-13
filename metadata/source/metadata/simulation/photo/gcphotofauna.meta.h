@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPhotoCreature;
 
 class cGcPhotoFauna
 {
-    static const unsigned __int64 muNameHash = 12235386834819209828;
-    static const unsigned __int64 muTemplateHash = 9115480508535746479;
+    static const unsigned __int64 muNameHash = 0xA9CCD3801AE3DA64;
+    static const unsigned __int64 muTemplateHash = 0x7E80B13A04452FAF;
     static const int miNumMembers = 4;
 
     int miAmountMin;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcCreatureStupidName
 {
-    static const unsigned __int64 muNameHash = 8598748637299084454;
-    static const unsigned __int64 muTemplateHash = 12849968536183802855;
+    static const unsigned __int64 muNameHash = 0x7754E453D7160CA6;
+    static const unsigned __int64 muTemplateHash = 0xB254424D362E8BE7;
     static const int miNumMembers = 3;
 
     TkID<128> mId;

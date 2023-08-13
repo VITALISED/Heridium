@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCreatureGenerationWeightedList
 {
-    static const unsigned __int64 muNameHash = 16507770376651241772;
-    static const unsigned __int64 muTemplateHash = 5697659262110189288;
+    static const unsigned __int64 muNameHash = 0xE51761B21603792C;
+    static const unsigned __int64 muTemplateHash = 0x4F1226E9514AC6E8;
     static const int miNumMembers = 4;
 
     cTkDynamicArray<cGcCreatureGenerationWeightedListDomainEntry> maGround;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcFreighterRoomNPCSpawnCapacityEntry
 {
-    static const unsigned __int64 muNameHash = 11028437859421236723;
-    static const unsigned __int64 muTemplateHash = 9539588194704718912;
+    static const unsigned __int64 muNameHash = 0x990CE1CD4E45ADF3;
+    static const unsigned __int64 muTemplateHash = 0x84636CEB90E27C40;
     static const int miNumMembers = 2;
 
     TkID<128> mRoomID;

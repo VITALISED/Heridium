@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDialogClearanceTable
 {
-    static const unsigned __int64 muNameHash = 11723247092605120573;
-    static const unsigned __int64 muTemplateHash = 13307064853661349671;
+    static const unsigned __int64 muNameHash = 0xA2B1571E48DBF03D;
+    static const unsigned __int64 muTemplateHash = 0xB8AC30FB0591F727;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcDialogClearanceInfo> maTable;

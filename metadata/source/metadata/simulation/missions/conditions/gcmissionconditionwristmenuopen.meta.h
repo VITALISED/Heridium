@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionWristMenuOpen
 {
-    static const unsigned __int64 muNameHash = 10560467871556263943;
-    static const unsigned __int64 muTemplateHash = 16361536584762733879;
+    static const unsigned __int64 muNameHash = 0x928E5193D2096007;
+    static const unsigned __int64 muTemplateHash = 0xE30FDAD632573537;
     static const int miNumMembers = 4;
 
     bool mbLeftHandOnly;

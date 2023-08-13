@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eMessageType
 {
     EMessageType_Leave = 0,
@@ -9,8 +9,8 @@ enum eMessageType
 
 class cGcShipMessage
 {
-    static const unsigned __int64 muNameHash = 9022688428104071189;
-    static const unsigned __int64 muTemplateHash = 15923135501857321437;
+    static const unsigned __int64 muNameHash = 0x7D370752342BB815;
+    static const unsigned __int64 muTemplateHash = 0xDCFA575FE29DF1DD;
     static const int miNumMembers = 1;
 
     eMessageType meMessageType;

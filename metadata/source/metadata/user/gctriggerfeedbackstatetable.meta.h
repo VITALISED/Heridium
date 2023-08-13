@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcTriggerFeedbackStateTable
 {
-    static const unsigned __int64 muNameHash = 7945914851083478054;
-    static const unsigned __int64 muTemplateHash = 3107223269191406302;
+    static const unsigned __int64 muNameHash = 0x6E458F753254E426;
+    static const unsigned __int64 muTemplateHash = 0x2B1F1319BDFB52DE;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcTriggerFeedbackState> maEvents;

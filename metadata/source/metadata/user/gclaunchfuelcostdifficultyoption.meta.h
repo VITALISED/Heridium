@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eLaunchFuelCostDifficulty
 {
     ELaunchFuelCostDifficulty_Free = 0,
@@ -11,8 +11,8 @@ enum eLaunchFuelCostDifficulty
 
 class cGcLaunchFuelCostDifficultyOption
 {
-    static const unsigned __int64 muNameHash = 13264103095897623595;
-    static const unsigned __int64 muTemplateHash = 7901311230071816018;
+    static const unsigned __int64 muNameHash = 0xB8138F7D4F230C2B;
+    static const unsigned __int64 muTemplateHash = 0x6DA718B3683C3F52;
     static const int miNumMembers = 1;
 
     eLaunchFuelCostDifficulty meLaunchFuelCostDifficulty;

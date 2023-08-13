@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../../../pch.h"
+
 enum eCreatureIkType
 {
     ECreatureIkType_Foot = 0,
@@ -16,8 +16,8 @@ enum eCreatureIkType
 
 class cGcCreatureIkType
 {
-    static const unsigned __int64 muNameHash = 1899545898014998727;
-    static const unsigned __int64 muTemplateHash = 4788605407137940538;
+    static const unsigned __int64 muNameHash = 0x1A5C8AEE15BC00C7;
+    static const unsigned __int64 muTemplateHash = 0x42748B3F25F8C43A;
     static const int miNumMembers = 1;
 
     eCreatureIkType meCreatureIkType;

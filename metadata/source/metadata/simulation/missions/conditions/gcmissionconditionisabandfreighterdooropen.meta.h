@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eAbandonedFreighterDoorStatus
 {
     EAbandonedFreighterDoorStatus_DungeonNotReady = 0,
@@ -11,8 +11,8 @@ enum eAbandonedFreighterDoorStatus
 
 class cGcMissionConditionIsAbandFreighterDoorOpen
 {
-    static const unsigned __int64 muNameHash = 3707466158809692056;
-    static const unsigned __int64 muTemplateHash = 3233990021284043119;
+    static const unsigned __int64 muNameHash = 0x337390D414A23798;
+    static const unsigned __int64 muTemplateHash = 0x2CE170CA39CB196F;
     static const int miNumMembers = 1;
 
     eAbandonedFreighterDoorStatus meAbandonedFreighterDoorStatus;

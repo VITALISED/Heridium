@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eDensity
 {
     EDensity_Sparse = 0,
@@ -11,8 +11,8 @@ enum eDensity
 
 class cGcCreatureGenerationDensity
 {
-    static const unsigned __int64 muNameHash = 3230459906049927472;
-    static const unsigned __int64 muTemplateHash = 7815527712350059492;
+    static const unsigned __int64 muNameHash = 0x2CD4E62B393F6930;
+    static const unsigned __int64 muTemplateHash = 0x6C76550BC2D8BBE4;
     static const int miNumMembers = 1;
 
     eDensity meDensity;

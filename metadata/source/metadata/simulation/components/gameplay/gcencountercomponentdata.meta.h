@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcEncounterType;
 
 class cGcEncounterComponentData
 {
-    static const unsigned __int64 muNameHash = 1994364765877295708;
-    static const unsigned __int64 muTemplateHash = 10052578717892104793;
+    static const unsigned __int64 muNameHash = 0x1BAD68301EABDA5C;
+    static const unsigned __int64 muTemplateHash = 0x8B81EF15449C5259;
     static const int miNumMembers = 2;
 
     cGcEncounterType mEncounterType;

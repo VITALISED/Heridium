@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcScanEventGPSHint;
 
 class cGcMissionSequenceWaitForScanEvent
 {
-    static const unsigned __int64 muNameHash = 14981437575264649059;
-    static const unsigned __int64 muTemplateHash = 323215354671097530;
+    static const unsigned __int64 muNameHash = 0xCFE8C2198256BF63;
+    static const unsigned __int64 muTemplateHash = 0x47C4AA7111F66BA;
     static const int miNumMembers = 12;
 
     cTkFixedString<128,char> macMessage;

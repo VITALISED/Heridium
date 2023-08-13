@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eDifficultyPresetType
 {
     EDifficultyPresetType_Invalid = 0,
@@ -14,8 +14,8 @@ enum eDifficultyPresetType
 
 class cGcDifficultyPresetType
 {
-    static const unsigned __int64 muNameHash = 6053157858724730985;
-    static const unsigned __int64 muTemplateHash = 4538180819447221718;
+    static const unsigned __int64 muNameHash = 0x5401230062A6D869;
+    static const unsigned __int64 muTemplateHash = 0x3EFADB6935A48DD6;
     static const int miNumMembers = 1;
 
     eDifficultyPresetType meDifficultyPresetType;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum ePointState
 {
     EPointState_Statement = 0,
@@ -10,8 +10,8 @@ enum ePointState
 
 class cGcMissionSequenceDetailMessagePoint
 {
-    static const unsigned __int64 muNameHash = 14048128829996334698;
-    static const unsigned __int64 muTemplateHash = 1229926587997250740;
+    static const unsigned __int64 muNameHash = 0xC2F4FABD9EDAFE6A;
+    static const unsigned __int64 muTemplateHash = 0x111193B7216264B4;
     static const int miNumMembers = 3;
 
     TkID<256> mText;

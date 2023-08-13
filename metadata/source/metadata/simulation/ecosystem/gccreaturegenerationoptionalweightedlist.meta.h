@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCreatureGenerationWeightedList;
 
 class cGcCreatureGenerationOptionalWeightedList
 {
-    static const unsigned __int64 muNameHash = 4603441480881559087;
-    static const unsigned __int64 muTemplateHash = 13096645399698785548;
+    static const unsigned __int64 muNameHash = 0x3FE2B5A3043E562F;
+    static const unsigned __int64 muTemplateHash = 0xB5C0A19A1E4CC50C;
     static const int miNumMembers = 3;
 
     float mfProbability;

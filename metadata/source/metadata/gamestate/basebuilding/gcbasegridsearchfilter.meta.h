@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcLinkNetworkTypes;
 
 class cGcBaseGridSearchFilter
 {
-    static const unsigned __int64 muNameHash = 11824321546476984849;
-    static const unsigned __int64 muTemplateHash = 5774238978313250536;
+    static const unsigned __int64 muNameHash = 0xA4186DCC6FC21A11;
+    static const unsigned __int64 muTemplateHash = 0x502237C1EE9366E8;
     static const int miNumMembers = 14;
 
     cGcLinkNetworkTypes mNetworkType;

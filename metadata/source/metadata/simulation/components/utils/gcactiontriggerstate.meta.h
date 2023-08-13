@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcActionTriggerState
 {
-    static const unsigned __int64 muNameHash = 5882815571619135981;
-    static const unsigned __int64 muTemplateHash = 9278170367777822730;
+    static const unsigned __int64 muNameHash = 0x51A3F598097EC1ED;
+    static const unsigned __int64 muTemplateHash = 0x80C2AECAA8F3D80A;
     static const int miNumMembers = 2;
 
     TkID<128> mStateID;

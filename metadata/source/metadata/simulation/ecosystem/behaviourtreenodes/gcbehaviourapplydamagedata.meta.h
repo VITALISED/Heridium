@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkBlackboardDefaultValueId;
 class cTkBlackboardDefaultValueFloat;
 class cTkBlackboardDefaultValueVector;
 
 class cGcBehaviourApplyDamageData
 {
-    static const unsigned __int64 muNameHash = 9867108241990073574;
-    static const unsigned __int64 muTemplateHash = 12791887501930149449;
+    static const unsigned __int64 muNameHash = 0x88EF02AAFC25BCE6;
+    static const unsigned __int64 muTemplateHash = 0xB185E9E89F4E3649;
     static const int miNumMembers = 3;
 
     cTkBlackboardDefaultValueId mPlayerDamageType;

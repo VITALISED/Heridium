@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcCreatureIkType;
 class cGcPlayerCharacterIKOverrideData;
 
 class cGcIKConstraint
 {
-    static const unsigned __int64 muNameHash = 11140578998980617233;
-    static const unsigned __int64 muTemplateHash = 7877568092399899986;
+    static const unsigned __int64 muNameHash = 0x9A9B4993026AA411;
+    static const unsigned __int64 muTemplateHash = 0x6D52BE7161729552;
     static const int miNumMembers = 5;
 
     TkID<128> mId;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCreaturePetTraits;
 
 class cGcPetEggTraitModifierOverrideData
 {
-    static const unsigned __int64 muNameHash = 16234732335950011772;
-    static const unsigned __int64 muTemplateHash = 1235564870438200983;
+    static const unsigned __int64 muNameHash = 0xE14D5B0B53D91D7C;
+    static const unsigned __int64 muTemplateHash = 0x11259BB40F6BA697;
     static const int miNumMembers = 5;
 
     TkID<128> mProductID;

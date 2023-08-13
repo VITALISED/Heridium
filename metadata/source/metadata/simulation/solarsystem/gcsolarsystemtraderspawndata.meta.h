@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcSolarSystemTraderSpawnData
 {
-    static const unsigned __int64 muNameHash = 4855786062415366014;
-    static const unsigned __int64 muTemplateHash = 5376918012530951896;
+    static const unsigned __int64 muNameHash = 0x436337B25B8F877E;
+    static const unsigned __int64 muTemplateHash = 0x4A9EA671BB4E86D8;
     static const int miNumMembers = 4;
 
     int miMaxToSpawn;

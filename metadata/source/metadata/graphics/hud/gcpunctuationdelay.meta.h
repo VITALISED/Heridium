@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPunctuationDelay
 {
-    static const unsigned __int64 muNameHash = 9870374239594735995;
-    static const unsigned __int64 muTemplateHash = 1800491754779208221;
+    static const unsigned __int64 muNameHash = 0x88FA9D134F35E97B;
+    static const unsigned __int64 muTemplateHash = 0x18FCA1B628A26A1D;
     static const int miNumMembers = 2;
 
     cTkFixedString<32,char> macPunctuation;

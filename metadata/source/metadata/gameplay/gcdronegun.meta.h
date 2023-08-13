@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDroneGun
 {
-    static const unsigned __int64 muNameHash = 8521843333190263396;
-    static const unsigned __int64 muTemplateHash = 12399941990245807384;
+    static const unsigned __int64 muNameHash = 0x7643AB5C62562264;
+    static const unsigned __int64 muTemplateHash = 0xAC15718ADC0D3518;
     static const int miNumMembers = 2;
 
     cTkFixedString<32,char> macLocator;

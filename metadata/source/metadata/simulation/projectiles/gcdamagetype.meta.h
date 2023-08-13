@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eDamageType
 {
     EDamageType_Gun = 0,
@@ -30,8 +30,8 @@ enum eDamageType
 
 class cGcDamageType
 {
-    static const unsigned __int64 muNameHash = 14776173944314807265;
-    static const unsigned __int64 muTemplateHash = 4378911887880551491;
+    static const unsigned __int64 muNameHash = 0xCD0F83EA324443E1;
+    static const unsigned __int64 muTemplateHash = 0x3CC505295BDAFC43;
     static const int miNumMembers = 1;
 
     eDamageType meDamageType;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkLSystemGlobalVariation
 {
-    static const unsigned __int64 muNameHash = 17877098284409856857;
-    static const unsigned __int64 muTemplateHash = 10429014035294908279;
+    static const unsigned __int64 muNameHash = 0xF818362C38FEA359;
+    static const unsigned __int64 muTemplateHash = 0x90BB4D028350EF77;
     static const int miNumMembers = 3;
 
     cTkFixedString<32,char> macName;

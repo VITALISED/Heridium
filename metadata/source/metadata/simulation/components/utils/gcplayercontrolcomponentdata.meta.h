@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPlayerControlInput;
 class cTkBlackboardKey;
 class cTkBlackboardKey;
@@ -8,8 +8,8 @@ class cTkBlackboardKey;
 
 class cGcPlayerControlComponentData
 {
-    static const unsigned __int64 muNameHash = 16236679328288461165;
-    static const unsigned __int64 muTemplateHash = 11663149535846255124;
+    static const unsigned __int64 muNameHash = 0xE15445D2CE8FD16D;
+    static const unsigned __int64 muTemplateHash = 0xA1DBD4B57660CA14;
     static const int miNumMembers = 7;
 
     TkID<128> mInitialState;

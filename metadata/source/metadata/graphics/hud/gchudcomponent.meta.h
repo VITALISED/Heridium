@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eAlign
 {
     EAlign_Center = 0,
@@ -12,8 +12,8 @@ enum eAlign
 
 class cGcHUDComponent
 {
-    static const unsigned __int64 muNameHash = 10833658529945828924;
-    static const unsigned __int64 muTemplateHash = 3856757100363203482;
+    static const unsigned __int64 muNameHash = 0x9658E308A74D3E3C;
+    static const unsigned __int64 muTemplateHash = 0x3585F426181D439A;
     static const int miNumMembers = 6;
 
     TkID<128> mID;

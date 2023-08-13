@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcIDLookupPath
 {
-    static const unsigned __int64 muNameHash = 3413111263910178306;
-    static const unsigned __int64 muTemplateHash = 13003078106575949767;
+    static const unsigned __int64 muNameHash = 0x2F5DCE9C70402E02;
+    static const unsigned __int64 muTemplateHash = 0xB47436A5091E4FC7;
     static const int miNumMembers = 2;
 
     TkID<128> mId;

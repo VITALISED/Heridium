@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcAISpaceshipRoles;
 class cGcRealityCommonFactions;
 class cGcAISpaceshipTypes;
 
 class cGcDoShipEscort
 {
-    static const unsigned __int64 muNameHash = 471768852687405547;
-    static const unsigned __int64 muTemplateHash = 1307806931136873517;
+    static const unsigned __int64 muNameHash = 0x68C0F45A086C1EB;
+    static const unsigned __int64 muTemplateHash = 0x122643798D35042D;
     static const int miNumMembers = 7;
 
     bool mbMatchRole;

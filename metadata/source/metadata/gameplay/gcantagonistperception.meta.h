@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eViewShape
 {
     EViewShape_Pyramid = 0,
@@ -9,8 +9,8 @@ enum eViewShape
 
 class cGcAntagonistPerception
 {
-    static const unsigned __int64 muNameHash = 4960398092451109067;
-    static const unsigned __int64 muTemplateHash = 10073660454214665247;
+    static const unsigned __int64 muNameHash = 0x44D6DFC8A512D8CB;
+    static const unsigned __int64 muTemplateHash = 0x8BCCD4CF815D841F;
     static const int miNumMembers = 7;
 
     TkID<128> mId;

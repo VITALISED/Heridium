@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkGraphicsDetailTypes;
 class cTkGraphicsDetailTypes;
 class cTkGraphicsDetailTypes;
@@ -87,8 +87,8 @@ class cTkDynamicResScalingSettings;
 
 class cTkGraphicsDetailPreset
 {
-    static const unsigned __int64 muNameHash = 6260262515468866544;
-    static const unsigned __int64 muTemplateHash = 12905476527101403001;
+    static const unsigned __int64 muNameHash = 0x56E0EB96EB3713F0;
+    static const unsigned __int64 muTemplateHash = 0xB319768677055F79;
     static const int miNumMembers = 18;
 
     cTkGraphicsDetailTypes mTextureQuality;

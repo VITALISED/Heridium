@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkAnimationData;
 
 class cTkAnimationComponentData
 {
-    static const unsigned __int64 muNameHash = 4007355883935026090;
-    static const unsigned __int64 muTemplateHash = 13053177279703774964;
+    static const unsigned __int64 muNameHash = 0x379CFCF1CE84CBAA;
+    static const unsigned __int64 muTemplateHash = 0xB5263393C2F176F4;
     static const int miNumMembers = 5;
 
     cTkAnimationData mIdle;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eActiveSurvivalBarsDifficulty
 {
     EActiveSurvivalBarsDifficulty_None = 0,
@@ -11,8 +11,8 @@ enum eActiveSurvivalBarsDifficulty
 
 class cGcActiveSurvivalBarsDifficultyOption
 {
-    static const unsigned __int64 muNameHash = 10867040909151211487;
-    static const unsigned __int64 muTemplateHash = 7202139900387640204;
+    static const unsigned __int64 muNameHash = 0x96CF7C217D988FDF;
+    static const unsigned __int64 muTemplateHash = 0x63F32414B145C38C;
     static const int miNumMembers = 1;
 
     eActiveSurvivalBarsDifficulty meActiveSurvivalBarsDifficulty;

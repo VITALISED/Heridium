@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardTraderFlyby
 {
-    static const unsigned __int64 muNameHash = 10240428490924970129;
-    static const unsigned __int64 muTemplateHash = 12541899526596706009;
+    static const unsigned __int64 muNameHash = 0x8E1D4F74D55F5091;
+    static const unsigned __int64 muTemplateHash = 0xAE0DC72B6B6FBED9;
     static const int miNumMembers = 1;
 
     int miExperienceSpawnIndex;

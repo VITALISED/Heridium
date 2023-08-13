@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkNoiseUberData;
 class cTkNoiseVoxelTypeEnum;
 class cTkNoiseOffsetEnum;
@@ -14,8 +14,8 @@ enum eWaterFade
 
 class cTkNoiseUberLayerData
 {
-    static const unsigned __int64 muNameHash = 1678870957730357864;
-    static const unsigned __int64 muTemplateHash = 4544202769922207823;
+    static const unsigned __int64 muNameHash = 0x174C8C3DB33CE268;
+    static const unsigned __int64 muTemplateHash = 0x3F104057D08F304F;
     static const int miNumMembers = 19;
 
     cTkNoiseUberData mNoiseData;

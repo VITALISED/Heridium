@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionCreatureReadyToLay
 {
-    static const unsigned __int64 muNameHash = 7967730370681266712;
-    static const unsigned __int64 muTemplateHash = 3760974875109601792;
+    static const unsigned __int64 muNameHash = 0x6E93108EAA8C6218;
+    static const unsigned __int64 muTemplateHash = 0x3431AAB8F013B200;
     static const int miNumMembers = 1;
 
     bool mbPrimaryCreatureOnly;

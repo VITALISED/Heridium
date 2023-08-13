@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcHUDMarkerData
 {
-    static const unsigned __int64 muNameHash = 8300275210688589055;
-    static const unsigned __int64 muTemplateHash = 11823526484583978762;
+    static const unsigned __int64 muNameHash = 0x73308053CF12ECFF;
+    static const unsigned __int64 muTemplateHash = 0xA4159AB1AA0D170A;
     static const int miNumMembers = 3;
 
     cTkFixedString<128,char> macIcon;

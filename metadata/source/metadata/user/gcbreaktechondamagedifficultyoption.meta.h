@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eBreakTechOnDamageProbability
 {
     EBreakTechOnDamageProbability_None = 0,
@@ -10,8 +10,8 @@ enum eBreakTechOnDamageProbability
 
 class cGcBreakTechOnDamageDifficultyOption
 {
-    static const unsigned __int64 muNameHash = 1754379857863836334;
-    static const unsigned __int64 muTemplateHash = 3207122654370909179;
+    static const unsigned __int64 muNameHash = 0x1858CF2F851302AE;
+    static const unsigned __int64 muTemplateHash = 0x2C81FD0FE4E2CBFB;
     static const int miNumMembers = 1;
 
     eBreakTechOnDamageProbability meBreakTechOnDamageProbability;

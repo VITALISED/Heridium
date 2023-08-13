@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 enum eHUDTextDisplayType
 {
     EHUDTextDisplayType_Full = 0,
@@ -13,8 +13,8 @@ class cGcAlienRace;
 
 class cGcDisplayText
 {
-    static const unsigned __int64 muNameHash = 4171393038499078249;
-    static const unsigned __int64 muTemplateHash = 15449687630261776541;
+    static const unsigned __int64 muNameHash = 0x39E3C3DE16466069;
+    static const unsigned __int64 muTemplateHash = 0xD668510B347FF09D;
     static const int miNumMembers = 6;
 
     eHUDTextDisplayType meHUDTextDisplayType;

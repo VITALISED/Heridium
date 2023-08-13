@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eLinesPosition
 {
     ELinesPosition_Absolute = 0,
@@ -9,8 +9,8 @@ enum eLinesPosition
 
 class cTkSpeedLineData
 {
-    static const unsigned __int64 muNameHash = 17050621237264047871;
-    static const unsigned __int64 muTemplateHash = 16448803975953497516;
+    static const unsigned __int64 muNameHash = 0xEC9FF9AD5EDADEFF;
+    static const unsigned __int64 muTemplateHash = 0xE445E4110EBDBDAC;
     static const int miNumMembers = 15;
 
     cTkFixedString<128,char> macMaterial;

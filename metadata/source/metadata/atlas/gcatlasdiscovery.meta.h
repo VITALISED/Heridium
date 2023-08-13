@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAtlasDownloadType;
 class cGcDiscoveryOwner;
 class cGcAtlasDiscoveryData;
@@ -9,8 +9,8 @@ class cGcAtlasMessage;
 
 class cGcAtlasDiscovery
 {
-    static const unsigned __int64 muNameHash = 614389764173957108;
-    static const unsigned __int64 muTemplateHash = 4188173024373523327;
+    static const unsigned __int64 muNameHash = 0x886C03C3F3987F4;
+    static const unsigned __int64 muTemplateHash = 0x3A1F612CFFA8437F;
     static const int miNumMembers = 7;
 
     cGcAtlasDownloadType mPackageType;

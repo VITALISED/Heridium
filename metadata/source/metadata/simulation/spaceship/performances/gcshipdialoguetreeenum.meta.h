@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eDialogueTree
 {
     EDialogueTree_Bribe = 0,
@@ -14,8 +14,8 @@ enum eDialogueTree
 
 class cGcShipDialogueTreeEnum
 {
-    static const unsigned __int64 muNameHash = 13586057301885081745;
-    static const unsigned __int64 muTemplateHash = 14688853516064891156;
+    static const unsigned __int64 muNameHash = 0xBC8B5F2250F65891;
+    static const unsigned __int64 muTemplateHash = 0xCBD94A72AECBA114;
     static const int miNumMembers = 1;
 
     eDialogueTree meDialogueTree;

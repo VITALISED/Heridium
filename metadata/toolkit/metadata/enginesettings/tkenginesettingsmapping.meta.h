@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkEngineSettingsMapping
 {
-    static const unsigned __int64 muNameHash = 865519960867517517;
-    static const unsigned __int64 muTemplateHash = 3673245363599039052;
+    static const unsigned __int64 muNameHash = 0xC02F1D19584B44D;
+    static const unsigned __int64 muTemplateHash = 0x32F9FD324E2BDA4C;
     static const int miNumMembers = 7;
 
     cTkFixedArray<float> maShadowMultiplier;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eCoordinateOrientation
 {
     ECoordinateOrientation_None = 0,
@@ -9,8 +9,8 @@ enum eCoordinateOrientation
 
 class cTkCoordinateOrientation
 {
-    static const unsigned __int64 muNameHash = 6846246940454441160;
-    static const unsigned __int64 muTemplateHash = 1939857555490630517;
+    static const unsigned __int64 muNameHash = 0x5F02C151C26450C8;
+    static const unsigned __int64 muTemplateHash = 0x1AEBC22B3DE06B75;
     static const int miNumMembers = 1;
 
     eCoordinateOrientation meCoordinateOrientation;

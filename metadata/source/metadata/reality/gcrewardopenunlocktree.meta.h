@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcUnlockableItemTreeGroups;
 
 class cGcRewardOpenUnlockTree
 {
-    static const unsigned __int64 muNameHash = 8017739095141156568;
-    static const unsigned __int64 muTemplateHash = 4425295292589061356;
+    static const unsigned __int64 muNameHash = 0x6F44BB3A2BA686D8;
+    static const unsigned __int64 muTemplateHash = 0x3D69CE9F54FAB4EC;
     static const int miNumMembers = 2;
 
     cGcUnlockableItemTreeGroups mTreeToOpen;

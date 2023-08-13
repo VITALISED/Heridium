@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eCollisionGroup
 {
     ECollisionGroup_Normal = 1,
@@ -23,8 +23,8 @@ enum eCollisionGroup
 
 class cGcPhysicsCollisionGroups
 {
-    static const unsigned __int64 muNameHash = 3001035876041279380;
-    static const unsigned __int64 muTemplateHash = 3712971104389744660;
+    static const unsigned __int64 muNameHash = 0x29A5D23AA5A4C794;
+    static const unsigned __int64 muTemplateHash = 0x33871F8C1A70C814;
     static const int miNumMembers = 1;
 
     eCollisionGroup meCollisionGroup;

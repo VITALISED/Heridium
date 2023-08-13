@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcGameMode;
 
 class cGcMissionConditionGameMode
 {
-    static const unsigned __int64 muNameHash = 12381496490211408049;
-    static const unsigned __int64 muTemplateHash = 6569854444268467389;
+    static const unsigned __int64 muNameHash = 0xABD3E97536CBF8B1;
+    static const unsigned __int64 muTemplateHash = 0x5B2CCFCEF8A4B4BD;
     static const int miNumMembers = 1;
 
     cGcGameMode mMode;

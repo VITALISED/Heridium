@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardJetpackBoost
 {
-    static const unsigned __int64 muNameHash = 11746819315723554511;
-    static const unsigned __int64 muTemplateHash = 3836240827539477740;
+    static const unsigned __int64 muNameHash = 0xA30515EE2A664ECF;
+    static const unsigned __int64 muTemplateHash = 0x353D10B5165754EC;
     static const int miNumMembers = 4;
 
     float mfDuration;

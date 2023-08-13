@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcFireSimpleInteractionAction
 {
-    static const unsigned __int64 muNameHash = 12708892401931251178;
-    static const unsigned __int64 muTemplateHash = 3441700805421488253;
+    static const unsigned __int64 muNameHash = 0xB05F0E4E11C5EDEA;
+    static const unsigned __int64 muTemplateHash = 0x2FC360A5CA52D87D;
     static const int miNumMembers = 0;
 
 };

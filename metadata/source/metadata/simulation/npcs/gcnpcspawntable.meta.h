@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcNPCSpawnTable
 {
-    static const unsigned __int64 muNameHash = 17229282327775738477;
-    static const unsigned __int64 muTemplateHash = 7847536495400137678;
+    static const unsigned __int64 muNameHash = 0xEF1AB4FE11FCFA6D;
+    static const unsigned __int64 muTemplateHash = 0x6CE80CDD523D33CE;
     static const int miNumMembers = 4;
 
     cTkFixedArray<cTkFixedString<128,char> > maNPCModelNames;

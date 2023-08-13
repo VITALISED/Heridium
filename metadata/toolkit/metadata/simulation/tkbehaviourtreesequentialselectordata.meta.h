@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkBehaviourTreeSequentialSelectorData
 {
-    static const unsigned __int64 muNameHash = 17564319597013828090;
-    static const unsigned __int64 muTemplateHash = 16339003276473047438;
+    static const unsigned __int64 muNameHash = 0xF3C0FF9D1D7101FA;
+    static const unsigned __int64 muTemplateHash = 0xE2BFCCE9861E998E;
     static const int miNumMembers = 4;
 
     TkID<128> mName;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eBaseBuildingMode
 {
     EBaseBuildingMode_Inactive = 0,
@@ -12,8 +12,8 @@ enum eBaseBuildingMode
 
 class cGcBaseBuildingMode
 {
-    static const unsigned __int64 muNameHash = 14085460870954876662;
-    static const unsigned __int64 muTemplateHash = 367161651134866487;
+    static const unsigned __int64 muNameHash = 0xC3799C08BEEDFEF6;
+    static const unsigned __int64 muTemplateHash = 0x5186B938F0A2437;
     static const int miNumMembers = 1;
 
     eBaseBuildingMode meBaseBuildingMode;

@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPlayerExperienceAsteroidCreatureSpawnTable;
 class cGcSentinelWaveGroup;
 
 class cGcExperienceSpawnTable
 {
-    static const unsigned __int64 muNameHash = 6867042999624323673;
-    static const unsigned __int64 muTemplateHash = 13821405071827684753;
+    static const unsigned __int64 muNameHash = 0x5F4CA33999F0D259;
+    static const unsigned __int64 muTemplateHash = 0xBFCF7EAF13124D91;
     static const int miNumMembers = 29;
 
     cTkDynamicArray<cGcAIShipSpawnData> maFlybySpawns;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcCharacterControlInputValidity;
 class cGcInputActions;
 class cGcInputActions;
@@ -8,8 +8,8 @@ class cGcCharacterControlOutputSpace;
 
 class cGcPlayerControlInputAxis
 {
-    static const unsigned __int64 muNameHash = 5955093600762498762;
-    static const unsigned __int64 muTemplateHash = 3075246122752088976;
+    static const unsigned __int64 muNameHash = 0x52A4BE1415A68ECA;
+    static const unsigned __int64 muTemplateHash = 0x2AAD780E27891B90;
     static const int miNumMembers = 6;
 
     cGcCharacterControlInputValidity mValidity;

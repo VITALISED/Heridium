@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eCombatTimerDifficultyOption
 {
     ECombatTimerDifficultyOption_Off = 0,
@@ -11,8 +11,8 @@ enum eCombatTimerDifficultyOption
 
 class cGcCombatTimerDifficultyOption
 {
-    static const unsigned __int64 muNameHash = 17584267993349040560;
-    static const unsigned __int64 muTemplateHash = 4108983444971433258;
+    static const unsigned __int64 muNameHash = 0xF407DE9312D729B0;
+    static const unsigned __int64 muTemplateHash = 0x39060AAC417BAD2A;
     static const int miNumMembers = 1;
 
     eCombatTimerDifficultyOption meCombatTimerDifficultyOption;

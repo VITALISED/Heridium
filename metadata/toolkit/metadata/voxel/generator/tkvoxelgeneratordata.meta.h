@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkNoiseVoxelTypeEnum;
 class cTkNoiseVoxelTypeEnum;
 
 class cTkVoxelGeneratorData
 {
-    static const unsigned __int64 muNameHash = 8805789778211848341;
-    static const unsigned __int64 muTemplateHash = 3837628485798644599;
+    static const unsigned __int64 muNameHash = 0x7A347325F1154095;
+    static const unsigned __int64 muTemplateHash = 0x3541FEC673F2CB77;
     static const int miNumMembers = 17;
 
     cTkSeed mBaseSeed;

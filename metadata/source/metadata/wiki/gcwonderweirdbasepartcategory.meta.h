@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eWonderWeirdBasePartCategory
 {
     EWonderWeirdBasePartCategory_EngineOrb = 0,
@@ -18,8 +18,8 @@ enum eWonderWeirdBasePartCategory
 
 class cGcWonderWeirdBasePartCategory
 {
-    static const unsigned __int64 muNameHash = 13797728350418479552;
-    static const unsigned __int64 muTemplateHash = 14194560026295162460;
+    static const unsigned __int64 muNameHash = 0xBF7B60D4CA07A9C0;
+    static const unsigned __int64 muTemplateHash = 0xC4FD35234E48565C;
     static const int miNumMembers = 1;
 
     eWonderWeirdBasePartCategory meWonderWeirdBasePartCategory;

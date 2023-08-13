@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionCategory;
 class cGcAudioWwiseEvents;
 
@@ -14,8 +14,8 @@ enum eOSDMessageStyle
 
 class cGcMissionSequenceShowMessage
 {
-    static const unsigned __int64 muNameHash = 17071090710860095977;
-    static const unsigned __int64 muTemplateHash = 274435612777383476;
+    static const unsigned __int64 muNameHash = 0xECE8B28E154961E9;
+    static const unsigned __int64 muTemplateHash = 0x3CEFDBC5D500634;
     static const int miNumMembers = 14;
 
     cGcMissionCategory mCategory;

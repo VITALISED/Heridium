@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eMultiItemRewardType
 {
     EMultiItemRewardType_Product = 0,
@@ -15,8 +15,8 @@ class cGcRarity;
 
 class cGcMultiSpecificItemEntry
 {
-    static const unsigned __int64 muNameHash = 8374956474526272204;
-    static const unsigned __int64 muTemplateHash = 1045918966872880000;
+    static const unsigned __int64 muNameHash = 0x7439D28A897F0ACC;
+    static const unsigned __int64 muTemplateHash = 0xE83D9C2444D3380;
     static const int miNumMembers = 14;
 
     eMultiItemRewardType meMultiItemRewardType;

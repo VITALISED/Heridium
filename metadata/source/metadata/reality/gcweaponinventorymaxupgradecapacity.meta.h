@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcWeaponInventoryMaxUpgradeCapacity
 {
-    static const unsigned __int64 muNameHash = 13959494521620514826;
-    static const unsigned __int64 muTemplateHash = 11706336869754684385;
+    static const unsigned __int64 muNameHash = 0xC1BA164E8D33C80A;
+    static const unsigned __int64 muTemplateHash = 0xA275435C36C943E1;
     static const int miNumMembers = 1;
 
     cTkFixedArray<int> maMaxInventoryCapacity;

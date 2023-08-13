@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcDate;
 class cGcDate;
 
 class cGcMissionSchedulingData
 {
-    static const unsigned __int64 muNameHash = 14398537151688066738;
-    static const unsigned __int64 muTemplateHash = 2931483705563776531;
+    static const unsigned __int64 muNameHash = 0xC7D1E140B3A1C6B2;
+    static const unsigned __int64 muTemplateHash = 0x28AEB8E606F98613;
     static const int miNumMembers = 7;
 
     cTkClassPointer mRecurrenceType;

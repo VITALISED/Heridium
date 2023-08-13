@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eGlobalMission
 {
     EGlobalMission_Atlas = 0,
@@ -11,8 +11,8 @@ enum eGlobalMission
 
 class cGcRewardChangeGlobalMission
 {
-    static const unsigned __int64 muNameHash = 12467002055706005002;
-    static const unsigned __int64 muTemplateHash = 4269123793424536200;
+    static const unsigned __int64 muNameHash = 0xAD03B051106BCE0A;
+    static const unsigned __int64 muTemplateHash = 0x3B3EF978A93CD288;
     static const int miNumMembers = 1;
 
     eGlobalMission meGlobalMission;

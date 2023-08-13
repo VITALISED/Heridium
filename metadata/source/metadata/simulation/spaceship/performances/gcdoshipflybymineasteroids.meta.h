@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcDoShipFlybyMineAsteroids
 {
-    static const unsigned __int64 muNameHash = 9320978001055746259;
-    static const unsigned __int64 muTemplateHash = 12619009527633612545;
+    static const unsigned __int64 muNameHash = 0x815AC41B782888D3;
+    static const unsigned __int64 muTemplateHash = 0xAF1FBA4E97DF0F01;
     static const int miNumMembers = 1;
 
     float mfTime;

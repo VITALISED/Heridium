@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardScanEventNearestBuilding
 {
-    static const unsigned __int64 muNameHash = 4419541192022243697;
-    static const unsigned __int64 muTemplateHash = 7115412882914860488;
+    static const unsigned __int64 muNameHash = 0x3D555D4C64B13971;
+    static const unsigned __int64 muTemplateHash = 0x62BF06516460DDC8;
     static const int miNumMembers = 2;
 
     bool mbDoAerialScan;

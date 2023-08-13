@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcTerrainTileType;
 
 class cGcExternalObjectListOptions
 {
-    static const unsigned __int64 muNameHash = 5902023670277192018;
-    static const unsigned __int64 muTemplateHash = 12860736101005273034;
+    static const unsigned __int64 muNameHash = 0x51E8334202D1B952;
+    static const unsigned __int64 muTemplateHash = 0xB27A8358427627CA;
     static const int miNumMembers = 9;
 
     TkID<128> mName;

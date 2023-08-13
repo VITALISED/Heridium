@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eActiveModeOnFoot
 {
     EActiveModeOnFoot_None = 0,
@@ -85,8 +85,8 @@ enum ePitchAxisDirection
 
 class cGcGyroSettingsData
 {
-    static const unsigned __int64 muNameHash = 5668222649587095134;
-    static const unsigned __int64 muTemplateHash = 15867155809322491492;
+    static const unsigned __int64 muNameHash = 0x4EA99277E076565E;
+    static const unsigned __int64 muTemplateHash = 0xDC3376240A715E64;
     static const int miNumMembers = 34;
 
     bool mbGyroEnabled;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPulseEncounterSpawnAlienFreighter
 {
-    static const unsigned __int64 muNameHash = 6881276309253335466;
-    static const unsigned __int64 muTemplateHash = 15241766015646911672;
+    static const unsigned __int64 muNameHash = 0x5F7F34583E5B29AA;
+    static const unsigned __int64 muTemplateHash = 0xD385A16FD8414CB8;
     static const int miNumMembers = 1;
 
     TkID<256> mHailingPuzzleID;

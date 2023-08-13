@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcPlayerSpawnStateData;
 
 class cGcSceneSettings
 {
-    static const unsigned __int64 muNameHash = 17823123903666454179;
-    static const unsigned __int64 muTemplateHash = 4405730233770989597;
+    static const unsigned __int64 muNameHash = 0xF75874C269CFFEA3;
+    static const unsigned __int64 muTemplateHash = 0x3D244C4E181E581D;
     static const int miNumMembers = 12;
 
     cTkFixedString<128,char> macNextSettingFile;

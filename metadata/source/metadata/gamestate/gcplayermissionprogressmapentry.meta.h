@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcPlayerMissionProgressMapEntry
 {
-    static const unsigned __int64 muNameHash = 9032903031223876069;
-    static const unsigned __int64 muTemplateHash = 6343289474914866824;
+    static const unsigned __int64 muNameHash = 0x7D5B5172D2A5F9E5;
+    static const unsigned __int64 muTemplateHash = 0x5807E42B53C65688;
     static const int miNumMembers = 4;
 
     TkID<128> mMission;

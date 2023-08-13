@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eBasePartAudioLocation
 {
     EBasePartAudioLocation_None = 0,
@@ -12,8 +12,8 @@ enum eBasePartAudioLocation
 
 class cGcBasePartAudioLocation
 {
-    static const unsigned __int64 muNameHash = 9448932404036913109;
-    static const unsigned __int64 muTemplateHash = 3348601496667277785;
+    static const unsigned __int64 muNameHash = 0x832159F5794C47D5;
+    static const unsigned __int64 muTemplateHash = 0x2E789F51CF31C9D9;
     static const int miNumMembers = 1;
 
     eBasePartAudioLocation meBasePartAudioLocation;

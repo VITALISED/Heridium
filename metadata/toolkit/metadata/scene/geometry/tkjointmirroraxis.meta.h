@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkJointMirrorAxis
 {
-    static const unsigned __int64 muNameHash = 14086001652704372275;
-    static const unsigned __int64 muTemplateHash = 7557413229771981982;
+    static const unsigned __int64 muNameHash = 0xC37B87DF4F026633;
+    static const unsigned __int64 muTemplateHash = 0x68E1534AA565849E;
     static const int miNumMembers = 11;
 
     float mfTransMirrorAxisX;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcByteBeatToken;
 
 class cGcByteBeatTemplate
 {
-    static const unsigned __int64 muNameHash = 13214959897271298783;
-    static const unsigned __int64 muTemplateHash = 10893876432876312174;
+    static const unsigned __int64 muNameHash = 0xB764F802BDE36ADF;
+    static const unsigned __int64 muTemplateHash = 0x972ED2E5C097966E;
     static const int miNumMembers = 5;
 
     float mfWeight;

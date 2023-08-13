@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcStyleProp_Font
 {
-    static const unsigned __int64 muNameHash = 14998903769025268081;
-    static const unsigned __int64 muTemplateHash = 8063088433997472856;
+    static const unsigned __int64 muNameHash = 0xD026CF82A504C971;
+    static const unsigned __int64 muTemplateHash = 0x6FE5D835ECFAE458;
     static const int miNumMembers = 1;
 
     int miFontIndex;

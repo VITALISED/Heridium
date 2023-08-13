@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcItemPriceModifiers
 {
-    static const unsigned __int64 muNameHash = 5338685385137017145;
-    static const unsigned __int64 muTemplateHash = 5288010820545208453;
+    static const unsigned __int64 muNameHash = 0x4A16D2127CA95139;
+    static const unsigned __int64 muTemplateHash = 0x4962C9D2FF04E085;
     static const int miNumMembers = 5;
 
     float mfSpaceStationMarkup;

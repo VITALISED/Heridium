@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBuildingFilenameList
 {
-    static const unsigned __int64 muNameHash = 14547452129001192960;
-    static const unsigned __int64 muTemplateHash = 16126777697578495808;
+    static const unsigned __int64 muNameHash = 0xC9E2EEA2B81DBE00;
+    static const unsigned __int64 muTemplateHash = 0xDFCDD2DF63DBAF40;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cGcBuildingFilename> maBuildingFiles;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAttachmentPointSet
 {
-    static const unsigned __int64 muNameHash = 8516099141013148969;
-    static const unsigned __int64 muTemplateHash = 819017309988248068;
+    static const unsigned __int64 muNameHash = 0x762F430C6C191529;
+    static const unsigned __int64 muTemplateHash = 0xB5DBBE772BEDA04;
     static const int miNumMembers = 4;
 
     bool mbEnabled;

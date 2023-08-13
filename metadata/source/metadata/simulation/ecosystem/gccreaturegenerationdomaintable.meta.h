@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCreatureGenerationDomainTable
 {
-    static const unsigned __int64 muNameHash = 14864045589603251425;
-    static const unsigned __int64 muTemplateHash = 9781640239072567436;
+    static const unsigned __int64 muNameHash = 0xCE47B2B5ED8374E1;
+    static const unsigned __int64 muTemplateHash = 0x87BF5DF8DA96608C;
     static const int miNumMembers = 4;
 
     TkID<128> mId;

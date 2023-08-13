@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBiomeType;
 
 class cGcPlayerWeaponBiomeProperties
 {
-    static const unsigned __int64 muNameHash = 9178808372404803753;
-    static const unsigned __int64 muTemplateHash = 8887668778543999140;
+    static const unsigned __int64 muNameHash = 0x7F61AD955291D8A9;
+    static const unsigned __int64 muTemplateHash = 0x7B5757AA4A71E8A4;
     static const int miNumMembers = 14;
 
     cGcBiomeType mBiome;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcBehaviourIncrementCounter
 {
-    static const unsigned __int64 muNameHash = 16665262534809058168;
-    static const unsigned __int64 muTemplateHash = 3216507714202832874;
+    static const unsigned __int64 muNameHash = 0xE746E7FAA3EB7B78;
+    static const unsigned __int64 muTemplateHash = 0x2CA354B96A5D0FEA;
     static const int miNumMembers = 1;
 
     TkID<128> mKey;

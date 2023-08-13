@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcDestroyAction
 {
-    static const unsigned __int64 muNameHash = 14995490515846252193;
-    static const unsigned __int64 muTemplateHash = 15373874550357872363;
+    static const unsigned __int64 muNameHash = 0xD01AAF2CB5C146A1;
+    static const unsigned __int64 muTemplateHash = 0xD55AF973037FCEEB;
     static const int miNumMembers = 3;
 
     bool mbDestroyAll;

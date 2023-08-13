@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSubstanceTable
 {
-    static const unsigned __int64 muNameHash = 4111341671181077419;
-    static const unsigned __int64 muTemplateHash = 3457672516769406689;
+    static const unsigned __int64 muNameHash = 0x390E6B7795024BAB;
+    static const unsigned __int64 muTemplateHash = 0x2FFC1ED59FABDEE1;
     static const int miNumMembers = 2;
 
     cTkDynamicArray<cGcRealitySubstanceData> maTable;

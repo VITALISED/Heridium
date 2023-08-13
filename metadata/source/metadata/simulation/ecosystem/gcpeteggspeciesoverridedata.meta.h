@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPetEggSpeciesOverrideData
 {
-    static const unsigned __int64 muNameHash = 7396907758099701802;
-    static const unsigned __int64 muTemplateHash = 7747796579320335981;
+    static const unsigned __int64 muNameHash = 0x66A7186A5DDD202A;
+    static const unsigned __int64 muTemplateHash = 0x6B85B3F076600E6D;
     static const int miNumMembers = 7;
 
     TkID<128> mCreatureID;

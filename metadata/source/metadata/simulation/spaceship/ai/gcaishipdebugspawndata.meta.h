@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcAIShipDebugSpawnData
 {
-    static const unsigned __int64 muNameHash = 16116315614548249608;
-    static const unsigned __int64 muTemplateHash = 964168361506862615;
+    static const unsigned __int64 muNameHash = 0xDFA8A7A9DD3ACC08;
+    static const unsigned __int64 muTemplateHash = 0xD616A0433497617;
     static const int miNumMembers = 13;
 
     cTkVector mPosition;

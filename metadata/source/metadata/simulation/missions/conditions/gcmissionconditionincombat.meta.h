@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eCombatType
 {
     ECombatType_GroundCombat = 0,
@@ -14,8 +14,8 @@ enum eCombatType
 
 class cGcMissionConditionInCombat
 {
-    static const unsigned __int64 muNameHash = 3632865599714465049;
-    static const unsigned __int64 muTemplateHash = 13861585239777629854;
+    static const unsigned __int64 muNameHash = 0x326A8803E3B79519;
+    static const unsigned __int64 muTemplateHash = 0xC05E3E5570BE569E;
     static const int miNumMembers = 4;
 
     eCombatType meCombatType;

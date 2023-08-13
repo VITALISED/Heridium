@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 enum eSwarmMovementType
 {
     ESwarmMovementType_None = 0,
@@ -13,8 +13,8 @@ enum eSwarmMovementType
 
 class cGcCreatureSwarmData
 {
-    static const unsigned __int64 muNameHash = 9784134889057145111;
-    static const unsigned __int64 muTemplateHash = 809219759623855715;
+    static const unsigned __int64 muNameHash = 0x87C83AD7D0C1D117;
+    static const unsigned __int64 muTemplateHash = 0xB3AED157D9B5E63;
     static const int miNumMembers = 6;
 
     int miMinCount;

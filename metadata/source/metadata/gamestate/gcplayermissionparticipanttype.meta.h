@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eParticipantType
 {
     EParticipantType_None = 0,
@@ -20,8 +20,8 @@ enum eParticipantType
 
 class cGcPlayerMissionParticipantType
 {
-    static const unsigned __int64 muNameHash = 2539421448872454623;
-    static const unsigned __int64 muTemplateHash = 17068214041870535412;
+    static const unsigned __int64 muNameHash = 0x233DD65A730CE9DF;
+    static const unsigned __int64 muTemplateHash = 0xECDE7A3D64070AF4;
     static const int miNumMembers = 1;
 
     eParticipantType meParticipantType;

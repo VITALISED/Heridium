@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eWindowState
 {
     EWindowState_Open = 0,
@@ -10,8 +10,8 @@ enum eWindowState
 
 class cTkNGuiWindowLayoutData
 {
-    static const unsigned __int64 muNameHash = 10831321545319947334;
-    static const unsigned __int64 muTemplateHash = 9280369393943979810;
+    static const unsigned __int64 muNameHash = 0x9650958F04D49C46;
+    static const unsigned __int64 muTemplateHash = 0x80CA7ECB56702722;
     static const int miNumMembers = 11;
 
     cTkFixedString<128,char> macName;

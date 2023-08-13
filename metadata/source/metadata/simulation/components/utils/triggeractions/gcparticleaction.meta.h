@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcBroadcastLevel;
 
 class cGcParticleAction
 {
-    static const unsigned __int64 muNameHash = 9854189766557456484;
-    static const unsigned __int64 muTemplateHash = 7577998941146613545;
+    static const unsigned __int64 muNameHash = 0x88C11D6208F25864;
+    static const unsigned __int64 muTemplateHash = 0x692A75E313548729;
     static const int miNumMembers = 4;
 
     TkID<128> mEffect;

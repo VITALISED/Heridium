@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcPlayerMissionUpgradeMapTable
 {
-    static const unsigned __int64 muNameHash = 15751197812812633317;
-    static const unsigned __int64 muTemplateHash = 649135653970304028;
+    static const unsigned __int64 muNameHash = 0xDA977EF5139B54E5;
+    static const unsigned __int64 muTemplateHash = 0x902317021F0DC1C;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcPlayerMissionUpgradeMapEntry> maMissionProgressTable;

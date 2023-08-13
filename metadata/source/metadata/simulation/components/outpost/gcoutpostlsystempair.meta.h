@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcOutpostLSystemPair
 {
-    static const unsigned __int64 muNameHash = 4359259017186203474;
-    static const unsigned __int64 muTemplateHash = 6217224359718920379;
+    static const unsigned __int64 muNameHash = 0x3C7F32FAD34D5752;
+    static const unsigned __int64 muTemplateHash = 0x5648049D69F3A0BB;
     static const int miNumMembers = 2;
 
     cTkFixedString<32,char> macLocator;

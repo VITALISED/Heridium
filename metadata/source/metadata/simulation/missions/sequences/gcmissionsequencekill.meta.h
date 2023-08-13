@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eKillTarget
 {
     EKillTarget_Robots = 0,
@@ -18,8 +18,8 @@ enum eKillTarget
 
 class cGcMissionSequenceKill
 {
-    static const unsigned __int64 muNameHash = 17508070918790696299;
-    static const unsigned __int64 muTemplateHash = 8765007220213519840;
+    static const unsigned __int64 muNameHash = 0xF2F929BD28DDCD6B;
+    static const unsigned __int64 muTemplateHash = 0x79A38FA0B68F95E0;
     static const int miNumMembers = 5;
 
     cTkFixedString<128,char> macMessage;

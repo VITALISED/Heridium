@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPlayerSpaceshipAim
 {
-    static const unsigned __int64 muNameHash = 15004766121680881480;
-    static const unsigned __int64 muTemplateHash = 7448612417373745905;
+    static const unsigned __int64 muNameHash = 0xD03BA349FC9AC748;
+    static const unsigned __int64 muTemplateHash = 0x675EC987772032F1;
     static const int miNumMembers = 6;
 
     float mfAimAngleMin;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eDifficultyOptionGroup
 {
     EDifficultyOptionGroup_Survival = 0,
@@ -11,8 +11,8 @@ enum eDifficultyOptionGroup
 
 class cGcDifficultyOptionGroups
 {
-    static const unsigned __int64 muNameHash = 5240747260058925177;
-    static const unsigned __int64 muTemplateHash = 10332915724681293708;
+    static const unsigned __int64 muNameHash = 0x48BADFDDC969F879;
+    static const unsigned __int64 muTemplateHash = 0x8F65E41AFFAD2F8C;
     static const int miNumMembers = 1;
 
     eDifficultyOptionGroup meDifficultyOptionGroup;

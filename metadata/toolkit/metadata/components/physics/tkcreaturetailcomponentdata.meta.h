@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPrimaryAxis;
 class cTkCreatureTailParams;
 
 class cTkCreatureTailComponentData
 {
-    static const unsigned __int64 muNameHash = 8680197836030193597;
-    static const unsigned __int64 muTemplateHash = 4105236099898855366;
+    static const unsigned __int64 muNameHash = 0x787641F134B1AFBD;
+    static const unsigned __int64 muTemplateHash = 0x38F8BA7B7D94CFC6;
     static const int miNumMembers = 4;
 
     cGcPrimaryAxis mLengthAxis;

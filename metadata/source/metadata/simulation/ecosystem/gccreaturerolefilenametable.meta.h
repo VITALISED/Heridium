@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCreatureRoleFilenameList;
 class cGcCreatureRoleFilenameList;
 class cGcCreatureRoleFilenameList;
@@ -9,8 +9,8 @@ class cGcCreatureRoleFilenameList;
 
 class cGcCreatureRoleFilenameTable
 {
-    static const unsigned __int64 muNameHash = 1558337040253476099;
-    static const unsigned __int64 muTemplateHash = 8867499006445545803;
+    static const unsigned __int64 muNameHash = 0x15A053481CA45D03;
+    static const unsigned __int64 muTemplateHash = 0x7B0FAF5D4550E94B;
     static const int miNumMembers = 9;
 
     cTkFixedArray<cGcCreatureRoleFilenameList> maBiomeFiles;

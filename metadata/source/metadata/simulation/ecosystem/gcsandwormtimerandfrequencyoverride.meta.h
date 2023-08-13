@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcSandwormTimerAndFrequencyOverride
 {
-    static const unsigned __int64 muNameHash = 3326627271560807103;
-    static const unsigned __int64 muTemplateHash = 13707223520056112877;
+    static const unsigned __int64 muNameHash = 0x2E2A8DE0D58242BF;
+    static const unsigned __int64 muTemplateHash = 0xBE39D72AE1D2F6ED;
     static const int miNumMembers = 3;
 
     unsigned __int64 mui64PackedUA;

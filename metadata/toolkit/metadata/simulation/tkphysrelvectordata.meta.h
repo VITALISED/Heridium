@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkPhysRelVectorData
 {
-    static const unsigned __int64 muNameHash = 11545942101021699755;
-    static const unsigned __int64 muTemplateHash = 18188664396285430424;
+    static const unsigned __int64 muNameHash = 0xA03B6D2AF8A02EAB;
+    static const unsigned __int64 muTemplateHash = 0xFC6B1DE697634A98;
     static const int miNumMembers = 2;
 
     cTkVector mLocal;

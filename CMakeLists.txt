@@ -22,11 +22,9 @@ add_library(HermidiumDLL SHARED
 	"common/metadata/TkID.h"
 )
 
-target_precompile_headers(HermidiumDLL PRIVATE pch.h metadata.h)
+target_include_directories(HermidiumDLL PRIVATE ${CMAKE_SOURCE_DIR}/metadata)
 
-target_include_directories(HermidiumDLL PRIVATE
-        ${CMAKE_SOURCE_DIR}/thirdparty/include
-)
+target_precompile_headers(HermidiumDLL PRIVATE pch.h metadata.h)
 
 set_target_properties(HermidiumDLL PROPERTIES
         OUTPUT_NAME HermidiumDLL

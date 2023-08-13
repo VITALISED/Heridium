@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eWaypointType
 {
     EWaypointType_Move = 0,
@@ -10,8 +10,8 @@ enum eWaypointType
 
 class cGcCreatureDebugWaypoint
 {
-    static const unsigned __int64 muNameHash = 5477371582573452791;
-    static const unsigned __int64 muTemplateHash = 12443192142179310313;
+    static const unsigned __int64 muNameHash = 0x4C03886F1A1C1DF7;
+    static const unsigned __int64 muTemplateHash = 0xACAF195392879AE9;
     static const int miNumMembers = 4;
 
     cTkVector mPosition;

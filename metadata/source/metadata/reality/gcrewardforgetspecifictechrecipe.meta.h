@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardForgetSpecificTechRecipe
 {
-    static const unsigned __int64 muNameHash = 7228714141108015788;
-    static const unsigned __int64 muTemplateHash = 15456442191956450799;
+    static const unsigned __int64 muNameHash = 0x64518D36439612AC;
+    static const unsigned __int64 muTemplateHash = 0xD680504826EC9DEF;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<TkID<128> > maTechList;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcExpeditionDifficultyKeyframe
 {
-    static const unsigned __int64 muNameHash = 17031599237969567349;
-    static const unsigned __int64 muTemplateHash = 14222471688929488488;
+    static const unsigned __int64 muNameHash = 0xEC5C654507FD5E75;
+    static const unsigned __int64 muTemplateHash = 0xC5605EA5AEB12E68;
     static const int miNumMembers = 2;
 
     int miEventNumber;

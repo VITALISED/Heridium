@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eFiendCrime
 {
     EFiendCrime_None = 0,
@@ -16,8 +16,8 @@ enum eFiendCrime
 
 class cGcFiendCrime
 {
-    static const unsigned __int64 muNameHash = 12650793232508764363;
-    static const unsigned __int64 muTemplateHash = 8022078970589096531;
+    static const unsigned __int64 muNameHash = 0xAF90A56B0E99C0CB;
+    static const unsigned __int64 muTemplateHash = 0x6F5426522A182A53;
     static const int miNumMembers = 1;
 
     eFiendCrime meFiendCrime;

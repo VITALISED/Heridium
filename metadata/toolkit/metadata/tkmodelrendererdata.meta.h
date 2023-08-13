@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 class cTkModelRendererCameraData;
 
 enum eThumbnailMode
@@ -20,8 +20,8 @@ enum eFocusType
 
 class cTkModelRendererData
 {
-    static const unsigned __int64 muNameHash = 6047322774830461435;
-    static const unsigned __int64 muTemplateHash = 5414701486975972663;
+    static const unsigned __int64 muNameHash = 0x53EC68060BE631FB;
+    static const unsigned __int64 muTemplateHash = 0x4B24E25067FB7537;
     static const int miNumMembers = 16;
 
     cTkModelRendererCameraData mCamera;

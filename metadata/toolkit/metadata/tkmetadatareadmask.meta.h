@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 enum eMetadataReadMask
 {
     EMetadataReadMask_Default = 1,
@@ -12,8 +12,8 @@ enum eMetadataReadMask
 
 class cTkMetadataReadMask
 {
-    static const unsigned __int64 muNameHash = 8555603959948909675;
-    static const unsigned __int64 muTemplateHash = 16564364779887094972;
+    static const unsigned __int64 muNameHash = 0x76BB9C78D7AE1C6B;
+    static const unsigned __int64 muTemplateHash = 0xE5E072016B296CBC;
     static const int miNumMembers = 1;
 
     eMetadataReadMask meMetadataReadMask;

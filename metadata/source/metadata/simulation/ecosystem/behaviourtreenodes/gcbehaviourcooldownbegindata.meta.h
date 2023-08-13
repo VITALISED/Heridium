@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcBehaviourCooldownBeginData
 {
-    static const unsigned __int64 muNameHash = 9562288230597252003;
-    static const unsigned __int64 muTemplateHash = 4613339328645836258;
+    static const unsigned __int64 muNameHash = 0x84B4127B88A5D3A3;
+    static const unsigned __int64 muTemplateHash = 0x4005DFAD48462DE2;
     static const int miNumMembers = 1;
 
     TkID<128> mKey;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcCreatureRidingPartModifier
 {
-    static const unsigned __int64 muNameHash = 13376699545988660583;
-    static const unsigned __int64 muTemplateHash = 7399707471901541151;
+    static const unsigned __int64 muNameHash = 0xB9A3955D41C87D67;
+    static const unsigned __int64 muTemplateHash = 0x66B10ABD887EC31F;
     static const int miNumMembers = 16;
 
     TkID<256> mPartName;

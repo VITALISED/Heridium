@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eLocatorType
 {
     ELocatorType_Generic1 = 0,
@@ -11,8 +11,8 @@ enum eLocatorType
 
 class cGcSolarSystemLocatorTypes
 {
-    static const unsigned __int64 muNameHash = 12813918493506241908;
-    static const unsigned __int64 muTemplateHash = 16872736262439060171;
+    static const unsigned __int64 muNameHash = 0xB1D42EFA923F8574;
+    static const unsigned __int64 muTemplateHash = 0xEA28003C2F8842CB;
     static const int miNumMembers = 1;
 
     eLocatorType meLocatorType;

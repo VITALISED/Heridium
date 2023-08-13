@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eExperienceDebugTriggerAction
 {
     EExperienceDebugTriggerAction_None = 0,
@@ -48,8 +48,8 @@ enum eExperienceDebugTriggerAction
 
 class cGcExperienceDebugTriggerActionTypes
 {
-    static const unsigned __int64 muNameHash = 10389359632167171494;
-    static const unsigned __int64 muTemplateHash = 16528119948383492614;
+    static const unsigned __int64 muNameHash = 0x902E6B8A4F1B75A6;
+    static const unsigned __int64 muTemplateHash = 0xE55FAD85F8721A06;
     static const int miNumMembers = 1;
 
     eExperienceDebugTriggerAction meExperienceDebugTriggerAction;

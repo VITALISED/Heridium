@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkBehaviourTreeSucceedDecoratorData
 {
-    static const unsigned __int64 muNameHash = 12335409486329941476;
-    static const unsigned __int64 muTemplateHash = 1200815866151465615;
+    static const unsigned __int64 muNameHash = 0xAB302D926FAE0DE4;
+    static const unsigned __int64 muTemplateHash = 0x10AA27AB069C728F;
     static const int miNumMembers = 1;
 
     cTkClassPointer mChild;

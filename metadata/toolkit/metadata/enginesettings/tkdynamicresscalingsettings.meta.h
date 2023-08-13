@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eDynamicResScalingAggressiveness
 {
     EDynamicResScalingAggressiveness_Moderate = 0,
@@ -10,8 +10,8 @@ enum eDynamicResScalingAggressiveness
 
 class cTkDynamicResScalingSettings
 {
-    static const unsigned __int64 muNameHash = 5677734533310827924;
-    static const unsigned __int64 muTemplateHash = 13661821701849532132;
+    static const unsigned __int64 muNameHash = 0x4ECB5D79E2F5CD94;
+    static const unsigned __int64 muTemplateHash = 0xBD988A745376C6E4;
     static const int miNumMembers = 2;
 
     float mfLowestDynamicResScalingFactor;

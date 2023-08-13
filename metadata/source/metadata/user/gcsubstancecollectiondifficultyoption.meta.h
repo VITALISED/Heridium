@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eSubstanceCollectionDifficulty
 {
     ESubstanceCollectionDifficulty_High = 0,
@@ -10,8 +10,8 @@ enum eSubstanceCollectionDifficulty
 
 class cGcSubstanceCollectionDifficultyOption
 {
-    static const unsigned __int64 muNameHash = 7520826042989970521;
-    static const unsigned __int64 muTemplateHash = 8311106085961953390;
+    static const unsigned __int64 muNameHash = 0x685F577065EC8459;
+    static const unsigned __int64 muTemplateHash = 0x7356FAF37859706E;
     static const int miNumMembers = 1;
 
     eSubstanceCollectionDifficulty meSubstanceCollectionDifficulty;

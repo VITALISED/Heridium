@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eLastKnownPlayerState
 {
     ELastKnownPlayerState_OnFoot = 0,
@@ -14,8 +14,8 @@ enum eLastKnownPlayerState
 
 class cGcPlayerSpawnStateData
 {
-    static const unsigned __int64 muNameHash = 8037861221746426092;
-    static const unsigned __int64 muTemplateHash = 13896045707468341468;
+    static const unsigned __int64 muNameHash = 0x6F8C3831DC1540EC;
+    static const unsigned __int64 muTemplateHash = 0xC0D8ABF2503E00DC;
     static const int miNumMembers = 13;
 
     cTkVector4 mPlayerPositionInSystem;

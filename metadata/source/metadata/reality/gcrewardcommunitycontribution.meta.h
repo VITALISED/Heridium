@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAtlasSendSubmitContribution;
 
 enum eSubmitType
@@ -12,8 +12,8 @@ enum eSubmitType
 
 class cGcRewardCommunityContribution
 {
-    static const unsigned __int64 muNameHash = 14846402611526708327;
-    static const unsigned __int64 muTemplateHash = 12172126782886283778;
+    static const unsigned __int64 muNameHash = 0xCE090483FC7B2C67;
+    static const unsigned __int64 muTemplateHash = 0xA8EC14D17EF48A02;
     static const int miNumMembers = 4;
 
     cGcAtlasSendSubmitContribution mContribution;

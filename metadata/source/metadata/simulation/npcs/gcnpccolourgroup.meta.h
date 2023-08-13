@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcNPCColourGroup
 {
-    static const unsigned __int64 muNameHash = 3321794009189905324;
-    static const unsigned __int64 muTemplateHash = 2425445370352466289;
+    static const unsigned __int64 muNameHash = 0x2E19620D3EC8F3AC;
+    static const unsigned __int64 muTemplateHash = 0x21A8E9B6B9F97971;
     static const int miNumMembers = 3;
 
     float mfRarity;

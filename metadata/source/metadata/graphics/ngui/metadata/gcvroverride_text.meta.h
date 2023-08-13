@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eVROverride_Text
 {
     EVROverride_Text_FontHeight = 0,
@@ -9,8 +9,8 @@ enum eVROverride_Text
 
 class cGcVROverride_Text
 {
-    static const unsigned __int64 muNameHash = 1445054002200354861;
-    static const unsigned __int64 muTemplateHash = 10863275978914991882;
+    static const unsigned __int64 muNameHash = 0x140DDCF57268A02D;
+    static const unsigned __int64 muTemplateHash = 0x96C21BF25C430F0A;
     static const int miNumMembers = 3;
 
     eVROverride_Text meVROverride_Text;

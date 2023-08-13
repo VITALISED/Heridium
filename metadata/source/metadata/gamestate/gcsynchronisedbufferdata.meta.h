@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSynchronisedBufferData
 {
-    static const unsigned __int64 muNameHash = 11601856318519115387;
-    static const unsigned __int64 muTemplateHash = 9012103118954172232;
+    static const unsigned __int64 muNameHash = 0xA10212DA3873FE7B;
+    static const unsigned __int64 muTemplateHash = 0x7D116C09DC740F48;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<unsigned __int64> maData;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eMechWeaponLocation
 {
     EMechWeaponLocation_TurretExocraft = 0,
@@ -11,8 +11,8 @@ enum eMechWeaponLocation
 
 class cGcMechWeaponLocation
 {
-    static const unsigned __int64 muNameHash = 9787126270039822756;
-    static const unsigned __int64 muTemplateHash = 3953969466747334253;
+    static const unsigned __int64 muNameHash = 0x87D2DB7CF99E11A4;
+    static const unsigned __int64 muTemplateHash = 0x36DF5247EE372E6D;
     static const int miNumMembers = 1;
 
     eMechWeaponLocation meMechWeaponLocation;

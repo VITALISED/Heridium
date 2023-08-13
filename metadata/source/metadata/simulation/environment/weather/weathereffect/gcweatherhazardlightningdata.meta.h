@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cTkModelResource;
 class cTkModelResource;
 
 class cGcWeatherHazardLightningData
 {
-    static const unsigned __int64 muNameHash = 15591320077016124369;
-    static const unsigned __int64 muTemplateHash = 14135575934017726612;
+    static const unsigned __int64 muNameHash = 0xD85F7F00F1F64BD1;
+    static const unsigned __int64 muTemplateHash = 0xC42BA76B22AFE894;
     static const int miNumMembers = 17;
 
     cTkModelResource mIndicatorDecal;

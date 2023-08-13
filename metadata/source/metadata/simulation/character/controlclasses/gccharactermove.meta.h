@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eMode
 {
     EMode_SetVelocity = 0,
@@ -9,8 +9,8 @@ enum eMode
 
 class cGcCharacterMove
 {
-    static const unsigned __int64 muNameHash = 9121746427667666588;
-    static const unsigned __int64 muTemplateHash = 7625938827922906139;
+    static const unsigned __int64 muNameHash = 0x7E96F40C0051D69C;
+    static const unsigned __int64 muTemplateHash = 0x69D4C6F5C5341C1B;
     static const int miNumMembers = 3;
 
     TkID<128> mInput;

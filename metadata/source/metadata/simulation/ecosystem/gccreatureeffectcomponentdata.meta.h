@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCreatureEffectComponentData
 {
-    static const unsigned __int64 muNameHash = 11590818587976347476;
-    static const unsigned __int64 muTemplateHash = 1227108723668685045;
+    static const unsigned __int64 muNameHash = 0xA0DADC1850532F54;
+    static const unsigned __int64 muTemplateHash = 0x110790E1F70E10F5;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcCreatureEffectTrigger> maAnimTriggers;

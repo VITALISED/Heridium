@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcJourneyMilestoneTable
 {
-    static const unsigned __int64 muNameHash = 15196933639812238748;
-    static const unsigned __int64 muTemplateHash = 15074884340453879424;
+    static const unsigned __int64 muNameHash = 0xD2E65AA0EC314D9C;
+    static const unsigned __int64 muTemplateHash = 0xD134BF6FFEDA2E80;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcJourneyMilestoneData> maGcJourneyMilestoneTable;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcJourneyMedalTiers
 {
-    static const unsigned __int64 muNameHash = 3571220039867377981;
-    static const unsigned __int64 muTemplateHash = 17892664310272209625;
+    static const unsigned __int64 muNameHash = 0x318F85B4830D293D;
+    static const unsigned __int64 muTemplateHash = 0xF84F83640B15B2D9;
     static const int miNumMembers = 4;
 
     int miNone;

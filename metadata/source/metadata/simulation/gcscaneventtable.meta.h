@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcScanEventTable
 {
-    static const unsigned __int64 muNameHash = 960685472483287635;
-    static const unsigned __int64 muTemplateHash = 9896253328168325072;
+    static const unsigned __int64 muNameHash = 0xD550A58E83EA253;
+    static const unsigned __int64 muTemplateHash = 0x89568DF828C00FD0;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcScanEventData> maEvents;

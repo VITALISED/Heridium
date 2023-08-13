@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkImGuiWindowData
 {
-    static const unsigned __int64 muNameHash = 4835309423524888144;
-    static const unsigned __int64 muTemplateHash = 1452193393750124784;
+    static const unsigned __int64 muNameHash = 0x431A784D584CBE50;
+    static const unsigned __int64 muTemplateHash = 0x14273A3293A528F0;
     static const int miNumMembers = 13;
 
     cTkFixedString<128,char> macType;

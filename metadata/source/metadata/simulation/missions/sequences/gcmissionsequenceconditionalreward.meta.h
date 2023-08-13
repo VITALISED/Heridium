@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionTest;
 
 class cGcMissionSequenceConditionalReward
 {
-    static const unsigned __int64 muNameHash = 5349862252642757149;
-    static const unsigned __int64 muTemplateHash = 936900141302394667;
+    static const unsigned __int64 muNameHash = 0x4A3E875FBE0AEA1D;
+    static const unsigned __int64 muTemplateHash = 0xD0089B6F057AF2B;
     static const int miNumMembers = 5;
 
     TkID<128> mRewardIfTrue;

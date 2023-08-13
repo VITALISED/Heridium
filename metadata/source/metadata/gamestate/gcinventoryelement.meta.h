@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInventoryType;
 class cGcInventoryIndex;
 
 class cGcInventoryElement
 {
-    static const unsigned __int64 muNameHash = 17776738450470304103;
-    static const unsigned __int64 muTemplateHash = 2194607355564167278;
+    static const unsigned __int64 muNameHash = 0xF6B3A96F7D4F7967;
+    static const unsigned __int64 muTemplateHash = 0x1E74CFC329DC906E;
     static const int miNumMembers = 7;
 
     cGcInventoryType mType;

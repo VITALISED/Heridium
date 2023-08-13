@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcShipAIAttackDataTable
 {
-    static const unsigned __int64 muNameHash = 55452322767570491;
-    static const unsigned __int64 muTemplateHash = 8048744734216171848;
+    static const unsigned __int64 muNameHash = 0xC501980088063B;
+    static const unsigned __int64 muTemplateHash = 0x6FB2E2B112C03148;
     static const int miNumMembers = 5;
 
     cTkDynamicArray<cGcShipAICombatDefinition> maDefinitions;

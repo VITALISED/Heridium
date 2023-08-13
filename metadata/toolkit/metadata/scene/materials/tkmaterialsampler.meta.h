@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eTextureAddressMode
 {
     ETextureAddressMode_Wrap = 0,
@@ -18,8 +18,8 @@ enum eTextureFilterMode
 
 class cTkMaterialSampler
 {
-    static const unsigned __int64 muNameHash = 3675648465500929356;
-    static const unsigned __int64 muTemplateHash = 12821760998121936778;
+    static const unsigned __int64 muNameHash = 0x330286CE11647D4C;
+    static const unsigned __int64 muTemplateHash = 0xB1F00BB1F804178A;
     static const int miNumMembers = 10;
 
     cTkFixedString<32,char> macName;

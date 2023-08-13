@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcNPCPropTable
 {
-    static const unsigned __int64 muNameHash = 2503274127529657547;
-    static const unsigned __int64 muTemplateHash = 7344620992309481635;
+    static const unsigned __int64 muNameHash = 0x22BD6A8E5AD4C4CB;
+    static const unsigned __int64 muTemplateHash = 0x65ED55E1087BD0A3;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cGcNPCPropInfo> maProps;

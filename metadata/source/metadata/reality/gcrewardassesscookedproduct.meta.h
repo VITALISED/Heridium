@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardAssessCookedProduct
 {
-    static const unsigned __int64 muNameHash = 10397783807124867406;
-    static const unsigned __int64 muTemplateHash = 1606755447716191357;
+    static const unsigned __int64 muNameHash = 0x904C594862FC894E;
+    static const unsigned __int64 muTemplateHash = 0x164C5791160C1C7D;
     static const int miNumMembers = 6;
 
     int miAmountWorst;

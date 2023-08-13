@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcMaintenanceContainer;
 class cGcInventoryIndex;
 
 class cGcRepairTechData
 {
-    static const unsigned __int64 muNameHash = 15425050985929532355;
-    static const unsigned __int64 muTemplateHash = 963980668138478232;
+    static const unsigned __int64 muNameHash = 0xD610CA25729E63C3;
+    static const unsigned __int64 muTemplateHash = 0xD60BF4F6EBCDA98;
     static const int miNumMembers = 4;
 
     cGcMaintenanceContainer mMaintenanceContainer;

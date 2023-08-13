@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionWaitForTime
 {
-    static const unsigned __int64 muNameHash = 10630713376212877812;
-    static const unsigned __int64 muTemplateHash = 13754531046284587773;
+    static const unsigned __int64 muNameHash = 0x9387E17DE22981F4;
+    static const unsigned __int64 muTemplateHash = 0xBEE1E91CA9DFF2FD;
     static const int miNumMembers = 2;
 
     unsigned __int64 mui64WaitTimeInSeconds;

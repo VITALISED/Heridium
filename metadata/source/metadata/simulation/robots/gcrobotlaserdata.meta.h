@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcRobotLaserData
 {
-    static const unsigned __int64 muNameHash = 12305682005030482933;
-    static const unsigned __int64 muTemplateHash = 3857569150829358049;
+    static const unsigned __int64 muNameHash = 0xAAC69095D4C233F5;
+    static const unsigned __int64 muTemplateHash = 0x3588D6B453B06BE1;
     static const int miNumMembers = 10;
 
     TkID<128> mLaserID;

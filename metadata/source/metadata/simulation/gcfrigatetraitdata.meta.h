@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcFrigateStatType;
 class cGcFrigateTraitStrength;
 
 class cGcFrigateTraitData
 {
-    static const unsigned __int64 muNameHash = 4202540991397587386;
-    static const unsigned __int64 muTemplateHash = 15848389000697027327;
+    static const unsigned __int64 muNameHash = 0x3A526CC4024569BA;
+    static const unsigned __int64 muTemplateHash = 0xDBF0C9D3E8C11AFF;
     static const int miNumMembers = 5;
 
     TkID<128> mID;

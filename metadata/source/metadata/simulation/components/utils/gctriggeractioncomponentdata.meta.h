@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcTriggerActionComponentData
 {
-    static const unsigned __int64 muNameHash = 9177761554555984674;
-    static const unsigned __int64 muTemplateHash = 2993279521057223266;
+    static const unsigned __int64 muNameHash = 0x7F5DF5820C8BDB22;
+    static const unsigned __int64 muTemplateHash = 0x298A43DD86113262;
     static const int miNumMembers = 7;
 
     bool mbHideModel;

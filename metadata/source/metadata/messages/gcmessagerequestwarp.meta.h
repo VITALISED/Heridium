@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcMessageRequestWarp
 {
-    static const unsigned __int64 muNameHash = 2416426577972369304;
-    static const unsigned __int64 muTemplateHash = 9050825208408010933;
+    static const unsigned __int64 muNameHash = 0x2188DF2B7DDB1798;
+    static const unsigned __int64 muTemplateHash = 0x7D9AFD92DF4F70B5;
     static const int miNumMembers = 1;
 
     float mfDelay;

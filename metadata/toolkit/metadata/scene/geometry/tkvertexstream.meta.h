@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkVertexStream
 {
-    static const unsigned __int64 muNameHash = 7197155085231580217;
-    static const unsigned __int64 muTemplateHash = 4324716212082665940;
+    static const unsigned __int64 muNameHash = 0x63E16E6AF89FE439;
+    static const unsigned __int64 muTemplateHash = 0x3C047A7B478F69D4;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<unsigned __int8> maVertexStream;

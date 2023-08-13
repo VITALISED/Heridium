@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eBuildingDensity
 {
     EBuildingDensity_Dead = 0,
@@ -13,8 +13,8 @@ enum eBuildingDensity
 
 class cGcBuildingDensityLevels
 {
-    static const unsigned __int64 muNameHash = 4894107953259008654;
-    static const unsigned __int64 muTemplateHash = 9560727964783374426;
+    static const unsigned __int64 muNameHash = 0x43EB5D40DE6AD28E;
+    static const unsigned __int64 muTemplateHash = 0x84AE876DD70E705A;
     static const int miNumMembers = 1;
 
     eBuildingDensity meBuildingDensity;

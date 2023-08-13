@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInventoryLayoutGenerationBounds;
 class cGcInventoryLayoutGenerationBounds;
 class cGcInventoryIndex;
 
 class cGcInventoryLayoutGenerationDataEntry
 {
-    static const unsigned __int64 muNameHash = 1575404401002618587;
-    static const unsigned __int64 muTemplateHash = 17587745618184323224;
+    static const unsigned __int64 muNameHash = 0x15DCF5F4B3591EDB;
+    static const unsigned __int64 muTemplateHash = 0xF4143974B3CF4098;
     static const int miNumMembers = 10;
 
     int miMinSlots;

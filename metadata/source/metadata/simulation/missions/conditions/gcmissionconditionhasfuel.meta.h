@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcStatsTypes;
 
 class cGcMissionConditionHasFuel
 {
-    static const unsigned __int64 muNameHash = 3063154514881766806;
-    static const unsigned __int64 muTemplateHash = 3443798563132267311;
+    static const unsigned __int64 muNameHash = 0x2A8282CD4FA96596;
+    static const unsigned __int64 muTemplateHash = 0x2FCAD48C117FDB2F;
     static const int miNumMembers = 4;
 
     cGcStatsTypes mTargetStat;

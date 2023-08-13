@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcResourceElement;
 
 class cGcSpawnComponentOption
 {
-    static const unsigned __int64 muNameHash = 12100709221714048401;
-    static const unsigned __int64 muTemplateHash = 335425387167253090;
+    static const unsigned __int64 muNameHash = 0xA7EE5AECC28F3591;
+    static const unsigned __int64 muTemplateHash = 0x4A7AB9CCAC08262;
     static const int miNumMembers = 3;
 
     TkID<128> mName;

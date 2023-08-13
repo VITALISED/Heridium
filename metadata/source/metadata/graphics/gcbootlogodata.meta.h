@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcBootLogoData
 {
-    static const unsigned __int64 muNameHash = 1614318694526544706;
-    static const unsigned __int64 muTemplateHash = 9789576824665505263;
+    static const unsigned __int64 muNameHash = 0x1667364CB586EB42;
+    static const unsigned __int64 muTemplateHash = 0x87DB90412F957DEF;
     static const int miNumMembers = 2;
 
     cTkFixedArray<cTkFixedString<256,char> > maTextures;

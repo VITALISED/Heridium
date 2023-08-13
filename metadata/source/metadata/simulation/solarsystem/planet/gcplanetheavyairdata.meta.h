@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPlanetHeavyAirData
 {
-    static const unsigned __int64 muNameHash = 207642513251635795;
-    static const unsigned __int64 muTemplateHash = 1502500702076595675;
+    static const unsigned __int64 muNameHash = 0x2E1B1C402A21253;
+    static const unsigned __int64 muTemplateHash = 0x14D9F46D8E0CEDDB;
     static const int miNumMembers = 2;
 
     cTkFixedString<128,char> macFilename;

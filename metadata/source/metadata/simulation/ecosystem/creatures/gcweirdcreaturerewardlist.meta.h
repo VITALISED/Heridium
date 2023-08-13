@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcWeirdCreatureRewardList
 {
-    static const unsigned __int64 muNameHash = 1641405991572872411;
-    static const unsigned __int64 muTemplateHash = 10424316521370386180;
+    static const unsigned __int64 muNameHash = 0x16C7720D83E61CDB;
+    static const unsigned __int64 muTemplateHash = 0x90AA9CA552847F04;
     static const int miNumMembers = 1;
 
     cTkFixedArray<TkID<128> > maRewards;

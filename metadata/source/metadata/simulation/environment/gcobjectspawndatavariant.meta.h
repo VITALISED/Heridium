@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcObjectSpawnDataVariant
 {
-    static const unsigned __int64 muNameHash = 13103132471699101870;
-    static const unsigned __int64 muTemplateHash = 3715418062592270357;
+    static const unsigned __int64 muNameHash = 0xB5D7AD8F4482D8AE;
+    static const unsigned __int64 muTemplateHash = 0x338FD10AF4E1E015;
     static const int miNumMembers = 11;
 
     TkID<128> mID;

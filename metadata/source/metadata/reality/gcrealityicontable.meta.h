@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkTextureResource;
 class cTkTextureResource;
 class cTkTextureResource;
 
 class cGcRealityIconTable
 {
-    static const unsigned __int64 muNameHash = 3037748862545536204;
-    static const unsigned __int64 muTemplateHash = 7602006607907659219;
+    static const unsigned __int64 muNameHash = 0x2A28407EECDFA4CC;
+    static const unsigned __int64 muTemplateHash = 0x697FC0BB94821DD3;
     static const int miNumMembers = 21;
 
     cTkFixedArray<cTkTextureResource> maHazardIcons;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCustomisationUIData
 {
-    static const unsigned __int64 muNameHash = 18044862488772469251;
-    static const unsigned __int64 muTemplateHash = 9466137975218191854;
+    static const unsigned __int64 muNameHash = 0xFA6C3AD3E80DE203;
+    static const unsigned __int64 muTemplateHash = 0x835E7A55AFB73DEE;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cGcCustomisationUI> maCustomisationUIData;

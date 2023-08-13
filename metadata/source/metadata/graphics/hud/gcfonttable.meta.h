@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcFontTable
 {
-    static const unsigned __int64 muNameHash = 15526205521307889966;
-    static const unsigned __int64 muTemplateHash = 17496494756525374346;
+    static const unsigned __int64 muNameHash = 0xD77829A90743F12E;
+    static const unsigned __int64 muTemplateHash = 0xF2D00947D92DFB8A;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cGcFontData> maTable;

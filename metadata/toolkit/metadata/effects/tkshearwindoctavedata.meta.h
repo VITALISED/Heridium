@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkShearWindOctaveData
 {
-    static const unsigned __int64 muNameHash = 2571778789825215130;
-    static const unsigned __int64 muTemplateHash = 13569564002148937086;
+    static const unsigned __int64 muNameHash = 0x23B0CB2EF86A7A9A;
+    static const unsigned __int64 muTemplateHash = 0xBC50C690B903ED7E;
     static const int miNumMembers = 5;
 
     float mfMinStrength;

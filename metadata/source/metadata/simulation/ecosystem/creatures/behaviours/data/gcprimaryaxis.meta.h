@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../../../pch.h"
+
 enum ePrimaryAxis
 {
     EPrimaryAxis_Z = 0,
@@ -13,8 +13,8 @@ enum ePrimaryAxis
 
 class cGcPrimaryAxis
 {
-    static const unsigned __int64 muNameHash = 9481616353790171594;
-    static const unsigned __int64 muTemplateHash = 8304810799908190835;
+    static const unsigned __int64 muNameHash = 0x839577D6883299CA;
+    static const unsigned __int64 muTemplateHash = 0x73409D6BF75AFA73;
     static const int miNumMembers = 1;
 
     ePrimaryAxis mePrimaryAxis;

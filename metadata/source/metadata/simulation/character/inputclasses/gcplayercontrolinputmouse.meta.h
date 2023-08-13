@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcCharacterControlInputValidity;
 
 enum eInputMouseMode
@@ -11,8 +11,8 @@ class cGcCharacterControlOutputSpace;
 
 class cGcPlayerControlInputMouse
 {
-    static const unsigned __int64 muNameHash = 10144235105171507614;
-    static const unsigned __int64 muTemplateHash = 7497949752670552387;
+    static const unsigned __int64 muNameHash = 0x8CC79014E9CB899E;
+    static const unsigned __int64 muTemplateHash = 0x680E1192FFA80143;
     static const int miNumMembers = 5;
 
     cGcCharacterControlInputValidity mValidity;

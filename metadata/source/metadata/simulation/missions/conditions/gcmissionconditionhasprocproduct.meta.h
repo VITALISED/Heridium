@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcProceduralProductCategory;
 
 class cGcMissionConditionHasProcProduct
 {
-    static const unsigned __int64 muNameHash = 8449425352335172674;
-    static const unsigned __int64 muTemplateHash = 8398363719322589508;
+    static const unsigned __int64 muNameHash = 0x754263974A1E2442;
+    static const unsigned __int64 muTemplateHash = 0x748CFB4E68C05944;
     static const int miNumMembers = 3;
 
     cGcProceduralProductCategory mProcProduct;

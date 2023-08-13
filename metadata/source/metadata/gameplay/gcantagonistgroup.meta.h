@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eAntagonistGroup
 {
     EAntagonistGroup_Player = 0,
@@ -13,8 +13,8 @@ enum eAntagonistGroup
 
 class cGcAntagonistGroup
 {
-    static const unsigned __int64 muNameHash = 4157956099355930479;
-    static const unsigned __int64 muTemplateHash = 4079640586102686224;
+    static const unsigned __int64 muNameHash = 0x39B4070AE5C76F6F;
+    static const unsigned __int64 muTemplateHash = 0x389DCB7F89EAC210;
     static const int miNumMembers = 1;
 
     eAntagonistGroup meAntagonistGroup;

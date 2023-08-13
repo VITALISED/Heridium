@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcVehicleWeaponMuzzleData
 {
-    static const unsigned __int64 muNameHash = 1502123400876787858;
-    static const unsigned __int64 muTemplateHash = 4773278598146426701;
+    static const unsigned __int64 muNameHash = 0x14D89D4646100892;
+    static const unsigned __int64 muTemplateHash = 0x423E1798587E074D;
     static const int miNumMembers = 2;
 
     TkID<128> mID;

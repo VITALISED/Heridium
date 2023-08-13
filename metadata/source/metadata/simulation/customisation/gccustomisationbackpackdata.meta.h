@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCustomisationBackpackData
 {
-    static const unsigned __int64 muNameHash = 17958415324340399936;
-    static const unsigned __int64 muTemplateHash = 12992443621270973279;
+    static const unsigned __int64 muNameHash = 0xF9391B96F83DAF40;
+    static const unsigned __int64 muTemplateHash = 0xB44E6EA2FA256B5F;
     static const int miNumMembers = 2;
 
     cTkFixedString<32,char> macNodeName;

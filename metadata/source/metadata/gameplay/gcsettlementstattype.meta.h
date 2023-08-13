@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eSettlementStatType
 {
     ESettlementStatType_Population = 0,
@@ -14,8 +14,8 @@ enum eSettlementStatType
 
 class cGcSettlementStatType
 {
-    static const unsigned __int64 muNameHash = 10634393377151116896;
-    static const unsigned __int64 muTemplateHash = 8973050698233631452;
+    static const unsigned __int64 muNameHash = 0x9394F46EDEDBE660;
+    static const unsigned __int64 muTemplateHash = 0x7C86AE119BC952DC;
     static const int miNumMembers = 1;
 
     eSettlementStatType meSettlementStatType;

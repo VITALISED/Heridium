@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eDepthOfFieldSetting
 {
     EDepthOfFieldSetting_Off = 0,
@@ -11,8 +11,8 @@ enum eDepthOfFieldSetting
 
 class cGcPhotoModeSettings
 {
-    static const unsigned __int64 muNameHash = 16503263539327112394;
-    static const unsigned __int64 muTemplateHash = 11966452752879676130;
+    static const unsigned __int64 muNameHash = 0xE5075EC0403F94CA;
+    static const unsigned __int64 muTemplateHash = 0xA6116160B4E36AE2;
     static const int miNumMembers = 14;
 
     float mfFog;

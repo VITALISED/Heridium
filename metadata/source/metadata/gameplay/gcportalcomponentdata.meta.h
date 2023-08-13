@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcPortalComponentData
 {
-    static const unsigned __int64 muNameHash = 14969874281103230168;
-    static const unsigned __int64 muTemplateHash = 5437558015660018373;
+    static const unsigned __int64 muNameHash = 0xCFBFAD58496A04D8;
+    static const unsigned __int64 muTemplateHash = 0x4B761634B0FE4AC5;
     static const int miNumMembers = 1;
 
     float mfTemp;

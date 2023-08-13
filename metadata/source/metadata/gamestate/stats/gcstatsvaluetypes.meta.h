@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eStatsValue
 {
     EStatsValue_DistanceJetpacked = 0,
@@ -11,8 +11,8 @@ enum eStatsValue
 
 class cGcStatsValueTypes
 {
-    static const unsigned __int64 muNameHash = 8599069831736708523;
-    static const unsigned __int64 muTemplateHash = 16017811942799267076;
+    static const unsigned __int64 muNameHash = 0x77560873BF71CDAB;
+    static const unsigned __int64 muTemplateHash = 0xDE4AB318918F5504;
     static const int miNumMembers = 1;
 
     eStatsValue meStatsValue;

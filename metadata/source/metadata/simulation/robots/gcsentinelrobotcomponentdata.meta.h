@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcSentinelTypes;
 
 class cGcSentinelRobotComponentData
 {
-    static const unsigned __int64 muNameHash = 14116624220918019253;
-    static const unsigned __int64 muTemplateHash = 6140476468738943054;
+    static const unsigned __int64 muNameHash = 0xC3E852EF937E74B5;
+    static const unsigned __int64 muTemplateHash = 0x55375AD08ED4684E;
     static const int miNumMembers = 2;
 
     TkID<128> mId;

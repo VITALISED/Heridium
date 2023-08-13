@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAlienPuzzleTable
 {
-    static const unsigned __int64 muNameHash = 429726086925704702;
-    static const unsigned __int64 muTemplateHash = 12867964268876154707;
+    static const unsigned __int64 muNameHash = 0x5F6B19969ECDDFE;
+    static const unsigned __int64 muTemplateHash = 0xB29431533CC84753;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcAlienPuzzleEntry> maTable;

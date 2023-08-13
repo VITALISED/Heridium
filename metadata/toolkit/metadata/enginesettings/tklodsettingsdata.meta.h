@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkLODSettingsData
 {
-    static const unsigned __int64 muNameHash = 11583913368627415633;
-    static const unsigned __int64 muTemplateHash = 5516113898440095175;
+    static const unsigned __int64 muNameHash = 0xA0C253D5A5EF8A51;
+    static const unsigned __int64 muTemplateHash = 0x4C8D2C5D711DF5C7;
     static const int miNumMembers = 14;
 
     cTkFixedArray<float> maLODAdjust;

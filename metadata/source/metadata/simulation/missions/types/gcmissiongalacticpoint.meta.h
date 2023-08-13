@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eGalacticPoint
 {
     EGalacticPoint_Atlas = 0,
@@ -9,8 +9,8 @@ enum eGalacticPoint
 
 class cGcMissionGalacticPoint
 {
-    static const unsigned __int64 muNameHash = 12059065768752522782;
-    static const unsigned __int64 muTemplateHash = 2407007259480939124;
+    static const unsigned __int64 muNameHash = 0xA75A686CCD91261E;
+    static const unsigned __int64 muTemplateHash = 0x216768598125DA74;
     static const int miNumMembers = 1;
 
     eGalacticPoint meGalacticPoint;

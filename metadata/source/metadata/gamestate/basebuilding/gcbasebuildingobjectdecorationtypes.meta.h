@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eBaseBuildingDecorationType
 {
     EBaseBuildingDecorationType_Normal = 0,
@@ -14,8 +14,8 @@ enum eBaseBuildingDecorationType
 
 class cGcBaseBuildingObjectDecorationTypes
 {
-    static const unsigned __int64 muNameHash = 14696241898169631534;
-    static const unsigned __int64 muTemplateHash = 9487787487323536413;
+    static const unsigned __int64 muNameHash = 0xCBF38A24719D032E;
+    static const unsigned __int64 muTemplateHash = 0x83AB64738650BC1D;
     static const int miNumMembers = 1;
 
     eBaseBuildingDecorationType meBaseBuildingDecorationType;

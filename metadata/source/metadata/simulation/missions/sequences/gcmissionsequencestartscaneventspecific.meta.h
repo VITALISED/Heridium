@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPlayerMissionParticipant;
 
 class cGcMissionSequenceStartScanEventSpecific
 {
-    static const unsigned __int64 muNameHash = 9497216547060094297;
-    static const unsigned __int64 muTemplateHash = 13998270015308335392;
+    static const unsigned __int64 muNameHash = 0x83CCE421927A9559;
+    static const unsigned __int64 muTemplateHash = 0xC243D869B4748920;
     static const int miNumMembers = 6;
 
     bool mbIMeantThisAndKnowWhatItDoes;

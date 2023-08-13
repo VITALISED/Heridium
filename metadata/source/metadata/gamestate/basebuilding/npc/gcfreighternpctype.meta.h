@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eFreighterNPCType
 {
     EFreighterNPCType_SquadronPilot = 0,
@@ -12,8 +12,8 @@ enum eFreighterNPCType
 
 class cGcFreighterNPCType
 {
-    static const unsigned __int64 muNameHash = 14212698563982637221;
-    static const unsigned __int64 muTemplateHash = 18123586745448071394;
+    static const unsigned __int64 muNameHash = 0xC53DA60AB5E3B8A5;
+    static const unsigned __int64 muTemplateHash = 0xFB83EA1F426900E2;
     static const int miNumMembers = 1;
 
     eFreighterNPCType meFreighterNPCType;

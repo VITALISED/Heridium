@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcKnownThingsPreset
 {
-    static const unsigned __int64 muNameHash = 5825337940027844109;
-    static const unsigned __int64 muTemplateHash = 930780154854401060;
+    static const unsigned __int64 muNameHash = 0x50D7C1FE13F7260D;
+    static const unsigned __int64 muTemplateHash = 0xCEACB9E8E146424;
     static const int miNumMembers = 6;
 
     cTkDynamicArray<TkID<128> > maKnownTech;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcWonderRecord
 {
-    static const unsigned __int64 muNameHash = 13184799078089988076;
-    static const unsigned __int64 muTemplateHash = 12511684376079804508;
+    static const unsigned __int64 muNameHash = 0xB6F9D0E7CC7397EC;
+    static const unsigned __int64 muTemplateHash = 0xADA26EA67A0AA85C;
     static const int miNumMembers = 3;
 
     cTkFixedArray<unsigned __int64> maGenerationID;

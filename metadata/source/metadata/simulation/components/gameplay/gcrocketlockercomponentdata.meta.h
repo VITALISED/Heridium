@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcRocketLockerComponentData
 {
-    static const unsigned __int64 muNameHash = 1739710814835051144;
-    static const unsigned __int64 muTemplateHash = 14897017324259172829;
+    static const unsigned __int64 muNameHash = 0x1824B1C4CA260A88;
+    static const unsigned __int64 muTemplateHash = 0xCEBCD654214EE1DD;
     static const int miNumMembers = 1;
 
     int miNumSlots;

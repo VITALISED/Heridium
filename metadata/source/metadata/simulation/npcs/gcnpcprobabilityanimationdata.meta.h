@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eAnimationIntensity
 {
     EAnimationIntensity_Low = 0,
@@ -11,8 +11,8 @@ enum eAnimationIntensity
 
 class cGcNPCProbabilityAnimationData
 {
-    static const unsigned __int64 muNameHash = 7984070779839422868;
-    static const unsigned __int64 muTemplateHash = 17453834313374331720;
+    static const unsigned __int64 muNameHash = 0x6ECD1E12A5E7A194;
+    static const unsigned __int64 muTemplateHash = 0xF23879D569337348;
     static const int miNumMembers = 5;
 
     TkID<128> mName;

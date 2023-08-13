@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcPresetTextureData
 {
-    static const unsigned __int64 muNameHash = 1975845953582378150;
-    static const unsigned __int64 muTemplateHash = 15236973504127241473;
+    static const unsigned __int64 muNameHash = 0x1B6B9D6D222BACA6;
+    static const unsigned __int64 muTemplateHash = 0xD3749AAC4D8B0D01;
     static const int miNumMembers = 2;
 
     cTkFixedString<128,char> macName;

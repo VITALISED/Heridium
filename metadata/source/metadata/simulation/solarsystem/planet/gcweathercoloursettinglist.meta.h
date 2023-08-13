@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcWeatherColourSettingList
 {
-    static const unsigned __int64 muNameHash = 13101197384289141480;
-    static const unsigned __int64 muTemplateHash = 15749575381451375688;
+    static const unsigned __int64 muNameHash = 0xB5D0CD9B9ED4C2E8;
+    static const unsigned __int64 muTemplateHash = 0xDA91BB5D56A58448;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcPlanetWeatherColourData> maSettings;

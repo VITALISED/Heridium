@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eNPCInteractiveObjectType
 {
     ENPCInteractiveObjectType_Idle = 0,
@@ -15,8 +15,8 @@ enum eNPCInteractiveObjectType
 
 class cGcNPCInteractiveObjectType
 {
-    static const unsigned __int64 muNameHash = 7813424559629904178;
-    static const unsigned __int64 muTemplateHash = 6331731016183443435;
+    static const unsigned __int64 muNameHash = 0x6C6EDC3D5C0DA932;
+    static const unsigned __int64 muTemplateHash = 0x57DED3CFF0EFEFEB;
     static const int miNumMembers = 1;
 
     eNPCInteractiveObjectType meNPCInteractiveObjectType;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eInteractionType
 {
     EInteractionType_None = 0,
@@ -138,8 +138,8 @@ enum eInteractionType
 
 class cGcInteractionType
 {
-    static const unsigned __int64 muNameHash = 5179572339081052903;
-    static const unsigned __int64 muTemplateHash = 1523089530762850120;
+    static const unsigned __int64 muNameHash = 0x47E189998F5D82E7;
+    static const unsigned __int64 muTemplateHash = 0x152319DBCA3C6F48;
     static const int miNumMembers = 1;
 
     eInteractionType meInteractionType;

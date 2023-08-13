@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eSentinelCoverState
 {
     ESentinelCoverState_Deploying = 0,
@@ -11,8 +11,8 @@ enum eSentinelCoverState
 
 class cGcSentinelCoverState
 {
-    static const unsigned __int64 muNameHash = 11167794699785920355;
-    static const unsigned __int64 muTemplateHash = 153248689835224494;
+    static const unsigned __int64 muNameHash = 0x9AFBFA1C253ADF63;
+    static const unsigned __int64 muTemplateHash = 0x22072DF17EC2DAE;
     static const int miNumMembers = 1;
 
     eSentinelCoverState meSentinelCoverState;

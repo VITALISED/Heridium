@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eGalaxyMarkerType
 {
     EGalaxyMarkerType_StartingLocation = 0,
@@ -23,8 +23,8 @@ enum eGalaxyMarkerType
 
 class cGcGalaxyMarkerTypes
 {
-    static const unsigned __int64 muNameHash = 2968521937105920562;
-    static const unsigned __int64 muTemplateHash = 8895295438766476210;
+    static const unsigned __int64 muNameHash = 0x29324EF951272232;
+    static const unsigned __int64 muTemplateHash = 0x7B7270127FD40BB2;
     static const int miNumMembers = 1;
 
     eGalaxyMarkerType meGalaxyMarkerType;

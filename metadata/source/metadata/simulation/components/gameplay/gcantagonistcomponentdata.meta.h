@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcAntagonistGroup;
 
 class cGcAntagonistComponentData
 {
-    static const unsigned __int64 muNameHash = 18079574663520880621;
-    static const unsigned __int64 muTemplateHash = 13039508391691106468;
+    static const unsigned __int64 muNameHash = 0xFAE78D5DE55087ED;
+    static const unsigned __int64 muTemplateHash = 0xB4F5A3CBC47938A4;
     static const int miNumMembers = 8;
 
     cGcAntagonistGroup mGroup;

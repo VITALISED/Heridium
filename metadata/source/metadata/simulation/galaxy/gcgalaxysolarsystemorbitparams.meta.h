@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcGalaxySolarSystemOrbitParams
 {
-    static const unsigned __int64 muNameHash = 11103919402220981753;
-    static const unsigned __int64 muTemplateHash = 16824549341910433090;
+    static const unsigned __int64 muNameHash = 0x9A190BDD7FF30DF9;
+    static const unsigned __int64 muTemplateHash = 0xE97CCE7C769A7D42;
     static const int miNumMembers = 7;
 
     float mfFirstOrbitRadiusMin;

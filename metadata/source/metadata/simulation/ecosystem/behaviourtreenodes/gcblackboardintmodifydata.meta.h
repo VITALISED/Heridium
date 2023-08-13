@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eModifyIntType
 {
     EModifyIntType_SetValue = 0,
@@ -9,8 +9,8 @@ enum eModifyIntType
 
 class cGcBlackboardIntModifyData
 {
-    static const unsigned __int64 muNameHash = 1633195773471616487;
-    static const unsigned __int64 muTemplateHash = 12317611524644627880;
+    static const unsigned __int64 muNameHash = 0x16AA46E72671EDE7;
+    static const unsigned __int64 muTemplateHash = 0xAAF0F26B8FB365A8;
     static const int miNumMembers = 3;
 
     TkID<128> mKey;

@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkBlackboardDefaultValueBool;
 class cTkBlackboardDefaultValueBool;
 class cTkBlackboardDefaultValueBool;
 
 class cGcBehaviourLookData
 {
-    static const unsigned __int64 muNameHash = 8777177172575960185;
-    static const unsigned __int64 muTemplateHash = 17667843440124989642;
+    static const unsigned __int64 muNameHash = 0x79CECC228E0EBC79;
+    static const unsigned __int64 muTemplateHash = 0xF530CA0023DD90CA;
     static const int miNumMembers = 5;
 
     TkID<128> mLookTargetKey;

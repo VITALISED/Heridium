@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eTechListRewardOrder
 {
     ETechListRewardOrder_OneRandom = 0,
@@ -10,8 +10,8 @@ enum eTechListRewardOrder
 
 class cGcRewardSpecificTechFromList
 {
-    static const unsigned __int64 muNameHash = 17525266131166584395;
-    static const unsigned __int64 muTemplateHash = 17696202395503111419;
+    static const unsigned __int64 muNameHash = 0xF33640B1865E5E4B;
+    static const unsigned __int64 muTemplateHash = 0xF5958A51F9612CFB;
     static const int miNumMembers = 3;
 
     cTkDynamicArray<TkID<128> > maTechList;

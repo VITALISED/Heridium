@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcScannerIconTypes;
 
 enum eScannableType
@@ -14,8 +14,8 @@ enum eScannableType
 
 class cGcScannableComponentData
 {
-    static const unsigned __int64 muNameHash = 8411176603705469953;
-    static const unsigned __int64 muTemplateHash = 11094419786989604396;
+    static const unsigned __int64 muNameHash = 0x74BA808E86F0EC01;
+    static const unsigned __int64 muTemplateHash = 0x99F74C03F8948E2C;
     static const int miNumMembers = 20;
 
     float mfScanRange;

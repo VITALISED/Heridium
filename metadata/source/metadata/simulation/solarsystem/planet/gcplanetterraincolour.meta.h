@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkPaletteTexture;
 
 class cGcPlanetTerrainColour
 {
-    static const unsigned __int64 muNameHash = 17994558420503827217;
-    static const unsigned __int64 muTemplateHash = 11055393029354245317;
+    static const unsigned __int64 muNameHash = 0xF9B9838B50251311;
+    static const unsigned __int64 muTemplateHash = 0x996CA562DEFD4CC5;
     static const int miNumMembers = 2;
 
     cTkPaletteTexture mPalette;

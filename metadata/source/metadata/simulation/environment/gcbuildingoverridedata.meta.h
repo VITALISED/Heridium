@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBuildingOverrideData
 {
-    static const unsigned __int64 muNameHash = 8398983983297158936;
-    static const unsigned __int64 muTemplateHash = 1715349540706190291;
+    static const unsigned __int64 muNameHash = 0x748F2F6EDE9F5F18;
+    static const unsigned __int64 muTemplateHash = 0x17CE2551A76C03D3;
     static const int miNumMembers = 3;
 
     cTkSeed mSeed;

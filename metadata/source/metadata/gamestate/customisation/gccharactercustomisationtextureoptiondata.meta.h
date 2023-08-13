@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCharacterCustomisationTextureOptionData
 {
-    static const unsigned __int64 muNameHash = 12147282949360805722;
-    static const unsigned __int64 muTemplateHash = 10622936412574074698;
+    static const unsigned __int64 muNameHash = 0xA893D17BBECF675A;
+    static const unsigned __int64 muTemplateHash = 0x936C40626F0A474A;
     static const int miNumMembers = 2;
 
     TkID<128> mTextureOptionGroupName;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCreatureGroupProbability
 {
-    static const unsigned __int64 muNameHash = 17359196068832768000;
-    static const unsigned __int64 muTemplateHash = 18369248410691270033;
+    static const unsigned __int64 muNameHash = 0xF0E840DA05227000;
+    static const unsigned __int64 muTemplateHash = 0xFEECAE1AE6297591;
     static const int miNumMembers = 2;
 
     TkID<128> mGroup;

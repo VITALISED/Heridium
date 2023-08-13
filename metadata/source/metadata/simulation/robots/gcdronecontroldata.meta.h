@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcDroneControlData
 {
-    static const unsigned __int64 muNameHash = 17681664948182132382;
-    static const unsigned __int64 muTemplateHash = 16948080988723704506;
+    static const unsigned __int64 muNameHash = 0xF561E496C1DF269E;
+    static const unsigned __int64 muTemplateHash = 0xEB33ADDD4D6D72BA;
     static const int miNumMembers = 12;
 
     float mfMaxSpeed;

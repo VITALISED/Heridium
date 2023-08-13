@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBuildingDensity
 {
-    static const unsigned __int64 muNameHash = 18190106710199467568;
-    static const unsigned __int64 muTemplateHash = 15011685833250123259;
+    static const unsigned __int64 muNameHash = 0xFC703DAD77E37E30;
+    static const unsigned __int64 muTemplateHash = 0xD05438BAE2A32DFB;
     static const int miNumMembers = 1;
 
     float mfBuildingSpacing;

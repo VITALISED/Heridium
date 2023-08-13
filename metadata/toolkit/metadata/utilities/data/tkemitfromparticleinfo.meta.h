@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eEmissionRateType
 {
     EEmissionRateType_PerParticle = 0,
@@ -9,8 +9,8 @@ enum eEmissionRateType
 
 class cTkEmitFromParticleInfo
 {
-    static const unsigned __int64 muNameHash = 6243255265084759154;
-    static const unsigned __int64 muTemplateHash = 17259282358846451676;
+    static const unsigned __int64 muNameHash = 0x56A47F95DD76DC72;
+    static const unsigned __int64 muTemplateHash = 0xEF8549DC9D356FDC;
     static const int miNumMembers = 2;
 
     int miOtherEmitterIndex;

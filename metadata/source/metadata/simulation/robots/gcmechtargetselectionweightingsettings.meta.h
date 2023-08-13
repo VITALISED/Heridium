@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcMechTargetSelectionWeightingSettings
 {
-    static const unsigned __int64 muNameHash = 6694256597389784795;
-    static const unsigned __int64 muTemplateHash = 9850296275323496576;
+    static const unsigned __int64 muNameHash = 0x5CE6C6E85ABBB6DB;
+    static const unsigned __int64 muTemplateHash = 0x88B34845F702A880;
     static const int miNumMembers = 12;
 
     float mfThreatWeightFactorBase;

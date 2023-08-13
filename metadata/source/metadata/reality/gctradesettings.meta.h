@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcTradeData;
 class cGcTradeData;
 class cGcTradeData;
@@ -26,8 +26,8 @@ class cGcTradeData;
 
 class cGcTradeSettings
 {
-    static const unsigned __int64 muNameHash = 5432411092877505956;
-    static const unsigned __int64 muTemplateHash = 8379476777307796827;
+    static const unsigned __int64 muNameHash = 0x4B63CD1B58DAF5A4;
+    static const unsigned __int64 muTemplateHash = 0x7449E1BB8B10F55B;
     static const int miNumMembers = 22;
 
     cGcTradeData mSpaceStation;

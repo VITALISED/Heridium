@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcVehicleType;
 
 class cGcMissionConditionPrimaryExocraft
 {
-    static const unsigned __int64 muNameHash = 9238929094806754534;
-    static const unsigned __int64 muTemplateHash = 14188829402292118273;
+    static const unsigned __int64 muNameHash = 0x8037450FD0FA54E6;
+    static const unsigned __int64 muTemplateHash = 0xC4E8D92A6E3D6301;
     static const int miNumMembers = 2;
 
     cGcVehicleType mExocraftType;

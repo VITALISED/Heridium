@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionInventoryOpen
 {
-    static const unsigned __int64 muNameHash = 11473868220765420008;
-    static const unsigned __int64 muTemplateHash = 8557770604967721930;
+    static const unsigned __int64 muNameHash = 0x9F3B5E5B0A5DB9E8;
+    static const unsigned __int64 muTemplateHash = 0x76C34F0632617BCA;
     static const int miNumMembers = 0;
 
 };

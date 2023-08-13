@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcTextStylePlain
 {
-    static const unsigned __int64 muNameHash = 17962251163627002551;
-    static const unsigned __int64 muTemplateHash = 4381338966408829758;
+    static const unsigned __int64 muNameHash = 0xF946BC43E6559AB7;
+    static const unsigned __int64 muTemplateHash = 0x3CCDA4939D601B3E;
     static const int miNumMembers = 0;
 
 };

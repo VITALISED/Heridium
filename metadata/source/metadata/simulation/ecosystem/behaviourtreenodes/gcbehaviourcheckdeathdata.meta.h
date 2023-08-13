@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcBehaviourCheckDeathData
 {
-    static const unsigned __int64 muNameHash = 7143661549488947975;
-    static const unsigned __int64 muTemplateHash = 11501493079716326557;
+    static const unsigned __int64 muNameHash = 0x632362549CE7C307;
+    static const unsigned __int64 muTemplateHash = 0x9F9D8304BB1AEC9D;
     static const int miNumMembers = 0;
 
 };

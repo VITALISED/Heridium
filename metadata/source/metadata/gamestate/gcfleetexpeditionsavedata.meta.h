@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcExpeditionCategory;
 class cGcExpeditionDuration;
 
 class cGcFleetExpeditionSaveData
 {
-    static const unsigned __int64 muNameHash = 2078813609517786012;
-    static const unsigned __int64 muTemplateHash = 1407843944352968328;
+    static const unsigned __int64 muNameHash = 0x1CD96DF6BD8E239C;
+    static const unsigned __int64 muTemplateHash = 0x1389AA9BBA57EE88;
     static const int miNumMembers = 22;
 
     cTkSeed mSeed;

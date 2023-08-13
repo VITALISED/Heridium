@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eBlendOperation
 {
     EBlendOperation_Blend = 0,
@@ -9,8 +9,8 @@ enum eBlendOperation
 
 class cTkAnimVectorBlendNode
 {
-    static const unsigned __int64 muNameHash = 14909165456732023097;
-    static const unsigned __int64 muTemplateHash = 12993833627706615039;
+    static const unsigned __int64 muNameHash = 0xCEE7FEFDA2096939;
+    static const unsigned __int64 muTemplateHash = 0xB4535ED711FA64FF;
     static const int miNumMembers = 2;
 
     eBlendOperation meBlendOperation;

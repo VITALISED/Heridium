@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcDiscoveryType;
 
 class cGcEncyclopediaComponentData
 {
-    static const unsigned __int64 muNameHash = 13574825987717030696;
-    static const unsigned __int64 muTemplateHash = 2425888006375070985;
+    static const unsigned __int64 muNameHash = 0xBC637850359D6328;
+    static const unsigned __int64 muTemplateHash = 0x21AA7C49F4DDDD09;
     static const int miNumMembers = 1;
 
     cGcDiscoveryType mType;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcProceduralProductDeployable
 {
-    static const unsigned __int64 muNameHash = 3108902618138974137;
-    static const unsigned __int64 muTemplateHash = 5025313867604396532;
+    static const unsigned __int64 muNameHash = 0x2B250A75A37497B9;
+    static const unsigned __int64 muTemplateHash = 0x45BD80565B6789F4;
     static const int miNumMembers = 2;
 
     TkID<128> mBaseID;

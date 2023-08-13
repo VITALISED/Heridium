@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eAccessibleOverride_Text
 {
     EAccessibleOverride_Text_FontHeight = 0,
@@ -8,8 +8,8 @@ enum eAccessibleOverride_Text
 
 class cGcAccessibleOverride_Text
 {
-    static const unsigned __int64 muNameHash = 1440296452024433230;
-    static const unsigned __int64 muTemplateHash = 8730890942929789598;
+    static const unsigned __int64 muNameHash = 0x13FCF5FDFA2BFA4E;
+    static const unsigned __int64 muTemplateHash = 0x792A5B0DEA01629E;
     static const int miNumMembers = 2;
 
     eAccessibleOverride_Text meAccessibleOverride_Text;

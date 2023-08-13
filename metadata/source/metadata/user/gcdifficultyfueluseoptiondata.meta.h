@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDifficultyFuelUseOptionData
 {
-    static const unsigned __int64 muNameHash = 1515229612950914594;
-    static const unsigned __int64 muTemplateHash = 15975946506259239456;
+    static const unsigned __int64 muNameHash = 0x15072D4E11178622;
+    static const unsigned __int64 muTemplateHash = 0xDDB5F6B408399220;
     static const int miNumMembers = 2;
 
     float mfMultiplier;

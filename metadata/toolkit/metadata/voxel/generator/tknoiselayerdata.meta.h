@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eNoiseType
 {
     ENoiseType_Plane = 0,
@@ -18,8 +18,8 @@ enum eNoiseType
 
 class cTkNoiseLayerData
 {
-    static const unsigned __int64 muNameHash = 5135676633036289702;
-    static const unsigned __int64 muTemplateHash = 14332693926109666090;
+    static const unsigned __int64 muNameHash = 0x474596B01166F6A6;
+    static const unsigned __int64 muTemplateHash = 0xC6E7F5301C2A5B2A;
     static const int miNumMembers = 15;
 
     bool mbActive;

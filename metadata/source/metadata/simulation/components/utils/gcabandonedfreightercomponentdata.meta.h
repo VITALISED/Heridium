@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkModelResource;
 class cTkTextureResource;
 
 class cGcAbandonedFreighterComponentData
 {
-    static const unsigned __int64 muNameHash = 10737300097119648751;
-    static const unsigned __int64 muTemplateHash = 16124300534968135911;
+    static const unsigned __int64 muNameHash = 0x95028D8CB7957BEF;
+    static const unsigned __int64 muTemplateHash = 0xDFC505E8066AB0E7;
     static const int miNumMembers = 4;
 
     cTkModelResource mDungeonRootScene;

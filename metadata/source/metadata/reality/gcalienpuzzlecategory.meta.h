@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eAlienPuzzleCategory
 {
     EAlienPuzzleCategory_Default = 0,
@@ -60,8 +60,8 @@ enum eAlienPuzzleCategory
 
 class cGcAlienPuzzleCategory
 {
-    static const unsigned __int64 muNameHash = 4795703198417984365;
-    static const unsigned __int64 muTemplateHash = 7114446347565513425;
+    static const unsigned __int64 muNameHash = 0x428DC2A675E89B6D;
+    static const unsigned __int64 muTemplateHash = 0x62BB97425837BAD1;
     static const int miNumMembers = 1;
 
     eAlienPuzzleCategory meAlienPuzzleCategory;

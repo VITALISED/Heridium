@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInputActions;
 
 enum eInputActionInfoFlags
@@ -14,8 +14,8 @@ enum eInputActionInfoFlags
 
 class cGcInputActionInfo
 {
-    static const unsigned __int64 muNameHash = 8735830622666296831;
-    static const unsigned __int64 muTemplateHash = 16464826765351478688;
+    static const unsigned __int64 muNameHash = 0x793BE7AABA010DFF;
+    static const unsigned __int64 muTemplateHash = 0xE47ED0B56D1E65A0;
     static const int miNumMembers = 12;
 
     bool mbAnalogue;

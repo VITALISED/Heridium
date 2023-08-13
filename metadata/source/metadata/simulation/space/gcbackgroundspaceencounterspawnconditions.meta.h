@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBackgroundSpaceEncounterSpawnConditions
 {
-    static const unsigned __int64 muNameHash = 14997407328349494301;
-    static const unsigned __int64 muTemplateHash = 10463802929060527687;
+    static const unsigned __int64 muNameHash = 0xD0217E81661C9C1D;
+    static const unsigned __int64 muTemplateHash = 0x9136E5530A583E47;
     static const int miNumMembers = 4;
 
     bool mbNeedsEmptySystem;

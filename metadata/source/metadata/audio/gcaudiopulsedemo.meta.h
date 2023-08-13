@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAudioPulseDemo
 {
-    static const unsigned __int64 muNameHash = 17383779818405394762;
-    static const unsigned __int64 muTemplateHash = 119688902103854288;
+    static const unsigned __int64 muNameHash = 0xF13F97A441A8794A;
+    static const unsigned __int64 muTemplateHash = 0x1A9386C1D74ECD0;
     static const int miNumMembers = 6;
 
     float mfMixRateSeconds;

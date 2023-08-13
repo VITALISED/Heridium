@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkPaletteTexture;
 
 class cGcCustomisationTextureOption
 {
-    static const unsigned __int64 muNameHash = 14823506282963132163;
-    static const unsigned __int64 muTemplateHash = 17466021724632960495;
+    static const unsigned __int64 muNameHash = 0xCDB7AC6D11C9DF03;
+    static const unsigned __int64 muTemplateHash = 0xF263C6383800CDEF;
     static const int miNumMembers = 6;
 
     TkID<128> mTextureOptionsID;

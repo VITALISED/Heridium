@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcDebugShipTravelLine
 {
-    static const unsigned __int64 muNameHash = 7177904192645078831;
-    static const unsigned __int64 muTemplateHash = 16564453601229461565;
+    static const unsigned __int64 muNameHash = 0x639D09D542659F2F;
+    static const unsigned __int64 muTemplateHash = 0xE5E0C2C9BFB8D83D;
     static const int miNumMembers = 4;
 
     cTkVector mOrigin;

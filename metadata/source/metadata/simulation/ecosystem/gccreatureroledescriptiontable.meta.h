@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcTerrainTileType;
 class cGcPlanetLife;
 
 class cGcCreatureRoleDescriptionTable
 {
-    static const unsigned __int64 muNameHash = 13618598031372686875;
-    static const unsigned __int64 muTemplateHash = 4309547291052761920;
+    static const unsigned __int64 muNameHash = 0xBCFEFAC14ECD961B;
+    static const unsigned __int64 muTemplateHash = 0x3BCE966DA1F26340;
     static const int miNumMembers = 5;
 
     cTkDynamicArray<cGcCreatureRoleDescription> maRoleDescription;

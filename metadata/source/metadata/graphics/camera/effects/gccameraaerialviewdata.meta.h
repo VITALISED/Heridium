@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eAerialViewMode
 {
     EAerialViewMode_FaceDown = 0,
@@ -13,8 +13,8 @@ class cTkCurveType;
 
 class cGcCameraAerialViewData
 {
-    static const unsigned __int64 muNameHash = 8841927839845425026;
-    static const unsigned __int64 muTemplateHash = 17368266186568000827;
+    static const unsigned __int64 muNameHash = 0x7AB4D686179F9F82;
+    static const unsigned __int64 muTemplateHash = 0xF1087A135ED0653B;
     static const int miNumMembers = 12;
 
     float mfTime;

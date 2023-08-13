@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcBroadcastLevel;
 
 class cGcGoToStateAction
 {
-    static const unsigned __int64 muNameHash = 13756073651932011940;
-    static const unsigned __int64 muTemplateHash = 10619039430920014236;
+    static const unsigned __int64 muNameHash = 0xBEE7641A87849DA4;
+    static const unsigned __int64 muTemplateHash = 0x935E6819AFDA899C;
     static const int miNumMembers = 3;
 
     TkID<128> mState;

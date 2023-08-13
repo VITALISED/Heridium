@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAlienSpeechTable
 {
-    static const unsigned __int64 muNameHash = 14726689793422093127;
-    static const unsigned __int64 muTemplateHash = 18435619397895239073;
+    static const unsigned __int64 muNameHash = 0xCC5FB6577E4B6B47;
+    static const unsigned __int64 muTemplateHash = 0xFFD87A2A91D8B5A1;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcAlienSpeechEntry> maTable;

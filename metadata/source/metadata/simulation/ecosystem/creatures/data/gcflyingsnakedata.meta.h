@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcFlyingSnakeData
 {
-    static const unsigned __int64 muNameHash = 10007927918249044756;
-    static const unsigned __int64 muTemplateHash = 10460609062135479922;
+    static const unsigned __int64 muNameHash = 0x8AE34D6AD8F2EB14;
+    static const unsigned __int64 muTemplateHash = 0x912B8C84F2D13E72;
     static const int miNumMembers = 16;
 
     float mfCircleSpeed;

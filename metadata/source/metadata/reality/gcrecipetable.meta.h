@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRecipeTable
 {
-    static const unsigned __int64 muNameHash = 12707811626370029278;
-    static const unsigned __int64 muTemplateHash = 5209410594975698255;
+    static const unsigned __int64 muNameHash = 0xB05B3758665D56DE;
+    static const unsigned __int64 muTemplateHash = 0x484B8B55E2AECD4F;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcRefinerRecipe> maTable;

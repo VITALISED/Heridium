@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcBlackboardValueDecoratorData
 {
-    static const unsigned __int64 muNameHash = 2864420140682895042;
-    static const unsigned __int64 muTemplateHash = 10797350543214786315;
+    static const unsigned __int64 muNameHash = 0x27C076F10CE0DEC2;
+    static const unsigned __int64 muTemplateHash = 0x95D7E51CBBB0370B;
     static const int miNumMembers = 3;
 
     TkID<128> mKey;

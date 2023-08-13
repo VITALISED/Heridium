@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcVehicleType;
 
 class cGcMissionConditionCanSummonExocraft
 {
-    static const unsigned __int64 muNameHash = 11415739075404287009;
-    static const unsigned __int64 muTemplateHash = 667181116086240083;
+    static const unsigned __int64 muNameHash = 0x9E6CDA34B604CC21;
+    static const unsigned __int64 muTemplateHash = 0x9424DB0B12B4353;
     static const int miNumMembers = 2;
 
     bool mbSpecificExocraft;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionIsLookingAtAnomaly
 {
-    static const unsigned __int64 muNameHash = 7293932757907084070;
-    static const unsigned __int64 muTemplateHash = 17126936943592217640;
+    static const unsigned __int64 muNameHash = 0x65394132CAA31326;
+    static const unsigned __int64 muTemplateHash = 0xEDAF1A6865541C28;
     static const int miNumMembers = 2;
 
     float mfFOV;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eHazardValue
 {
     EHazardValue_Ambient = 0,
@@ -12,8 +12,8 @@ enum eHazardValue
 
 class cGcHazardValueTypes
 {
-    static const unsigned __int64 muNameHash = 3815575200134844032;
-    static const unsigned __int64 muTemplateHash = 15844636784787412091;
+    static const unsigned __int64 muNameHash = 0x34F3A56DC1D3CE80;
+    static const unsigned __int64 muTemplateHash = 0xDBE375351057547B;
     static const int miNumMembers = 1;
 
     eHazardValue meHazardValue;

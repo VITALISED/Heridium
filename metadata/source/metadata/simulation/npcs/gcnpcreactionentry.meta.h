@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcNPCReactionEntry
 {
-    static const unsigned __int64 muNameHash = 6179536048199899336;
-    static const unsigned __int64 muTemplateHash = 10131848089377320181;
+    static const unsigned __int64 muNameHash = 0x55C21F4B95AD18C8;
+    static const unsigned __int64 muTemplateHash = 0x8C9B8E280D8E2CF5;
     static const int miNumMembers = 3;
 
     TkID<128> mEmote;

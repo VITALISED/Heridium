@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkCurveType;
 class cTkCurveType;
 
 class cTkNGuiRectanglePulseEffect
 {
-    static const unsigned __int64 muNameHash = 17082379118374336343;
-    static const unsigned __int64 muTemplateHash = 13761456246311192813;
+    static const unsigned __int64 muNameHash = 0xED10CD4D4540B757;
+    static const unsigned __int64 muTemplateHash = 0xBEFA838B717588ED;
     static const int miNumMembers = 5;
 
     float mfPulseWidth;

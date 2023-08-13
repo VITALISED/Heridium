@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInventoryType;
 
 class cGcPassiveFrigateIncome
 {
-    static const unsigned __int64 muNameHash = 4598731156141390488;
-    static const unsigned __int64 muTemplateHash = 3777032131642008327;
+    static const unsigned __int64 muNameHash = 0x3FD1F99F13543A98;
+    static const unsigned __int64 muTemplateHash = 0x346AB6B64FC22307;
     static const int miNumMembers = 4;
 
     TkID<128> mIncomeId;

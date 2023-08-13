@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcNPCWordReactionList;
 
 class cGcNPCWordReactionCategory
 {
-    static const unsigned __int64 muNameHash = 7551176900553416442;
-    static const unsigned __int64 muTemplateHash = 14190524897739677739;
+    static const unsigned __int64 muNameHash = 0x68CB2B62199F1EFA;
+    static const unsigned __int64 muTemplateHash = 0xC4EEDF35BA1C202B;
     static const int miNumMembers = 2;
 
     cTkFixedArray<cGcNPCWordReactionList> maCategories;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eFriendlyDroneChatType
 {
     EFriendlyDroneChatType_Summoned = 0,
@@ -12,8 +12,8 @@ enum eFriendlyDroneChatType
 
 class cGcFriendlyDroneChatType
 {
-    static const unsigned __int64 muNameHash = 31137498666971221;
-    static const unsigned __int64 muTemplateHash = 7019653636308642325;
+    static const unsigned __int64 muNameHash = 0x6E9F63DB3D3055;
+    static const unsigned __int64 muTemplateHash = 0x616AD1CA5E74AA15;
     static const int miNumMembers = 1;
 
     eFriendlyDroneChatType meFriendlyDroneChatType;

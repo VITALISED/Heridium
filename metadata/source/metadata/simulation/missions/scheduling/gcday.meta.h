@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eDay
 {
     EDay_Sunday = 0,
@@ -14,8 +14,8 @@ enum eDay
 
 class cGcDay
 {
-    static const unsigned __int64 muNameHash = 16758769825751652318;
-    static const unsigned __int64 muTemplateHash = 7273340923662065543;
+    static const unsigned __int64 muNameHash = 0xE8931C5D607657DE;
+    static const unsigned __int64 muTemplateHash = 0x64F01908C5305F87;
     static const int miNumMembers = 1;
 
     eDay meDay;

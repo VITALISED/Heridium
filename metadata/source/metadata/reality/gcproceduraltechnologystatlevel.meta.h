@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcStatsTypes;
 class cGcWeightingCurve;
 
 class cGcProceduralTechnologyStatLevel
 {
-    static const unsigned __int64 muNameHash = 17590168882025633834;
-    static const unsigned __int64 muTemplateHash = 15940391463473513254;
+    static const unsigned __int64 muNameHash = 0xF41CD566C844982A;
+    static const unsigned __int64 muTemplateHash = 0xDD37A59489020326;
     static const int miNumMembers = 5;
 
     cGcStatsTypes mStat;

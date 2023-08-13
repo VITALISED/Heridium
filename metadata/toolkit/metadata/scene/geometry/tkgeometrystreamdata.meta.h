@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkGeometryStreamData
 {
-    static const unsigned __int64 muNameHash = 12164375445579641228;
-    static const unsigned __int64 muTemplateHash = 14239957700699867291;
+    static const unsigned __int64 muNameHash = 0xA8D08B04A442318C;
+    static const unsigned __int64 muTemplateHash = 0xC59E7E150ECDC89B;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cTkMeshData> maStreamDataArray;

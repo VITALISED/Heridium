@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eBaseStat
 {
     EBaseStat_HasTeleporter = 0,
@@ -9,8 +9,8 @@ enum eBaseStat
 
 class cGcBaseStatCondition
 {
-    static const unsigned __int64 muNameHash = 12708733094142352064;
-    static const unsigned __int64 muTemplateHash = 16554669180461824067;
+    static const unsigned __int64 muNameHash = 0xB05E7D6A559B1AC0;
+    static const unsigned __int64 muTemplateHash = 0xE5BDFFE8C388B843;
     static const int miNumMembers = 2;
 
     eBaseStat meBaseStat;

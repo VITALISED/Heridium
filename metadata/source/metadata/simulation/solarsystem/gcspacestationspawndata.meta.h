@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eSpawnMode
 {
     ESpawnMode_None = 0,
@@ -10,8 +10,8 @@ enum eSpawnMode
 
 class cGcSpaceStationSpawnData
 {
-    static const unsigned __int64 muNameHash = 2293243742633077794;
-    static const unsigned __int64 muTemplateHash = 12898054538377944055;
+    static const unsigned __int64 muNameHash = 0x1FD33D08A7082C22;
+    static const unsigned __int64 muTemplateHash = 0xB2FF18440DA1DBF7;
     static const int miNumMembers = 5;
 
     eSpawnMode meSpawnMode;

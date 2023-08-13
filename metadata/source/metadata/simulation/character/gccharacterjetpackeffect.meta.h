@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCharacterJetpackEffect
 {
-    static const unsigned __int64 muNameHash = 7071546584305836529;
-    static const unsigned __int64 muTemplateHash = 4603090234730357876;
+    static const unsigned __int64 muNameHash = 0x62232E26DA2D21F1;
+    static const unsigned __int64 muTemplateHash = 0x3FE1762E262C2474;
     static const int miNumMembers = 2;
 
     cTkFixedString<256,char> macNodeName;

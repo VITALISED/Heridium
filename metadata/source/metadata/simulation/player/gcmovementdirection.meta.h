@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eMovementDirection
 {
     EMovementDirection_WorldRelative = 0,
@@ -11,8 +11,8 @@ enum eMovementDirection
 
 class cGcMovementDirection
 {
-    static const unsigned __int64 muNameHash = 6459654600111516793;
-    static const unsigned __int64 muTemplateHash = 4943173166301416135;
+    static const unsigned __int64 muNameHash = 0x59A54DA2535D6C79;
+    static const unsigned __int64 muTemplateHash = 0x4499ADCE00A38AC7;
     static const int miNumMembers = 1;
 
     eMovementDirection meMovementDirection;

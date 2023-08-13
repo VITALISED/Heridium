@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eSeasonSaveStateOnDeath
 {
     ESeasonSaveStateOnDeath_Standard = 0,
@@ -11,8 +11,8 @@ enum eSeasonSaveStateOnDeath
 
 class cGcSeasonSaveStateOnDeath
 {
-    static const unsigned __int64 muNameHash = 9224364360026310069;
-    static const unsigned __int64 muTemplateHash = 13759726650620291132;
+    static const unsigned __int64 muNameHash = 0x800386833E2445B5;
+    static const unsigned __int64 muTemplateHash = 0xBEF45E7C90B2A83C;
     static const int miNumMembers = 1;
 
     eSeasonSaveStateOnDeath meSeasonSaveStateOnDeath;

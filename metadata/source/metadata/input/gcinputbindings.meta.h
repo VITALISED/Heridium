@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInputBindings
 {
-    static const unsigned __int64 muNameHash = 14344205312317425687;
-    static const unsigned __int64 muTemplateHash = 1866627677046707073;
+    static const unsigned __int64 muNameHash = 0xC710DABB91F38817;
+    static const unsigned __int64 muTemplateHash = 0x19E797FB82481381;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcInputBindingSet> maInputBindingSets;

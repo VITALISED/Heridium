@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eCreatureGroup
 {
     ECreatureGroup_Solo = 0,
@@ -11,8 +11,8 @@ enum eCreatureGroup
 
 class cGcCreatureGroups
 {
-    static const unsigned __int64 muNameHash = 15882724778113592109;
-    static const unsigned __int64 muTemplateHash = 12006438773309304558;
+    static const unsigned __int64 muNameHash = 0xDC6AC60910C16B2D;
+    static const unsigned __int64 muTemplateHash = 0xA69F70739493EEEE;
     static const int miNumMembers = 1;
 
     eCreatureGroup meCreatureGroup;

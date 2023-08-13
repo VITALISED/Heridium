@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eBuildingClass
 {
     EBuildingClass_None = 0,
@@ -59,8 +59,8 @@ enum eBuildingClass
 
 class cGcBuildingClassification
 {
-    static const unsigned __int64 muNameHash = 5863807344974792594;
-    static const unsigned __int64 muTemplateHash = 12311125304961289230;
+    static const unsigned __int64 muNameHash = 0x51606DB6648C8792;
+    static const unsigned __int64 muTemplateHash = 0xAAD9E73CDB8A4C0E;
     static const int miNumMembers = 1;
 
     eBuildingClass meBuildingClass;

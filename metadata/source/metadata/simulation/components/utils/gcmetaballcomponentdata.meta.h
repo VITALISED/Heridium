@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMetaBallComponentData
 {
-    static const unsigned __int64 muNameHash = 15708810922623591109;
-    static const unsigned __int64 muTemplateHash = 6517242553780198716;
+    static const unsigned __int64 muNameHash = 0xDA00E84E26C162C5;
+    static const unsigned __int64 muTemplateHash = 0x5A71E592A520DD3C;
     static const int miNumMembers = 5;
 
     cTkFixedString<128,char> macFile;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkDynamicChainComponentData
 {
-    static const unsigned __int64 muNameHash = 4039049434843838519;
-    static const unsigned __int64 muTemplateHash = 3301933358206749778;
+    static const unsigned __int64 muNameHash = 0x380D960FAA1BF837;
+    static const unsigned __int64 muTemplateHash = 0x2DD2D2E517ED0C52;
     static const int miNumMembers = 15;
 
     float mfAngularLimit;

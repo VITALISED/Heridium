@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSyncBufferSaveData
 {
-    static const unsigned __int64 muNameHash = 17269216028285956280;
-    static const unsigned __int64 muTemplateHash = 4808894837451040057;
+    static const unsigned __int64 muNameHash = 0xEFA8947B437770B8;
+    static const unsigned __int64 muTemplateHash = 0x42BCA060447AA539;
     static const int miNumMembers = 5;
 
     unsigned __int64 mui64SpaceAddress;

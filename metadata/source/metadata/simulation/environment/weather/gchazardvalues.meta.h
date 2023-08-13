@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcHazardValues
 {
-    static const unsigned __int64 muNameHash = 2373067487417465480;
-    static const unsigned __int64 muTemplateHash = 14180242413760427888;
+    static const unsigned __int64 muNameHash = 0x20EED44E878BFA88;
+    static const unsigned __int64 muTemplateHash = 0xC4CA57585D1E3770;
     static const int miNumMembers = 2;
 
     float mfNormal;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPrimaryAxis;
 
 class cGcCreatureComponentData
 {
-    static const unsigned __int64 muNameHash = 2947846412521787800;
-    static const unsigned __int64 muTemplateHash = 1601583875583004782;
+    static const unsigned __int64 muNameHash = 0x28E8DAB19EC55198;
+    static const unsigned __int64 muTemplateHash = 0x1639F80C9E1E506E;
     static const int miNumMembers = 14;
 
     TkID<128> mId;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionSequenceBounty
 {
-    static const unsigned __int64 muNameHash = 13336734876832939876;
-    static const unsigned __int64 muTemplateHash = 11961857131005250837;
+    static const unsigned __int64 muNameHash = 0xB91599B59D30BF64;
+    static const unsigned __int64 muTemplateHash = 0xA6010DAF1B8A8D15;
     static const int miNumMembers = 5;
 
     cTkFixedString<128,char> macMessageGetToSpace;

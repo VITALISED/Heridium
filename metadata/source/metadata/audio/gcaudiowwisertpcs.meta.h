@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eAkRTPC
 {
     EAkRTPC_INVALID_RTPC = 0,
@@ -103,8 +103,8 @@ enum eAkRTPC
 
 class cGcAudioWwiseRTPCs
 {
-    static const unsigned __int64 muNameHash = 10580230529070963671;
-    static const unsigned __int64 muTemplateHash = 3168871318433726227;
+    static const unsigned __int64 muNameHash = 0x92D4879C17049BD7;
+    static const unsigned __int64 muTemplateHash = 0x2BFA17ACBA2A7F13;
     static const int miNumMembers = 1;
 
     eAkRTPC meAkRTPC;

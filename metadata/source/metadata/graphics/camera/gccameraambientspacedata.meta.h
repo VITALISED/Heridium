@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eOrigin
 {
     EOrigin_SpaceStationInternals = 0,
@@ -15,8 +15,8 @@ enum eOrigin
 
 class cGcCameraAmbientSpaceData
 {
-    static const unsigned __int64 muNameHash = 4260118096414970670;
-    static const unsigned __int64 muTemplateHash = 11849635763110371486;
+    static const unsigned __int64 muNameHash = 0x3B1EFAD66E07132E;
+    static const unsigned __int64 muTemplateHash = 0xA4725CF1C9F5609E;
     static const int miNumMembers = 3;
 
     TkID<128> mAnimation;

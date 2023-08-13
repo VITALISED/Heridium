@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBiomeList;
 class cGcBiomeList;
 
 class cGcBiomeListPerStarType
 {
-    static const unsigned __int64 muNameHash = 18067108593452034957;
-    static const unsigned __int64 muTemplateHash = 15791209354398091766;
+    static const unsigned __int64 muNameHash = 0xFABB438AC71DAB8D;
+    static const unsigned __int64 muTemplateHash = 0xDB25A53E0EB949F6;
     static const int miNumMembers = 6;
 
     cTkFixedArray<cGcBiomeList> maStarType;

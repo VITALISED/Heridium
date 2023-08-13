@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcGeneratedBasePruningRule
 {
-    static const unsigned __int64 muNameHash = 3983271370432580239;
-    static const unsigned __int64 muTemplateHash = 3894530027239511563;
+    static const unsigned __int64 muNameHash = 0x37476C35069E0A8F;
+    static const unsigned __int64 muTemplateHash = 0x360C266CF8B4160B;
     static const int miNumMembers = 5;
 
     TkID<128> mRuleId;

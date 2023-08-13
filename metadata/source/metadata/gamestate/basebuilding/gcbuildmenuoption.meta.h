@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eBuildMenuOption
 {
     EBuildMenuOption_Place = 0,
@@ -23,8 +23,8 @@ enum eBuildMenuOption
 
 class cGcBuildMenuOption
 {
-    static const unsigned __int64 muNameHash = 14953199122044267855;
-    static const unsigned __int64 muTemplateHash = 7303952297799240117;
+    static const unsigned __int64 muNameHash = 0xCF846F604521AD4F;
+    static const unsigned __int64 muTemplateHash = 0x655CD9EAB6B8C9B5;
     static const int miNumMembers = 1;
 
     eBuildMenuOption meBuildMenuOption;

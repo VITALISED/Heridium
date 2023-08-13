@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkPhysicsData
 {
-    static const unsigned __int64 muNameHash = 8378643097361692281;
-    static const unsigned __int64 muTemplateHash = 5992575201458913627;
+    static const unsigned __int64 muNameHash = 0x7446EB814E05B679;
+    static const unsigned __int64 muTemplateHash = 0x5329E7654CC6015B;
     static const int miNumMembers = 6;
 
     float mfMass;

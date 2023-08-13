@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eCurve
 {
     ECurve_Linear = 0,
@@ -47,8 +47,8 @@ enum eCurve
 
 class cTkCurveType
 {
-    static const unsigned __int64 muNameHash = 5225466755255174378;
-    static const unsigned __int64 muTemplateHash = 11577125063407393088;
+    static const unsigned __int64 muNameHash = 0x48849654049904EA;
+    static const unsigned __int64 muTemplateHash = 0xA0AA35E82CAB5940;
     static const int miNumMembers = 1;
 
     eCurve meCurve;

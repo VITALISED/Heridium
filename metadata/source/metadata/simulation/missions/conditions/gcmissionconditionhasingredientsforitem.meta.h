@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionHasIngredientsForItem
 {
-    static const unsigned __int64 muNameHash = 9564448724684779978;
-    static const unsigned __int64 muTemplateHash = 17538045719045020970;
+    static const unsigned __int64 muNameHash = 0x84BBBF70C34631CA;
+    static const unsigned __int64 muTemplateHash = 0xF363A7A9323D1D2A;
     static const int miNumMembers = 2;
 
     cTkDynamicArray<TkID<128> > maTargetItems;

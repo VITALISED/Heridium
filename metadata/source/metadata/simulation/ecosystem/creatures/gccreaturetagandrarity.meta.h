@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcCreatureRarity;
 
 class cGcCreatureTagAndRarity
 {
-    static const unsigned __int64 muNameHash = 4467519205792953831;
-    static const unsigned __int64 muTemplateHash = 7038700074522147399;
+    static const unsigned __int64 muNameHash = 0x3DFFD10C388635E7;
+    static const unsigned __int64 muTemplateHash = 0x61AE7C6CD6687A47;
     static const int miNumMembers = 2;
 
     TkID<128> mTag;

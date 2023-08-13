@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eGraphicDetail
 {
     EGraphicDetail_Low = 0,
@@ -11,8 +11,8 @@ enum eGraphicDetail
 
 class cTkGraphicsDetailTypes
 {
-    static const unsigned __int64 muNameHash = 12306677974338689352;
-    static const unsigned __int64 muTemplateHash = 5688597652674599795;
+    static const unsigned __int64 muNameHash = 0xAACA1A6A0194D948;
+    static const unsigned __int64 muTemplateHash = 0x4EF1F56CF5CA5B73;
     static const int miNumMembers = 1;
 
     eGraphicDetail meGraphicDetail;

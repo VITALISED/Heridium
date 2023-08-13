@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkJointExtentData
 {
-    static const unsigned __int64 muNameHash = 13058293064423821612;
-    static const unsigned __int64 muTemplateHash = 13829622248916285098;
+    static const unsigned __int64 muNameHash = 0xB538605B35EDD12C;
+    static const unsigned __int64 muTemplateHash = 0xBFECB029B47E76AA;
     static const int miNumMembers = 4;
 
     cTkFixedArray<float> maJointExtentMin;

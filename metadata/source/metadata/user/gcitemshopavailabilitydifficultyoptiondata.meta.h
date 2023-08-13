@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcItemShopAvailabilityDifficultyOptionData
 {
-    static const unsigned __int64 muNameHash = 12299306511142639272;
-    static const unsigned __int64 muTemplateHash = 16273426656042005560;
+    static const unsigned __int64 muNameHash = 0xAAAFEA1B7C4E56A8;
+    static const unsigned __int64 muTemplateHash = 0xE1D6D352C7C1B438;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<TkID<128> > maNeverSoldItems;

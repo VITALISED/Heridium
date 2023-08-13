@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcBuildingPartSearchType;
 
 enum ePartInCurrentBase
@@ -11,8 +11,8 @@ enum ePartInCurrentBase
 
 class cGcMissionConditionBasePartBuilt
 {
-    static const unsigned __int64 muNameHash = 8477093001265979346;
-    static const unsigned __int64 muTemplateHash = 18173229003545959479;
+    static const unsigned __int64 muNameHash = 0x75A4AF2BCC689FD2;
+    static const unsigned __int64 muTemplateHash = 0xFC34477E2A2EDC37;
     static const int miNumMembers = 5;
 
     TkID<128> mPartID;

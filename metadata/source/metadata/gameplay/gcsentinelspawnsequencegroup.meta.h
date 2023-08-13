@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSentinelSpawnSequence;
 class cGcSentinelSpawnSequence;
 
 class cGcSentinelSpawnSequenceGroup
 {
-    static const unsigned __int64 muNameHash = 4471281039395645357;
-    static const unsigned __int64 muTemplateHash = 14279227813144190278;
+    static const unsigned __int64 muNameHash = 0x3E0D2E6A5C1DE7AD;
+    static const unsigned __int64 muTemplateHash = 0xC62A020A9D565D46;
     static const int miNumMembers = 2;
 
     cGcSentinelSpawnSequence mSequence;

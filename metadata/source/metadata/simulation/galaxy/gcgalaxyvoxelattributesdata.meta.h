@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcGalaxyVoxelAttributesData
 {
-    static const unsigned __int64 muNameHash = 10843461315440438245;
-    static const unsigned __int64 muTemplateHash = 17489830936814630187;
+    static const unsigned __int64 muNameHash = 0x967BB69D82846BE5;
+    static const unsigned __int64 muTemplateHash = 0xF2B85C926A79352B;
     static const int miNumMembers = 11;
 
     bool mbInsideGoalGap;

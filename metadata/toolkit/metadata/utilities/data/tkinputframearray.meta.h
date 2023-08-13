@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkInputFrameArray
 {
-    static const unsigned __int64 muNameHash = 12187719363630623791;
-    static const unsigned __int64 muTemplateHash = 14079228751734437564;
+    static const unsigned __int64 muNameHash = 0xA9237A301B5A6C2F;
+    static const unsigned __int64 muTemplateHash = 0xC36377F46A98F6BC;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cTkInputFrame> maArray;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcByteBeatEnvelope;
 class cGcByteBeatEnvelope;
 class cGcByteBeatWave;
@@ -14,8 +14,8 @@ enum eAugmentMode
 
 class cGcByteBeatDrum
 {
-    static const unsigned __int64 muNameHash = 12300644974502329391;
-    static const unsigned __int64 muTemplateHash = 17918411776665332020;
+    static const unsigned __int64 muNameHash = 0xAAB4AB6EC567BC2F;
+    static const unsigned __int64 muTemplateHash = 0xF8AAFC9337502934;
     static const int miNumMembers = 14;
 
     cTkFixedString<64,char> macTree;

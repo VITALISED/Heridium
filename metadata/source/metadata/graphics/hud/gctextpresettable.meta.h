@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcTextPresetTable
 {
-    static const unsigned __int64 muNameHash = 7306969982474713247;
-    static const unsigned __int64 muTemplateHash = 3382362203182302600;
+    static const unsigned __int64 muNameHash = 0x6567927C2DD8F89F;
+    static const unsigned __int64 muTemplateHash = 0x2EF09080D6638588;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcTextPreset> maTable;

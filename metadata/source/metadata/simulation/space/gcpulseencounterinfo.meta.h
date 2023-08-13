@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkTextureResource;
 class cGcPulseEncounterSpawnConditions;
 class cGcAudioWwiseEvents;
 
 class cGcPulseEncounterInfo
 {
-    static const unsigned __int64 muNameHash = 7310910852322042953;
-    static const unsigned __int64 muTemplateHash = 7708114902151444507;
+    static const unsigned __int64 muNameHash = 0x657592AF71342449;
+    static const unsigned __int64 muTemplateHash = 0x6AF8B9AA06A1B81B;
     static const int miNumMembers = 14;
 
     TkID<128> mId;

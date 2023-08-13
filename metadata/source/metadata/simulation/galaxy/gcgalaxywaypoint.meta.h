@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcGalacticAddressData;
 class cGcGalaxyWaypointTypes;
 
 class cGcGalaxyWaypoint
 {
-    static const unsigned __int64 muNameHash = 6206051168681772195;
-    static const unsigned __int64 muTemplateHash = 15060519436689208487;
+    static const unsigned __int64 muNameHash = 0x562052A8272CC4A3;
+    static const unsigned __int64 muTemplateHash = 0xD101B6A234B9F4A7;
     static const int miNumMembers = 3;
 
     cGcGalacticAddressData mAddress;

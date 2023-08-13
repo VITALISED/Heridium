@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcNGuiElementData;
 
 class cGcNGuiSpacingData
 {
-    static const unsigned __int64 muNameHash = 10149265253253609259;
-    static const unsigned __int64 muTemplateHash = 4657848910095784400;
+    static const unsigned __int64 muNameHash = 0x8CD96EF98765772B;
+    static const unsigned __int64 muTemplateHash = 0x40A400E7C7B319D0;
     static const int miNumMembers = 1;
 
     cGcNGuiElementData mElementData;

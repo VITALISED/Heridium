@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkNGuiTextStyleData;
 class cTkNGuiTextStyleData;
 class cTkNGuiTextStyleData;
 
 class cTkNGuiTextStyle
 {
-    static const unsigned __int64 muNameHash = 6185948195808982289;
-    static const unsigned __int64 muTemplateHash = 4777926953757072932;
+    static const unsigned __int64 muNameHash = 0x55D8E71C0A29B511;
+    static const unsigned __int64 muTemplateHash = 0x424E9B3FF9745E24;
     static const int miNumMembers = 3;
 
     cTkNGuiTextStyleData mDefault;

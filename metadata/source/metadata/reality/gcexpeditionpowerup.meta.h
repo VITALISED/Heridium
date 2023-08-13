@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcFrigateStatType;
 
 class cGcExpeditionPowerup
 {
-    static const unsigned __int64 muNameHash = 13213725945770063314;
-    static const unsigned __int64 muTemplateHash = 5940896250511367700;
+    static const unsigned __int64 muNameHash = 0xB76095BD04FCB5D2;
+    static const unsigned __int64 muTemplateHash = 0x52724DA9E32E1E14;
     static const int miNumMembers = 5;
 
     TkID<128> mProductId;

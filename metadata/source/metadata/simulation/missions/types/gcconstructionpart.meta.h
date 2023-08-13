@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcConstructionPart
 {
-    static const unsigned __int64 muNameHash = 18108437916845414220;
-    static const unsigned __int64 muTemplateHash = 3585590687305159268;
+    static const unsigned __int64 muNameHash = 0xFB4E1857BEC9174C;
+    static const unsigned __int64 muTemplateHash = 0x31C293BB9AC5D264;
     static const int miNumMembers = 2;
 
     TkID<128> mPart;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkModelResource;
 
 class cGcCustomisationBobbleHead
 {
-    static const unsigned __int64 muNameHash = 2393385401596571072;
-    static const unsigned __int64 muTemplateHash = 16348675675216760193;
+    static const unsigned __int64 muNameHash = 0x2137035790C4EDC0;
+    static const unsigned __int64 muTemplateHash = 0xE2E229E8595D4D81;
     static const int miNumMembers = 2;
 
     TkID<128> mLinkedTechId;

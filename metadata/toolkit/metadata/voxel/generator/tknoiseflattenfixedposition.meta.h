@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkNoiseFlattenPoint;
 
 class cTkNoiseFlattenFixedPosition
 {
-    static const unsigned __int64 muNameHash = 6628182091271066123;
-    static const unsigned __int64 muTemplateHash = 6523274506428529476;
+    static const unsigned __int64 muNameHash = 0x5BFC087E90D1520B;
+    static const unsigned __int64 muTemplateHash = 0x5A87539A1008BB44;
     static const int miNumMembers = 2;
 
     cTkVector mPosition;

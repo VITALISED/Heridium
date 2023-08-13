@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcActionSetType;
 
 class cGcInputBindingSet
 {
-    static const unsigned __int64 muNameHash = 5956853225595626926;
-    static const unsigned __int64 muTemplateHash = 10588234377567929508;
+    static const unsigned __int64 muNameHash = 0x52AAFE72AAC465AE;
+    static const unsigned __int64 muTemplateHash = 0x92F0F711498404A4;
     static const int miNumMembers = 2;
 
     cGcActionSetType mType;

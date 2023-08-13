@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eRarity
 {
     ERarity_Common = 0,
@@ -10,8 +10,8 @@ enum eRarity
 
 class cGcRarity
 {
-    static const unsigned __int64 muNameHash = 9637012231845322050;
-    static const unsigned __int64 muTemplateHash = 10254753208924475996;
+    static const unsigned __int64 muNameHash = 0x85BD8B90D73C1D42;
+    static const unsigned __int64 muTemplateHash = 0x8E5033B6253D925C;
     static const int miNumMembers = 1;
 
     eRarity meRarity;

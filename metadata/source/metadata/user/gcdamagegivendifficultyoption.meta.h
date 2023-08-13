@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eDamageGivenDifficulty
 {
     EDamageGivenDifficulty_High = 0,
@@ -10,8 +10,8 @@ enum eDamageGivenDifficulty
 
 class cGcDamageGivenDifficultyOption
 {
-    static const unsigned __int64 muNameHash = 927524165584944339;
-    static const unsigned __int64 muTemplateHash = 6381902513850885770;
+    static const unsigned __int64 muNameHash = 0xCDF3A507A47FCD3;
+    static const unsigned __int64 muTemplateHash = 0x589112860941268A;
     static const int miNumMembers = 1;
 
     eDamageGivenDifficulty meDamageGivenDifficulty;

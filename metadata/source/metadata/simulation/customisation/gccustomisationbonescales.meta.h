@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCustomisationBoneScales
 {
-    static const unsigned __int64 muNameHash = 8784890329154804622;
-    static const unsigned __int64 muTemplateHash = 13519747152311687792;
+    static const unsigned __int64 muNameHash = 0x79EA3335C4095B8E;
+    static const unsigned __int64 muTemplateHash = 0xBB9FCA6782A31A70;
     static const int miNumMembers = 3;
 
     TkID<256> mGroupTitle;

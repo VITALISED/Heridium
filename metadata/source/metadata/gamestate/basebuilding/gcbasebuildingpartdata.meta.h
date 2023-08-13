@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBaseBuildingPartStyle;
 class cTkMagicModelData;
 
 class cGcBaseBuildingPartData
 {
-    static const unsigned __int64 muNameHash = 5723922314355982332;
-    static const unsigned __int64 muTemplateHash = 8594265656462742653;
+    static const unsigned __int64 muNameHash = 0x4F6F7504AD1EBFFC;
+    static const unsigned __int64 muTemplateHash = 0x7744F71486CD147D;
     static const int miNumMembers = 12;
 
     TkID<256> mPartID;

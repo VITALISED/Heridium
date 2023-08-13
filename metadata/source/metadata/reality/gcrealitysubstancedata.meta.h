@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkTextureResource;
 class cTkModelResource;
 class cGcRealitySubstanceCategory;
@@ -11,8 +11,8 @@ class cGcTradeCategory;
 
 class cGcRealitySubstanceData
 {
-    static const unsigned __int64 muNameHash = 15569494534681560126;
-    static const unsigned __int64 muTemplateHash = 7553159499489512629;
+    static const unsigned __int64 muNameHash = 0xD811F4C9E014843E;
+    static const unsigned __int64 muTemplateHash = 0x68D2368BE2F08CB5;
     static const int miNumMembers = 28;
 
     cTkFixedString<32,char> macName;

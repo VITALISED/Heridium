@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPunctuationDelayData
 {
-    static const unsigned __int64 muNameHash = 6128685881796040807;
-    static const unsigned __int64 muTemplateHash = 10131620508024270416;
+    static const unsigned __int64 muNameHash = 0x550D77569C679867;
+    static const unsigned __int64 muTemplateHash = 0x8C9ABF2C23D96E50;
     static const int miNumMembers = 2;
 
     cTkDynamicArray<cGcPunctuationDelay> maPunctuationList;

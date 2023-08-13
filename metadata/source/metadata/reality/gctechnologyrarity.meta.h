@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eTechnologyRarity
 {
     ETechnologyRarity_Normal = 0,
@@ -14,8 +14,8 @@ enum eTechnologyRarity
 
 class cGcTechnologyRarity
 {
-    static const unsigned __int64 muNameHash = 15797821283540869315;
-    static const unsigned __int64 muTemplateHash = 4159540075271160580;
+    static const unsigned __int64 muNameHash = 0xDB3D22C1C68F20C3;
+    static const unsigned __int64 muTemplateHash = 0x39B9A7A9078A0304;
     static const int miNumMembers = 1;
 
     eTechnologyRarity meTechnologyRarity;

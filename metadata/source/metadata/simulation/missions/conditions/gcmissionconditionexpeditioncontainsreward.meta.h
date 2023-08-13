@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionExpeditionContainsReward
 {
-    static const unsigned __int64 muNameHash = 15022847155423896462;
-    static const unsigned __int64 muTemplateHash = 13235434660564232416;
+    static const unsigned __int64 muNameHash = 0xD07BDFE4B607638E;
+    static const unsigned __int64 muTemplateHash = 0xB7ADB5B30ED2E8E0;
     static const int miNumMembers = 1;
 
     TkID<128> mRewardID;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eWonderPlanetCategory
 {
     EWonderPlanetCategory_TemperatureMax = 0,
@@ -18,8 +18,8 @@ enum eWonderPlanetCategory
 
 class cGcWonderPlanetCategory
 {
-    static const unsigned __int64 muNameHash = 1483567696278176222;
-    static const unsigned __int64 muTemplateHash = 10903110642871158023;
+    static const unsigned __int64 muNameHash = 0x1496B0F5A0E7C1DE;
+    static const unsigned __int64 muTemplateHash = 0x974FA15CCF1DC507;
     static const int miNumMembers = 1;
 
     eWonderPlanetCategory meWonderPlanetCategory;

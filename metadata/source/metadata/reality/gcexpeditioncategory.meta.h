@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eExpeditionCategory
 {
     EExpeditionCategory_Combat = 0,
@@ -12,8 +12,8 @@ enum eExpeditionCategory
 
 class cGcExpeditionCategory
 {
-    static const unsigned __int64 muNameHash = 5723060489956716857;
-    static const unsigned __int64 muTemplateHash = 16431668946887549852;
+    static const unsigned __int64 muNameHash = 0x4F6C65318BF17139;
+    static const unsigned __int64 muTemplateHash = 0xE40903D9360CA39C;
     static const int miNumMembers = 1;
 
     eExpeditionCategory meExpeditionCategory;

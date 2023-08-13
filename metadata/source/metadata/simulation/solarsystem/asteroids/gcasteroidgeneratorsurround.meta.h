@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcAsteroidGeneratorAssignment;
 
 class cGcAsteroidGeneratorSurround
 {
-    static const unsigned __int64 muNameHash = 14697997031756411823;
-    static const unsigned __int64 muTemplateHash = 11566468847755884410;
+    static const unsigned __int64 muNameHash = 0xCBF9C66D539633AF;
+    static const unsigned __int64 muTemplateHash = 0xA0845A22A01C777A;
     static const int miNumMembers = 6;
 
     cGcAsteroidGeneratorAssignment mAssignment;

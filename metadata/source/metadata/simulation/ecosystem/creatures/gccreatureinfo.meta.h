@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eAge
 {
     EAge_Regular = 0,
@@ -10,8 +10,8 @@ class cGcRarity;
 
 class cGcCreatureInfo
 {
-    static const unsigned __int64 muNameHash = 16744105113766507357;
-    static const unsigned __int64 muTemplateHash = 699950472614261166;
+    static const unsigned __int64 muNameHash = 0xE85F02E30BDAB35D;
+    static const unsigned __int64 muTemplateHash = 0x9B6B93F108A31AE;
     static const int miNumMembers = 19;
 
     eAge meAge;

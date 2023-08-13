@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcStoryEntryBranch
 {
-    static const unsigned __int64 muNameHash = 2710402997116913728;
-    static const unsigned __int64 muTemplateHash = 12639207319204088940;
+    static const unsigned __int64 muNameHash = 0x259D492A614EC840;
+    static const unsigned __int64 muTemplateHash = 0xAF677C1767AD4C6C;
     static const int miNumMembers = 3;
 
     TkID<256> mEntry;

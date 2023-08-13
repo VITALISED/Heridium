@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPaletteData;
 class cGcCustomisationColourPaletteExtraData;
 class cGcPaletteData;
@@ -8,8 +8,8 @@ class cGcCustomisationColourPaletteExtraData;
 
 class cGcCustomisationBannerGroup
 {
-    static const unsigned __int64 muNameHash = 15454638427374956860;
-    static const unsigned __int64 muTemplateHash = 12237002554135388208;
+    static const unsigned __int64 muNameHash = 0xD679E7C47BC9313C;
+    static const unsigned __int64 muTemplateHash = 0xA9D290FD12C9A030;
     static const int miNumMembers = 5;
 
     cTkDynamicArray<cGcCustomisationBannerImageData> maBannerImages;

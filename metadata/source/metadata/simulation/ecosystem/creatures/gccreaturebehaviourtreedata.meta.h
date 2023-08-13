@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcCreatureBehaviourTreeData
 {
-    static const unsigned __int64 muNameHash = 865290178055431206;
-    static const unsigned __int64 muTemplateHash = 7349222960324633754;
+    static const unsigned __int64 muNameHash = 0xC0220D51AA0E426;
+    static const unsigned __int64 muTemplateHash = 0x65FDAF58354B649A;
     static const int miNumMembers = 2;
 
     TkID<128> mId;

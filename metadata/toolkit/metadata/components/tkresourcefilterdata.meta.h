@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkResourceFilterData
 {
-    static const unsigned __int64 muNameHash = 12688224910764820229;
-    static const unsigned __int64 muTemplateHash = 6781435033070053209;
+    static const unsigned __int64 muNameHash = 0xB015A154CC664705;
+    static const unsigned __int64 muTemplateHash = 0x5E1C7F3BA587A759;
     static const int miNumMembers = 2;
 
     TkID<128> mFilterName;

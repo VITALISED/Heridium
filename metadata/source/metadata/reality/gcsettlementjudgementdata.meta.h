@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSettlementJudgementType;
 class cGcSettlementJudgementOption;
 class cGcSettlementJudgementOption;
@@ -14,8 +14,8 @@ enum eNPCs
 
 class cGcSettlementJudgementData
 {
-    static const unsigned __int64 muNameHash = 6925643645289722648;
-    static const unsigned __int64 muTemplateHash = 16056938290257922761;
+    static const unsigned __int64 muNameHash = 0x601CD433A66F7318;
+    static const unsigned __int64 muTemplateHash = 0xDED5B44D3B310AC9;
     static const int miNumMembers = 18;
 
     cGcSettlementJudgementType mJudgementType;

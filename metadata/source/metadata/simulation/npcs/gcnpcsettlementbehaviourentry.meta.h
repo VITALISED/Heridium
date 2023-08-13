@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcNPCSettlementBehaviourEntry
 {
-    static const unsigned __int64 muNameHash = 12855779444584194469;
-    static const unsigned __int64 muTemplateHash = 15881900781425310844;
+    static const unsigned __int64 muNameHash = 0xB268E74AC135A1A5;
+    static const unsigned __int64 muTemplateHash = 0xDC67D89D62DABC7C;
     static const int miNumMembers = 6;
 
     float mfRunWhenOutdoorsProbability;

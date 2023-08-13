@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkLSystemLocatorEntry
 {
-    static const unsigned __int64 muNameHash = 6895903322409533033;
-    static const unsigned __int64 muTemplateHash = 9227107712254806578;
+    static const unsigned __int64 muNameHash = 0x5FB32B8921A7FE69;
+    static const unsigned __int64 muTemplateHash = 0x800D4593B5370A32;
     static const int miNumMembers = 3;
 
     cTkFixedString<128,char> macModel;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcByteBeatLibraryData
 {
-    static const unsigned __int64 muNameHash = 2107663626111975071;
-    static const unsigned __int64 muTemplateHash = 8607041009448004584;
+    static const unsigned __int64 muNameHash = 0x1D3FECE6AC6A7E9F;
+    static const unsigned __int64 muTemplateHash = 0x77725A322F5E2BE8;
     static const int miNumMembers = 6;
 
     cTkFixedArray<cGcByteBeatSong> maMySongs;

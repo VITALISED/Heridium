@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkNoiseFeatureData;
 class cTkNoiseFeatureData;
 
 class cTkNoiseCaveData
 {
-    static const unsigned __int64 muNameHash = 16304208159045555480;
-    static const unsigned __int64 muTemplateHash = 11089691789123604022;
+    static const unsigned __int64 muNameHash = 0xE2442EEFEFEF9518;
+    static const unsigned __int64 muTemplateHash = 0x99E67FED2F474E36;
     static const int miNumMembers = 2;
 
     cTkNoiseFeatureData mMouth;

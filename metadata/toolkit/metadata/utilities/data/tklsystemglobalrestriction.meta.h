@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkLSystemGlobalRestriction
 {
-    static const unsigned __int64 muNameHash = 2786264284750110917;
-    static const unsigned __int64 muTemplateHash = 11609356619725623187;
+    static const unsigned __int64 muNameHash = 0x26AACC9ACEE360C5;
+    static const unsigned __int64 muTemplateHash = 0xA11CB8562D934F93;
     static const int miNumMembers = 3;
 
     cTkFixedString<32,char> macName;

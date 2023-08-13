@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcCostHealth
 {
-    static const unsigned __int64 muNameHash = 7931326100328007036;
-    static const unsigned __int64 muTemplateHash = 13936100407503350823;
+    static const unsigned __int64 muNameHash = 0x6E11BB10F7D5C57C;
+    static const unsigned __int64 muTemplateHash = 0xC166F97BE769EC27;
     static const int miNumMembers = 1;
 
     int miHealthUnits;

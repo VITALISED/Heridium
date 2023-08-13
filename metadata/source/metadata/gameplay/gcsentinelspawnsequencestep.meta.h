@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSentinelSpawnSequenceStep
 {
-    static const unsigned __int64 muNameHash = 6677932649890343897;
-    static const unsigned __int64 muTemplateHash = 350852785174908480;
+    static const unsigned __int64 muNameHash = 0x5CACC85D26B26BD9;
+    static const unsigned __int64 muTemplateHash = 0x4DE7ABFCCCE8E40;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<TkID<128> > maWavePool;

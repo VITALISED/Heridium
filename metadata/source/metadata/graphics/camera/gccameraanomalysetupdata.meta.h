@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCameraAnomalySetupData
 {
-    static const unsigned __int64 muNameHash = 18087285785837149579;
-    static const unsigned __int64 muTemplateHash = 12413714103598042596;
+    static const unsigned __int64 muNameHash = 0xFB02F29777CB9D8B;
+    static const unsigned __int64 muTemplateHash = 0xAC465F34E037CDE4;
     static const int miNumMembers = 4;
 
     cTkVector4 mCameraAt;

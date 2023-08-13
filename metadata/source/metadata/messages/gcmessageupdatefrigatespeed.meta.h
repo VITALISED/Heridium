@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcMessageUpdateFrigateSpeed
 {
-    static const unsigned __int64 muNameHash = 16722014370964484329;
-    static const unsigned __int64 muTemplateHash = 17166169924571276246;
+    static const unsigned __int64 muNameHash = 0xE81087792E50B0E9;
+    static const unsigned __int64 muTemplateHash = 0xEE3A7C989C10A3D6;
     static const int miNumMembers = 2;
 
     float mfStartSpeed;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eAssistanceType
 {
     EAssistanceType_Police = 0,
@@ -9,8 +9,8 @@ enum eAssistanceType
 
 class cGcRewardShipAssistance
 {
-    static const unsigned __int64 muNameHash = 5907345467665434610;
-    static const unsigned __int64 muTemplateHash = 12542135695816573651;
+    static const unsigned __int64 muNameHash = 0x51FB1B6785B647F2;
+    static const unsigned __int64 muTemplateHash = 0xAE0E9DF6D9E4C2D3;
     static const int miNumMembers = 2;
 
     eAssistanceType meAssistanceType;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSettlementPerksTable
 {
-    static const unsigned __int64 muNameHash = 4592784908136572109;
-    static const unsigned __int64 muTemplateHash = 441528527134729442;
+    static const unsigned __int64 muNameHash = 0x3FBCD98A534164CD;
+    static const unsigned __int64 muTemplateHash = 0x6209FDB2A1124E2;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcSettlementPerkData> maTable;

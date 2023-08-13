@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPlanetaryMappingData
 {
-    static const unsigned __int64 muNameHash = 5737535902350070948;
-    static const unsigned __int64 muTemplateHash = 2886506953058374963;
+    static const unsigned __int64 muNameHash = 0x4F9FD28121A054A4;
+    static const unsigned __int64 muTemplateHash = 0x280EEEC7CABD5533;
     static const int miNumMembers = 2;
 
     unsigned __int64 mui64UA;

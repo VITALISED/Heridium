@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eDiet
 {
     EDiet_Carnivore = 0,
@@ -11,8 +11,8 @@ enum eDiet
 
 class cGcCreatureDiet
 {
-    static const unsigned __int64 muNameHash = 17235393712973389183;
-    static const unsigned __int64 muTemplateHash = 15617278717689250756;
+    static const unsigned __int64 muNameHash = 0xEF306B43D1C79D7F;
+    static const unsigned __int64 muTemplateHash = 0xD8BBB83FF622C3C4;
     static const int miNumMembers = 1;
 
     eDiet meDiet;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eSectorName
 {
     ESectorName_Generic = 0,
@@ -19,8 +19,8 @@ enum eSectorName
 
 class cGcNameGeneratorSectorTypes
 {
-    static const unsigned __int64 muNameHash = 3439475980567816347;
-    static const unsigned __int64 muTemplateHash = 9077962565546128874;
+    static const unsigned __int64 muNameHash = 0x2FBB792E633BA89B;
+    static const unsigned __int64 muTemplateHash = 0x7DFB66DB33ABB5EA;
     static const int miNumMembers = 1;
 
     eSectorName meSectorName;

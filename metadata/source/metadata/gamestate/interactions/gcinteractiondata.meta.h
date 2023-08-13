@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcInteractionData
 {
-    static const unsigned __int64 muNameHash = 595171799966721149;
-    static const unsigned __int64 muTemplateHash = 13631199979604102687;
+    static const unsigned __int64 muNameHash = 0x84279994558A47D;
+    static const unsigned __int64 muTemplateHash = 0xBD2BC029069D4E1F;
     static const int miNumMembers = 3;
 
     unsigned __int64 mui64GalacticAddress;

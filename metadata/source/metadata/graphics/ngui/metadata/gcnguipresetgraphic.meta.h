@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcNGuiLayoutData;
 class cTkNGuiGraphicStyle;
 
 class cGcNGuiPresetGraphic
 {
-    static const unsigned __int64 muNameHash = 2629071792747373146;
-    static const unsigned __int64 muTemplateHash = 14284498236457439956;
+    static const unsigned __int64 muNameHash = 0x247C56DDB7B4E25A;
+    static const unsigned __int64 muTemplateHash = 0xC63CBB76AABD52D4;
     static const int miNumMembers = 4;
 
     TkID<128> mPresetID;

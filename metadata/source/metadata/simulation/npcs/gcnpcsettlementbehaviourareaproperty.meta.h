@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eNPCSettlementBehaviourAreaProperty
 {
     ENPCSettlementBehaviourAreaProperty_ContainsPlayer = 0,
@@ -9,8 +9,8 @@ enum eNPCSettlementBehaviourAreaProperty
 
 class cGcNPCSettlementBehaviourAreaProperty
 {
-    static const unsigned __int64 muNameHash = 4624500844879741651;
-    static const unsigned __int64 muTemplateHash = 6373800134044918815;
+    static const unsigned __int64 muNameHash = 0x402D87044A8D02D3;
+    static const unsigned __int64 muTemplateHash = 0x58744973BB15A41F;
     static const int miNumMembers = 1;
 
     eNPCSettlementBehaviourAreaProperty meNPCSettlementBehaviourAreaProperty;

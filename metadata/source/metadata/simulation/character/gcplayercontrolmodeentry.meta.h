@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkModelResource;
 
 class cGcPlayerControlModeEntry
 {
-    static const unsigned __int64 muNameHash = 12973701659848527618;
-    static const unsigned __int64 muTemplateHash = 1322044483169554558;
+    static const unsigned __int64 muNameHash = 0xB40BD8EC092ACF02;
+    static const unsigned __int64 muTemplateHash = 0x1258D873F496107E;
     static const int miNumMembers = 2;
 
     TkID<128> mId;

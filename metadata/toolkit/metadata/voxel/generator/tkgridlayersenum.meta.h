@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eGridLayerTypes
 {
     EGridLayerTypes_Small = 0,
@@ -16,8 +16,8 @@ enum eGridLayerTypes
 
 class cTkGridLayersEnum
 {
-    static const unsigned __int64 muNameHash = 1148258545606359904;
-    static const unsigned __int64 muTemplateHash = 13398623771643228006;
+    static const unsigned __int64 muNameHash = 0xFEF6F10412C7B60;
+    static const unsigned __int64 muTemplateHash = 0xB9F17954D3E62F66;
     static const int miNumMembers = 1;
 
     eGridLayerTypes meGridLayerTypes;

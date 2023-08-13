@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 class cTkLocalisationTable
 {
-    static const unsigned __int64 muNameHash = 2984138960387934874;
-    static const unsigned __int64 muTemplateHash = 17514312709154459446;
+    static const unsigned __int64 muNameHash = 0x2969CA92E6538A9A;
+    static const unsigned __int64 muTemplateHash = 0xF30F569D3A42CF36;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cTkLocalisationEntry> maTable;

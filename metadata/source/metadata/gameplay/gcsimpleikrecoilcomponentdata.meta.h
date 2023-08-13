@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSimpleIkRecoilComponentData
 {
-    static const unsigned __int64 muNameHash = 17660452912826839784;
-    static const unsigned __int64 muTemplateHash = 6050323425252857218;
+    static const unsigned __int64 muNameHash = 0xF516885AE98E72E8;
+    static const unsigned __int64 muTemplateHash = 0x53F711196A6BD582;
     static const int miNumMembers = 9;
 
     cTkFixedString<256,char> macEndJoint;

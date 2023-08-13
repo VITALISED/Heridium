@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum ePivotAnchorsTo
 {
     EPivotAnchorsTo_Itself = 0,
@@ -46,8 +46,8 @@ enum eApplyAngularLimitsIn
 
 class cGcSpringLink
 {
-    static const unsigned __int64 muNameHash = 5428752065155597775;
-    static const unsigned __int64 muTemplateHash = 9054697563952757249;
+    static const unsigned __int64 muNameHash = 0x4B56CD3D914485CF;
+    static const unsigned __int64 muTemplateHash = 0x7DA8BF75E7FFBA01;
     static const int miNumMembers = 38;
 
     bool mbEnabled;

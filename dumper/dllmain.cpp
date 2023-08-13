@@ -33,13 +33,15 @@ void RegisterHook(const cTkMetaDataClass* lpClassMetadata,
     }
     
     Dumper::Dump(pathOptional.c_str(), lpClassMetadata);
+    MethodDumper::Dump(pathOptional.c_str(), lpClassMetadata);
     return fpRegister(lpClassMetadata, lDefaultFunction, lFixingFunction, lValidateFunction, lRenderFunction, lEqualsFunction, lCopyFunction, lCreateFunction, lHashFunction, lDestroyFunction);
 }
 
 DWORD WINAPI MainThread(LPVOID lpReserved)
 {
     spdlog::info("Starting");
-    ADDHOOK(OFFSET(0x248ABC0), RegisterHook, reinterpret_cast<LPVOID*>(&fpRegister), cTkMetaData::GetLookup);
+    ADDHOOK(OFFSET(0x248ABC0), RegisterHook, reinterpret_cast<LPVOID*>(&fpRegister), cTkMetaData::Register);
+
     return TRUE;
 }
 

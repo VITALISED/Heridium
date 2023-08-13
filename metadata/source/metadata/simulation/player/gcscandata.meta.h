@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eScanType
 {
     EScanType_Tool = 0,
@@ -18,8 +18,8 @@ enum eScanType
 
 class cGcScanData
 {
-    static const unsigned __int64 muNameHash = 9597648036970694961;
-    static const unsigned __int64 muTemplateHash = 1212621708321567521;
+    static const unsigned __int64 muNameHash = 0x8531B20A02DD0931;
+    static const unsigned __int64 muTemplateHash = 0x10D41904DB6F3321;
     static const int miNumMembers = 5;
 
     eScanType meScanType;

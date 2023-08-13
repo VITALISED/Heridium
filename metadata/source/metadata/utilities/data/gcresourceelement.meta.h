@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkProceduralTextureChosenOptionList;
 
 class cGcResourceElement
 {
-    static const unsigned __int64 muNameHash = 10505427929821425194;
-    static const unsigned __int64 muTemplateHash = 2254205466595977769;
+    static const unsigned __int64 muNameHash = 0x91CAC70AC2792E2A;
+    static const unsigned __int64 muTemplateHash = 0x1F488BEDB7326A29;
     static const int miNumMembers = 5;
 
     cTkFixedString<128,char> macFilename;

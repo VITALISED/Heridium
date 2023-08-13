@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCreatureRoleFilenameList
 {
-    static const unsigned __int64 muNameHash = 10826448916838618082;
-    static const unsigned __int64 muTemplateHash = 10967439501403389215;
+    static const unsigned __int64 muNameHash = 0x963F45EDCB1413E2;
+    static const unsigned __int64 muTemplateHash = 0x98342C1E58BC7D1F;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcCreatureRoleFilename> maOptions;

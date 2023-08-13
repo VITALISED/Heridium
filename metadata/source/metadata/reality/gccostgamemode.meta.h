@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcGameMode;
 
 class cGcCostGameMode
 {
-    static const unsigned __int64 muNameHash = 6618125772962484581;
-    static const unsigned __int64 muTemplateHash = 2629306507991436;
+    static const unsigned __int64 muNameHash = 0x5BD84E5380495165;
+    static const unsigned __int64 muTemplateHash = 0x95757206A198C;
     static const int miNumMembers = 3;
 
     bool mbInvertMode;

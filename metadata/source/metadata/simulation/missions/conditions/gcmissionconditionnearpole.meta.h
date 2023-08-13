@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum ePoleCondition
 {
     EPoleCondition_North = 0,
@@ -9,8 +9,8 @@ enum ePoleCondition
 
 class cGcMissionConditionNearPole
 {
-    static const unsigned __int64 muNameHash = 6741592322976923144;
-    static const unsigned __int64 muTemplateHash = 7586071472918939998;
+    static const unsigned __int64 muNameHash = 0x5D8EF27FCF8A3E08;
+    static const unsigned __int64 muTemplateHash = 0x694723CFD80EC95E;
     static const int miNumMembers = 2;
 
     ePoleCondition mePoleCondition;

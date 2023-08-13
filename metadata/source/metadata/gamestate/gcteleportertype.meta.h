@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eTeleporterDestinationType
 {
     ETeleporterDestinationType_Base = 0,
@@ -17,8 +17,8 @@ enum eTeleporterDestinationType
 
 class cGcTeleporterType
 {
-    static const unsigned __int64 muNameHash = 17070599922615724852;
-    static const unsigned __int64 muTemplateHash = 14528846217382094416;
+    static const unsigned __int64 muNameHash = 0xECE6F42F8A522B34;
+    static const unsigned __int64 muTemplateHash = 0xC9A0D4A857566650;
     static const int miNumMembers = 1;
 
     eTeleporterDestinationType meTeleporterDestinationType;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPrimaryAxis;
 
 class cGcCharacterRotate
 {
-    static const unsigned __int64 muNameHash = 1999752491554218632;
-    static const unsigned __int64 muTemplateHash = 9732767970664003910;
+    static const unsigned __int64 muNameHash = 0x1BC08C4BC1CAA288;
+    static const unsigned __int64 muTemplateHash = 0x8711BCE724BA3946;
     static const int miNumMembers = 4;
 
     TkID<128> mInput;

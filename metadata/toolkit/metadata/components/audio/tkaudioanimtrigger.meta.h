@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkAudioAnimTrigger
 {
-    static const unsigned __int64 muNameHash = 6012893093817673569;
-    static const unsigned __int64 muTemplateHash = 16049412834252162699;
+    static const unsigned __int64 muNameHash = 0x537216694166E761;
+    static const unsigned __int64 muTemplateHash = 0xDEBAF7F07732068B;
     static const int miNumMembers = 3;
 
     cTkFixedString<128,char> macSound;

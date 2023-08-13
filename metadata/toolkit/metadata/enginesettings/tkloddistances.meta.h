@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkLODDistances
 {
-    static const unsigned __int64 muNameHash = 16998776338786365326;
-    static const unsigned __int64 muTemplateHash = 15867573825570866454;
+    static const unsigned __int64 muNameHash = 0xEBE7C90449AD2F8E;
+    static const unsigned __int64 muTemplateHash = 0xDC34F25308700516;
     static const int miNumMembers = 1;
 
     cTkFixedArray<float> maDistances;

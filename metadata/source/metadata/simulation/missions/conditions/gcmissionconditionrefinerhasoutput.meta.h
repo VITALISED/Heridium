@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionRefinerHasOutput
 {
-    static const unsigned __int64 muNameHash = 7320553818484125095;
-    static const unsigned __int64 muTemplateHash = 14666201914542126491;
+    static const unsigned __int64 muNameHash = 0x6597D4E975E02DA7;
+    static const unsigned __int64 muTemplateHash = 0xCB88D0EFB86FF59B;
     static const int miNumMembers = 2;
 
     TkID<128> mOutputProduct;

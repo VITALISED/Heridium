@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eInputAction
 {
     EInputAction_Invalid = 0,
@@ -298,8 +298,8 @@ enum eInputAction
 
 class cGcInputActions
 {
-    static const unsigned __int64 muNameHash = 12963832311448449201;
-    static const unsigned __int64 muTemplateHash = 9643834633313970989;
+    static const unsigned __int64 muNameHash = 0xB3E8C8CD4B9DB0B1;
+    static const unsigned __int64 muTemplateHash = 0x85D5C880F749EB2D;
     static const int miNumMembers = 1;
 
     eInputAction meInputAction;

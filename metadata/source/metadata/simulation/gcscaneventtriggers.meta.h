@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcScanEventTriggers
 {
-    static const unsigned __int64 muNameHash = 500485391075640224;
-    static const unsigned __int64 muTemplateHash = 14912123859294845935;
+    static const unsigned __int64 muNameHash = 0x6F214CFBE5603A0;
+    static const unsigned __int64 muTemplateHash = 0xCEF281A467E57BEF;
     static const int miNumMembers = 3;
 
     float mfRange;

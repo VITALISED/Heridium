@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 class cTkIdArray
 {
-    static const unsigned __int64 muNameHash = 6622360374305311718;
-    static const unsigned __int64 muTemplateHash = 4793329453083112162;
+    static const unsigned __int64 muNameHash = 0x5BE759AC75174BE6;
+    static const unsigned __int64 muTemplateHash = 0x428553BDCE6FB2E2;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<TkID<128> > maArray;

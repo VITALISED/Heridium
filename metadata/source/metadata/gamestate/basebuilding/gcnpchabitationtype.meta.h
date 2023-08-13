@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eNPCHabitationType
 {
     ENPCHabitationType_WeaponsExpert = 0,
@@ -12,8 +12,8 @@ enum eNPCHabitationType
 
 class cGcNPCHabitationType
 {
-    static const unsigned __int64 muNameHash = 3056738114514527607;
-    static const unsigned __int64 muTemplateHash = 1142584175908792860;
+    static const unsigned __int64 muNameHash = 0x2A6BB71EAF092577;
+    static const unsigned __int64 muTemplateHash = 0xFDB46411B06AA1C;
     static const int miNumMembers = 1;
 
     eNPCHabitationType meNPCHabitationType;

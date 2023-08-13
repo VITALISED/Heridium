@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eNumColours
 {
     ENumColours_Inactive = 0,
@@ -13,8 +13,8 @@ enum eNumColours
 
 class cGcPaletteData
 {
-    static const unsigned __int64 muNameHash = 13145881282388758674;
-    static const unsigned __int64 muTemplateHash = 11383624274187075434;
+    static const unsigned __int64 muNameHash = 0xB66F8D60603D1092;
+    static const unsigned __int64 muTemplateHash = 0x9DFAC1F6DF6F3F6A;
     static const int miNumMembers = 2;
 
     eNumColours meNumColours;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkMaterialData
 {
-    static const unsigned __int64 muNameHash = 14908768163513912210;
-    static const unsigned __int64 muTemplateHash = 10293629016501369705;
+    static const unsigned __int64 muNameHash = 0xCEE695A798E64B92;
+    static const unsigned __int64 muTemplateHash = 0x8EDA510D7237BB69;
     static const int miNumMembers = 13;
 
     cTkFixedString<128,char> macName;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 class cTkSketchNodeConnections
 {
-    static const unsigned __int64 muNameHash = 6030636163980417298;
-    static const unsigned __int64 muTemplateHash = 17640935641454852358;
+    static const unsigned __int64 muNameHash = 0x53B11FA3B3AD5912;
+    static const unsigned __int64 muTemplateHash = 0xF4D131800E71B906;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<unsigned int> maConnections;

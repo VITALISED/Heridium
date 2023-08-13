@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eCreatureActiveTime
 {
     ECreatureActiveTime_OnlyDay = 0,
@@ -12,8 +12,8 @@ enum eCreatureActiveTime
 
 class cGcCreatureActiveTime
 {
-    static const unsigned __int64 muNameHash = 9982926390315515027;
-    static const unsigned __int64 muTemplateHash = 2736889678047352611;
+    static const unsigned __int64 muNameHash = 0x8A8A7AA901A0FC93;
+    static const unsigned __int64 muTemplateHash = 0x25FB62A959721723;
     static const int miNumMembers = 1;
 
     eCreatureActiveTime meCreatureActiveTime;

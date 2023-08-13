@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcAlienRace;
 
 class cGcSelectableObjectList
 {
-    static const unsigned __int64 muNameHash = 5779750107588932674;
-    static const unsigned __int64 muTemplateHash = 663127025979148420;
+    static const unsigned __int64 muNameHash = 0x5035CC19B55D3442;
+    static const unsigned __int64 muTemplateHash = 0x933E6844872C884;
     static const int miNumMembers = 3;
 
     TkID<128> mName;

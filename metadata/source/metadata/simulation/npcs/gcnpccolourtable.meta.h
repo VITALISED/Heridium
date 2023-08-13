@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcNPCColourTable
 {
-    static const unsigned __int64 muNameHash = 7522451105408701150;
-    static const unsigned __int64 muTemplateHash = 14050179683407237890;
+    static const unsigned __int64 muNameHash = 0x68651D6CBA2152DE;
+    static const unsigned __int64 muTemplateHash = 0xC2FC43FB23E61302;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcNPCColourGroup> maGroups;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eDesiredTechProbability
 {
     EDesiredTechProbability_Never = 0,
@@ -11,8 +11,8 @@ enum eDesiredTechProbability
 
 class cGcInventoryTechProbability
 {
-    static const unsigned __int64 muNameHash = 8194528023080838629;
-    static const unsigned __int64 muTemplateHash = 1238047970763027921;
+    static const unsigned __int64 muNameHash = 0x71B8CFD20DB7A5E5;
+    static const unsigned __int64 muTemplateHash = 0x112E6E11E83935D1;
     static const int miNumMembers = 2;
 
     TkID<128> mTech;

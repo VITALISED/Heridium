@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardSystemSpecificProductFromList
 {
-    static const unsigned __int64 muNameHash = 12127490637510132195;
-    static const unsigned __int64 muTemplateHash = 16302766849314028645;
+    static const unsigned __int64 muNameHash = 0xA84D807B09AAC1E3;
+    static const unsigned __int64 muTemplateHash = 0xE23F1012DD607C65;
     static const int miNumMembers = 4;
 
     cTkDynamicArray<TkID<128> > maProductList;

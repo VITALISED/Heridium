@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum ePhotoPlantType
 {
     EPhotoPlantType_Sodium = 0,
@@ -10,8 +10,8 @@ enum ePhotoPlantType
 
 class cGcPhotoPlant
 {
-    static const unsigned __int64 muNameHash = 17278338017831962000;
-    static const unsigned __int64 muTemplateHash = 12593625988505921545;
+    static const unsigned __int64 muNameHash = 0xEFC8FCE1F6004590;
+    static const unsigned __int64 muTemplateHash = 0xAEC58C1CD705E809;
     static const int miNumMembers = 1;
 
     ePhotoPlantType mePhotoPlantType;

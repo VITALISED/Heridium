@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eInteractionAction
 {
     EInteractionAction_PressButton = 0,
@@ -26,8 +26,8 @@ enum eOverrideInteriorExteriorMarker
 
 class cGcInteractionComponentData
 {
-    static const unsigned __int64 muNameHash = 15758188892406765493;
-    static const unsigned __int64 muTemplateHash = 3773432727381038020;
+    static const unsigned __int64 muNameHash = 0xDAB0554EA36957B5;
+    static const unsigned __int64 muTemplateHash = 0x345DED12B36153C4;
     static const int miNumMembers = 38;
 
     eInteractionAction meInteractionAction;

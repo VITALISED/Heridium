@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eSettlementConstructionLevel
 {
     ESettlementConstructionLevel_Start = 0,
@@ -13,8 +13,8 @@ enum eSettlementConstructionLevel
 
 class cGcSettlementConstructionLevel
 {
-    static const unsigned __int64 muNameHash = 7631907458230206340;
-    static const unsigned __int64 muTemplateHash = 12207940129124590308;
+    static const unsigned __int64 muNameHash = 0x69E9FB65CE773F84;
+    static const unsigned __int64 muTemplateHash = 0xA96B50DDF3B522E4;
     static const int miNumMembers = 1;
 
     eSettlementConstructionLevel meSettlementConstructionLevel;

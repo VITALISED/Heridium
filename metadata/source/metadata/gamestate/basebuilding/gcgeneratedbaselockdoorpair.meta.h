@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcGeneratedBaseLockDoorPair
 {
-    static const unsigned __int64 muNameHash = 974031956196565947;
-    static const unsigned __int64 muTemplateHash = 13913238550728550441;
+    static const unsigned __int64 muNameHash = 0xD8474E74CF9A3BB;
+    static const unsigned __int64 muTemplateHash = 0xC115C0BF13722829;
     static const int miNumMembers = 2;
 
     TkID<128> mDoor;

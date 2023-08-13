@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 enum ePalette
 {
     EPalette_Grass = 0,
@@ -77,8 +77,8 @@ enum eColourAlt
 
 class cTkPaletteTexture
 {
-    static const unsigned __int64 muNameHash = 7662707001363927635;
-    static const unsigned __int64 muTemplateHash = 16751106824494856391;
+    static const unsigned __int64 muNameHash = 0x6A57676B42321253;
+    static const unsigned __int64 muTemplateHash = 0xE877E2E7DCA338C7;
     static const int miNumMembers = 2;
 
     ePalette mePalette;

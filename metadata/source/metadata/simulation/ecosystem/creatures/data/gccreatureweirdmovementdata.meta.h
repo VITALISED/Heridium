@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 enum eMoveMode
 {
     EMoveMode_Roll = 0,
@@ -10,8 +10,8 @@ enum eMoveMode
 
 class cGcCreatureWeirdMovementData
 {
-    static const unsigned __int64 muNameHash = 13709769877765802211;
-    static const unsigned __int64 muTemplateHash = 16802873232550816893;
+    static const unsigned __int64 muNameHash = 0xBE42E310FC94C8E3;
+    static const unsigned __int64 muTemplateHash = 0xE92FCC2DF81C6C7D;
     static const int miNumMembers = 7;
 
     eMoveMode meMoveMode;

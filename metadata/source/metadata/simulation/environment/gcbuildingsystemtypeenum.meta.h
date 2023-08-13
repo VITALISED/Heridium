@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eBuildingSystemType
 {
     EBuildingSystemType_Normal = 0,
@@ -9,8 +9,8 @@ enum eBuildingSystemType
 
 class cGcBuildingSystemTypeEnum
 {
-    static const unsigned __int64 muNameHash = 13018822556784103694;
-    static const unsigned __int64 muTemplateHash = 15359988809057761077;
+    static const unsigned __int64 muNameHash = 0xB4AC262382F5910E;
+    static const unsigned __int64 muTemplateHash = 0xD529A470EDDCF735;
     static const int miNumMembers = 1;
 
     eBuildingSystemType meBuildingSystemType;

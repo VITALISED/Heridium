@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eProceduralTechnologyCategory
 {
     EProceduralTechnologyCategory_None = 0,
@@ -12,8 +12,8 @@ enum eProceduralTechnologyCategory
 
 class cGcProceduralTechnologyCategory
 {
-    static const unsigned __int64 muNameHash = 16460415284632833468;
-    static const unsigned __int64 muTemplateHash = 15900642665813214523;
+    static const unsigned __int64 muNameHash = 0xE46F247D87F34DBC;
+    static const unsigned __int64 muTemplateHash = 0xDCAA6E426437853B;
     static const int miNumMembers = 1;
 
     eProceduralTechnologyCategory meProceduralTechnologyCategory;

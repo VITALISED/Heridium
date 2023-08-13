@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eReputationGainDifficulty
 {
     EReputationGainDifficulty_VeryFast = 0,
@@ -11,8 +11,8 @@ enum eReputationGainDifficulty
 
 class cGcReputationGainDifficultyOption
 {
-    static const unsigned __int64 muNameHash = 11787319955927414461;
-    static const unsigned __int64 muTemplateHash = 17170340509806315761;
+    static const unsigned __int64 muNameHash = 0xA394F90C4AED36BD;
+    static const unsigned __int64 muTemplateHash = 0xEE494DB8A78148F1;
     static const int miNumMembers = 1;
 
     eReputationGainDifficulty meReputationGainDifficulty;

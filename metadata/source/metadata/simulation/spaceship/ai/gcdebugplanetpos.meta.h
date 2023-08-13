@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcDebugPlanetPos
 {
-    static const unsigned __int64 muNameHash = 7425337481446683226;
-    static const unsigned __int64 muTemplateHash = 9747004080132305949;
+    static const unsigned __int64 muNameHash = 0x670C19192705F25A;
+    static const unsigned __int64 muTemplateHash = 0x87445091AC91B41D;
     static const int miNumMembers = 2;
 
     cTkVector mPosition;

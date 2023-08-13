@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eFeedbackType
 {
     EFeedbackType_None = 0,
@@ -11,8 +11,8 @@ enum eFeedbackType
 
 class cTkTriggerFeedbackData
 {
-    static const unsigned __int64 muNameHash = 6765168930287558946;
-    static const unsigned __int64 muTemplateHash = 6741387714044255851;
+    static const unsigned __int64 muNameHash = 0x5DE2B54C774CA122;
+    static const unsigned __int64 muTemplateHash = 0x5D8E386894CA5E6B;
     static const int miNumMembers = 4;
 
     eFeedbackType meFeedbackType;

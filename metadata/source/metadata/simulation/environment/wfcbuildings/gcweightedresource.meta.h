@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkModelResource;
 
 class cGcWeightedResource
 {
-    static const unsigned __int64 muNameHash = 8075331823523260210;
-    static const unsigned __int64 muTemplateHash = 14861907696134853769;
+    static const unsigned __int64 muNameHash = 0x701157823082E732;
+    static const unsigned __int64 muTemplateHash = 0xCE401A4ED0C31489;
     static const int miNumMembers = 2;
 
     float mfRelativeProbability;

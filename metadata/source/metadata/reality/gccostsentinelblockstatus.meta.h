@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcCostSentinelBlockStatus
 {
-    static const unsigned __int64 muNameHash = 8413892979450242943;
-    static const unsigned __int64 muTemplateHash = 10494991866622297134;
+    static const unsigned __int64 muNameHash = 0x74C427160A48E77F;
+    static const unsigned __int64 muTemplateHash = 0x91A5B37F72A2C42E;
     static const int miNumMembers = 1;
 
     bool mbCanAffordIfSentinelsDisabled;

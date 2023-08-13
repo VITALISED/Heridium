@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum ePhotoBuildingType
 {
     EPhotoBuildingType_Shelter = 0,
@@ -20,8 +20,8 @@ enum ePhotoBuildingType
 
 class cGcPhotoBuilding
 {
-    static const unsigned __int64 muNameHash = 167578883241435965;
-    static const unsigned __int64 muTemplateHash = 2833496836498459973;
+    static const unsigned __int64 muNameHash = 0x2535C1B3F76633D;
+    static const unsigned __int64 muTemplateHash = 0x27529A5C3BAF0D45;
     static const int miNumMembers = 1;
 
     ePhotoBuildingType mePhotoBuildingType;

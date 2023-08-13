@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDifficultyInventoryStackSizeOptionData
 {
-    static const unsigned __int64 muNameHash = 13402036884220833248;
-    static const unsigned __int64 muTemplateHash = 7738679714873930816;
+    static const unsigned __int64 muNameHash = 0xB9FD998A06AA6DE0;
+    static const unsigned __int64 muTemplateHash = 0x6B6550330B94F440;
     static const int miNumMembers = 4;
 
     int miSubstanceStackLimit;

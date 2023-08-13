@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcModuleOverride
 {
-    static const unsigned __int64 muNameHash = 3078835044791436565;
-    static const unsigned __int64 muTemplateHash = 4787042889279811013;
+    static const unsigned __int64 muNameHash = 0x2ABA38292ED14515;
+    static const unsigned __int64 muTemplateHash = 0x426EFE251C152DC5;
     static const int miNumMembers = 4;
 
     TkID<128> mModule;

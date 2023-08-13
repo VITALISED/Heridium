@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardActivateEncounterSentinels
 {
-    static const unsigned __int64 muNameHash = 131199580886963740;
-    static const unsigned __int64 muTemplateHash = 7077099587005993067;
+    static const unsigned __int64 muNameHash = 0x1D21D52DD72961C;
+    static const unsigned __int64 muTemplateHash = 0x6236E8940B8E506B;
     static const int miNumMembers = 2;
 
     TkID<256> mEncounterComponentScanEvent;

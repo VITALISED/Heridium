@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcWeatherEffectTable
 {
-    static const unsigned __int64 muNameHash = 7702223243781477725;
-    static const unsigned __int64 muTemplateHash = 12834448563545256656;
+    static const unsigned __int64 muNameHash = 0x6AE3CB3B6A5A155D;
+    static const unsigned __int64 muTemplateHash = 0xB21D1EF7FE2332D0;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcWeatherEffect> maEffects;

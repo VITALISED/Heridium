@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDifficultyFuelUseTechOverride
 {
-    static const unsigned __int64 muNameHash = 6665486899817528041;
-    static const unsigned __int64 muTemplateHash = 3380780283769866557;
+    static const unsigned __int64 muNameHash = 0x5C80910526A4BAE9;
+    static const unsigned __int64 muTemplateHash = 0x2EEAF1C185BF493D;
     static const int miNumMembers = 2;
 
     TkID<128> mTechID;

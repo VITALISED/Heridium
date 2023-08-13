@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDistanceScaleComponentData
 {
-    static const unsigned __int64 muNameHash = 12776897389316548615;
-    static const unsigned __int64 muTemplateHash = 17164164242279497640;
+    static const unsigned __int64 muNameHash = 0xB150A87B0DD42807;
+    static const unsigned __int64 muTemplateHash = 0xEE335C704F87FFA8;
     static const int miNumMembers = 7;
 
     bool mbUseGlobals;

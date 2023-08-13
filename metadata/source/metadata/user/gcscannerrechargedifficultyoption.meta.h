@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eScannerRechargeDifficulty
 {
     EScannerRechargeDifficulty_VeryFast = 0,
@@ -11,8 +11,8 @@ enum eScannerRechargeDifficulty
 
 class cGcScannerRechargeDifficultyOption
 {
-    static const unsigned __int64 muNameHash = 6449352411236962144;
-    static const unsigned __int64 muTemplateHash = 3204248058309944599;
+    static const unsigned __int64 muNameHash = 0x5980B3D90F168F60;
+    static const unsigned __int64 muTemplateHash = 0x2C77C6A1D7CCA517;
     static const int miNumMembers = 1;
 
     eScannerRechargeDifficulty meScannerRechargeDifficulty;

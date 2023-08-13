@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkButtonImageLookup;
 class cTkAxisImageLookup;
 class cTkChordsImageLookup;
 
 class cTkControllerSpecification
 {
-    static const unsigned __int64 muNameHash = 6754620237085681168;
-    static const unsigned __int64 muTemplateHash = 3973505849996193283;
+    static const unsigned __int64 muNameHash = 0x5DBD3B5170282610;
+    static const unsigned __int64 muTemplateHash = 0x3724BA849DF5AE03;
     static const int miNumMembers = 4;
 
     TkID<128> mId;

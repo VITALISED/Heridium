@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eMaintenanceGroup
 {
     EMaintenanceGroup_Custom = 0,
@@ -14,8 +14,8 @@ enum eMaintenanceGroup
 
 class cGcMaintenanceElementGroups
 {
-    static const unsigned __int64 muNameHash = 4105320432121743242;
-    static const unsigned __int64 muTemplateHash = 6235316920109344204;
+    static const unsigned __int64 muNameHash = 0x38F9072E9DC5078A;
+    static const unsigned __int64 muTemplateHash = 0x56884BB3E519A5CC;
     static const int miNumMembers = 1;
 
     eMaintenanceGroup meMaintenanceGroup;

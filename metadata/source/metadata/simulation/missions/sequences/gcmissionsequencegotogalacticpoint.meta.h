@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionGalacticPoint;
 
 class cGcMissionSequenceGoToGalacticPoint
 {
-    static const unsigned __int64 muNameHash = 15887138716583508123;
-    static const unsigned __int64 muTemplateHash = 13792628238715733861;
+    static const unsigned __int64 muNameHash = 0xDC7A747D3350B89B;
+    static const unsigned __int64 muTemplateHash = 0xBF69424E7FAC4765;
     static const int miNumMembers = 3;
 
     cTkFixedString<128,char> macMessage;

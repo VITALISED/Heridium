@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eMedalType
 {
     EMedalType_Standings = 0,
@@ -17,8 +17,8 @@ enum eMedalType
 
 class cGcJourneyMedalType
 {
-    static const unsigned __int64 muNameHash = 5788987912039455984;
-    static const unsigned __int64 muTemplateHash = 16500586184328304497;
+    static const unsigned __int64 muNameHash = 0x50569DD5AA245CF0;
+    static const unsigned __int64 muTemplateHash = 0xE4FDDBB5F69B5771;
     static const int miNumMembers = 1;
 
     eMedalType meMedalType;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkRagdollData
 {
-    static const unsigned __int64 muNameHash = 5949588617776506124;
-    static const unsigned __int64 muTemplateHash = 5482471674173386640;
+    static const unsigned __int64 muNameHash = 0x52912F535A46A50C;
+    static const unsigned __int64 muTemplateHash = 0x4C15A6F0B63EEF90;
     static const int miNumMembers = 4;
 
     float mfDensity;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eWikiTopicType
 {
     EWikiTopicType_Substances = 0,
@@ -36,8 +36,8 @@ enum eWikiTopicType
 
 class cGcWikiTopicType
 {
-    static const unsigned __int64 muNameHash = 8233594903897867423;
-    static const unsigned __int64 muTemplateHash = 9941619139034995023;
+    static const unsigned __int64 muNameHash = 0x72439AF10F4C849F;
+    static const unsigned __int64 muTemplateHash = 0x89F7B9EF1A67D94F;
     static const int miNumMembers = 1;
 
     eWikiTopicType meWikiTopicType;

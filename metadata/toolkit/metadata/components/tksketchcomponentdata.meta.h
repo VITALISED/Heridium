@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkSketchComponentData
 {
-    static const unsigned __int64 muNameHash = 13709123391364036254;
-    static const unsigned __int64 muTemplateHash = 16794826836663789466;
+    static const unsigned __int64 muNameHash = 0xBE4097172440769E;
+    static const unsigned __int64 muTemplateHash = 0xE91336066F8AE79A;
     static const int miNumMembers = 5;
 
     float mfGraphPosX;

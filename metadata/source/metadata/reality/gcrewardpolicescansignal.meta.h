@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardPoliceScanSignal
 {
-    static const unsigned __int64 muNameHash = 5034068521077695312;
-    static const unsigned __int64 muTemplateHash = 3320552684795665643;
+    static const unsigned __int64 muNameHash = 0x45DC9AA5F5CFE350;
+    static const unsigned __int64 muTemplateHash = 0x2E14F912E3371CEB;
     static const int miNumMembers = 1;
 
     bool mbAttack;

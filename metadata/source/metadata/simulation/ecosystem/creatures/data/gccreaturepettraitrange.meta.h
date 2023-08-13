@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcCreaturePetTraitRange
 {
-    static const unsigned __int64 muNameHash = 18175513043448314964;
-    static const unsigned __int64 muTemplateHash = 2765606786000944992;
+    static const unsigned __int64 muNameHash = 0xFC3C64D0A5373C54;
+    static const unsigned __int64 muTemplateHash = 0x266168B813FEFF60;
     static const int miNumMembers = 2;
 
     float mfMin;

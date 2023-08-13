@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardDisplayTechWindow
 {
-    static const unsigned __int64 muNameHash = 13857293745926934231;
-    static const unsigned __int64 muTemplateHash = 17692586467548027088;
+    static const unsigned __int64 muNameHash = 0xC04EFF3E2A378ED7;
+    static const unsigned __int64 muTemplateHash = 0xF588B1A7241558D0;
     static const int miNumMembers = 4;
 
     TkID<128> mTechID;

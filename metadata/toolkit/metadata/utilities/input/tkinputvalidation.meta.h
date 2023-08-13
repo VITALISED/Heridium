@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eInputValidation
 {
     EInputValidation_Held = 0,
@@ -11,8 +11,8 @@ enum eInputValidation
 
 class cTkInputValidation
 {
-    static const unsigned __int64 muNameHash = 16537088962583857522;
-    static const unsigned __int64 muTemplateHash = 3507275178295802423;
+    static const unsigned __int64 muNameHash = 0xE57F8ACB51D80972;
+    static const unsigned __int64 muTemplateHash = 0x30AC58313BDDBA37;
     static const int miNumMembers = 1;
 
     eInputValidation meInputValidation;

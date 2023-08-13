@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eHazard
 {
     EHazard_None = 0,
@@ -13,8 +13,8 @@ enum eHazard
 
 class cGcPlayerHazardType
 {
-    static const unsigned __int64 muNameHash = 10851899500031411739;
-    static const unsigned __int64 muTemplateHash = 17928282645318461958;
+    static const unsigned __int64 muNameHash = 0x9699B119759C861B;
+    static const unsigned __int64 muTemplateHash = 0xF8CE0E13EB01EA06;
     static const int miNumMembers = 1;
 
     eHazard meHazard;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 class cTkLanguages;
 
 class cTkLanguagesAllowedData
 {
-    static const unsigned __int64 muNameHash = 16438691594286812784;
-    static const unsigned __int64 muTemplateHash = 16402466585427136451;
+    static const unsigned __int64 muNameHash = 0xE421F6E8B9AA4E70;
+    static const unsigned __int64 muTemplateHash = 0xE3A1447498994FC3;
     static const int miNumMembers = 2;
 
     cTkDynamicArray<cTkLanguages> maAllowed;

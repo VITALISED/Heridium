@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcScanEffectComponentData
 {
-    static const unsigned __int64 muNameHash = 2297181822849702085;
-    static const unsigned __int64 muTemplateHash = 8743971517921584788;
+    static const unsigned __int64 muNameHash = 0x1FE13AB26770D8C5;
+    static const unsigned __int64 muTemplateHash = 0x7958D3C49BD96694;
     static const int miNumMembers = 2;
 
     cTkDynamicArray<cGcScanEffectData> maScanEffects;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcGenericIconTypes;
 
 enum eDisplayMode
@@ -13,8 +13,8 @@ class cGcRealityGameIcons;
 
 class cGcMarkerComponentData
 {
-    static const unsigned __int64 muNameHash = 5303971757613823311;
-    static const unsigned __int64 muTemplateHash = 11450558764375694949;
+    static const unsigned __int64 muNameHash = 0x499B7E363F46B54F;
+    static const unsigned __int64 muTemplateHash = 0x9EE88E874E595E65;
     static const int miNumMembers = 7;
 
     cGcGenericIconTypes mIcon;

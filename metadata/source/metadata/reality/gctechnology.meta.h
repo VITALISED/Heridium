@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkTextureResource;
 class cGcRealitySubstanceCategory;
 class cGcTechnologyCategory;
@@ -12,8 +12,8 @@ class cGcTechnologyRarity;
 
 class cGcTechnology
 {
-    static const unsigned __int64 muNameHash = 11465294140438800231;
-    static const unsigned __int64 muTemplateHash = 9064774191772875843;
+    static const unsigned __int64 muNameHash = 0x9F1CE8466638E767;
+    static const unsigned __int64 muTemplateHash = 0x7DCC8C19A5C03C43;
     static const int miNumMembers = 47;
 
     TkID<128> mID;

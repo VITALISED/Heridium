@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eSummonEventType
 {
     ESummonEventType_Summon = 0,
@@ -9,8 +9,8 @@ enum eSummonEventType
 
 class cGcMessageSummonAndDismiss
 {
-    static const unsigned __int64 muNameHash = 465331679889657746;
-    static const unsigned __int64 muTemplateHash = 1644763551147253632;
+    static const unsigned __int64 muNameHash = 0x67530B28A8F0F92;
+    static const unsigned __int64 muTemplateHash = 0x16D35FBC45A45F80;
     static const int miNumMembers = 1;
 
     eSummonEventType meSummonEventType;

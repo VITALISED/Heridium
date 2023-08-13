@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConsequenceRemoveCommunicatorTakeOffMessage
 {
-    static const unsigned __int64 muNameHash = 2642042474871293886;
-    static const unsigned __int64 muTemplateHash = 2091089142714998638;
+    static const unsigned __int64 muNameHash = 0x24AA6BA1FC3287BE;
+    static const unsigned __int64 muTemplateHash = 0x1D050A7F09341F6E;
     static const int miNumMembers = 1;
 
     TkID<256> mComms;

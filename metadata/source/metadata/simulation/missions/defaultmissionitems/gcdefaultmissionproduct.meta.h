@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcDefaultMissionProduct
 {
-    static const unsigned __int64 muNameHash = 7027312238707483522;
-    static const unsigned __int64 muTemplateHash = 750280096242981291;
+    static const unsigned __int64 muNameHash = 0x6186073FB1EA2382;
+    static const unsigned __int64 muTemplateHash = 0xA6987C5BA9BD9AB;
     static const int miNumMembers = 1;
 
     TkID<128> mProduct;

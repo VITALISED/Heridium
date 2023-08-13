@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInputActionInfoMap
 {
-    static const unsigned __int64 muNameHash = 13739119471360337862;
-    static const unsigned __int64 muTemplateHash = 4246578368531345692;
+    static const unsigned __int64 muNameHash = 0xBEAB285DC115E7C6;
+    static const unsigned __int64 muTemplateHash = 0x3AEEE086DF2B311C;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cGcInputActionInfo> maActionMap;

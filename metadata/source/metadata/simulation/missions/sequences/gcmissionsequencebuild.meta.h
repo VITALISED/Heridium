@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcBuildingPartSearchType;
 
 class cGcMissionSequenceBuild
 {
-    static const unsigned __int64 muNameHash = 13364042323699842665;
-    static const unsigned __int64 muTemplateHash = 5448140925180779401;
+    static const unsigned __int64 muNameHash = 0xB9769DB00B6A3E69;
+    static const unsigned __int64 muTemplateHash = 0x4B9BAF4E53AB1B89;
     static const int miNumMembers = 6;
 
     cTkFixedString<128,char> macMessage;

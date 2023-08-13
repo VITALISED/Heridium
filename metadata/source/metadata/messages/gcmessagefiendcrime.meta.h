@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcFiendCrime;
 
 class cGcMessageFiendCrime
 {
-    static const unsigned __int64 muNameHash = 251378359626816526;
-    static const unsigned __int64 muTemplateHash = 1935224153293183839;
+    static const unsigned __int64 muNameHash = 0x37D134945C6DC0E;
+    static const unsigned __int64 muTemplateHash = 0x1ADB4C1D39CBDB5F;
     static const int miNumMembers = 4;
 
     cTkVector mPosition;

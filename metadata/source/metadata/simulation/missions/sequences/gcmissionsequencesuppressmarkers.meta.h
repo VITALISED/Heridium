@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionSequenceSuppressMarkers
 {
-    static const unsigned __int64 muNameHash = 1777292882399481277;
-    static const unsigned __int64 muTemplateHash = 8565383650761005589;
+    static const unsigned __int64 muNameHash = 0x18AA3675C5404DBD;
+    static const unsigned __int64 muTemplateHash = 0x76DE5B0C8C8C5A15;
     static const int miNumMembers = 2;
 
     bool mbSuppressed;

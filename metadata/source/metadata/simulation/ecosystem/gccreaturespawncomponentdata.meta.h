@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCreatureTypes;
 class cGcAISpaceshipTypes;
 
@@ -15,8 +15,8 @@ class cGcResourceElement;
 
 class cGcCreatureSpawnComponentData
 {
-    static const unsigned __int64 muNameHash = 14701733916235101086;
-    static const unsigned __int64 muTemplateHash = 9027578452349091554;
+    static const unsigned __int64 muNameHash = 0xCC070D1A8B81739E;
+    static const unsigned __int64 muTemplateHash = 0x7D4866C5B23CFEE2;
     static const int miNumMembers = 15;
 
     TkID<128> mTriggerID;

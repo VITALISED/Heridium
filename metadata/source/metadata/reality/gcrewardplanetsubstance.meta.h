@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardPlanetSubstance
 {
-    static const unsigned __int64 muNameHash = 1375501717867954625;
-    static const unsigned __int64 muTemplateHash = 1085278755668282973;
+    static const unsigned __int64 muNameHash = 0x1316C386517581C1;
+    static const unsigned __int64 muTemplateHash = 0xF0FAF4739E2CE5D;
     static const int miNumMembers = 5;
 
     int miAmountMin;

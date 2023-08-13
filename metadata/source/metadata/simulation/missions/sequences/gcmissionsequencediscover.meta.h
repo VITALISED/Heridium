@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eDiscoverTarget
 {
     EDiscoverTarget_Animal = 0,
@@ -10,8 +10,8 @@ enum eDiscoverTarget
 
 class cGcMissionSequenceDiscover
 {
-    static const unsigned __int64 muNameHash = 6989989976849357722;
-    static const unsigned __int64 muTemplateHash = 1074618323239390586;
+    static const unsigned __int64 muNameHash = 0x61016ED971A59B9A;
+    static const unsigned __int64 muTemplateHash = 0xEE9CFABE1CF4D7A;
     static const int miNumMembers = 7;
 
     cTkFixedString<128,char> macMessage;

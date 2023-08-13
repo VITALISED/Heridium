@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcInteractionType;
 class cGcAlienRace;
 
 class cGcPlayerTitle
 {
-    static const unsigned __int64 muNameHash = 9678177492062908367;
-    static const unsigned __int64 muTemplateHash = 6733371801815536327;
+    static const unsigned __int64 muNameHash = 0x864FCB26DF972FCF;
+    static const unsigned __int64 muTemplateHash = 0x5D71BDFA93D8D2C7;
     static const int miNumMembers = 15;
 
     TkID<128> mID;

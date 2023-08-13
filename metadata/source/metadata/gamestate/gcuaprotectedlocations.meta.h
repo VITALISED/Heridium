@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcUAProtectedLocations
 {
-    static const unsigned __int64 muNameHash = 15357891006185894644;
-    static const unsigned __int64 muTemplateHash = 15052093604735681893;
+    static const unsigned __int64 muNameHash = 0xD522308022E072F4;
+    static const unsigned __int64 muTemplateHash = 0xD0E3C76254330565;
     static const int miNumMembers = 2;
 
     unsigned __int64 mui64UA;

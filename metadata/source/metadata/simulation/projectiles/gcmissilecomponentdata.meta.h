@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcMissileComponentData
 {
-    static const unsigned __int64 muNameHash = 3759846912784243939;
-    static const unsigned __int64 muTemplateHash = 9244914172344233312;
+    static const unsigned __int64 muNameHash = 0x342DA8D8BE5A9CE3;
+    static const unsigned __int64 muTemplateHash = 0x804C8875458D6D60;
     static const int miNumMembers = 3;
 
     TkID<128> mExplosion;

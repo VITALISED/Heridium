@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eMood
 {
     EMood_Neutral = 0,
@@ -16,8 +16,8 @@ enum eMood
 
 class cGcAlienMood
 {
-    static const unsigned __int64 muNameHash = 11124874428128083888;
-    static const unsigned __int64 muTemplateHash = 2651496313399155739;
+    static const unsigned __int64 muNameHash = 0x9A637E59AB66BFB0;
+    static const unsigned __int64 muTemplateHash = 0x24CC01D94B6A1C1B;
     static const int miNumMembers = 1;
 
     eMood meMood;

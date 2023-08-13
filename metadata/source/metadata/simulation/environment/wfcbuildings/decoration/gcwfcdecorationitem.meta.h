@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 enum eInsideOutside
 {
     EInsideOutside_Both = 0,
@@ -23,8 +23,8 @@ class cGcWFCDecorationFace;
 
 class cGcWFCDecorationItem
 {
-    static const unsigned __int64 muNameHash = 11374765608575401176;
-    static const unsigned __int64 muTemplateHash = 3986088193156377678;
+    static const unsigned __int64 muNameHash = 0x9DDB490E0E777CD8;
+    static const unsigned __int64 muTemplateHash = 0x37516E17AC76EC4E;
     static const int miNumMembers = 20;
 
     TkID<128> mName;

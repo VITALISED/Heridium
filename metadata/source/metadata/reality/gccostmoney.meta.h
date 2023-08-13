@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcCurrency;
 
 class cGcCostMoney
 {
-    static const unsigned __int64 muNameHash = 5847087127549646054;
-    static const unsigned __int64 muTemplateHash = 4622404587754595625;
+    static const unsigned __int64 muNameHash = 0x512506C3685B14E6;
+    static const unsigned __int64 muTemplateHash = 0x4026147B653FA529;
     static const int miNumMembers = 2;
 
     int miCost;

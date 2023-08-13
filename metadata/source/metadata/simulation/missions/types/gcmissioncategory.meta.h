@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eMissionCategory
 {
     EMissionCategory_Info = 0,
@@ -11,8 +11,8 @@ enum eMissionCategory
 
 class cGcMissionCategory
 {
-    static const unsigned __int64 muNameHash = 8973488215245019093;
-    static const unsigned __int64 muTemplateHash = 15888323983008565719;
+    static const unsigned __int64 muNameHash = 0x7C883BFCF9D557D5;
+    static const unsigned __int64 muTemplateHash = 0xDC7EAA7B8B8B89D7;
     static const int miNumMembers = 1;
 
     eMissionCategory meMissionCategory;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eSynchroniseScale
 {
     ESynchroniseScale_Never = 0,
@@ -10,8 +10,8 @@ enum eSynchroniseScale
 
 class cGcNetworkInterpolationComponentData
 {
-    static const unsigned __int64 muNameHash = 1912603710076108170;
-    static const unsigned __int64 muTemplateHash = 10605892602786088557;
+    static const unsigned __int64 muNameHash = 0x1A8AEEF0DF2E3D8A;
+    static const unsigned __int64 muTemplateHash = 0x932FB3213B02066D;
     static const int miNumMembers = 2;
 
     eSynchroniseScale meSynchroniseScale;

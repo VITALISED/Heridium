@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcWealthClass;
 class cGcTradingClass;
 
 class cGcPlanetTradingData
 {
-    static const unsigned __int64 muNameHash = 7231778928430030677;
-    static const unsigned __int64 muTemplateHash = 2691274143466146961;
+    static const unsigned __int64 muNameHash = 0x645C709EAB3A1F55;
+    static const unsigned __int64 muTemplateHash = 0x25595393127E4C91;
     static const int miNumMembers = 2;
 
     cGcWealthClass mWealthClass;

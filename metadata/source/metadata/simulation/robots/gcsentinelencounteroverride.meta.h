@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcAudioWwiseEvents;
 class cGcRealityGameIcons;
 class cGcEncounterType;
 
 class cGcSentinelEncounterOverride
 {
-    static const unsigned __int64 muNameHash = 9624022486705040241;
-    static const unsigned __int64 muTemplateHash = 16070343587938224987;
+    static const unsigned __int64 muNameHash = 0x858F65761E6CEB71;
+    static const unsigned __int64 muTemplateHash = 0xDF0554595188CB5B;
     static const int miNumMembers = 17;
 
     TkID<128> mId;

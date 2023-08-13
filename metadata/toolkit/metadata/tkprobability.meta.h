@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 enum eProbability
 {
     EProbability_Common = 0,
@@ -11,8 +11,8 @@ enum eProbability
 
 class cTkProbability
 {
-    static const unsigned __int64 muNameHash = 2962896186805064652;
-    static const unsigned __int64 muTemplateHash = 17173882027257072269;
+    static const unsigned __int64 muNameHash = 0x291E526240E013CC;
+    static const unsigned __int64 muTemplateHash = 0xEE55E2B6711F8A8D;
     static const int miNumMembers = 1;
 
     eProbability meProbability;

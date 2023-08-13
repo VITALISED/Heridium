@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcFrigateFlybyTable
 {
-    static const unsigned __int64 muNameHash = 1369505991891749582;
-    static const unsigned __int64 muTemplateHash = 13975141113648653912;
+    static const unsigned __int64 muNameHash = 0x13017671947A0ACE;
+    static const unsigned __int64 muTemplateHash = 0xC1F1ACCCA4FC2658;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcFrigateFlybyLayout> maEntries;

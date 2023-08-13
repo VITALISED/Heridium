@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardActivateFiends
 {
-    static const unsigned __int64 muNameHash = 10820906528992862920;
-    static const unsigned __int64 muTemplateHash = 1980068255964767910;
+    static const unsigned __int64 muNameHash = 0x962B9528105322C8;
+    static const unsigned __int64 muTemplateHash = 0x1B7A9D9683CEA6A6;
     static const int miNumMembers = 1;
 
     TkID<128> mSpawnID;

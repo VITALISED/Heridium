@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAlienRace;
 
 class cGcStoryEntry
 {
-    static const unsigned __int64 muNameHash = 9025640287353234698;
-    static const unsigned __int64 muTemplateHash = 10715651514444119337;
+    static const unsigned __int64 muNameHash = 0x7D4184057E24E50A;
+    static const unsigned __int64 muTemplateHash = 0x94B5A44747517D29;
     static const int miNumMembers = 6;
 
     TkID<256> mTitle;

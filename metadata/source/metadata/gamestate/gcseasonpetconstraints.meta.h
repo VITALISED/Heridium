@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcBiomeType;
 
 class cGcSeasonPetConstraints
 {
-    static const unsigned __int64 muNameHash = 1535278634147156448;
-    static const unsigned __int64 muTemplateHash = 18276771517820830160;
+    static const unsigned __int64 muNameHash = 0x154E67C8939691E0;
+    static const unsigned __int64 muTemplateHash = 0xFDA422DC68B001D0;
     static const int miNumMembers = 8;
 
     TkID<128> mCreatureId;

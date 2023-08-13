@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eNPCSettlementBehaviourState
 {
     ENPCSettlementBehaviourState_Generic = 0,
@@ -12,8 +12,8 @@ enum eNPCSettlementBehaviourState
 
 class cGcNPCSettlementBehaviourState
 {
-    static const unsigned __int64 muNameHash = 3923492432071706846;
-    static const unsigned __int64 muTemplateHash = 14845909139449528410;
+    static const unsigned __int64 muNameHash = 0x36730B94549148DE;
+    static const unsigned __int64 muTemplateHash = 0xCE0743B4909D405A;
     static const int miNumMembers = 1;
 
     eNPCSettlementBehaviourState meNPCSettlementBehaviourState;

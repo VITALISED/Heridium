@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDungeonGenerationParams
 {
-    static const unsigned __int64 muNameHash = 18275090050477725774;
-    static const unsigned __int64 muTemplateHash = 12283861090342203708;
+    static const unsigned __int64 muNameHash = 0xFD9E29934900184E;
+    static const unsigned __int64 muTemplateHash = 0xAA790A943816F13C;
     static const int miNumMembers = 16;
 
     unsigned int muiSizeX;

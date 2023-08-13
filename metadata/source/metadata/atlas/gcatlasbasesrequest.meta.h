@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcUniverseAddressData;
 class cGcGameMode;
 
 class cGcAtlasBasesRequest
 {
-    static const unsigned __int64 muNameHash = 2181234754257509610;
-    static const unsigned __int64 muTemplateHash = 10642848060476751834;
+    static const unsigned __int64 muNameHash = 0x1E454D73CB415CEA;
+    static const unsigned __int64 muTemplateHash = 0x93B2FDEC3B2BFFDA;
     static const int miNumMembers = 7;
 
     cGcUniverseAddressData mUniverseAddress;

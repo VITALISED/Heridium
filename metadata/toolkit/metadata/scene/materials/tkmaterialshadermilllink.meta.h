@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkMaterialShaderMillLink
 {
-    static const unsigned __int64 muNameHash = 18181152405489237613;
-    static const unsigned __int64 muTemplateHash = 13034153697344463481;
+    static const unsigned __int64 muNameHash = 0xFC506DC8F06CBE6D;
+    static const unsigned __int64 muTemplateHash = 0xB4E29DBAD60FA279;
     static const int miNumMembers = 7;
 
     int miInputNode;

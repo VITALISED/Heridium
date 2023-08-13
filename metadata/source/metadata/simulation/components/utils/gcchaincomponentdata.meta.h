@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcChainComponentData
 {
-    static const unsigned __int64 muNameHash = 7388771353899949563;
-    static const unsigned __int64 muTemplateHash = 3092821058945815200;
+    static const unsigned __int64 muNameHash = 0x668A306623C9DDFB;
+    static const unsigned __int64 muTemplateHash = 0x2AEBE85DDC5012A0;
     static const int miNumMembers = 1;
 
     cTkFixedString<32,char> macStartBone;

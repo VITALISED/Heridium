@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eReplicateTo
 {
     EReplicateTo_None = 0,
@@ -16,8 +16,8 @@ class cGcStatusMessageMissionMarkup;
 
 class cGcStatusMessageDefinition
 {
-    static const unsigned __int64 muNameHash = 10646830910414053583;
-    static const unsigned __int64 muTemplateHash = 16008249864444665054;
+    static const unsigned __int64 muNameHash = 0x93C1244DBEE0E0CF;
+    static const unsigned __int64 muTemplateHash = 0xDE28BA6FB5EB5CDE;
     static const int miNumMembers = 13;
 
     TkID<128> mId;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eNPCProp
 {
     ENPCProp_None = 0,
@@ -20,8 +20,8 @@ enum eNPCProp
 
 class cGcNPCPropType
 {
-    static const unsigned __int64 muNameHash = 7635299259253519309;
-    static const unsigned __int64 muTemplateHash = 478808127330998810;
+    static const unsigned __int64 muNameHash = 0x69F60839059BF3CD;
+    static const unsigned __int64 muTemplateHash = 0x6A5117479225A1A;
     static const int miNumMembers = 1;
 
     eNPCProp meNPCProp;

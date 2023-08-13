@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcClothComponentData
 {
-    static const unsigned __int64 muNameHash = 9918570768564420251;
-    static const unsigned __int64 muTemplateHash = 13586219788790590079;
+    static const unsigned __int64 muNameHash = 0x89A5D7902BDAFE9B;
+    static const unsigned __int64 muTemplateHash = 0xBC8BF2EA3F3EEA7F;
     static const int miNumMembers = 6;
 
     bool mbEnabled;

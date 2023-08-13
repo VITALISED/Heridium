@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRoomCountRule
 {
-    static const unsigned __int64 muNameHash = 9547425759886326328;
-    static const unsigned __int64 muTemplateHash = 120328436005129175;
+    static const unsigned __int64 muNameHash = 0x847F4524E9703A38;
+    static const unsigned __int64 muTemplateHash = 0x1AB7E133476CBD7;
     static const int miNumMembers = 3;
 
     TkID<128> mRoomID;

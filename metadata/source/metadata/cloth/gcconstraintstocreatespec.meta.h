@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcConstraintsToCreateSpec
 {
-    static const unsigned __int64 muNameHash = 7785371840567385009;
-    static const unsigned __int64 muTemplateHash = 2852748826730099092;
+    static const unsigned __int64 muNameHash = 0x6C0B3270B9591BB1;
+    static const unsigned __int64 muTemplateHash = 0x2796FFF182A8F194;
     static const int miNumMembers = 20;
 
     bool mbHorizontal_1x0;

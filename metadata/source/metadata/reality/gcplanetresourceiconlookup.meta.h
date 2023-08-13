@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkTextureResource;
 class cTkTextureResource;
 
 class cGcPlanetResourceIconLookup
 {
-    static const unsigned __int64 muNameHash = 2177632143980776092;
-    static const unsigned __int64 muTemplateHash = 13459883437615533843;
+    static const unsigned __int64 muNameHash = 0x1E3880E5B9724A9C;
+    static const unsigned __int64 muTemplateHash = 0xBACB1CAC493CCF13;
     static const int miNumMembers = 3;
 
     TkID<128> mID;

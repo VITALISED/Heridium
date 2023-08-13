@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcAmbientModeCameras
 {
-    static const unsigned __int64 muNameHash = 12623355755916444778;
-    static const unsigned __int64 muTemplateHash = 3745364568311632944;
+    static const unsigned __int64 muNameHash = 0xAF2F2B2DB8C8446A;
+    static const unsigned __int64 muTemplateHash = 0x33FA353B288C9430;
     static const int miNumMembers = 3;
 
     cTkDynamicArray<cGcCameraAmbientBuildingData> maBuildingCameraAnimations;

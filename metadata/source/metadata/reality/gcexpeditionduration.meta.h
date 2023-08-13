@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eExpeditionDuration
 {
     EExpeditionDuration_VeryShort = 0,
@@ -12,8 +12,8 @@ enum eExpeditionDuration
 
 class cGcExpeditionDuration
 {
-    static const unsigned __int64 muNameHash = 4642831388389167190;
-    static const unsigned __int64 muTemplateHash = 2201305304540274258;
+    static const unsigned __int64 muNameHash = 0x406EA68C88F85056;
+    static const unsigned __int64 muTemplateHash = 0x1E8C9B82EF4E5E52;
     static const int miNumMembers = 1;
 
     eExpeditionDuration meExpeditionDuration;

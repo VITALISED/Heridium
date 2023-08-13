@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eTextureType
 {
     ETextureType_Diffuse = 0,
@@ -11,8 +11,8 @@ enum eTextureType
 
 class cTkMaterialAlternative
 {
-    static const unsigned __int64 muNameHash = 13013964796140048100;
-    static const unsigned __int64 muTemplateHash = 16406773769049397430;
+    static const unsigned __int64 muNameHash = 0xB49AE407F95DCEE4;
+    static const unsigned __int64 muTemplateHash = 0xE3B091D0EE62D8B6;
     static const int miNumMembers = 3;
 
     eTextureType meTextureType;

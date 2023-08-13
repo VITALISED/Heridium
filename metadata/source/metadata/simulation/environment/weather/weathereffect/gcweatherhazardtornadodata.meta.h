@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcWeatherHazardTornadoData
 {
-    static const unsigned __int64 muNameHash = 1224051784006367402;
-    static const unsigned __int64 muTemplateHash = 17146728459605604451;
+    static const unsigned __int64 muNameHash = 0x10FCB49CBC61F8AA;
+    static const unsigned __int64 muTemplateHash = 0xEDF56AAFCEDF7863;
     static const int miNumMembers = 6;
 
     float mfSuckInRadius;

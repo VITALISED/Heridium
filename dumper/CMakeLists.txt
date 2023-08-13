@@ -24,7 +24,9 @@ add_library(HeridiumDumper SHARED
         "../common/utilities/spookyhash/SpookyV2.cpp"
         "paths.h"
         "dumper.h"
-        "dumper.cpp")
+        "dumper.cpp"
+        "methoddumper.h"
+        "methoddumper.cpp")
 
 
 target_link_libraries(

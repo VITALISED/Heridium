@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eReplicationRange
 {
     EReplicationRange_NotSet = 0,
@@ -21,8 +21,8 @@ enum eSpawnType
 
 class cTkNetReplicatedEntityComponentData
 {
-    static const unsigned __int64 muNameHash = 15785073237548328445;
-    static const unsigned __int64 muTemplateHash = 5332899526311837825;
+    static const unsigned __int64 muNameHash = 0xDB0FD87A0597E5FD;
+    static const unsigned __int64 muTemplateHash = 0x4A0243DD40AA8081;
     static const int miNumMembers = 4;
 
     cTkDynamicArray<cTkFixedString<128,char> > maReplicaComponentMask;

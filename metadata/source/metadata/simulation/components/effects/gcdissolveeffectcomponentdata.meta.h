@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcDissolveEffectComponentData
 {
-    static const unsigned __int64 muNameHash = 8916547635259361029;
-    static const unsigned __int64 muTemplateHash = 4568958648538989764;
+    static const unsigned __int64 muNameHash = 0x7BBDF0D5167BC705;
+    static const unsigned __int64 muTemplateHash = 0x3F6833AEF79D84C4;
     static const int miNumMembers = 2;
 
     float mfDissolveBeginHeight;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eCameraOrigin
 {
     ECameraOrigin_ExternalBase = 0,
@@ -8,8 +8,8 @@ enum eCameraOrigin
 
 class cGcCameraAmbientSpecialData
 {
-    static const unsigned __int64 muNameHash = 14008123919708279271;
-    static const unsigned __int64 muTemplateHash = 6055393819777810689;
+    static const unsigned __int64 muNameHash = 0xC266DA7C9BDD51E7;
+    static const unsigned __int64 muTemplateHash = 0x54091498A2F3C101;
     static const int miNumMembers = 5;
 
     TkID<128> mAnimation;

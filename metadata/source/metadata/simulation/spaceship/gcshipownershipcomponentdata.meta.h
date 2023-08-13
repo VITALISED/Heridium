@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcSpaceshipComponentData;
 
 class cGcShipOwnershipComponentData
 {
-    static const unsigned __int64 muNameHash = 12197727041240183483;
-    static const unsigned __int64 muTemplateHash = 10608658988203717276;
+    static const unsigned __int64 muNameHash = 0xA947081E204C32BB;
+    static const unsigned __int64 muTemplateHash = 0x933987248723329C;
     static const int miNumMembers = 1;
 
     cGcSpaceshipComponentData mData;

@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkVoxelGeneratorData;
 class cTkVoxelGeneratorData;
 
 class cTkVoxelGeneratorSettingsElement
 {
-    static const unsigned __int64 muNameHash = 8650743921729841009;
-    static const unsigned __int64 muTemplateHash = 4438577116238140818;
+    static const unsigned __int64 muNameHash = 0x780D9DC36193A771;
+    static const unsigned __int64 muTemplateHash = 0x3D98FE5EE18D5592;
     static const int miNumMembers = 2;
 
     cTkVoxelGeneratorData mMin;

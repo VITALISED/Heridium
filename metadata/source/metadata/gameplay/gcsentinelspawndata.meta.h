@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSentinelTypes;
 
 class cGcSentinelSpawnData
 {
-    static const unsigned __int64 muNameHash = 13312664355768652904;
-    static const unsigned __int64 muTemplateHash = 12582007543278646938;
+    static const unsigned __int64 muNameHash = 0xB8C015B2B3985468;
+    static const unsigned __int64 muTemplateHash = 0xAE9C4532C268B69A;
     static const int miNumMembers = 3;
 
     cGcSentinelTypes mType;

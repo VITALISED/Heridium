@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcNPCSettlementBehaviourEntry;
 
 class cGcNPCSettlementBehaviourData
 {
-    static const unsigned __int64 muNameHash = 9780780743504655421;
-    static const unsigned __int64 muTemplateHash = 6476281971781044297;
+    static const unsigned __int64 muNameHash = 0x87BC5043F293743D;
+    static const unsigned __int64 muTemplateHash = 0x59E06023F9468849;
     static const int miNumMembers = 2;
 
     cGcNPCSettlementBehaviourEntry mBaseBehaviour;

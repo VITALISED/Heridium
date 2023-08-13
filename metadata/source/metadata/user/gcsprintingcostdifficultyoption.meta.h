@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eSprintingCostDifficulty
 {
     ESprintingCostDifficulty_Free = 0,
@@ -10,8 +10,8 @@ enum eSprintingCostDifficulty
 
 class cGcSprintingCostDifficultyOption
 {
-    static const unsigned __int64 muNameHash = 9341450929791858878;
-    static const unsigned __int64 muTemplateHash = 12883776129052375584;
+    static const unsigned __int64 muNameHash = 0x81A38020A4FC78BE;
+    static const unsigned __int64 muTemplateHash = 0xB2CC5E20D1D2FA20;
     static const int miNumMembers = 1;
 
     eSprintingCostDifficulty meSprintingCostDifficulty;

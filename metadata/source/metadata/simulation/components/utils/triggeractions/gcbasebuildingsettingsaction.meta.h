@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 enum eUseCorePartsOnly
 {
     EUseCorePartsOnly_False = 0,
@@ -11,8 +11,8 @@ class cTkGraphicsDetailTypes;
 
 class cGcBaseBuildingSettingsAction
 {
-    static const unsigned __int64 muNameHash = 82484002267478907;
-    static const unsigned __int64 muTemplateHash = 13227952830903250619;
+    static const unsigned __int64 muNameHash = 0x1250AC356CE3B7B;
+    static const unsigned __int64 muTemplateHash = 0xB7932103D79C6EBB;
     static const int miNumMembers = 2;
 
     eUseCorePartsOnly meUseCorePartsOnly;

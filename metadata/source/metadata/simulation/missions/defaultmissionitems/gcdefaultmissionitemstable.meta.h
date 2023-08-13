@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcDefaultMissionItemsTable
 {
-    static const unsigned __int64 muNameHash = 9798582104820915814;
-    static const unsigned __int64 muTemplateHash = 8303939145453462527;
+    static const unsigned __int64 muNameHash = 0x87FB8E825C599E66;
+    static const unsigned __int64 muTemplateHash = 0x733D84A81936E3FF;
     static const int miNumMembers = 4;
 
     cTkDynamicArray<cGcDefaultMissionSubstance> maPrimarySubstances;

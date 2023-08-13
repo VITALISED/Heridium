@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardTable
 {
-    static const unsigned __int64 muNameHash = 3372437691483140719;
-    static const unsigned __int64 muTemplateHash = 14960168722466973241;
+    static const unsigned __int64 muNameHash = 0x2ECD4E3663FDB26F;
+    static const unsigned __int64 muTemplateHash = 0xCF9D3230D28DA639;
     static const int miNumMembers = 28;
 
     cTkDynamicArray<cGcGenericRewardTableEntry> maGenericTable;

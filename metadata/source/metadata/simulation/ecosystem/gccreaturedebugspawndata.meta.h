@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eOnComplete
 {
     EOnComplete_Hold = 0,
@@ -10,8 +10,8 @@ enum eOnComplete
 
 class cGcCreatureDebugSpawnData
 {
-    static const unsigned __int64 muNameHash = 6455290195244181144;
-    static const unsigned __int64 muTemplateHash = 5189279458959126901;
+    static const unsigned __int64 muNameHash = 0x5995CC3B21976698;
+    static const unsigned __int64 muTemplateHash = 0x4804062C877D7175;
     static const int miNumMembers = 9;
 
     int miCreatureIndex;

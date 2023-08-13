@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcDefaultMissionSubstance
 {
-    static const unsigned __int64 muNameHash = 10023626982567786005;
-    static const unsigned __int64 muTemplateHash = 13486674655363539989;
+    static const unsigned __int64 muNameHash = 0x8B1B13A218F93615;
+    static const unsigned __int64 muTemplateHash = 0xBB2A4B24C2352415;
     static const int miNumMembers = 1;
 
     TkID<128> mSubstance;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eCreatureHemiSphere
 {
     ECreatureHemiSphere_Any = 0,
@@ -10,8 +10,8 @@ enum eCreatureHemiSphere
 
 class cGcCreatureHemiSphere
 {
-    static const unsigned __int64 muNameHash = 2008700800592080042;
-    static const unsigned __int64 muTemplateHash = 13209036233587429537;
+    static const unsigned __int64 muNameHash = 0x1BE056BC4F556CAA;
+    static const unsigned __int64 muTemplateHash = 0xB74FEC78503E10A1;
     static const int miNumMembers = 1;
 
     eCreatureHemiSphere meCreatureHemiSphere;

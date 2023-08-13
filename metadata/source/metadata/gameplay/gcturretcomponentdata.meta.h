@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eGunType
 {
     EGunType_Laser = 0,
@@ -10,8 +10,8 @@ enum eGunType
 
 class cGcTurretComponentData
 {
-    static const unsigned __int64 muNameHash = 9823206762975271750;
-    static const unsigned __int64 muTemplateHash = 9838177207409410898;
+    static const unsigned __int64 muNameHash = 0x88530A815E5B1B46;
+    static const unsigned __int64 muTemplateHash = 0x88883A0B94FB8352;
     static const int miNumMembers = 28;
 
     eGunType meGunType;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 class cTkProceduralTextureLayer
 {
-    static const unsigned __int64 muNameHash = 7684781733747373857;
-    static const unsigned __int64 muTemplateHash = 6217425745726617795;
+    static const unsigned __int64 muNameHash = 0x6AA5D445686C3721;
+    static const unsigned __int64 muTemplateHash = 0x5648BBC63F6738C3;
     static const int miNumMembers = 5;
 
     TkID<128> mName;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkNGuiEditorStyleData
 {
-    static const unsigned __int64 muNameHash = 8009299103972046348;
-    static const unsigned __int64 muTemplateHash = 646965598215171104;
+    static const unsigned __int64 muNameHash = 0x6F26BF19981BB60C;
+    static const unsigned __int64 muTemplateHash = 0x8FA7BC8A7836C20;
     static const int miNumMembers = 7;
 
     cTkFixedArray<float> maSizes;

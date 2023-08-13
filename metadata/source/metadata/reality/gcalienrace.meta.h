@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eAlienRace
 {
     EAlienRace_Traders = 0,
@@ -15,8 +15,8 @@ enum eAlienRace
 
 class cGcAlienRace
 {
-    static const unsigned __int64 muNameHash = 11122410210106744078;
-    static const unsigned __int64 muTemplateHash = 9707899122124898615;
+    static const unsigned __int64 muNameHash = 0x9A5ABD2833971D0E;
+    static const unsigned __int64 muTemplateHash = 0x86B962D12194C137;
     static const int miNumMembers = 1;
 
     eAlienRace meAlienRace;

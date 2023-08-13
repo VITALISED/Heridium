@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionIsScanEventActive
 {
-    static const unsigned __int64 muNameHash = 16105131927350489182;
-    static const unsigned __int64 muTemplateHash = 17567319984113277909;
+    static const unsigned __int64 muNameHash = 0xDF80EC28C687305E;
+    static const unsigned __int64 muTemplateHash = 0xF3CBA8732CB15BD5;
     static const int miNumMembers = 2;
 
     TkID<256> mEvent;

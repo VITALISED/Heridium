@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcAudioWwiseEvents;
 
 enum eDocOptionalEnum
@@ -28,8 +28,8 @@ enum exTestFlags
 
 class cGcTestMetadata
 {
-    static const unsigned __int64 muNameHash = 14886190827146312094;
-    static const unsigned __int64 muTemplateHash = 8355257701396700267;
+    static const unsigned __int64 muNameHash = 0xCE965FAFD6BBF99E;
+    static const unsigned __int64 muTemplateHash = 0x73F3D69C8298DC6B;
     static const int miNumMembers = 36;
 
     bool mbTestBool;

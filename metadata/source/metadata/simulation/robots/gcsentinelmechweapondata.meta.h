@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcMechWeaponLocation;
 class cGcVehicleWeaponMuzzleData;
 class cGcAudioWwiseEvents;
@@ -8,8 +8,8 @@ class cGcAudioWwiseEvents;
 
 class cGcSentinelMechWeaponData
 {
-    static const unsigned __int64 muNameHash = 4937345929699341718;
-    static const unsigned __int64 muTemplateHash = 8434516423000258501;
+    static const unsigned __int64 muNameHash = 0x4484F9F6C0F33596;
+    static const unsigned __int64 muTemplateHash = 0x750D6BFFAD20F7C5;
     static const int miNumMembers = 19;
 
     TkID<128> mId;

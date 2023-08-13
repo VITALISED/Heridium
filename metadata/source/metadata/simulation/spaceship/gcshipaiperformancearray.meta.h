@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcShipAIPerformanceArray
 {
-    static const unsigned __int64 muNameHash = 6757665635093154872;
-    static const unsigned __int64 muTemplateHash = 15793056363888844879;
+    static const unsigned __int64 muNameHash = 0x5DC80D176A978C38;
+    static const unsigned __int64 muTemplateHash = 0xDB2C35167751204F;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cTkClassPointer> maArray;

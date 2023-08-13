@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcTerrainEditsBuffer
 {
-    static const unsigned __int64 muNameHash = 2927695830412521736;
-    static const unsigned __int64 muTemplateHash = 18198154906338596931;
+    static const unsigned __int64 muNameHash = 0x28A143D89E217108;
+    static const unsigned __int64 muTemplateHash = 0xFC8CD57827D81843;
     static const int miNumMembers = 6;
 
     cTkFixedArray<unsigned __int64> maGalacticAddresses;

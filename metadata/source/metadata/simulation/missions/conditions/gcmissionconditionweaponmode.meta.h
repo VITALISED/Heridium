@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPlayerWeapons;
 
 class cGcMissionConditionWeaponMode
 {
-    static const unsigned __int64 muNameHash = 8758146684096770324;
-    static const unsigned __int64 muTemplateHash = 3666398885041704251;
+    static const unsigned __int64 muNameHash = 0x798B3001AC5A7114;
+    static const unsigned __int64 muTemplateHash = 0x32E1AA5C4BCC8D3B;
     static const int miNumMembers = 1;
 
     cGcPlayerWeapons mWeaponMode;

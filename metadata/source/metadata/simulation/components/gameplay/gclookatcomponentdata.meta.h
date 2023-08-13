@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eLookAtType
 {
     ELookAtType_Player = 0,
@@ -8,8 +8,8 @@ enum eLookAtType
 
 class cGcLookAtComponentData
 {
-    static const unsigned __int64 muNameHash = 14007503301595868341;
-    static const unsigned __int64 muTemplateHash = 5986511142363533432;
+    static const unsigned __int64 muNameHash = 0xC264A609B1BBACB5;
+    static const unsigned __int64 muTemplateHash = 0x53145C2A847F1078;
     static const int miNumMembers = 4;
 
     eLookAtType meLookAtType;

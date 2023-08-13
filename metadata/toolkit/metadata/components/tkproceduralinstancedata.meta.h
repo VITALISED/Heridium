@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkProceduralInstanceData
 {
-    static const unsigned __int64 muNameHash = 11211451078483042545;
-    static const unsigned __int64 muTemplateHash = 13370161772726234249;
+    static const unsigned __int64 muNameHash = 0x9B97135AE5A6E0F1;
+    static const unsigned __int64 muTemplateHash = 0xB98C5B4B4CDAAC89;
     static const int miNumMembers = 2;
 
     TkID<128> mId;

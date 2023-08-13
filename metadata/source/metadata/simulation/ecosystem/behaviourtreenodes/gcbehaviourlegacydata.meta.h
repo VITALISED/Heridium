@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eLegacyBehaviour
 {
     ELegacyBehaviour_Riding = 0,
@@ -16,8 +16,8 @@ enum eLegacyBehaviour
 
 class cGcBehaviourLegacyData
 {
-    static const unsigned __int64 muNameHash = 16656500107074269642;
-    static const unsigned __int64 muTemplateHash = 9324209874543463041;
+    static const unsigned __int64 muNameHash = 0xE727C698F36AF1CA;
+    static const unsigned __int64 muTemplateHash = 0x81663F7AA75A4A81;
     static const int miNumMembers = 1;
 
     eLegacyBehaviour meLegacyBehaviour;

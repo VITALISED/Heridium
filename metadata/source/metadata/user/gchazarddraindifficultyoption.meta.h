@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eHazardDrainDifficulty
 {
     EHazardDrainDifficulty_Slow = 0,
@@ -10,8 +10,8 @@ enum eHazardDrainDifficulty
 
 class cGcHazardDrainDifficultyOption
 {
-    static const unsigned __int64 muNameHash = 6249895703678279604;
-    static const unsigned __int64 muTemplateHash = 4783776274524798061;
+    static const unsigned __int64 muNameHash = 0x56BC170774FBDFB4;
+    static const unsigned __int64 muTemplateHash = 0x4263632D17FDFC6D;
     static const int miNumMembers = 1;
 
     eHazardDrainDifficulty meHazardDrainDifficulty;

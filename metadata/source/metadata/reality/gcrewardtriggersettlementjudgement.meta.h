@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardTriggerSettlementJudgement
 {
-    static const unsigned __int64 muNameHash = 12230785493536533309;
-    static const unsigned __int64 muTemplateHash = 12515485200649515946;
+    static const unsigned __int64 muNameHash = 0xA9BC7A9ADA3EEB3D;
+    static const unsigned __int64 muTemplateHash = 0xADAFEF7AE85F73AA;
     static const int miNumMembers = 0;
 
 };

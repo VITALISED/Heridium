@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcMechWeaponLocationPriority
 {
-    static const unsigned __int64 muNameHash = 4588518411462925092;
-    static const unsigned __int64 muTemplateHash = 1498837411084937079;
+    static const unsigned __int64 muNameHash = 0x3FADB12F28965B24;
+    static const unsigned __int64 muTemplateHash = 0x14CCF0AF27C8A777;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcMechWeaponLocation> maMechWeaponLocationPriority;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eHand
 {
     EHand_Right = 0,
@@ -9,8 +9,8 @@ enum eHand
 
 class cGcHand
 {
-    static const unsigned __int64 muNameHash = 16081900646276386405;
-    static const unsigned __int64 muTemplateHash = 7580367764077031458;
+    static const unsigned __int64 muNameHash = 0xDF2E636EA66DCE65;
+    static const unsigned __int64 muTemplateHash = 0x6932E051A4A23022;
     static const int miNumMembers = 1;
 
     eHand meHand;

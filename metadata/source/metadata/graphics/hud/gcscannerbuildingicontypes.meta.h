@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eScanBuildingIconType
 {
     EScanBuildingIconType_None = 0,
@@ -40,8 +40,8 @@ enum eScanBuildingIconType
 
 class cGcScannerBuildingIconTypes
 {
-    static const unsigned __int64 muNameHash = 9893434738093913797;
-    static const unsigned __int64 muTemplateHash = 14335194132327260487;
+    static const unsigned __int64 muNameHash = 0x894C8A7A0498F6C5;
+    static const unsigned __int64 muTemplateHash = 0xC6F0D71CBBA16147;
     static const int miNumMembers = 1;
 
     eScanBuildingIconType meScanBuildingIconType;

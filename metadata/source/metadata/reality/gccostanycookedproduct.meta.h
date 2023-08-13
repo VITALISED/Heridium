@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcCostAnyCookedProduct
 {
-    static const unsigned __int64 muNameHash = 17980950354731009370;
-    static const unsigned __int64 muTemplateHash = 9076343452750001712;
+    static const unsigned __int64 muNameHash = 0xF9892B1499AD055A;
+    static const unsigned __int64 muTemplateHash = 0x7DF5A648209B3630;
     static const int miNumMembers = 3;
 
     TkID<256> mCostString;

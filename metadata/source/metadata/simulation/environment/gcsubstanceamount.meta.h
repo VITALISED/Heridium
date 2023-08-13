@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcRealitySubstanceCategory;
 class cGcRarity;
 
 class cGcSubstanceAmount
 {
-    static const unsigned __int64 muNameHash = 9752665684006868523;
-    static const unsigned __int64 muTemplateHash = 9031367445022540134;
+    static const unsigned __int64 muNameHash = 0x87586DC48C5F162B;
+    static const unsigned __int64 muTemplateHash = 0x7D55DCD74C988166;
     static const int miNumMembers = 6;
 
     int miAmountMin;

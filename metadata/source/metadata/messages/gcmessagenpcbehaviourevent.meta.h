@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcNPCTriggerTypes;
 
 class cGcMessageNPCBehaviourEvent
 {
-    static const unsigned __int64 muNameHash = 4681464447328533920;
-    static const unsigned __int64 muTemplateHash = 4595420149717186832;
+    static const unsigned __int64 muNameHash = 0x40F7E71C83A33DA0;
+    static const unsigned __int64 muTemplateHash = 0x3FC636475190B910;
     static const int miNumMembers = 6;
 
     TkID<128> mBehaviourEvent;

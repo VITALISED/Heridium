@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkAnimationGameData;
 
 enum eAnimType
@@ -20,8 +20,8 @@ enum eCreatureSize
 
 class cTkAnimationData
 {
-    static const unsigned __int64 muNameHash = 4183628715518298735;
-    static const unsigned __int64 muTemplateHash = 3116344500541739582;
+    static const unsigned __int64 muNameHash = 0x3A0F3C26A4978A6F;
+    static const unsigned __int64 muTemplateHash = 0x2B3F7ACFE888523E;
     static const int miNumMembers = 22;
 
     TkID<128> mAnim;

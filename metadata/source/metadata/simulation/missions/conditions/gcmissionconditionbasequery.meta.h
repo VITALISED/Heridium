@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcBaseSearchFilter;
 
 class cGcMissionConditionBaseQuery
 {
-    static const unsigned __int64 muNameHash = 15767999347487289128;
-    static const unsigned __int64 muTemplateHash = 11469422306096276179;
+    static const unsigned __int64 muNameHash = 0xDAD32FDD35922F28;
+    static const unsigned __int64 muTemplateHash = 0x9F2B92D1DDCF62D3;
     static const int miNumMembers = 5;
 
     cGcBaseSearchFilter mBaseSearchFilter;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eVertical
 {
     EVertical_Top = 0,
@@ -17,8 +17,8 @@ enum eHorizontal
 
 class cTkNGuiAlignment
 {
-    static const unsigned __int64 muNameHash = 15125322572576128328;
-    static const unsigned __int64 muTemplateHash = 8213023363731698719;
+    static const unsigned __int64 muNameHash = 0xD1E7F0BE0B98FD48;
+    static const unsigned __int64 muTemplateHash = 0x71FA853C1F36341F;
     static const int miNumMembers = 2;
 
     eVertical meVertical;

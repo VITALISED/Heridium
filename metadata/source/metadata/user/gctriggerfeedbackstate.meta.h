@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInputActions;
 class cTkTriggerFeedbackData;
 
 class cGcTriggerFeedbackState
 {
-    static const unsigned __int64 muNameHash = 7138259684702378565;
-    static const unsigned __int64 muTemplateHash = 8605622187399287972;
+    static const unsigned __int64 muNameHash = 0x6310315CF52D5A45;
+    static const unsigned __int64 muTemplateHash = 0x776D4FC8EF2794A4;
     static const int miNumMembers = 3;
 
     TkID<128> mId;

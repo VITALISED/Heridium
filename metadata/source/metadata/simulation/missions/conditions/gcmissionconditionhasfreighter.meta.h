@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eFreighterInCurrentSystem
 {
     EFreighterInCurrentSystem_DontCare = 0,
@@ -10,8 +10,8 @@ enum eFreighterInCurrentSystem
 
 class cGcMissionConditionHasFreighter
 {
-    static const unsigned __int64 muNameHash = 600736031366647196;
-    static const unsigned __int64 muTemplateHash = 954760989776856633;
+    static const unsigned __int64 muNameHash = 0x8563E3CD9630D9C;
+    static const unsigned __int64 muTemplateHash = 0xD3FFE0FC90CC639;
     static const int miNumMembers = 1;
 
     eFreighterInCurrentSystem meFreighterInCurrentSystem;

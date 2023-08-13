@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eAccessibleOverride_Layout
 {
     EAccessibleOverride_Layout_PosX = 0,
@@ -12,8 +12,8 @@ enum eAccessibleOverride_Layout
 
 class cGcAccessibleOverride_Layout
 {
-    static const unsigned __int64 muNameHash = 14655894877083111840;
-    static const unsigned __int64 muTemplateHash = 717013360826203917;
+    static const unsigned __int64 muNameHash = 0xCB6432BD8E0191A0;
+    static const unsigned __int64 muTemplateHash = 0x9F357DA4F413F0D;
     static const int miNumMembers = 2;
 
     eAccessibleOverride_Layout meAccessibleOverride_Layout;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcStatType;
 class cTkTextureResource;
 class cTkTextureResource;
@@ -9,8 +9,8 @@ class cTkTextureResource;
 
 class cGcJourneyMedal
 {
-    static const unsigned __int64 muNameHash = 3732014250573697792;
-    static const unsigned __int64 muTemplateHash = 3067063699189757151;
+    static const unsigned __int64 muNameHash = 0x33CAC73016241300;
+    static const unsigned __int64 muTemplateHash = 0x2A90662F35B374DF;
     static const int miNumMembers = 11;
 
     TkID<128> mLevelledStatID;

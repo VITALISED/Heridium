@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcNGuiSpecialTextImageData
 {
-    static const unsigned __int64 muNameHash = 17696003355950540055;
-    static const unsigned __int64 muTemplateHash = 8081416808263715024;
+    static const unsigned __int64 muNameHash = 0xF594D54B778D6517;
+    static const unsigned __int64 muTemplateHash = 0x7026F5C51A6E08D0;
     static const int miNumMembers = 4;
 
     TkID<128> mName;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcModSettingsInfo
 {
-    static const unsigned __int64 muNameHash = 13893149793920322521;
-    static const unsigned __int64 muTemplateHash = 17751155411417463006;
+    static const unsigned __int64 muNameHash = 0xC0CE6220E5E98BD9;
+    static const unsigned __int64 muTemplateHash = 0xF658C5CC0A4A78DE;
     static const int miNumMembers = 9;
 
     cTkFixedString<128,char> macName;

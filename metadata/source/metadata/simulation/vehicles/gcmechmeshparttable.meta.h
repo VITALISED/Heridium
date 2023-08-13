@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcMechMeshPartTable
 {
-    static const unsigned __int64 muNameHash = 9722028073856320121;
-    static const unsigned __int64 muTemplateHash = 1413379396226330340;
+    static const unsigned __int64 muNameHash = 0x86EB95060E94C279;
+    static const unsigned __int64 muTemplateHash = 0x139D55128CED2EE4;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cGcMechMeshPartData> maParts;

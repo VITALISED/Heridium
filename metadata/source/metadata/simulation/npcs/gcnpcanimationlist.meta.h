@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcNPCAnimationList
 {
-    static const unsigned __int64 muNameHash = 16153154326094156622;
-    static const unsigned __int64 muTemplateHash = 2819330447851138132;
+    static const unsigned __int64 muNameHash = 0xE02B8846C8E8134E;
+    static const unsigned __int64 muTemplateHash = 0x2720461AD89C2C54;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcNPCProbabilityAnimationData> maAnimations;

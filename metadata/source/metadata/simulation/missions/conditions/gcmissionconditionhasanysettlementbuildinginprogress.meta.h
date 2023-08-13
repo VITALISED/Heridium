@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionHasAnySettlementBuildingInProgress
 {
-    static const unsigned __int64 muNameHash = 18135654491653127514;
-    static const unsigned __int64 muTemplateHash = 6348898336782952486;
+    static const unsigned __int64 muNameHash = 0xFBAEC9AC6033BD5A;
+    static const unsigned __int64 muTemplateHash = 0x581BD1663F042826;
     static const int miNumMembers = 1;
 
     bool mbIgnoreIfTimerActive;

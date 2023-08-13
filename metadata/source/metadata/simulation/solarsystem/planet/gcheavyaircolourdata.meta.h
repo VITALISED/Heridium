@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcHeavyAirColourData
 {
-    static const unsigned __int64 muNameHash = 6744243658295479809;
-    static const unsigned __int64 muTemplateHash = 16973749397053881000;
+    static const unsigned __int64 muNameHash = 0x5D985DDFEB620E01;
+    static const unsigned __int64 muTemplateHash = 0xEB8EDF2555E5BAA8;
     static const int miNumMembers = 2;
 
     cTkColour mColour1;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eFrigateFlybyType
 {
     EFrigateFlybyType_SingleShip = 0,
@@ -12,8 +12,8 @@ enum eFrigateFlybyType
 
 class cGcFrigateFlybyType
 {
-    static const unsigned __int64 muNameHash = 2358845526642017243;
-    static const unsigned __int64 muTemplateHash = 8353467258407962263;
+    static const unsigned __int64 muNameHash = 0x20BC4D823F8443DB;
+    static const unsigned __int64 muTemplateHash = 0x73ED7A3684434697;
     static const int miNumMembers = 1;
 
     eFrigateFlybyType meFrigateFlybyType;

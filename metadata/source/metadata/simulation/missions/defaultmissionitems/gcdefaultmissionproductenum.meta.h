@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eDefaultProductType
 {
     EDefaultProductType_None = 0,
@@ -10,8 +10,8 @@ enum eDefaultProductType
 
 class cGcDefaultMissionProductEnum
 {
-    static const unsigned __int64 muNameHash = 2354853122646399616;
-    static const unsigned __int64 muTemplateHash = 7378111288977492195;
+    static const unsigned __int64 muNameHash = 0x20AE1E70418EDA80;
+    static const unsigned __int64 muTemplateHash = 0x666451205CCD88E3;
     static const int miNumMembers = 1;
 
     eDefaultProductType meDefaultProductType;

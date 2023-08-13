@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eSpawnConditions
 {
     ESpawnConditions_Anytime = 0,
@@ -27,8 +27,8 @@ class cGcAudioWwiseEvents;
 
 class cGcWeatherEffect
 {
-    static const unsigned __int64 muNameHash = 4728305688702866582;
-    static const unsigned __int64 muTemplateHash = 1133737116517285603;
+    static const unsigned __int64 muNameHash = 0x419E50F8E497D496;
+    static const unsigned __int64 muTemplateHash = 0xFBBD7E692B03EE3;
     static const int miNumMembers = 41;
 
     TkID<128> mId;

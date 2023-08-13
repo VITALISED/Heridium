@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eGalaxyStarType
 {
     EGalaxyStarType_Yellow = 0,
@@ -11,8 +11,8 @@ enum eGalaxyStarType
 
 class cGcGalaxyStarTypes
 {
-    static const unsigned __int64 muNameHash = 8322022554009684032;
-    static const unsigned __int64 muTemplateHash = 16371547353661929829;
+    static const unsigned __int64 muNameHash = 0x737DC36BC0894840;
+    static const unsigned __int64 muTemplateHash = 0xE3336B93F6817965;
     static const int miNumMembers = 1;
 
     eGalaxyStarType meGalaxyStarType;

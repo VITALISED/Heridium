@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcOverlayTexture
 {
-    static const unsigned __int64 muNameHash = 6855939976975420897;
-    static const unsigned __int64 muTemplateHash = 526478882973194600;
+    static const unsigned __int64 muNameHash = 0x5F253115B1050DE1;
+    static const unsigned __int64 muTemplateHash = 0x74E6DC1315C9968;
     static const int miNumMembers = 4;
 
     cTkFixedString<128,char> macOverlayDiffuse;

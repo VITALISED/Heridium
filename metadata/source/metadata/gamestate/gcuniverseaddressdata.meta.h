@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcGalacticAddressData;
 
 class cGcUniverseAddressData
 {
-    static const unsigned __int64 muNameHash = 5331572112123179917;
-    static const unsigned __int64 muTemplateHash = 7463372396935502708;
+    static const unsigned __int64 muNameHash = 0x49FD8C968D7B338D;
+    static const unsigned __int64 muTemplateHash = 0x679339A701CBDB74;
     static const int miNumMembers = 2;
 
     int miRealityIndex;

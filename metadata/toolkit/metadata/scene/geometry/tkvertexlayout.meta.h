@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkVertexLayout
 {
-    static const unsigned __int64 muNameHash = 15938786715468431863;
-    static const unsigned __int64 muTemplateHash = 8406383964105534646;
+    static const unsigned __int64 muNameHash = 0xDD31F212063601F7;
+    static const unsigned __int64 muTemplateHash = 0x74A979AD2A0CECB6;
     static const int miNumMembers = 4;
 
     int miElementCount;

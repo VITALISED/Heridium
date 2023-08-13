@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBaseBuildingPartsNavDataTable
 {
-    static const unsigned __int64 muNameHash = 15073150403390702200;
-    static const unsigned __int64 muTemplateHash = 11790914840270809462;
+    static const unsigned __int64 muNameHash = 0xD12E966E50238278;
+    static const unsigned __int64 muTemplateHash = 0xA3A1BE9387392976;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcBaseBuildingPartNavData> maParts;

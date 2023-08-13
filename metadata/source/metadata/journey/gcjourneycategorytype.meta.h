@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eCategoryType
 {
     ECategoryType_Journey = 0,
@@ -10,8 +10,8 @@ enum eCategoryType
 
 class cGcJourneyCategoryType
 {
-    static const unsigned __int64 muNameHash = 1738518752658572792;
-    static const unsigned __int64 muTemplateHash = 10455101548966883525;
+    static const unsigned __int64 muNameHash = 0x182075982F91C5F8;
+    static const unsigned __int64 muTemplateHash = 0x9117FB771CCEB0C5;
     static const int miNumMembers = 1;
 
     eCategoryType meCategoryType;

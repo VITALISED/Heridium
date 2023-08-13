@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eCommunicatorType
 {
     ECommunicatorType_HoloExplorer = 0,
@@ -19,8 +19,8 @@ class cGcAlienRace;
 
 class cGcPlayerCommunicatorMessage
 {
-    static const unsigned __int64 muNameHash = 17886384828045606682;
-    static const unsigned __int64 muTemplateHash = 1834313519015244678;
+    static const unsigned __int64 muNameHash = 0xF839343C27983F1A;
+    static const unsigned __int64 muTemplateHash = 0x1974CA6D4B99B386;
     static const int miNumMembers = 5;
 
     TkID<256> mDialog;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCustomisationCameraData
 {
-    static const unsigned __int64 muNameHash = 5811910945753042468;
-    static const unsigned __int64 muTemplateHash = 16280776473593766632;
+    static const unsigned __int64 muNameHash = 0x50A80E365BD08E24;
+    static const unsigned __int64 muTemplateHash = 0xE1F0EFF18817E2E8;
     static const int miNumMembers = 6;
 
     int miInteractionCameraIndex;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eWonderCustomCategory
 {
     EWonderCustomCategory_Custom01 = 0,
@@ -19,8 +19,8 @@ enum eWonderCustomCategory
 
 class cGcWonderCustomCategory
 {
-    static const unsigned __int64 muNameHash = 4236405831480899570;
-    static const unsigned __int64 muTemplateHash = 12871889282889007328;
+    static const unsigned __int64 muNameHash = 0x3ACABCA885CFF7F2;
+    static const unsigned __int64 muTemplateHash = 0xB2A2231AC6C1C0E0;
     static const int miNumMembers = 1;
 
     eWonderCustomCategory meWonderCustomCategory;

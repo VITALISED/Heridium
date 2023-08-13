@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkChordsImageLookup
 {
-    static const unsigned __int64 muNameHash = 15203968474311560223;
-    static const unsigned __int64 muTemplateHash = 9974518132395937307;
+    static const unsigned __int64 muNameHash = 0xD2FF58C5F7940C1F;
+    static const unsigned __int64 muTemplateHash = 0x8A6C9B64E7270E1B;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cTkChordPathMapping> maLookup;

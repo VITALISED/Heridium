@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAlienRace;
 class cgcwordcategorytableEnum;
 
 class cGcRewardTeachWord
 {
-    static const unsigned __int64 muNameHash = 18327488583371858991;
-    static const unsigned __int64 muTemplateHash = 1134987201405137929;
+    static const unsigned __int64 muNameHash = 0xFE5851C36CE8242F;
+    static const unsigned __int64 muTemplateHash = 0xFC048D8A45E3409;
     static const int miNumMembers = 5;
 
     cGcAlienRace mRace;

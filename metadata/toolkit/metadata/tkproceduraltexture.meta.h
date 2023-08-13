@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 class cTkPaletteTexture;
 
 enum eTextureGameplayUse
@@ -12,8 +12,8 @@ enum eTextureGameplayUse
 
 class cTkProceduralTexture
 {
-    static const unsigned __int64 muNameHash = 8467168864784101348;
-    static const unsigned __int64 muTemplateHash = 12225664857477829560;
+    static const unsigned __int64 muNameHash = 0x75816D38B6B42FE4;
+    static const unsigned __int64 muTemplateHash = 0xA9AA4969DCF153B8;
     static const int miNumMembers = 9;
 
     TkID<256> mName;

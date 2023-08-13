@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkSceneBoneRemapping
 {
-    static const unsigned __int64 muNameHash = 10285048926675009210;
-    static const unsigned __int64 muTemplateHash = 4828974999496588323;
+    static const unsigned __int64 muNameHash = 0x8EBBD5819BF9FEBA;
+    static const unsigned __int64 muTemplateHash = 0x4303F72D523C7C23;
     static const int miNumMembers = 2;
 
     cTkFixedString<128,char> macFromBone;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcTerrainEdit
 {
-    static const unsigned __int64 muNameHash = 7286589111342854561;
-    static const unsigned __int64 muTemplateHash = 5448498184147449142;
+    static const unsigned __int64 muNameHash = 0x651F2A30D5D1F1A1;
+    static const unsigned __int64 muTemplateHash = 0x4B9CF43B29783536;
     static const int miNumMembers = 2;
 
     unsigned __int8 mData;

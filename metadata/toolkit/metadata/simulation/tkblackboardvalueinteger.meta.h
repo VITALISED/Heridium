@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkBlackboardValueInteger
 {
-    static const unsigned __int64 muNameHash = 7414657731284906076;
-    static const unsigned __int64 muTemplateHash = 12611234179745376707;
+    static const unsigned __int64 muNameHash = 0x66E627EC0C57305C;
+    static const unsigned __int64 muTemplateHash = 0xAF041AAB56FCE9C3;
     static const int miNumMembers = 2;
 
     TkID<128> mKey;

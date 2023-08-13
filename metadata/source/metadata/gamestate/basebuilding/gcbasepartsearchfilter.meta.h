@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBaseGridSearchFilter;
 
 class cGcBasePartSearchFilter
 {
-    static const unsigned __int64 muNameHash = 5124045681327508584;
-    static const unsigned __int64 muTemplateHash = 16365460607349728388;
+    static const unsigned __int64 muNameHash = 0x471C446618668C68;
+    static const unsigned __int64 muTemplateHash = 0xE31DCBB6E6BAA484;
     static const int miNumMembers = 7;
 
     TkID<128> mIsSpecificID;

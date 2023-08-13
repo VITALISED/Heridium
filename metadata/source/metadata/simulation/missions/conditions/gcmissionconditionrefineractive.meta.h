@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionRefinerActive
 {
-    static const unsigned __int64 muNameHash = 1987730096920718553;
-    static const unsigned __int64 muTemplateHash = 15510176069053474024;
+    static const unsigned __int64 muNameHash = 0x1B95D5FDE04FECD9;
+    static const unsigned __int64 muTemplateHash = 0xD73F36F557B264E8;
     static const int miNumMembers = 3;
 
     bool mbHasFuel;

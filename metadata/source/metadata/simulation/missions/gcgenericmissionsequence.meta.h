@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eMissionClass
 {
     EMissionClass_Primary = 0,
@@ -54,8 +54,8 @@ class cGcMissionConditionTest;
 
 class cGcGenericMissionSequence
 {
-    static const unsigned __int64 muNameHash = 18079818523641863021;
-    static const unsigned __int64 muTemplateHash = 11949239386068805789;
+    static const unsigned __int64 muNameHash = 0xFAE86B2801335B6D;
+    static const unsigned __int64 muTemplateHash = 0xA5D439E96EBCE89D;
     static const int miNumMembers = 55;
 
     TkID<128> mMissionID;

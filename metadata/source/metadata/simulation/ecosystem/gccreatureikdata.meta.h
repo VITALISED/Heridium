@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCreatureIkType;
 
 class cGcCreatureIkData
 {
-    static const unsigned __int64 muNameHash = 4266435701396634104;
-    static const unsigned __int64 muTemplateHash = 2612779074710573324;
+    static const unsigned __int64 muNameHash = 0x3B356CAA76CA79F8;
+    static const unsigned __int64 muTemplateHash = 0x244274B9B0B2910C;
     static const int miNumMembers = 2;
 
     cGcCreatureIkType mType;

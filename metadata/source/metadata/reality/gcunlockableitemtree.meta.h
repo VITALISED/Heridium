@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcUnlockableItemTreeNode;
 
 class cGcUnlockableItemTree
 {
-    static const unsigned __int64 muNameHash = 7726596891509920113;
-    static const unsigned __int64 muTemplateHash = 9429721848428734355;
+    static const unsigned __int64 muNameHash = 0x6B3A62EF81161171;
+    static const unsigned __int64 muTemplateHash = 0x82DD1A0F7255A793;
     static const int miNumMembers = 3;
 
     TkID<256> mTitle;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcAISpaceshipInstanceData
 {
-    static const unsigned __int64 muNameHash = 12532458149247448357;
-    static const unsigned __int64 muTemplateHash = 10256888751028441056;
+    static const unsigned __int64 muNameHash = 0xADEC3C497457F525;
+    static const unsigned __int64 muTemplateHash = 0x8E57C9F9C9C00FE0;
     static const int miNumMembers = 1;
 
     cTkFixedString<128,char> macFile;

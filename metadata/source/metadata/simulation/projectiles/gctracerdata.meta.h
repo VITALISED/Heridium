@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcTracerData
 {
-    static const unsigned __int64 muNameHash = 13247136587801033667;
-    static const unsigned __int64 muTemplateHash = 1128701275194050480;
+    static const unsigned __int64 muNameHash = 0xB7D7488A4EF5FBC3;
+    static const unsigned __int64 muTemplateHash = 0xFA9F3D46578C7B0;
     static const int miNumMembers = 6;
 
     float mfLength;

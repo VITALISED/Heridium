@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcCurrency;
 
 enum eOutOfBoundsBehaviour
@@ -25,8 +25,8 @@ enum eIndexProvider
 
 class cGcCostMoneyList
 {
-    static const unsigned __int64 muNameHash = 2496048994353475262;
-    static const unsigned __int64 muTemplateHash = 6408366983777238802;
+    static const unsigned __int64 muNameHash = 0x22A3BF55F268EEBE;
+    static const unsigned __int64 muTemplateHash = 0x58EF17D19A623F12;
     static const int miNumMembers = 5;
 
     cTkDynamicArray<int> maCosts;

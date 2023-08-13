@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eExperienceSpawnType
 {
     EExperienceSpawnType_Freighter = 0,
@@ -9,8 +9,8 @@ enum eExperienceSpawnType
 
 class cGcPlayerExperienceSpawnTable
 {
-    static const unsigned __int64 muNameHash = 11651378341051672325;
-    static const unsigned __int64 muTemplateHash = 16345923322311966481;
+    static const unsigned __int64 muNameHash = 0xA1B202DE9A10A705;
+    static const unsigned __int64 muTemplateHash = 0xE2D862A8402D7F11;
     static const int miNumMembers = 6;
 
     TkID<128> mEvent;

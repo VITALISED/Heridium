@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eTradeCategory
 {
     ETradeCategory_Mineral = 0,
@@ -16,8 +16,8 @@ enum eTradeCategory
 
 class cGcTradeCategory
 {
-    static const unsigned __int64 muNameHash = 12388765826959816214;
-    static const unsigned __int64 muTemplateHash = 18020606404748783050;
+    static const unsigned __int64 muNameHash = 0xABEDBCE191703616;
+    static const unsigned __int64 muTemplateHash = 0xFA160E0C402E2DCA;
     static const int miNumMembers = 1;
 
     eTradeCategory meTradeCategory;

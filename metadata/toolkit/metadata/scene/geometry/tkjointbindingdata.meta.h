@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkJointBindingData
 {
-    static const unsigned __int64 muNameHash = 14608471667392961711;
-    static const unsigned __int64 muTemplateHash = 16032185720096047505;
+    static const unsigned __int64 muNameHash = 0xCABBB7951E50DCAF;
+    static const unsigned __int64 muTemplateHash = 0xDE7DC3F8636A4191;
     static const int miNumMembers = 4;
 
     cTkFixedArray<float> maInvBindMatrix;

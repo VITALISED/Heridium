@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcMechMeshPart;
 class cGcMechMeshType;
 class cGcAudioWwiseEvents;
 
 class cGcMechPartAudioEventOverride
 {
-    static const unsigned __int64 muNameHash = 9733308795527439814;
-    static const unsigned __int64 muTemplateHash = 11950292775254861939;
+    static const unsigned __int64 muNameHash = 0x8713A8C7BE9925C6;
+    static const unsigned __int64 muTemplateHash = 0xA5D7F7F6B6FBA873;
     static const int miNumMembers = 3;
 
     cGcMechMeshPart mMeshPart;

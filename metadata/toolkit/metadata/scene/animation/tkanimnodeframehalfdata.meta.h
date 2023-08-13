@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkAnimNodeFrameHalfData
 {
-    static const unsigned __int64 muNameHash = 18273950727732839804;
-    static const unsigned __int64 muTemplateHash = 2234867937956877403;
+    static const unsigned __int64 muNameHash = 0xFD9A1D5E0981C57C;
+    static const unsigned __int64 muTemplateHash = 0x1F03D88C79D4545B;
     static const int miNumMembers = 3;
 
     cTkDynamicArray<unsigned __int16> maRotations;

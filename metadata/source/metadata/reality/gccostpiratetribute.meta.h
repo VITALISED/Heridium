@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcCostPirateTribute
 {
-    static const unsigned __int64 muNameHash = 13781866213823671167;
-    static const unsigned __int64 muTemplateHash = 12228919460370291668;
+    static const unsigned __int64 muNameHash = 0xBF43064D50EAEB7F;
+    static const unsigned __int64 muTemplateHash = 0xA9B5D975263B9BD4;
     static const int miNumMembers = 2;
 
     float mfCargoValuePercent;

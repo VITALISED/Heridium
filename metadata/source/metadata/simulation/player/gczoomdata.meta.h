@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eZoomType
 {
     EZoomType_None = 0,
@@ -11,8 +11,8 @@ enum eZoomType
 
 class cGcZoomData
 {
-    static const unsigned __int64 muNameHash = 3355926511773746956;
-    static const unsigned __int64 muTemplateHash = 10703256757317685520;
+    static const unsigned __int64 muNameHash = 0x2E92A561CA97070C;
+    static const unsigned __int64 muTemplateHash = 0x94899B4FFFB85110;
     static const int miNumMembers = 7;
 
     eZoomType meZoomType;

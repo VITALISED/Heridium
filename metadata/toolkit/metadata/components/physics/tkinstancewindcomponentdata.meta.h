@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkInstanceWindComponentData
 {
-    static const unsigned __int64 muNameHash = 16152754525769185942;
-    static const unsigned __int64 muTemplateHash = 10276516436525007588;
+    static const unsigned __int64 muNameHash = 0xE02A1CA9048E3A96;
+    static const unsigned __int64 muTemplateHash = 0x8E9D85406F8942E4;
     static const int miNumMembers = 8;
 
     bool mbEnableLdsWind;

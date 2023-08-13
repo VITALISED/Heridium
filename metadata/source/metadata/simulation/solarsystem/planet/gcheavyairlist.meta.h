@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcHeavyAirList
 {
-    static const unsigned __int64 muNameHash = 1129432109404206819;
-    static const unsigned __int64 muTemplateHash = 4807995489078891207;
+    static const unsigned __int64 muNameHash = 0xFAC8C84FEF536E3;
+    static const unsigned __int64 muTemplateHash = 0x42B96E6C683A52C7;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cTkFixedString<128,char> > maOptions;

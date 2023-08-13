@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcLightShaftProperties
 {
-    static const unsigned __int64 muNameHash = 10801537083348980076;
-    static const unsigned __int64 muTemplateHash = 17870376653905754110;
+    static const unsigned __int64 muNameHash = 0x95E6C4BF9139916C;
+    static const unsigned __int64 muTemplateHash = 0xF80054E2AA7C77FE;
     static const int miNumMembers = 6;
 
     float mfLightShaftScattering;

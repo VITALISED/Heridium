@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDifficultyOptionUIGroup
 {
-    static const unsigned __int64 muNameHash = 7152007795773189569;
-    static const unsigned __int64 muTemplateHash = 8397017433346437024;
+    static const unsigned __int64 muNameHash = 0x6341093281E2ADC1;
+    static const unsigned __int64 muTemplateHash = 0x748832DDC7606FA0;
     static const int miNumMembers = 2;
 
     TkID<256> mHeadingLocID;

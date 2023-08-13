@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcSolarSystemLocatorTypes;
 
 class cGcSolarSystemLocator
 {
-    static const unsigned __int64 muNameHash = 260054746437487833;
-    static const unsigned __int64 muTemplateHash = 9951733365406135590;
+    static const unsigned __int64 muNameHash = 0x39BE669FF8F8CD9;
+    static const unsigned __int64 muTemplateHash = 0x8A1BA8C4F06F7526;
     static const int miNumMembers = 5;
 
     cTkFixedString<32,char> macName;

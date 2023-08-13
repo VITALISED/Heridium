@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDifficultySettingType;
 class cGcDifficultySettingEditability;
 
 class cGcDifficultySettingCommonData
 {
-    static const unsigned __int64 muNameHash = 12218225111494641069;
-    static const unsigned __int64 muTemplateHash = 13685791631450801752;
+    static const unsigned __int64 muNameHash = 0xA98FDB01046545AD;
+    static const unsigned __int64 muTemplateHash = 0xBDEDB2FA76A38658;
     static const int miNumMembers = 7;
 
     cGcDifficultySettingType mSettingType;

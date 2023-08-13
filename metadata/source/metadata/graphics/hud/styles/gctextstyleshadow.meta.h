@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcTextStyleShadow
 {
-    static const unsigned __int64 muNameHash = 2884021266619549167;
-    static const unsigned __int64 muTemplateHash = 14049733406308511579;
+    static const unsigned __int64 muNameHash = 0x28061A0FD187C5EF;
+    static const unsigned __int64 muTemplateHash = 0xC2FAAE1827F52F5B;
     static const int miNumMembers = 2;
 
     cTkColour mShadowColour;

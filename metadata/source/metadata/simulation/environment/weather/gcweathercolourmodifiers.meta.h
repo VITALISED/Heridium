@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcColourModifier;
 class cGcColourModifier;
 class cGcColourModifier;
@@ -13,8 +13,8 @@ class cGcColourModifier;
 
 class cGcWeatherColourModifiers
 {
-    static const unsigned __int64 muNameHash = 7186177211435983742;
-    static const unsigned __int64 muTemplateHash = 15286772173585974039;
+    static const unsigned __int64 muNameHash = 0x63BA6E198CA6237E;
+    static const unsigned __int64 muTemplateHash = 0xD425864C90EB0317;
     static const int miNumMembers = 10;
 
     cGcColourModifier mSkyColour;

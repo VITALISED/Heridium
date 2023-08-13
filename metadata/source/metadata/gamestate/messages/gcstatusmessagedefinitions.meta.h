@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcStatusMessageDefinitions
 {
-    static const unsigned __int64 muNameHash = 4846851487656965753;
-    static const unsigned __int64 muTemplateHash = 1639396973197439897;
+    static const unsigned __int64 muNameHash = 0x434379BF90DDF679;
+    static const unsigned __int64 muTemplateHash = 0x16C04EDC7948B399;
     static const int miNumMembers = 5;
 
     cTkDynamicArray<cGcStatusMessageDefinition> maMessages;

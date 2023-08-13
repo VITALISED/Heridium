@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkTrailData
 {
-    static const unsigned __int64 muNameHash = 16209243079520920558;
-    static const unsigned __int64 muTemplateHash = 804165664607234640;
+    static const unsigned __int64 muNameHash = 0xE0F2CCB358CDA3EE;
+    static const unsigned __int64 muTemplateHash = 0xB28F8694B7AEA50;
     static const int miNumMembers = 7;
 
     float mfWidth;

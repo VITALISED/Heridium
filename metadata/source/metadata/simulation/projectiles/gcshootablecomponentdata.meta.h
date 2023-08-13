@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcProjectileImpactType;
 class cGcFiendCrime;
 
 class cGcShootableComponentData
 {
-    static const unsigned __int64 muNameHash = 4069782901794023957;
-    static const unsigned __int64 muTemplateHash = 9771967993447966228;
+    static const unsigned __int64 muNameHash = 0x387AC5FC8E642A15;
+    static const unsigned __int64 muTemplateHash = 0x879D011DADF3E614;
     static const int miNumMembers = 25;
 
     int miHealth;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcBuildingClassification;
 
 class cGcMissionConditionHasSettlementBuilding
 {
-    static const unsigned __int64 muNameHash = 16461593158777458528;
-    static const unsigned __int64 muTemplateHash = 14239847996178100258;
+    static const unsigned __int64 muNameHash = 0xE47353C2B9EE4F60;
+    static const unsigned __int64 muTemplateHash = 0xC59E1A4E7BC0F022;
     static const int miNumMembers = 2;
 
     cGcBuildingClassification mBuildingClass;

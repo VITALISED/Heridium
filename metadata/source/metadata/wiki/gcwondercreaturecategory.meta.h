@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eWonderCreatureCategory
 {
     EWonderCreatureCategory_HerbivoreSizeMax = 0,
@@ -22,8 +22,8 @@ enum eWonderCreatureCategory
 
 class cGcWonderCreatureCategory
 {
-    static const unsigned __int64 muNameHash = 1254302347307973617;
-    static const unsigned __int64 muTemplateHash = 5517923428922804646;
+    static const unsigned __int64 muNameHash = 0x11682D56DC3AFBF1;
+    static const unsigned __int64 muTemplateHash = 0x4C939A1F96BFC9A6;
     static const int miNumMembers = 1;
 
     eWonderCreatureCategory meWonderCreatureCategory;

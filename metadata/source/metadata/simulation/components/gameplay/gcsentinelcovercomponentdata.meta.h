@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcSentinelCoverComponentData
 {
-    static const unsigned __int64 muNameHash = 16281454183733089762;
-    static const unsigned __int64 muTemplateHash = 5669221813774543817;
+    static const unsigned __int64 muNameHash = 0xE1F35851383555E2;
+    static const unsigned __int64 muTemplateHash = 0x4EAD1F33EAED6BC9;
     static const int miNumMembers = 6;
 
     float mfHealthPercLostPerSecMin;

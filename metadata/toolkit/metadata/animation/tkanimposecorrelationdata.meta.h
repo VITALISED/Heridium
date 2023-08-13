@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkAnimPoseCorrelationData
 {
-    static const unsigned __int64 muNameHash = 3958423712599383546;
-    static const unsigned __int64 muTemplateHash = 4673864361251793307;
+    static const unsigned __int64 muNameHash = 0x36EF2564DBF81DFA;
+    static const unsigned __int64 muTemplateHash = 0x40DCE6DF94C5699B;
     static const int miNumMembers = 3;
 
     TkID<128> mItemA;

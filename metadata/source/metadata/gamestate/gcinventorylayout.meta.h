@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInventoryLayout
 {
-    static const unsigned __int64 muNameHash = 17621587023072864546;
-    static const unsigned __int64 muTemplateHash = 621469112306289325;
+    static const unsigned __int64 muNameHash = 0xF48C7408C8E42922;
+    static const unsigned __int64 muTemplateHash = 0x89FE6DD6DE4CAAD;
     static const int miNumMembers = 3;
 
     int miSlots;

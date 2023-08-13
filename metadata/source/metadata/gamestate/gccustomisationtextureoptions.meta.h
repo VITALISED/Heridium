@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcCustomisationTextureOptions
 {
-    static const unsigned __int64 muNameHash = 7234176572401439731;
-    static const unsigned __int64 muTemplateHash = 10077709202344715265;
+    static const unsigned __int64 muNameHash = 0x6464F543A870D3F3;
+    static const unsigned __int64 muTemplateHash = 0x8BDB372023712401;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcCustomisationTextureOption> maTextureOptions;

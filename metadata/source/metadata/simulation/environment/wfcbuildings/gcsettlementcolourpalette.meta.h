@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcBaseBuildingPartStyle;
 
 class cGcSettlementColourPalette
 {
-    static const unsigned __int64 muNameHash = 5571274856605297599;
-    static const unsigned __int64 muTemplateHash = 10435740349503752435;
+    static const unsigned __int64 muNameHash = 0x4D5124F6D6062BBF;
+    static const unsigned __int64 muTemplateHash = 0x90D3328E9461C8F3;
     static const int miNumMembers = 5;
 
     TkID<128> mName;

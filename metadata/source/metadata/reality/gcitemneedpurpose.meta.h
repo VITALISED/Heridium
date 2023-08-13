@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eItemPurpose
 {
     EItemPurpose_None = 0,
@@ -13,8 +13,8 @@ enum eItemPurpose
 
 class cGcItemNeedPurpose
 {
-    static const unsigned __int64 muNameHash = 16588781689050475345;
-    static const unsigned __int64 muTemplateHash = 15318071688662985116;
+    static const unsigned __int64 muNameHash = 0xE637310E185BAB51;
+    static const unsigned __int64 muTemplateHash = 0xD494B90ACEB9A99C;
     static const int miNumMembers = 1;
 
     eItemPurpose meItemPurpose;

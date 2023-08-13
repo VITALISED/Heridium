@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkLSystemRulesData
 {
-    static const unsigned __int64 muNameHash = 10290336795059546516;
-    static const unsigned __int64 muTemplateHash = 8929646007900591521;
+    static const unsigned __int64 muNameHash = 0x8ECE9ECB68A7E994;
+    static const unsigned __int64 muTemplateHash = 0x7BEC79BB9EE655A1;
     static const int miNumMembers = 4;
 
     cTkDynamicArray<cTkLSystemGlobalRestriction> maGlobalRestriction;

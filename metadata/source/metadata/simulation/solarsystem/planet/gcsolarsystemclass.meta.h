@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eSolarSystemClass
 {
     ESolarSystemClass_Default = 0,
@@ -11,8 +11,8 @@ enum eSolarSystemClass
 
 class cGcSolarSystemClass
 {
-    static const unsigned __int64 muNameHash = 14297944486433159165;
-    static const unsigned __int64 muTemplateHash = 13513921167850731124;
+    static const unsigned __int64 muNameHash = 0xC66C80C1B41A77FD;
+    static const unsigned __int64 muTemplateHash = 0xBB8B17B3CC5FF674;
     static const int miNumMembers = 1;
 
     eSolarSystemClass meSolarSystemClass;

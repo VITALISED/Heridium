@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eStatsOneShot
 {
     EStatsOneShot_ShipLanded = 0,
@@ -11,8 +11,8 @@ enum eStatsOneShot
 
 class cGcStatsOneShotTypes
 {
-    static const unsigned __int64 muNameHash = 3634544593102658895;
-    static const unsigned __int64 muTemplateHash = 2776569893022869488;
+    static const unsigned __int64 muNameHash = 0x32707F0D00335D4F;
+    static const unsigned __int64 muTemplateHash = 0x26885B9B57AC27F0;
     static const int miNumMembers = 1;
 
     eStatsOneShot meStatsOneShot;

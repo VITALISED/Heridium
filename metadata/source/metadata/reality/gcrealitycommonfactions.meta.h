@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eAIFaction
 {
     EAIFaction_Player = 0,
@@ -12,8 +12,8 @@ enum eAIFaction
 
 class cGcRealityCommonFactions
 {
-    static const unsigned __int64 muNameHash = 11922283679363557797;
-    static const unsigned __int64 muTemplateHash = 17897789285734848951;
+    static const unsigned __int64 muNameHash = 0xA57475D6E3E6E9A5;
+    static const unsigned __int64 muTemplateHash = 0xF861B887610499B7;
     static const int miNumMembers = 1;
 
     eAIFaction meAIFaction;

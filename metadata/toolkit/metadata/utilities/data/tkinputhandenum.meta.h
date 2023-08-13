@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eInputHand
 {
     EInputHand_None = 0,
@@ -10,8 +10,8 @@ enum eInputHand
 
 class cTkInputHandEnum
 {
-    static const unsigned __int64 muNameHash = 14157425865572456526;
-    static const unsigned __int64 muTemplateHash = 14662557654352602300;
+    static const unsigned __int64 muNameHash = 0xC47947D0C35F984E;
+    static const unsigned __int64 muTemplateHash = 0xCB7BDE80465F24BC;
     static const int miNumMembers = 1;
 
     eInputHand meInputHand;

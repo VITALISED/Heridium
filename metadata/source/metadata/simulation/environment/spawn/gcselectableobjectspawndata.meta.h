@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcResourceElement;
 
 class cGcSelectableObjectSpawnData
 {
-    static const unsigned __int64 muNameHash = 16270844777615981860;
-    static const unsigned __int64 muTemplateHash = 606996332131535068;
+    static const unsigned __int64 muNameHash = 0xE1CDA71E5D51FD24;
+    static const unsigned __int64 muTemplateHash = 0x86C7BF2B4AA48DC;
     static const int miNumMembers = 1;
 
     cGcResourceElement mResource;

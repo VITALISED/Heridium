@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkModelResource;
 
 class cGcDebrisData
 {
-    static const unsigned __int64 muNameHash = 14552908490104425735;
-    static const unsigned __int64 muTemplateHash = 15090400354127152809;
+    static const unsigned __int64 muNameHash = 0xC9F6512AC970CD07;
+    static const unsigned __int64 muTemplateHash = 0xD16BDF2B722D86A9;
     static const int miNumMembers = 7;
 
     cTkModelResource mFilename;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCreatureRoles;
 class cGcCreatureTypes;
 class cGcCreatureSizeClasses;
@@ -10,8 +10,8 @@ class cGcCreatureActiveTime;
 
 class cGcCreatureRoleDescription
 {
-    static const unsigned __int64 muNameHash = 11652152446844660340;
-    static const unsigned __int64 muTemplateHash = 7527194452209037026;
+    static const unsigned __int64 muNameHash = 0xA1B4C2EA26DFEA74;
+    static const unsigned __int64 muTemplateHash = 0x6875F7793735EEE2;
     static const int miNumMembers = 13;
 
     cGcCreatureRoles mRole;

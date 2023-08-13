@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkInteractiveSceneData
 {
-    static const unsigned __int64 muNameHash = 9885813585686082369;
-    static const unsigned __int64 muTemplateHash = 8178885755713652576;
+    static const unsigned __int64 muNameHash = 0x89317714328CB341;
+    static const unsigned __int64 muTemplateHash = 0x71813D42DFD08760;
     static const int miNumMembers = 2;
 
     cTkFixedString<32,char> macId;

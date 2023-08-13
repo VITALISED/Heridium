@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcWorldUISettings
 {
-    static const unsigned __int64 muNameHash = 1730933120225272942;
-    static const unsigned __int64 muTemplateHash = 5265795722238888943;
+    static const unsigned __int64 muNameHash = 0x1805828080FC646E;
+    static const unsigned __int64 muTemplateHash = 0x4913DD4F5BD20BEF;
     static const int miNumMembers = 20;
 
     float mfUIWorldQuadOffset;

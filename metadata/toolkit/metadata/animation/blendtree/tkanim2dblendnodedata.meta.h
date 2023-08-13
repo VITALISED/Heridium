@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkAnim2dBlendNodeData
 {
-    static const unsigned __int64 muNameHash = 7871211573787266044;
-    static const unsigned __int64 muTemplateHash = 9142374981831738537;
+    static const unsigned __int64 muNameHash = 0x6D3C29390F888BFC;
+    static const unsigned __int64 muTemplateHash = 0x7EE03D9B8B7FC4A9;
     static const int miNumMembers = 2;
 
     cTkVector2 mPosition;

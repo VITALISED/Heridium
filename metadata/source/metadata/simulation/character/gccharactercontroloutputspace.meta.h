@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eCharacterControlOutputSpace
 {
     ECharacterControlOutputSpace_CameraRelative = 0,
@@ -10,8 +10,8 @@ enum eCharacterControlOutputSpace
 
 class cGcCharacterControlOutputSpace
 {
-    static const unsigned __int64 muNameHash = 1728743059978475163;
-    static const unsigned __int64 muTemplateHash = 18123010633083589414;
+    static const unsigned __int64 muNameHash = 0x17FDBAA75DF0569B;
+    static const unsigned __int64 muTemplateHash = 0xFB81DE26A5931326;
     static const int miNumMembers = 1;
 
     eCharacterControlOutputSpace meCharacterControlOutputSpace;

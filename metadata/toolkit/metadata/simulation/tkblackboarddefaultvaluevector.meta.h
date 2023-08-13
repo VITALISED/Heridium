@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkBlackboardCategory;
 
 class cTkBlackboardDefaultValueVector
 {
-    static const unsigned __int64 muNameHash = 10273261157486220019;
-    static const unsigned __int64 muTemplateHash = 6541562915889085357;
+    static const unsigned __int64 muNameHash = 0x8E91F497B8C8D2F3;
+    static const unsigned __int64 muTemplateHash = 0x5AC84CD0356FFBAD;
     static const int miNumMembers = 3;
 
     cTkBlackboardCategory mBlackboardCategory;

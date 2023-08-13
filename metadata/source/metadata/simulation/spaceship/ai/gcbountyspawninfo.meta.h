@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcAIShipSpawnData;
 class cTkTextureResource;
 
 class cGcBountySpawnInfo
 {
-    static const unsigned __int64 muNameHash = 4163477746040074364;
-    static const unsigned __int64 muTemplateHash = 8752632026589709282;
+    static const unsigned __int64 muNameHash = 0x39C7A4F372F6707C;
+    static const unsigned __int64 muTemplateHash = 0x797798746A9643E2;
     static const int miNumMembers = 5;
 
     TkID<128> mId;

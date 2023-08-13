@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcFreighterNPCSpawnPriority
 {
-    static const unsigned __int64 muNameHash = 10967794426176309846;
-    static const unsigned __int64 muTemplateHash = 9392782999262595982;
+    static const unsigned __int64 muNameHash = 0x98356EEBB5BF8A56;
+    static const unsigned __int64 muTemplateHash = 0x8259DE5F6B600B8E;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<float> maPriorityScale;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSubstanceSecondaryBiome;
 class cGcRealityIconTable;
 class cGcTechList;
@@ -14,8 +14,8 @@ class cGcInventoryLayout;
 
 class cGcRealityManagerData
 {
-    static const unsigned __int64 muNameHash = 6426729213987279657;
-    static const unsigned __int64 muTemplateHash = 14996579099529455348;
+    static const unsigned __int64 muNameHash = 0x5930542B7B565329;
+    static const unsigned __int64 muTemplateHash = 0xD01E8D3C598026F4;
     static const int miNumMembers = 80;
 
     unsigned __int16 muiHomeRealityIteration;

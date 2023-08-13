@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPlanetaryMappingTable
 {
-    static const unsigned __int64 muNameHash = 13002564844724649309;
-    static const unsigned __int64 muTemplateHash = 9033840537006273908;
+    static const unsigned __int64 muNameHash = 0xB47263D5F2CB7D5D;
+    static const unsigned __int64 muTemplateHash = 0x7D5EA61AE5C87574;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cGcPlanetaryMappingValues> maMappingInfo;

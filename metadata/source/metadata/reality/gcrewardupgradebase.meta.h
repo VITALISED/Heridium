@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eUpgradeBaseType
 {
     EUpgradeBaseType_AllMatching = 0,
@@ -9,8 +9,8 @@ enum eUpgradeBaseType
 
 class cGcRewardUpgradeBase
 {
-    static const unsigned __int64 muNameHash = 16577212323371924160;
-    static const unsigned __int64 muTemplateHash = 18438988193234045741;
+    static const unsigned __int64 muNameHash = 0xE60E16C73CCFBAC0;
+    static const unsigned __int64 muTemplateHash = 0xFFE472115B564B2D;
     static const int miNumMembers = 2;
 
     eUpgradeBaseType meUpgradeBaseType;

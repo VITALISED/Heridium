@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcScannerIcon;
 class cGcScannerIcon;
 class cGcScannerIcon;
@@ -69,8 +69,8 @@ class cGcScannerIcon;
 
 class cGcScannerIcons
 {
-    static const unsigned __int64 muNameHash = 257495353934794996;
-    static const unsigned __int64 muTemplateHash = 1399382658752390070;
+    static const unsigned __int64 muNameHash = 0x392CEA8FE98D0F4;
+    static const unsigned __int64 muTemplateHash = 0x136B9B1D27C723B6;
     static const int miNumMembers = 82;
 
     cGcScannerIcon mTaggedBuilding;

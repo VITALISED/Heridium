@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcBuildingClassification;
 class cGcPlayerMissionParticipantType;
 
 class cGcScanEventSave
 {
-    static const unsigned __int64 muNameHash = 4849276280332579429;
-    static const unsigned __int64 muTemplateHash = 13484132395195063930;
+    static const unsigned __int64 muNameHash = 0x434C17159AF37265;
+    static const unsigned __int64 muTemplateHash = 0xBB2142F8AFF05E7A;
     static const int miNumMembers = 10;
 
     int miTable;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eCharacterState
 {
     ECharacterState_Idle = 0,
@@ -25,8 +25,8 @@ enum eCharacterState
 
 class cGcPlayerCharacterStateType
 {
-    static const unsigned __int64 muNameHash = 15766573735614068357;
-    static const unsigned __int64 muTemplateHash = 18419957858404668460;
+    static const unsigned __int64 muNameHash = 0xDACE1F471447B685;
+    static const unsigned __int64 muTemplateHash = 0xFFA0D6143FE0142C;
     static const int miNumMembers = 1;
 
     eCharacterState meCharacterState;

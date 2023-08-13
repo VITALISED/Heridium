@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPetEggTraitModifierOverrideTable
 {
-    static const unsigned __int64 muNameHash = 3814079024377773791;
-    static const unsigned __int64 muTemplateHash = 15955627943596425552;
+    static const unsigned __int64 muNameHash = 0x34EE54AA314E3EDF;
+    static const unsigned __int64 muTemplateHash = 0xDD6DC714025C8150;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcPetEggTraitModifierOverrideData> maTraitModifiers;

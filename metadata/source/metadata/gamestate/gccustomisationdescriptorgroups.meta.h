@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcCustomisationDescriptorGroups
 {
-    static const unsigned __int64 muNameHash = 13280580155340236198;
-    static const unsigned __int64 muTemplateHash = 7588181267505650635;
+    static const unsigned __int64 muNameHash = 0xB84E1949AA2825A6;
+    static const unsigned __int64 muTemplateHash = 0x694EA2A8ACF29BCB;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcCustomisationDescriptorGroup> maDescriptorGroups;

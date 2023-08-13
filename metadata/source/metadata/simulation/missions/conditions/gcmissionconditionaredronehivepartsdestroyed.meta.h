@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionAreDroneHivePartsDestroyed
 {
-    static const unsigned __int64 muNameHash = 5840999091547021456;
-    static const unsigned __int64 muTemplateHash = 5491120477243481046;
+    static const unsigned __int64 muNameHash = 0x510F65BA110A2090;
+    static const unsigned __int64 muTemplateHash = 0x4C3460FB18F89BD6;
     static const int miNumMembers = 1;
 
     TkID<256> mControllingScanEvent;

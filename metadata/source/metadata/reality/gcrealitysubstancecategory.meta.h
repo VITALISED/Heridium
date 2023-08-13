@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eSubstanceCategory
 {
     ESubstanceCategory_Fuel = 0,
@@ -16,8 +16,8 @@ enum eSubstanceCategory
 
 class cGcRealitySubstanceCategory
 {
-    static const unsigned __int64 muNameHash = 1429721395570352253;
-    static const unsigned __int64 muTemplateHash = 7748449888746706778;
+    static const unsigned __int64 muNameHash = 0x13D76408C6BF207D;
+    static const unsigned __int64 muTemplateHash = 0x6B88061EEAA9975A;
     static const int miNumMembers = 1;
 
     eSubstanceCategory meSubstanceCategory;

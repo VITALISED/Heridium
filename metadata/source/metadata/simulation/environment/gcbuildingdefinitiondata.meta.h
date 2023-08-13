@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkNoiseFlattenOptions;
 
 class cGcBuildingDefinitionData
 {
-    static const unsigned __int64 muNameHash = 6459342982060160671;
-    static const unsigned __int64 muTemplateHash = 5670622564832966898;
+    static const unsigned __int64 muNameHash = 0x59A43238181BB69F;
+    static const unsigned __int64 muTemplateHash = 0x4EB2192DB02EF8F2;
     static const int miNumMembers = 13;
 
     cTkNoiseFlattenOptions mFlattenType;

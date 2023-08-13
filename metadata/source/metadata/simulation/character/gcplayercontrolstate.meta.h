@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPlayerControlInput;
 
 class cGcPlayerControlState
 {
-    static const unsigned __int64 muNameHash = 11293377018363913665;
-    static const unsigned __int64 muTemplateHash = 5702616645114084420;
+    static const unsigned __int64 muNameHash = 0x9CBA2290362425C1;
+    static const unsigned __int64 muTemplateHash = 0x4F23C39FFE413C44;
     static const int miNumMembers = 5;
 
     TkID<128> mId;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eFont
 {
     EFont_Impact = 0,
@@ -15,8 +15,8 @@ enum eFont
 
 class cGcFontTypesEnum
 {
-    static const unsigned __int64 muNameHash = 15957828535691821574;
-    static const unsigned __int64 muTemplateHash = 3631764269170746775;
+    static const unsigned __int64 muNameHash = 0xDD7598814880C206;
+    static const unsigned __int64 muTemplateHash = 0x32669E5C63E0E597;
     static const int miNumMembers = 1;
 
     eFont meFont;

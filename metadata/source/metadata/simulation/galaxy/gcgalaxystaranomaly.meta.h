@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eGalaxyStarAnomaly
 {
     EGalaxyStarAnomaly_None = 0,
@@ -12,8 +12,8 @@ enum eGalaxyStarAnomaly
 
 class cGcGalaxyStarAnomaly
 {
-    static const unsigned __int64 muNameHash = 7244205612095583140;
-    static const unsigned __int64 muTemplateHash = 14392098270570989368;
+    static const unsigned __int64 muNameHash = 0x6488969F6CD933A4;
+    static const unsigned __int64 muTemplateHash = 0xC7BB011FDDE5C738;
     static const int miNumMembers = 1;
 
     eGalaxyStarAnomaly meGalaxyStarAnomaly;

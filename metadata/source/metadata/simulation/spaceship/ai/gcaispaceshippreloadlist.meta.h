@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcRealityCommonFactions;
 
 class cGcAISpaceshipPreloadList
 {
-    static const unsigned __int64 muNameHash = 14215142848370232371;
-    static const unsigned __int64 muTemplateHash = 311616248415118434;
+    static const unsigned __int64 muNameHash = 0xC546551B048ACC33;
+    static const unsigned __int64 muTemplateHash = 0x4531553B105E462;
     static const int miNumMembers = 2;
 
     cGcRealityCommonFactions mFaction;

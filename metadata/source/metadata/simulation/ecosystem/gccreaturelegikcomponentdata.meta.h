@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCreatureLegIKComponentData
 {
-    static const unsigned __int64 muNameHash = 6083074344513657574;
-    static const unsigned __int64 muTemplateHash = 5752418825082876126;
+    static const unsigned __int64 muNameHash = 0x546B6BE307075AE6;
+    static const unsigned __int64 muTemplateHash = 0x4FD4B2719C55B0DE;
     static const int miNumMembers = 1;
 
     int miStuff;

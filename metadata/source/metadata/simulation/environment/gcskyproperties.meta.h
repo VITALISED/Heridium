@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcSkyProperties
 {
-    static const unsigned __int64 muNameHash = 12114819843268607539;
-    static const unsigned __int64 muTemplateHash = 12253931008060202196;
+    static const unsigned __int64 muNameHash = 0xA8207C75DBE0FE33;
+    static const unsigned __int64 muTemplateHash = 0xAA0EB553E5929CD4;
     static const int miNumMembers = 12;
 
     float mfAtmosphereThickness;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eCombatEffectType
 {
     ECombatEffectType_None = 0,
@@ -11,8 +11,8 @@ enum eCombatEffectType
 
 class cGcCombatEffectType
 {
-    static const unsigned __int64 muNameHash = 919701794041376248;
-    static const unsigned __int64 muTemplateHash = 1095842793634099301;
+    static const unsigned __int64 muNameHash = 0xCC36FE8AD202DF8;
+    static const unsigned __int64 muTemplateHash = 0xF353736FC3B7065;
     static const int miNumMembers = 1;
 
     eCombatEffectType meCombatEffectType;

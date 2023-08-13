@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkAnimJointLODData
 {
-    static const unsigned __int64 muNameHash = 7139974600996420658;
-    static const unsigned __int64 muTemplateHash = 11435914658487275327;
+    static const unsigned __int64 muNameHash = 0x6316491205B3FC32;
+    static const unsigned __int64 muTemplateHash = 0x9EB487CAB4D10F3F;
     static const int miNumMembers = 2;
 
     int miLOD;

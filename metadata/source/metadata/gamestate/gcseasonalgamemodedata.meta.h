@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcGameMode;
 class cGcDifficultyPresetType;
 class cGcDifficultySettingsData;
@@ -20,8 +20,8 @@ class cGcTradeData;
 
 class cGcSeasonalGameModeData
 {
-    static const unsigned __int64 muNameHash = 18260702183926367749;
-    static const unsigned __int64 muTemplateHash = 11874102268242930343;
+    static const unsigned __int64 muNameHash = 0xFD6B0BE30E218605;
+    static const unsigned __int64 muTemplateHash = 0xA4C94919ED47AAA7;
     static const int miNumMembers = 88;
 
     int miSeasonId;

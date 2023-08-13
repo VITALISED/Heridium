@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcWeatherWeightings
 {
-    static const unsigned __int64 muNameHash = 10741940703725508659;
-    static const unsigned __int64 muTemplateHash = 5359985279793542212;
+    static const unsigned __int64 muNameHash = 0x95130A2823DE5833;
+    static const unsigned __int64 muTemplateHash = 0x4A627E36AB6AB444;
     static const int miNumMembers = 1;
 
     cTkFixedArray<float> maWeatherWeightings;

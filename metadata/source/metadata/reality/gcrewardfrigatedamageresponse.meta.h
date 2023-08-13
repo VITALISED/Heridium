@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eResponse
 {
     EResponse_StayOut = 0,
@@ -13,8 +13,8 @@ enum eResponse
 
 class cGcRewardFrigateDamageResponse
 {
-    static const unsigned __int64 muNameHash = 18057798845171840576;
-    static const unsigned __int64 muTemplateHash = 803527616748788667;
+    static const unsigned __int64 muNameHash = 0xFA9A306017ED3640;
+    static const unsigned __int64 muTemplateHash = 0xB26B41C33871BBB;
     static const int miNumMembers = 1;
 
     eResponse meResponse;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 enum eEqualityEnum
 {
     EEqualityEnum_Equal = 0,
@@ -12,8 +12,8 @@ enum eEqualityEnum
 
 class cTkEqualityEnum
 {
-    static const unsigned __int64 muNameHash = 1081498647477511074;
-    static const unsigned __int64 muTemplateHash = 17554936686440284289;
+    static const unsigned __int64 muNameHash = 0xF02414A33F663A2;
+    static const unsigned __int64 muTemplateHash = 0xF39FA9E801BF0081;
     static const int miNumMembers = 1;
 
     eEqualityEnum meEqualityEnum;

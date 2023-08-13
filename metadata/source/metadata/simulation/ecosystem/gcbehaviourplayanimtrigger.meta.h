@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBehaviourPlayAnimTrigger
 {
-    static const unsigned __int64 muNameHash = 3809647147463950670;
-    static const unsigned __int64 muTemplateHash = 18039599788683461799;
+    static const unsigned __int64 muNameHash = 0x34DE95E5702B414E;
+    static const unsigned __int64 muTemplateHash = 0xFA59886E0EB084A7;
     static const int miNumMembers = 2;
 
     int miFrame;

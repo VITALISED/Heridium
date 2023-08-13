@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcGeneratedShipCounts
 {
-    static const unsigned __int64 muNameHash = 5093280533450434520;
-    static const unsigned __int64 muTemplateHash = 12548040914517878668;
+    static const unsigned __int64 muNameHash = 0x46AEF7A8E9B9A7D8;
+    static const unsigned __int64 muTemplateHash = 0xAE2398BAB8E7E78C;
     static const int miNumMembers = 1;
 
     cTkFixedArray<int> maCounts;

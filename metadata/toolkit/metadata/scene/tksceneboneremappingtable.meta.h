@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkSceneBoneRemappingTable
 {
-    static const unsigned __int64 muNameHash = 12621392566078543632;
-    static const unsigned __int64 muTemplateHash = 17635966382261497602;
+    static const unsigned __int64 muNameHash = 0xAF2831AAF7DE1710;
+    static const unsigned __int64 muTemplateHash = 0xF4BF89FC3D6D6F02;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cTkSceneBoneRemapping> maBoneMappings;

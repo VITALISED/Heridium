@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcAudioWwiseEvents;
 class cGcAudioWwiseEvents;
 
 class cGcAudioAreaTriggerComponentData
 {
-    static const unsigned __int64 muNameHash = 15087495686667986572;
-    static const unsigned __int64 muTemplateHash = 4807885452826431908;
+    static const unsigned __int64 muNameHash = 0xD1618D63DA15668C;
+    static const unsigned __int64 muTemplateHash = 0x42B90A58987CD1A4;
     static const int miNumMembers = 4;
 
     cGcAudioWwiseEvents mEventEnter;

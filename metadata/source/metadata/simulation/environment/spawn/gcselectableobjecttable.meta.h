@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcSelectableObjectTable
 {
-    static const unsigned __int64 muNameHash = 14851046279920194104;
-    static const unsigned __int64 muTemplateHash = 5972724118742307123;
+    static const unsigned __int64 muNameHash = 0xCE1983E849879238;
+    static const unsigned __int64 muTemplateHash = 0x52E360F0EF0B1133;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcSelectableObjectList> maLists;

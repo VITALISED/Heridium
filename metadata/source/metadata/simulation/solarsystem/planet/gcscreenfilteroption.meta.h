@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcScreenFilters;
 
 class cGcScreenFilterOption
 {
-    static const unsigned __int64 muNameHash = 7975997399424810929;
-    static const unsigned __int64 muTemplateHash = 8374221693508892537;
+    static const unsigned __int64 muNameHash = 0x6EB06F604A27BFB1;
+    static const unsigned __int64 muTemplateHash = 0x74373642FFF7B779;
     static const int miNumMembers = 2;
 
     cGcScreenFilters mFilter;

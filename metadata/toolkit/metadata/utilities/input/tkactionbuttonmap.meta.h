@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkInputEnum;
 
 class cTkActionButtonMap
 {
-    static const unsigned __int64 muNameHash = 13953200857578767478;
-    static const unsigned __int64 muTemplateHash = 5469794969966666685;
+    static const unsigned __int64 muNameHash = 0xC1A3BA40B3A88476;
+    static const unsigned __int64 muTemplateHash = 0x4BE89D8B8314E3BD;
     static const int miNumMembers = 4;
 
     TkID<128> mActionId;

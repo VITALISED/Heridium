@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionIsPartyPlanetUnlocked
 {
-    static const unsigned __int64 muNameHash = 15027080614336246505;
-    static const unsigned __int64 muTemplateHash = 5005710545749743762;
+    static const unsigned __int64 muNameHash = 0xD08AEA33ACABB2E9;
+    static const unsigned __int64 muTemplateHash = 0x4577DB384FD71892;
     static const int miNumMembers = 3;
 
     int miSpecificRendevousPlanetIndex;

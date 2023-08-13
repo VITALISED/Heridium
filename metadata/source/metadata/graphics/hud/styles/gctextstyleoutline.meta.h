@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcTextStyleOutline
 {
-    static const unsigned __int64 muNameHash = 9029562626586654894;
-    static const unsigned __int64 muTemplateHash = 165187941678332829;
+    static const unsigned __int64 muNameHash = 0x7D4F735E42D738AE;
+    static const unsigned __int64 muTemplateHash = 0x24ADD8EC8EA3B9D;
     static const int miNumMembers = 2;
 
     cTkColour mOutlineColour;

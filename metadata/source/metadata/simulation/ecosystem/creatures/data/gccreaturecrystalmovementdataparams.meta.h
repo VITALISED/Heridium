@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcAudioWwiseEvents;
 class cTkCurveType;
 class cGcAudioWwiseEvents;
@@ -22,8 +22,8 @@ enum eSubType
 
 class cGcCreatureCrystalMovementDataParams
 {
-    static const unsigned __int64 muNameHash = 1311299654912964956;
-    static const unsigned __int64 muTemplateHash = 10488843912212144913;
+    static const unsigned __int64 muNameHash = 0x1232AC16AD2DF95C;
+    static const unsigned __int64 muTemplateHash = 0x918FDBF743EC6311;
     static const int miNumMembers = 54;
 
     cTkDynamicArray<cGcBiomeSubType> maValidBiomes;

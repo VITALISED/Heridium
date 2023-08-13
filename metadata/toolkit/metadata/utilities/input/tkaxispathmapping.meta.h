@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkInputAxisEnum;
 class cTkInputHandEnum;
 
 class cTkAxisPathMapping
 {
-    static const unsigned __int64 muNameHash = 1856796402977614168;
-    static const unsigned __int64 muTemplateHash = 6942439483112295249;
+    static const unsigned __int64 muNameHash = 0x19C4AA7DA3B42958;
+    static const unsigned __int64 muTemplateHash = 0x60587FED618E0B51;
     static const int miNumMembers = 7;
 
     cTkInputAxisEnum mId;

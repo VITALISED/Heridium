@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eAbandonedFreighterMissionState
 {
     EAbandonedFreighterMissionState_EndRoomComplete = 0,
@@ -13,8 +13,8 @@ enum eAbandonedFreighterMissionState
 
 class cGcRewardSetAbandonedFreighterMissionState
 {
-    static const unsigned __int64 muNameHash = 16045177159931638745;
-    static const unsigned __int64 muTemplateHash = 3194930697392154279;
+    static const unsigned __int64 muNameHash = 0xDEABEB9DAFEFB3D9;
+    static const unsigned __int64 muTemplateHash = 0x2C56AC8AB40CE6A7;
     static const int miNumMembers = 2;
 
     eAbandonedFreighterMissionState meAbandonedFreighterMissionState;

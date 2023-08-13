@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMiningComponentData
 {
-    static const unsigned __int64 muNameHash = 8122425291791183383;
-    static const unsigned __int64 muTemplateHash = 17817939293998683982;
+    static const unsigned __int64 muNameHash = 0x70B8A6C4B7DCAE17;
+    static const unsigned __int64 muTemplateHash = 0xF74609626844174E;
     static const int miNumMembers = 2;
 
     float mfRange;

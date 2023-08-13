@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkControllerButtonLookup
 {
-    static const unsigned __int64 muNameHash = 2289147707151416606;
-    static const unsigned __int64 muTemplateHash = 7215336489310157040;
+    static const unsigned __int64 muNameHash = 0x1FC4AFB61328FD1E;
+    static const unsigned __int64 muTemplateHash = 0x6422064EFC3EF8F0;
     static const int miNumMembers = 2;
 
     TkID<128> mId;

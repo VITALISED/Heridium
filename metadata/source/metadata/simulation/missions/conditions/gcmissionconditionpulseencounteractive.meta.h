@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eTestEncounterType
 {
     ETestEncounterType_AnyEncounter = 0,
@@ -13,8 +13,8 @@ enum eTestEncounterType
 
 class cGcMissionConditionPulseEncounterActive
 {
-    static const unsigned __int64 muNameHash = 387880913528197952;
-    static const unsigned __int64 muTemplateHash = 12347432106790904659;
+    static const unsigned __int64 muNameHash = 0x56207A2C2009340;
+    static const unsigned __int64 muTemplateHash = 0xAB5AE414E5866353;
     static const int miNumMembers = 3;
 
     eTestEncounterType meTestEncounterType;

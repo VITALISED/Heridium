@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcLodAction
 {
-    static const unsigned __int64 muNameHash = 990571528033564231;
-    static const unsigned __int64 muTemplateHash = 12579833573656845990;
+    static const unsigned __int64 muNameHash = 0xDBF378E750E7647;
+    static const unsigned __int64 muTemplateHash = 0xAE948BFC03595EA6;
     static const int miNumMembers = 1;
 
     int miLodOverride;

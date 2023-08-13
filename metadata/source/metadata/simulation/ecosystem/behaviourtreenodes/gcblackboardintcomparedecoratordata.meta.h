@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkBlackboardDefaultValueInteger;
 class cTkBlackboardComparisonTypeEnum;
 
 class cGcBlackboardIntCompareDecoratorData
 {
-    static const unsigned __int64 muNameHash = 16772353275418282501;
-    static const unsigned __int64 muTemplateHash = 12833957191134476012;
+    static const unsigned __int64 muNameHash = 0xE8C35E70B4AA8A05;
+    static const unsigned __int64 muTemplateHash = 0xB21B60117023F6EC;
     static const int miNumMembers = 5;
 
     TkID<128> mKey;

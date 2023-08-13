@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcInteractionDof
 {
-    static const unsigned __int64 muNameHash = 16488950568022059019;
-    static const unsigned __int64 muTemplateHash = 16141861907037386185;
+    static const unsigned __int64 muNameHash = 0xE4D4852DEDEE280B;
+    static const unsigned __int64 muTemplateHash = 0xE00369E1965F75C9;
     static const int miNumMembers = 6;
 
     bool mbIsEnabled;

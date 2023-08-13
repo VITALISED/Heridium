@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eCurrencyCostDifficulty
 {
     ECurrencyCostDifficulty_Free = 0,
@@ -11,8 +11,8 @@ enum eCurrencyCostDifficulty
 
 class cGcCurrencyCostDifficultyOption
 {
-    static const unsigned __int64 muNameHash = 8687042967779961358;
-    static const unsigned __int64 muTemplateHash = 13412755135941570617;
+    static const unsigned __int64 muNameHash = 0x788E938DA3146A0E;
+    static const unsigned __int64 muTemplateHash = 0xBA23ADBB7917F039;
     static const int miNumMembers = 1;
 
     eCurrencyCostDifficulty meCurrencyCostDifficulty;

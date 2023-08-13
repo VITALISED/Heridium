@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcAlienRace;
 class cGcPetData;
 class cGcPetCustomisationData;
 
 class cGcNPCDebugSpawnData
 {
-    static const unsigned __int64 muNameHash = 2108383998466395805;
-    static const unsigned __int64 muTemplateHash = 5263526595366811593;
+    static const unsigned __int64 muNameHash = 0x1D427C136EB50E9D;
+    static const unsigned __int64 muTemplateHash = 0x490BCD8D16A8F7C9;
     static const int miNumMembers = 16;
 
     cTkVector mPosition;

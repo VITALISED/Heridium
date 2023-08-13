@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcInventoryClass;
 
 class cGcMissionConditionHasMultiTool
 {
-    static const unsigned __int64 muNameHash = 17752394781866089287;
-    static const unsigned __int64 muTemplateHash = 14680231463280298184;
+    static const unsigned __int64 muNameHash = 0xF65D2CFF75A05B47;
+    static const unsigned __int64 muTemplateHash = 0xCBBAA8BC9555C8C8;
     static const int miNumMembers = 4;
 
     cGcInventoryClass mInventoryClass;

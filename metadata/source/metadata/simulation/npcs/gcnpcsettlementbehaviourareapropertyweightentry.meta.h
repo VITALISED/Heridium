@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcNPCSettlementBehaviourAreaProperty;
 
 class cGcNPCSettlementBehaviourAreaPropertyWeightEntry
 {
-    static const unsigned __int64 muNameHash = 667529503894931956;
-    static const unsigned __int64 muTemplateHash = 3138137885905721865;
+    static const unsigned __int64 muNameHash = 0x9438A8C0CC009F4;
+    static const unsigned __int64 muTemplateHash = 0x2B8CE7C7D99B1A09;
     static const int miNumMembers = 3;
 
     cGcNPCSettlementBehaviourAreaProperty mAreaProperty;

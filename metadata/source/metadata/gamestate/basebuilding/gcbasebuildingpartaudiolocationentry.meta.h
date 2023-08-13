@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBasePartAudioLocation;
 
 class cGcBaseBuildingPartAudioLocationEntry
 {
-    static const unsigned __int64 muNameHash = 15553976624238431214;
-    static const unsigned __int64 muTemplateHash = 17697974490117083221;
+    static const unsigned __int64 muNameHash = 0xD7DAD354CC760BEE;
+    static const unsigned __int64 muTemplateHash = 0xF59BD607E75A9055;
     static const int miNumMembers = 2;
 
     TkID<128> mPartId;

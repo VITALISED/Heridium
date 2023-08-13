@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPlayerSquadronConfig
 {
-    static const unsigned __int64 muNameHash = 953652387754814280;
-    static const unsigned __int64 muTemplateHash = 14520306013744361460;
+    static const unsigned __int64 muNameHash = 0xD3C0DCB43542B48;
+    static const unsigned __int64 muTemplateHash = 0xC9827D633B336FF4;
     static const int miNumMembers = 91;
 
     cTkFixedString<32,char> macSquadName;

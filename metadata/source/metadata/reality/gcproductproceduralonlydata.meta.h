@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcNameGeneratorWord;
 class cTkTextureResource;
 class cTkTextureResource;
 
 class cGcProductProceduralOnlyData
 {
-    static const unsigned __int64 muNameHash = 16918372255069296714;
-    static const unsigned __int64 muTemplateHash = 10469539170127663234;
+    static const unsigned __int64 muNameHash = 0xEACA21EDB93AD84A;
+    static const unsigned __int64 muTemplateHash = 0x914B4667BD7F5082;
     static const int miNumMembers = 8;
 
     int miDropWeight;

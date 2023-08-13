@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcTerrainTextureSettings
 {
-    static const unsigned __int64 muNameHash = 4205548568404466431;
-    static const unsigned __int64 muTemplateHash = 3987062759854354175;
+    static const unsigned __int64 muNameHash = 0x3A5D1C2419669AFF;
+    static const unsigned __int64 muTemplateHash = 0x3754E474AA4EAEFF;
     static const int miNumMembers = 3;
 
     float mfBrightness;

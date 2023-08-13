@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcExpeditionCategoryStrength
 {
-    static const unsigned __int64 muNameHash = 11991572202627257404;
-    static const unsigned __int64 muTemplateHash = 17908481274167070178;
+    static const unsigned __int64 muNameHash = 0xA66A9F625C0BD43C;
+    static const unsigned __int64 muTemplateHash = 0xF887B4D5ED768DE2;
     static const int miNumMembers = 1;
 
     cTkFixedArray<int> maOccurranceChance;

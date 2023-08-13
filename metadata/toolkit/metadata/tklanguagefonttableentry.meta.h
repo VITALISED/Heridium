@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 class cTkLanguages;
 
 class cTkLanguageFontTableEntry
 {
-    static const unsigned __int64 muNameHash = 6710697445977777572;
-    static const unsigned __int64 muTemplateHash = 2069806801137827191;
+    static const unsigned __int64 muNameHash = 0x5D212FC5B6A065A4;
+    static const unsigned __int64 muTemplateHash = 0x1CB96E51BF81FD77;
     static const int miNumMembers = 5;
 
     cTkLanguages mLanguage;

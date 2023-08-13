@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPlayerCharacterIKOverrideData;
 
 class cGcPlayerCharacterAnimationOverrideData
 {
-    static const unsigned __int64 muNameHash = 8706610423425516310;
-    static const unsigned __int64 muTemplateHash = 16278531327166135853;
+    static const unsigned __int64 muNameHash = 0x78D4180CEDFDC316;
+    static const unsigned __int64 muTemplateHash = 0xE1E8F5FEA4CE3E2D;
     static const int miNumMembers = 2;
 
     TkID<128> mAnimName;

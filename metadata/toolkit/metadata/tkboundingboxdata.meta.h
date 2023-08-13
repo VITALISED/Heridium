@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 class cTkBoundingBoxData
 {
-    static const unsigned __int64 muNameHash = 5099060661112854416;
-    static const unsigned __int64 muTemplateHash = 6657245993882912134;
+    static const unsigned __int64 muNameHash = 0x46C380A7C1CCD790;
+    static const unsigned __int64 muTemplateHash = 0x5C6349F5B7C88586;
     static const int miNumMembers = 2;
 
     cTkVector mMin;

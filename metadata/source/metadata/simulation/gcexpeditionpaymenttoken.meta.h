@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcExpeditionPaymentToken
 {
-    static const unsigned __int64 muNameHash = 17600458086243456470;
-    static const unsigned __int64 muTemplateHash = 2733503779432200490;
+    static const unsigned __int64 muNameHash = 0xF4416360D2B155D6;
+    static const unsigned __int64 muTemplateHash = 0x25EF5B34653E792A;
     static const int miNumMembers = 2;
 
     TkID<128> mTokenName;

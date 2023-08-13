@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eInteractionBufferType
 {
     EInteractionBufferType_Distress_Signal = 0,
@@ -18,8 +18,8 @@ enum eInteractionBufferType
 
 class cGcInteractionBufferType
 {
-    static const unsigned __int64 muNameHash = 387474641918677355;
-    static const unsigned __int64 muTemplateHash = 12047816756348035782;
+    static const unsigned __int64 muNameHash = 0x56096224708D16B;
+    static const unsigned __int64 muTemplateHash = 0xA7327182011FA2C6;
     static const int miNumMembers = 1;
 
     eInteractionBufferType meInteractionBufferType;

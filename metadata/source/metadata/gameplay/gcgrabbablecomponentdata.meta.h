@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcGrabbableComponentData
 {
-    static const unsigned __int64 muNameHash = 9378867747606364624;
-    static const unsigned __int64 muTemplateHash = 16949036797631926145;
+    static const unsigned __int64 muNameHash = 0x82286E866B7201D0;
+    static const unsigned __int64 muTemplateHash = 0xEB37132AE7E00F81;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcGrabbableData> maGrabbableDataArray;

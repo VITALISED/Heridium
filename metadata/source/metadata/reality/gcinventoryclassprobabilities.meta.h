@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInventoryClassProbabilities
 {
-    static const unsigned __int64 muNameHash = 9329550893422301399;
-    static const unsigned __int64 muTemplateHash = 14338968891182216941;
+    static const unsigned __int64 muNameHash = 0x8179391B845D50D7;
+    static const unsigned __int64 muTemplateHash = 0xC6FE403C444AF6ED;
     static const int miNumMembers = 1;
 
     cTkFixedArray<float> maClassProbabilities;

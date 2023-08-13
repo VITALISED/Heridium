@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkPaletteTexture;
 class cTkPaletteTexture;
 
 class cGcHeavyAirSettingValues
 {
-    static const unsigned __int64 muNameHash = 17671684132621161015;
-    static const unsigned __int64 muTemplateHash = 6529939264341409418;
+    static const unsigned __int64 muNameHash = 0xF53E6F170BCA9237;
+    static const unsigned __int64 muTemplateHash = 0x5A9F0129EFF1FE8A;
     static const int miNumMembers = 6;
 
     float mfThickness;

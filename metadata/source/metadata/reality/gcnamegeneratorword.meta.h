@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcNameGeneratorWord
 {
-    static const unsigned __int64 muNameHash = 9317417317434964855;
-    static const unsigned __int64 muTemplateHash = 637132327882967047;
+    static const unsigned __int64 muNameHash = 0x814E1DAF35C8BB77;
+    static const unsigned __int64 muTemplateHash = 0x8D78C79FE61C807;
     static const int miNumMembers = 2;
 
     TkID<256> mWord;

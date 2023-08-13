@@ -10,3 +10,4 @@
 #include <filesystem>
 #include <algorithm>
 #include "dumper.h"
+#include "methoddumper.h"

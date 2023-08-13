@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcCreatureNearbyEvent
 {
-    static const unsigned __int64 muNameHash = 4793693099468162241;
-    static const unsigned __int64 muTemplateHash = 1516093528363299890;
+    static const unsigned __int64 muNameHash = 0x42869E79D40A84C1;
+    static const unsigned __int64 muTemplateHash = 0x150A3F080C5CF432;
     static const int miNumMembers = 2;
 
     cTkDynamicArray<cGcCreatureAlertData> maAlertTable;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 class cTkProceduralTextureChosenOptionSampler
 {
-    static const unsigned __int64 muNameHash = 10708928653491895306;
-    static const unsigned __int64 muTemplateHash = 478856727682512918;
+    static const unsigned __int64 muNameHash = 0x949DC1DF3C62FC0A;
+    static const unsigned __int64 muTemplateHash = 0x6A53DA81FD27816;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cTkProceduralTextureChosenOption> maOptions;

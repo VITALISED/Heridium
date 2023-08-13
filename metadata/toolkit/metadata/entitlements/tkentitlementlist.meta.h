@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkEntitlementList
 {
-    static const unsigned __int64 muNameHash = 7912878036216298482;
-    static const unsigned __int64 muTemplateHash = 4859298372523254348;
+    static const unsigned __int64 muNameHash = 0x6DD030A653A9BBF2;
+    static const unsigned __int64 muTemplateHash = 0x436FB21FC7E1E24C;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cTkEntitlementListData> maEntitlements;

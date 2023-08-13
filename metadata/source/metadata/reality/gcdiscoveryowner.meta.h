@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDiscoveryOwner
 {
-    static const unsigned __int64 muNameHash = 6464758756440711029;
-    static const unsigned __int64 muTemplateHash = 4887859248852419730;
+    static const unsigned __int64 muNameHash = 0x59B76FD6543E9F75;
+    static const unsigned __int64 muTemplateHash = 0x43D52A16FFF4C492;
     static const int miNumMembers = 5;
 
     cTkFixedString<64,char> macLocalID;

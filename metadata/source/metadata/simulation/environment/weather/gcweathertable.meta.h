@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcWeatherTable
 {
-    static const unsigned __int64 muNameHash = 4923129330057118166;
-    static const unsigned __int64 muTemplateHash = 16729679644885834753;
+    static const unsigned __int64 muNameHash = 0x4452780AB55C81D6;
+    static const unsigned __int64 muTemplateHash = 0xE82BC2FFD780DC01;
     static const int miNumMembers = 4;
 
     cTkFixedArray<cTkFixedString<128,char> > maTable;

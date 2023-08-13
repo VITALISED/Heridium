@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPlayerStickData
 {
-    static const unsigned __int64 muNameHash = 3708109848875234227;
-    static const unsigned __int64 muTemplateHash = 11709143736516493843;
+    static const unsigned __int64 muNameHash = 0x3375DA42DA55F3B3;
+    static const unsigned __int64 muTemplateHash = 0xA27F3C30CF0E4213;
     static const int miNumMembers = 7;
 
     float mfAcceleratorStickPoint;

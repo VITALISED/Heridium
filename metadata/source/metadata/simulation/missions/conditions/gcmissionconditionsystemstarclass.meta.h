@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcGalaxyStarTypes;
 
 class cGcMissionConditionSystemStarClass
 {
-    static const unsigned __int64 muNameHash = 8103041770897829145;
-    static const unsigned __int64 muTemplateHash = 16379398230772837515;
+    static const unsigned __int64 muNameHash = 0x7073C98F12846D19;
+    static const unsigned __int64 muTemplateHash = 0xE34F4FE8BBE06C8B;
     static const int miNumMembers = 1;
 
     cGcGalaxyStarTypes mClass;

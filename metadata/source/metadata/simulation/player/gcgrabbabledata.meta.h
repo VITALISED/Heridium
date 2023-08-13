@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcHand;
 
 enum eGrabType
@@ -13,8 +13,8 @@ enum eGrabType
 
 class cGcGrabbableData
 {
-    static const unsigned __int64 muNameHash = 17259380718134906211;
-    static const unsigned __int64 muTemplateHash = 14207312424927167672;
+    static const unsigned __int64 muNameHash = 0xEF85A351ABA84D63;
+    static const unsigned __int64 muTemplateHash = 0xC52A83607CC704B8;
     static const int miNumMembers = 17;
 
     cTkFixedString<32,char> macLocatorName;

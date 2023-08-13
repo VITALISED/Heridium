@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcInputActionMapping
 {
-    static const unsigned __int64 muNameHash = 9509468697664343020;
-    static const unsigned __int64 muTemplateHash = 13245676684551394744;
+    static const unsigned __int64 muNameHash = 0x83F86B65AEFACBEC;
+    static const unsigned __int64 muTemplateHash = 0xB7D218C4185C15B8;
     static const int miNumMembers = 2;
 
     int miRemappedKey;

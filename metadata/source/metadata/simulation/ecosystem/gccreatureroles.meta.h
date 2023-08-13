@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eCreatureRole
 {
     ECreatureRole_None = 0,
@@ -18,8 +18,8 @@ enum eCreatureRole
 
 class cGcCreatureRoles
 {
-    static const unsigned __int64 muNameHash = 12153877071180982284;
-    static const unsigned __int64 muTemplateHash = 1056679127024179640;
+    static const unsigned __int64 muNameHash = 0xA8AB3ECD5F81E80C;
+    static const unsigned __int64 muTemplateHash = 0xEAA141147D899B8;
     static const int miNumMembers = 1;
 
     eCreatureRole meCreatureRole;

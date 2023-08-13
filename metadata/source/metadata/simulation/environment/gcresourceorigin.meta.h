@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eResourceOrigin
 {
     EResourceOrigin_Terrain = 0,
@@ -12,8 +12,8 @@ enum eResourceOrigin
 
 class cGcResourceOrigin
 {
-    static const unsigned __int64 muNameHash = 12090364913148372219;
-    static const unsigned __int64 muTemplateHash = 12227855538256014234;
+    static const unsigned __int64 muNameHash = 0xA7C99AD4BD0E24FB;
+    static const unsigned __int64 muTemplateHash = 0xA9B211D37A8AEB9A;
     static const int miNumMembers = 1;
 
     eResourceOrigin meResourceOrigin;

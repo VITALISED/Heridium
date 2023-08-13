@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eTeleportRewardType
 {
     ETeleportRewardType_None = 0,
@@ -14,8 +14,8 @@ enum eTeleportRewardType
 
 class cGcRewardTeleport
 {
-    static const unsigned __int64 muNameHash = 657607317819290839;
-    static const unsigned __int64 muTemplateHash = 11469441581894608316;
+    static const unsigned __int64 muNameHash = 0x9204A5F1450F4D7;
+    static const unsigned __int64 muTemplateHash = 0x9F2BA459DCEC25BC;
     static const int miNumMembers = 1;
 
     eTeleportRewardType meTeleportRewardType;

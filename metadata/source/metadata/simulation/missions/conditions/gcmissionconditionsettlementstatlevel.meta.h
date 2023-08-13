@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcSettlementStatType;
 class cTkEqualityEnum;
 
 class cGcMissionConditionSettlementStatLevel
 {
-    static const unsigned __int64 muNameHash = 134394865527154966;
-    static const unsigned __int64 muTemplateHash = 14637446315940918700;
+    static const unsigned __int64 muNameHash = 0x1DD776B0B61E916;
+    static const unsigned __int64 muTemplateHash = 0xCB22A7DF308235AC;
     static const int miNumMembers = 3;
 
     float mfNormalisedLevel;

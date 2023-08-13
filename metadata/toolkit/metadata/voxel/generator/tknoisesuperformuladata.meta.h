@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkNoiseSuperFormulaData
 {
-    static const unsigned __int64 muNameHash = 12012927691680627678;
-    static const unsigned __int64 muTemplateHash = 13596837114264747061;
+    static const unsigned __int64 muNameHash = 0xA6B67E169F13BBDE;
+    static const unsigned __int64 muTemplateHash = 0xBCB1AB50F898FC35;
     static const int miNumMembers = 4;
 
     float mfForm_m;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkHeavyAirSystem
 {
-    static const unsigned __int64 muNameHash = 10764935987478182817;
-    static const unsigned __int64 muTemplateHash = 3146715578001372784;
+    static const unsigned __int64 muNameHash = 0x9564BC3EDB74BBA1;
+    static const unsigned __int64 muTemplateHash = 0x2BAB61256BF5B670;
     static const int miNumMembers = 12;
 
     cTkFixedString<128,char> macMaterial;

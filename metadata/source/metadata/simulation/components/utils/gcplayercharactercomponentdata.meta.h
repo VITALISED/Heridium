@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPlayerCharacterComponentData
 {
-    static const unsigned __int64 muNameHash = 16772445302733078896;
-    static const unsigned __int64 muTemplateHash = 6938180755212252420;
+    static const unsigned __int64 muNameHash = 0xE8C3B2237C130170;
+    static const unsigned __int64 muTemplateHash = 0x60495EA305E0B504;
     static const int miNumMembers = 3;
 
     cTkDynamicArray<cGcCharacterJetpackEffect> maJetpackEffects;

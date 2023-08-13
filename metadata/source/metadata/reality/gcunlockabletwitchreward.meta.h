@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcUnlockableTwitchReward
 {
-    static const unsigned __int64 muNameHash = 16855902764542202316;
-    static const unsigned __int64 muTemplateHash = 16651230115711480799;
+    static const unsigned __int64 muNameHash = 0xE9EC3242091011CC;
+    static const unsigned __int64 muTemplateHash = 0xE7150D917844F3DF;
     static const int miNumMembers = 3;
 
     TkID<128> mTwitchId;

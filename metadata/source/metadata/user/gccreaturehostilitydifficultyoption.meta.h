@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eCreatureHostilityDifficulty
 {
     ECreatureHostilityDifficulty_NeverAttack = 0,
@@ -10,8 +10,8 @@ enum eCreatureHostilityDifficulty
 
 class cGcCreatureHostilityDifficultyOption
 {
-    static const unsigned __int64 muNameHash = 3131129851241745495;
-    static const unsigned __int64 muTemplateHash = 15591798356211560444;
+    static const unsigned __int64 muNameHash = 0x2B740202A0E2CC57;
+    static const unsigned __int64 muTemplateHash = 0xD86131FEFF826FFC;
     static const int miNumMembers = 1;
 
     eCreatureHostilityDifficulty meCreatureHostilityDifficulty;

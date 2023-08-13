@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcSolarSystemEventWarpOut
 {
-    static const unsigned __int64 muNameHash = 13985828240173836698;
-    static const unsigned __int64 muTemplateHash = 18107324635876210798;
+    static const unsigned __int64 muNameHash = 0xC217A4AF3130299A;
+    static const unsigned __int64 muTemplateHash = 0xFB4A23D1D214B86E;
     static const int miNumMembers = 3;
 
     float mfTime;

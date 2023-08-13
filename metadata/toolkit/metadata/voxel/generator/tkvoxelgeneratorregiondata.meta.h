@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkVoxelGeneratorRegionData
 {
-    static const unsigned __int64 muNameHash = 11667719359795966848;
-    static const unsigned __int64 muTemplateHash = 1745293317650405496;
+    static const unsigned __int64 muNameHash = 0xA1EC10F083963380;
+    static const unsigned __int64 muTemplateHash = 0x18388706836A5878;
     static const int miNumMembers = 11;
 
     float mfPlanetRadius;

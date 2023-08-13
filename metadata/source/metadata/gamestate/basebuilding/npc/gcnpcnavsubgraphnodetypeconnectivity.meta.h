@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcNPCNavSubgraphNodeTypeConnectivity
 {
-    static const unsigned __int64 muNameHash = 1038412766868076800;
-    static const unsigned __int64 muTemplateHash = 5751309791016466325;
+    static const unsigned __int64 muNameHash = 0xE692EE8E366F900;
+    static const unsigned __int64 muTemplateHash = 0x4FD0C1C87EC33795;
     static const int miNumMembers = 4;
 
     float mfInternalConnection;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkAnimDetailSettingsTable
 {
-    static const unsigned __int64 muNameHash = 13908012574643771909;
-    static const unsigned __int64 muTemplateHash = 8652246952778013697;
+    static const unsigned __int64 muNameHash = 0xC1032FBFB34EDA05;
+    static const unsigned __int64 muTemplateHash = 0x7812F4C3114A1C01;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cTkAnimDetailSettings> maTable;

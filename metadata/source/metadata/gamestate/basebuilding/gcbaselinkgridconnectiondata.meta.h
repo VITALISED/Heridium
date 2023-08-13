@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcLinkNetworkTypes;
 
 class cGcBaseLinkGridConnectionData
 {
-    static const unsigned __int64 muNameHash = 15569854787481822823;
-    static const unsigned __int64 muTemplateHash = 13002831710222773607;
+    static const unsigned __int64 muNameHash = 0xD8133C6FC444E667;
+    static const unsigned __int64 muTemplateHash = 0xB473568C6A036D67;
     static const int miNumMembers = 7;
 
     cGcLinkNetworkTypes mNetwork;

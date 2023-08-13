@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPlanetDataResourceHint
 {
-    static const unsigned __int64 muNameHash = 3556481776163492648;
-    static const unsigned __int64 muTemplateHash = 10377136347247281891;
+    static const unsigned __int64 muNameHash = 0x315B295516601328;
+    static const unsigned __int64 muTemplateHash = 0x9002FE87037806E3;
     static const int miNumMembers = 2;
 
     TkID<128> mHint;

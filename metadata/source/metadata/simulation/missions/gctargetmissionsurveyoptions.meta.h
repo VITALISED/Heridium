@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcTargetMissionSurveyOptions
 {
-    static const unsigned __int64 muNameHash = 5654969630887326827;
-    static const unsigned __int64 muTemplateHash = 14243155809050394094;
+    static const unsigned __int64 muNameHash = 0x4E7A7CEB00A9346B;
+    static const unsigned __int64 muTemplateHash = 0xC5A9DABEAEFD7DEE;
     static const int miNumMembers = 6;
 
     TkID<128> mTargetMissionSurveyId;

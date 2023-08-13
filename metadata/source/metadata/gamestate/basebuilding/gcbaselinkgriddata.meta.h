@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBaseLinkGridConnectionData;
 
 enum eDependsOnEnvironment
@@ -20,8 +20,8 @@ enum eDependsOnHotspots
 
 class cGcBaseLinkGridData
 {
-    static const unsigned __int64 muNameHash = 4592358569468657566;
-    static const unsigned __int64 muTemplateHash = 16786724587578507495;
+    static const unsigned __int64 muNameHash = 0x3FBB55C99E667F9E;
+    static const unsigned __int64 muTemplateHash = 0xE8F66D1290EEC0E7;
     static const int miNumMembers = 6;
 
     cGcBaseLinkGridConnectionData mConnection;

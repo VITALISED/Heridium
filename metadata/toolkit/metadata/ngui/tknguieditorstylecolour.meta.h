@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkNGuiEditorStyleColour
 {
-    static const unsigned __int64 muNameHash = 7429147687116512264;
-    static const unsigned __int64 muTemplateHash = 11024137744079045819;
+    static const unsigned __int64 muNameHash = 0x6719A275CA7E9C08;
+    static const unsigned __int64 muTemplateHash = 0x98FD9ADEAECEC4BB;
     static const int miNumMembers = 2;
 
     cTkFixedString<128,char> macName;

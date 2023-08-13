@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcWeatherColourSettingList;
 
 class cGcWeatherColourSettings
 {
-    static const unsigned __int64 muNameHash = 1543608477440682234;
-    static const unsigned __int64 muTemplateHash = 5301139688074943814;
+    static const unsigned __int64 muNameHash = 0x156BFFBB5A2228FA;
+    static const unsigned __int64 muTemplateHash = 0x49916E75AC6E9D46;
     static const int miNumMembers = 2;
 
     cGcWeatherColourSettingList mGenericSettings;

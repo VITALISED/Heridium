@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcNPCPlacementComponentData
 {
-    static const unsigned __int64 muNameHash = 9243565998420481224;
-    static const unsigned __int64 muTemplateHash = 1328219552593246697;
+    static const unsigned __int64 muNameHash = 0x8047BE4D11BB54C8;
+    static const unsigned __int64 muTemplateHash = 0x126EC8A5580C79E9;
     static const int miNumMembers = 4;
 
     bool mbSearchPlacementFromMaster;

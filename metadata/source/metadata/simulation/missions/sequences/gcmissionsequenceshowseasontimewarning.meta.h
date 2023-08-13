@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionSequenceShowSeasonTimeWarning
 {
-    static const unsigned __int64 muNameHash = 2534490041642967801;
-    static const unsigned __int64 muTemplateHash = 16069546912803790397;
+    static const unsigned __int64 muNameHash = 0x232C5143BAE4E2F9;
+    static const unsigned __int64 muTemplateHash = 0xDF027FC6EF251E3D;
     static const int miNumMembers = 3;
 
     cTkFixedString<128,char> macMessage;

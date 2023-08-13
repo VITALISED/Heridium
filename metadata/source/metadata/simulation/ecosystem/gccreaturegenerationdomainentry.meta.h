@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCreatureGenerationDensity;
 
 class cGcCreatureGenerationDomainEntry
 {
-    static const unsigned __int64 muNameHash = 8782688450616841678;
-    static const unsigned __int64 muTemplateHash = 8030386714249106316;
+    static const unsigned __int64 muNameHash = 0x79E2609CF7F155CE;
+    static const unsigned __int64 muTemplateHash = 0x6F71AA2B77D5938C;
     static const int miNumMembers = 2;
 
     cGcCreatureGenerationDensity mDensityModifier;

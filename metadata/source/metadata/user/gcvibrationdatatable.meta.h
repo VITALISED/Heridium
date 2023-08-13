@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcVibrationDataTable
 {
-    static const unsigned __int64 muNameHash = 8494261473675280870;
-    static const unsigned __int64 muTemplateHash = 9187435675481471847;
+    static const unsigned __int64 muNameHash = 0x75E1ADCE47B381E6;
+    static const unsigned __int64 muTemplateHash = 0x7F805411D9D2FB67;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcVibrationChannelData> maData;

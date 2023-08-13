@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcCreatureTypes;
 class cGcCreatureTypes;
 
@@ -17,8 +17,8 @@ class cGcCreatureRoleFrequencyModifier;
 
 class cGcCreatureData
 {
-    static const unsigned __int64 muNameHash = 1382243966603474855;
-    static const unsigned __int64 muTemplateHash = 16741108971811975054;
+    static const unsigned __int64 muNameHash = 0x132EB7906E53B7A7;
+    static const unsigned __int64 muTemplateHash = 0xE8545DE962F52F8E;
     static const int miNumMembers = 17;
 
     TkID<128> mId;

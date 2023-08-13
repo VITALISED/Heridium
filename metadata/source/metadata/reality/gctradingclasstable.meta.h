@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcTradingClassTable
 {
-    static const unsigned __int64 muNameHash = 10141959571274934911;
-    static const unsigned __int64 muTemplateHash = 83704349148326023;
+    static const unsigned __int64 muNameHash = 0x8CBF7A7EE4372A7F;
+    static const unsigned __int64 muTemplateHash = 0x12960A97D242887;
     static const int miNumMembers = 4;
 
     cTkFixedArray<cGcTradingClassData> maTradingClassesData;

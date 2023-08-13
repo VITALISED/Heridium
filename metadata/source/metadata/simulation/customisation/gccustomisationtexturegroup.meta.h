@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCustomisationTextureGroup
 {
-    static const unsigned __int64 muNameHash = 13297862852277302283;
-    static const unsigned __int64 muTemplateHash = 16340699371298748397;
+    static const unsigned __int64 muNameHash = 0xB88B7FCF1DD9F40B;
+    static const unsigned __int64 muTemplateHash = 0xE2C5D3805FB5F7ED;
     static const int miNumMembers = 3;
 
     TkID<128> mGroupID;

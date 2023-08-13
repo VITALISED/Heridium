@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcWiki
 {
-    static const unsigned __int64 muNameHash = 1168424676682356973;
-    static const unsigned __int64 muTemplateHash = 16289360958462683488;
+    static const unsigned __int64 muNameHash = 0x1037140D8873D8ED;
+    static const unsigned __int64 muTemplateHash = 0xE20F6F7CAB48E960;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcWikiCategory> maCategories;

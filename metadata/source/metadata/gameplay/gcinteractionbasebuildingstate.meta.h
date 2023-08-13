@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInteractionBaseBuildingState
 {
-    static const unsigned __int64 muNameHash = 10470353415855868594;
-    static const unsigned __int64 muTemplateHash = 10810679319503988756;
+    static const unsigned __int64 muNameHash = 0x914E2AF518E30AB2;
+    static const unsigned __int64 muTemplateHash = 0x96073F904BB26814;
     static const int miNumMembers = 2;
 
     TkID<128> mTriggerAction;

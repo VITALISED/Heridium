@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcExpeditionDurationValues
 {
-    static const unsigned __int64 muNameHash = 16087593962437930358;
-    static const unsigned __int64 muTemplateHash = 13126547064247559744;
+    static const unsigned __int64 muNameHash = 0xDF429D791DD4ED76;
+    static const unsigned __int64 muTemplateHash = 0xB62ADD01EBEC2640;
     static const int miNumMembers = 1;
 
     cTkFixedArray<int> maDuration;

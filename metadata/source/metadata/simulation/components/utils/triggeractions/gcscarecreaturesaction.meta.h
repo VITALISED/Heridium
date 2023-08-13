@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcScareCreaturesAction
 {
-    static const unsigned __int64 muNameHash = 974208859781591897;
-    static const unsigned __int64 muTemplateHash = 16641560273022426587;
+    static const unsigned __int64 muNameHash = 0xD8515CBE051F359;
+    static const unsigned __int64 muTemplateHash = 0xE6F2B2E5C5C11DDB;
     static const int miNumMembers = 2;
 
     float mfHearRadius;

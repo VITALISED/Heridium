@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCustomisationThrusterEffect
 {
-    static const unsigned __int64 muNameHash = 16711853829595425388;
-    static const unsigned __int64 muTemplateHash = 3878076920613793332;
+    static const unsigned __int64 muNameHash = 0xE7EC6E83CB496A6C;
+    static const unsigned __int64 muTemplateHash = 0x35D1B26990D36E34;
     static const int miNumMembers = 6;
 
     TkID<128> mName;

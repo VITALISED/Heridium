@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkTextureResource;
 class cTkTextureResource;
 class cGcWikiTopicType;
 
 class cGcWikiCategory
 {
-    static const unsigned __int64 muNameHash = 13593712450094009051;
-    static const unsigned __int64 muTemplateHash = 18438284806513758583;
+    static const unsigned __int64 muNameHash = 0xBCA6917366A88ADB;
+    static const unsigned __int64 muTemplateHash = 0xFFE1F2575FBC1177;
     static const int miNumMembers = 9;
 
     TkID<256> mCategoryID;

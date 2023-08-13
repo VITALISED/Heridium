@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eInventoryToInstallIn
 {
     EInventoryToInstallIn_Personal = 0,
@@ -14,8 +14,8 @@ enum eInventoryToInstallIn
 
 class cGcRewardInstallTech
 {
-    static const unsigned __int64 muNameHash = 8493640903787010826;
-    static const unsigned __int64 muTemplateHash = 2447976401212773159;
+    static const unsigned __int64 muNameHash = 0x75DF796697F3DB0A;
+    static const unsigned __int64 muTemplateHash = 0x21F8F59124D39327;
     static const int miNumMembers = 4;
 
     TkID<128> mTechId;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eNGuiEditorComponentSize
 {
     ENGuiEditorComponentSize_WindowResize = 0,
@@ -55,8 +55,8 @@ enum eNGuiEditorComponentSize
 
 class cTKNGuiEditorComponentSize
 {
-    static const unsigned __int64 muNameHash = 13135092734016853934;
-    static const unsigned __int64 muTemplateHash = 1569255433734867688;
+    static const unsigned __int64 muNameHash = 0xB649393FB6E397AE;
+    static const unsigned __int64 muTemplateHash = 0x15C71D80B19E4AE8;
     static const int miNumMembers = 1;
 
     eNGuiEditorComponentSize meNGuiEditorComponentSize;

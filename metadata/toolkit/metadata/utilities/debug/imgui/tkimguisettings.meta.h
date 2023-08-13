@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkImGuiSettings
 {
-    static const unsigned __int64 muNameHash = 2375631327007152562;
-    static const unsigned __int64 muTemplateHash = 10111099868015265566;
+    static const unsigned __int64 muNameHash = 0x20F7F01AF38D19B2;
+    static const unsigned __int64 muTemplateHash = 0x8C51D7C2518C871E;
     static const int miNumMembers = 26;
 
     cTkColour mBackgroundColour;

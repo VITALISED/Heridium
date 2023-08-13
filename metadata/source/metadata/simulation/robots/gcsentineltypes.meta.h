@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eSentinelType
 {
     ESentinelType_PatrolDrone = 0,
@@ -16,8 +16,8 @@ enum eSentinelType
 
 class cGcSentinelTypes
 {
-    static const unsigned __int64 muNameHash = 5514617114822135219;
-    static const unsigned __int64 muTemplateHash = 4540007670199128951;
+    static const unsigned __int64 muNameHash = 0x4C87DB0C59434DB3;
+    static const unsigned __int64 muTemplateHash = 0x3F0158EC0BC49377;
     static const int miNumMembers = 1;
 
     eSentinelType meSentinelType;

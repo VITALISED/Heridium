@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcNPCAnimationSetData;
 class cGcNPCAnimationSetData;
 class cGcNPCAnimationSetData;
@@ -8,8 +8,8 @@ class cGcNPCAnimationSetData;
 
 class cGcNPCAnimationsData
 {
-    static const unsigned __int64 muNameHash = 6000135925194362235;
-    static const unsigned __int64 muTemplateHash = 5987160912913983515;
+    static const unsigned __int64 muNameHash = 0x5344C3D579450D7B;
+    static const unsigned __int64 muTemplateHash = 0x5316AB210357681B;
     static const int miNumMembers = 4;
 
     cGcNPCAnimationSetData mStandingAnimatons;

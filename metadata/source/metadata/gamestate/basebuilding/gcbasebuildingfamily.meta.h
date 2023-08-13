@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eFamilyType
 {
     EFamilyType_Replacements = 0,
@@ -9,8 +9,8 @@ enum eFamilyType
 
 class cGcBaseBuildingFamily
 {
-    static const unsigned __int64 muNameHash = 9246892485614728394;
-    static const unsigned __int64 muTemplateHash = 16977833715237029306;
+    static const unsigned __int64 muNameHash = 0x80538FB9394B74CA;
+    static const unsigned __int64 muTemplateHash = 0xEB9D61CFC45A85BA;
     static const int miNumMembers = 3;
 
     TkID<128> mID;

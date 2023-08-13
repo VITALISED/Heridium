@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcNPCPropType;
 class cGcNPCSeatedPosture;
 
 class cGcNPCInteractiveObjectState
 {
-    static const unsigned __int64 muNameHash = 10167150997280232115;
-    static const unsigned __int64 muTemplateHash = 15103962981596795744;
+    static const unsigned __int64 muNameHash = 0x8D18F9F6D2A592B3;
+    static const unsigned __int64 muTemplateHash = 0xD19C0E4EBABA1360;
     static const int miNumMembers = 21;
 
     TkID<128> mName;

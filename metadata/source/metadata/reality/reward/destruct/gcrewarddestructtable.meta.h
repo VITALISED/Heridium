@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcRewardDestructTable
 {
-    static const unsigned __int64 muNameHash = 6834506128701464867;
-    static const unsigned __int64 muTemplateHash = 11002200483844591740;
+    static const unsigned __int64 muNameHash = 0x5ED90B1D007B2123;
+    static const unsigned __int64 muTemplateHash = 0x98AFAB0C4330107C;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cGcRewardDestructRarities> maCategories;

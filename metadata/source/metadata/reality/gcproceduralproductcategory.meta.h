@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eProceduralProductCategory
 {
     EProceduralProductCategory_Loot = 0,
@@ -33,8 +33,8 @@ enum eProceduralProductCategory
 
 class cGcProceduralProductCategory
 {
-    static const unsigned __int64 muNameHash = 16648542513763303374;
-    static const unsigned __int64 muTemplateHash = 18056054788688759434;
+    static const unsigned __int64 muNameHash = 0xE70B813560D9BFCE;
+    static const unsigned __int64 muTemplateHash = 0xFA93FE2A4CC8CA8A;
     static const int miNumMembers = 1;
 
     eProceduralProductCategory meProceduralProductCategory;

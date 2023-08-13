@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eVsyncEx
 {
     EVsyncEx_Off = 0,
@@ -28,8 +28,8 @@ enum eHDRMode
 
 class cTkGraphicsSettings
 {
-    static const unsigned __int64 muNameHash = 638939615057611390;
-    static const unsigned __int64 muTemplateHash = 14091514562644018327;
+    static const unsigned __int64 muNameHash = 0x8DDF831D46F0A7E;
+    static const unsigned __int64 muTemplateHash = 0xC38F1DD5ADA40497;
     static const int miNumMembers = 28;
 
     int miVersion;

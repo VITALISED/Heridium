@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcNumberedTextList
 {
-    static const unsigned __int64 muNameHash = 3206031394399425250;
-    static const unsigned __int64 muTemplateHash = 12114668355170464513;
+    static const unsigned __int64 muNameHash = 0x2C7E1C9121ED92E2;
+    static const unsigned __int64 muTemplateHash = 0xA81FF2AEC999F301;
     static const int miNumMembers = 2;
 
     cTkFixedString<32,char> macFormat;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDifficultySettingLocData
 {
-    static const unsigned __int64 muNameHash = 11918653026578227166;
-    static const unsigned __int64 muTemplateHash = 8565891223977009583;
+    static const unsigned __int64 muNameHash = 0xA5678FC7AA545FDE;
+    static const unsigned __int64 muTemplateHash = 0x76E028AF25C921AF;
     static const int miNumMembers = 2;
 
     TkID<256> mTitleLocID;

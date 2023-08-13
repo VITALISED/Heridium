@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkCreatureTailParams
 {
-    static const unsigned __int64 muNameHash = 17700993626613117191;
-    static const unsigned __int64 muTemplateHash = 5673590975391733318;
+    static const unsigned __int64 muNameHash = 0xF5A68FEB65BA7107;
+    static const unsigned __int64 muTemplateHash = 0x4EBCA4EEA1161646;
     static const int miNumMembers = 15;
 
     TkID<256> mPartName;

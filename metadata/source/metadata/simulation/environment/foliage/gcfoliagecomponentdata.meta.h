@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcFoliageComponentData
 {
-    static const unsigned __int64 muNameHash = 7103456867323181606;
-    static const unsigned __int64 muTemplateHash = 627131310501483563;
+    static const unsigned __int64 muNameHash = 0x62948C62961B7A26;
+    static const unsigned __int64 muTemplateHash = 0x8B4049AADF7542B;
     static const int miNumMembers = 1;
 
     float mfRadius;

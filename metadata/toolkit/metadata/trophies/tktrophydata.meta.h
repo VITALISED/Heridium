@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkTrophyData
 {
-    static const unsigned __int64 muNameHash = 8444300625149881653;
-    static const unsigned __int64 muTemplateHash = 5380967729093941375;
+    static const unsigned __int64 muNameHash = 0x75302EADC2AAED35;
+    static const unsigned __int64 muTemplateHash = 0x4AAD09A3D87C187F;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cTkTrophyEntry> maTrophies;

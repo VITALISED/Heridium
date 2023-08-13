@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcVehicleScanTable
 {
-    static const unsigned __int64 muNameHash = 8689257909101873578;
-    static const unsigned __int64 muTemplateHash = 4282347085270196027;
+    static const unsigned __int64 muNameHash = 0x78967207D9C549AA;
+    static const unsigned __int64 muTemplateHash = 0x3B6DF3FC36759F3B;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcVehicleScanTableEntry> maVehicleScanTable;

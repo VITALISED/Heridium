@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkNoiseFlattenOptions;
 
 class cTkNoiseFlattenPoint
 {
-    static const unsigned __int64 muNameHash = 14882092284748808250;
-    static const unsigned __int64 muTemplateHash = 14789863610559482139;
+    static const unsigned __int64 muNameHash = 0xCE87D0159308C03A;
+    static const unsigned __int64 muTemplateHash = 0xCD402697FFDFC91B;
     static const int miNumMembers = 11;
 
     float mfDensity;

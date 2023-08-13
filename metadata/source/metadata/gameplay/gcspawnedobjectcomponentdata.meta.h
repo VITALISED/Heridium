@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSpawnedObjectComponentData
 {
-    static const unsigned __int64 muNameHash = 8863537263915913875;
-    static const unsigned __int64 muTemplateHash = 10121245224836010792;
+    static const unsigned __int64 muNameHash = 0x7B019C2E35255293;
+    static const unsigned __int64 muTemplateHash = 0x8C75E2E846F81328;
     static const int miNumMembers = 1;
 
     bool mbCanBeTeleported;

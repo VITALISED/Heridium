@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardCustomPlayerControl
 {
-    static const unsigned __int64 muNameHash = 13918997487311285415;
-    static const unsigned __int64 muTemplateHash = 3590287897086014637;
+    static const unsigned __int64 muNameHash = 0xC12A3677FCBE6CA7;
+    static const unsigned __int64 muTemplateHash = 0x31D343D1FB3234AD;
     static const int miNumMembers = 1;
 
     TkID<128> mRequestedMode;

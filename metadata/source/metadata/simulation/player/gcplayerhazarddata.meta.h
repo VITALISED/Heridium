@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkCurveType;
 
 class cGcPlayerHazardData
 {
-    static const unsigned __int64 muNameHash = 1757566203441136053;
-    static const unsigned __int64 muTemplateHash = 3901561856278505438;
+    static const unsigned __int64 muNameHash = 0x18642126695741B5;
+    static const unsigned __int64 muTemplateHash = 0x362521D640B1A7DE;
     static const int miNumMembers = 15;
 
     float mfProtectionInitialTime;

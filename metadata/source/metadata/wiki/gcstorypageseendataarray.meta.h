@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcStoryPageSeenDataArray
 {
-    static const unsigned __int64 muNameHash = 18219063589295398070;
-    static const unsigned __int64 muTemplateHash = 12024872485155909955;
+    static const unsigned __int64 muNameHash = 0xFCD71DCE44349CB6;
+    static const unsigned __int64 muTemplateHash = 0xA6E0EDD093163143;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcStoryPageSeenData> maPagesData;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardMissionMessageToMatchingSeeds
 {
-    static const unsigned __int64 muNameHash = 10847103237145257775;
-    static const unsigned __int64 muTemplateHash = 14456502241404116492;
+    static const unsigned __int64 muNameHash = 0x9688A6EC7C08672F;
+    static const unsigned __int64 muTemplateHash = 0xC89FD031D987DE0C;
     static const int miNumMembers = 2;
 
     TkID<128> mMessageID;

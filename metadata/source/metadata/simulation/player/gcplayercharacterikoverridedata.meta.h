@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPlayerCharacterIKOverrideData
 {
-    static const unsigned __int64 muNameHash = 15267939465590094635;
-    static const unsigned __int64 muTemplateHash = 16623527485435340208;
+    static const unsigned __int64 muNameHash = 0xD3E29E0D0AAA3B2B;
+    static const unsigned __int64 muTemplateHash = 0xE6B2A22C3B50E5B0;
     static const int miNumMembers = 3;
 
     bool mbEnabled;

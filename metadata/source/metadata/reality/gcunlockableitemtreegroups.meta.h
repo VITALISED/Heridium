@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eUnlockableItemTree
 {
     EUnlockableItemTree_Test = 0,
@@ -21,8 +21,8 @@ enum eUnlockableItemTree
 
 class cGcUnlockableItemTreeGroups
 {
-    static const unsigned __int64 muNameHash = 10328357439684243625;
-    static const unsigned __int64 muTemplateHash = 5221463868809452211;
+    static const unsigned __int64 muNameHash = 0x8F55B25E91A470A9;
+    static const unsigned __int64 muTemplateHash = 0x48765DB963EC9AB3;
     static const int miNumMembers = 1;
 
     eUnlockableItemTree meUnlockableItemTree;

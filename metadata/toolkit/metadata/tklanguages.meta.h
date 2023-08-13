@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 enum eLanguage
 {
     ELanguage_Default = 0,
@@ -25,8 +25,8 @@ enum eLanguage
 
 class cTkLanguages
 {
-    static const unsigned __int64 muNameHash = 16877091306673429236;
-    static const unsigned __int64 muTemplateHash = 3966926057153552625;
+    static const unsigned __int64 muNameHash = 0xEA37791FF01A5AF4;
+    static const unsigned __int64 muTemplateHash = 0x370D5A3B36E0E0F1;
     static const int miNumMembers = 1;
 
     eLanguage meLanguage;

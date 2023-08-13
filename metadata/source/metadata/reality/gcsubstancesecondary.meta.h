@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSubstanceSecondary
 {
-    static const unsigned __int64 muNameHash = 11985742155636566375;
-    static const unsigned __int64 muTemplateHash = 10342286240568557197;
+    static const unsigned __int64 muNameHash = 0xA655E8FCC4246967;
+    static const unsigned __int64 muTemplateHash = 0x8F872E8A3E7FBE8D;
     static const int miNumMembers = 4;
 
     TkID<128> mID;

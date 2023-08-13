@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eShipType
 {
     EShipType_None = 0,
@@ -14,8 +14,8 @@ enum eShipType
 
 class cGcAISpaceshipTypes
 {
-    static const unsigned __int64 muNameHash = 10141985388659641864;
-    static const unsigned __int64 muTemplateHash = 16148747964327930980;
+    static const unsigned __int64 muNameHash = 0x8CBF91F9F8428E08;
+    static const unsigned __int64 muTemplateHash = 0xE01BE0B6BD142C64;
     static const int miNumMembers = 1;
 
     eShipType meShipType;

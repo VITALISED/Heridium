@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eMissionSystemType
 {
     EMissionSystemType_Either = 0,
@@ -10,8 +10,8 @@ enum eMissionSystemType
 
 class cGcMissionConditionAbandonedOrEmptySystem
 {
-    static const unsigned __int64 muNameHash = 7282910700342950048;
-    static const unsigned __int64 muTemplateHash = 2211986238571902919;
+    static const unsigned __int64 muNameHash = 0x651218B208D538A0;
+    static const unsigned __int64 muTemplateHash = 0x1EB28DC3AE2177C7;
     static const int miNumMembers = 1;
 
     eMissionSystemType meMissionSystemType;

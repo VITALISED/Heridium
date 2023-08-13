@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCharacterCustomisationBoneScaleData
 {
-    static const unsigned __int64 muNameHash = 18402262638651600259;
-    static const unsigned __int64 muTemplateHash = 377690003405508299;
+    static const unsigned __int64 muNameHash = 0xFF61F85ED8456D83;
+    static const unsigned __int64 muTemplateHash = 0x53DD30E98338ECB;
     static const int miNumMembers = 2;
 
     TkID<128> mBoneName;

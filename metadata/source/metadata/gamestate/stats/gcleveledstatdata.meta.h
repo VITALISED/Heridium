@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eStatMessageType
 {
     EStatMessageType_Full = 0,
@@ -11,8 +11,8 @@ class cTkTextureResource;
 
 class cGcLeveledStatData
 {
-    static const unsigned __int64 muNameHash = 10988476226229431659;
-    static const unsigned __int64 muTemplateHash = 10904079923024103924;
+    static const unsigned __int64 muNameHash = 0x987EE8E8873AED6B;
+    static const unsigned __int64 muTemplateHash = 0x975312EAEE5209F4;
     static const int miNumMembers = 11;
 
     TkID<128> mStatId;

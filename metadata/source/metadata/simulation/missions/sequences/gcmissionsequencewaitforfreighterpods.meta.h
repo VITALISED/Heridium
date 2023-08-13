@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionSequenceWaitForFreighterPods
 {
-    static const unsigned __int64 muNameHash = 8618869957825270645;
-    static const unsigned __int64 muTemplateHash = 294236770133255138;
+    static const unsigned __int64 muNameHash = 0x779C608FD9761375;
+    static const unsigned __int64 muTemplateHash = 0x41556C893A6A3E2;
     static const int miNumMembers = 4;
 
     cTkFixedString<128,char> macMessage;

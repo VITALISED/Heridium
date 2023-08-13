@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcGalaxyStarTypes;
 
 class cGcMissionConditionEventRequiresRGB
 {
-    static const unsigned __int64 muNameHash = 3949097944856251387;
-    static const unsigned __int64 muTemplateHash = 8407167245914356309;
+    static const unsigned __int64 muNameHash = 0x36CE03A85A61CBFB;
+    static const unsigned __int64 muTemplateHash = 0x74AC42112C063A55;
     static const int miNumMembers = 3;
 
     TkID<256> mEvent;

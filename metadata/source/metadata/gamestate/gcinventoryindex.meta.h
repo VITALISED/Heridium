@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInventoryIndex
 {
-    static const unsigned __int64 muNameHash = 15247905918390091403;
-    static const unsigned __int64 muTemplateHash = 568776064737248794;
+    static const unsigned __int64 muNameHash = 0xD39B71A55A37BE8B;
+    static const unsigned __int64 muTemplateHash = 0x7E4B2D13F68861A;
     static const int miNumMembers = 2;
 
     int miX;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcBuildingClassification;
 
 class cGcRewardSettlementProgress
 {
-    static const unsigned __int64 muNameHash = 9755198354629432652;
-    static const unsigned __int64 muTemplateHash = 343301188056646048;
+    static const unsigned __int64 muNameHash = 0x87616D37E129954C;
+    static const unsigned __int64 muTemplateHash = 0x4C3A69C951601A0;
     static const int miNumMembers = 2;
 
     bool mbUseInteractionBuildingType;

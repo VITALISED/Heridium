@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPersistentBBObjectData
 {
-    static const unsigned __int64 muNameHash = 14786590541624539991;
-    static const unsigned __int64 muTemplateHash = 18074100346851079454;
+    static const unsigned __int64 muNameHash = 0xCD3485C140AE7B57;
+    static const unsigned __int64 muTemplateHash = 0xFAD41A8138D2B51E;
     static const int miNumMembers = 8;
 
     unsigned __int64 mui64Timestamp;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcFactionSelectOptions;
 
 class cGcMissionSequenceWaitForFactionStanding
 {
-    static const unsigned __int64 muNameHash = 1206701114740905340;
-    static const unsigned __int64 muTemplateHash = 7290065622904385221;
+    static const unsigned __int64 muNameHash = 0x10BF10453E33157C;
+    static const unsigned __int64 muTemplateHash = 0x652B840F4280AEC5;
     static const int miNumMembers = 5;
 
     cTkFixedString<128,char> macMessage;

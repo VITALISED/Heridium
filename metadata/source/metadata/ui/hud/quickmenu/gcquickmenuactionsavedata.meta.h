@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcQuickMenuActions;
 class cGcInventoryIndex;
 
 class cGcQuickMenuActionSaveData
 {
-    static const unsigned __int64 muNameHash = 1566897853796520516;
-    static const unsigned __int64 muTemplateHash = 12047867312392314596;
+    static const unsigned __int64 muNameHash = 0x15BEBD4BD6DD1244;
+    static const unsigned __int64 muTemplateHash = 0xA7329F7D002F1EE4;
     static const int miNumMembers = 4;
 
     cGcQuickMenuActions mAction;

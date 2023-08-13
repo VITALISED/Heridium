@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcResourceElement;
 class cGcInventoryContainer;
 class cGcInventoryContainer;
@@ -9,8 +9,8 @@ class cGcInventoryLayout;
 
 class cGcPlayerOwnershipData
 {
-    static const unsigned __int64 muNameHash = 17714904727178827515;
-    static const unsigned __int64 muTemplateHash = 6409961812804865472;
+    static const unsigned __int64 muNameHash = 0xF5D7FBFDE561D6FB;
+    static const unsigned __int64 muTemplateHash = 0x58F4C24EAC0D8DC0;
     static const int miNumMembers = 9;
 
     cTkFixedString<32,char> macName;

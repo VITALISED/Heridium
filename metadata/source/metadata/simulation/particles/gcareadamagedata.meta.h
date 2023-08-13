@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcAreaDamageData
 {
-    static const unsigned __int64 muNameHash = 4095293000240844774;
-    static const unsigned __int64 muTemplateHash = 15708596874482836077;
+    static const unsigned __int64 muNameHash = 0x38D56749327FCFE6;
+    static const unsigned __int64 muTemplateHash = 0xDA0025A12F5C626D;
     static const int miNumMembers = 8;
 
     TkID<128> mId;

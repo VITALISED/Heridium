@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eInventoryFilter
 {
     EInventoryFilter_All = 0,
@@ -12,8 +12,8 @@ enum eInventoryFilter
 
 class cGcInventoryFilterOptions
 {
-    static const unsigned __int64 muNameHash = 1516443454411152199;
-    static const unsigned __int64 muTemplateHash = 5308922925852844281;
+    static const unsigned __int64 muNameHash = 0x150B7D498E249B47;
+    static const unsigned __int64 muTemplateHash = 0x49AD1545EF62E0F9;
     static const int miNumMembers = 1;
 
     eInventoryFilter meInventoryFilter;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSettlementBuildingCost
 {
-    static const unsigned __int64 muNameHash = 2496043103446746333;
-    static const unsigned __int64 muTemplateHash = 15288261153654214773;
+    static const unsigned __int64 muNameHash = 0x22A3B9FA5D01C4DD;
+    static const unsigned __int64 muTemplateHash = 0xD42AD084C0F69075;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cGcSettlementBuildingCostData> maStageCosts;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eSizeType
 {
     ESizeType_SciSmall = 0,
@@ -44,8 +44,8 @@ enum eSizeType
 
 class cGcInventoryLayoutSizeType
 {
-    static const unsigned __int64 muNameHash = 14968026491535318236;
-    static const unsigned __int64 muTemplateHash = 12431800956142445654;
+    static const unsigned __int64 muNameHash = 0xCFB91CCA40995CDC;
+    static const unsigned __int64 muTemplateHash = 0xAC86A11A653B6456;
     static const int miNumMembers = 1;
 
     eSizeType meSizeType;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBaseLinkGridConnectionData;
 
 enum eDependentEffect
@@ -14,8 +14,8 @@ enum eDependentEffect
 
 class cGcBaseLinkGridConnectionDependency
 {
-    static const unsigned __int64 muNameHash = 13384292967221608750;
-    static const unsigned __int64 muTemplateHash = 3830244842263681823;
+    static const unsigned __int64 muNameHash = 0xB9BE8F8A6900C12E;
+    static const unsigned __int64 muTemplateHash = 0x3527C363F9E61B1F;
     static const int miNumMembers = 5;
 
     cGcBaseLinkGridConnectionData mConnection;

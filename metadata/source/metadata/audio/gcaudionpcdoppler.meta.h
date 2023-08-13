@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAudioNPCDoppler
 {
-    static const unsigned __int64 muNameHash = 13847755819488713859;
-    static const unsigned __int64 muTemplateHash = 9684525827634244296;
+    static const unsigned __int64 muNameHash = 0xC02D1C8C9CF91C83;
+    static const unsigned __int64 muTemplateHash = 0x866658EDEE3C2AC8;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cGcAudio3PointDopplerData> maConfig;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcPlayerExperienceAsteroidCreatureSpawnTable
 {
-    static const unsigned __int64 muNameHash = 14168296827058814710;
-    static const unsigned __int64 muTemplateHash = 87405655401831021;
+    static const unsigned __int64 muNameHash = 0xC49FE6E5B9227EF6;
+    static const unsigned __int64 muTemplateHash = 0x13686FB01961A6D;
     static const int miNumMembers = 6;
 
     float mfSmallAsteroidSpawnPercent;

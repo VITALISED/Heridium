@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcCreatureHealthData
 {
-    static const unsigned __int64 muNameHash = 9607510728661076662;
-    static const unsigned __int64 muTemplateHash = 15259881478858921206;
+    static const unsigned __int64 muNameHash = 0x8554BC1ADD990AB6;
+    static const unsigned __int64 muTemplateHash = 0xD3C5FD5ACDF2D4F6;
     static const int miNumMembers = 7;
 
     TkID<128> mHurtAnim;

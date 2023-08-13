@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPlanetSize;
 
 class cGcPlanetaryMappingValues
 {
-    static const unsigned __int64 muNameHash = 3551476386001324852;
-    static const unsigned __int64 muTemplateHash = 10712945781312364066;
+    static const unsigned __int64 muNameHash = 0x314960F4DFCC0B34;
+    static const unsigned __int64 muTemplateHash = 0x94AC076DB1249E22;
     static const int miNumMembers = 3;
 
     cGcPlanetSize mPlanetSize;

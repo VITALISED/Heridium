@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcStyleProp_Size
 {
-    static const unsigned __int64 muNameHash = 11588668339546199066;
-    static const unsigned __int64 muTemplateHash = 3129477815187515007;
+    static const unsigned __int64 muNameHash = 0xA0D338749677941A;
+    static const unsigned __int64 muTemplateHash = 0x2B6E237E02B7A67F;
     static const int miNumMembers = 1;
 
     float mfFontSize;

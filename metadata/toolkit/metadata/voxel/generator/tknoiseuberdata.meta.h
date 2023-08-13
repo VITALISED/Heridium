@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eDebugNoiseType
 {
     EDebugNoiseType_Plane = 0,
@@ -11,8 +11,8 @@ enum eDebugNoiseType
 
 class cTkNoiseUberData
 {
-    static const unsigned __int64 muNameHash = 752664538230659170;
-    static const unsigned __int64 muTemplateHash = 9996894665588426510;
+    static const unsigned __int64 muNameHash = 0xA720068E4459862;
+    static const unsigned __int64 muTemplateHash = 0x8ABC1ABB8765470E;
     static const int miNumMembers = 16;
 
     int miOctaves;

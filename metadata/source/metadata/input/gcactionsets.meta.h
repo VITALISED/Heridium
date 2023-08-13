@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcActionSets
 {
-    static const unsigned __int64 muNameHash = 9021976242702950849;
-    static const unsigned __int64 muTemplateHash = 15915154475111910647;
+    static const unsigned __int64 muNameHash = 0x7D347F979E52A1C1;
+    static const unsigned __int64 muTemplateHash = 0xDCDDFCAC4A838CF7;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcActionSet> maActionSets;

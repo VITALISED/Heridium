@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcTradeData
 {
-    static const unsigned __int64 muNameHash = 7420506872262586727;
-    static const unsigned __int64 muTemplateHash = 7460390270058304538;
+    static const unsigned __int64 muNameHash = 0x66FAEFAF4E8E7167;
+    static const unsigned __int64 muTemplateHash = 0x6788A16C7C9B141A;
     static const int miNumMembers = 19;
 
     cTkDynamicArray<TkID<128> > maAlwaysPresentProducts;

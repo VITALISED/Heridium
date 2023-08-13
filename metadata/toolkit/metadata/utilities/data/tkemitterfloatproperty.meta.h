@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eAuthoring
 {
     EAuthoring_FixedValue = 0,
@@ -12,8 +12,8 @@ class cTkCurveType;
 
 class cTkEmitterFloatProperty
 {
-    static const unsigned __int64 muNameHash = 7983210815863889441;
-    static const unsigned __int64 muTemplateHash = 7943347058536028912;
+    static const unsigned __int64 muNameHash = 0x6ECA0FF0AE9F9E21;
+    static const unsigned __int64 muTemplateHash = 0x6E3C701067AF1AF0;
     static const int miNumMembers = 12;
 
     eAuthoring meAuthoring;

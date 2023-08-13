@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAtmosphereEntryComponentData
 {
-    static const unsigned __int64 muNameHash = 10396658699381066978;
-    static const unsigned __int64 muTemplateHash = 12502412903079869559;
+    static const unsigned __int64 muNameHash = 0x90485A00D3954CE2;
+    static const unsigned __int64 muTemplateHash = 0xAD817E4B7355FC77;
     static const int miNumMembers = 6;
 
     bool mbAutoEntry;

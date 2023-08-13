@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum ePetBehaviourValidity
 {
     EPetBehaviourValidity_Everywhere = 0,
@@ -9,8 +9,8 @@ enum ePetBehaviourValidity
 
 class cGcPetBehaviourData
 {
-    static const unsigned __int64 muNameHash = 3500202891003720588;
-    static const unsigned __int64 muTemplateHash = 2909064819089636498;
+    static const unsigned __int64 muNameHash = 0x309337FC0812738C;
+    static const unsigned __int64 muTemplateHash = 0x285F130A426C7C92;
     static const int miNumMembers = 15;
 
     bool mbReactiveBehaviour;

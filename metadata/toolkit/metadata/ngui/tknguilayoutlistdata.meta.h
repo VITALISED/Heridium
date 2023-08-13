@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkNGuiLayoutListData
 {
-    static const unsigned __int64 muNameHash = 17656104861352208914;
-    static const unsigned __int64 muTemplateHash = 5551391836235676329;
+    static const unsigned __int64 muNameHash = 0xF50715D349F22A12;
+    static const unsigned __int64 muTemplateHash = 0x4D0A817667D4BAA9;
     static const int miNumMembers = 4;
 
     cTkFixedString<128,char> macName;

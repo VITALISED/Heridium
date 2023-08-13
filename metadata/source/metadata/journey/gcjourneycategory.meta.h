@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcJourneyCategoryType;
 class cGcGameMode;
 class cGcMissionFaction;
@@ -9,8 +9,8 @@ class cTkTextureResource;
 
 class cGcJourneyCategory
 {
-    static const unsigned __int64 muNameHash = 9867915932420995108;
-    static const unsigned __int64 muTemplateHash = 7744082490144037062;
+    static const unsigned __int64 muNameHash = 0x88F1E142115EF824;
+    static const unsigned __int64 muTemplateHash = 0x6B7881FEB05B98C6;
     static const int miNumMembers = 9;
 
     cGcJourneyCategoryType mType;

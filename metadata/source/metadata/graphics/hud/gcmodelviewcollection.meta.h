@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcModelViewCollection
 {
-    static const unsigned __int64 muNameHash = 14066477992006226614;
-    static const unsigned __int64 muTemplateHash = 554264453183619040;
+    static const unsigned __int64 muNameHash = 0xC3362B34D26192B6;
+    static const unsigned __int64 muTemplateHash = 0x7B1249563A2BFE0;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cTkModelRendererData> maModelViews;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAsteroidGenerationData
 {
-    static const unsigned __int64 muNameHash = 17582445755295174569;
-    static const unsigned __int64 muTemplateHash = 11700997255264417257;
+    static const unsigned __int64 muNameHash = 0xF401654236F18FA9;
+    static const unsigned __int64 muTemplateHash = 0xA2624B0255DB35E9;
     static const int miNumMembers = 7;
 
     float mfScale;

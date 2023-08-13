@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcFontData
 {
-    static const unsigned __int64 muNameHash = 1339594711662026574;
-    static const unsigned __int64 muTemplateHash = 8149747951887831347;
+    static const unsigned __int64 muNameHash = 0x1297324AF39B5F4E;
+    static const unsigned __int64 muTemplateHash = 0x7119B895413DD133;
     static const int miNumMembers = 2;
 
     cTkFixedString<128,char> macFile;

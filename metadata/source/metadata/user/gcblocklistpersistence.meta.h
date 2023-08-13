@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcBlockListPersistence
 {
-    static const unsigned __int64 muNameHash = 18258450574885198795;
-    static const unsigned __int64 muTemplateHash = 6924410876154886439;
+    static const unsigned __int64 muNameHash = 0xFD630C0F790F1BCB;
+    static const unsigned __int64 muTemplateHash = 0x6018730138103927;
     static const int miNumMembers = 6;
 
     cTkFixedArray<cGcBlockedUser> maBlockedUserArray;

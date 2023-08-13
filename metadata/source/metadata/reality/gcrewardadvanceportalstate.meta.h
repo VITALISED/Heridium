@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardAdvancePortalState
 {
-    static const unsigned __int64 muNameHash = 6100887216323709051;
-    static const unsigned __int64 muTemplateHash = 14617231754336032006;
+    static const unsigned __int64 muNameHash = 0x54AAB4996FB2487B;
+    static const unsigned __int64 muTemplateHash = 0xCADAD6D5CCC25506;
     static const int miNumMembers = 1;
 
     TkID<256> mPortalScanEvent;

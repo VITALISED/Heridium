@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcNPCNavSubgraphNodeType;
 
 class cGcBaseBuildingPartNavNodeData
 {
-    static const unsigned __int64 muNameHash = 786251106070775757;
-    static const unsigned __int64 muTemplateHash = 12458101037400294576;
+    static const unsigned __int64 muNameHash = 0xAE95337199B47CD;
+    static const unsigned __int64 muTemplateHash = 0xACE410E33E2B84B0;
     static const int miNumMembers = 6;
 
     cGcNPCNavSubgraphNodeType mType;

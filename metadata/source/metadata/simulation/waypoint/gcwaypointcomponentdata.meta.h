@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkTextureResource;
 
 class cGcWaypointComponentData
 {
-    static const unsigned __int64 muNameHash = 14960358561553259098;
-    static const unsigned __int64 muTemplateHash = 8151754197979240990;
+    static const unsigned __int64 muNameHash = 0xCF9DDED92DDB1A5A;
+    static const unsigned __int64 muTemplateHash = 0x7120D940D2DA1A1E;
     static const int miNumMembers = 1;
 
     cTkTextureResource mIcon;

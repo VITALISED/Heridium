@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cgcwordcategorytableEnum;
 
 enum eWordInteractEffect
@@ -12,8 +12,8 @@ class cGcAlienRace;
 
 class cGcAlienSpeechEntry
 {
-    static const unsigned __int64 muNameHash = 51823801010142775;
-    static const unsigned __int64 muTemplateHash = 14515835029442184363;
+    static const unsigned __int64 muNameHash = 0xB81D78F21EBE37;
+    static const unsigned __int64 muTemplateHash = 0xC9729B0D1412C4AB;
     static const int miNumMembers = 8;
 
     TkID<128> mId;

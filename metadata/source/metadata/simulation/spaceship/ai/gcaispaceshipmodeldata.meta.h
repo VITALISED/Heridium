@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcSpaceshipClasses;
 class cGcAISpaceshipRoles;
 class cGcFrigateClass;
 
 class cGcAISpaceshipModelData
 {
-    static const unsigned __int64 muNameHash = 11650009642550559982;
-    static const unsigned __int64 muTemplateHash = 5984946300233661266;
+    static const unsigned __int64 muNameHash = 0xA1AD260BA61A04EE;
+    static const unsigned __int64 muTemplateHash = 0x530ECCF351373B52;
     static const int miNumMembers = 4;
 
     cTkFixedString<128,char> macFilename;

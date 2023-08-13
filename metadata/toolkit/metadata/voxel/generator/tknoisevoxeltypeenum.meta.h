@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eNoiseVoxelType
 {
     ENoiseVoxelType_Base = 0,
@@ -17,8 +17,8 @@ enum eNoiseVoxelType
 
 class cTkNoiseVoxelTypeEnum
 {
-    static const unsigned __int64 muNameHash = 11910893790960641518;
-    static const unsigned __int64 muTemplateHash = 2591365073993328402;
+    static const unsigned __int64 muNameHash = 0xA54BFECBD79D65EE;
+    static const unsigned __int64 muTemplateHash = 0x23F660CE1EB9E712;
     static const int miNumMembers = 1;
 
     eNoiseVoxelType meNoiseVoxelType;

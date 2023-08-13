@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eShader
 {
     EShader_UberShader = 0,
@@ -22,8 +22,8 @@ class cTkMaterialShaderMillData;
 
 class cTkMaterialMetaData
 {
-    static const unsigned __int64 muNameHash = 16401185885049160288;
-    static const unsigned __int64 muTemplateHash = 14188383951466886495;
+    static const unsigned __int64 muNameHash = 0xE39CB7AA4D818260;
+    static const unsigned __int64 muTemplateHash = 0xC4E74407D409755F;
     static const int miNumMembers = 118;
 
     cTkFixedString<128,char> macExternalMaterial;

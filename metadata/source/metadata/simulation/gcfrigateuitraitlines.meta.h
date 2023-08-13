@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcFrigateUITraitLines
 {
-    static const unsigned __int64 muNameHash = 3229869347691546016;
-    static const unsigned __int64 muTemplateHash = 4631432196357378451;
+    static const unsigned __int64 muNameHash = 0x2CD2CD0F2413C5A0;
+    static const unsigned __int64 muTemplateHash = 0x4046270B51305193;
     static const int miNumMembers = 5;
 
     float mfLine0;

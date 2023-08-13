@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInteractionType;
 class cGcAlienRace;
 
@@ -88,8 +88,8 @@ class cGcResourceElement;
 
 class cGcScanEventData
 {
-    static const unsigned __int64 muNameHash = 8915946925652505076;
-    static const unsigned __int64 muTemplateHash = 6713841518316044586;
+    static const unsigned __int64 muNameHash = 0x7BBBCE7D7BC0F1F4;
+    static const unsigned __int64 muTemplateHash = 0x5D2C5B4A197F412A;
     static const int miNumMembers = 55;
 
     TkID<256> mName;

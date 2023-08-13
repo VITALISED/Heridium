@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAudioWwiseEvents;
 class cGcAudioWwiseEvents;
 
 class cGcGrabPlayerComponentData
 {
-    static const unsigned __int64 muNameHash = 16028256321074951705;
-    static const unsigned __int64 muTemplateHash = 13361387519901089575;
+    static const unsigned __int64 muNameHash = 0xDE6FCE33E294F619;
+    static const unsigned __int64 muTemplateHash = 0xB96D2F285E0ABF27;
     static const int miNumMembers = 39;
 
     cTkFixedString<256,char> macLookJoint;

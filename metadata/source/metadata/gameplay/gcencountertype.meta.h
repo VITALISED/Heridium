@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eEncounterType
 {
     EEncounterType_FactoryGuards = 0,
@@ -14,8 +14,8 @@ enum eEncounterType
 
 class cGcEncounterType
 {
-    static const unsigned __int64 muNameHash = 18407456395508106462;
-    static const unsigned __int64 muTemplateHash = 10257560362751890186;
+    static const unsigned __int64 muNameHash = 0xFF746C1098C0C4DE;
+    static const unsigned __int64 muTemplateHash = 0x8E5A2CCD93F4130A;
     static const int miNumMembers = 1;
 
     eEncounterType meEncounterType;

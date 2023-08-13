@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eInputButton
 {
     EInputButton_None = 0,
@@ -181,8 +181,8 @@ enum eInputButton
 
 class cTkInputEnum
 {
-    static const unsigned __int64 muNameHash = 10101253821887124847;
-    static const unsigned __int64 muTemplateHash = 15691125480932214106;
+    static const unsigned __int64 muNameHash = 0x8C2EDCD50FA3956F;
+    static const unsigned __int64 muTemplateHash = 0xD9C2137D610B855A;
     static const int miNumMembers = 1;
 
     eInputButton meInputButton;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkMaterialResource;
 
 class cGcCamouflageData
 {
-    static const unsigned __int64 muNameHash = 4992461912264280142;
-    static const unsigned __int64 muTemplateHash = 9942383374142083455;
+    static const unsigned __int64 muNameHash = 0x4548C9A8732E084E;
+    static const unsigned __int64 muTemplateHash = 0x89FA7100747D117F;
     static const int miNumMembers = 7;
 
     cTkMaterialResource mCamouflageMaterial;

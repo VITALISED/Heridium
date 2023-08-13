@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eRuleType
 {
     ERuleType_Default = 0,
@@ -9,8 +9,8 @@ enum eRuleType
 
 class cTkLSystemRule
 {
-    static const unsigned __int64 muNameHash = 16185674768415277701;
-    static const unsigned __int64 muTemplateHash = 17236025203258453875;
+    static const unsigned __int64 muNameHash = 0xE09F11724D654285;
+    static const unsigned __int64 muTemplateHash = 0xEF32A99A1BE66F73;
     static const int miNumMembers = 4;
 
     cTkFixedString<32,char> macName;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eInteractable
 {
     EInteractable_OnlyWhenComplete = 0,
@@ -20,8 +20,8 @@ class cGcBroadcastLevel;
 
 class cGcMaintenanceComponentData
 {
-    static const unsigned __int64 muNameHash = 322517321385688032;
-    static const unsigned __int64 muTemplateHash = 5801909186149188576;
+    static const unsigned __int64 muNameHash = 0x479CFCB871ABBE0;
+    static const unsigned __int64 muTemplateHash = 0x508485AA3B7F83E0;
     static const int miNumMembers = 38;
 
     cTkDynamicArray<cGcMaintenanceElement> maPreInstalledTech;

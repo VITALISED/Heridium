@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eGalaxyWaypointType
 {
     EGalaxyWaypointType_User = 0,
@@ -13,8 +13,8 @@ enum eGalaxyWaypointType
 
 class cGcGalaxyWaypointTypes
 {
-    static const unsigned __int64 muNameHash = 17872642071403113253;
-    static const unsigned __int64 muTemplateHash = 3846968650415163247;
+    static const unsigned __int64 muNameHash = 0xF808614547AF2B25;
+    static const unsigned __int64 muTemplateHash = 0x35632D9AFE0F476F;
     static const int miNumMembers = 1;
 
     eGalaxyWaypointType meGalaxyWaypointType;

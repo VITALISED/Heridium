@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardCustomExpeditionLogEntry
 {
-    static const unsigned __int64 muNameHash = 17778587065650352203;
-    static const unsigned __int64 muTemplateHash = 13733600561502348621;
+    static const unsigned __int64 muNameHash = 0xF6BA3ABDC071904B;
+    static const unsigned __int64 muTemplateHash = 0xBE978CF26B73E54D;
     static const int miNumMembers = 4;
 
     bool mbFromIntervention;

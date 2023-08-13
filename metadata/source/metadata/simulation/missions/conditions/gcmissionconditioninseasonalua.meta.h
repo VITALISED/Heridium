@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionInSeasonalUA
 {
-    static const unsigned __int64 muNameHash = 1584358140927015969;
-    static const unsigned __int64 muTemplateHash = 16531482431903331812;
+    static const unsigned __int64 muNameHash = 0x15FCC555BAF3FC21;
+    static const unsigned __int64 muTemplateHash = 0xE56B9FAF2C3575E4;
     static const int miNumMembers = 5;
 
     int miSpecificRendevousPlanetIndex;

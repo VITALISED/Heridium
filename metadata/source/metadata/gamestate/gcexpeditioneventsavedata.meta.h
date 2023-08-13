@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcExpeditionEventSaveData
 {
-    static const unsigned __int64 muNameHash = 12203880807722345138;
-    static const unsigned __int64 muTemplateHash = 17449667753096419863;
+    static const unsigned __int64 muNameHash = 0xA95CE4EF897F62B2;
+    static const unsigned __int64 muTemplateHash = 0xF229AC5E7FE69A17;
     static const int miNumMembers = 13;
 
     cTkSeed mSeed;

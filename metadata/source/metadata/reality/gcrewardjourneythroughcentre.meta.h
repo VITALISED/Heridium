@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eCentreJourneyDestination
 {
     ECentreJourneyDestination_Next = 0,
@@ -12,8 +12,8 @@ enum eCentreJourneyDestination
 
 class cGcRewardJourneyThroughCentre
 {
-    static const unsigned __int64 muNameHash = 2103389298577359400;
-    static const unsigned __int64 muTemplateHash = 14325517314425330717;
+    static const unsigned __int64 muNameHash = 0x1D30BD6C3E0FC228;
+    static const unsigned __int64 muTemplateHash = 0xC6CE7618FE079C1D;
     static const int miNumMembers = 1;
 
     eCentreJourneyDestination meCentreJourneyDestination;

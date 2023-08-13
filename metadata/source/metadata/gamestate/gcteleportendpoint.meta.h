@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcUniverseAddressData;
 
 enum eTeleporterType
@@ -20,8 +20,8 @@ enum eTeleporterType
 
 class cGcTeleportEndpoint
 {
-    static const unsigned __int64 muNameHash = 1787192493808414749;
-    static const unsigned __int64 muTemplateHash = 1055232892428710652;
+    static const unsigned __int64 muNameHash = 0x18CD621AAAB1F01D;
+    static const unsigned __int64 muTemplateHash = 0xEA4F0B98C8572FC;
     static const int miNumMembers = 7;
 
     cGcUniverseAddressData mUniverseAddress;

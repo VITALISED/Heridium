@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcHarvestPlantAction
 {
-    static const unsigned __int64 muNameHash = 5923621306094291530;
-    static const unsigned __int64 muTemplateHash = 3961825409881698362;
+    static const unsigned __int64 muNameHash = 0x5234EE3175AF8A4A;
+    static const unsigned __int64 muTemplateHash = 0x36FB3B383A1D703A;
     static const int miNumMembers = 1;
 
     float mfRadius;

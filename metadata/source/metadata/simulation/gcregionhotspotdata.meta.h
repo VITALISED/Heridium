@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRegionHotspotData
 {
-    static const unsigned __int64 muNameHash = 3954503120659252032;
-    static const unsigned __int64 muTemplateHash = 2995104326225662856;
+    static const unsigned __int64 muNameHash = 0x36E137A2EA118340;
+    static const unsigned __int64 muTemplateHash = 0x2990BF8415EA9388;
     static const int miNumMembers = 6;
 
     float mfProbabilityWeighting;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInventoryContainer;
 class cGcInventoryLayout;
 class cGcExactResource;
@@ -8,8 +8,8 @@ class cGcWeaponClasses;
 
 class cGcRewardSpecificWeapon
 {
-    static const unsigned __int64 muNameHash = 17541813811776064136;
-    static const unsigned __int64 muTemplateHash = 8153104971358656359;
+    static const unsigned __int64 muNameHash = 0xF3710AB8A6F40A88;
+    static const unsigned __int64 muTemplateHash = 0x7125A5C6424DD767;
     static const int miNumMembers = 8;
 
     cGcInventoryContainer mWeaponInventory;

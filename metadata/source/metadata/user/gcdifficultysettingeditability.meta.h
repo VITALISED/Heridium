@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eDifficultySettingEditability
 {
     EDifficultySettingEditability_FullyEditable = 0,
@@ -12,8 +12,8 @@ enum eDifficultySettingEditability
 
 class cGcDifficultySettingEditability
 {
-    static const unsigned __int64 muNameHash = 2402170756364250622;
-    static const unsigned __int64 muTemplateHash = 14908641302920542061;
+    static const unsigned __int64 muNameHash = 0x215639935EEC2DFE;
+    static const unsigned __int64 muTemplateHash = 0xCEE62246904BB76D;
     static const int miNumMembers = 1;
 
     eDifficultySettingEditability meDifficultySettingEditability;

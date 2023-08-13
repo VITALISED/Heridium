@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eScreenFilter
 {
     EScreenFilter_Default = 0,
@@ -89,8 +89,8 @@ enum eScreenFilter
 
 class cGcScreenFilters
 {
-    static const unsigned __int64 muNameHash = 16505300275300674365;
-    static const unsigned __int64 muTemplateHash = 86075924100662559;
+    static const unsigned __int64 muNameHash = 0xE50E9B26CC742B3D;
+    static const unsigned __int64 muTemplateHash = 0x131CD98CFBBC51F;
     static const int miNumMembers = 1;
 
     eScreenFilter meScreenFilter;

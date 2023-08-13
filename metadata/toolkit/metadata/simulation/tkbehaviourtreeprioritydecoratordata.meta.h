@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkBehaviourTreePriorityDecoratorData
 {
-    static const unsigned __int64 muNameHash = 9890397435369569276;
-    static const unsigned __int64 muTemplateHash = 9622907079171171121;
+    static const unsigned __int64 muNameHash = 0x8941C010DEA33BFC;
+    static const unsigned __int64 muTemplateHash = 0x858B6F011096E331;
     static const int miNumMembers = 1;
 
     cTkClassPointer mChild;

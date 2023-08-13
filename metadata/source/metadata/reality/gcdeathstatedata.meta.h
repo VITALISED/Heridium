@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcTextPreset;
 class cGcTextPreset;
 class cGcTextPreset;
 
 class cGcDeathStateData
 {
-    static const unsigned __int64 muNameHash = 6593915075659322910;
-    static const unsigned __int64 muTemplateHash = 6828210584746958814;
+    static const unsigned __int64 muNameHash = 0x5B824AD343C4561E;
+    static const unsigned __int64 muTemplateHash = 0x5EC2AD5973679FDE;
     static const int miNumMembers = 4;
 
     cTkDynamicArray<cGcDeathQuote> maQuotes;

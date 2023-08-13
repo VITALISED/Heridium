@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkPlatformButtonPair
 {
-    static const unsigned __int64 muNameHash = 14350953533152185032;
-    static const unsigned __int64 muTemplateHash = 6405511789575645258;
+    static const unsigned __int64 muNameHash = 0xC728D4342BAC4AC8;
+    static const unsigned __int64 muTemplateHash = 0x58E4F308E63BA84A;
     static const int miNumMembers = 3;
 
     TkID<128> mPlatformId;

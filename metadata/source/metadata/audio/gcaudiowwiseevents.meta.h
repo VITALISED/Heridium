@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eAkEvent
 {
     EAkEvent_INVALID_EVENT = 0,
@@ -2482,8 +2482,8 @@ enum eAkEvent
 
 class cGcAudioWwiseEvents
 {
-    static const unsigned __int64 muNameHash = 10057674028703813702;
-    static const unsigned __int64 muTemplateHash = 17825807202561675918;
+    static const unsigned __int64 muNameHash = 0x8B94093DC3901046;
+    static const unsigned __int64 muTemplateHash = 0xF761FD349F49D28E;
     static const int miNumMembers = 1;
 
     eAkEvent meAkEvent;

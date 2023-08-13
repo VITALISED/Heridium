@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcResourceElement;
 class cGcInventoryLayout;
 class cGcInventoryContainer;
@@ -10,8 +10,8 @@ class cGcInventoryLayoutSizeType;
 
 class cGcRewardSpecificShip
 {
-    static const unsigned __int64 muNameHash = 10915869546034531537;
-    static const unsigned __int64 muTemplateHash = 11290205634779242572;
+    static const unsigned __int64 muNameHash = 0x977CF58471E48CD1;
+    static const unsigned __int64 muTemplateHash = 0x9CAEDE34EE21604C;
     static const int miNumMembers = 12;
 
     cGcResourceElement mShipResource;

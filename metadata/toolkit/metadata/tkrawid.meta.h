@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 class cTkRawID
 {
-    static const unsigned __int64 muNameHash = 10224129204264846078;
-    static const unsigned __int64 muTemplateHash = 2011706811640807546;
+    static const unsigned __int64 muNameHash = 0x8DE367576DE742FE;
+    static const unsigned __int64 muTemplateHash = 0x1BEB04AFCC15807A;
     static const int miNumMembers = 2;
 
     unsigned __int64 mui64Value0;

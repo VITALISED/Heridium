@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eNPCSeatedPosture
 {
     ENPCSeatedPosture_Sofa = 0,
@@ -9,8 +9,8 @@ enum eNPCSeatedPosture
 
 class cGcNPCSeatedPosture
 {
-    static const unsigned __int64 muNameHash = 16031311743403046290;
-    static const unsigned __int64 muTemplateHash = 4179816395559863309;
+    static const unsigned __int64 muNameHash = 0xDE7AA917D5163592;
+    static const unsigned __int64 muTemplateHash = 0x3A01B0DDBBB3040D;
     static const int miNumMembers = 1;
 
     eNPCSeatedPosture meNPCSeatedPosture;

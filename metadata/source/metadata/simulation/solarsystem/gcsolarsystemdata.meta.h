@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcSolarSystemClass;
 class cGcGalaxyStarTypes;
 class cGcSpaceStationSpawnData;
@@ -23,8 +23,8 @@ class cGcPlayerConflictData;
 
 class cGcSolarSystemData
 {
-    static const unsigned __int64 muNameHash = 11171503694178506049;
-    static const unsigned __int64 muTemplateHash = 11737684773457723162;
+    static const unsigned __int64 muNameHash = 0x9B09276BB2795541;
+    static const unsigned __int64 muTemplateHash = 0xA2E4A21CCF757F1A;
     static const int miNumMembers = 35;
 
     cTkSeed mSeed;

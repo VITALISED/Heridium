@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSettlementPerkData
 {
-    static const unsigned __int64 muNameHash = 16911004508258190636;
-    static const unsigned __int64 muTemplateHash = 16901940172429739717;
+    static const unsigned __int64 muNameHash = 0xEAAFF5007DC2452C;
+    static const unsigned __int64 muTemplateHash = 0xEA8FC109589446C5;
     static const int miNumMembers = 8;
 
     TkID<128> mID;

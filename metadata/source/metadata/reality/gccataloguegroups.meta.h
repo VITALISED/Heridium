@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eCatalogueGroup
 {
     ECatalogueGroup_MaterialsAndItems = 0,
@@ -12,8 +12,8 @@ enum eCatalogueGroup
 
 class cGcCatalogueGroups
 {
-    static const unsigned __int64 muNameHash = 11138510482587469505;
-    static const unsigned __int64 muTemplateHash = 2746268500133705692;
+    static const unsigned __int64 muNameHash = 0x9A93F045019746C1;
+    static const unsigned __int64 muTemplateHash = 0x261CB4A6885077DC;
     static const int miNumMembers = 1;
 
     eCatalogueGroup meCatalogueGroup;

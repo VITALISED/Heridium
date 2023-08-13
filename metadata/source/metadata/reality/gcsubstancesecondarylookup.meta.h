@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSubstanceSecondaryLookup
 {
-    static const unsigned __int64 muNameHash = 6553955735597905747;
-    static const unsigned __int64 muTemplateHash = 17785180797133837255;
+    static const unsigned __int64 muNameHash = 0x5AF4540465F27753;
+    static const unsigned __int64 muTemplateHash = 0xF6D1A7B47F42D3C7;
     static const int miNumMembers = 2;
 
     TkID<128> mPrimaryID;

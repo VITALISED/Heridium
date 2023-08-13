@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCustomisationShipBobbleHeads
 {
-    static const unsigned __int64 muNameHash = 10962519358252448831;
-    static const unsigned __int64 muTemplateHash = 11032594689400525094;
+    static const unsigned __int64 muNameHash = 0x9822B1463FFAFC3F;
+    static const unsigned __int64 muTemplateHash = 0x991BA66AB4945126;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcCustomisationBobbleHead> maBobbleHeads;

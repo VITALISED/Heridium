@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcTileTypeOptions
 {
-    static const unsigned __int64 muNameHash = 15841570909496031669;
-    static const unsigned __int64 muTemplateHash = 15925387855960597819;
+    static const unsigned __int64 muNameHash = 0xDBD890CF58AC39B5;
+    static const unsigned __int64 muTemplateHash = 0xDD0257E0F0D9E53B;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cTkPaletteTexture> maOptions;

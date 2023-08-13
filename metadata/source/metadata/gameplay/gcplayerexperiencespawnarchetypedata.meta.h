@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcCreatureTypes;
 
 class cGcPlayerExperienceSpawnArchetypeData
 {
-    static const unsigned __int64 muNameHash = 4425616829877784234;
-    static const unsigned __int64 muTemplateHash = 328861834813225061;
+    static const unsigned __int64 muNameHash = 0x3D6AF30F10DB0EAA;
+    static const unsigned __int64 muTemplateHash = 0x4905A18AC39B865;
     static const int miNumMembers = 15;
 
     TkID<128> mId;

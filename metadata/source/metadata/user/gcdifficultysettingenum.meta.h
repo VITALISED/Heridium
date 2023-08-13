@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eDifficultySetting
 {
     EDifficultySetting_SettingsLocked = 0,
@@ -35,8 +35,8 @@ enum eDifficultySetting
 
 class cGcDifficultySettingEnum
 {
-    static const unsigned __int64 muNameHash = 4827554388549895390;
-    static const unsigned __int64 muTemplateHash = 3933826683295832883;
+    static const unsigned __int64 muNameHash = 0x42FEEB238F6504DE;
+    static const unsigned __int64 muTemplateHash = 0x3697C286B1CD1B33;
     static const int miNumMembers = 1;
 
     eDifficultySetting meDifficultySetting;

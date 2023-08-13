@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcDiscoveryHelperTimings
 {
-    static const unsigned __int64 muNameHash = 15079829902649239275;
-    static const unsigned __int64 muTemplateHash = 17529874347426052229;
+    static const unsigned __int64 muNameHash = 0xD14651666CB8A6EB;
+    static const unsigned __int64 muTemplateHash = 0xF3469FD77B8FF885;
     static const int miNumMembers = 3;
 
     float mfDiscoverPlanetTotalTime;

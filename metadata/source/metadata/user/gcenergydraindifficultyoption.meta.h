@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eEnergyDrainDifficulty
 {
     EEnergyDrainDifficulty_Slow = 0,
@@ -10,8 +10,8 @@ enum eEnergyDrainDifficulty
 
 class cGcEnergyDrainDifficultyOption
 {
-    static const unsigned __int64 muNameHash = 14666663279909195694;
-    static const unsigned __int64 muTemplateHash = 9300030109880239895;
+    static const unsigned __int64 muNameHash = 0xCB8A748BB740CFAE;
+    static const unsigned __int64 muTemplateHash = 0x8110581C7BD94717;
     static const int miNumMembers = 1;
 
     eEnergyDrainDifficulty meEnergyDrainDifficulty;

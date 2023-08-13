@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcSpaceMapObjectData
 {
-    static const unsigned __int64 muNameHash = 5130529958911557609;
-    static const unsigned __int64 muTemplateHash = 316910365451597059;
+    static const unsigned __int64 muNameHash = 0x47334DD09E6C3FE9;
+    static const unsigned __int64 muTemplateHash = 0x465E44C5E61B503;
     static const int miNumMembers = 9;
 
     cTkColour mColour;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcFreighterBaseOption
 {
-    static const unsigned __int64 muNameHash = 2880613812752216666;
-    static const unsigned __int64 muTemplateHash = 2810574126245089052;
+    static const unsigned __int64 muNameHash = 0x27F9FF00242DF25A;
+    static const unsigned __int64 muTemplateHash = 0x27012A46D9BE0F1C;
     static const int miNumMembers = 2;
 
     cTkFixedString<128,char> macBaseDataFile;

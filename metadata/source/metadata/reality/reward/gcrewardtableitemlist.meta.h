@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eRewardChoice
 {
     ERewardChoice_GiveAll = 0,
@@ -17,8 +17,8 @@ enum eRewardChoice
 
 class cGcRewardTableItemList
 {
-    static const unsigned __int64 muNameHash = 17977720755860110919;
-    static const unsigned __int64 muTemplateHash = 1066576159794867478;
+    static const unsigned __int64 muNameHash = 0xF97DB1C704357E47;
+    static const unsigned __int64 muTemplateHash = 0xECD3D5DCA792D16;
     static const int miNumMembers = 4;
 
     eRewardChoice meRewardChoice;

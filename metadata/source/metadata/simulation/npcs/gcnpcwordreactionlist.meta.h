@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcNPCWordReactionList
 {
-    static const unsigned __int64 muNameHash = 6035972087068602164;
-    static const unsigned __int64 muTemplateHash = 9351445782049554711;
+    static const unsigned __int64 muNameHash = 0x53C414A21BE5AF34;
+    static const unsigned __int64 muTemplateHash = 0x81C7026487638117;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcNPCProbabilityWordReactionData> maReactions;

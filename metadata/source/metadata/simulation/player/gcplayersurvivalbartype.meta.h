@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eSurvivalBar
 {
     ESurvivalBar_Health = 0,
@@ -10,8 +10,8 @@ enum eSurvivalBar
 
 class cGcPlayerSurvivalBarType
 {
-    static const unsigned __int64 muNameHash = 13768041705171693056;
-    static const unsigned __int64 muTemplateHash = 7747981698864993171;
+    static const unsigned __int64 muNameHash = 0xBF11E8FC1185AE00;
+    static const unsigned __int64 muTemplateHash = 0x6B865C4DF7135393;
     static const int miNumMembers = 1;
 
     eSurvivalBar meSurvivalBar;

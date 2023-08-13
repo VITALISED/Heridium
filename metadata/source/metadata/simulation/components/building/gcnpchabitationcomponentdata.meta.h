@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcNPCHabitationType;
 
 class cGcNPCHabitationComponentData
 {
-    static const unsigned __int64 muNameHash = 3748448369649971989;
-    static const unsigned __int64 muTemplateHash = 433737691712652145;
+    static const unsigned __int64 muNameHash = 0x340529EE9BE0F315;
+    static const unsigned __int64 muTemplateHash = 0x604F221F03B0371;
     static const int miNumMembers = 2;
 
     TkID<128> mNPCSpawnLocator;

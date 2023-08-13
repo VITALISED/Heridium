@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSentinelSpawnNamedSequence
 {
-    static const unsigned __int64 muNameHash = 8630021948469989521;
-    static const unsigned __int64 muTemplateHash = 8291674147690780172;
+    static const unsigned __int64 muNameHash = 0x77C3FF3D0260D091;
+    static const unsigned __int64 muTemplateHash = 0x7311F1B4C666160C;
     static const int miNumMembers = 2;
 
     TkID<128> mId;

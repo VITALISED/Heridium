@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eTypeOfCost
 {
     ETypeOfCost_Currency = 0,
@@ -11,8 +11,8 @@ class cGcCurrency;
 
 class cGcUnlockableTreeCostType
 {
-    static const unsigned __int64 muNameHash = 8083815208008484912;
-    static const unsigned __int64 muTemplateHash = 3871377287695930160;
+    static const unsigned __int64 muNameHash = 0x702F7B1A0F3F0830;
+    static const unsigned __int64 muTemplateHash = 0x35B9E521B8A19330;
     static const int miNumMembers = 5;
 
     TkID<128> mCostTypeID;

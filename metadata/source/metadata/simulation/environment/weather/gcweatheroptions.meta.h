@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eWeather
 {
     EWeather_Clear = 0,
@@ -23,8 +23,8 @@ enum eWeather
 
 class cGcWeatherOptions
 {
-    static const unsigned __int64 muNameHash = 11722488574076295148;
-    static const unsigned __int64 muTemplateHash = 6975483191690725439;
+    static const unsigned __int64 muNameHash = 0xA2AEA53FED6497EC;
+    static const unsigned __int64 muTemplateHash = 0x60CDE501516F083F;
     static const int miNumMembers = 1;
 
     eWeather meWeather;

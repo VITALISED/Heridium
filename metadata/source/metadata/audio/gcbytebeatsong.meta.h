@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcByteBeatSong
 {
-    static const unsigned __int64 muNameHash = 993425029385042807;
-    static const unsigned __int64 muTemplateHash = 8797383764137434056;
+    static const unsigned __int64 muNameHash = 0xDC95ACD037A3B77;
+    static const unsigned __int64 muTemplateHash = 0x7A1695EC46335BC8;
     static const int miNumMembers = 8;
 
     TkID<128> mId;

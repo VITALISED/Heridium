@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkModelResource;
 
 class cGcCameraAnimationData
 {
-    static const unsigned __int64 muNameHash = 4898184536407610735;
-    static const unsigned __int64 muTemplateHash = 7392053853610478853;
+    static const unsigned __int64 muNameHash = 0x43F9D8E258E3156F;
+    static const unsigned __int64 muTemplateHash = 0x6695D9D0A9028D05;
     static const int miNumMembers = 1;
 
     cTkModelResource mCameraAnimation;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPlayerHazardTable
 {
-    static const unsigned __int64 muNameHash = 14742406722635075931;
-    static const unsigned __int64 muTemplateHash = 16659892082364826170;
+    static const unsigned __int64 muNameHash = 0xCC978CCE3CFE915B;
+    static const unsigned __int64 muTemplateHash = 0xE733D394BDB2C23A;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cGcPlayerHazardData> maTable;

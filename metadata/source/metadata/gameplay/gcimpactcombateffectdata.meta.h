@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcCombatEffectType;
 
 class cGcImpactCombatEffectData
 {
-    static const unsigned __int64 muNameHash = 3608462583905990444;
-    static const unsigned __int64 muTemplateHash = 13145082519413371162;
+    static const unsigned __int64 muNameHash = 0x3213D59A0301372C;
+    static const unsigned __int64 muTemplateHash = 0xB66CB6E7E0D4B11A;
     static const int miNumMembers = 4;
 
     cGcCombatEffectType mCombatEffectType;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eWonderMineralCategory
 {
     EWonderMineralCategory_GeneralFact0 = 0,
@@ -15,8 +15,8 @@ enum eWonderMineralCategory
 
 class cGcWonderMineralCategory
 {
-    static const unsigned __int64 muNameHash = 11203593955890452626;
-    static const unsigned __int64 muTemplateHash = 13500405273256805351;
+    static const unsigned __int64 muNameHash = 0x9B7B2957FC905892;
+    static const unsigned __int64 muTemplateHash = 0xBB5B13115C4843E7;
     static const int miNumMembers = 1;
 
     eWonderMineralCategory meWonderMineralCategory;

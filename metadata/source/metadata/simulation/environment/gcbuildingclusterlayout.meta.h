@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBuildingClusterLayout
 {
-    static const unsigned __int64 muNameHash = 9988782450079061384;
-    static const unsigned __int64 muTemplateHash = 1599894260093024034;
+    static const unsigned __int64 muNameHash = 0x8A9F48B72B9E5588;
+    static const unsigned __int64 muTemplateHash = 0x1633F75A5B07F722;
     static const int miNumMembers = 5;
 
     TkID<128> mID;

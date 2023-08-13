@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcBaseBuildingPartStyle;
 
 class cGcWFCBuilding
 {
-    static const unsigned __int64 muNameHash = 4811613435599932228;
-    static const unsigned __int64 muTemplateHash = 17289429525155777208;
+    static const unsigned __int64 muNameHash = 0x42C648ED396E4B44;
+    static const unsigned __int64 muTemplateHash = 0xEFF0648CC00F8AB8;
     static const int miNumMembers = 19;
 
     cTkFixedString<32,char> macName;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eImpact
 {
     EImpact_Default = 0,
@@ -24,8 +24,8 @@ enum eImpact
 
 class cGcProjectileImpactType
 {
-    static const unsigned __int64 muNameHash = 14290662830212097278;
-    static const unsigned __int64 muTemplateHash = 5413403745756241698;
+    static const unsigned __int64 muNameHash = 0xC652A220FFABA4FE;
+    static const unsigned __int64 muTemplateHash = 0x4B2046067B91DF22;
     static const int miNumMembers = 1;
 
     eImpact meImpact;

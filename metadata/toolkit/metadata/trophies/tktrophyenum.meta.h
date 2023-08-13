@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eTrophy
 {
     ETrophy_None = -1,
@@ -13,8 +13,8 @@ enum eTrophy
 
 class cTkTrophyEnum
 {
-    static const unsigned __int64 muNameHash = 17657827181906111518;
-    static const unsigned __int64 muTemplateHash = 15914679944731734394;
+    static const unsigned __int64 muNameHash = 0xF50D34444AC02C1E;
+    static const unsigned __int64 muTemplateHash = 0xDCDC4D1713C4B17A;
     static const int miNumMembers = 1;
 
     eTrophy meTrophy;

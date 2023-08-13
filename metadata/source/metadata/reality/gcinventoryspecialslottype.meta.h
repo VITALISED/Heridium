@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eInventorySpecialSlotType
 {
     EInventorySpecialSlotType_Broken = 0,
@@ -12,8 +12,8 @@ enum eInventorySpecialSlotType
 
 class cGcInventorySpecialSlotType
 {
-    static const unsigned __int64 muNameHash = 12213775728764953934;
-    static const unsigned __int64 muTemplateHash = 12847024259253054989;
+    static const unsigned __int64 muNameHash = 0xA9800C505F52A54E;
+    static const unsigned __int64 muTemplateHash = 0xB249CC7F519AAE0D;
     static const int miNumMembers = 1;
 
     eInventorySpecialSlotType meInventorySpecialSlotType;

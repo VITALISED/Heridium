@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkChordPathMapping
 {
-    static const unsigned __int64 muNameHash = 11534507672682466881;
-    static const unsigned __int64 muTemplateHash = 13774916639524434608;
+    static const unsigned __int64 muNameHash = 0xA012CD9DA9418E41;
+    static const unsigned __int64 muTemplateHash = 0xBF2A55B37578B2B0;
     static const int miNumMembers = 6;
 
     cTkDynamicArray<cTkInputEnum> maButtonIds;

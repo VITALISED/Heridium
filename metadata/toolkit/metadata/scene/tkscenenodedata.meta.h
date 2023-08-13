@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkTransformData;
 
 class cTkSceneNodeData
 {
-    static const unsigned __int64 muNameHash = 3178251672069566867;
-    static const unsigned __int64 muTemplateHash = 2147297743366028980;
+    static const unsigned __int64 muNameHash = 0x2C1B6B0E807F7193;
+    static const unsigned __int64 muTemplateHash = 0x1DCCBBEBB4547EB4;
     static const int miNumMembers = 6;
 
     cTkFixedString<128,char> macName;

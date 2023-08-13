@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcRewardChangeGlobalMission;
 
 class cGcMissionSequenceSetGlobalMission
 {
-    static const unsigned __int64 muNameHash = 16355877623644621165;
-    static const unsigned __int64 muTemplateHash = 3749973152907864423;
+    static const unsigned __int64 muNameHash = 0xE2FBC00AA319096D;
+    static const unsigned __int64 muTemplateHash = 0x340A94B6E0532967;
     static const int miNumMembers = 2;
 
     cGcRewardChangeGlobalMission mType;

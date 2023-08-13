@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcBlockedMessage
 {
-    static const unsigned __int64 muNameHash = 15353693221121722942;
-    static const unsigned __int64 muTemplateHash = 14973168853764904229;
+    static const unsigned __int64 muNameHash = 0xD51346A323488A3E;
+    static const unsigned __int64 muTemplateHash = 0xCFCB61BDC2999525;
     static const int miNumMembers = 1;
 
     cTkFixedString<128,char> macMessageId;

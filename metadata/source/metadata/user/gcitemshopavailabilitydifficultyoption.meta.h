@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eItemShopAvailabilityDifficulty
 {
     EItemShopAvailabilityDifficulty_High = 0,
@@ -10,8 +10,8 @@ enum eItemShopAvailabilityDifficulty
 
 class cGcItemShopAvailabilityDifficultyOption
 {
-    static const unsigned __int64 muNameHash = 11413528189562787690;
-    static const unsigned __int64 muTemplateHash = 5035729384198545739;
+    static const unsigned __int64 muNameHash = 0x9E64FF6ABCCC176A;
+    static const unsigned __int64 muTemplateHash = 0x45E28131CA26A14B;
     static const int miNumMembers = 1;
 
     eItemShopAvailabilityDifficulty meItemShopAvailabilityDifficulty;

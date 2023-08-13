@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eComparisonType
 {
     EComparisonType_Equal = 0,
@@ -13,8 +13,8 @@ enum eComparisonType
 
 class cTkBlackboardComparisonTypeEnum
 {
-    static const unsigned __int64 muNameHash = 2599328594204840424;
-    static const unsigned __int64 muTemplateHash = 4801987251032561950;
+    static const unsigned __int64 muNameHash = 0x2412AB95A81851E8;
+    static const unsigned __int64 muTemplateHash = 0x42A415F679C0191E;
     static const int miNumMembers = 1;
 
     eComparisonType meComparisonType;

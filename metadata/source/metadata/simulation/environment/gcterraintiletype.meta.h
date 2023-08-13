@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eTileType
 {
     ETileType_Air = 0,
@@ -16,8 +16,8 @@ enum eTileType
 
 class cGcTerrainTileType
 {
-    static const unsigned __int64 muNameHash = 7081893286849523165;
-    static const unsigned __int64 muTemplateHash = 8467081386522932422;
+    static const unsigned __int64 muNameHash = 0x6247F06C43E3ADDD;
+    static const unsigned __int64 muTemplateHash = 0x75811DA9180574C6;
     static const int miNumMembers = 1;
 
     eTileType meTileType;

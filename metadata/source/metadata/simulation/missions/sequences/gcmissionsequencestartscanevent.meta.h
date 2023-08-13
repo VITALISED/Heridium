@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcScanEventTableType;
 class cGcPlayerMissionParticipantType;
 
 class cGcMissionSequenceStartScanEvent
 {
-    static const unsigned __int64 muNameHash = 9575334136625132807;
-    static const unsigned __int64 muTemplateHash = 4811940720148540407;
+    static const unsigned __int64 muNameHash = 0x84E26BAA3B367507;
+    static const unsigned __int64 muTemplateHash = 0x42C7729718B0EBF7;
     static const int miNumMembers = 7;
 
     cGcScanEventTableType mTable;

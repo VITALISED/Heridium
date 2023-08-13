@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPlayerWeaponClass;
 class cGcStatsTypes;
 class cGcRemoteWeapons;
 
 class cGcPlayerWeaponPropertiesData
 {
-    static const unsigned __int64 muNameHash = 15057832509958218820;
-    static const unsigned __int64 muTemplateHash = 3391375436099879210;
+    static const unsigned __int64 muNameHash = 0xD0F82AE353636444;
+    static const unsigned __int64 muTemplateHash = 0x2F1095FDA8B8012A;
     static const int miNumMembers = 38;
 
     cGcPlayerWeaponClass mWeaponClass;

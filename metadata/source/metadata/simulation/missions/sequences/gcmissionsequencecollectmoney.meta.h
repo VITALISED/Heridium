@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcCurrency;
 
 class cGcMissionSequenceCollectMoney
 {
-    static const unsigned __int64 muNameHash = 9483139295841560172;
-    static const unsigned __int64 muTemplateHash = 10675411207861059566;
+    static const unsigned __int64 muNameHash = 0x839AE0F21C2F266C;
+    static const unsigned __int64 muTemplateHash = 0x9426ADEECBC83FEE;
     static const int miNumMembers = 9;
 
     cTkFixedString<128,char> macMessage;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMiningSubstanceData;
 class cGcMiningSubstanceData;
 class cGcMiningSubstanceData;
@@ -10,8 +10,8 @@ class cGcTerrainControls;
 
 class cGcBiomeData
 {
-    static const unsigned __int64 muNameHash = 3446755673896090957;
-    static const unsigned __int64 muTemplateHash = 11775163143387296603;
+    static const unsigned __int64 muNameHash = 0x2FD5560612237D4D;
+    static const unsigned __int64 muTemplateHash = 0xA369C87DCDDF335B;
     static const int miNumMembers = 17;
 
     cTkFixedString<128,char> macTextureFile;

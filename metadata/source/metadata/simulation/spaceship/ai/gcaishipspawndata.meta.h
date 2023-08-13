@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkInputEnum;
 class cGcAISpaceshipRoles;
 class cGcAIShipSpawnMarkerData;
@@ -14,8 +14,8 @@ class cGcShipAIPerformanceArray;
 
 class cGcAIShipSpawnData
 {
-    static const unsigned __int64 muNameHash = 3875646585278456881;
-    static const unsigned __int64 muTemplateHash = 11305907453241709749;
+    static const unsigned __int64 muNameHash = 0x35C91009067A6431;
+    static const unsigned __int64 muTemplateHash = 0x9CE6A6ED6DE9D4B5;
     static const int miNumMembers = 18;
 
     TkID<256> mMessage;

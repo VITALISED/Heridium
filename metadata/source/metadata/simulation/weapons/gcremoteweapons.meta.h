@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eRemoteWeaponType
 {
     ERemoteWeaponType_Laser = 0,
@@ -29,8 +29,8 @@ enum eRemoteWeaponType
 
 class cGcRemoteWeapons
 {
-    static const unsigned __int64 muNameHash = 3619202455934862759;
-    static const unsigned __int64 muTemplateHash = 13972971739952291549;
+    static const unsigned __int64 muNameHash = 0x3239FD75543805A7;
+    static const unsigned __int64 muTemplateHash = 0xC1E9F7C3F86D9EDD;
     static const int miNumMembers = 1;
 
     eRemoteWeaponType meRemoteWeaponType;

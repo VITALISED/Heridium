@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPlayerSpaceshipEngineData;
 class cGcPlayerSpaceshipEngineData;
 class cGcPlayerSpaceshipEngineData;
@@ -10,8 +10,8 @@ class cTkCurveType;
 
 class cGcPlayerSpaceshipControlData
 {
-    static const unsigned __int64 muNameHash = 5311704159900097087;
-    static const unsigned __int64 muTemplateHash = 10819468709782625760;
+    static const unsigned __int64 muNameHash = 0x49B6F6CA72CF5A3F;
+    static const unsigned __int64 muTemplateHash = 0x96267977B10C1DE0;
     static const int miNumMembers = 23;
 
     cGcPlayerSpaceshipEngineData mSpaceEngine;

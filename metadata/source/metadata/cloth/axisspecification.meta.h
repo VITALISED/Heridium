@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eAxis
 {
     EAxis_X = 0,
@@ -14,8 +14,8 @@ enum eAxis
 
 class cAxisSpecification
 {
-    static const unsigned __int64 muNameHash = 16459024879596495607;
-    static const unsigned __int64 muTemplateHash = 16169242531703552998;
+    static const unsigned __int64 muNameHash = 0xE46A33ECA1AA62F7;
+    static const unsigned __int64 muTemplateHash = 0xE064B06A0D53FBE6;
     static const int miNumMembers = 2;
 
     eAxis meAxis;

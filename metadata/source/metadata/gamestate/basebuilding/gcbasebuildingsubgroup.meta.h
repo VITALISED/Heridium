@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBaseBuildingSubGroup
 {
-    static const unsigned __int64 muNameHash = 10765855589177490194;
-    static const unsigned __int64 muTemplateHash = 16513681514299483141;
+    static const unsigned __int64 muNameHash = 0x9568009E5013FB12;
+    static const unsigned __int64 muTemplateHash = 0xE52C61D811C16405;
     static const int miNumMembers = 2;
 
     TkID<128> mId;

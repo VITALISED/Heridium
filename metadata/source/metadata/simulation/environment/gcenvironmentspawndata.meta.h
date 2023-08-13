@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcEnvironmentSpawnData
 {
-    static const unsigned __int64 muNameHash = 1946623248373017548;
-    static const unsigned __int64 muTemplateHash = 12068650919320247206;
+    static const unsigned __int64 muNameHash = 0x1B03CB87DECA6BCC;
+    static const unsigned __int64 muTemplateHash = 0xA77C761194465BA6;
     static const int miNumMembers = 6;
 
     cTkDynamicArray<cGcCreatureSpawnData> maCreatures;

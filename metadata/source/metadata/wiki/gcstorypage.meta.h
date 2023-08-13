@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInteractionType;
 class cTkTextureResource;
 class cGcWikiTopicType;
 
 class cGcStoryPage
 {
-    static const unsigned __int64 muNameHash = 15730159864219512716;
-    static const unsigned __int64 muTemplateHash = 1049048092385538660;
+    static const unsigned __int64 muNameHash = 0xDA4CC10DF6E92F8C;
+    static const unsigned __int64 muTemplateHash = 0xE8EF7AE92F0F264;
     static const int miNumMembers = 8;
 
     cGcInteractionType mInteractionType;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkEqualityEnum;
 
 class cGcMissionConditionStatDiff
 {
-    static const unsigned __int64 muNameHash = 4833859380436486240;
-    static const unsigned __int64 muTemplateHash = 16716035264618263624;
+    static const unsigned __int64 muNameHash = 0x4315517EE11B4860;
+    static const unsigned __int64 muTemplateHash = 0xE7FB498200797448;
     static const int miNumMembers = 4;
 
     TkID<128> mCurrentStat;

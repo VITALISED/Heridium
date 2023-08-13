@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcDefaultMissionSubstanceEnum;
 class cGcItemNeedPurpose;
 
 class cGcMissionConditionHasSubstance
 {
-    static const unsigned __int64 muNameHash = 11339752680105234334;
-    static const unsigned __int64 muTemplateHash = 1411825978706712227;
+    static const unsigned __int64 muNameHash = 0x9D5EE4FB6274CF9E;
+    static const unsigned __int64 muTemplateHash = 0x1397D03F597B56A3;
     static const int miNumMembers = 5;
 
     cGcDefaultMissionSubstanceEnum mDefault;

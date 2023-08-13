@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcGalaxyGenerationSetupData
 {
-    static const unsigned __int64 muNameHash = 8423671138688577729;
-    static const unsigned __int64 muTemplateHash = 14801442510452797971;
+    static const unsigned __int64 muNameHash = 0x74E6E445263E30C1;
+    static const unsigned __int64 muTemplateHash = 0xCD69498AB6E7B213;
     static const int miNumMembers = 32;
 
     float mfSpiralFormChance;

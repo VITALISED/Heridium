@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcPlayAudioAction
 {
-    static const unsigned __int64 muNameHash = 8971951024601392006;
-    static const unsigned __int64 muTemplateHash = 13953935011597456437;
+    static const unsigned __int64 muNameHash = 0x7C82C5EBE3916386;
+    static const unsigned __int64 muTemplateHash = 0xC1A655F641271435;
     static const int miNumMembers = 3;
 
     cTkFixedString<128,char> macSound;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcMessageTrackTargetAlert
 {
-    static const unsigned __int64 muNameHash = 12454494542036500886;
-    static const unsigned __int64 muTemplateHash = 17946531191373269632;
+    static const unsigned __int64 muNameHash = 0xACD740CC9B208196;
+    static const unsigned __int64 muTemplateHash = 0xF90EE308A4458A80;
     static const int miNumMembers = 4;
 
     int miAttacker;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcCreatureAudioTable
 {
-    static const unsigned __int64 muNameHash = 6674527326781380633;
-    static const unsigned __int64 muTemplateHash = 8408001423315323506;
+    static const unsigned __int64 muNameHash = 0x5CA0AF3D94711819;
+    static const unsigned __int64 muTemplateHash = 0x74AF38BF3BB04A72;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcCreatureVocalSoundData> maTable;

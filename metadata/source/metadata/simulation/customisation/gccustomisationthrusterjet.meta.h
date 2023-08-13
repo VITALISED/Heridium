@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkModelResource;
 class cTkModelResource;
 
 class cGcCustomisationThrusterJet
 {
-    static const unsigned __int64 muNameHash = 8338626943594120328;
-    static const unsigned __int64 muTemplateHash = 16851815600234299146;
+    static const unsigned __int64 muNameHash = 0x73B8C106776DC488;
+    static const unsigned __int64 muTemplateHash = 0xE9DDAD00F059FF0A;
     static const int miNumMembers = 4;
 
     TkID<128> mLocatorPrefix;

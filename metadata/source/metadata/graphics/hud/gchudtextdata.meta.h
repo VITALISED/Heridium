@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcHUDComponent;
 class cGcTextPreset;
 
 class cGcHUDTextData
 {
-    static const unsigned __int64 muNameHash = 9858300221138915525;
-    static const unsigned __int64 muTemplateHash = 10300800922952207853;
+    static const unsigned __int64 muNameHash = 0x88CFB7D1D223D0C5;
+    static const unsigned __int64 muTemplateHash = 0x8EF3CBDD0A950DED;
     static const int miNumMembers = 3;
 
     cGcHUDComponent mData;

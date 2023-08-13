@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInteractionType;
 class cGcAlienRace;
 
 class cGcRewardIncrementInteractionIndex
 {
-    static const unsigned __int64 muNameHash = 3566770833722590016;
-    static const unsigned __int64 muTemplateHash = 2869774072061564538;
+    static const unsigned __int64 muNameHash = 0x317FB72CFB424340;
+    static const unsigned __int64 muTemplateHash = 0x27D37C5056DB167A;
     static const int miNumMembers = 2;
 
     cGcInteractionType mInteractionToIncrement;

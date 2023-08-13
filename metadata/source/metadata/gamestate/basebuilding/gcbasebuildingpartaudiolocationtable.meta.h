@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBaseBuildingPartAudioLocationTable
 {
-    static const unsigned __int64 muNameHash = 7932814135479282434;
-    static const unsigned __int64 muTemplateHash = 17662883798098249740;
+    static const unsigned __int64 muNameHash = 0x6E17046D2670AB02;
+    static const unsigned __int64 muTemplateHash = 0xF51F2B3B7EA6080C;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcBaseBuildingPartAudioLocationEntry> maAudioLocations;

@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcStatsEnum;
 class cTkModelResource;
 
 class cGcDestructableComponentData
 {
-    static const unsigned __int64 muNameHash = 16306194465406989501;
-    static const unsigned __int64 muTemplateHash = 119174192516878704;
+    static const unsigned __int64 muNameHash = 0xE24B3D78ED0634BD;
+    static const unsigned __int64 muTemplateHash = 0x1A7644BF35CD170;
     static const int miNumMembers = 43;
 
     TkID<128> mExplosion;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eCustomisationDataType
 {
     ECustomisationDataType_Player = 0,
@@ -30,8 +30,8 @@ enum eCustomisationDataType
 
 class cGcCustomisationComponentData
 {
-    static const unsigned __int64 muNameHash = 5958359709116889797;
-    static const unsigned __int64 muTemplateHash = 15288551434539624831;
+    static const unsigned __int64 muNameHash = 0x52B0589631E97AC5;
+    static const unsigned __int64 muTemplateHash = 0xD42BD8870A05E97F;
     static const int miNumMembers = 1;
 
     eCustomisationDataType meCustomisationDataType;

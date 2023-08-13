@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eTransform
 {
     ETransform_None = 0,
@@ -12,8 +12,8 @@ enum eTransform
 
 class cGcWFCFace
 {
-    static const unsigned __int64 muNameHash = 12480355332439238307;
-    static const unsigned __int64 muTemplateHash = 10806294385503205536;
+    static const unsigned __int64 muNameHash = 0xAD33210D14B166A3;
+    static const unsigned __int64 muTemplateHash = 0x95F7AB7D4A3778A0;
     static const int miNumMembers = 11;
 
     cTkFixedString<32,char> macConnector;

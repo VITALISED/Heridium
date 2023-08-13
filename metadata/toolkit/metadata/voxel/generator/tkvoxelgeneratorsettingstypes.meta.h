@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eTerrainSettings
 {
     ETerrainSettings_FloatingIslands = 0,
@@ -28,8 +28,8 @@ enum eTerrainSettings
 
 class cTkVoxelGeneratorSettingsTypes
 {
-    static const unsigned __int64 muNameHash = 6967249295352748537;
-    static const unsigned __int64 muTemplateHash = 9920023707999831737;
+    static const unsigned __int64 muNameHash = 0x60B0A451EF1759F9;
+    static const unsigned __int64 muTemplateHash = 0x89AB0100FEC886B9;
     static const int miNumMembers = 1;
 
     eTerrainSettings meTerrainSettings;

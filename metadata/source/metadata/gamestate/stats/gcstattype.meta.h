@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eStatType
 {
     EStatType_Int = 0,
@@ -10,8 +10,8 @@ enum eStatType
 
 class cGcStatType
 {
-    static const unsigned __int64 muNameHash = 906789998877197522;
-    static const unsigned __int64 muTemplateHash = 14327938460165640859;
+    static const unsigned __int64 muNameHash = 0xC9590B318F3C4D2;
+    static const unsigned __int64 muTemplateHash = 0xC6D7101DE9D4929B;
     static const int miNumMembers = 1;
 
     eStatType meStatType;

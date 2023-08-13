@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcIDLookupPaths
 {
-    static const unsigned __int64 muNameHash = 10317304836403305477;
-    static const unsigned __int64 muTemplateHash = 4918381436562129238;
+    static const unsigned __int64 muNameHash = 0x8F2E6E15D53D1C05;
+    static const unsigned __int64 muTemplateHash = 0x444199DB9C294156;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcIDLookupPath> maPaths;

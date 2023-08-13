@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAlienMood;
 
 enum eTranslateAlienTextOverride
@@ -20,8 +20,8 @@ class cGcAudioWwiseEvents;
 
 class cGcPuzzleTextFlow
 {
-    static const unsigned __int64 muNameHash = 4957198538826529558;
-    static const unsigned __int64 muTemplateHash = 7143476969705450939;
+    static const unsigned __int64 muNameHash = 0x44CB81CE83D73B16;
+    static const unsigned __int64 muTemplateHash = 0x6322BA74C87A2DBB;
     static const int miNumMembers = 8;
 
     TkID<256> mText;

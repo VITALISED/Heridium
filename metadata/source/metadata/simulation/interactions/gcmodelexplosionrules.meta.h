@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcModelExplosionRules
 {
-    static const unsigned __int64 muNameHash = 15009404884660508986;
-    static const unsigned __int64 muTemplateHash = 4778606583354350836;
+    static const unsigned __int64 muNameHash = 0xD04C1E382833D93A;
+    static const unsigned __int64 muTemplateHash = 0x4251055E922DDCF4;
     static const int miNumMembers = 3;
 
     cTkDynamicArray<cGcModelExplosionRule> maRules;

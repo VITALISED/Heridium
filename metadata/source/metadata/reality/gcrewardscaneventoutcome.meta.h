@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eRewardScanEventOutcome
 {
     ERewardScanEventOutcome_Success = 0,
@@ -14,8 +14,8 @@ enum eRewardScanEventOutcome
 
 class cGcRewardScanEventOutcome
 {
-    static const unsigned __int64 muNameHash = 2865810586110224066;
-    static const unsigned __int64 muTemplateHash = 6567674074530546820;
+    static const unsigned __int64 muNameHash = 0x27C5678B5AA766C2;
+    static const unsigned __int64 muTemplateHash = 0x5B2510C614EF8484;
     static const int miNumMembers = 1;
 
     eRewardScanEventOutcome meRewardScanEventOutcome;

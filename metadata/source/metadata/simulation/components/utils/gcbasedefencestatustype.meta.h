@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eBaseDefenceStatus
 {
     EBaseDefenceStatus_AttackingTarget = 0,
@@ -12,8 +12,8 @@ enum eBaseDefenceStatus
 
 class cGcBaseDefenceStatusType
 {
-    static const unsigned __int64 muNameHash = 1213136931582482327;
-    static const unsigned __int64 muTemplateHash = 18090642450384623460;
+    static const unsigned __int64 muNameHash = 0x10D5ED9C9EE19797;
+    static const unsigned __int64 muTemplateHash = 0xFB0EDF75D5C71764;
     static const int miNumMembers = 1;
 
     eBaseDefenceStatus meBaseDefenceStatus;

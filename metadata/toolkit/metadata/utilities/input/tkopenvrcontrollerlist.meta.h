@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkOpenVRControllerList
 {
-    static const unsigned __int64 muNameHash = 11236552088212979690;
-    static const unsigned __int64 muTemplateHash = 4032985900855416564;
+    static const unsigned __int64 muNameHash = 0x9BF04097261BBFEA;
+    static const unsigned __int64 muTemplateHash = 0x37F80B4F24A556F4;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cTkOpenVRControllerLookup> maDevices;

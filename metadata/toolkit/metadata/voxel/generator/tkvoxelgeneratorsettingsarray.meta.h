@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkVoxelGeneratorSettingsArray
 {
-    static const unsigned __int64 muNameHash = 7127534095283408774;
-    static const unsigned __int64 muTemplateHash = 1431264101319606206;
+    static const unsigned __int64 muNameHash = 0x62EA167F11DA4F86;
+    static const unsigned __int64 muTemplateHash = 0x13DCDF1DF2EC7FBE;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cTkVoxelGeneratorSettingsElement> maTerrainSettings;

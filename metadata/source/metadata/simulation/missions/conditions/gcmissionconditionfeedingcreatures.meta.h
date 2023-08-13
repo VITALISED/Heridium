@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionFeedingCreatures
 {
-    static const unsigned __int64 muNameHash = 9880595145547677960;
-    static const unsigned __int64 muTemplateHash = 8735244709652024032;
+    static const unsigned __int64 muNameHash = 0x891EECEF6BD18108;
+    static const unsigned __int64 muTemplateHash = 0x7939D2C838EB4AE0;
     static const int miNumMembers = 2;
 
     int miMinCreatures;

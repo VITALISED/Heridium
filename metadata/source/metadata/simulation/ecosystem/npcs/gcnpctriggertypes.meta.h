@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eNPCTrigger
 {
     ENPCTrigger_None = 0,
@@ -22,8 +22,8 @@ enum eNPCTrigger
 
 class cGcNPCTriggerTypes
 {
-    static const unsigned __int64 muNameHash = 17098516155315979659;
-    static const unsigned __int64 muTemplateHash = 3783725265198107386;
+    static const unsigned __int64 muNameHash = 0xED4A21D9F7E3058B;
+    static const unsigned __int64 muTemplateHash = 0x34827E14E7CDCAFA;
     static const int miNumMembers = 1;
 
     eNPCTrigger meNPCTrigger;

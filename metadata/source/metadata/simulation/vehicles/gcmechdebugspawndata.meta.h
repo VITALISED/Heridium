@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCharacterCustomisationSaveData;
 
 class cGcMechDebugSpawnData
 {
-    static const unsigned __int64 muNameHash = 14780922959908333959;
-    static const unsigned __int64 muTemplateHash = 15314727640828297005;
+    static const unsigned __int64 muNameHash = 0xCD20631E8DC06987;
+    static const unsigned __int64 muTemplateHash = 0xD488D7A5FF6D3F2D;
     static const int miNumMembers = 9;
 
     cTkVector mPosition;

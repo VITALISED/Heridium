@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMaintenanceComponentData;
 
 class cGcRefinerUnitComponentData
 {
-    static const unsigned __int64 muNameHash = 948698157264501280;
-    static const unsigned __int64 muTemplateHash = 18237828865706480884;
+    static const unsigned __int64 muNameHash = 0xD2A73F296D17A20;
+    static const unsigned __int64 muTemplateHash = 0xFD19C8B9A6CCD4F4;
     static const int miNumMembers = 3;
 
     cGcMaintenanceComponentData mMaintenanceData;

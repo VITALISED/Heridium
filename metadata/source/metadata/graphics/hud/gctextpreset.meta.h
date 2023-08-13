@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcFontTypesEnum;
 
 class cGcTextPreset
 {
-    static const unsigned __int64 muNameHash = 5545168944627772340;
-    static const unsigned __int64 muTemplateHash = 3540282082833255728;
+    static const unsigned __int64 muNameHash = 0x4CF465C68C10EBB4;
+    static const unsigned __int64 muTemplateHash = 0x31219BCC0FF4CD30;
     static const int miNumMembers = 4;
 
     cGcFontTypesEnum mFont;

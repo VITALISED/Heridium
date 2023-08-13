@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkModelResource;
 
 class cGcCustomisationShipTrails
 {
-    static const unsigned __int64 muNameHash = 2547863498796032216;
-    static const unsigned __int64 muTemplateHash = 3804879365533380567;
+    static const unsigned __int64 muNameHash = 0x235BD45A5DEBE0D8;
+    static const unsigned __int64 muTemplateHash = 0x34CDA59FB3D4AFD7;
     static const int miNumMembers = 2;
 
     TkID<128> mLinkedTechID;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkActionButtonLookup
 {
-    static const unsigned __int64 muNameHash = 8666575514347190195;
-    static const unsigned __int64 muTemplateHash = 16077706064019809402;
+    static const unsigned __int64 muNameHash = 0x7845DC8347C337B3;
+    static const unsigned __int64 muTemplateHash = 0xDF1F7C7B5D0B647A;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cTkActionButtonMap> maLookup;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eTerrainEdits
 {
     ETerrainEdits_None = 0,
@@ -24,8 +24,8 @@ enum eFreighterModuleType
 
 class cGcWFCModulePrototype
 {
-    static const unsigned __int64 muNameHash = 16975596874281082716;
-    static const unsigned __int64 muTemplateHash = 8417264194654967406;
+    static const unsigned __int64 muNameHash = 0xEB956F6AA5C15F5C;
+    static const unsigned __int64 muTemplateHash = 0x74D021303F06166E;
     static const int miNumMembers = 22;
 
     cTkFixedString<128,char> macName;

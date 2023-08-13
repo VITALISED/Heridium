@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcCombatEffectsProperties
 {
-    static const unsigned __int64 muNameHash = 14095850685300384649;
-    static const unsigned __int64 muTemplateHash = 5419903480356813565;
+    static const unsigned __int64 muNameHash = 0xC39E8583E846A389;
+    static const unsigned __int64 muTemplateHash = 0x4B375D7FDF923AFD;
     static const int miNumMembers = 5;
 
     bool mbIsAffected;

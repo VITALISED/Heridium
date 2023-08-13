@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardSecondaryInteractionOptions
 {
-    static const unsigned __int64 muNameHash = 4940048324809006478;
-    static const unsigned __int64 muTemplateHash = 2741292453118994088;
+    static const unsigned __int64 muNameHash = 0x448E93C725811D8E;
+    static const unsigned __int64 muTemplateHash = 0x260B06F64D9DE6A8;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcAlienPuzzleOption> maOptions;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkTextureResource;
 class cTkTextureResource;
 class cTkTextureResource;
@@ -9,8 +9,8 @@ class cTkTextureResource;
 
 class cGcGalaxyInfoIcons
 {
-    static const unsigned __int64 muNameHash = 2153890797589797387;
-    static const unsigned __int64 muTemplateHash = 9024568122367508131;
+    static const unsigned __int64 muNameHash = 0x1DE42844C3529A0B;
+    static const unsigned __int64 muTemplateHash = 0x7D3DB4E4A1077EA3;
     static const int miNumMembers = 9;
 
     cTkFixedArray<cTkTextureResource> maRaceIcons;

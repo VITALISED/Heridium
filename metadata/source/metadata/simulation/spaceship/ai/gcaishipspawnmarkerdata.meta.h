@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkTextureResource;
 
 enum eShipsToMark
@@ -12,8 +12,8 @@ enum eShipsToMark
 
 class cGcAIShipSpawnMarkerData
 {
-    static const unsigned __int64 muNameHash = 15798758451715474230;
-    static const unsigned __int64 muTemplateHash = 1169614419345792526;
+    static const unsigned __int64 muNameHash = 0xDB40771B3EB38336;
+    static const unsigned __int64 muTemplateHash = 0x103B4E1E1547DE0E;
     static const int miNumMembers = 7;
 
     cTkTextureResource mMarkerIcon;

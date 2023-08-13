@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcNPCReactionData
 {
-    static const unsigned __int64 muNameHash = 12122314538621217288;
-    static const unsigned __int64 muTemplateHash = 17151787634972288496;
+    static const unsigned __int64 muNameHash = 0xA83B1CD89A122A08;
+    static const unsigned __int64 muTemplateHash = 0xEE0763FADD75E5F0;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcNPCReactionEntry> maReactions;

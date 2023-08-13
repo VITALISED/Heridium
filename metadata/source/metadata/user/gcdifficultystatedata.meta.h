@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDifficultyPresetType;
 class cGcDifficultyPresetType;
 class cGcDifficultyPresetType;
@@ -8,8 +8,8 @@ class cGcDifficultySettingsData;
 
 class cGcDifficultyStateData
 {
-    static const unsigned __int64 muNameHash = 9316104782545117896;
-    static const unsigned __int64 muTemplateHash = 3705339067349574067;
+    static const unsigned __int64 muNameHash = 0x814973F0DDEB62C8;
+    static const unsigned __int64 muTemplateHash = 0x336C024001BFA1B3;
     static const int miNumMembers = 4;
 
     cGcDifficultyPresetType mPreset;

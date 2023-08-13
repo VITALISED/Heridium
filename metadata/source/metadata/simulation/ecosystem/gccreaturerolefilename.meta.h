@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCreatureRoleFilename
 {
-    static const unsigned __int64 muNameHash = 7238487587633533267;
-    static const unsigned __int64 muTemplateHash = 17795699062365871713;
+    static const unsigned __int64 muNameHash = 0x6474461C1BF89153;
+    static const unsigned __int64 muTemplateHash = 0xF6F70602F611DE61;
     static const int miNumMembers = 2;
 
     cTkFixedString<128,char> macFile;

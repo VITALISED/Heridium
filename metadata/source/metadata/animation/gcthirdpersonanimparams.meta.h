@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcThirdPersonAnimParams
 {
-    static const unsigned __int64 muNameHash = 3072370619399020205;
-    static const unsigned __int64 muTemplateHash = 5450316746769854773;
+    static const unsigned __int64 muNameHash = 0x2AA340CCDBA01EAD;
+    static const unsigned __int64 muTemplateHash = 0x4BA36A3444947135;
     static const int miNumMembers = 20;
 
     cTkVector2 mVelocity;

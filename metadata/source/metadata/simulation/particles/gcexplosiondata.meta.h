@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkModelResource;
 class cGcAudioWwiseEvents;
 
 class cGcExplosionData
 {
-    static const unsigned __int64 muNameHash = 9446507236185826905;
-    static const unsigned __int64 muTemplateHash = 13755766033752587419;
+    static const unsigned __int64 muNameHash = 0x8318BC4815036659;
+    static const unsigned __int64 muTemplateHash = 0xBEE64C539734FC9B;
     static const int miNumMembers = 17;
 
     TkID<128> mId;

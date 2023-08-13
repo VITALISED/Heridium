@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eConflictLevel
 {
     EConflictLevel_Low = 0,
@@ -11,8 +11,8 @@ enum eConflictLevel
 
 class cGcPlayerConflictData
 {
-    static const unsigned __int64 muNameHash = 17618033580830203904;
-    static const unsigned __int64 muTemplateHash = 4768666853324273343;
+    static const unsigned __int64 muNameHash = 0xF47FD4328A49A000;
+    static const unsigned __int64 muTemplateHash = 0x422DB53CD492B6BF;
     static const int miNumMembers = 1;
 
     eConflictLevel meConflictLevel;

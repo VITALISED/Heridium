@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkNGuiAlignment;
 
 class cTkNGuiTextStyleData
 {
-    static const unsigned __int64 muNameHash = 10519275643275926367;
-    static const unsigned __int64 muTemplateHash = 2496451315292794607;
+    static const unsigned __int64 muNameHash = 0x91FBF976CBE15B5F;
+    static const unsigned __int64 muTemplateHash = 0x22A52D3E97156EEF;
     static const int miNumMembers = 19;
 
     cTkColour mColour;

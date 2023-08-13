@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPlayerCommunicatorMessage;
 
 class cGcPlayerCommunicatorMessageWeighted
 {
-    static const unsigned __int64 muNameHash = 3622824397338807152;
-    static const unsigned __int64 muTemplateHash = 6062961605915586826;
+    static const unsigned __int64 muNameHash = 0x3246DB9846FF8B70;
+    static const unsigned __int64 muTemplateHash = 0x5423F775276E310A;
     static const int miNumMembers = 2;
 
     cGcPlayerCommunicatorMessage mMessage;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcBehaviourPlayAnimData
 {
-    static const unsigned __int64 muNameHash = 13813212076427269220;
-    static const unsigned __int64 muTemplateHash = 15615515188173095874;
+    static const unsigned __int64 muNameHash = 0xBFB26332AE955464;
+    static const unsigned __int64 muTemplateHash = 0xD8B574543FC643C2;
     static const int miNumMembers = 4;
 
     TkID<128> mAnim;

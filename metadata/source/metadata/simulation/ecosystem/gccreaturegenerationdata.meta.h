@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCreatureGenerationOptionalWeightedList;
 class cGcCreatureGenerationOptionalWeightedList;
 class cGcCreatureGenerationWeightedList;
 
 class cGcCreatureGenerationData
 {
-    static const unsigned __int64 muNameHash = 5134917206351885255;
-    static const unsigned __int64 muTemplateHash = 13373337506735427779;
+    static const unsigned __int64 muNameHash = 0x4742E3FE43A533C7;
+    static const unsigned __int64 muTemplateHash = 0xB997A39B7E5F90C3;
     static const int miNumMembers = 17;
 
     cTkFixedArray<cGcCreatureGenerationOptionalWeightedList> maBiomeSpecific;

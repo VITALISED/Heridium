@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eHazardModifier
 {
     EHazardModifier_Temperature = 0,
@@ -12,8 +12,8 @@ enum eHazardModifier
 
 class cGcHazardModifiers
 {
-    static const unsigned __int64 muNameHash = 10198093809066752069;
-    static const unsigned __int64 muTemplateHash = 1725596684567652382;
+    static const unsigned __int64 muNameHash = 0x8D86E8499B88B845;
+    static const unsigned __int64 muTemplateHash = 0x17F28D0AC13F281E;
     static const int miNumMembers = 1;
 
     eHazardModifier meHazardModifier;

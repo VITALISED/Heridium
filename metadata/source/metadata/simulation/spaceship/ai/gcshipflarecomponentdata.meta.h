@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eFlareType
 {
     EFlareType_Default = 0,
@@ -8,8 +8,8 @@ enum eFlareType
 
 class cGcShipFlareComponentData
 {
-    static const unsigned __int64 muNameHash = 14943854098146885432;
-    static const unsigned __int64 muTemplateHash = 12408971813276969548;
+    static const unsigned __int64 muNameHash = 0xCF633C20574F7F38;
+    static const unsigned __int64 muTemplateHash = 0xAC35861E5E356A4C;
     static const int miNumMembers = 1;
 
     eFlareType meFlareType;

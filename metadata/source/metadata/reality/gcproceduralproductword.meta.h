@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcNameGeneratorWord;
 class cGcNameGeneratorWord;
 class cGcNameGeneratorWord;
 
 class cGcProceduralProductWord
 {
-    static const unsigned __int64 muNameHash = 825049950372656314;
-    static const unsigned __int64 muTemplateHash = 967975606322619411;
+    static const unsigned __int64 muNameHash = 0xB732A8EFDEA74BA;
+    static const unsigned __int64 muTemplateHash = 0xD6EF0AF761A6413;
     static const int miNumMembers = 4;
 
     cGcNameGeneratorWord mWord;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eConditionTest
 {
     EConditionTest_AnyFalse = 0,
@@ -11,8 +11,8 @@ enum eConditionTest
 
 class cGcMissionConditionTest
 {
-    static const unsigned __int64 muNameHash = 13960818357444662267;
-    static const unsigned __int64 muTemplateHash = 3495192901933084526;
+    static const unsigned __int64 muNameHash = 0xC1BECA54193DD3FB;
+    static const unsigned __int64 muTemplateHash = 0x30816B6D0D302F6E;
     static const int miNumMembers = 1;
 
     eConditionTest meConditionTest;

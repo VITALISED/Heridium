@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPetVocabularyEntry
 {
-    static const unsigned __int64 muNameHash = 3966033870802958689;
-    static const unsigned __int64 muTemplateHash = 3851918309951471589;
+    static const unsigned __int64 muNameHash = 0x370A2ECAE460B961;
+    static const unsigned __int64 muTemplateHash = 0x3574C34B687AFFE5;
     static const int miNumMembers = 3;
 
     TkID<256> mGenericFallback;

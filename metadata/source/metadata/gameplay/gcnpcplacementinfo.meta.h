@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAlienRace;
 class cGcInteractionType;
 class cGcTechnologyCategory;
 
 class cGcNPCPlacementInfo
 {
-    static const unsigned __int64 muNameHash = 11613311759963519200;
-    static const unsigned __int64 muTemplateHash = 847297776164411020;
+    static const unsigned __int64 muNameHash = 0xA12AC584067DF8E0;
+    static const unsigned __int64 muTemplateHash = 0xBC234D69742168C;
     static const int miNumMembers = 21;
 
     TkID<128> mPlacementRuleId;

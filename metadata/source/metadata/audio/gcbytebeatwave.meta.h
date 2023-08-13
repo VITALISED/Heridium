@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eByteBeatWave
 {
     EByteBeatWave_SawTooth = 0,
@@ -11,8 +11,8 @@ enum eByteBeatWave
 
 class cGcByteBeatWave
 {
-    static const unsigned __int64 muNameHash = 10980056838966131923;
-    static const unsigned __int64 muTemplateHash = 14539730955819277165;
+    static const unsigned __int64 muNameHash = 0x9860FF852C2CBCD3;
+    static const unsigned __int64 muTemplateHash = 0xC9C78044FF5BDB6D;
     static const int miNumMembers = 1;
 
     eByteBeatWave meByteBeatWave;

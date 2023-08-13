@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkNGuiAlignment;
 
 class cGcNGuiLayoutData
 {
-    static const unsigned __int64 muNameHash = 14908918093277457265;
-    static const unsigned __int64 muTemplateHash = 7779127252743391491;
+    static const unsigned __int64 muNameHash = 0xCEE71E03D7326B71;
+    static const unsigned __int64 muTemplateHash = 0x6BF5030552548903;
     static const int miNumMembers = 17;
 
     cTkDynamicArray<cGcVROverride_Layout> maVROverrides;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eCreatureRoleFrequencyModifier
 {
     ECreatureRoleFrequencyModifier_Never = 0,
@@ -11,8 +11,8 @@ enum eCreatureRoleFrequencyModifier
 
 class cGcCreatureRoleFrequencyModifier
 {
-    static const unsigned __int64 muNameHash = 10317444491139612509;
-    static const unsigned __int64 muTemplateHash = 1572436182992324426;
+    static const unsigned __int64 muNameHash = 0x8F2EED19BC2FFF5D;
+    static const unsigned __int64 muTemplateHash = 0x15D26A60973A874A;
     static const int miNumMembers = 1;
 
     eCreatureRoleFrequencyModifier meCreatureRoleFrequencyModifier;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eProductCategory
 {
     EProductCategory_Component = 0,
@@ -16,8 +16,8 @@ enum eProductCategory
 
 class cGcProductCategory
 {
-    static const unsigned __int64 muNameHash = 12961810037553712882;
-    static const unsigned __int64 muTemplateHash = 18243385748076789540;
+    static const unsigned __int64 muNameHash = 0xB3E1998DF67B4EF2;
+    static const unsigned __int64 muTemplateHash = 0xFD2D86AE268A7F24;
     static const int miNumMembers = 1;
 
     eProductCategory meProductCategory;

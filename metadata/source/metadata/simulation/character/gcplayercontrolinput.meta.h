@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPlayerControlInput
 {
-    static const unsigned __int64 muNameHash = 15170160710686530935;
-    static const unsigned __int64 muTemplateHash = 3572833483806898059;
+    static const unsigned __int64 muNameHash = 0xD2873CCA9A0EDD77;
+    static const unsigned __int64 muTemplateHash = 0x3195411FB3EE778B;
     static const int miNumMembers = 4;
 
     bool mbInterceptAllInputs;

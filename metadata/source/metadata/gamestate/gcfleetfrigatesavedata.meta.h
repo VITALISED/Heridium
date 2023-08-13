@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcFrigateClass;
 class cGcAlienRace;
 class cGcInventoryClass;
 
 class cGcFleetFrigateSaveData
 {
-    static const unsigned __int64 muNameHash = 16643162366174261872;
-    static const unsigned __int64 muTemplateHash = 2021749126288644378;
+    static const unsigned __int64 muNameHash = 0xE6F863FE26F77270;
+    static const unsigned __int64 muTemplateHash = 0x1C0EB21E6164191A;
     static const int miNumMembers = 16;
 
     cTkSeed mResourceSeed;

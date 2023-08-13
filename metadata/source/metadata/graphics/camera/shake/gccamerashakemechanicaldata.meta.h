@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcCameraShakeMechanicalData
 {
-    static const unsigned __int64 muNameHash = 4665538744377768730;
-    static const unsigned __int64 muTemplateHash = 15979885507275939743;
+    static const unsigned __int64 muNameHash = 0x40BF52C4D8757B1A;
+    static const unsigned __int64 muTemplateHash = 0xDDC3F5342C985F9F;
     static const int miNumMembers = 7;
 
     bool mbActive;

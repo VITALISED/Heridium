@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPulseEncounterSpawnConditions
 {
-    static const unsigned __int64 muNameHash = 7362928386220317099;
-    static const unsigned __int64 muTemplateHash = 12907917955058603015;
+    static const unsigned __int64 muNameHash = 0x662E605B574D59AB;
+    static const unsigned __int64 muTemplateHash = 0xB32222FDB5279407;
     static const int miNumMembers = 13;
 
     bool mbAllowedInCreative;

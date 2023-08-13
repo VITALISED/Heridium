@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcPainAction
 {
-    static const unsigned __int64 muNameHash = 11207564993953755201;
-    static const unsigned __int64 muTemplateHash = 10067306489894671410;
+    static const unsigned __int64 muNameHash = 0x9B8944FB55B77041;
+    static const unsigned __int64 muTemplateHash = 0x8BB641E9E7281432;
     static const int miNumMembers = 5;
 
     TkID<128> mDamage;

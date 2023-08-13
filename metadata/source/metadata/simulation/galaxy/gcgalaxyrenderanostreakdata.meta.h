@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcGalaxyRenderAnostreakData
 {
-    static const unsigned __int64 muNameHash = 10478836025033424491;
-    static const unsigned __int64 muTemplateHash = 7224198598644646702;
+    static const unsigned __int64 muNameHash = 0x916C4DD873AEFE6B;
+    static const unsigned __int64 muTemplateHash = 0x644182599B16C32E;
     static const int miNumMembers = 5;
 
     cTkColour mOuterColour;

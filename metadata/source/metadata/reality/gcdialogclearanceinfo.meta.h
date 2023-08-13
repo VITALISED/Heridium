@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDialogClearanceInfo
 {
-    static const unsigned __int64 muNameHash = 10942540914820814291;
-    static const unsigned __int64 muTemplateHash = 8792116737898527008;
+    static const unsigned __int64 muNameHash = 0x97DBB6FC681295D3;
+    static const unsigned __int64 muTemplateHash = 0x7A03DF972A353920;
     static const int miNumMembers = 2;
 
     TkID<256> mGlobalDialogID;

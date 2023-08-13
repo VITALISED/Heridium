@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcFogProperties;
 class cGcFogProperties;
 class cGcFogProperties;
@@ -12,8 +12,8 @@ class cGcLightShaftProperties;
 
 class cGcWeatherProperties
 {
-    static const unsigned __int64 muNameHash = 946157144295748908;
-    static const unsigned __int64 muTemplateHash = 13680039678719909622;
+    static const unsigned __int64 muNameHash = 0xD216CE8E772352C;
+    static const unsigned __int64 muTemplateHash = 0xBDD9439B9B595EF6;
     static const int miNumMembers = 29;
 
     TkID<128> mName;

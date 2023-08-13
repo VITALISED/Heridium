@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcPerformanceFlyby
 {
-    static const unsigned __int64 muNameHash = 376121084625071881;
-    static const unsigned __int64 muTemplateHash = 6546263691320778323;
+    static const unsigned __int64 muNameHash = 0x5384022399CAF09;
+    static const unsigned __int64 muTemplateHash = 0x5AD90024C7365E53;
     static const int miNumMembers = 6;
 
     float mfLength;

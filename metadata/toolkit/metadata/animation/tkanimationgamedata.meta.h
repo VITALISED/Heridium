@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eBlockPlayerWeapon
 {
     EBlockPlayerWeapon_Unblocked = 0,
@@ -10,8 +10,8 @@ enum eBlockPlayerWeapon
 
 class cTkAnimationGameData
 {
-    static const unsigned __int64 muNameHash = 5530468008582014973;
-    static const unsigned __int64 muTemplateHash = 3110491261829621341;
+    static const unsigned __int64 muNameHash = 0x4CC02B5A253167FD;
+    static const unsigned __int64 muTemplateHash = 0x2B2AAF52924FA65D;
     static const int miNumMembers = 3;
 
     bool mbRootMotionEnabled;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcAudioWwiseEvents;
 class cGcAudioWwiseEvents;
 class cGcAudioWwiseEvents;
@@ -8,8 +8,8 @@ class cGcDamageType;
 
 class cGcLaserBeamData
 {
-    static const unsigned __int64 muNameHash = 1921179934513836371;
-    static const unsigned __int64 muTemplateHash = 17327131514193922321;
+    static const unsigned __int64 muNameHash = 0x1AA966F8BA4E3153;
+    static const unsigned __int64 muTemplateHash = 0xF076564F20014911;
     static const int miNumMembers = 35;
 
     TkID<128> mId;

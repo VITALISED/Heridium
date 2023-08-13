@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkCurveType;
 
 enum eCoordinates
@@ -17,8 +17,8 @@ enum eBlendOp
 
 class cTkAnim2dBlendNode
 {
-    static const unsigned __int64 muNameHash = 12722125928671767236;
-    static const unsigned __int64 muTemplateHash = 18395748650769821017;
+    static const unsigned __int64 muNameHash = 0xB08E12209E446AC4;
+    static const unsigned __int64 muTemplateHash = 0xFF4AD3EEDA81AD59;
     static const int miNumMembers = 9;
 
     TkID<128> mNodeId;

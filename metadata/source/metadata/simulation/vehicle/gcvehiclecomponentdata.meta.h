@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcVehicleType;
 class cTkModelResource;
 
 class cGcVehicleComponentData
 {
-    static const unsigned __int64 muNameHash = 9819976435564023986;
-    static const unsigned __int64 muTemplateHash = 1572875055822372814;
+    static const unsigned __int64 muNameHash = 0x8847908A288010B2;
+    static const unsigned __int64 muTemplateHash = 0x15D3F987A25D7FCE;
     static const int miNumMembers = 10;
 
     cGcVehicleType mClass;

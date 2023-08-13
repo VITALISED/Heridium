@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eModifyType
 {
     EModifyType_Set = 0,
@@ -10,8 +10,8 @@ enum eModifyType
 
 class cGcStatModifyType
 {
-    static const unsigned __int64 muNameHash = 11731401709733487771;
-    static const unsigned __int64 muTemplateHash = 16992848453856451878;
+    static const unsigned __int64 muNameHash = 0xA2CE4FB30A13249B;
+    static const unsigned __int64 muTemplateHash = 0xEBD2B9A30628DD26;
     static const int miNumMembers = 1;
 
     eModifyType meModifyType;

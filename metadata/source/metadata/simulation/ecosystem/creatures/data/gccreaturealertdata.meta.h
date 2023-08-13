@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcCreatureTypes;
 class cGcCreatureTypes;
 
 class cGcCreatureAlertData
 {
-    static const unsigned __int64 muNameHash = 18443036321045069832;
-    static const unsigned __int64 muTemplateHash = 9458881290632597503;
+    static const unsigned __int64 muNameHash = 0xFFF2D3D18F84C008;
+    static const unsigned __int64 muTemplateHash = 0x8344B26B24BE8FFF;
     static const int miNumMembers = 6;
 
     cGcCreatureTypes mAlertTarget;

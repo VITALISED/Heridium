@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcGalaxyStarTypes;
 class cGcGalaxyStarAnomaly;
 class cGcPlanetTradingData;
@@ -9,8 +9,8 @@ class cGcAlienRace;
 
 class cGcGalaxyStarAttributesData
 {
-    static const unsigned __int64 muNameHash = 17142529975452394005;
-    static const unsigned __int64 muTemplateHash = 7164814135482527768;
+    static const unsigned __int64 muNameHash = 0xEDE680300A536215;
+    static const unsigned __int64 muTemplateHash = 0x636E887ED3223018;
     static const int miNumMembers = 13;
 
     cGcGalaxyStarTypes mType;

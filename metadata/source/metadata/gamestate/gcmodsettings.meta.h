@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcModSettings
 {
-    static const unsigned __int64 muNameHash = 14659111306275216309;
-    static const unsigned __int64 muTemplateHash = 18262444188961381946;
+    static const unsigned __int64 muNameHash = 0xCB6FA010D5725BB5;
+    static const unsigned __int64 muTemplateHash = 0xFD713C3B35709E3A;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcModSettingsInfo> maData;

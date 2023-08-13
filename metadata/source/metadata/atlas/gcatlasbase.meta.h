@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcUniverseAddressData;
 
 class cGcAtlasBase
 {
-    static const unsigned __int64 muNameHash = 17759614928932280607;
-    static const unsigned __int64 muTemplateHash = 6983425740296046009;
+    static const unsigned __int64 muNameHash = 0xF676D3AEF2BB991F;
+    static const unsigned __int64 muTemplateHash = 0x60EA1CB605AA45B9;
     static const int miNumMembers = 3;
 
     cTkFixedString<512,char> macOpaqueData;

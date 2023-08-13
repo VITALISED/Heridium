@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcTerrainTileType;
 
 class cGcObjectSpawnDataArray
 {
-    static const unsigned __int64 muNameHash = 4228592651484746689;
-    static const unsigned __int64 muTemplateHash = 5773224603031638539;
+    static const unsigned __int64 muNameHash = 0x3AAEFA9CCB9353C1;
+    static const unsigned __int64 muTemplateHash = 0x501E9D30483F120B;
     static const int miNumMembers = 3;
 
     cGcTerrainTileType mTileType;

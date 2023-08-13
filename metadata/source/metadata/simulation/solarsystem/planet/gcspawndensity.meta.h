@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eCoverageType
 {
     ECoverageType_Total = 0,
@@ -10,8 +10,8 @@ enum eCoverageType
 
 class cGcSpawnDensity
 {
-    static const unsigned __int64 muNameHash = 3905190427286693834;
-    static const unsigned __int64 muTemplateHash = 8732222380626843379;
+    static const unsigned __int64 muNameHash = 0x36320600C6ADE7CA;
+    static const unsigned __int64 muTemplateHash = 0x792F15FD68FA96F3;
     static const int miNumMembers = 5;
 
     TkID<128> mName;

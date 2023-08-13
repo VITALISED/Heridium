@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eRequiredSentinelLevel
 {
     ERequiredSentinelLevel_None = 0,
@@ -11,8 +11,8 @@ enum eRequiredSentinelLevel
 
 class cGcMissionConditionSentinelLevel
 {
-    static const unsigned __int64 muNameHash = 12996816280634617918;
-    static const unsigned __int64 muTemplateHash = 12611460895984734715;
+    static const unsigned __int64 muNameHash = 0xB45DF78C123D703E;
+    static const unsigned __int64 muTemplateHash = 0xAF04E8DDD3E651FB;
     static const int miNumMembers = 1;
 
     eRequiredSentinelLevel meRequiredSentinelLevel;

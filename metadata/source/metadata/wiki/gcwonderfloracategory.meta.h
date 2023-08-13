@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eWonderFloraCategory
 {
     EWonderFloraCategory_GeneralFact0 = 0,
@@ -15,8 +15,8 @@ enum eWonderFloraCategory
 
 class cGcWonderFloraCategory
 {
-    static const unsigned __int64 muNameHash = 408802726820971228;
-    static const unsigned __int64 muTemplateHash = 6893856383778060453;
+    static const unsigned __int64 muNameHash = 0x5AC5BEA036002DC;
+    static const unsigned __int64 muTemplateHash = 0x5FABE5DB17A678A5;
     static const int miNumMembers = 1;
 
     eWonderFloraCategory meWonderFloraCategory;

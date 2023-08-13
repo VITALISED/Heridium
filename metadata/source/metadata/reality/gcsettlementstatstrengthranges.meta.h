@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSettlementStatStrengthRanges
 {
-    static const unsigned __int64 muNameHash = 14854979290060530857;
-    static const unsigned __int64 muTemplateHash = 48537470729066701;
+    static const unsigned __int64 muNameHash = 0xCE277CF591D7A4A9;
+    static const unsigned __int64 muTemplateHash = 0xAC70928D1A18CD;
     static const int miNumMembers = 2;
 
     int miAmountMin;

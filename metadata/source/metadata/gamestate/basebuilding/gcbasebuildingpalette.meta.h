@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eSwatchPrimaryColour
 {
     ESwatchPrimaryColour_Primary = 0,
@@ -19,8 +19,8 @@ enum eSwatchSecondaryColour
 
 class cGcBaseBuildingPalette
 {
-    static const unsigned __int64 muNameHash = 13013657550402443619;
-    static const unsigned __int64 muTemplateHash = 14743490136994355918;
+    static const unsigned __int64 muNameHash = 0xB499CC97C0515963;
+    static const unsigned __int64 muTemplateHash = 0xCC9B662A4D061ACE;
     static const int miNumMembers = 8;
 
     cTkColour mPrimaryColour;

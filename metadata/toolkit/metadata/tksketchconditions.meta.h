@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 enum eCondition
 {
     ECondition_Equal = 0,
@@ -13,8 +13,8 @@ enum eCondition
 
 class cTkSketchConditions
 {
-    static const unsigned __int64 muNameHash = 4823742539617697538;
-    static const unsigned __int64 muTemplateHash = 1988076229831303484;
+    static const unsigned __int64 muNameHash = 0x42F1604851DA7F02;
+    static const unsigned __int64 muTemplateHash = 0x1B9710CC397E213C;
     static const int miNumMembers = 1;
 
     eCondition meCondition;

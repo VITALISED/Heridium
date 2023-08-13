@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcNPCProbabilityReactionData
 {
-    static const unsigned __int64 muNameHash = 2739412365963569165;
-    static const unsigned __int64 muTemplateHash = 14443557870426042163;
+    static const unsigned __int64 muNameHash = 0x260459086692280D;
+    static const unsigned __int64 muTemplateHash = 0xC871D35B9F8AAF33;
     static const int miNumMembers = 3;
 
     TkID<128> mName;

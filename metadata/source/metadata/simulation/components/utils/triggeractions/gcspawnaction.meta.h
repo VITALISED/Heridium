@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcSpawnAction
 {
-    static const unsigned __int64 muNameHash = 12179337080906687576;
-    static const unsigned __int64 muTemplateHash = 11338265746137252714;
+    static const unsigned __int64 muNameHash = 0xA905B28BD32FA458;
+    static const unsigned __int64 muTemplateHash = 0x9D599C9F977D836A;
     static const int miNumMembers = 1;
 
     TkID<128> mEvent;

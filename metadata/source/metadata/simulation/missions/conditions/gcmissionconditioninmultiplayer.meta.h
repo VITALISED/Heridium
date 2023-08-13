@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionInMultiplayer
 {
-    static const unsigned __int64 muNameHash = 3936780960052282161;
-    static const unsigned __int64 muTemplateHash = 2727210646909086997;
+    static const unsigned __int64 muNameHash = 0x36A2416CDA700331;
+    static const unsigned __int64 muTemplateHash = 0x25D8FFA24CADED15;
     static const int miNumMembers = 1;
 
     bool mbMustBeInFireteam;

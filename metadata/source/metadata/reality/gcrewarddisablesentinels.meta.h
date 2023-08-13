@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardDisableSentinels
 {
-    static const unsigned __int64 muNameHash = 2531016992740410545;
-    static const unsigned __int64 muTemplateHash = 9225713788543903956;
+    static const unsigned __int64 muNameHash = 0x231FFA8B84C504B1;
+    static const unsigned __int64 muTemplateHash = 0x800851CF8D9528D4;
     static const int miNumMembers = 3;
 
     float mfDuration;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDungeonRoomParams
 {
-    static const unsigned __int64 muNameHash = 11740011567780914541;
-    static const unsigned __int64 muTemplateHash = 12814142887796541157;
+    static const unsigned __int64 muNameHash = 0xA2ECE651D48EE56D;
+    static const unsigned __int64 muTemplateHash = 0xB1D4FB10703606E5;
     static const int miNumMembers = 2;
 
     TkID<128> mRoomId;

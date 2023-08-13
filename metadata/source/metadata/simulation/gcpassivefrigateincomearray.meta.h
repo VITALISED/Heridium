@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcPassiveFrigateIncomeArray
 {
-    static const unsigned __int64 muNameHash = 5035020460135741111;
-    static const unsigned __int64 muTemplateHash = 9744615859970036723;
+    static const unsigned __int64 muNameHash = 0x45DFFC6E8B36F6B7;
+    static const unsigned __int64 muTemplateHash = 0x873BD47ED626D3F3;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cGcPassiveFrigateIncome> maArray;

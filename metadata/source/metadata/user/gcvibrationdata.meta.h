@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkCurveType;
 
 class cGcVibrationData
 {
-    static const unsigned __int64 muNameHash = 2031541919282118388;
-    static const unsigned __int64 muTemplateHash = 12166431447642856315;
+    static const unsigned __int64 muNameHash = 0x1C317C9CAD203EF4;
+    static const unsigned __int64 muTemplateHash = 0xA8D7D8F0ECE4DB7B;
     static const int miNumMembers = 6;
 
     float mfOutputStrength;

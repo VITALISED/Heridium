@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eItemOutOfBoundsBehaviour
 {
     EItemOutOfBoundsBehaviour_NoCost = 0,
@@ -17,8 +17,8 @@ enum eItemIndexProvider
 
 class cGcCostItemListIndexed
 {
-    static const unsigned __int64 muNameHash = 11924463851291661897;
-    static const unsigned __int64 muTemplateHash = 4359493015475368868;
+    static const unsigned __int64 muNameHash = 0xA57C34B1B939D649;
+    static const unsigned __int64 muTemplateHash = 0x3C8007CCCC34B3A4;
     static const int miNumMembers = 5;
 
     cTkDynamicArray<TkID<128> > maCosts;

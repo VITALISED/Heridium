@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkRotationComponentData
 {
-    static const unsigned __int64 muNameHash = 13261101178104178174;
-    static const unsigned __int64 muTemplateHash = 4656256479384783320;
+    static const unsigned __int64 muNameHash = 0xB808E542DB69E5FE;
+    static const unsigned __int64 muTemplateHash = 0x409E58991CD749D8;
     static const int miNumMembers = 4;
 
     float mfSpeed;

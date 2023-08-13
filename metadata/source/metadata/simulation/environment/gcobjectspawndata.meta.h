@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eType
 {
     EType_Instanced = 0,
@@ -43,8 +43,8 @@ class cGcObjectSpawnDataVariant;
 
 class cGcObjectSpawnData
 {
-    static const unsigned __int64 muNameHash = 4894202123927705699;
-    static const unsigned __int64 muTemplateHash = 15366982603228748060;
+    static const unsigned __int64 muNameHash = 0x43EBB2E6AFAC5863;
+    static const unsigned __int64 muTemplateHash = 0xD5427D42870E991C;
     static const int miNumMembers = 39;
 
     TkID<128> mDebugName;

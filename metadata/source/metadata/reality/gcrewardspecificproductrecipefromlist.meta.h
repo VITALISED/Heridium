@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eProductListRewardOrder
 {
     EProductListRewardOrder_OneRandom = 0,
@@ -11,8 +11,8 @@ enum eProductListRewardOrder
 
 class cGcRewardSpecificProductRecipeFromList
 {
-    static const unsigned __int64 muNameHash = 14794356167886533797;
-    static const unsigned __int64 muTemplateHash = 8130364783140310850;
+    static const unsigned __int64 muNameHash = 0xCD501C8D037C74A5;
+    static const unsigned __int64 muTemplateHash = 0x70D4DBB1996C8F42;
     static const int miNumMembers = 2;
 
     cTkDynamicArray<TkID<128> > maProductList;

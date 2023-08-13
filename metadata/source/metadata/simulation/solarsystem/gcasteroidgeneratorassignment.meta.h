@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcSolarSystemLocatorChoice;
 
 class cGcAsteroidGeneratorAssignment
 {
-    static const unsigned __int64 muNameHash = 11805075525707308307;
-    static const unsigned __int64 muTemplateHash = 15227276886591181374;
+    static const unsigned __int64 muNameHash = 0xA3D40DA508711D13;
+    static const unsigned __int64 muTemplateHash = 0xD35227A699C8923E;
     static const int miNumMembers = 4;
 
     int miPlanetIndex;

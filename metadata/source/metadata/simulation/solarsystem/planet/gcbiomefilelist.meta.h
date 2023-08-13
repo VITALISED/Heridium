@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcBiomeFileList
 {
-    static const unsigned __int64 muNameHash = 3934732054668793296;
-    static const unsigned __int64 muTemplateHash = 14692180805294260832;
+    static const unsigned __int64 muNameHash = 0x369AF9F4E4E055D0;
+    static const unsigned __int64 muTemplateHash = 0xCBE51C9993608260;
     static const int miNumMembers = 4;
 
     cTkFixedArray<cGcBiomeFileListOptions> maBiomeFiles;

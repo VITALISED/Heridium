@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eAction
 {
     EAction_Click = 0,
@@ -11,8 +11,8 @@ enum eAction
 
 class cGcNGuiActionData
 {
-    static const unsigned __int64 muNameHash = 3246767228203218351;
-    static const unsigned __int64 muTemplateHash = 8766096900816231275;
+    static const unsigned __int64 muNameHash = 0x2D0ED597896EB5AF;
+    static const unsigned __int64 muTemplateHash = 0x79A76EAFBFCDDB6B;
     static const int miNumMembers = 3;
 
     TkID<128> mLayerID;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcCurrency;
 
 class cGcSettlementBuildingCostData
 {
-    static const unsigned __int64 muNameHash = 1677269936534902053;
-    static const unsigned __int64 muTemplateHash = 12984224448737009400;
+    static const unsigned __int64 muNameHash = 0x1746DC1EE79AD525;
+    static const unsigned __int64 muTemplateHash = 0xB4313B57BEE95EF8;
     static const int miNumMembers = 5;
 
     cTkDynamicArray<TkID<128> > maProducts;

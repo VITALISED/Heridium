@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum ePersistentBaseTypes
 {
     EPersistentBaseTypes_HomePlanetBase = 0,
@@ -16,8 +16,8 @@ enum ePersistentBaseTypes
 
 class cGcPersistentBaseTypes
 {
-    static const unsigned __int64 muNameHash = 2170912355705244739;
-    static const unsigned __int64 muTemplateHash = 15870863906915719565;
+    static const unsigned __int64 muNameHash = 0x1E20A14918514C43;
+    static const unsigned __int64 muTemplateHash = 0xDC40A2A2CA47998D;
     static const int miNumMembers = 1;
 
     ePersistentBaseTypes mePersistentBaseTypes;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcCreatureEffectTrigger
 {
-    static const unsigned __int64 muNameHash = 5622733119370280322;
-    static const unsigned __int64 muTemplateHash = 17494582841895159841;
+    static const unsigned __int64 muNameHash = 0x4E07F5FB46E3BD82;
+    static const unsigned __int64 muTemplateHash = 0xF2C93E6788CE0821;
     static const int miNumMembers = 6;
 
     TkID<128> mEffect;

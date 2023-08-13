@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcProtectedLocation
 {
-    static const unsigned __int64 muNameHash = 18363097850443826553;
-    static const unsigned __int64 muTemplateHash = 8465407939974716618;
+    static const unsigned __int64 muNameHash = 0xFED6D433FF718579;
+    static const unsigned __int64 muTemplateHash = 0x757B2BAB74F6DCCA;
     static const int miNumMembers = 2;
 
     cTkVector mLocation;

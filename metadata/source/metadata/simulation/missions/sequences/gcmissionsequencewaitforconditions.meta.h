@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionTest;
 class cGcStatusMessageMissionMarkup;
 
 class cGcMissionSequenceWaitForConditions
 {
-    static const unsigned __int64 muNameHash = 7455560908742489971;
-    static const unsigned __int64 muTemplateHash = 13423786630978437853;
+    static const unsigned __int64 muNameHash = 0x677779252EE27773;
+    static const unsigned __int64 muTemplateHash = 0xBA4ADED1901B82DD;
     static const int miNumMembers = 8;
 
     cTkFixedString<128,char> macMessage;

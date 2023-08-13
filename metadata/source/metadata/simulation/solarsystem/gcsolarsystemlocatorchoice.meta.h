@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eChoice
 {
     EChoice_LookupName = 0,
@@ -12,8 +12,8 @@ class cGcSolarSystemLocatorTypes;
 
 class cGcSolarSystemLocatorChoice
 {
-    static const unsigned __int64 muNameHash = 9561689391762709034;
-    static const unsigned __int64 muTemplateHash = 18213834928776116108;
+    static const unsigned __int64 muNameHash = 0x84B1F1D780A31A2A;
+    static const unsigned __int64 muTemplateHash = 0xFCC48A5DDF4D778C;
     static const int miNumMembers = 4;
 
     eChoice meChoice;

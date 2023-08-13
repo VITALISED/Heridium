@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcReplacementEffectData
 {
-    static const unsigned __int64 muNameHash = 8953094014632302650;
-    static const unsigned __int64 muTemplateHash = 14545172330127774368;
+    static const unsigned __int64 muNameHash = 0x7C3FC7921ED5983A;
+    static const unsigned __int64 muTemplateHash = 0xC9DAD52BAE1B52A0;
     static const int miNumMembers = 2;
 
     TkID<128> mId;

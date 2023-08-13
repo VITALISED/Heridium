@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eDirection
 {
     EDirection_Left = 0,
@@ -29,8 +29,8 @@ enum eTerrain
 
 class cGcWFCTerrainConstraint
 {
-    static const unsigned __int64 muNameHash = 17322985079033838373;
-    static const unsigned __int64 muTemplateHash = 5259291486459433651;
+    static const unsigned __int64 muNameHash = 0xF0679B25F5343B25;
+    static const unsigned __int64 muTemplateHash = 0x48FCC1BDF4A692B3;
     static const int miNumMembers = 3;
 
     eDirection meDirection;

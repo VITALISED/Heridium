@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBoidData
 {
-    static const unsigned __int64 muNameHash = 14147345943331282994;
-    static const unsigned __int64 muTemplateHash = 9184985118902309117;
+    static const unsigned __int64 muNameHash = 0xC455782DFAD32032;
+    static const unsigned __int64 muTemplateHash = 0x7F779F4D2F6BD0FD;
     static const int miNumMembers = 11;
 
     float mfCoherence;

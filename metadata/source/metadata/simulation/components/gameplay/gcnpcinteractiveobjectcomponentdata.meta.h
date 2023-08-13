@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcNPCInteractiveObjectType;
 
 class cGcNPCInteractiveObjectComponentData
 {
-    static const unsigned __int64 muNameHash = 7976729198026585436;
-    static const unsigned __int64 muTemplateHash = 15414938660491224975;
+    static const unsigned __int64 muNameHash = 0x6EB308F16DDC755C;
+    static const unsigned __int64 muTemplateHash = 0xD5ECDD0A3503E78F;
     static const int miNumMembers = 5;
 
     cGcNPCInteractiveObjectType mInteractiveObjectType;

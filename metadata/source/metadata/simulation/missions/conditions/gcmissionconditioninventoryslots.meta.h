@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eInventoryTest
 {
     EInventoryTest_Current = 0,
@@ -12,8 +12,8 @@ class cTkEqualityEnum;
 
 class cGcMissionConditionInventorySlots
 {
-    static const unsigned __int64 muNameHash = 17371135346632979274;
-    static const unsigned __int64 muTemplateHash = 12323833921461245105;
+    static const unsigned __int64 muNameHash = 0xF112AB8FC14A734A;
+    static const unsigned __int64 muTemplateHash = 0xAB070DA8379B54B1;
     static const int miNumMembers = 5;
 
     eInventoryTest meInventoryTest;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcDamageMultiplierLookup
 {
-    static const unsigned __int64 muNameHash = 8732427957135103465;
-    static const unsigned __int64 muTemplateHash = 8957133666732946371;
+    static const unsigned __int64 muNameHash = 0x792FD0F5EBBA55E9;
+    static const unsigned __int64 muTemplateHash = 0x7C4E219CEB4F33C3;
     static const int miNumMembers = 3;
 
     TkID<128> mId;

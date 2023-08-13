@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAudioWwiseEvents;
 class cTkTextureResource;
 
 class cGcRewardOSDMessage
 {
-    static const unsigned __int64 muNameHash = 6041340460453226269;
-    static const unsigned __int64 muTemplateHash = 2102133306753730009;
+    static const unsigned __int64 muNameHash = 0x53D72723F082671D;
+    static const unsigned __int64 muTemplateHash = 0x1D2C471ADB92C5D9;
     static const int miNumMembers = 6;
 
     float mfTime;

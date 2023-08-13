@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcStoryUtilityOverride
 {
-    static const unsigned __int64 muNameHash = 16269220247877979208;
-    static const unsigned __int64 muTemplateHash = 5904349633538792477;
+    static const unsigned __int64 muNameHash = 0xE1C7E19E0F5C0C48;
+    static const unsigned __int64 muTemplateHash = 0x51F076B588C99C1D;
     static const int miNumMembers = 3;
 
     TkID<256> mName;

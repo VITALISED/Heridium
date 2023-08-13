@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRealitySubstanceCraftingMix
 {
-    static const unsigned __int64 muNameHash = 4454765964560626879;
-    static const unsigned __int64 muTemplateHash = 12994126344275229141;
+    static const unsigned __int64 muNameHash = 0x3DD2820ADB22F4BF;
+    static const unsigned __int64 muTemplateHash = 0xB45469107511F9D5;
     static const int miNumMembers = 2;
 
     TkID<128> mID;

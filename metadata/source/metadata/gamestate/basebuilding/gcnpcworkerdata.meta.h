@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcResourceElement;
 
 class cGcNPCWorkerData
 {
-    static const unsigned __int64 muNameHash = 13297901206508396993;
-    static const unsigned __int64 muTemplateHash = 6393507797066078322;
+    static const unsigned __int64 muNameHash = 0xB88BA2B1282BE1C1;
+    static const unsigned __int64 muTemplateHash = 0x58BA4D7798D05872;
     static const int miNumMembers = 6;
 
     cGcResourceElement mResourceElement;

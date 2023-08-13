@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcBehaviourWaitData
 {
-    static const unsigned __int64 muNameHash = 10884202354399061034;
-    static const unsigned __int64 muTemplateHash = 839321193510431939;
+    static const unsigned __int64 muNameHash = 0x970C745FD56D242A;
+    static const unsigned __int64 muTemplateHash = 0xBA5DE2DB7A56CC3;
     static const int miNumMembers = 1;
 
     float mfSeconds;

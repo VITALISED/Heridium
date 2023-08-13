@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eMarkovSelector
 {
     EMarkovSelector_Generic = 0,
@@ -15,8 +15,8 @@ enum eMarkovSelector
 
 class cGcNameGeneratorTypes
 {
-    static const unsigned __int64 muNameHash = 14553952472196245085;
-    static const unsigned __int64 muTemplateHash = 17953467836818369648;
+    static const unsigned __int64 muNameHash = 0xC9FA06A9CF2CE65D;
+    static const unsigned __int64 muTemplateHash = 0xF92787E043F5AC70;
     static const int miNumMembers = 1;
 
     eMarkovSelector meMarkovSelector;

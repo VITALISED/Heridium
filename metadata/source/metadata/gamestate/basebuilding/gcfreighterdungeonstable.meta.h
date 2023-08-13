@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcFreighterDungeonsTable
 {
-    static const unsigned __int64 muNameHash = 6154799711898079592;
-    static const unsigned __int64 muTemplateHash = 7255385978868303075;
+    static const unsigned __int64 muNameHash = 0x556A3DBA7B5C9168;
+    static const unsigned __int64 muTemplateHash = 0x64B04F1B6ACB84E3;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcFreighterDungeonParams> maDungeons;

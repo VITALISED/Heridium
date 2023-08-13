@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eMissionType
 {
     EMissionType_SpaceCombat = 0,
@@ -18,8 +18,8 @@ enum eMissionType
 
 class cGcMissionType
 {
-    static const unsigned __int64 muNameHash = 9807881160915876688;
-    static const unsigned __int64 muTemplateHash = 8521238434221640779;
+    static const unsigned __int64 muNameHash = 0x881C97F393A2FB50;
+    static const unsigned __int64 muTemplateHash = 0x764185355E2FCC4B;
     static const int miNumMembers = 1;
 
     eMissionType meMissionType;

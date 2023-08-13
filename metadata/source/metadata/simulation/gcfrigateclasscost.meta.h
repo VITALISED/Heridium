@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcFrigateClassCost
 {
-    static const unsigned __int64 muNameHash = 599083214136126448;
-    static const unsigned __int64 muTemplateHash = 3922366238141391875;
+    static const unsigned __int64 muNameHash = 0x8505F02597BABF0;
+    static const unsigned __int64 muTemplateHash = 0x366F0B4FDF672403;
     static const int miNumMembers = 1;
 
     cTkFixedArray<int> maCost;

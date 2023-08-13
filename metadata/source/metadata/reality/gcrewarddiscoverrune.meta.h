@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardDiscoverRune
 {
-    static const unsigned __int64 muNameHash = 2299026586773257360;
-    static const unsigned __int64 muTemplateHash = 13275555565893363048;
+    static const unsigned __int64 muNameHash = 0x1FE7C87FF9CC7C90;
+    static const unsigned __int64 muTemplateHash = 0xB83C3F734508A568;
     static const int miNumMembers = 1;
 
     bool mbAllRunes;

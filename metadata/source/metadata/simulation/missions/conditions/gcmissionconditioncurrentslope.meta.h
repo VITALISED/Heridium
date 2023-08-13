@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cTkEqualityEnum;
 
 class cGcMissionConditionCurrentSlope
 {
-    static const unsigned __int64 muNameHash = 13744616810207020808;
-    static const unsigned __int64 muTemplateHash = 12581625463175466114;
+    static const unsigned __int64 muNameHash = 0xBEBEB02AB2408708;
+    static const unsigned __int64 muTemplateHash = 0xAE9AE9B2CD954C82;
     static const int miNumMembers = 3;
 
     float mfSlopeAngle;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcWFCDecorationSet
 {
-    static const unsigned __int64 muNameHash = 7362157562485928667;
-    static const unsigned __int64 muTemplateHash = 15143760104708432567;
+    static const unsigned __int64 muNameHash = 0x662BA34BF46DF2DB;
+    static const unsigned __int64 muTemplateHash = 0xD229719484E0E2B7;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcWFCDecorationItem> maItems;

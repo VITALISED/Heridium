@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcCreatureHoverTintableEffect
 {
-    static const unsigned __int64 muNameHash = 1145398928979195167;
-    static const unsigned __int64 muTemplateHash = 16006439451704487096;
+    static const unsigned __int64 muNameHash = 0xFE54641DFEAF51F;
+    static const unsigned __int64 muTemplateHash = 0xDE224BE025A4ECB8;
     static const int miNumMembers = 4;
 
     cTkFixedString<256,char> macEffectNode;

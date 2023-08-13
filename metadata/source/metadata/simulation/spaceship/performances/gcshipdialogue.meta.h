@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcShipDialogue
 {
-    static const unsigned __int64 muNameHash = 8578863717682435945;
-    static const unsigned __int64 muTemplateHash = 7696518961038212473;
+    static const unsigned __int64 muNameHash = 0x770E3F1934F2D769;
+    static const unsigned __int64 muTemplateHash = 0x6ACF873797BDBD79;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cGcPlayerCommunicatorMessageWeighted> maDialogueTree;

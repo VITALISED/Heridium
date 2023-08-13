@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCreatureGenerationArchetypes
 {
-    static const unsigned __int64 muNameHash = 936194346035871980;
-    static const unsigned __int64 muTemplateHash = 7594002443702007679;
+    static const unsigned __int64 muNameHash = 0xCFE07CC2C3280EC;
+    static const unsigned __int64 muTemplateHash = 0x696350FCE04E777F;
     static const int miNumMembers = 4;
 
     cTkDynamicArray<cGcCreatureGenerationDomainTable> maGroundArchetypes;

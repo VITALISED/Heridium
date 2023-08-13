@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 enum eActionType
 {
     EActionType_Repair = 0,
@@ -10,8 +10,8 @@ enum eActionType
 
 class cGcFrigateInteractionAction
 {
-    static const unsigned __int64 muNameHash = 15066853665107279769;
-    static const unsigned __int64 muTemplateHash = 7052381034173533620;
+    static const unsigned __int64 muNameHash = 0xD1183794AF82FF99;
+    static const unsigned __int64 muTemplateHash = 0x61DF172F7A9D8DB4;
     static const int miNumMembers = 2;
 
     eActionType meActionType;

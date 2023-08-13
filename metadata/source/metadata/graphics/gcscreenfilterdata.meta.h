@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcScreenFilterData
 {
-    static const unsigned __int64 muNameHash = 18436841989999591902;
-    static const unsigned __int64 muTemplateHash = 7793333914284997364;
+    static const unsigned __int64 muNameHash = 0xFFDCD21B79EE81DE;
+    static const unsigned __int64 muTemplateHash = 0x6C277BE778F63AF4;
     static const int miNumMembers = 5;
 
     TkID<256> mLocText;

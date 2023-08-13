@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcGenericMissionVersionProgress
 {
-    static const unsigned __int64 muNameHash = 10242386086021963221;
-    static const unsigned __int64 muTemplateHash = 10840179831386145400;
+    static const unsigned __int64 muNameHash = 0x8E2443E0F5BE1DD5;
+    static const unsigned __int64 muTemplateHash = 0x96700E1F77200278;
     static const int miNumMembers = 2;
 
     int miVersion;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionConvertedFromSeason
 {
-    static const unsigned __int64 muNameHash = 3582418533278080027;
-    static const unsigned __int64 muTemplateHash = 1661536468205018590;
+    static const unsigned __int64 muNameHash = 0x31B74EACF0D0DC1B;
+    static const unsigned __int64 muTemplateHash = 0x170EF69D58B79DDE;
     static const int miNumMembers = 1;
 
     int miSeason;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eNGuiEditorGraphic
 {
     ENGuiEditorGraphic_Panel = 0,
@@ -79,8 +79,8 @@ enum eNGuiEditorGraphic
 
 class cTkNGuiEditorGraphicType
 {
-    static const unsigned __int64 muNameHash = 3301741678397853760;
-    static const unsigned __int64 muTemplateHash = 6980587754815346162;
+    static const unsigned __int64 muNameHash = 0x2DD2249029019040;
+    static const unsigned __int64 muTemplateHash = 0x60E007940935D5F2;
     static const int miNumMembers = 1;
 
     eNGuiEditorGraphic meNGuiEditorGraphic;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcExperienceTimers
 {
-    static const unsigned __int64 muNameHash = 9076350927531958432;
-    static const unsigned __int64 muTemplateHash = 17864343660222280695;
+    static const unsigned __int64 muNameHash = 0x7DF5AD147C5460A0;
+    static const unsigned __int64 muTemplateHash = 0xF7EAE5E8DD0CF3F7;
     static const int miNumMembers = 5;
 
     int miHighChance;

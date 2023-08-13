@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcCreatureRidingData
 {
-    static const unsigned __int64 muNameHash = 14684147579417893457;
-    static const unsigned __int64 muTemplateHash = 12600718131472573745;
+    static const unsigned __int64 muNameHash = 0xCBC8926C6C9D9A51;
+    static const unsigned __int64 muTemplateHash = 0xAEDEBE610D3F2531;
     static const int miNumMembers = 16;
 
     cTkFixedString<256,char> macJointName;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcCreaturePetMood;
 
 class cGcPetMoodStaminaModifier
 {
-    static const unsigned __int64 muNameHash = 16589931343107781189;
-    static const unsigned __int64 muTemplateHash = 2136261326046959307;
+    static const unsigned __int64 muNameHash = 0xE63B46A8CA0EF245;
+    static const unsigned __int64 muTemplateHash = 0x1DA5865B8E6F16CB;
     static const int miNumMembers = 7;
 
     cGcCreaturePetMood mMood;

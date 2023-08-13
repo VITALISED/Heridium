@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkAnimDetailSettings
 {
-    static const unsigned __int64 muNameHash = 3435990581938617420;
-    static const unsigned __int64 muTemplateHash = 1070156870129123392;
+    static const unsigned __int64 muNameHash = 0x2FAF173AC809FC4C;
+    static const unsigned __int64 muTemplateHash = 0xED9F600E1FD8040;
     static const int miNumMembers = 3;
 
     float mfMaxVisibleAngle;

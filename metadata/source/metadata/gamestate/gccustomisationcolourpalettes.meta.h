@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcCustomisationColourPalettes
 {
-    static const unsigned __int64 muNameHash = 10175108734182118853;
-    static const unsigned __int64 muTemplateHash = 17001075007581117995;
+    static const unsigned __int64 muNameHash = 0x8D353F7BD3E655C5;
+    static const unsigned __int64 muTemplateHash = 0xEBEFF3A4D2A4DE2B;
     static const int miNumMembers = 2;
 
     cTkFixedArray<cGcPaletteData> maColourPalettes;

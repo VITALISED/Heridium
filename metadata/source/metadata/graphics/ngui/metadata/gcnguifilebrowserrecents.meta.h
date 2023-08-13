@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcNGuiFileBrowserRecents
 {
-    static const unsigned __int64 muNameHash = 6337242080141696;
-    static const unsigned __int64 muTemplateHash = 13421950187589879117;
+    static const unsigned __int64 muNameHash = 0x1683B0270AE180;
+    static const unsigned __int64 muTemplateHash = 0xBA4458954448454D;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cTkFixedString<256,char> > maRecents;

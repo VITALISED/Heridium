@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardUnlockSeasonReward
 {
-    static const unsigned __int64 muNameHash = 8843358421961465499;
-    static const unsigned __int64 muTemplateHash = 45170677137869996;
+    static const unsigned __int64 muNameHash = 0x7AB9EBA17278DE9B;
+    static const unsigned __int64 muTemplateHash = 0xA07A7DD5110CAC;
     static const int miNumMembers = 6;
 
     TkID<128> mProductID;

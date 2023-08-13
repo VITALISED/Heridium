@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eFlattening
 {
     EFlattening_None = 0,
@@ -18,8 +18,8 @@ enum eWaterPlacement
 
 class cTkNoiseFlattenOptions
 {
-    static const unsigned __int64 muNameHash = 13340921028045514606;
-    static const unsigned __int64 muTemplateHash = 3776405567346206493;
+    static const unsigned __int64 muNameHash = 0xB92478FDE531276E;
+    static const unsigned __int64 muTemplateHash = 0x34687CDAF17A671D;
     static const int miNumMembers = 2;
 
     eFlattening meFlattening;

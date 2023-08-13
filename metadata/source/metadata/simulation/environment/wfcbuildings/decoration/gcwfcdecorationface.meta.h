@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 enum eCanWalk
 {
     ECanWalk_None = 0,
@@ -10,8 +10,8 @@ enum eCanWalk
 
 class cGcWFCDecorationFace
 {
-    static const unsigned __int64 muNameHash = 8921489749312301391;
-    static const unsigned __int64 muTemplateHash = 10601458563296102491;
+    static const unsigned __int64 muNameHash = 0x7BCF7FA8AF0C694F;
+    static const unsigned __int64 muTemplateHash = 0x931FF264F649885B;
     static const int miNumMembers = 2;
 
     cTkFixedString<128,char> macRequiredFace;

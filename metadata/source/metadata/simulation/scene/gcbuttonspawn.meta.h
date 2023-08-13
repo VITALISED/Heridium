@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkInputEnum;
 
 enum eEvent
@@ -15,8 +15,8 @@ class cGcButtonSpawnOffset;
 
 class cGcButtonSpawn
 {
-    static const unsigned __int64 muNameHash = 9196296419108765632;
-    static const unsigned __int64 muTemplateHash = 16943990627551016536;
+    static const unsigned __int64 muNameHash = 0x7F9FCEDE7E2CBFC0;
+    static const unsigned __int64 muTemplateHash = 0xEB2525B3E0B9F658;
     static const int miNumMembers = 3;
 
     cTkInputEnum mButton;

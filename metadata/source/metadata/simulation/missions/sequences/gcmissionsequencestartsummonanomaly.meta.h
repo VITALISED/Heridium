@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcGalaxyStarAnomaly;
 
 class cGcMissionSequenceStartSummonAnomaly
 {
-    static const unsigned __int64 muNameHash = 7708786052484495091;
-    static const unsigned __int64 muTemplateHash = 12748793058725024563;
+    static const unsigned __int64 muNameHash = 0x6AFB1C1263D2F6F3;
+    static const unsigned __int64 muTemplateHash = 0xB0ECCFBDAC455333;
     static const int miNumMembers = 3;
 
     cGcGalaxyStarAnomaly mAnomaly;

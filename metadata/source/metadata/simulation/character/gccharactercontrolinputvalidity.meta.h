@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eCharacterControlInputValidity
 {
     ECharacterControlInputValidity_Always = 0,
@@ -10,8 +10,8 @@ enum eCharacterControlInputValidity
 
 class cGcCharacterControlInputValidity
 {
-    static const unsigned __int64 muNameHash = 1914964175944186788;
-    static const unsigned __int64 muTemplateHash = 2953673473146527307;
+    static const unsigned __int64 muNameHash = 0x1A9351C5A8C07BA4;
+    static const unsigned __int64 muTemplateHash = 0x28FD8E5FE5649E4B;
     static const int miNumMembers = 1;
 
     eCharacterControlInputValidity meCharacterControlInputValidity;

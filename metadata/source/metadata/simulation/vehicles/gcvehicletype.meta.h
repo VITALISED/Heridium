@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eVehicleType
 {
     EVehicleType_Buggy = 0,
@@ -14,8 +14,8 @@ enum eVehicleType
 
 class cGcVehicleType
 {
-    static const unsigned __int64 muNameHash = 5080391358129349773;
-    static const unsigned __int64 muTemplateHash = 5137867919843439233;
+    static const unsigned __int64 muNameHash = 0x46812D05ED43A48D;
+    static const unsigned __int64 muTemplateHash = 0x474D5FA6C924B281;
     static const int miNumMembers = 1;
 
     eVehicleType meVehicleType;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eSnapState
 {
     ESnapState_IsSnapped = 0,
@@ -9,8 +9,8 @@ enum eSnapState
 
 class cGcBaseSnapState
 {
-    static const unsigned __int64 muNameHash = 2020140422467643099;
-    static const unsigned __int64 muTemplateHash = 1789111415623225578;
+    static const unsigned __int64 muNameHash = 0x1C08FB02D59766DB;
+    static const unsigned __int64 muTemplateHash = 0x18D4335A77D190EA;
     static const int miNumMembers = 1;
 
     eSnapState meSnapState;

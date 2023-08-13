@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcHand;
 class cGcScanEffectData;
 
 class cGcPlayerEmotePropData
 {
-    static const unsigned __int64 muNameHash = 9081620293684451540;
-    static const unsigned __int64 muTemplateHash = 4487680146936616903;
+    static const unsigned __int64 muNameHash = 0x7E08658A660A58D4;
+    static const unsigned __int64 muTemplateHash = 0x3E4771511FBAD7C7;
     static const int miNumMembers = 7;
 
     cTkFixedString<128,char> macModel;

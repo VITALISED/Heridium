@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcTerrainTexture
 {
-    static const unsigned __int64 muNameHash = 4719738559371438602;
-    static const unsigned __int64 muTemplateHash = 15795310234503269767;
+    static const unsigned __int64 muNameHash = 0x417FE136A80C6A0A;
+    static const unsigned __int64 muTemplateHash = 0xDB3436F89CA8CD87;
     static const int miNumMembers = 3;
 
     cTkFixedString<128,char> macDiffuseTexture;

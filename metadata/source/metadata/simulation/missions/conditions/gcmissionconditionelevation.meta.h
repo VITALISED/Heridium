@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionElevation
 {
-    static const unsigned __int64 muNameHash = 15451196173534311419;
-    static const unsigned __int64 muTemplateHash = 3659060568568010;
+    static const unsigned __int64 muNameHash = 0xD66DAD0E4E6333FB;
+    static const unsigned __int64 muTemplateHash = 0xCFFE56D66B0CA;
     static const int miNumMembers = 3;
 
     float mfHeightAboveSea;

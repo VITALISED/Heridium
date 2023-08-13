@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCharacterCustomisationData;
 
 class cGcCharacterCustomisationSaveData
 {
-    static const unsigned __int64 muNameHash = 14247644096726009685;
-    static const unsigned __int64 muTemplateHash = 3810411110200518218;
+    static const unsigned __int64 muNameHash = 0xC5B9CCD1978B8755;
+    static const unsigned __int64 muTemplateHash = 0x34E14CB75FB4264A;
     static const int miNumMembers = 2;
 
     TkID<128> mSelectedPreset;

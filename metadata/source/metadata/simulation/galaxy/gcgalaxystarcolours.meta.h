@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcGalaxyStarColours
 {
-    static const unsigned __int64 muNameHash = 16478615317379589679;
-    static const unsigned __int64 muTemplateHash = 1387283325893763252;
+    static const unsigned __int64 muNameHash = 0xE4AFCD52DEB8A62F;
+    static const unsigned __int64 muTemplateHash = 0x13409ED5B2B860B4;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cTkColour> maColourByStarType;

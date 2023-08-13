@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eUsingCameraMode
 {
     EUsingCameraMode_OnFoot = 0,
@@ -10,8 +10,8 @@ enum eUsingCameraMode
 
 class cGcMissionConditionUsingThirdPersonCamera
 {
-    static const unsigned __int64 muNameHash = 1830343791426038908;
-    static const unsigned __int64 muTemplateHash = 13389665357561725425;
+    static const unsigned __int64 muNameHash = 0x1966AFFB10CA6C7C;
+    static const unsigned __int64 muTemplateHash = 0xB9D1A5B382D201F1;
     static const int miNumMembers = 1;
 
     eUsingCameraMode meUsingCameraMode;

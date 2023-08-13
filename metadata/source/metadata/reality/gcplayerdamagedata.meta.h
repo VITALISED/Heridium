@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkTextureResource;
 class cGcAudioWwiseEvents;
 class cGcAudioWwiseEvents;
@@ -16,8 +16,8 @@ enum ePlayerDamageType
 
 class cGcPlayerDamageData
 {
-    static const unsigned __int64 muNameHash = 6889372938309851442;
-    static const unsigned __int64 muTemplateHash = 2183064154353499283;
+    static const unsigned __int64 muNameHash = 0x5F9BF82F9925D932;
+    static const unsigned __int64 muTemplateHash = 0x1E4BCD483220FC93;
     static const int miNumMembers = 20;
 
     TkID<128> mId;

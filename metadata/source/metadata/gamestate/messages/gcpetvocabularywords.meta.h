@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum ePetVocabularyWord
 {
     EPetVocabularyWord_Attack = 0,
@@ -22,8 +22,8 @@ enum ePetVocabularyWord
 
 class cGcPetVocabularyWords
 {
-    static const unsigned __int64 muNameHash = 15906628543457369574;
-    static const unsigned __int64 muTemplateHash = 11547521383752264816;
+    static const unsigned __int64 muNameHash = 0xDCBFB26222DD9DE6;
+    static const unsigned __int64 muTemplateHash = 0xA041098462C7EC70;
     static const int miNumMembers = 1;
 
     ePetVocabularyWord mePetVocabularyWord;

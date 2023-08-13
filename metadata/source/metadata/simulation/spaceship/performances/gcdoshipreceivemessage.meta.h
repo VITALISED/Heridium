@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcShipMessage;
 
 class cGcDoShipReceiveMessage
 {
-    static const unsigned __int64 muNameHash = 8239672413724735810;
-    static const unsigned __int64 muTemplateHash = 10458009478338971967;
+    static const unsigned __int64 muNameHash = 0x7259326795A5F942;
+    static const unsigned __int64 muTemplateHash = 0x912250362E10093F;
     static const int miNumMembers = 1;
 
     cGcShipMessage mShipMessage;

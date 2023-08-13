@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSeasonalRingData
 {
-    static const unsigned __int64 muNameHash = 8587173140449623145;
-    static const unsigned __int64 muTemplateHash = 11506700587246716184;
+    static const unsigned __int64 muNameHash = 0x772BC47975467C69;
+    static const unsigned __int64 muTemplateHash = 0x9FB003380F9E8518;
     static const int miNumMembers = 3;
 
     float mfRingSize;

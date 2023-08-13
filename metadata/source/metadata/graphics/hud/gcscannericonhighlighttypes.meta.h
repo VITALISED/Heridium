@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eScannerIconHighlightType
 {
     EScannerIconHighlightType_Diamond = 0,
@@ -12,8 +12,8 @@ enum eScannerIconHighlightType
 
 class cGcScannerIconHighlightTypes
 {
-    static const unsigned __int64 muNameHash = 2194325635785008733;
-    static const unsigned __int64 muTemplateHash = 3815552932359537579;
+    static const unsigned __int64 muNameHash = 0x1E73CF8A2A7FA65D;
+    static const unsigned __int64 muTemplateHash = 0x34F3912D22FD83AB;
     static const int miNumMembers = 1;
 
     eScannerIconHighlightType meScannerIconHighlightType;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkCurveType;
 
 class cGcProjectileLineData
 {
-    static const unsigned __int64 muNameHash = 17859358042975197725;
-    static const unsigned __int64 muTemplateHash = 11557855721150046592;
+    static const unsigned __int64 muNameHash = 0xF7D92F84640D5A1D;
+    static const unsigned __int64 muTemplateHash = 0xA065C08AD05D6180;
     static const int miNumMembers = 10;
 
     float mfBulletLength;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eRequireMode
 {
     ERequireMode_Seated = 0,
@@ -10,8 +10,8 @@ enum eRequireMode
 
 class cGcNPCInteractiveObjectStateTransition
 {
-    static const unsigned __int64 muNameHash = 6693220276321900761;
-    static const unsigned __int64 muTemplateHash = 7797654885074380714;
+    static const unsigned __int64 muNameHash = 0x5CE318610D9BD8D9;
+    static const unsigned __int64 muTemplateHash = 0x6C36D5CDE1F2A7AA;
     static const int miNumMembers = 6;
 
     TkID<128> mNewState;

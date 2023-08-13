@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcAtmosphereList
 {
-    static const unsigned __int64 muNameHash = 6435586574746056159;
-    static const unsigned __int64 muTemplateHash = 17856048709038742995;
+    static const unsigned __int64 muNameHash = 0x594FCBE47D02F5DF;
+    static const unsigned __int64 muTemplateHash = 0xF7CD6DB20A539DD3;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cTkFixedString<128,char> > maAtmospheres;

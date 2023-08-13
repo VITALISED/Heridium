@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDifficultySettingEnum;
 
 class cGcDifficultySettingUIOption
 {
-    static const unsigned __int64 muNameHash = 4961628616078406783;
-    static const unsigned __int64 muTemplateHash = 15504817596323641891;
+    static const unsigned __int64 muNameHash = 0x44DB3EF040C4347F;
+    static const unsigned __int64 muTemplateHash = 0xD72C2D74B018BA23;
     static const int miNumMembers = 2;
 
     cGcDifficultySettingEnum mMainOption;

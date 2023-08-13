@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInventoryBaseStatEntry
 {
-    static const unsigned __int64 muNameHash = 8100811650377975543;
-    static const unsigned __int64 muTemplateHash = 2330326416972201800;
+    static const unsigned __int64 muNameHash = 0x706BDD46AD2006F7;
+    static const unsigned __int64 muTemplateHash = 0x2056FB8796563F48;
     static const int miNumMembers = 2;
 
     TkID<128> mBaseStatID;

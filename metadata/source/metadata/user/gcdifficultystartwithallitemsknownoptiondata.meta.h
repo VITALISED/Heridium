@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcKnownThingsPreset;
 class cGcInventoryContainer;
 class cGcInventoryContainer;
 
 class cGcDifficultyStartWithAllItemsKnownOptionData
 {
-    static const unsigned __int64 muNameHash = 13725989934728899046;
-    static const unsigned __int64 muTemplateHash = 1044224992381115398;
+    static const unsigned __int64 muNameHash = 0xBE7C831F4A1A69E6;
+    static const unsigned __int64 muTemplateHash = 0xE7DD51918761C06;
     static const int miNumMembers = 3;
 
     cGcKnownThingsPreset mInitialKnownThings;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eOffsetType
 {
     EOffsetType_Zero = 0,
@@ -11,8 +11,8 @@ enum eOffsetType
 
 class cTkNoiseOffsetEnum
 {
-    static const unsigned __int64 muNameHash = 18207056647108870127;
-    static const unsigned __int64 muTemplateHash = 18187737442428740053;
+    static const unsigned __int64 muNameHash = 0xFCAC758E3056BFEF;
+    static const unsigned __int64 muTemplateHash = 0xFC67D2D7540961D5;
     static const int miNumMembers = 1;
 
     eOffsetType meOffsetType;

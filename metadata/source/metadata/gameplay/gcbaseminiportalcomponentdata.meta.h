@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eDestinationSortType
 {
     EDestinationSortType_NearestPotal = 0,
@@ -11,8 +11,8 @@ enum eDestinationSortType
 
 class cGcBaseMiniPortalComponentData
 {
-    static const unsigned __int64 muNameHash = 13528045148302718879;
-    static const unsigned __int64 muTemplateHash = 7733230007038552960;
+    static const unsigned __int64 muNameHash = 0xBBBD45634207B79F;
+    static const unsigned __int64 muTemplateHash = 0x6B51F3B80FECAB80;
     static const int miNumMembers = 11;
 
     bool mbAllowVehicles;

@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../../pch.h"
+
 class cGcBaseDefenceStatusType;
 
 class cGcBaseDefenceStatusAction
 {
-    static const unsigned __int64 muNameHash = 2521829230272352515;
-    static const unsigned __int64 muTemplateHash = 11001402423420022497;
+    static const unsigned __int64 muNameHash = 0x22FF5652DE949103;
+    static const unsigned __int64 muTemplateHash = 0x98ACD53757126EE1;
     static const int miNumMembers = 1;
 
     cGcBaseDefenceStatusType mTryState;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcTexturePrefetchData
 {
-    static const unsigned __int64 muNameHash = 16325847152172073585;
-    static const unsigned __int64 muTemplateHash = 17549063619434389109;
+    static const unsigned __int64 muNameHash = 0xE2910F7CA28A0271;
+    static const unsigned __int64 muTemplateHash = 0xF38ACC62091E1E75;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cTkFixedString<128,char> > maTextures;

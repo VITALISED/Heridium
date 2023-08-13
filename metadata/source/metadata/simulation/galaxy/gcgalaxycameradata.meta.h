@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcGalaxyCameraData
 {
-    static const unsigned __int64 muNameHash = 8564232984467542029;
-    static const unsigned __int64 muTemplateHash = 13756012376020897762;
+    static const unsigned __int64 muNameHash = 0x76DA44862CDF100D;
+    static const unsigned __int64 muTemplateHash = 0xBEE72C5F9E9A4FE2;
     static const int miNumMembers = 27;
 
     float mfCameraFOV;

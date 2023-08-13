@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRegionHotspotBiomeGases
 {
-    static const unsigned __int64 muNameHash = 16060274415043231545;
-    static const unsigned __int64 muTemplateHash = 2626153645787624056;
+    static const unsigned __int64 muNameHash = 0xDEE18E7D4FF23F39;
+    static const unsigned __int64 muTemplateHash = 0x2471F8D3AEC4B278;
     static const int miNumMembers = 2;
 
     TkID<128> mGas1Id;

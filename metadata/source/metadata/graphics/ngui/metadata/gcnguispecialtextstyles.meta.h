@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcNGuiSpecialTextStyles
 {
-    static const unsigned __int64 muNameHash = 11412128475976063104;
-    static const unsigned __int64 muTemplateHash = 18400762012398912517;
+    static const unsigned __int64 muNameHash = 0x9E60066285AC5880;
+    static const unsigned __int64 muTemplateHash = 0xFF5CA38F118A0405;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcNGuiSpecialTextStyleData> maSpecialStyles;

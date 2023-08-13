@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcIKConstraint;
 class cGcIKConstraint;
 
@@ -17,8 +17,8 @@ class cGcCharacterLookAtData;
 
 class cGcPlayerFullBodyIKComponentData
 {
-    static const unsigned __int64 muNameHash = 9251672984075619149;
-    static const unsigned __int64 muTemplateHash = 1175681687885459147;
+    static const unsigned __int64 muNameHash = 0x80648B8FC1E7CB4D;
+    static const unsigned __int64 muTemplateHash = 0x1050DC441F582ECB;
     static const int miNumMembers = 13;
 
     bool mbEnabled;

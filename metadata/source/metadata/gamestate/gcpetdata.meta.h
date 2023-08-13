@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcBiomeType;
 class cGcCreatureTypes;
 class cGcDiscoveryOwner;
 
 class cGcPetData
 {
-    static const unsigned __int64 muNameHash = 11050943730411855000;
-    static const unsigned __int64 muTemplateHash = 10716582751254316352;
+    static const unsigned __int64 muNameHash = 0x995CD6C5BC075C98;
+    static const unsigned __int64 muTemplateHash = 0x94B8F33BBE978540;
     static const int miNumMembers = 27;
 
     float mfScale;

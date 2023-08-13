@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cTkTransformData
 {
-    static const unsigned __int64 muNameHash = 10974520894151016967;
-    static const unsigned __int64 muTemplateHash = 10680040011795231980;
+    static const unsigned __int64 muNameHash = 0x984D549B93F94207;
+    static const unsigned __int64 muTemplateHash = 0x94371FCE320374EC;
     static const int miNumMembers = 9;
 
     float mfTransX;

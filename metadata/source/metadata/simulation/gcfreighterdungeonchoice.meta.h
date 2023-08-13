@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcFreighterDungeonChoice
 {
-    static const unsigned __int64 muNameHash = 14060870550741329082;
-    static const unsigned __int64 muTemplateHash = 8793252240363119122;
+    static const unsigned __int64 muNameHash = 0xC3223F44A9B024BA;
+    static const unsigned __int64 muTemplateHash = 0x7A07E852EF406212;
     static const int miNumMembers = 2;
 
     TkID<128> mName;

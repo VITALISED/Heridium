@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkInteractivityData
 {
-    static const unsigned __int64 muNameHash = 10063159037755542836;
-    static const unsigned __int64 muTemplateHash = 4880176232784277185;
+    static const unsigned __int64 muNameHash = 0x8BA785D3F3AE4D34;
+    static const unsigned __int64 muTemplateHash = 0x43B9DE6D6C692EC1;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cTkInteractiveSceneData> maScenes;

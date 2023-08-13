@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eRestriction
 {
     ERestriction_NoMoreThan = 0,
@@ -10,8 +10,8 @@ enum eRestriction
 
 class cTkLSystemRestrictionData
 {
-    static const unsigned __int64 muNameHash = 3236179318745455890;
-    static const unsigned __int64 muTemplateHash = 1097068243009941437;
+    static const unsigned __int64 muNameHash = 0x2CE937F1C349DD12;
+    static const unsigned __int64 muTemplateHash = 0xF3991C126F82FBD;
     static const int miNumMembers = 2;
 
     int miAmount;

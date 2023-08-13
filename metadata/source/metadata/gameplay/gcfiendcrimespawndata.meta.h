@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcCreatureTypes;
 
 class cGcFiendCrimeSpawnData
 {
-    static const unsigned __int64 muNameHash = 11490498543016995538;
-    static const unsigned __int64 muTemplateHash = 16046605821690900972;
+    static const unsigned __int64 muNameHash = 0x9F76738BACABEAD2;
+    static const unsigned __int64 muTemplateHash = 0xDEB0FEF9EC99F1EC;
     static const int miNumMembers = 5;
 
     cGcCreatureTypes mType;

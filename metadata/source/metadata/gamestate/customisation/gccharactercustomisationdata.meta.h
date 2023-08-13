@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcCharacterCustomisationData
 {
-    static const unsigned __int64 muNameHash = 13788071507201705103;
-    static const unsigned __int64 muTemplateHash = 16556749104536119972;
+    static const unsigned __int64 muNameHash = 0xBF5911FBC471448F;
+    static const unsigned __int64 muTemplateHash = 0xE5C56396D3246AA4;
     static const int miNumMembers = 5;
 
     cTkDynamicArray<TkID<128> > maDescriptorGroups;

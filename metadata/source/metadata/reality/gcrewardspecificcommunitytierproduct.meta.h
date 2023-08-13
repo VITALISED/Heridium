@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardSpecificCommunityTierProduct
 {
-    static const unsigned __int64 muNameHash = 11544735004213487024;
-    static const unsigned __int64 muTemplateHash = 17121650063529537326;
+    static const unsigned __int64 muNameHash = 0xA0372351D829A5B0;
+    static const unsigned __int64 muTemplateHash = 0xED9C5204B538EF2E;
     static const int miNumMembers = 5;
 
     cTkDynamicArray<TkID<128> > maProductList;

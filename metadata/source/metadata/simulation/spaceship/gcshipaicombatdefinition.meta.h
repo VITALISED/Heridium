@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cTkTextureResource;
 
 class cGcShipAICombatDefinition
 {
-    static const unsigned __int64 muNameHash = 2878142413346744113;
-    static const unsigned __int64 muTemplateHash = 1646377002278844355;
+    static const unsigned __int64 muNameHash = 0x27F13746A084A731;
+    static const unsigned __int64 muTemplateHash = 0x16D91B292333F7C3;
     static const int miNumMembers = 13;
 
     TkID<128> mId;

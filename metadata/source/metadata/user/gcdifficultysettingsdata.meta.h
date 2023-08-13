@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDeathConsequencesDifficultyOption;
 class cGcDamageReceivedDifficultyOption;
 class cGcDamageGivenDifficultyOption;
@@ -24,8 +24,8 @@ class cGcBreakTechOnDamageDifficultyOption;
 
 class cGcDifficultySettingsData
 {
-    static const unsigned __int64 muNameHash = 7209506385515882353;
-    static const unsigned __int64 muTemplateHash = 2808078398976653390;
+    static const unsigned __int64 muNameHash = 0x640D4FDC2A95A771;
+    static const unsigned __int64 muTemplateHash = 0x26F84C6D1073784E;
     static const int miNumMembers = 28;
 
     bool mbSettingsLocked;

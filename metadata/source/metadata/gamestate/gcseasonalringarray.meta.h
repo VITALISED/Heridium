@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSeasonalRingArray
 {
-    static const unsigned __int64 muNameHash = 5413258097603066156;
-    static const unsigned __int64 muTemplateHash = 2863140025743091624;
+    static const unsigned __int64 muNameHash = 0x4B1FC18F2123392C;
+    static const unsigned __int64 muTemplateHash = 0x27BBEAAF109EA7A8;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcSeasonalRingData> maSeasonalRingData;

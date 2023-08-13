@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcByteBeatTemplates
 {
-    static const unsigned __int64 muNameHash = 13526144295157973956;
-    static const unsigned __int64 muTemplateHash = 3815757323274614369;
+    static const unsigned __int64 muNameHash = 0xBBB68492659143C4;
+    static const unsigned __int64 muTemplateHash = 0x34F44B119AE0F661;
     static const int miNumMembers = 10;
 
     cTkDynamicArray<cTkFixedString<64,char> > maInitialTrees;

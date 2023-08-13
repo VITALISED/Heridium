@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eForHotspotType
 {
     EForHotspotType_Any = 0,
@@ -11,8 +11,8 @@ enum eForHotspotType
 
 class cGcMissionConditionIsSurveying
 {
-    static const unsigned __int64 muNameHash = 15268838784356607447;
-    static const unsigned __int64 muTemplateHash = 284091126295494495;
+    static const unsigned __int64 muNameHash = 0xD3E5CFFA024865D7;
+    static const unsigned __int64 muTemplateHash = 0x3F14B5FCAAEFF5F;
     static const int miNumMembers = 2;
 
     eForHotspotType meForHotspotType;

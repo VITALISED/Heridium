@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eFrigateClass
 {
     EFrigateClass_Combat = 0,
@@ -15,8 +15,8 @@ enum eFrigateClass
 
 class cGcFrigateClass
 {
-    static const unsigned __int64 muNameHash = 11801804073985428071;
-    static const unsigned __int64 muTemplateHash = 15563479437580306442;
+    static const unsigned __int64 muNameHash = 0xA3C86E46D2A8CA67;
+    static const unsigned __int64 muTemplateHash = 0xD7FC9616F212080A;
     static const int miNumMembers = 1;
 
     eFrigateClass meFrigateClass;

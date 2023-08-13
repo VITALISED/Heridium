@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcSettlementStatType;
 class cGcSettlementStatStrength;
 
 class cGcSettlementStatChange
 {
-    static const unsigned __int64 muNameHash = 15054809336344062951;
-    static const unsigned __int64 muTemplateHash = 9140646702737254098;
+    static const unsigned __int64 muNameHash = 0xD0ED6D53DE05ABE7;
+    static const unsigned __int64 muTemplateHash = 0x7EDA19BF35FFE6D2;
     static const int miNumMembers = 2;
 
     cGcSettlementStatType mStat;

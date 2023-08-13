@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDefaultMissionProductEnum;
 
 class cGcCostProduct
 {
-    static const unsigned __int64 muNameHash = 16792730382668571863;
-    static const unsigned __int64 muTemplateHash = 2830553074707681829;
+    static const unsigned __int64 muNameHash = 0xE90BC34FB3DEA4D7;
+    static const unsigned __int64 muTemplateHash = 0x2748250647D75225;
     static const int miNumMembers = 3;
 
     cGcDefaultMissionProductEnum mDefault;

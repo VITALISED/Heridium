@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eDiscoverTargetOnThisPlanet
 {
     EDiscoverTargetOnThisPlanet_Animal = 0,
@@ -10,8 +10,8 @@ enum eDiscoverTargetOnThisPlanet
 
 class cGcMissionSequenceDiscoverOnPlanet
 {
-    static const unsigned __int64 muNameHash = 15354707100671169;
-    static const unsigned __int64 muTemplateHash = 14082459358037382972;
+    static const unsigned __int64 muNameHash = 0x368D06565D9CC1;
+    static const unsigned __int64 muTemplateHash = 0xC36EF22C8FB1973C;
     static const int miNumMembers = 4;
 
     float mfPercentToDiscover;

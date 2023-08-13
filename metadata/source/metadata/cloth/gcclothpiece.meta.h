@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eScaleInTransformApplicationOnCloth
 {
     EScaleInTransformApplicationOnCloth_Multiply = 0,
@@ -34,8 +34,8 @@ class cGcAdvancedTweaks;
 
 class cGcClothPiece
 {
-    static const unsigned __int64 muNameHash = 8473236425405541431;
-    static const unsigned __int64 muTemplateHash = 12367941747499515206;
+    static const unsigned __int64 muNameHash = 0x7596FBA2C232AC37;
+    static const unsigned __int64 muTemplateHash = 0xABA3C17DBE6EBD46;
     static const int miNumMembers = 40;
 
     bool mbEnabled;

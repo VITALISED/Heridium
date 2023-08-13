@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eEngineStatus
 {
     EEngineStatus_Thrusting = 0,
@@ -15,8 +15,8 @@ enum eEngineStatus
 
 class cGcMissionConditionShipEngineStatus
 {
-    static const unsigned __int64 muNameHash = 11115914914901073804;
-    static const unsigned __int64 muTemplateHash = 4123142575912959100;
+    static const unsigned __int64 muNameHash = 0x9A43A9B870251F8C;
+    static const unsigned __int64 muTemplateHash = 0x39385853D394BC7C;
     static const int miNumMembers = 1;
 
     eEngineStatus meEngineStatus;

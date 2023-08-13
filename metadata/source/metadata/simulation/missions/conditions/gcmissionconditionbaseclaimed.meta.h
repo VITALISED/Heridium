@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcPersistentBaseTypes;
 
 enum eIsOnCurrentSystem
@@ -12,8 +12,8 @@ enum eIsOnCurrentSystem
 
 class cGcMissionConditionBaseClaimed
 {
-    static const unsigned __int64 muNameHash = 939999660381857653;
-    static const unsigned __int64 muTemplateHash = 7398283546372629714;
+    static const unsigned __int64 muNameHash = 0xD0B8CB5F60C6775;
+    static const unsigned __int64 muTemplateHash = 0x66ABFBB0092864D2;
     static const int miNumMembers = 5;
 
     bool mbClaimed;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eInvalidPlacementReason
 {
     EInvalidPlacementReason_Offline = 0,
@@ -29,8 +29,8 @@ enum eInvalidPlacementReason
 
 class cGcBuildingPlacementErrorTypes
 {
-    static const unsigned __int64 muNameHash = 14046256166208624350;
-    static const unsigned __int64 muTemplateHash = 13440364220882809644;
+    static const unsigned __int64 muNameHash = 0xC2EE53901B0156DE;
+    static const unsigned __int64 muTemplateHash = 0xBA85C40C7D96F32C;
     static const int miNumMembers = 1;
 
     eInvalidPlacementReason meInvalidPlacementReason;

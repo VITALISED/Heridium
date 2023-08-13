@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcDoShipFlybyClose
 {
-    static const unsigned __int64 muNameHash = 11273819706439573238;
-    static const unsigned __int64 muTemplateHash = 17562785251403735826;
+    static const unsigned __int64 muNameHash = 0x9C74A74AB0211EF6;
+    static const unsigned __int64 muTemplateHash = 0xF3BB8C227063A312;
     static const int miNumMembers = 5;
 
     float mfLockOffset;

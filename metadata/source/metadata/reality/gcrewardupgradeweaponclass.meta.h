@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardUpgradeWeaponClass
 {
-    static const unsigned __int64 muNameHash = 10296332690353134007;
-    static const unsigned __int64 muTemplateHash = 5749677297899101512;
+    static const unsigned __int64 muNameHash = 0x8EE3EC0791BD99B7;
+    static const unsigned __int64 muTemplateHash = 0x4FCAF50A12675D48;
     static const int miNumMembers = 2;
 
     bool mbSilent;

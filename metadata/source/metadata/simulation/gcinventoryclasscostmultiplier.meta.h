@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcInventoryClassCostMultiplier
 {
-    static const unsigned __int64 muNameHash = 142567813712098917;
-    static const unsigned __int64 muTemplateHash = 9278045195815926928;
+    static const unsigned __int64 muNameHash = 0x1FA80ABD4B6B665;
+    static const unsigned __int64 muTemplateHash = 0x80C23CF2CAA0BC90;
     static const int miNumMembers = 1;
 
     cTkFixedArray<float> maMultiplier;

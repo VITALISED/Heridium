@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcShipHUDTargetIconData;
 
 class cGcShipHUDTargetData
 {
-    static const unsigned __int64 muNameHash = 2645556741615846613;
-    static const unsigned __int64 muTemplateHash = 2231173629190532053;
+    static const unsigned __int64 muNameHash = 0x24B6E7D6F92704D5;
+    static const unsigned __int64 muTemplateHash = 0x1EF6B898301EEBD5;
     static const int miNumMembers = 25;
 
     cGcShipHUDTargetIconData mIconData;

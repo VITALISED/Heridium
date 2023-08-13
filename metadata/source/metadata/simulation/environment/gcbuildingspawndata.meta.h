@@ -1,14 +1,14 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcResourceElement;
 class cGcBuildingClassification;
 class cTkNoiseFlattenOptions;
 
 class cGcBuildingSpawnData
 {
-    static const unsigned __int64 muNameHash = 3450476290012153519;
-    static const unsigned __int64 muTemplateHash = 18436716820657917206;
+    static const unsigned __int64 muNameHash = 0x2FE28DE7841506AF;
+    static const unsigned __int64 muTemplateHash = 0xFFDC604437C8CD16;
     static const int miNumMembers = 25;
 
     float mfDensity;

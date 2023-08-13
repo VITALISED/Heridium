@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcTeleporterType;
 
 class cGcMissionSequenceTeleport
 {
-    static const unsigned __int64 muNameHash = 16539154925467271943;
-    static const unsigned __int64 muTemplateHash = 13495706455562122440;
+    static const unsigned __int64 muNameHash = 0xE586E1C6C9A10307;
+    static const unsigned __int64 muTemplateHash = 0xBB4A61849CB9F4C8;
     static const int miNumMembers = 7;
 
     cTkFixedString<128,char> macMessage;

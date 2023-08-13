@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcFrigateStatRange
 {
-    static const unsigned __int64 muNameHash = 2982150806296085473;
-    static const unsigned __int64 muTemplateHash = 16332713248213105732;
+    static const unsigned __int64 muNameHash = 0x2962BA5BB3EC43E1;
+    static const unsigned __int64 muTemplateHash = 0xE2A9742A320EFC44;
     static const int miNumMembers = 2;
 
     int miMinimum;

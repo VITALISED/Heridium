@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcDamageType;
 
 class cGcDamageMultiplier
 {
-    static const unsigned __int64 muNameHash = 12936558413414553217;
-    static const unsigned __int64 muTemplateHash = 7822068081585955135;
+    static const unsigned __int64 muNameHash = 0xB387E3560FAA5681;
+    static const unsigned __int64 muTemplateHash = 0x6C8D917A23DA213F;
     static const int miNumMembers = 2;
 
     cGcDamageType mType;

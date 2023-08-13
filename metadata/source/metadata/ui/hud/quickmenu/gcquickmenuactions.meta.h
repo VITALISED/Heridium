@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eQuickMenuActions
 {
     EQuickMenuActions_None = 0,
@@ -64,8 +64,8 @@ enum eQuickMenuActions
 
 class cGcQuickMenuActions
 {
-    static const unsigned __int64 muNameHash = 6839964501989418946;
-    static const unsigned __int64 muTemplateHash = 15040070069203683809;
+    static const unsigned __int64 muNameHash = 0x5EEC6F79915C67C2;
+    static const unsigned __int64 muTemplateHash = 0xD0B9100ACFDEC9E1;
     static const int miNumMembers = 1;
 
     eQuickMenuActions meQuickMenuActions;

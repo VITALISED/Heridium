@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcBuildingModeCondition
 {
-    static const unsigned __int64 muNameHash = 3493978433375610939;
-    static const unsigned __int64 muTemplateHash = 16864294327056779941;
+    static const unsigned __int64 muNameHash = 0x307D1ADF8E3AA83B;
+    static const unsigned __int64 muTemplateHash = 0xEA0A0256EFDACAA5;
     static const int miNumMembers = 1;
 
     cTkFixedArray<int> maValidBuildingModes;

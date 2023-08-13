@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcJudgementMessageOptions;
 
 class cGcMissionSequenceCompleteSettlementJudgement
 {
-    static const unsigned __int64 muNameHash = 3889876598092615466;
-    static const unsigned __int64 muTemplateHash = 17029759105186793458;
+    static const unsigned __int64 muNameHash = 0x35FB9E28116A4F2A;
+    static const unsigned __int64 muTemplateHash = 0xEC55DBADBB2207F2;
     static const int miNumMembers = 3;
 
     cTkFixedArray<cGcJudgementMessageOptions> maMessageOptions;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcGalaxyStarTypes;
 class cGcPlanetClass;
 class cGcPlanetSize;
@@ -9,8 +9,8 @@ class cGcBiomeSubType;
 
 class cGcPlanetGenerationInputData
 {
-    static const unsigned __int64 muNameHash = 3320870750853206293;
-    static const unsigned __int64 muTemplateHash = 11499228120692769458;
+    static const unsigned __int64 muNameHash = 0x2E161A5A69971115;
+    static const unsigned __int64 muTemplateHash = 0x9F95770CDD1342B2;
     static const int miNumMembers = 15;
 
     cTkSeed mSeed;

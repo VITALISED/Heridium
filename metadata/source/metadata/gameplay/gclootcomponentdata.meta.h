@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcLootComponentData
 {
-    static const unsigned __int64 muNameHash = 2199431879168773654;
-    static const unsigned __int64 muTemplateHash = 31934064689977069;
+    static const unsigned __int64 muNameHash = 0x1E85F3A419864E16;
+    static const unsigned __int64 muTemplateHash = 0x7173DCD61496ED;
     static const int miNumMembers = 8;
 
     cTkVector2 mTimed;

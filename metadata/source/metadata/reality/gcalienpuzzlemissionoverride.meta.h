@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcAlienPuzzleMissionOverride
 {
-    static const unsigned __int64 muNameHash = 5357024154535771085;
-    static const unsigned __int64 muTemplateHash = 675709397907249941;
+    static const unsigned __int64 muNameHash = 0x4A57F915F84ABBCD;
+    static const unsigned __int64 muTemplateHash = 0x9609A1E09A79B15;
     static const int miNumMembers = 5;
 
     TkID<128> mMission;

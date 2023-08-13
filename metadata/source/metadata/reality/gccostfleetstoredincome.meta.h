@@ -1,12 +1,12 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcFrigateClass;
 
 class cGcCostFleetStoredIncome
 {
-    static const unsigned __int64 muNameHash = 8644443524830437452;
-    static const unsigned __int64 muTemplateHash = 17317160223705497145;
+    static const unsigned __int64 muNameHash = 0x77F73B95EA71A04C;
+    static const unsigned __int64 muTemplateHash = 0xF052E979247D7E39;
     static const int miNumMembers = 2;
 
     cGcFrigateClass mClass;

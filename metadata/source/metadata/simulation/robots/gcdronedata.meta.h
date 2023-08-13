@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcDroneControlData;
 class cGcDroneControlData;
 class cGcDroneControlData;
@@ -15,8 +15,8 @@ class cGcSentinelResource;
 
 class cGcDroneData
 {
-    static const unsigned __int64 muNameHash = 14135435359095480489;
-    static const unsigned __int64 muTemplateHash = 6217636847714938264;
+    static const unsigned __int64 muNameHash = 0xC42B2790FC61E0A9;
+    static const unsigned __int64 muTemplateHash = 0x56497BC5426DAD98;
     static const int miNumMembers = 72;
 
     cGcDroneControlData mPatrol;

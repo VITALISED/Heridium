@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eMechMeshPart
 {
     EMechMeshPart_Scanner = 0,
@@ -12,8 +12,8 @@ enum eMechMeshPart
 
 class cGcMechMeshPart
 {
-    static const unsigned __int64 muNameHash = 8657094556336998652;
-    static const unsigned __int64 muTemplateHash = 11377223544000314060;
+    static const unsigned __int64 muNameHash = 0x78242DA1B96F48FC;
+    static const unsigned __int64 muTemplateHash = 0x9DE40488BE597ACC;
     static const int miNumMembers = 1;
 
     eMechMeshPart meMechMeshPart;

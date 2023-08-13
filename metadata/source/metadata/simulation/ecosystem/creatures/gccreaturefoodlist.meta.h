@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcCreatureFoodList
 {
-    static const unsigned __int64 muNameHash = 10363906544934192919;
-    static const unsigned __int64 muTemplateHash = 13556081557696371878;
+    static const unsigned __int64 muNameHash = 0x8FD3FE17A0260717;
+    static const unsigned __int64 muTemplateHash = 0xBC20E05A80B75CA6;
     static const int miNumMembers = 3;
 
     TkID<128> mFoodProduct;

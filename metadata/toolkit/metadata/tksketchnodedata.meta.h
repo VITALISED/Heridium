@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../pch.h"
+
 enum eTriggerType
 {
     ETriggerType_Disabled = 0,
@@ -13,8 +13,8 @@ enum eTriggerType
 
 class cTkSketchNodeData
 {
-    static const unsigned __int64 muNameHash = 3792299433619306341;
-    static const unsigned __int64 muTemplateHash = 4803034473179032230;
+    static const unsigned __int64 muNameHash = 0x34A0F43E0ECB3765;
+    static const unsigned __int64 muTemplateHash = 0x42A7CE67E1CAAAA6;
     static const int miNumMembers = 7;
 
     cTkFixedString<32,char> macTypeName;

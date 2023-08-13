@@ -1,13 +1,13 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcFogProperties;
 class cGcWeatherColourModifiers;
 
 class cGcStormProperties
 {
-    static const unsigned __int64 muNameHash = 9417503571233470837;
-    static const unsigned __int64 muTemplateHash = 12128581168437158128;
+    static const unsigned __int64 muNameHash = 0x82B1B19A1A57F975;
+    static const unsigned __int64 muTemplateHash = 0xA85160500E3060F0;
     static const int miNumMembers = 4;
 
     float mfWeighting;

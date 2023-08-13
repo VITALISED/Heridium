@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 enum eShape
 {
     EShape_Rectangle = 0,
@@ -25,8 +25,8 @@ enum eGradient
 
 class cTkNGuiGraphicStyleData
 {
-    static const unsigned __int64 muNameHash = 2669333845558677872;
-    static const unsigned __int64 muTemplateHash = 15300461019811258129;
+    static const unsigned __int64 muNameHash = 0x250B60FD6373D170;
+    static const unsigned __int64 muTemplateHash = 0xD456283B718F9F11;
     static const int miNumMembers = 26;
 
     cTkColour mColour;

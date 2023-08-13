@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 class cGcStatIconTable
 {
-    static const unsigned __int64 muNameHash = 2769522910760293985;
-    static const unsigned __int64 muTemplateHash = 4824635346479001336;
+    static const unsigned __int64 muNameHash = 0x266F5269ED2C5661;
+    static const unsigned __int64 muTemplateHash = 0x42F48C491DACAEF8;
     static const int miNumMembers = 1;
 
     cTkFixedArray<cTkFixedString<128,char> > maStatIcons;

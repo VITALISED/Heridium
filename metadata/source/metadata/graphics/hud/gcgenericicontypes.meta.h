@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eGenericIconType
 {
     EGenericIconType_None = 0,
@@ -13,8 +13,8 @@ enum eGenericIconType
 
 class cGcGenericIconTypes
 {
-    static const unsigned __int64 muNameHash = 11820000713953464595;
-    static const unsigned __int64 muTemplateHash = 14079629804960835193;
+    static const unsigned __int64 muNameHash = 0xA4091406380F5113;
+    static const unsigned __int64 muTemplateHash = 0xC364E4B5E5B16679;
     static const int miNumMembers = 1;
 
     eGenericIconType meGenericIconType;

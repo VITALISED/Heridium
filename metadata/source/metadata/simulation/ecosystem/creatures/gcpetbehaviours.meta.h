@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum ePetBehaviour
 {
     EPetBehaviour_None = 0,
@@ -35,8 +35,8 @@ enum ePetBehaviour
 
 class cGcPetBehaviours
 {
-    static const unsigned __int64 muNameHash = 9376576157510942819;
-    static const unsigned __int64 muTemplateHash = 15613260563463720947;
+    static const unsigned __int64 muNameHash = 0x82204A5605D64063;
+    static const unsigned __int64 muTemplateHash = 0xD8AD71C286DECFF3;
     static const int miNumMembers = 1;
 
     ePetBehaviour mePetBehaviour;

@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../pch.h"
+
 enum eSentinelMechWeaponMode
 {
     ESentinelMechWeaponMode_Gun = 0,
@@ -10,8 +10,8 @@ enum eSentinelMechWeaponMode
 
 class cGcSentinelMechWeaponMode
 {
-    static const unsigned __int64 muNameHash = 17583439293495035319;
-    static const unsigned __int64 muTemplateHash = 2123344233978226709;
+    static const unsigned __int64 muNameHash = 0xF404ECE05A6AC5B7;
+    static const unsigned __int64 muTemplateHash = 0x1D77A254B2256815;
     static const int miNumMembers = 1;
 
     eSentinelMechWeaponMode meSentinelMechWeaponMode;

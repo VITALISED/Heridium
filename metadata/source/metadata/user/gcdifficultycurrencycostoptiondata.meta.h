@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcDifficultyCurrencyCostOptionData
 {
-    static const unsigned __int64 muNameHash = 10403603842929371950;
-    static const unsigned __int64 muTemplateHash = 7396326181911600409;
+    static const unsigned __int64 muNameHash = 0x9061069311B1AB2E;
+    static const unsigned __int64 muTemplateHash = 0x66A507799BC31D19;
     static const int miNumMembers = 5;
 
     cTkFixedArray<float> maMultipliers;

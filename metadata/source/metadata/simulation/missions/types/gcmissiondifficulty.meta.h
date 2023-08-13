@@ -1,6 +1,6 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 enum eMissionDifficulty
 {
     EMissionDifficulty_Easy = 0,
@@ -10,8 +10,8 @@ enum eMissionDifficulty
 
 class cGcMissionDifficulty
 {
-    static const unsigned __int64 muNameHash = 9361776251077103950;
-    static const unsigned __int64 muTemplateHash = 15398347490640178466;
+    static const unsigned __int64 muNameHash = 0x81EBB5E64823914E;
+    static const unsigned __int64 muTemplateHash = 0xD5B1EB7573A2AD22;
     static const int miNumMembers = 1;
 
     eMissionDifficulty meMissionDifficulty;

@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../pch.h"
+
 class cGcRewardBeginSettlementBuilding
 {
-    static const unsigned __int64 muNameHash = 6427847005587604254;
-    static const unsigned __int64 muTemplateHash = 5130020625326473397;
+    static const unsigned __int64 muNameHash = 0x59344CCB9E9B831E;
+    static const unsigned __int64 muTemplateHash = 0x47317E94270300B5;
     static const int miNumMembers = 1;
 
     cTkDynamicArray<cGcBuildingClassification> maValidBuildings;

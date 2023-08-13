@@ -1,10 +1,10 @@
 #pragma once
-
 #include "../../../../../../../../pch.h"
+
 class cGcMissionConditionUnderwaterDepth
 {
-    static const unsigned __int64 muNameHash = 9522647631980769362;
-    static const unsigned __int64 muTemplateHash = 2660975671051214097;
+    static const unsigned __int64 muNameHash = 0x84273D91716DB052;
+    static const unsigned __int64 muTemplateHash = 0x24EDAF463CF6DD11;
     static const int miNumMembers = 2;
 
     float mfDepth;
