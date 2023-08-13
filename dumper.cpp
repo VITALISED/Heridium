@@ -2,7 +2,7 @@
 
 void Dumper::Dump(const char* lpacFilename, const cTkMetaDataClass* lpMetaDataClass)
 {
-	std::string localPath = fmt::format("/HERIDIUM/dump/{}", lpacFilename);
+	std::string localPath = fmt::format("/HERIDIUM/{}", lpacFilename);
 	std::string root = std::filesystem::current_path().string();
 	std::string fullPath = fmt::format("{}{}", root, localPath);
 
@@ -13,6 +13,27 @@ void Dumper::Dump(const char* lpacFilename, const cTkMetaDataClass* lpMetaDataCl
 	std::ofstream Header(fullPath);
 
 	Header << "#pragma once\n\n";
+
+	int depth = 0;
+
+	for (int i = 0; i < localPath.size(); i++)
+	{
+		if (localPath[i] == '/')
+			depth++;
+	}
+
+	std::string pchDepth = "pch.h";
+
+	if ((depth - 2) > 0)
+	{
+		for (int i = 0; i < depth; i++)
+		{
+			pchDepth.insert(0, "../");
+		}
+	}
+
+	std::string pchInclude = fmt::format("#include \"{}\"\n", pchDepth);
+	Header << pchInclude.c_str();
 
 	if (lpMetaDataClass->miNumMembers)
 	{
@@ -137,7 +158,7 @@ void Dumper::ResolveMembers(std::ofstream* Header, const cTkMetaDataClass* lpMet
 		if (innerString)
 			*Header << innerString->c_str();
 
-		*Header << " m";
+		*Header << " "; *Header << Dumper::CreateHungarainNotationForMember(laMember->mType);
 		*Header << laMember->mpacName;
 		*Header << ";\n";
 
@@ -162,7 +183,6 @@ void Dumper::ResolveMembers(std::ofstream* Header, const cTkMetaDataClass* lpMet
 
 const char* Dumper::EnumToChar(cTkMetaDataMember::eType leType)
 {
-	// we prepend the Hungarian notation mostly for parity with class dumps from ida, you can thank me later.
 	switch (leType)
 	{
 		case cTkMetaDataMember::EType_Unspecified:
@@ -170,7 +190,7 @@ const char* Dumper::EnumToChar(cTkMetaDataMember::eType leType)
 		case cTkMetaDataMember::EType_Bool:
 			return "bool";
 		case cTkMetaDataMember::EType_Byte:
-			return "__int8";
+			return "unsigned __int8";
 		case cTkMetaDataMember::EType_Class:
 			return ""; // we resolve classnames elsewhere
 		case cTkMetaDataMember::EType_ClassPointer:
@@ -204,7 +224,7 @@ const char* Dumper::EnumToChar(cTkMetaDataMember::eType leType)
 		case cTkMetaDataMember::EType_Int64:
 			return "__int64";
 		case cTkMetaDataMember::EType_Int8:
-			return "char"; // this is dumb
+			return "__int8";
 		case cTkMetaDataMember::EType_LocId:
 			return "TkID<256>";
 		case cTkMetaDataMember::EType_NodeHandle:
@@ -240,7 +260,7 @@ const char* Dumper::EnumToChar(cTkMetaDataMember::eType leType)
 		case cTkMetaDataMember::EType_UInt8:
 			return "unsigned __int8";
 		case cTkMetaDataMember::EType_UniqueId:
-			return "cTkNetworkID"; //not sure about this one
+			return "cTkNetworkID"; 
 		case cTkMetaDataMember::EType_Vector:
 			return "cTkVector";
 		case cTkMetaDataMember::EType_Vector2:
@@ -251,5 +271,99 @@ const char* Dumper::EnumToChar(cTkMetaDataMember::eType leType)
 			return "wchar_t*";
 		default:
 			return "UNIMPLEMENTED";
+	}
+}
+
+const char* Dumper::CreateHungarainNotationForMember(cTkMetaDataMember::eType leType)
+{
+	// we prepend the Hungarian notation mostly for parity with class dumps from ida, you can thank me later.
+	switch (leType)
+	{
+	case cTkMetaDataMember::EType_Unspecified:
+		return NULL;
+	case cTkMetaDataMember::EType_Bool:
+		return "mb";
+	case cTkMetaDataMember::EType_Byte:
+		return "m";
+	case cTkMetaDataMember::EType_Class:
+		return "m";
+	case cTkMetaDataMember::EType_ClassPointer:
+		return "m";
+	case cTkMetaDataMember::EType_Colour:
+		return "m";
+	case cTkMetaDataMember::EType_DynamicArray:
+		return "ma";
+	case cTkMetaDataMember::EType_DynamicString:
+		return "mac";
+	case cTkMetaDataMember::EType_DynamicWideString:
+		return "mac";
+	case cTkMetaDataMember::EType_Enum:
+		return "me";
+	case cTkMetaDataMember::EType_Filename:
+		return "mac";
+	case cTkMetaDataMember::EType_Flags:
+		return "mex";
+	case cTkMetaDataMember::EType_Float:
+		return "mf";
+	case cTkMetaDataMember::EType_HalfVector4:
+		return "m"; // might be wrong, just a guess
+	case cTkMetaDataMember::EType_Id:
+		return "m";
+	case cTkMetaDataMember::EType_Id256:
+		return "m";
+	case cTkMetaDataMember::EType_Int:
+		return "mi";
+	case cTkMetaDataMember::EType_Int16:
+		return "mi";
+	case cTkMetaDataMember::EType_Int64:
+		return "mi64";
+	case cTkMetaDataMember::EType_Int8:
+		return "mi"; // this is dumb
+	case cTkMetaDataMember::EType_LocId:
+		return "m";
+	case cTkMetaDataMember::EType_NodeHandle:
+		return "m";
+	case cTkMetaDataMember::EType_PhysRelVec:
+		return "m";
+	case cTkMetaDataMember::EType_Resource:
+		return "m";
+	case cTkMetaDataMember::EType_Seed:
+		return "m";
+	case cTkMetaDataMember::EType_StaticArray:
+		return "ma";
+	case cTkMetaDataMember::EType_String1024:
+		return "mac";
+	case cTkMetaDataMember::EType_String128:
+		return "mac";
+	case cTkMetaDataMember::EType_String2048:
+		return "mac";
+	case cTkMetaDataMember::EType_String256:
+		return "mac";
+	case cTkMetaDataMember::EType_String32:
+		return "mac";
+	case cTkMetaDataMember::EType_String512:
+		return "mac";
+	case cTkMetaDataMember::EType_String64:
+		return "mac";
+	case cTkMetaDataMember::EType_UInt:
+		return "mui";
+	case cTkMetaDataMember::EType_UInt16:
+		return "mui";
+	case cTkMetaDataMember::EType_UInt64:
+		return "mui64";
+	case cTkMetaDataMember::EType_UInt8:
+		return "mui";
+	case cTkMetaDataMember::EType_UniqueId:
+		return "m"; //not sure about this one
+	case cTkMetaDataMember::EType_Vector:
+		return "m";
+	case cTkMetaDataMember::EType_Vector2:
+		return "m";
+	case cTkMetaDataMember::EType_Vector4:
+		return "m";
+	case cTkMetaDataMember::EType_WideChar:
+		return "mac";
+	default:
+		return "UNIMPLEMENTED";
 	}
 }

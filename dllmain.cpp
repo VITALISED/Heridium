@@ -24,7 +24,7 @@ void RegisterHook(const cTkMetaDataClass* lpClassMetadata,
     std::transform(key.begin(), key.end(), key.begin(),
         [](unsigned char c) { return std::tolower(c); });
 
-    std::string pathOptional = "/unmapped/" + key + ".meta.h";
+    std::string pathOptional = "/metadata/unmapped/" + key + ".meta.h";
 
     for (int i = 0; i < classPaths.size(); i++)
     {

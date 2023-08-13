@@ -14,4 +14,5 @@ namespace Dumper
 	void ResolveMembers(std::ofstream* Header, const cTkMetaDataClass* lpMetaDataClass);
 	const char* EnumToChar(cTkMetaDataMember::eType leType);
 	void ResolveMembersFirstPass(std::ofstream* Header, const cTkMetaDataClass* lpMetaDataClass);
+	const char* CreateHungarainNotationForMember(cTkMetaDataMember::eType leType);
 }
