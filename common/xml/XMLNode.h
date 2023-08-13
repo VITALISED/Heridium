@@ -7,7 +7,7 @@
 
 struct XMLNode
 {
-	struct ALIGN(8) XMLNodeDataTag
+	struct XMLNodeDataTag
 	{
 		const char* lpszName;
 		int nChild;

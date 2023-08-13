@@ -6,7 +6,7 @@
 #include "TkArray.h"
 
 template <unsigned int size, typename T>
-class ALIGN(4) cTkFixedString
+class __declspec(align(4)) cTkFixedString
 {
 public:
 	cTkFixedString()

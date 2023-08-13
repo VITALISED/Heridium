@@ -1,0 +1,52 @@
+#pragma once
+
+#include "../../../../../../../pch.h"
+enum eNoiseType
+{
+    ENoiseType_Plane = 0,
+    ENoiseType_Check = 1,
+    ENoiseType_Sine = 2,
+    ENoiseType_Smooth = 3,
+    ENoiseType_Fractal = 4,
+    ENoiseType_Ridged = 5,
+    ENoiseType_Billow = 6,
+    ENoiseType_Erosion = 7,
+    ENoiseType_Volcanic = 8,
+    ENoiseType_Glacial = 9,
+    ENoiseType_Plateau = 10,
+};
+
+class cTkNoiseLayerData
+{
+    static const unsigned __int64 muNameHash = 5135676633036289702;
+    static const unsigned __int64 muTemplateHash = 14332693926109666090;
+    static const int miNumMembers = 15;
+
+    bool mbActive;
+    bool mbInvert;
+    bool mbAbsolute;
+    bool mbSubtract;
+    eNoiseType meNoiseType;
+    float mfHeight;
+    float mfWidth;
+    int miOctaves;
+    float mfFrequencyScaleY;
+    float mfRegionRatio;
+    float mfRegionScale;
+    float mfTurbulenceFrequency;
+    float mfTurbulenceAmplitude;
+    int miTurbulenceOctaves;
+    int miSeedOffset;
+
+    static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
+    static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);
+    static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
+    static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
+    static void ClassPointerDestroy(cTkClassPointer* lPtr);
+    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
+    static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
+    static void ClassPointerRender(cTkClassPointer* lPtr);
+    static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
+    static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
+};

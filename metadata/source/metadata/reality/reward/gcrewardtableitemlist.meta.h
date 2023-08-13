@@ -1,0 +1,40 @@
+#pragma once
+
+#include "../../../../../../../pch.h"
+enum eRewardChoice
+{
+    ERewardChoice_GiveAll = 0,
+    ERewardChoice_Select = 1,
+    ERewardChoice_SelectAlways = 2,
+    ERewardChoice_TryEach = 3,
+    ERewardChoice_SelectSilent = 4,
+    ERewardChoice_GiveAllSilent = 5,
+    ERewardChoice_TryFirst_ThenSelectAlways = 6,
+    ERewardChoice_SelectFromSuccess = 7,
+    ERewardChoice_SelectAlwaysSilent = 8,
+    ERewardChoice_SelectFromSuccessSilent = 9,
+};
+
+class cGcRewardTableItemList
+{
+    static const unsigned __int64 muNameHash = 17977720755860110919;
+    static const unsigned __int64 muTemplateHash = 1066576159794867478;
+    static const int miNumMembers = 4;
+
+    eRewardChoice meRewardChoice;
+    bool mbOverrideZeroSeed;
+    bool mbUseInventoryChoiceOverride;
+    cTkDynamicArray<cGcRewardTableItem> maList;
+
+    static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
+    static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);
+    static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
+    static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
+    static void ClassPointerDestroy(cTkClassPointer* lPtr);
+    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
+    static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
+    static void ClassPointerRender(cTkClassPointer* lPtr);
+    static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
+    static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
+};

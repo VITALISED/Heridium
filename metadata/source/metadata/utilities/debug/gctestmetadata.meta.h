@@ -1,0 +1,83 @@
+#pragma once
+
+#include "../../../../../../../pch.h"
+class cGcAudioWwiseEvents;
+
+enum eDocOptionalEnum
+{
+    EDocOptionalEnum_SomeValue1 = 0,
+    EDocOptionalEnum_SomeValue2 = 1,
+    EDocOptionalEnum_SomeValue3 = 2,
+    EDocOptionalEnum_SomeValue4 = 3,
+};
+
+enum eTestEnum
+{
+    ETestEnum_Default = 0,
+    ETestEnum_Option1 = 1,
+    ETestEnum_Option2 = 2,
+    ETestEnum_Option3 = 3,
+};
+
+enum exTestFlags
+{
+    ETestFlags_Flag1 = 1,
+    ETestFlags_Flag2 = 2,
+    ETestFlags_Flag3 = 4,
+};
+
+class cGcTestMetadata
+{
+    static const unsigned __int64 muNameHash = 14886190827146312094;
+    static const unsigned __int64 muTemplateHash = 8355257701396700267;
+    static const int miNumMembers = 36;
+
+    bool mbTestBool;
+    unsigned __int8 mTestByte;
+    int miTestInt;
+    __int16 miTestInt16;
+    unsigned __int16 muiTestUInt16;
+    __int64 mi64TestInt64;
+    unsigned __int64 mui64TestUInt64;
+    __int64 mi64TestInt64_2;
+    unsigned __int64 mui64TestUInt64_2;
+    cTkSmartResHandle mTestResource;
+    cTkVector mTestVector;
+    cTkVector2 mTestVector2;
+    cTkVector4 mTestVector4;
+    cTkColour mTestColour;
+    float mfTestFloat;
+    cTkSeed mTestSeed;
+    cTkFixedString<128,char> macTestModelFilename;
+    cTkFixedString<128,char> macTestTextureFilename;
+    cTkFixedString<32,char> macTestString;
+    cTkFixedString<128,char> macTestString128;
+    cTkFixedString<256,char> macTestString256;
+    cTkFixedString<512,char> macTestString512;
+    TkID<128> mTestID;
+    TkID<256> mTestLocID;
+    cGcAudioWwiseEvents mTestAudioEvent;
+    cTkVector mDocOptionalVector;
+    cTkFixedString<64,char> macDocRenamedString64;
+    TkID<256> mDocOptionalRenamed;
+    eDocOptionalEnum meDocOptionalEnum;
+    cTkDynamicString macTestDynamicString;
+    eTestEnum meTestEnum;
+    cTkFixedArray<float> maTestStaticArray;
+    cTkDynamicArray<float> maTestDynamicArray;
+    cTkFixedArray<float> maTestEnumArray;
+    cTkFixedArray<float> maTestExternalEnumArray;
+    exTestFlags mexTestFlags;
+
+    static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
+    static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);
+    static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
+    static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
+    static void ClassPointerDestroy(cTkClassPointer* lPtr);
+    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
+    static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
+    static void ClassPointerRender(cTkClassPointer* lPtr);
+    static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
+    static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
+};
