@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eBaseStat
 {
@@ -9,6 +9,7 @@ enum eBaseStat
 
 class cGcBaseStatCondition
 {
+public:
     static const unsigned __int64 muNameHash = 0xB05E7D6A559B1AC0;
     static const unsigned __int64 muTemplateHash = 0xE5BDFFE8C388B843;
     static const int miNumMembers = 2;

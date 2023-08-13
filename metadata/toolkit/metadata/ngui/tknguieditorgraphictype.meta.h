@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eNGuiEditorGraphic
 {
@@ -79,6 +79,7 @@ enum eNGuiEditorGraphic
 
 class cTkNGuiEditorGraphicType
 {
+public:
     static const unsigned __int64 muNameHash = 0x2DD2249029019040;
     static const unsigned __int64 muTemplateHash = 0x60E007940935D5F2;
     static const int miNumMembers = 1;

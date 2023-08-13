@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkAttachmentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x9756E001A603A3B1;
     static const unsigned __int64 muTemplateHash = 0x6F7B6FDB3A0572E9;
     static const int miNumMembers = 2;
 
-    cTkDynamicArray<cTkClassPointer> maComponents;
-    cTkFixedArray<float> maLodDistances;
+    cTkDynamicArray<cTkClassPointer1> maComponents;
+    cTkFixedArray<float, 5> maLodDistances;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

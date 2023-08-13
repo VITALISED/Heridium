@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkTextureResource;
 class cGcMissionPageHint;
@@ -27,6 +27,7 @@ class cGcCustomNotifyTimerOptions;
 
 class cGcMissionSequenceGroup
 {
+public:
     static const unsigned __int64 muNameHash = 0x51B3554FFBEBED66;
     static const unsigned __int64 muTemplateHash = 0xB370FD96C3A251EC;
     static const int miNumMembers = 27;
@@ -55,9 +56,9 @@ class cGcMissionSequenceGroup
     cGcObjectiveTextFormatOptions mObjectiveFormatting;
     cGcTargetMissionSurveyOptions mSurveyTarget;
     cGcCustomNotifyTimerOptions mCustomNotifyTimers;
-    cTkDynamicArray<cTkClassPointer> maConditions;
-    cTkDynamicArray<cTkClassPointer> maConsequences;
-    cTkDynamicArray<cGcGenericMissionStage> maStages;
+    cTkDynamicArray<cTkClassPointer1> maConditions;
+    cTkDynamicArray<cTkClassPointer1> maConsequences;
+    cTkDynamicArray<cGcGenericMissionStage1> maStages;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

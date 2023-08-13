@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcFactionSelectOptions;
 
 class cGcMissionSequenceDoMissionsForFaction
 {
+public:
     static const unsigned __int64 muNameHash = 0xBDA9289A7DF468BD;
     static const unsigned __int64 muTemplateHash = 0x46580389AC072212;
     static const int miNumMembers = 5;

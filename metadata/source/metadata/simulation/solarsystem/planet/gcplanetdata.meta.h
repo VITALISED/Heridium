@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlanetLife;
 class cGcPlanetLife;
@@ -26,6 +26,7 @@ class cGcPlanetRingData;
 
 class cGcPlanetData
 {
+public:
     static const unsigned __int64 muNameHash = 0x25EDFA0EC4C3AF0A;
     static const unsigned __int64 muTemplateHash = 0x2DC122FA5D947C91;
     static const int miNumMembers = 31;
@@ -39,16 +40,16 @@ class cGcPlanetData
     TkID<128> mCommonSubstanceID;
     TkID<128> mUncommonSubstanceID;
     TkID<128> mRareSubstanceID;
-    cTkDynamicArray<cGcPlanetDataResourceHint> maExtraResourceHints;
+    cTkDynamicArray<cGcPlanetDataResourceHint1> maExtraResourceHints;
     cGcPlanetColourData mColours;
-    cTkFixedArray<cTkColour> maTileColours;
+    cTkFixedArray<cTkColour, 23> maTileColours;
     cGcPlanetWeatherData mWeather;
     cGcPlanetCloudProperties mClouds;
     cGcPlanetWaterData mWater;
     cTkFixedString<128,char> macTerrainFile;
     cTkVoxelGeneratorData mTerrain;
     int miTileTypeSet;
-    cTkDynamicArray<int> maTileTypeIndices;
+    cTkDynamicArray<int1> maTileTypeIndices;
     cGcEnvironmentSpawnData mSpawnData;
     cGcAlienRace mInhabitingRace;
     cGcPlanetBuildingData mBuildingData;

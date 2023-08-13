@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureHoverTintableEffect
 {
+public:
     static const unsigned __int64 muNameHash = 0xFE54641DFEAF51F;
     static const unsigned __int64 muTemplateHash = 0xDE224BE025A4ECB8;
     static const int miNumMembers = 4;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eVsyncEx
 {
@@ -28,6 +28,7 @@ enum eHDRMode
 
 class cTkGraphicsSettings
 {
+public:
     static const unsigned __int64 muNameHash = 0x8DDF831D46F0A7E;
     static const unsigned __int64 muTemplateHash = 0xC38F1DD5ADA40497;
     static const int miNumMembers = 28;
@@ -36,7 +37,7 @@ class cTkGraphicsSettings
     bool mbFullScreen;
     bool mbBorderless;
     int miMonitor;
-    cTkDynamicArray<cTkFixedString<256,char> > maMonitorNames;
+    cTkDynamicArray<cTkFixedString<256,char>1> maMonitorNames;
     int miResolutionWidth;
     int miResolutionHeight;
     float mfResolutionScale;

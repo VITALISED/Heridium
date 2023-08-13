@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkTextureResource;
 class cTkTextureResource;
 
 class cGcBuildMenuIconSet
 {
+public:
     static const unsigned __int64 muNameHash = 0xEA1A333717C572C7;
     static const unsigned __int64 muTemplateHash = 0x5E04257E6113C422;
     static const int miNumMembers = 2;

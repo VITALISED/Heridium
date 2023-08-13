@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eSubstanceCategory
 {
@@ -16,6 +16,7 @@ enum eSubstanceCategory
 
 class cGcRealitySubstanceCategory
 {
+public:
     static const unsigned __int64 muNameHash = 0x13D76408C6BF207D;
     static const unsigned __int64 muTemplateHash = 0x6B88061EEAA9975A;
     static const int miNumMembers = 1;

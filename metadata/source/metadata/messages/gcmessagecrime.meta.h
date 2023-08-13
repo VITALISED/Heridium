@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eCrime
 {
@@ -20,12 +20,13 @@ enum eCrime
 
 class cGcMessageCrime
 {
+public:
     static const unsigned __int64 muNameHash = 0xC64AF7F76101CD0;
     static const unsigned __int64 muTemplateHash = 0x6C85ED98FDA49EF4;
     static const int miNumMembers = 5;
 
     eCrime meCrime;
-    cTkVector mPosition;
+    cTkVector3 mPosition;
     TkHandle mCriminal;
     TkHandle mVictim;
     int miValue;

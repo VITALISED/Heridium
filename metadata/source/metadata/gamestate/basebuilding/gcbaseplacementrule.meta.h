@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eTwinCriteria
 {
@@ -12,11 +12,12 @@ enum eTwinCriteria
 
 class cGcBasePlacementRule
 {
+public:
     static const unsigned __int64 muNameHash = 0xE9F8FE2C0612C3FE;
     static const unsigned __int64 muTemplateHash = 0x86553802E4988FA;
     static const int miNumMembers = 5;
 
-    cTkDynamicArray<cTkClassPointer> maConditions;
+    cTkDynamicArray<cTkClassPointer1> maConditions;
     cTkFixedString<128,char> macPositionLocator;
     TkID<256> mPartID;
     bool mbORConditions;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eCombatEffectType
 {
@@ -11,6 +11,7 @@ enum eCombatEffectType
 
 class cGcCombatEffectType
 {
+public:
     static const unsigned __int64 muNameHash = 0xCC36FE8AD202DF8;
     static const unsigned __int64 muTemplateHash = 0xF353736FC3B7065;
     static const int miNumMembers = 1;

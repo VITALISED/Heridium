@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcFogProperties;
 class cGcWeatherColourModifiers;
 
 class cGcStormProperties
 {
+public:
     static const unsigned __int64 muNameHash = 0x82B1B19A1A57F975;
     static const unsigned __int64 muTemplateHash = 0xA85160500E3060F0;
     static const int miNumMembers = 4;
@@ -13,7 +14,7 @@ class cGcStormProperties
     float mfWeighting;
     cGcFogProperties mFog;
     cGcWeatherColourModifiers mColourModifiers;
-    cTkFixedArray<cTkVector2> maHazardModifiers;
+    cTkFixedArray<cTkVector2, 5> maHazardModifiers;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

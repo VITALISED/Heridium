@@ -2,6 +2,7 @@
 #include "dllmain.h" 
 
 cTkMetaData::Register fpRegister = NULL;
+std::ofstream gPrimaryHeader;
 
 void RegisterHook(const cTkMetaDataClass* lpClassMetadata,
     void(__fastcall* lDefaultFunction)(cTkClassPointer*, cTkLinearMemoryPool*),
@@ -31,7 +32,7 @@ void RegisterHook(const cTkMetaDataClass* lpClassMetadata,
         if (classPaths[i].first == key)
             pathOptional = classPaths[i].second;
     }
-    
+    gPrimaryHeader << fmt::format("#include \"{}\"\n", pathOptional).c_str();
     Dumper::Dump(pathOptional.c_str(), lpClassMetadata);
     MethodDumper::Dump(pathOptional.c_str(), lpClassMetadata);
     return fpRegister(lpClassMetadata, lDefaultFunction, lFixingFunction, lValidateFunction, lRenderFunction, lEqualsFunction, lCopyFunction, lCreateFunction, lHashFunction, lDestroyFunction);
@@ -40,6 +41,8 @@ void RegisterHook(const cTkMetaDataClass* lpClassMetadata,
 DWORD WINAPI MainThread(LPVOID lpReserved)
 {
     spdlog::info("Starting");
+    gPrimaryHeader = std::ofstream("./HERIDIUM/heridium.h");
+    gPrimaryHeader << "#pragma once\n\n";
     ADDHOOK(OFFSET(0x248ABC0), RegisterHook, reinterpret_cast<LPVOID*>(&fpRegister), cTkMetaData::Register);
 
     return TRUE;

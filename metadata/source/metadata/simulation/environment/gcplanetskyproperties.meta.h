@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSkyProperties;
 class cGcFogProperties;
@@ -9,6 +9,7 @@ class cGcFogProperties;
 
 class cGcPlanetSkyProperties
 {
+public:
     static const unsigned __int64 muNameHash = 0x7333B5EC725370EF;
     static const unsigned __int64 muTemplateHash = 0xDE3C268EA0364F75;
     static const int miNumMembers = 5;

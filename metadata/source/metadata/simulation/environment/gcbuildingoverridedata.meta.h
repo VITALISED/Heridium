@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBuildingOverrideData
 {
+public:
     static const unsigned __int64 muNameHash = 0x748F2F6EDE9F5F18;
     static const unsigned __int64 muTemplateHash = 0x17CE2551A76C03D3;
     static const int miNumMembers = 3;
 
     cTkSeed mSeed;
-    cTkVector mPosition;
+    cTkVector3 mPosition;
     int miIndex;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

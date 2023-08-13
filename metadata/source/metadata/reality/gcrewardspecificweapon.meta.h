@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInventoryContainer;
 class cGcInventoryLayout;
@@ -8,6 +8,7 @@ class cGcWeaponClasses;
 
 class cGcRewardSpecificWeapon
 {
+public:
     static const unsigned __int64 muNameHash = 0xF3710AB8A6F40A88;
     static const unsigned __int64 muTemplateHash = 0x7125A5C6424DD767;
     static const int miNumMembers = 8;

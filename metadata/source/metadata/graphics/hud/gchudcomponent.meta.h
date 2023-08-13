@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eAlign
 {
@@ -12,6 +12,7 @@ enum eAlign
 
 class cGcHUDComponent
 {
+public:
     static const unsigned __int64 muNameHash = 0x9658E308A74D3E3C;
     static const unsigned __int64 muTemplateHash = 0x3585F426181D439A;
     static const int miNumMembers = 6;

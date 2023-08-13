@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eFactionOption
 {
@@ -11,6 +11,7 @@ class cGcMissionFaction;
 
 class cGcFactionSelectOptions
 {
+public:
     static const unsigned __int64 muNameHash = 0x49D48E5A22491956;
     static const unsigned __int64 muTemplateHash = 0x9618EF930539519F;
     static const int miNumMembers = 2;

@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreaturePetTraits;
 
 class cGcPetBehaviourTraitModifier
 {
+public:
     static const unsigned __int64 muNameHash = 0xE41D8EA9BE5AA4F8;
     static const unsigned __int64 muTemplateHash = 0xF83BC00DCA9A3E83;
     static const int miNumMembers = 7;

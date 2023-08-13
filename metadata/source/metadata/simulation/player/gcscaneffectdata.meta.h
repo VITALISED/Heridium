@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eScanEffectType
 {
@@ -12,6 +12,7 @@ enum eScanEffectType
 
 class cGcScanEffectData
 {
+public:
     static const unsigned __int64 muNameHash = 0xCB9E3018E759F166;
     static const unsigned __int64 muTemplateHash = 0x1D30CF3BCBA8A73D;
     static const int miNumMembers = 14;

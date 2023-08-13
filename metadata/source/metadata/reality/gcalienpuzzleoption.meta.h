@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAlienMood;
 class cGcNPCPropType;
@@ -9,6 +9,7 @@ class cgcwordcategorytableEnum;
 
 class cGcAlienPuzzleOption
 {
+public:
     static const unsigned __int64 muNameHash = 0x3FE862FE8570BE69;
     static const unsigned __int64 muTemplateHash = 0xE619E6DFA20C25A2;
     static const int miNumMembers = 21;
@@ -17,7 +18,7 @@ class cGcAlienPuzzleOption
     TkID<256> mText;
     bool mbIsAlien;
     TkID<128> mCost;
-    cTkDynamicArray<TkID<128> > maRewards;
+    cTkDynamicArray<TkID<128>1> maRewards;
     cGcAlienMood mMood;
     cGcNPCPropType mProp;
     bool mbOverrideWithAlienWord;
@@ -31,7 +32,7 @@ class cGcAlienPuzzleOption
     cGcAudioWwiseEvents mAudioEvent;
     TkID<256> mTitleOverride;
     cGcMissionConditionTest mEnablingConditionTest;
-    cTkDynamicArray<cTkClassPointer> maEnablingConditions;
+    cTkDynamicArray<cTkClassPointer1> maEnablingConditions;
     TkID<256> mEnablingConditionId;
     cgcwordcategorytableEnum mWordCategory;
 

@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlayerCharacterComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE8C3B2237C130170;
     static const unsigned __int64 muTemplateHash = 0x60495EA305E0B504;
     static const int miNumMembers = 3;
 
-    cTkDynamicArray<cGcCharacterJetpackEffect> maJetpackEffects;
+    cTkDynamicArray<cGcCharacterJetpackEffect1> maJetpackEffects;
     TkID<128> mIntialPlayerControlMode;
-    cTkDynamicArray<cGcPlayerControlModeEntry> maPlayerControlModes;
+    cTkDynamicArray<cGcPlayerControlModeEntry1> maPlayerControlModes;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eTransform
 {
@@ -12,6 +12,7 @@ enum eTransform
 
 class cGcWFCFace
 {
+public:
     static const unsigned __int64 muNameHash = 0xAD33210D14B166A3;
     static const unsigned __int64 muTemplateHash = 0x95F7AB7D4A3778A0;
     static const int miNumMembers = 11;
@@ -19,10 +20,10 @@ class cGcWFCFace
     cTkFixedString<32,char> macConnector;
     bool mbSymmetric;
     eTransform meTransform;
-    cTkDynamicArray<TkID<128> > maExcludedNeighboursR0;
-    cTkDynamicArray<TkID<128> > maExcludedNeighboursR1;
-    cTkDynamicArray<TkID<128> > maExcludedNeighboursR2;
-    cTkDynamicArray<TkID<128> > maExcludedNeighboursR3;
+    cTkDynamicArray<TkID<128>1> maExcludedNeighboursR0;
+    cTkDynamicArray<TkID<128>1> maExcludedNeighboursR1;
+    cTkDynamicArray<TkID<128>1> maExcludedNeighboursR2;
+    cTkDynamicArray<TkID<128>1> maExcludedNeighboursR3;
     bool mbWalkable;
     bool mbIncomplete;
     bool mbIsEntrance;

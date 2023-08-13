@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkNoiseVoxelTypeEnum;
 
@@ -36,6 +36,7 @@ class cTkNoiseSuperPrimitiveData;
 
 class cTkNoiseGridData
 {
+public:
     static const unsigned __int64 muNameHash = 0xA45052EB66E281C7;
     static const unsigned __int64 muTemplateHash = 0x4C8832CFE3785F00;
     static const int miNumMembers = 32;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum ePresetGameMode
 {
@@ -14,6 +14,7 @@ enum ePresetGameMode
 
 class cGcGameMode
 {
+public:
     static const unsigned __int64 muNameHash = 0x2BFE76ABF5398879;
     static const unsigned __int64 muTemplateHash = 0xC75E9B9C8ED95CD4;
     static const int miNumMembers = 1;

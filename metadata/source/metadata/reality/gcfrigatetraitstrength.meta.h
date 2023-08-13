@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eFrigateTraitStrength
 {
@@ -17,6 +17,7 @@ enum eFrigateTraitStrength
 
 class cGcFrigateTraitStrength
 {
+public:
     static const unsigned __int64 muNameHash = 0x6B6B42D850BF9519;
     static const unsigned __int64 muTemplateHash = 0xB0B0A7490B06DF04;
     static const int miNumMembers = 1;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureRoleFilenameList;
 class cGcCreatureRoleFilenameList;
@@ -9,19 +9,20 @@ class cGcCreatureRoleFilenameList;
 
 class cGcCreatureRoleFilenameTable
 {
+public:
     static const unsigned __int64 muNameHash = 0x15A053481CA45D03;
     static const unsigned __int64 muTemplateHash = 0x7B0FAF5D4550E94B;
     static const int miNumMembers = 9;
 
-    cTkFixedArray<cGcCreatureRoleFilenameList> maBiomeFiles;
+    cTkFixedArray<cGcCreatureRoleFilenameList, 16> maBiomeFiles;
     cGcCreatureRoleFilenameList mUnderwaterFiles;
     cGcCreatureRoleFilenameList mUnderwaterFilesExtra;
     cGcCreatureRoleFilenameList mCaveFiles;
     cGcCreatureRoleFilenameList mAirFiles;
     cGcCreatureRoleFilenameList mRobotFiles;
-    cTkFixedArray<cGcCreatureRoleFilenameList> maWeirdBiomeFiles;
-    cTkFixedArray<float> maLifeChance;
-    cTkFixedArray<float> maRoleFrequencyModifiers;
+    cTkFixedArray<cGcCreatureRoleFilenameList, 27> maWeirdBiomeFiles;
+    cTkFixedArray<float, 4> maLifeChance;
+    cTkFixedArray<float, 4> maRoleFrequencyModifiers;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

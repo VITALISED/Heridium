@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eTileType
 {
@@ -16,6 +16,7 @@ enum eTileType
 
 class cGcTerrainTileType
 {
+public:
     static const unsigned __int64 muNameHash = 0x6247F06C43E3ADDD;
     static const unsigned __int64 muTemplateHash = 0x75811DA9180574C6;
     static const int miNumMembers = 1;

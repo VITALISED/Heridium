@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eVertical
 {
@@ -17,6 +17,7 @@ enum eHorizontal
 
 class cTkNGuiAlignment
 {
+public:
     static const unsigned __int64 muNameHash = 0xD1E7F0BE0B98FD48;
     static const unsigned __int64 muTemplateHash = 0x71FA853C1F36341F;
     static const int miNumMembers = 2;

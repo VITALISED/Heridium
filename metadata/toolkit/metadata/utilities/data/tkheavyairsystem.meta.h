@@ -1,20 +1,21 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkHeavyAirSystem
 {
+public:
     static const unsigned __int64 muNameHash = 0x9564BC3EDB74BBA1;
     static const unsigned __int64 muTemplateHash = 0x2BAB61256BF5B670;
     static const int miNumMembers = 12;
 
     cTkFixedString<128,char> macMaterial;
-    cTkVector mMajorDirection;
-    cTkVector mScaleRange;
-    cTkVector mRotationSpeedRange;
-    cTkVector mFadeSpeedRange;
-    cTkVector mTwinkleRange;
-    cTkVector mAmplitudeMin;
-    cTkVector mAmplitudeMax;
+    cTkVector3 mMajorDirection;
+    cTkVector3 mScaleRange;
+    cTkVector3 mRotationSpeedRange;
+    cTkVector3 mFadeSpeedRange;
+    cTkVector3 mTwinkleRange;
+    cTkVector3 mAmplitudeMin;
+    cTkVector3 mAmplitudeMax;
     cTkColour mColour1;
     float mfColour1Alpha;
     cTkColour mColour2;

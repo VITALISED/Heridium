@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eQuickMenuActions
 {
@@ -64,6 +64,7 @@ enum eQuickMenuActions
 
 class cGcQuickMenuActions
 {
+public:
     static const unsigned __int64 muNameHash = 0x5EEC6F79915C67C2;
     static const unsigned __int64 muTemplateHash = 0xD0B9100ACFDEC9E1;
     static const int miNumMembers = 1;

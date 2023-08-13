@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eDesiredTechProbability
 {
@@ -11,6 +11,7 @@ enum eDesiredTechProbability
 
 class cGcInventoryTechProbability
 {
+public:
     static const unsigned __int64 muNameHash = 0x71B8CFD20DB7A5E5;
     static const unsigned __int64 muTemplateHash = 0x112E6E11E83935D1;
     static const int miNumMembers = 2;

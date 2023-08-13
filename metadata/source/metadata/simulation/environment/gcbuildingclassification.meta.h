@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eBuildingClass
 {
@@ -59,6 +59,7 @@ enum eBuildingClass
 
 class cGcBuildingClassification
 {
+public:
     static const unsigned __int64 muNameHash = 0x51606DB6648C8792;
     static const unsigned __int64 muTemplateHash = 0xAAD9E73CDB8A4C0E;
     static const int miNumMembers = 1;

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkInstanceWindComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE02A1CA9048E3A96;
     static const unsigned __int64 muTemplateHash = 0x8E9D85406F8942E4;
     static const int miNumMembers = 8;

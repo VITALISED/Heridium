@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNPCPropType;
 class cGcNPCSeatedPosture;
 
 class cGcNPCInteractiveObjectState
 {
+public:
     static const unsigned __int64 muNameHash = 0x8D18F9F6D2A592B3;
     static const unsigned __int64 muTemplateHash = 0xD19C0E4EBABA1360;
     static const int miNumMembers = 21;
@@ -24,13 +25,13 @@ class cGcNPCInteractiveObjectState
     cGcNPCSeatedPosture mSeatedPosture;
     float mfBlendTime;
     float mfEarlyOutTime;
-    cTkDynamicArray<cGcNPCProbabilityAnimationData> maAnimations;
+    cTkDynamicArray<cGcNPCProbabilityAnimationData1> maAnimations;
     float mfSpineAdjustAmount;
     int miMinAnims;
     int miMaxAnims;
     float mfMinTime;
     float mfMaxTime;
-    cTkDynamicArray<cGcNPCInteractiveObjectStateTransition> maTransitions;
+    cTkDynamicArray<cGcNPCInteractiveObjectStateTransition1> maTransitions;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

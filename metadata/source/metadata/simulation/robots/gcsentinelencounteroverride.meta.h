@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAudioWwiseEvents;
 class cGcRealityGameIcons;
@@ -7,6 +7,7 @@ class cGcEncounterType;
 
 class cGcSentinelEncounterOverride
 {
+public:
     static const unsigned __int64 muNameHash = 0x858F65761E6CEB71;
     static const unsigned __int64 muTemplateHash = 0xDF0554595188CB5B;
     static const int miNumMembers = 17;

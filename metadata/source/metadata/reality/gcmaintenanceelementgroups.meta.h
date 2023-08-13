@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eMaintenanceGroup
 {
@@ -14,6 +14,7 @@ enum eMaintenanceGroup
 
 class cGcMaintenanceElementGroups
 {
+public:
     static const unsigned __int64 muNameHash = 0x38F9072E9DC5078A;
     static const unsigned __int64 muTemplateHash = 0x56884BB3E519A5CC;
     static const int miNumMembers = 1;

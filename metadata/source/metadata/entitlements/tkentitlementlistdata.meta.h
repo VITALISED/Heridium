@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkEntitlementListData
 {
+public:
     static const unsigned __int64 muNameHash = 0x7D0C84AE84B756D5;
     static const unsigned __int64 muTemplateHash = 0x5D44992908864ABF;
     static const int miNumMembers = 2;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eNPCNavSubgraphNodeType
 {
@@ -10,6 +10,7 @@ enum eNPCNavSubgraphNodeType
 
 class cGcNPCNavSubgraphNodeType
 {
+public:
     static const unsigned __int64 muNameHash = 0xBFFCA397C2DEA0EE;
     static const unsigned __int64 muTemplateHash = 0x5198BF8A16C55353;
     static const int miNumMembers = 1;

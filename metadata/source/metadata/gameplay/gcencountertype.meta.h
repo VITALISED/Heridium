@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eEncounterType
 {
@@ -14,6 +14,7 @@ enum eEncounterType
 
 class cGcEncounterType
 {
+public:
     static const unsigned __int64 muNameHash = 0xFF746C1098C0C4DE;
     static const unsigned __int64 muTemplateHash = 0x8E5A2CCD93F4130A;
     static const int miNumMembers = 1;

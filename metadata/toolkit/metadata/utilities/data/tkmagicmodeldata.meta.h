@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkMagicModelData
 {
+public:
     static const unsigned __int64 muNameHash = 0x1A5D6B5DC6FCD174;
     static const unsigned __int64 muTemplateHash = 0xF5809AA74DC5AE51;
     static const int miNumMembers = 3;
 
-    cTkDynamicArray<cTkVector> maVertices;
-    cTkVector mCentre;
+    cTkDynamicArray<cTkVector31> maVertices;
+    cTkVector3 mCentre;
     float mfRadius;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

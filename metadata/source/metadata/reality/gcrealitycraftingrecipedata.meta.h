@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcRealityCraftingRecipeData
 {
+public:
     static const unsigned __int64 muNameHash = 0x5CEC8CD158852BFE;
     static const unsigned __int64 muTemplateHash = 0x90B4295D3193C0CF;
     static const int miNumMembers = 2;
 
-    cTkFixedArray<cGcRealitySubstanceCraftingMix> maInputs;
+    cTkFixedArray<cGcRealitySubstanceCraftingMix, 3> maInputs;
     TkID<128> mOutputID;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

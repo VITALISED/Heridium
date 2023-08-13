@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSavedInteractionRaceData
 {
+public:
     static const unsigned __int64 muNameHash = 0x9B192CD525C0A892;
     static const unsigned __int64 muTemplateHash = 0x41001B1CCB31C2FF;
     static const int miNumMembers = 2;
 
-    cTkFixedArray<int> maSavedRaceIndicies;
-    cTkFixedArray<bool> maHasLoopedIndicies;
+    cTkFixedArray<int, 8> maSavedRaceIndicies;
+    cTkFixedArray<bool, 8> maHasLoopedIndicies;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

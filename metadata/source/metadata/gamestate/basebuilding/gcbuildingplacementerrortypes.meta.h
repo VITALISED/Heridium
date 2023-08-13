@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eInvalidPlacementReason
 {
@@ -29,6 +29,7 @@ enum eInvalidPlacementReason
 
 class cGcBuildingPlacementErrorTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0xC2EE53901B0156DE;
     static const unsigned __int64 muTemplateHash = 0xBA85C40C7D96F32C;
     static const int miNumMembers = 1;

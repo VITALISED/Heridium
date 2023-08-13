@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcModelExplosionRules
 {
+public:
     static const unsigned __int64 muNameHash = 0xD04C1E382833D93A;
     static const unsigned __int64 muTemplateHash = 0x4251055E922DDCF4;
     static const int miNumMembers = 3;
 
-    cTkDynamicArray<cGcModelExplosionRule> maRules;
-    cTkFixedArray<bool> maUseRules;
-    cTkFixedArray<float> maShipSalvageDisplayScales;
+    cTkDynamicArray<cGcModelExplosionRule1> maRules;
+    cTkFixedArray<bool, 9> maUseRules;
+    cTkFixedArray<float, 9> maShipSalvageDisplayScales;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

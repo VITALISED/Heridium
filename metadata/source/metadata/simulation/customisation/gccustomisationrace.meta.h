@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCustomisationRace
 {
+public:
     static const unsigned __int64 muNameHash = 0x231919D5AE192450;
     static const unsigned __int64 muTemplateHash = 0x78FC4D1015162EDB;
     static const int miNumMembers = 5;
@@ -10,8 +11,8 @@ class cGcCustomisationRace
     TkID<128> mDescriptorGroupOption;
     bool mbIsGek;
     float mfScale;
-    cTkDynamicArray<cGcCustomisationGroup> maCustomisationGroups;
-    cTkDynamicArray<TkID<128> > maPresets;
+    cTkDynamicArray<cGcCustomisationGroup1> maCustomisationGroups;
+    cTkDynamicArray<TkID<128>1> maPresets;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

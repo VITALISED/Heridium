@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcGalacticAddressData;
 class cGcGalaxyWaypointTypes;
 
 class cGcGalaxyWaypoint
 {
+public:
     static const unsigned __int64 muNameHash = 0x562052A8272CC4A3;
     static const unsigned __int64 muTemplateHash = 0xD101B6A234B9F4A7;
     static const int miNumMembers = 3;

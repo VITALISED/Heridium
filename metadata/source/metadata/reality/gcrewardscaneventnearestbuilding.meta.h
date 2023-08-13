@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcRewardScanEventNearestBuilding
 {
+public:
     static const unsigned __int64 muNameHash = 0x3D555D4C64B13971;
     static const unsigned __int64 muTemplateHash = 0x62BF06516460DDC8;
     static const int miNumMembers = 2;

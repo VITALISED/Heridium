@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 enum ePalette
 {
@@ -77,6 +77,7 @@ enum eColourAlt
 
 class cTkPaletteTexture
 {
+public:
     static const unsigned __int64 muNameHash = 0x6A57676B42321253;
     static const unsigned __int64 muTemplateHash = 0xE877E2E7DCA338C7;
     static const int miNumMembers = 2;

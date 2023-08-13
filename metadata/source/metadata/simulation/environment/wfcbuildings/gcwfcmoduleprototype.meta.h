@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eTerrainEdits
 {
@@ -24,6 +24,7 @@ enum eFreighterModuleType
 
 class cGcWFCModulePrototype
 {
+public:
     static const unsigned __int64 muNameHash = 0xEB956F6AA5C15F5C;
     static const unsigned __int64 muTemplateHash = 0x74D021303F06166E;
     static const int miNumMembers = 22;
@@ -40,9 +41,9 @@ class cGcWFCModulePrototype
     bool mbExcludeRotatedVariants;
     bool mbDontRotateModel;
     TkID<128> mLayoutGroup;
-    cTkDynamicArray<cGcWeightedResource> maScenes;
+    cTkDynamicArray<cGcWeightedResource1> maScenes;
     eTerrainEdits meTerrainEdits;
-    cTkDynamicArray<cGcWFCTerrainConstraint> maTerrainConstraints;
+    cTkDynamicArray<cGcWFCTerrainConstraint1> maTerrainConstraints;
     cGcWFCFace mLeft;
     cGcWFCFace mDown;
     cGcWFCFace mBack;

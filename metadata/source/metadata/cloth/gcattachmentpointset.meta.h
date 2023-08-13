@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAttachmentPointSet
 {
+public:
     static const unsigned __int64 muNameHash = 0x762F430C6C191529;
     static const unsigned __int64 muTemplateHash = 0xB5DBBE772BEDA04;
     static const int miNumMembers = 4;
@@ -10,7 +11,7 @@ class cGcAttachmentPointSet
     bool mbEnabled;
     cTkFixedString<64,char> macDebugName;
     cTkFixedString<64,char> macBoneName;
-    cTkDynamicArray<cGcAttachmentPointData> maFixedPoints;
+    cTkDynamicArray<cGcAttachmentPointData1> maFixedPoints;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

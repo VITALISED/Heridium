@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAlienRace;
 class cGcPetData;
@@ -7,18 +7,19 @@ class cGcPetCustomisationData;
 
 class cGcNPCDebugSpawnData
 {
+public:
     static const unsigned __int64 muNameHash = 0x1D427C136EB50E9D;
     static const unsigned __int64 muTemplateHash = 0x490BCD8D16A8F7C9;
     static const int miNumMembers = 16;
 
-    cTkVector mPosition;
-    cTkVector mFacing;
-    cTkVector mUp;
+    cTkVector3 mPosition;
+    cTkVector3 mFacing;
+    cTkVector3 mUp;
     bool mbFollowWaypoints;
     float mfInitialDelay;
-    cTkDynamicArray<cTkVector> maWaypoints;
+    cTkDynamicArray<cTkVector31> maWaypoints;
     bool mbPlayIdles;
-    cTkDynamicArray<TkID<128> > maIdles;
+    cTkDynamicArray<TkID<128>1> maIdles;
     bool mbRun;
     bool mbRidePet;
     cGcAlienRace mRace;

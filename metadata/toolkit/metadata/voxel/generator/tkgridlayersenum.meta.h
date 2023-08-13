@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eGridLayerTypes
 {
@@ -16,6 +16,7 @@ enum eGridLayerTypes
 
 class cTkGridLayersEnum
 {
+public:
     static const unsigned __int64 muNameHash = 0xFEF6F10412C7B60;
     static const unsigned __int64 muTemplateHash = 0xB9F17954D3E62F66;
     static const int miNumMembers = 1;

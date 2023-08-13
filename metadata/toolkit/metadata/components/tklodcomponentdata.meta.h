@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkLODComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x7F33053EA7D28399;
     static const unsigned __int64 muTemplateHash = 0x112CF83927113B95;
     static const int miNumMembers = 3;
 
-    cTkDynamicArray<cTkLODModelResource> maLODModels;
+    cTkDynamicArray<cTkLODModelResource1> maLODModels;
     float mfCrossFadeTime;
     float mfCrossFadeOverlap;
 

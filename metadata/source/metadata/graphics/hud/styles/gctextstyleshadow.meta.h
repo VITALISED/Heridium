@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcTextStyleShadow
 {
+public:
     static const unsigned __int64 muNameHash = 0x28061A0FD187C5EF;
     static const unsigned __int64 muTemplateHash = 0xC2FAAE1827F52F5B;
     static const int miNumMembers = 2;

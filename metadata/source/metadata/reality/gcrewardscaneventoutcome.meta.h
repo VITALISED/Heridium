@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eRewardScanEventOutcome
 {
@@ -14,6 +14,7 @@ enum eRewardScanEventOutcome
 
 class cGcRewardScanEventOutcome
 {
+public:
     static const unsigned __int64 muNameHash = 0x27C5678B5AA766C2;
     static const unsigned __int64 muTemplateHash = 0x5B2510C614EF8484;
     static const int miNumMembers = 1;

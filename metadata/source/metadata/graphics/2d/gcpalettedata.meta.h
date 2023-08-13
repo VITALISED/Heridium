@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eNumColours
 {
@@ -13,12 +13,13 @@ enum eNumColours
 
 class cGcPaletteData
 {
+public:
     static const unsigned __int64 muNameHash = 0xB66F8D60603D1092;
     static const unsigned __int64 muTemplateHash = 0x9DFAC1F6DF6F3F6A;
     static const int miNumMembers = 2;
 
     eNumColours meNumColours;
-    cTkFixedArray<cTkColour> maColours;
+    cTkFixedArray<cTkColour, 64> maColours;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

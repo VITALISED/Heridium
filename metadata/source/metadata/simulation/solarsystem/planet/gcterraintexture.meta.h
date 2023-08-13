@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcTerrainTexture
 {
+public:
     static const unsigned __int64 muNameHash = 0x417FE136A80C6A0A;
     static const unsigned __int64 muTemplateHash = 0xDB3436F89CA8CD87;
     static const int miNumMembers = 3;
 
     cTkFixedString<128,char> macDiffuseTexture;
     cTkFixedString<128,char> macNormalMap;
-    cTkFixedArray<cGcTerrainTextureSettings> maTextureConfig;
+    cTkFixedArray<cGcTerrainTextureSettings, 12> maTextureConfig;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

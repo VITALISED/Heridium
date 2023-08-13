@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAudioWwiseEvents;
 
@@ -28,6 +28,7 @@ enum exTestFlags
 
 class cGcTestMetadata
 {
+public:
     static const unsigned __int64 muNameHash = 0xCE965FAFD6BBF99E;
     static const unsigned __int64 muTemplateHash = 0x73F3D69C8298DC6B;
     static const int miNumMembers = 36;
@@ -42,7 +43,7 @@ class cGcTestMetadata
     __int64 mi64TestInt64_2;
     unsigned __int64 mui64TestUInt64_2;
     cTkSmartResHandle mTestResource;
-    cTkVector mTestVector;
+    cTkVector3 mTestVector;
     cTkVector2 mTestVector2;
     cTkVector4 mTestVector4;
     cTkColour mTestColour;
@@ -57,16 +58,16 @@ class cGcTestMetadata
     TkID<128> mTestID;
     TkID<256> mTestLocID;
     cGcAudioWwiseEvents mTestAudioEvent;
-    cTkVector mDocOptionalVector;
+    cTkVector3 mDocOptionalVector;
     cTkFixedString<64,char> macDocRenamedString64;
     TkID<256> mDocOptionalRenamed;
     eDocOptionalEnum meDocOptionalEnum;
     cTkDynamicString macTestDynamicString;
     eTestEnum meTestEnum;
-    cTkFixedArray<float> maTestStaticArray;
-    cTkDynamicArray<float> maTestDynamicArray;
-    cTkFixedArray<float> maTestEnumArray;
-    cTkFixedArray<float> maTestExternalEnumArray;
+    cTkFixedArray<float, 10> maTestStaticArray;
+    cTkDynamicArray<float1> maTestDynamicArray;
+    cTkFixedArray<float, 4> maTestEnumArray;
+    cTkFixedArray<float, 52> maTestExternalEnumArray;
     exTestFlags mexTestFlags;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

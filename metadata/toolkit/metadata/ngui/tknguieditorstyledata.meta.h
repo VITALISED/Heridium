@@ -1,19 +1,20 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkNGuiEditorStyleData
 {
+public:
     static const unsigned __int64 muNameHash = 0x6F26BF19981BB60C;
     static const unsigned __int64 muTemplateHash = 0x8FA7BC8A7836C20;
     static const int miNumMembers = 7;
 
-    cTkFixedArray<float> maSizes;
-    cTkFixedArray<cTkNGuiEditorStyleColour> maSkinColours;
+    cTkFixedArray<float, 48> maSizes;
+    cTkFixedArray<cTkNGuiEditorStyleColour, 8> maSkinColours;
     float mfSkinFontHeight;
     cTkFixedString<128,char> macFont;
-    cTkFixedArray<cTkNGuiGraphicStyle> maGraphicStyles;
-    cTkFixedArray<cTkNGuiTextStyle> maTextStyles;
-    cTkDynamicArray<float> maSnapSettings;
+    cTkFixedArray<cTkNGuiGraphicStyle, 72> maGraphicStyles;
+    cTkFixedArray<cTkNGuiTextStyle, 14> maTextStyles;
+    cTkDynamicArray<float1> maSnapSettings;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

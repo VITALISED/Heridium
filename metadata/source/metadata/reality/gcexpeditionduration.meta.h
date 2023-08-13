@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eExpeditionDuration
 {
@@ -12,6 +12,7 @@ enum eExpeditionDuration
 
 class cGcExpeditionDuration
 {
+public:
     static const unsigned __int64 muNameHash = 0x406EA68C88F85056;
     static const unsigned __int64 muTemplateHash = 0x1E8C9B82EF4E5E52;
     static const int miNumMembers = 1;

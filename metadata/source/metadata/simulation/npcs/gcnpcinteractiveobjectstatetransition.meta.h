@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eRequireMode
 {
@@ -10,6 +10,7 @@ enum eRequireMode
 
 class cGcNPCInteractiveObjectStateTransition
 {
+public:
     static const unsigned __int64 muNameHash = 0x5CE318610D9BD8D9;
     static const unsigned __int64 muTemplateHash = 0x6C36D5CDE1F2A7AA;
     static const int miNumMembers = 6;
@@ -19,7 +20,7 @@ class cGcNPCInteractiveObjectStateTransition
     TkID<128> mRequireEvent;
     TkID<128> mRequireLocator;
     eRequireMode meRequireMode;
-    cTkDynamicArray<TkID<128> > maExcludeTags;
+    cTkDynamicArray<TkID<128>1> maExcludeTags;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

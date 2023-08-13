@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNameGeneratorWord;
 class cTkTextureResource;
@@ -7,6 +7,7 @@ class cTkTextureResource;
 
 class cGcProductProceduralOnlyData
 {
+public:
     static const unsigned __int64 muNameHash = 0xEACA21EDB93AD84A;
     static const unsigned __int64 muTemplateHash = 0x914B4667BD7F5082;
     static const int miNumMembers = 8;

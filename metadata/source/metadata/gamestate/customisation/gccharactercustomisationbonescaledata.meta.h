@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCharacterCustomisationBoneScaleData
 {
+public:
     static const unsigned __int64 muNameHash = 0xFF61F85ED8456D83;
     static const unsigned __int64 muTemplateHash = 0x53DD30E98338ECB;
     static const int miNumMembers = 2;

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPresetTextureData
 {
+public:
     static const unsigned __int64 muNameHash = 0x1B6B9D6D222BACA6;
     static const unsigned __int64 muTemplateHash = 0xD3749AAC4D8B0D01;
     static const int miNumMembers = 2;

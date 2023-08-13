@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eFriendlyDroneChatType
 {
@@ -12,6 +12,7 @@ enum eFriendlyDroneChatType
 
 class cGcFriendlyDroneChatType
 {
+public:
     static const unsigned __int64 muNameHash = 0x6E9F63DB3D3055;
     static const unsigned __int64 muTemplateHash = 0x616AD1CA5E74AA15;
     static const int miNumMembers = 1;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkTextureResource;
 class cGcRealitySubstanceCategory;
@@ -12,6 +12,7 @@ class cGcTechnologyRarity;
 
 class cGcTechnology
 {
+public:
     static const unsigned __int64 muNameHash = 0x9F1CE8466638E767;
     static const unsigned __int64 muTemplateHash = 0x7DCC8C19A5C03C43;
     static const int miNumMembers = 47;
@@ -31,7 +32,7 @@ class cGcTechnology
     bool mbChargeable;
     int miChargeAmount;
     cGcRealitySubstanceCategory mChargeType;
-    cTkDynamicArray<TkID<128> > maChargeBy;
+    cTkDynamicArray<TkID<128>1> maChargeBy;
     float mfChargeMultiplier;
     bool mbBuildFullyCharged;
     bool mbUsesAmmo;
@@ -44,9 +45,9 @@ class cGcTechnology
     cGcTechnologyCategory mCategory;
     cGcTechnologyRarity mRarity;
     float mfValue;
-    cTkDynamicArray<cGcTechnologyRequirement> maRequirements;
+    cTkDynamicArray<cGcTechnologyRequirement1> maRequirements;
     cGcStatsTypes mBaseStat;
-    cTkDynamicArray<cGcStatsBonus> maStatBonuses;
+    cTkDynamicArray<cGcStatsBonus1> maStatBonuses;
     TkID<128> mRequiredTech;
     int miRequiredLevel;
     TkID<256> mFocusLocator;

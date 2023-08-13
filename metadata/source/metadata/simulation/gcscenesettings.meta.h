@@ -1,25 +1,26 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlayerSpawnStateData;
 
 class cGcSceneSettings
 {
+public:
     static const unsigned __int64 muNameHash = 0xF75874C269CFFEA3;
     static const unsigned __int64 muTemplateHash = 0x3D244C4E181E581D;
     static const int miNumMembers = 12;
 
     cTkFixedString<128,char> macNextSettingFile;
     cTkFixedString<128,char> macSceneFile;
-    cTkDynamicArray<cTkFixedString<128,char> > maPlanetSceneFiles;
+    cTkDynamicArray<cTkFixedString<128,char>1> maPlanetSceneFiles;
     cTkFixedString<128,char> macSolarSystemFile;
-    cTkFixedArray<cTkFixedString<128,char> > maPlanetFiles;
-    cTkDynamicArray<cTkFixedString<128,char> > maShipPreloadFiles;
+    cTkFixedArray<cTkFixedString<128,char>, 5> maPlanetFiles;
+    cTkDynamicArray<cTkFixedString<128,char>1> maShipPreloadFiles;
     bool mbSpawnShip;
     bool mbSpawnInsideShip;
     cGcPlayerSpawnStateData mPlayerState;
-    cTkDynamicArray<cTkClassPointer> maEvents;
-    cTkDynamicArray<cTkClassPointer> maPostWarpEvents;
+    cTkDynamicArray<cTkClassPointer1> maEvents;
+    cTkDynamicArray<cTkClassPointer1> maPostWarpEvents;
     TkID<128> mSpawnerOptionId;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

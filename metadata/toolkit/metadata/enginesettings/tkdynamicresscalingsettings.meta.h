@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eDynamicResScalingAggressiveness
 {
@@ -10,6 +10,7 @@ enum eDynamicResScalingAggressiveness
 
 class cTkDynamicResScalingSettings
 {
+public:
     static const unsigned __int64 muNameHash = 0x4ECB5D79E2F5CD94;
     static const unsigned __int64 muTemplateHash = 0xBD988A745376C6E4;
     static const int miNumMembers = 2;

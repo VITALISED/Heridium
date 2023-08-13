@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eNoiseLayerTypes
 {
@@ -15,6 +15,7 @@ enum eNoiseLayerTypes
 
 class cTkNoiseLayersEnum
 {
+public:
     static const unsigned __int64 muNameHash = 0xDF72B6BAF8A085A2;
     static const unsigned __int64 muTemplateHash = 0x17A8EF62D5BC39D6;
     static const int miNumMembers = 1;

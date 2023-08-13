@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDate;
 class cGcDate;
 
 class cGcMissionSchedulingData
 {
+public:
     static const unsigned __int64 muNameHash = 0xC7D1E140B3A1C6B2;
     static const unsigned __int64 muTemplateHash = 0x28AEB8E606F98613;
     static const int miNumMembers = 7;
@@ -16,7 +17,7 @@ class cGcMissionSchedulingData
     bool mbIndependentStart;
     bool mbHasEndDate;
     unsigned __int64 mui64EarlyEndOffset;
-    cTkDynamicArray<TkID<128> > maMissionIDs;
+    cTkDynamicArray<TkID<128>1> maMissionIDs;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

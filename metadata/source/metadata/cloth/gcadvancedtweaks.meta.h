@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAdvancedTweaks
 {
+public:
     static const unsigned __int64 muNameHash = 0x1C1691C0F8971C4A;
     static const unsigned __int64 muTemplateHash = 0x6E9D7EAB573C6CD6;
     static const int miNumMembers = 6;

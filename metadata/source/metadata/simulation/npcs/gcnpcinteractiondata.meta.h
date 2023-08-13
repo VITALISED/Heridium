@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkAttachmentData;
 
 class cGcNPCInteractionData
 {
+public:
     static const unsigned __int64 muNameHash = 0xBB7B4EAD531E3D6;
     static const unsigned __int64 muTemplateHash = 0x7A6AB24B3910461E;
     static const int miNumMembers = 2;

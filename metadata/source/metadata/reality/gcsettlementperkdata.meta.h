@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSettlementPerkData
 {
+public:
     static const unsigned __int64 muNameHash = 0xEAAFF5007DC2452C;
     static const unsigned __int64 muTemplateHash = 0xEA8FC109589446C5;
     static const int miNumMembers = 8;
@@ -14,7 +15,7 @@ class cGcSettlementPerkData
     bool mbIsStarter;
     bool mbIsProc;
     bool mbIsJob;
-    cTkDynamicArray<cGcSettlementStatChange> maStatChanges;
+    cTkDynamicArray<cGcSettlementStatChange1> maStatChanges;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

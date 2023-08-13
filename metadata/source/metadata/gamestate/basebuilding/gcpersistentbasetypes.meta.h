@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum ePersistentBaseTypes
 {
@@ -16,6 +16,7 @@ enum ePersistentBaseTypes
 
 class cGcPersistentBaseTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0x1E20A14918514C43;
     static const unsigned __int64 muTemplateHash = 0xDC40A2A2CA47998D;
     static const int miNumMembers = 1;

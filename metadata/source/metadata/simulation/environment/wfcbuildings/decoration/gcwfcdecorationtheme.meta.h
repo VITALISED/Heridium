@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eWFCDecorationTheme
 {
@@ -9,6 +9,7 @@ enum eWFCDecorationTheme
 
 class cGcWFCDecorationTheme
 {
+public:
     static const unsigned __int64 muNameHash = 0x9634E2763C4B5D4D;
     static const unsigned __int64 muTemplateHash = 0x45C7C9E0AD9B71DD;
     static const int miNumMembers = 1;

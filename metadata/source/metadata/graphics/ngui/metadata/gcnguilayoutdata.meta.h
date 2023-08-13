@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkNGuiAlignment;
 
 class cGcNGuiLayoutData
 {
+public:
     static const unsigned __int64 muNameHash = 0xCEE71E03D7326B71;
     static const unsigned __int64 muTemplateHash = 0x6BF5030552548903;
     static const int miNumMembers = 17;
 
-    cTkDynamicArray<cGcVROverride_Layout> maVROverrides;
-    cTkDynamicArray<cGcAccessibleOverride_Layout> maAccessibleOverrides;
+    cTkDynamicArray<cGcVROverride_Layout1> maVROverrides;
+    cTkDynamicArray<cGcAccessibleOverride_Layout1> maAccessibleOverrides;
     float mfPositionX;
     float mfPositionY;
     float mfWidth;

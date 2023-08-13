@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcActionSetType;
 class cGcActionUseType;
 
 class cGcActionSet
 {
+public:
     static const unsigned __int64 muNameHash = 0xA14126BE226C6660;
     static const unsigned __int64 muTemplateHash = 0xCC5C5E926EE22A2B;
     static const int miNumMembers = 6;
@@ -15,7 +16,7 @@ class cGcActionSet
     cTkFixedString<32,char> macExternalId;
     cTkFixedString<32,char> macExternalLoc;
     TkID<256> mLocTag;
-    cTkDynamicArray<cGcActionSetAction> maActions;
+    cTkDynamicArray<cGcActionSetAction1> maActions;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

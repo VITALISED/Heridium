@@ -1,17 +1,18 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlayerMissionParticipantType;
 
 class cGcPlayerMissionParticipant
 {
+public:
     static const unsigned __int64 muNameHash = 0xB223E7785971518B;
     static const unsigned __int64 muTemplateHash = 0xEEFEC4DF3E984447;
     static const int miNumMembers = 4;
 
     unsigned __int64 mui64UA;
     cTkSeed mBuildingSeed;
-    cTkVector mBuildingLocation;
+    cTkVector3 mBuildingLocation;
     cGcPlayerMissionParticipantType mParticipantType;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

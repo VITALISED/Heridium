@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkButtonImageLookup;
 class cTkAxisImageLookup;
@@ -7,6 +7,7 @@ class cTkChordsImageLookup;
 
 class cTkControllerSpecification
 {
+public:
     static const unsigned __int64 muNameHash = 0x5DBD3B5170282610;
     static const unsigned __int64 muTemplateHash = 0x3724BA849DF5AE03;
     static const int miNumMembers = 4;

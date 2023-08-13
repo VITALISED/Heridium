@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eInteractionBufferType
 {
@@ -18,6 +18,7 @@ enum eInteractionBufferType
 
 class cGcInteractionBufferType
 {
+public:
     static const unsigned __int64 muNameHash = 0x56096224708D16B;
     static const unsigned __int64 muTemplateHash = 0xA7327182011FA2C6;
     static const int miNumMembers = 1;

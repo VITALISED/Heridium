@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkTextureResource;
 class cTkTextureResource;
@@ -7,6 +7,7 @@ class cGcWikiTopicType;
 
 class cGcWikiCategory
 {
+public:
     static const unsigned __int64 muNameHash = 0xBCA6917366A88ADB;
     static const unsigned __int64 muTemplateHash = 0xFFE1F2575FBC1177;
     static const int miNumMembers = 9;
@@ -15,9 +16,9 @@ class cGcWikiCategory
     TkID<256> mCategoryIDUpper;
     cTkTextureResource mIconOn;
     cTkTextureResource mIconOff;
-    cTkDynamicArray<cGcWikiTopic> maTopics;
+    cTkDynamicArray<cGcWikiTopic1> maTopics;
     cGcWikiTopicType mType;
-    cTkDynamicArray<TkID<128> > maItems;
+    cTkDynamicArray<TkID<128>1> maItems;
     int miUnseenCount;
     int miUnlockedCount;
 

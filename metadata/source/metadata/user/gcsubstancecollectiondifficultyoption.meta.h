@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eSubstanceCollectionDifficulty
 {
@@ -10,6 +10,7 @@ enum eSubstanceCollectionDifficulty
 
 class cGcSubstanceCollectionDifficultyOption
 {
+public:
     static const unsigned __int64 muNameHash = 0x685F577065EC8459;
     static const unsigned __int64 muTemplateHash = 0x7356FAF37859706E;
     static const int miNumMembers = 1;

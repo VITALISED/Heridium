@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDifficultyInventoryStackSizeOptionData
 {
+public:
     static const unsigned __int64 muNameHash = 0xB9FD998A06AA6DE0;
     static const unsigned __int64 muTemplateHash = 0x6B6550330B94F440;
     static const int miNumMembers = 4;
 
     int miSubstanceStackLimit;
     int miProductStackLimit;
-    cTkFixedArray<int> maMaxSubstanceStackSizes;
-    cTkFixedArray<int> maMaxProductStackSizes;
+    cTkFixedArray<int, 12> maMaxSubstanceStackSizes;
+    cTkFixedArray<int, 12> maMaxProductStackSizes;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

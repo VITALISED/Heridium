@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eVocalEmote
 {
@@ -17,6 +17,7 @@ enum eVocalEmote
 
 class cGcCreatureVocalSoundData
 {
+public:
     static const unsigned __int64 muNameHash = 0x7FE7156AA587561F;
     static const unsigned __int64 muTemplateHash = 0xE5A63220EF7B73B5;
     static const int miNumMembers = 7;

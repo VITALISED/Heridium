@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcByteBeatEnvelope;
 class cGcByteBeatEnvelope;
@@ -14,6 +14,7 @@ enum eAugmentMode
 
 class cGcByteBeatDrum
 {
+public:
     static const unsigned __int64 muNameHash = 0xAAB4AB6EC567BC2F;
     static const unsigned __int64 muTemplateHash = 0xF8AAFC9337502934;
     static const int miNumMembers = 14;

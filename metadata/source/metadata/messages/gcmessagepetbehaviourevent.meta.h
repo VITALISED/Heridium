@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPetBehaviours;
 class cGcAlienMood;
 
 class cGcMessagePetBehaviourEvent
 {
+public:
     static const unsigned __int64 muNameHash = 0x9465A52B8A2F9FD9;
     static const unsigned __int64 muTemplateHash = 0x2D7AEFE1BF878CE7;
     static const int miNumMembers = 7;
@@ -14,8 +15,8 @@ class cGcMessagePetBehaviourEvent
     TkID<256> mUserData;
     cGcPetBehaviours mForceBehaviour;
     cGcAlienMood mMood;
-    cTkVector mPosition;
-    cTkVector mDirection;
+    cTkVector3 mPosition;
+    cTkVector3 mDirection;
     TkHandle mSourceNode;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

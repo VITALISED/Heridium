@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcTerrainTileType;
 class cGcPlanetLife;
 
 class cGcCreatureRoleDescriptionTable
 {
+public:
     static const unsigned __int64 muNameHash = 0xBCFEFAC14ECD961B;
     static const unsigned __int64 muTemplateHash = 0x3BCE966DA1F26340;
     static const int miNumMembers = 5;
 
-    cTkDynamicArray<cGcCreatureRoleDescription> maRoleDescription;
+    cTkDynamicArray<cGcCreatureRoleDescription1> maRoleDescription;
     float mfMinScaleVariance;
     float mfMaxScaleVariance;
     cGcTerrainTileType mTileType;

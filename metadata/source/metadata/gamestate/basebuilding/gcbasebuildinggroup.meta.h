@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkTextureResource;
 
 class cGcBaseBuildingGroup
 {
+public:
     static const unsigned __int64 muNameHash = 0xF37F133693523902;
     static const unsigned __int64 muTemplateHash = 0x3441CC565EC3BCC0;
     static const int miNumMembers = 5;
@@ -13,7 +14,7 @@ class cGcBaseBuildingGroup
     TkID<256> mName;
     cTkTextureResource mIcon;
     int miDefaultColourIdx;
-    cTkDynamicArray<cGcBaseBuildingSubGroup> maSubGroups;
+    cTkDynamicArray<cGcBaseBuildingSubGroup1> maSubGroups;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

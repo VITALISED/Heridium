@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcFiendCrime;
 
 class cGcMessageFiendCrime
 {
+public:
     static const unsigned __int64 muNameHash = 0x37D134945C6DC0E;
     static const unsigned __int64 muTemplateHash = 0x1ADB4C1D39CBDB5F;
     static const int miNumMembers = 4;
 
-    cTkVector mPosition;
+    cTkVector3 mPosition;
     TkHandle mVictim;
     cGcFiendCrime mFiendCrimeType;
     float mfValue;

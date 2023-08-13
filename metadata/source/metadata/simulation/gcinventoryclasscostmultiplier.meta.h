@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInventoryClassCostMultiplier
 {
+public:
     static const unsigned __int64 muNameHash = 0x1FA80ABD4B6B665;
     static const unsigned __int64 muTemplateHash = 0x80C23CF2CAA0BC90;
     static const int miNumMembers = 1;
 
-    cTkFixedArray<float> maMultiplier;
+    cTkFixedArray<float, 4> maMultiplier;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eRestriction
 {
@@ -10,6 +10,7 @@ enum eRestriction
 
 class cTkLSystemRestrictionData
 {
+public:
     static const unsigned __int64 muNameHash = 0x2CE937F1C349DD12;
     static const unsigned __int64 muTemplateHash = 0xF3991C126F82FBD;
     static const int miNumMembers = 2;

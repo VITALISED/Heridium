@@ -1,18 +1,19 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcTerrainEditsBuffer
 {
+public:
     static const unsigned __int64 muNameHash = 0x28A143D89E217108;
     static const unsigned __int64 muTemplateHash = 0xFC8CD57827D81843;
     static const int miNumMembers = 6;
 
-    cTkFixedArray<unsigned __int64> maGalacticAddresses;
-    cTkFixedArray<int> maBufferSizes;
-    cTkFixedArray<unsigned __int8> maBufferAges;
-    cTkFixedArray<cTkVector> maBufferAnchors;
-    cTkFixedArray<bool> maBufferProtected;
-    cTkFixedArray<cGcTerrainEdit> maEdits;
+    cTkFixedArray<unsigned __int64, 256> maGalacticAddresses;
+    cTkFixedArray<int, 256> maBufferSizes;
+    cTkFixedArray<unsigned __int8, 256> maBufferAges;
+    cTkFixedArray<cTkVector3, 256> maBufferAnchors;
+    cTkFixedArray<bool, 256> maBufferProtected;
+    cTkFixedArray<cGcTerrainEdit, 30000> maEdits;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

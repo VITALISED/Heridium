@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkTextureResource;
 class cTkModelResource;
@@ -11,6 +11,7 @@ class cGcTradeCategory;
 
 class cGcRealitySubstanceData
 {
+public:
     static const unsigned __int64 muNameHash = 0xD811F4C9E014843E;
     static const unsigned __int64 muTemplateHash = 0x68D2368BE2F08CB5;
     static const int miNumMembers = 28;

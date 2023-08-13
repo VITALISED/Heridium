@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 enum eMetadataReadMask
 {
@@ -12,6 +12,7 @@ enum eMetadataReadMask
 
 class cTkMetadataReadMask
 {
+public:
     static const unsigned __int64 muNameHash = 0x76BB9C78D7AE1C6B;
     static const unsigned __int64 muTemplateHash = 0xE5E072016B296CBC;
     static const int miNumMembers = 1;

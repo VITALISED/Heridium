@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eProgressType
 {
@@ -10,6 +10,7 @@ enum eProgressType
 
 class cGcMissionConditionIsPlayerWeak
 {
+public:
     static const unsigned __int64 muNameHash = 0x1B69E5D9C1463621;
     static const unsigned __int64 muTemplateHash = 0x67C14B3B9661443F;
     static const int miNumMembers = 1;

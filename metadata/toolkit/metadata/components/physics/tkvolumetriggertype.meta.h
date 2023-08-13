@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eVolumeTriggerType
 {
@@ -25,6 +25,7 @@ enum eVolumeTriggerType
 
 class cTkVolumeTriggerType
 {
+public:
     static const unsigned __int64 muNameHash = 0xA4F2D5595864317D;
     static const unsigned __int64 muTemplateHash = 0x8AEBEF11092A0AA6;
     static const int miNumMembers = 1;

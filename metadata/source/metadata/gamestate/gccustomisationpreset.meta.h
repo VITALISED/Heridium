@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCharacterCustomisationData;
 
 class cGcCustomisationPreset
 {
+public:
     static const unsigned __int64 muNameHash = 0x6B329F862808895A;
     static const unsigned __int64 muTemplateHash = 0x36BE386DA71870DF;
     static const int miNumMembers = 2;

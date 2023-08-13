@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPrimaryAxis;
 class cGcCreatureHealthData;
 
 class cGcDroneComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE4A9F22B5EB5CBF8;
     static const unsigned __int64 muTemplateHash = 0x5FD10D87A7979DA5;
     static const int miNumMembers = 6;
@@ -14,8 +15,8 @@ class cGcDroneComponentData
     cGcPrimaryAxis mAxis;
     float mfScaler;
     cGcCreatureHealthData mHealth;
-    cTkDynamicArray<TkID<128> > maProjectileChoices;
-    cTkDynamicArray<cGcDroneGun> maGuns;
+    cTkDynamicArray<TkID<128>1> maProjectileChoices;
+    cTkDynamicArray<cGcDroneGun1> maGuns;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkCurveType;
 
 class cGcProjectileLineData
 {
+public:
     static const unsigned __int64 muNameHash = 0xF7D92F84640D5A1D;
     static const unsigned __int64 muTemplateHash = 0xA065C08AD05D6180;
     static const int miNumMembers = 10;

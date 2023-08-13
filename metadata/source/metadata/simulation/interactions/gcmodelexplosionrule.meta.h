@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eMatchNodeType
 {
@@ -25,6 +25,7 @@ enum eExplodeAction
 
 class cGcModelExplosionRule
 {
+public:
     static const unsigned __int64 muNameHash = 0xA63D153E45037707;
     static const unsigned __int64 muTemplateHash = 0xF632B2B1C66A9F6A;
     static const int miNumMembers = 7;
@@ -33,8 +34,8 @@ class cGcModelExplosionRule
     eMatchName meMatchName;
     cTkFixedString<32,char> macString;
     eExplodeAction meExplodeAction;
-    cTkVector mAxisMultiplier;
-    cTkVector mOffset;
+    cTkVector3 mAxisMultiplier;
+    cTkVector3 mOffset;
     float mfExplodeMod;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

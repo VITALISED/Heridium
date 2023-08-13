@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNGuiElementData;
 class cTkNGuiTextStyle;
@@ -7,6 +7,7 @@ class cTkNGuiGraphicStyle;
 
 class cGcNGuiTextData
 {
+public:
     static const unsigned __int64 muNameHash = 0x4C5F02B93CB08B1A;
     static const unsigned __int64 muTemplateHash = 0x399A33599C8EC1D3;
     static const int miNumMembers = 10;
@@ -17,8 +18,8 @@ class cGcNGuiTextData
     cTkFixedString<512,char> macText;
     cTkFixedString<128,char> macImage;
     float mfForcedOffset;
-    cTkDynamicArray<cGcVROverride_Text> maVROverrides;
-    cTkDynamicArray<cGcAccessibleOverride_Text> maAccessibleOverrides;
+    cTkDynamicArray<cGcVROverride_Text1> maVROverrides;
+    cTkDynamicArray<cGcAccessibleOverride_Text1> maAccessibleOverrides;
     bool mbSpecial;
     bool mbForcedAllowScroll;
 

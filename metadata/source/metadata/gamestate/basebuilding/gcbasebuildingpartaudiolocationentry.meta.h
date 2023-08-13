@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBasePartAudioLocation;
 
 class cGcBaseBuildingPartAudioLocationEntry
 {
+public:
     static const unsigned __int64 muNameHash = 0xD7DAD354CC760BEE;
     static const unsigned __int64 muTemplateHash = 0xF59BD607E75A9055;
     static const int miNumMembers = 2;

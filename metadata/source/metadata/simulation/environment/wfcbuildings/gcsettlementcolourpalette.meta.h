@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBaseBuildingPartStyle;
 
 class cGcSettlementColourPalette
 {
+public:
     static const unsigned __int64 muNameHash = 0x4D5124F6D6062BBF;
     static const unsigned __int64 muTemplateHash = 0x90D3328E9461C8F3;
     static const int miNumMembers = 5;
@@ -12,8 +13,8 @@ class cGcSettlementColourPalette
     TkID<128> mName;
     float mfRelativeProbability;
     cGcBaseBuildingPartStyle mLimitToStyle;
-    cTkDynamicArray<cGcWeightedColourId> maDefaultPalettes;
-    cTkDynamicArray<cGcBuildingColourPalette> maBuildingPalettes;
+    cTkDynamicArray<cGcWeightedColourId1> maDefaultPalettes;
+    cTkDynamicArray<cGcBuildingColourPalette1> maBuildingPalettes;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

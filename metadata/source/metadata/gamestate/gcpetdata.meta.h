@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBiomeType;
 class cGcCreatureTypes;
@@ -7,13 +7,14 @@ class cGcDiscoveryOwner;
 
 class cGcPetData
 {
+public:
     static const unsigned __int64 muNameHash = 0x995CD6C5BC075C98;
     static const unsigned __int64 muTemplateHash = 0x94B8F33BBE978540;
     static const int miNumMembers = 27;
 
     float mfScale;
     TkID<128> mCreatureID;
-    cTkDynamicArray<TkID<256> > maDescriptors;
+    cTkDynamicArray<TkID<256>1> maDescriptors;
     cTkSeed mCreatureSeed;
     cTkSeed mCreatureSecondarySeed;
     unsigned __int64 mui64SpeciesSeed;
@@ -36,8 +37,8 @@ class cGcPetData
     cTkFixedString<32,char> macCustomName;
     float mfTrust;
     cGcDiscoveryOwner mSenderData;
-    cTkFixedArray<float> maTraits;
-    cTkFixedArray<float> maMoods;
+    cTkFixedArray<float, 3> maTraits;
+    cTkFixedArray<float, 2> maMoods;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

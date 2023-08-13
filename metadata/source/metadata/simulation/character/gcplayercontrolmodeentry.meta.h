@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkModelResource;
 
 class cGcPlayerControlModeEntry
 {
+public:
     static const unsigned __int64 muNameHash = 0xB40BD8EC092ACF02;
     static const unsigned __int64 muTemplateHash = 0x1258D873F496107E;
     static const int miNumMembers = 2;

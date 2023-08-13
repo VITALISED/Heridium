@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eActivationType
 {
@@ -9,6 +9,7 @@ enum eActivationType
 
 class cGcObjectPlacementComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x6520972F5B89CD77;
     static const unsigned __int64 muTemplateHash = 0x44119D1A01247A34;
     static const int miNumMembers = 7;

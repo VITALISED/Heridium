@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureBaitComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x398860441F320FF2;
     static const unsigned __int64 muTemplateHash = 0x98F3859A288FF087;
     static const int miNumMembers = 5;
 
-    cTkDynamicArray<TkID<128> > maAttractList;
+    cTkDynamicArray<TkID<128>1> maAttractList;
     float mfBaitStrength;
     float mfBaitRadius;
     bool mbDebug;

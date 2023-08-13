@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcByteBeatSong
 {
+public:
     static const unsigned __int64 muNameHash = 0xDC95ACD037A3B77;
     static const unsigned __int64 muTemplateHash = 0x7A1695EC46335BC8;
     static const int miNumMembers = 8;
@@ -14,7 +15,7 @@ class cGcByteBeatSong
     cTkFixedString<64,char> macAuthorOnlineID;
     cTkFixedString<64,char> macAuthorUsername;
     cTkFixedString<64,char> macAuthorPlatform;
-    cTkFixedArray<cTkFixedString<64,char> > maData;
+    cTkFixedArray<cTkFixedString<64,char>, 8> maData;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

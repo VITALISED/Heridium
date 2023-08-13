@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eAbandonedFreighterDoorStatus
 {
@@ -11,6 +11,7 @@ enum eAbandonedFreighterDoorStatus
 
 class cGcMissionConditionIsAbandFreighterDoorOpen
 {
+public:
     static const unsigned __int64 muNameHash = 0x337390D414A23798;
     static const unsigned __int64 muTemplateHash = 0x2CE170CA39CB196F;
     static const int miNumMembers = 1;

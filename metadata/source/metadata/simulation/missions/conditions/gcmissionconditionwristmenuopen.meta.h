@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMissionConditionWristMenuOpen
 {
+public:
     static const unsigned __int64 muNameHash = 0x928E5193D2096007;
     static const unsigned __int64 muTemplateHash = 0xE30FDAD632573537;
     static const int miNumMembers = 4;

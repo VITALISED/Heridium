@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eByteBeatEnvelope
 {
@@ -10,6 +10,7 @@ enum eByteBeatEnvelope
 
 class cGcByteBeatEnvelope
 {
+public:
     static const unsigned __int64 muNameHash = 0x3D8CDA50E9CD9F10;
     static const unsigned __int64 muTemplateHash = 0xD80E9187D6043871;
     static const int miNumMembers = 1;

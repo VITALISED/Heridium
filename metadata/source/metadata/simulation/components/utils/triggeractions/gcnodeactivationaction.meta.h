@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eNodeActiveState
 {
@@ -13,6 +13,7 @@ enum eNodeActiveState
 
 class cGcNodeActivationAction
 {
+public:
     static const unsigned __int64 muNameHash = 0xB2C5F1A083F1473A;
     static const unsigned __int64 muTemplateHash = 0x901A4F810577784F;
     static const int miNumMembers = 10;

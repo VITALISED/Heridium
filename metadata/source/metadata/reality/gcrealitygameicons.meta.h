@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eGameIcons
 {
@@ -93,6 +93,7 @@ enum eGameIcons
 
 class cGcRealityGameIcons
 {
+public:
     static const unsigned __int64 muNameHash = 0x878911013D83AEE9;
     static const unsigned __int64 muTemplateHash = 0xEFFA7BD969859911;
     static const int miNumMembers = 1;

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcByteBeatSwitchComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xBA8718EC51DB0A73;
     static const unsigned __int64 muTemplateHash = 0xAE662DF29C9D0C8A;
     static const int miNumMembers = 1;

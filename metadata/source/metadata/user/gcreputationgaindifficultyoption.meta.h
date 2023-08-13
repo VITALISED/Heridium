@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eReputationGainDifficulty
 {
@@ -11,6 +11,7 @@ enum eReputationGainDifficulty
 
 class cGcReputationGainDifficultyOption
 {
+public:
     static const unsigned __int64 muNameHash = 0xA394F90C4AED36BD;
     static const unsigned __int64 muTemplateHash = 0xEE494DB8A78148F1;
     static const int miNumMembers = 1;

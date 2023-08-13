@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCharacterControlInputValidity;
 class cGcInputActions;
@@ -13,6 +13,7 @@ enum eInputRemapMode
 
 class cGcPlayerControlInputRemap
 {
+public:
     static const unsigned __int64 muNameHash = 0x907551D5CDAAAA41;
     static const unsigned __int64 muTemplateHash = 0xCC3BF88C243770D9;
     static const int miNumMembers = 4;

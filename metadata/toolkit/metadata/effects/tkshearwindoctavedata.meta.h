@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkShearWindOctaveData
 {
+public:
     static const unsigned __int64 muNameHash = 0x23B0CB2EF86A7A9A;
     static const unsigned __int64 muTemplateHash = 0xBC50C690B903ED7E;
     static const int miNumMembers = 5;

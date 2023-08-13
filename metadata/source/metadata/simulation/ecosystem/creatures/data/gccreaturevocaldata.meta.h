@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureVocalSoundData;
 class cGcCreatureVocalSoundData;
@@ -8,6 +8,7 @@ class cGcCreatureVocalSoundData;
 
 class cGcCreatureVocalData
 {
+public:
     static const unsigned __int64 muNameHash = 0x505F7128834EAACA;
     static const unsigned __int64 muTemplateHash = 0xED0EA1EB716B1C8F;
     static const int miNumMembers = 5;

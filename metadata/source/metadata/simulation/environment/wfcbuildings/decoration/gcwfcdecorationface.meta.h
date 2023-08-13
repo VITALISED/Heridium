@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eCanWalk
 {
@@ -10,6 +10,7 @@ enum eCanWalk
 
 class cGcWFCDecorationFace
 {
+public:
     static const unsigned __int64 muNameHash = 0x7BCF7FA8AF0C694F;
     static const unsigned __int64 muTemplateHash = 0x931FF264F649885B;
     static const int miNumMembers = 2;

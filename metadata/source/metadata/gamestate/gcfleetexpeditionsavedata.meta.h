@@ -1,21 +1,22 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcExpeditionCategory;
 class cGcExpeditionDuration;
 
 class cGcFleetExpeditionSaveData
 {
+public:
     static const unsigned __int64 muNameHash = 0x1CD96DF6BD8E239C;
     static const unsigned __int64 muTemplateHash = 0x1389AA9BBA57EE88;
     static const int miNumMembers = 22;
 
     cTkSeed mSeed;
     unsigned __int64 mui64UA;
-    cTkVector mSpawnPosition;
-    cTkVector mTerminalPosition;
+    cTkVector3 mSpawnPosition;
+    cTkVector3 mTerminalPosition;
     float mfSpeedMultiplier;
-    cTkDynamicArray<TkID<128> > maPowerups;
+    cTkDynamicArray<TkID<128>1> maPowerups;
     cTkFixedString<256,char> macCustomName;
     TkID<128> mInterventionEventMissionID;
     unsigned __int64 mui64StartTime;
@@ -24,13 +25,13 @@ class cGcFleetExpeditionSaveData
     int miNextEventToTrigger;
     cGcExpeditionCategory mExpeditionCategory;
     cGcExpeditionDuration mExpeditionDuration;
-    cTkDynamicArray<int> maActiveFrigateIndices;
-    cTkDynamicArray<int> maDamagedFrigateIndices;
-    cTkDynamicArray<int> maDestroyedFrigateIndices;
-    cTkDynamicArray<int> maAllFrigateIndices;
+    cTkDynamicArray<int1> maActiveFrigateIndices;
+    cTkDynamicArray<int1> maDamagedFrigateIndices;
+    cTkDynamicArray<int1> maDestroyedFrigateIndices;
+    cTkDynamicArray<int1> maAllFrigateIndices;
     int miNumberOfSuccessfulEventsThisExpedition;
     int miNumberOfFailedEventsThisExpedition;
-    cTkDynamicArray<cGcExpeditionEventSaveData> maEvents;
+    cTkDynamicArray<cGcExpeditionEventSaveData1> maEvents;
     bool mbInterventionPhoneCallActivated;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

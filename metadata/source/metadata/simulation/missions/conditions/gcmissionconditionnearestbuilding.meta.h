@@ -1,17 +1,18 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBuildingClassification;
 
 class cGcMissionConditionNearestBuilding
 {
+public:
     static const unsigned __int64 muNameHash = 0x116C1EDD24B089D5;
     static const unsigned __int64 muTemplateHash = 0xDD141FC9D7A9AB34;
     static const int miNumMembers = 3;
 
     cGcBuildingClassification mBuilding;
     float mfDistance;
-    cTkDynamicArray<cGcBuildingClassification> maAdditionalBuildings;
+    cTkDynamicArray<cGcBuildingClassification1> maAdditionalBuildings;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

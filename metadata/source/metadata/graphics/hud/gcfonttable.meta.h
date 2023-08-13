@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcFontTable
 {
+public:
     static const unsigned __int64 muNameHash = 0xD77829A90743F12E;
     static const unsigned __int64 muTemplateHash = 0xF2D00947D92DFB8A;
     static const int miNumMembers = 1;
 
-    cTkFixedArray<cGcFontData> maTable;
+    cTkFixedArray<cGcFontData, 8> maTable;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

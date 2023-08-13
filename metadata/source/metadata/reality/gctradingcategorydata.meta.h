@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkTextureResource;
 
 class cGcTradingCategoryData
 {
+public:
     static const unsigned __int64 muNameHash = 0x39D1580ABEEE58C3;
     static const unsigned __int64 muTemplateHash = 0x8CB3BE00363FBA01;
     static const int miNumMembers = 4;

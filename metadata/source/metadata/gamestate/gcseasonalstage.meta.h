@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkTextureResource;
 
 class cGcSeasonalStage
 {
+public:
     static const unsigned __int64 muNameHash = 0xF1949393FDAF963A;
     static const unsigned __int64 muTemplateHash = 0x9222F3D64367B8B5;
     static const int miNumMembers = 4;
 
-    cTkDynamicArray<cGcSeasonalMilestone> maMilestones;
+    cTkDynamicArray<cGcSeasonalMilestone1> maMilestones;
     cTkTextureResource mIcon;
     TkID<256> mTitle;
     TkID<256> mDescription;

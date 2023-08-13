@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBaseSnapState;
 
 class cGcSnapPointCondition
 {
+public:
     static const unsigned __int64 muNameHash = 0x396BC2038766C20F;
     static const unsigned __int64 muTemplateHash = 0x5A472B0478D3F41E;
     static const int miNumMembers = 4;

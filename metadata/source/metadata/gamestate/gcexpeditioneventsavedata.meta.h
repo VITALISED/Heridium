@@ -1,17 +1,18 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcExpeditionEventSaveData
 {
+public:
     static const unsigned __int64 muNameHash = 0xA95CE4EF897F62B2;
     static const unsigned __int64 muTemplateHash = 0xF229AC5E7FE69A17;
     static const int miNumMembers = 13;
 
     cTkSeed mSeed;
     unsigned __int64 mui64UA;
-    cTkDynamicArray<int> maAffectedFrigateIndices;
-    cTkDynamicArray<int> maRepairingFrigateIndices;
-    cTkDynamicArray<int> maAffectedFrigateResponses;
+    cTkDynamicArray<int1> maAffectedFrigateIndices;
+    cTkDynamicArray<int1> maRepairingFrigateIndices;
+    cTkDynamicArray<int1> maAffectedFrigateResponses;
     TkID<256> mEventID;
     TkID<256> mInterventionEventID;
     cTkFixedString<64,char> macOverriddenDescription;

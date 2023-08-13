@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAlienPodComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x71B7896BF38DAAE4;
     static const unsigned __int64 muTemplateHash = 0x42BCABB3F2D44B9B;
     static const int miNumMembers = 17;

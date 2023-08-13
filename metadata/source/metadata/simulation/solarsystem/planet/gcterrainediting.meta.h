@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcTerrainEditing
 {
+public:
     static const unsigned __int64 muNameHash = 0x4686D0FAC0A1B9EC;
     static const unsigned __int64 muTemplateHash = 0x8879B10CF4B83AE;
     static const int miNumMembers = 30;
@@ -31,11 +32,11 @@ class cGcTerrainEditing
     bool mbEditGunParticlesEnabled;
     bool mbSubtractGunBeamEnabled;
     bool mbSubtractGunParticlesEnabled;
-    cTkFixedArray<float> maEditSizes;
-    cTkFixedArray<float> maSubtractSizes;
-    cTkFixedArray<float> maBaseEditSizes;
-    cTkFixedArray<float> maUndoEditSizes;
-    cTkFixedArray<float> maFlatteningSizes;
+    cTkFixedArray<float, 8> maEditSizes;
+    cTkFixedArray<float, 3> maSubtractSizes;
+    cTkFixedArray<float, 2> maBaseEditSizes;
+    cTkFixedArray<float, 2> maUndoEditSizes;
+    cTkFixedArray<float, 1> maFlatteningSizes;
     float mfEditEffectScale;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

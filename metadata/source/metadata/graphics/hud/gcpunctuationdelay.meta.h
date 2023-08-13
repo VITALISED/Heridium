@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPunctuationDelay
 {
+public:
     static const unsigned __int64 muNameHash = 0x88FA9D134F35E97B;
     static const unsigned __int64 muTemplateHash = 0x18FCA1B628A26A1D;
     static const int miNumMembers = 2;

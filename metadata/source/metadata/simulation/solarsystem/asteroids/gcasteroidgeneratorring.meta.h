@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAsteroidGeneratorAssignment;
 
 class cGcAsteroidGeneratorRing
 {
+public:
     static const unsigned __int64 muNameHash = 0x79403B157D846B70;
     static const unsigned __int64 muTemplateHash = 0xFEAAE4F2806F9584;
     static const int miNumMembers = 9;
@@ -14,7 +15,7 @@ class cGcAsteroidGeneratorRing
     float mfUpperRadius;
     float mfPushRadius;
     int miOffBalance;
-    cTkVector mRotation;
+    cTkVector3 mRotation;
     float mfUSpread;
     float mfPushAmount;
     bool mbFlipPush;

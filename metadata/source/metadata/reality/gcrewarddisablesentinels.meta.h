@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcRewardDisableSentinels
 {
+public:
     static const unsigned __int64 muNameHash = 0x231FFA8B84C504B1;
     static const unsigned __int64 muTemplateHash = 0x800851CF8D9528D4;
     static const int miNumMembers = 3;

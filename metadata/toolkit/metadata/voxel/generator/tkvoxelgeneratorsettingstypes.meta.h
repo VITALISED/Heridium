@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eTerrainSettings
 {
@@ -28,6 +28,7 @@ enum eTerrainSettings
 
 class cTkVoxelGeneratorSettingsTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0x60B0A451EF1759F9;
     static const unsigned __int64 muTemplateHash = 0x89AB0100FEC886B9;
     static const int miNumMembers = 1;

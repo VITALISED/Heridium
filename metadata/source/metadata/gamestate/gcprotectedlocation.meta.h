@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcProtectedLocation
 {
+public:
     static const unsigned __int64 muNameHash = 0xFED6D433FF718579;
     static const unsigned __int64 muTemplateHash = 0x757B2BAB74F6DCCA;
     static const int miNumMembers = 2;
 
-    cTkVector mLocation;
+    cTkVector3 mLocation;
     float mfRadius;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

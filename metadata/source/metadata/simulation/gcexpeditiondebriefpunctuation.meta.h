@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcExpeditionDebriefPunctuation
 {
+public:
     static const unsigned __int64 muNameHash = 0x395C0EA1CCB017E2;
     static const unsigned __int64 muTemplateHash = 0xEEC6AF803887FF87;
     static const int miNumMembers = 2;

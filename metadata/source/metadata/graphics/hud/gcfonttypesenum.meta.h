@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eFont
 {
@@ -15,6 +15,7 @@ enum eFont
 
 class cGcFontTypesEnum
 {
+public:
     static const unsigned __int64 muNameHash = 0xDD7598814880C206;
     static const unsigned __int64 muTemplateHash = 0x32669E5C63E0E597;
     static const int miNumMembers = 1;

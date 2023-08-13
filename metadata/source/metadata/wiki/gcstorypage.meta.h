@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInteractionType;
 class cTkTextureResource;
@@ -7,6 +7,7 @@ class cGcWikiTopicType;
 
 class cGcStoryPage
 {
+public:
     static const unsigned __int64 muNameHash = 0xDA4CC10DF6E92F8C;
     static const unsigned __int64 muTemplateHash = 0xE8EF7AE92F0F264;
     static const int miNumMembers = 8;
@@ -16,7 +17,7 @@ class cGcStoryPage
     bool mbStatIsBitmask;
     cTkTextureResource mIcon;
     TkID<256> mID;
-    cTkDynamicArray<cGcStoryEntry> maEntries;
+    cTkDynamicArray<cGcStoryEntry1> maEntries;
     bool mbUseGridType;
     cGcWikiTopicType mWikiGridType;
 

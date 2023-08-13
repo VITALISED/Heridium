@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkBehaviourTreeSequentialSelectorData
 {
+public:
     static const unsigned __int64 muNameHash = 0xF3C0FF9D1D7101FA;
     static const unsigned __int64 muTemplateHash = 0xE2BFCCE9861E998E;
     static const int miNumMembers = 4;
@@ -10,7 +11,7 @@ class cTkBehaviourTreeSequentialSelectorData
     TkID<128> mName;
     bool mbLooping;
     bool mbFailWhenAnyChildFails;
-    cTkDynamicArray<cTkClassPointer> maChildren;
+    cTkDynamicArray<cTkClassPointer1> maChildren;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

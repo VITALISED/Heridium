@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNGuiStyleAnimationData
 {
+public:
     static const unsigned __int64 muNameHash = 0x7CC4297B73C8CB65;
     static const unsigned __int64 muTemplateHash = 0x6A052BCED9D7FE6B;
     static const int miNumMembers = 4;
@@ -10,7 +11,7 @@ class cGcNGuiStyleAnimationData
     float mfLength;
     bool mbLoop;
     bool mbAnimateByDefault;
-    cTkDynamicArray<cGcNGuiStyleAnimationKeyframeData> maKeyFrames;
+    cTkDynamicArray<cGcNGuiStyleAnimationKeyframeData1> maKeyFrames;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

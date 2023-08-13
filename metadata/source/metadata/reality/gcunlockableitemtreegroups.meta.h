@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eUnlockableItemTree
 {
@@ -21,6 +21,7 @@ enum eUnlockableItemTree
 
 class cGcUnlockableItemTreeGroups
 {
+public:
     static const unsigned __int64 muNameHash = 0x8F55B25E91A470A9;
     static const unsigned __int64 muTemplateHash = 0x48765DB963EC9AB3;
     static const int miNumMembers = 1;

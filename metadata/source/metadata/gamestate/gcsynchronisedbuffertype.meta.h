@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eSyncBufferType
 {
@@ -11,6 +11,7 @@ enum eSyncBufferType
 
 class cGcSynchronisedBufferType
 {
+public:
     static const unsigned __int64 muNameHash = 0x8796DE5FDA34BEB;
     static const unsigned __int64 muTemplateHash = 0x1BC9D9FA9864C6EE;
     static const int miNumMembers = 1;

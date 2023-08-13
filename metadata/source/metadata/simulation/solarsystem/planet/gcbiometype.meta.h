@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eBiome
 {
@@ -23,6 +23,7 @@ enum eBiome
 
 class cGcBiomeType
 {
+public:
     static const unsigned __int64 muNameHash = 0x5CEE315FE3457560;
     static const unsigned __int64 muTemplateHash = 0x9F5CC8BA811F301D;
     static const int miNumMembers = 1;

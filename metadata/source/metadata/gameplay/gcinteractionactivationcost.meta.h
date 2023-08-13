@@ -1,18 +1,19 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInteractionActivationCost
 {
+public:
     static const unsigned __int64 muNameHash = 0xDF5512FA05691ED2;
     static const unsigned __int64 muTemplateHash = 0xF786CC820054DF74;
     static const int miNumMembers = 6;
 
     TkID<128> mSubstanceId;
-    cTkDynamicArray<TkID<128> > maAltIds;
+    cTkDynamicArray<TkID<128>1> maAltIds;
     int miCost;
     bool mbRepeat;
     TkID<128> mRequiredTech;
-    cTkDynamicArray<int> maOnlyChargeDuringSeasons;
+    cTkDynamicArray<int1> maOnlyChargeDuringSeasons;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkNoiseFeatureData;
 class cTkNoiseFeatureData;
 
 class cTkNoiseCaveData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE2442EEFEFEF9518;
     static const unsigned __int64 muTemplateHash = 0x99E67FED2F474E36;
     static const int miNumMembers = 2;

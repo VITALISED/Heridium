@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eCharacterControlOutputSpace
 {
@@ -10,6 +10,7 @@ enum eCharacterControlOutputSpace
 
 class cGcCharacterControlOutputSpace
 {
+public:
     static const unsigned __int64 muNameHash = 0x17FDBAA75DF0569B;
     static const unsigned __int64 muTemplateHash = 0xFB81DE26A5931326;
     static const int miNumMembers = 1;

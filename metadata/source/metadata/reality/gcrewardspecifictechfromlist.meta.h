@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eTechListRewardOrder
 {
@@ -10,11 +10,12 @@ enum eTechListRewardOrder
 
 class cGcRewardSpecificTechFromList
 {
+public:
     static const unsigned __int64 muNameHash = 0xF33640B1865E5E4B;
     static const unsigned __int64 muTemplateHash = 0xF5958A51F9612CFB;
     static const int miNumMembers = 3;
 
-    cTkDynamicArray<TkID<128> > maTechList;
+    cTkDynamicArray<TkID<128>1> maTechList;
     bool mbFailIfAllKnown;
     eTechListRewardOrder meTechListRewardOrder;
 

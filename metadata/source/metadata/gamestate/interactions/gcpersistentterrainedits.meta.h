@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPersistentTerrainEdits
 {
+public:
     static const unsigned __int64 muNameHash = 0xC6506D02A6391EEB;
     static const unsigned __int64 muTemplateHash = 0xC359CE7CE22DC772;
     static const int miNumMembers = 4;
 
     unsigned __int64 mui64GalacticAddress;
-    cTkDynamicArray<int> maBufferSizes;
-    cTkDynamicArray<cTkVector> maBufferAnchors;
-    cTkDynamicArray<cGcTerrainEdit> maEdits;
+    cTkDynamicArray<int1> maBufferSizes;
+    cTkDynamicArray<cTkVector31> maBufferAnchors;
+    cTkDynamicArray<cGcTerrainEdit1> maEdits;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

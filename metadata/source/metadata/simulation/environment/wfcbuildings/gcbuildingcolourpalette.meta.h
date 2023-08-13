@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBuildingClassification;
 
 class cGcBuildingColourPalette
 {
+public:
     static const unsigned __int64 muNameHash = 0xE3CA41789B108657;
     static const unsigned __int64 muTemplateHash = 0x87C238749E3F9703;
     static const int miNumMembers = 2;
 
     cGcBuildingClassification mBuilding;
-    cTkDynamicArray<cGcWeightedColourId> maPalettes;
+    cTkDynamicArray<cGcWeightedColourId1> maPalettes;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

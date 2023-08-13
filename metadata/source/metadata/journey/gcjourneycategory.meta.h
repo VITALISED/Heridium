@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcJourneyCategoryType;
 class cGcGameMode;
@@ -9,6 +9,7 @@ class cTkTextureResource;
 
 class cGcJourneyCategory
 {
+public:
     static const unsigned __int64 muNameHash = 0x88F1E142115EF824;
     static const unsigned __int64 muTemplateHash = 0x6B7881FEB05B98C6;
     static const int miNumMembers = 9;
@@ -21,7 +22,7 @@ class cGcJourneyCategory
     TkID<256> mDescriptionID;
     cTkTextureResource mIconOn;
     cTkTextureResource mIconOff;
-    cTkDynamicArray<cGcJourneyMedal> maMedals;
+    cTkDynamicArray<cGcJourneyMedal1> maMedals;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 class cTkCameraWanderData;
 
 class cTkModelRendererCameraData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE2B8850DAEBB8F74;
     static const unsigned __int64 muTemplateHash = 0x53AA0C1A964B5E9F;
     static const int miNumMembers = 8;
 
     float mfDistance;
-    cTkVector mOffset;
+    cTkVector3 mOffset;
     float mfRoll;
     float mfPitch;
     float mfRotate;

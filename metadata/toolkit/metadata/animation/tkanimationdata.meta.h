@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkAnimationGameData;
 
@@ -20,6 +20,7 @@ enum eCreatureSize
 
 class cTkAnimationData
 {
+public:
     static const unsigned __int64 muNameHash = 0x3A0F3C26A4978A6F;
     static const unsigned __int64 muTemplateHash = 0x2B3F7ACFE888523E;
     static const int miNumMembers = 22;
@@ -28,7 +29,7 @@ class cTkAnimationData
     TkID<128> mAdditiveBaseAnim;
     cTkFixedString<128,char> macFilename;
     cTkFixedString<64,char> macStartNode;
-    cTkDynamicArray<cTkFixedString<64,char> > maExtraStartNodes;
+    cTkDynamicArray<cTkFixedString<64,char>1> maExtraStartNodes;
     cTkAnimationGameData mGameData;
     int miFrameStart;
     int miFrameEnd;

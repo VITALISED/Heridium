@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcStatType;
 class cTkTextureResource;
@@ -9,6 +9,7 @@ class cTkTextureResource;
 
 class cGcJourneyMedal
 {
+public:
     static const unsigned __int64 muNameHash = 0x33CAC73016241300;
     static const unsigned __int64 muTemplateHash = 0x2A90662F35B374DF;
     static const int miNumMembers = 11;

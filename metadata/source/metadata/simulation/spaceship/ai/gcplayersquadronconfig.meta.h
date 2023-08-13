@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlayerSquadronConfig
 {
+public:
     static const unsigned __int64 muNameHash = 0xD3C0DCB43542B48;
     static const unsigned __int64 muTemplateHash = 0xC9827D633B336FF4;
     static const int miNumMembers = 91;
 
     cTkFixedString<32,char> macSquadName;
-    cTkFixedArray<cTkVector2> maPilotRankTraitRanges;
-    cTkFixedArray<TkID<128> > maPilotRankAttackDefinitions;
+    cTkFixedArray<cTkVector2, 4> maPilotRankTraitRanges;
+    cTkFixedArray<TkID<128>, 4> maPilotRankAttackDefinitions;
     float mfSummonArriveTime;
     float mfSummonArriveTimeIntervalMin;
     float mfSummonArriveTimeIntervalMax;
@@ -43,19 +44,19 @@ class cGcPlayerSquadronConfig
     float mfFormationOffsetZOffsetVariancePeriod;
     float mfFormationOffsetZOffsetVarianceMin;
     float mfFormationOffsetZOffsetVarianceMax;
-    cTkVector mFormationOffset;
+    cTkVector3 mFormationOffset;
     float mfFormationOffsetCylinderWidth;
     float mfFormationOffsetCylinderHeight;
     float mfFormationOffsetCylinderLength;
-    cTkVector mFormationOffsetThirdPerson;
+    cTkVector3 mFormationOffsetThirdPerson;
     float mfFormationOffsetCylinderWidthThirdPerson;
     float mfFormationOffsetCylinderHeightThirdPerson;
     float mfFormationOffsetCylinderLengthThirdPerson;
-    cTkVector mCombatFormationOffset;
+    cTkVector3 mCombatFormationOffset;
     float mfCombatFormationOffsetCylinderWidth;
     float mfCombatFormationOffsetCylinderHeight;
     float mfCombatFormationOffsetCylinderLength;
-    cTkVector mCombatFormationOffsetThirdPerson;
+    cTkVector3 mCombatFormationOffsetThirdPerson;
     float mfCombatFormationOffsetCylinderWidthThirdPerson;
     float mfCombatFormationOffsetCylinderHeightThirdPerson;
     float mfCombatFormationOffsetCylinderLengthThirdPerson;
@@ -96,8 +97,8 @@ class cGcPlayerSquadronConfig
     int miMaxShipsInFormationDuringCombat;
     float mfOutOfFormationMinTime;
     float mfOutOfFormationMaxTime;
-    cTkDynamicArray<cGcAISpaceshipModelData> maRandomSpaceshipResources;
-    cTkDynamicArray<cTkFixedString<128,char> > maRandomPilotNPCResources;
+    cTkDynamicArray<cGcAISpaceshipModelData1> maRandomSpaceshipResources;
+    cTkDynamicArray<cTkFixedString<128,char>1> maRandomPilotNPCResources;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

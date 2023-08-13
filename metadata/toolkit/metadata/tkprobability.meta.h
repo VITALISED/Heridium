@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 enum eProbability
 {
@@ -11,6 +11,7 @@ enum eProbability
 
 class cTkProbability
 {
+public:
     static const unsigned __int64 muNameHash = 0x291E526240E013CC;
     static const unsigned __int64 muTemplateHash = 0xEE55E2B6711F8A8D;
     static const int miNumMembers = 1;

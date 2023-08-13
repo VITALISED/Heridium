@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureStupidName
 {
+public:
     static const unsigned __int64 muNameHash = 0x7754E453D7160CA6;
     static const unsigned __int64 muTemplateHash = 0xB254424D362E8BE7;
     static const int miNumMembers = 3;
 
     TkID<128> mId;
     int miCount;
-    cTkDynamicArray<cTkFixedString<128,char> > maNames;
+    cTkDynamicArray<cTkFixedString<128,char>1> maNames;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

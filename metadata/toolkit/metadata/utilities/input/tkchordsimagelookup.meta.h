@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkChordsImageLookup
 {
+public:
     static const unsigned __int64 muNameHash = 0xD2FF58C5F7940C1F;
     static const unsigned __int64 muTemplateHash = 0x8A6C9B64E7270E1B;
     static const int miNumMembers = 1;
 
-    cTkDynamicArray<cTkChordPathMapping> maLookup;
+    cTkDynamicArray<cTkChordPathMapping1> maLookup;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

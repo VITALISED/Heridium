@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAlienRace;
 class cGcGalaxyStarAnomaly;
@@ -11,6 +11,7 @@ class cGcBiomeSubType;
 
 class cGcScanEventSolarSystemLookup
 {
+public:
     static const unsigned __int64 muNameHash = 0xE523CFAD6AFB4BB6;
     static const unsigned __int64 muTemplateHash = 0xDC65FBB3D6D18DC4;
     static const int miNumMembers = 32;

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAlienPodAnimParams
 {
+public:
     static const unsigned __int64 muNameHash = 0x998BA979A167FBB6;
     static const unsigned __int64 muTemplateHash = 0xB75609371B5D8101;
     static const int miNumMembers = 1;

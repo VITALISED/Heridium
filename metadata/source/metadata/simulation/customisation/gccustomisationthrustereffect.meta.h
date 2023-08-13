@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCustomisationThrusterEffect
 {
+public:
     static const unsigned __int64 muNameHash = 0xE7EC6E83CB496A6C;
     static const unsigned __int64 muTemplateHash = 0x35D1B26990D36E34;
     static const int miNumMembers = 6;
@@ -12,7 +13,7 @@ class cGcCustomisationThrusterEffect
     TkID<256> mTip;
     bool mbAllowedInSeasonalDefaults;
     cTkColour mLightColour;
-    cTkDynamicArray<cGcCustomisationThrusterJet> maJets;
+    cTkDynamicArray<cGcCustomisationThrusterJet1> maJets;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcFogProperties;
 class cGcFogProperties;
@@ -12,6 +12,7 @@ class cGcLightShaftProperties;
 
 class cGcWeatherProperties
 {
+public:
     static const unsigned __int64 muNameHash = 0xD216CE8E772352C;
     static const unsigned __int64 muTemplateHash = 0xBDD9439B9B595EF6;
     static const int miNumMembers = 29;
@@ -23,28 +24,28 @@ class cGcWeatherProperties
     cGcFogProperties mStormFog;
     cGcFogProperties mExtremeFog;
     cGcWeatherColourModifiers mExtremeColourModifiers;
-    cTkFixedArray<float> maRainbowChance;
-    cTkDynamicArray<cGcStormProperties> maStorms;
-    cTkDynamicArray<cTkFixedString<128,char> > maHeavyAir;
+    cTkFixedArray<float, 4> maRainbowChance;
+    cTkDynamicArray<cGcStormProperties1> maStorms;
+    cTkDynamicArray<cTkFixedString<128,char>1> maHeavyAir;
     float mfLowStormsChance;
     float mfHighStormsChance;
     float mfExtremeWeatherChance;
     bool mbOverrideTemperature;
-    cTkFixedArray<cGcHazardValues> maTemperature;
+    cTkFixedArray<cGcHazardValues, 5> maTemperature;
     bool mbOverrideToxicity;
-    cTkFixedArray<cGcHazardValues> maToxicity;
+    cTkFixedArray<cGcHazardValues, 5> maToxicity;
     bool mbOverrideRadiation;
-    cTkFixedArray<cGcHazardValues> maRadiation;
-    cTkFixedArray<cGcHazardValues> maLifeSupportDrain;
-    cTkDynamicArray<cGcScreenFilters> maStormFilterOptions;
+    cTkFixedArray<cGcHazardValues, 5> maRadiation;
+    cTkFixedArray<cGcHazardValues, 5> maLifeSupportDrain;
+    cTkDynamicArray<cGcScreenFilters1> maStormFilterOptions;
     bool mbUseWeatherSky;
     cGcSkyProperties mSky;
     bool mbUseLightShaftProperties;
     cGcLightShaftProperties mLightShaftProperties;
     bool mbUseStormLightShaftProperties;
     cGcLightShaftProperties mStormLightShaftProperties;
-    cTkDynamicArray<TkID<128> > maWeatherEffectsIds;
-    cTkDynamicArray<TkID<128> > maWeatherHazardsIds;
+    cTkDynamicArray<TkID<128>1> maWeatherEffectsIds;
+    cTkDynamicArray<TkID<128>1> maWeatherHazardsIds;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMissionConditionIsScanEventLocal;
 
 class cGcMissionConditionIsScanEventLocalOrNear
 {
+public:
     static const unsigned __int64 muNameHash = 0xE9A41D09A14F59E1;
     static const unsigned __int64 muTemplateHash = 0x77E2096FF7044EE6;
     static const int miNumMembers = 2;

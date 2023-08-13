@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkCurveType;
 
 class cGcVibrationData
 {
+public:
     static const unsigned __int64 muNameHash = 0x1C317C9CAD203EF4;
     static const unsigned __int64 muTemplateHash = 0xA8D7D8F0ECE4DB7B;
     static const int miNumMembers = 6;

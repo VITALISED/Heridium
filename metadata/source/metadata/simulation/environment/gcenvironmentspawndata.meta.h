@@ -1,18 +1,19 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcEnvironmentSpawnData
 {
+public:
     static const unsigned __int64 muNameHash = 0x1B03CB87DECA6BCC;
     static const unsigned __int64 muTemplateHash = 0xA77C761194465BA6;
     static const int miNumMembers = 6;
 
-    cTkDynamicArray<cGcCreatureSpawnData> maCreatures;
-    cTkDynamicArray<cGcObjectSpawnData> maDistantObjects;
-    cTkDynamicArray<cGcObjectSpawnData> maLandmarks;
-    cTkDynamicArray<cGcObjectSpawnData> maObjects;
-    cTkDynamicArray<cGcObjectSpawnData> maDetailObjects;
-    cTkDynamicArray<cGcSelectableObjectSpawnList> maSelectableObjects;
+    cTkDynamicArray<cGcCreatureSpawnData1> maCreatures;
+    cTkDynamicArray<cGcObjectSpawnData1> maDistantObjects;
+    cTkDynamicArray<cGcObjectSpawnData1> maLandmarks;
+    cTkDynamicArray<cGcObjectSpawnData1> maObjects;
+    cTkDynamicArray<cGcObjectSpawnData1> maDetailObjects;
+    cTkDynamicArray<cGcSelectableObjectSpawnList1> maSelectableObjects;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

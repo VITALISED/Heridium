@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcFreighterRoomNPCData
 {
+public:
     static const unsigned __int64 muNameHash = 0xBCA190142B227B20;
     static const unsigned __int64 muTemplateHash = 0x5E786BA034E9F7BC;
     static const int miNumMembers = 3;
 
     TkID<128> mRoomID;
-    cTkFixedArray<float> maSpawnCapacity;
-    cTkFixedArray<float> maPOISelectionWeight;
+    cTkFixedArray<float, 5> maSpawnCapacity;
+    cTkFixedArray<float, 5> maPOISelectionWeight;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

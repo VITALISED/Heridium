@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eFamilyType
 {
@@ -9,13 +9,14 @@ enum eFamilyType
 
 class cGcBaseBuildingFamily
 {
+public:
     static const unsigned __int64 muNameHash = 0x80538FB9394B74CA;
     static const unsigned __int64 muTemplateHash = 0xEB9D61CFC45A85BA;
     static const int miNumMembers = 3;
 
     TkID<128> mID;
     eFamilyType meFamilyType;
-    cTkDynamicArray<TkID<128> > maObjectIDs;
+    cTkDynamicArray<TkID<128>1> maObjectIDs;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

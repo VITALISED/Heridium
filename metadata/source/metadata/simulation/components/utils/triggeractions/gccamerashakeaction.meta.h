@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCameraShakeAction
 {
+public:
     static const unsigned __int64 muNameHash = 0x8C20E93C658FEFB1;
     static const unsigned __int64 muTemplateHash = 0x1E28DC14407484A8;
     static const int miNumMembers = 3;

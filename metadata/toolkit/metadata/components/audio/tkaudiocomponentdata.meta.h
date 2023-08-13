@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkAudioComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x43843485E8F56932;
     static const unsigned __int64 muTemplateHash = 0xDFEC3D30BC63BC3A;
     static const int miNumMembers = 5;
@@ -11,7 +12,7 @@ class cTkAudioComponentData
     TkID<128> mAmbientState;
     cTkFixedString<128,char> macShutdown;
     int miMaxDistance;
-    cTkDynamicArray<cTkAudioAnimTrigger> maAnimTriggers;
+    cTkDynamicArray<cTkAudioAnimTrigger1> maAnimTriggers;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eCaveTypes
 {
@@ -8,6 +8,7 @@ enum eCaveTypes
 
 class cTkCavesEnum
 {
+public:
     static const unsigned __int64 muNameHash = 0x380AC5FAFC25FE69;
     static const unsigned __int64 muTemplateHash = 0xC82D553728BC3D02;
     static const int miNumMembers = 1;

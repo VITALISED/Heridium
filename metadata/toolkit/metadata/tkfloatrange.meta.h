@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 class cTkFloatRange
 {
+public:
     static const unsigned __int64 muNameHash = 0x9CC8F67690234E64;
     static const unsigned __int64 muTemplateHash = 0x189BAA6ED514CFD7;
     static const int miNumMembers = 2;

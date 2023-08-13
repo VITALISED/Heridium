@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDungeonRoomParams
 {
+public:
     static const unsigned __int64 muNameHash = 0xA2ECE651D48EE56D;
     static const unsigned __int64 muTemplateHash = 0xB1D4FB10703606E5;
     static const int miNumMembers = 2;

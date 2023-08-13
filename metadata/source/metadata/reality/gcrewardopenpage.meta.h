@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum ePageToOpen
 {
@@ -22,6 +22,7 @@ enum ePageToOpen
 
 class cGcRewardOpenPage
 {
+public:
     static const unsigned __int64 muNameHash = 0xF1F483BCEFC0AD13;
     static const unsigned __int64 muTemplateHash = 0xFF551FA54C6FC97E;
     static const int miNumMembers = 2;

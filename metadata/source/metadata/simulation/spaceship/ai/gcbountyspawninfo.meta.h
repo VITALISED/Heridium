@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAIShipSpawnData;
 class cTkTextureResource;
 
 class cGcBountySpawnInfo
 {
+public:
     static const unsigned __int64 muNameHash = 0x39C7A4F372F6707C;
     static const unsigned __int64 muTemplateHash = 0x797798746A9643E2;
     static const int miNumMembers = 5;

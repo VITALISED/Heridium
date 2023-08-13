@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNPCPlacementComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x8047BE4D11BB54C8;
     static const unsigned __int64 muTemplateHash = 0x126EC8A5580C79E9;
     static const int miNumMembers = 4;
 
     bool mbSearchPlacementFromMaster;
     bool mbPlaceInAbandonedSystems;
-    cTkDynamicArray<TkID<128> > maPlacementInfosToApply;
+    cTkDynamicArray<TkID<128>1> maPlacementInfosToApply;
     bool mbWaitToPlace;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

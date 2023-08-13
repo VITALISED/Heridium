@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eWarpType
 {
@@ -9,6 +9,7 @@ enum eWarpType
 
 class cGcWarpAction
 {
+public:
     static const unsigned __int64 muNameHash = 0x424B3146F5B3FC26;
     static const unsigned __int64 muTemplateHash = 0xD317F3DAC107BDAA;
     static const int miNumMembers = 1;

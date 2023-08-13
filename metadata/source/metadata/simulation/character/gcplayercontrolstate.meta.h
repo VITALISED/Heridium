@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlayerControlInput;
 
 class cGcPlayerControlState
 {
+public:
     static const unsigned __int64 muNameHash = 0x9CBA2290362425C1;
     static const unsigned __int64 muTemplateHash = 0x4F23C39FFE413C44;
     static const int miNumMembers = 5;
@@ -13,7 +14,7 @@ class cGcPlayerControlState
     bool mbStickToGround;
     cGcPlayerControlInput mOverrideInput;
     TkID<128> mOverrideCamera;
-    cTkDynamicArray<cTkClassPointer> maData;
+    cTkDynamicArray<cTkClassPointer1> maData;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

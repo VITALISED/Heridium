@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcResourceElement;
 
 class cGcPulseEncounterSpawnSpaceHostiles
 {
+public:
     static const unsigned __int64 muNameHash = 0x203F104657EA616;
     static const unsigned __int64 muTemplateHash = 0xC3E5374D9775B0A6;
     static const int miNumMembers = 3;

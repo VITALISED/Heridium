@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAtlasDownloadType;
 class cGcDiscoveryOwner;
@@ -9,6 +9,7 @@ class cGcAtlasMessage;
 
 class cGcAtlasDiscovery
 {
+public:
     static const unsigned __int64 muNameHash = 0x886C03C3F3987F4;
     static const unsigned __int64 muTemplateHash = 0x3A1F612CFFA8437F;
     static const int miNumMembers = 7;

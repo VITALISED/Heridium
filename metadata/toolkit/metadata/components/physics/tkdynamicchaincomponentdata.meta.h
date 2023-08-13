@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkDynamicChainComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x380D960FAA1BF837;
     static const unsigned __int64 muTemplateHash = 0x2DD2D2E517ED0C52;
     static const int miNumMembers = 15;
@@ -21,7 +22,7 @@ class cTkDynamicChainComponentData
     float mfInitialBodyMass;
     float mfBodyMassChange;
     bool mbWeightByJointLength;
-    cTkDynamicArray<cTkFixedString<32,char> > maIgnoreJoints;
+    cTkDynamicArray<cTkFixedString<32,char>1> maIgnoreJoints;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

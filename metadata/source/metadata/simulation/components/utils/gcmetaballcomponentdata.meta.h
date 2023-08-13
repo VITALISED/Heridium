@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMetaBallComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xDA00E84E26C162C5;
     static const unsigned __int64 muTemplateHash = 0x5A71E592A520DD3C;
     static const int miNumMembers = 5;
@@ -10,8 +11,8 @@ class cGcMetaBallComponentData
     cTkFixedString<128,char> macFile;
     cTkFixedString<32,char> macRoot;
     float mfRadius;
-    cTkVector mMinSize;
-    cTkVector mMaxSize;
+    cTkVector3 mMinSize;
+    cTkVector3 mMaxSize;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

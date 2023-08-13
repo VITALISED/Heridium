@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMissionConditionHasIngredientsForItem
 {
+public:
     static const unsigned __int64 muNameHash = 0x84BBBF70C34631CA;
     static const unsigned __int64 muTemplateHash = 0xF363A7A9323D1D2A;
     static const int miNumMembers = 2;
 
-    cTkDynamicArray<TkID<128> > maTargetItems;
+    cTkDynamicArray<TkID<128>1> maTargetItems;
     bool mbRepair;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

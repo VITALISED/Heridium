@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcGameMode;
 class cGcDifficultyPresetType;
@@ -20,6 +20,7 @@ class cGcTradeData;
 
 class cGcSeasonalGameModeData
 {
+public:
     static const unsigned __int64 muNameHash = 0xFD6B0BE30E218605;
     static const unsigned __int64 muTemplateHash = 0xA4C94919ED47AAA7;
     static const int miNumMembers = 88;
@@ -53,8 +54,8 @@ class cGcSeasonalGameModeData
     bool mbDoCommunityMissionTextSubstitutions;
     bool mbDefaultToPvPOff;
     bool mbMustCraftInBases;
-    cTkDynamicArray<TkID<128> > maAdditionalTradeProducts;
-    cTkDynamicArray<TkID<128> > maNeverTradeProducts;
+    cTkDynamicArray<TkID<128>1> maAdditionalTradeProducts;
+    cTkDynamicArray<TkID<128>1> maNeverTradeProducts;
     int miStartingSuitSlots;
     int miStartingSuitTechSlots;
     int miStartingSuitCargoSlots;
@@ -67,7 +68,7 @@ class cGcSeasonalGameModeData
     bool mbStartAboardFreighter;
     bool mbForceStartSystemTernary;
     bool mbForceStartSystemAbandoned;
-    cTkDynamicArray<cGcBuildingClassification> maValidSpawnBuildings;
+    cTkDynamicArray<cGcBuildingClassification1> maValidSpawnBuildings;
     cGcInventoryLayout mWeaponInventoryLayout;
     cGcInventoryLayout mShipInventoryLayout;
     cGcInventoryLayout mShipTechInventoryLayout;
@@ -78,9 +79,9 @@ class cGcSeasonalGameModeData
     cGcInventoryContainer mShipInventory;
     cGcInventoryContainer mWeaponInventory;
     bool mbUseRandomPet;
-    cTkDynamicArray<cGcSeasonPetConstraints> maRandomPetConstraints;
-    cTkFixedArray<cGcPetData> maSpecificPets;
-    cTkDynamicArray<cGcSandwormTimerAndFrequencyOverride> maSandwormOverrides;
+    cTkDynamicArray<cGcSeasonPetConstraints1> maRandomPetConstraints;
+    cTkFixedArray<cGcPetData, 18> maSpecificPets;
+    cTkDynamicArray<cGcSandwormTimerAndFrequencyOverride1> maSandwormOverrides;
     bool mbSandwormGlobalOverride;
     float mfSandwormGlobalOverrideTimer;
     float mfSandwormGlobalOverrideSpawnChance;
@@ -94,22 +95,22 @@ class cGcSeasonalGameModeData
     int miFreighterBattleEarlyWarpsOverride;
     bool mbForceDeepSpaceAmbientFrigatesOnInfested;
     int miTechCostMultiplier;
-    cTkDynamicArray<TkID<128> > maNeverLearnableTech;
-    cTkDynamicArray<TkID<128> > maForgottenProducts;
+    cTkDynamicArray<TkID<128>1> maNeverLearnableTech;
+    cTkDynamicArray<TkID<128>1> maForgottenProducts;
     bool mbIncreaseXClassTechOddsWithCommTier;
     float mfAbandonedFreighterHazardProtectionMul;
     float mfHazardProtectionDrainMultiplier;
     float mfEnergyDrainMultiplier;
     int miQuestSubstanceReducer;
-    cTkDynamicArray<cGcSeasonalStage> maStages;
+    cTkDynamicArray<cGcSeasonalStage1> maStages;
     cGcScanEventTable mScanEventTable;
     bool mbResetSaveOnDeath;
-    cTkDynamicArray<cGcPersistedStatData> maStatsToPersistOnReset;
+    cTkDynamicArray<cGcPersistedStatData1> maStatsToPersistOnReset;
     bool mbCompatibleWithState;
     bool mbHasBeenConverted;
-    cTkDynamicArray<cGcTechnology> maTechnologyTable;
-    cTkDynamicArray<cGcProductData> maProductTable;
-    cTkDynamicArray<cGcRealitySubstanceData> maSubstanceTable;
+    cTkDynamicArray<cGcTechnology1> maTechnologyTable;
+    cTkDynamicArray<cGcProductData1> maProductTable;
+    cTkDynamicArray<cGcRealitySubstanceData1> maSubstanceTable;
     cGcTradeData mSeasonalUAStationTradeData;
     bool mbUseSeasonalUAStationTradeData;
 

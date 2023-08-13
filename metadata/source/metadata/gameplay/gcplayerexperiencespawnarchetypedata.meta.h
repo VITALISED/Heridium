@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureTypes;
 
 class cGcPlayerExperienceSpawnArchetypeData
 {
+public:
     static const unsigned __int64 muNameHash = 0x3D6AF30F10DB0EAA;
     static const unsigned __int64 muTemplateHash = 0x4905A18AC39B865;
     static const int miNumMembers = 15;
@@ -22,8 +23,8 @@ class cGcPlayerExperienceSpawnArchetypeData
     float mfSpawnDistOverride;
     float mfDespawnDistOverride;
     TkID<128> mBehaviourTreeOverride;
-    cTkDynamicArray<cTkClassPointer> maBehaviourOverrides;
-    cTkDynamicArray<cTkClassPointer> maBlackboardValues;
+    cTkDynamicArray<cTkClassPointer1> maBehaviourOverrides;
+    cTkDynamicArray<cTkClassPointer1> maBlackboardValues;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcActionSetType;
 
 class cGcInputBindingSet
 {
+public:
     static const unsigned __int64 muNameHash = 0x52AAFE72AAC465AE;
     static const unsigned __int64 muTemplateHash = 0x92F0F711498404A4;
     static const int miNumMembers = 2;
 
     cGcActionSetType mType;
-    cTkDynamicArray<cGcInputBinding> maInputBindings;
+    cTkDynamicArray<cGcInputBinding1> maInputBindings;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

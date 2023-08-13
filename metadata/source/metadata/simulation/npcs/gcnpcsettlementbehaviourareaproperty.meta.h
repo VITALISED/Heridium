@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eNPCSettlementBehaviourAreaProperty
 {
@@ -9,6 +9,7 @@ enum eNPCSettlementBehaviourAreaProperty
 
 class cGcNPCSettlementBehaviourAreaProperty
 {
+public:
     static const unsigned __int64 muNameHash = 0x402D87044A8D02D3;
     static const unsigned __int64 muTemplateHash = 0x58744973BB15A41F;
     static const int miNumMembers = 1;

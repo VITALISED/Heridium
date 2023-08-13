@@ -1,19 +1,20 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkAnimationData;
 
 class cTkAnimationComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x379CFCF1CE84CBAA;
     static const unsigned __int64 muTemplateHash = 0xB5263393C2F176F4;
     static const int miNumMembers = 5;
 
     cTkAnimationData mIdle;
-    cTkDynamicArray<cTkAnimationData> maAnims;
-    cTkDynamicArray<cTkAnimBlendTree> maTrees;
+    cTkDynamicArray<cTkAnimationData1> maAnims;
+    cTkDynamicArray<cTkAnimBlendTree1> maTrees;
     bool mbNetSyncAnimations;
-    cTkDynamicArray<cTkAnimJointLODData> maJointLODOverrides;
+    cTkDynamicArray<cTkAnimJointLODData1> maJointLODOverrides;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eUpgradeBaseType
 {
@@ -9,12 +9,13 @@ enum eUpgradeBaseType
 
 class cGcRewardUpgradeBase
 {
+public:
     static const unsigned __int64 muNameHash = 0xE60E16C73CCFBAC0;
     static const unsigned __int64 muTemplateHash = 0xFFE472115B564B2D;
     static const int miNumMembers = 2;
 
     eUpgradeBaseType meUpgradeBaseType;
-    cTkDynamicArray<cGcPersistentBaseTypes> maMatchingBaseTypes;
+    cTkDynamicArray<cGcPersistentBaseTypes1> maMatchingBaseTypes;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

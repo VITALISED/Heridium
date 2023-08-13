@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDiscoveryOwner;
 class cGcSettlementJudgementType;
@@ -7,22 +7,23 @@ class cGcBuildingClassification;
 
 class cGcSettlementState
 {
+public:
     static const unsigned __int64 muNameHash = 0x92FAA41D8355CBAE;
     static const unsigned __int64 muTemplateHash = 0xCAB79D64D31E12D5;
     static const int miNumMembers = 24;
 
     cTkFixedString<64,char> macUniqueId;
     unsigned __int64 mui64UniverseAddress;
-    cTkVector mPosition;
+    cTkVector3 mPosition;
     unsigned __int64 mui64SeedValue;
-    cTkFixedArray<int> maBuildingStates;
-    cTkFixedArray<unsigned __int64> maLastBuildingUpgradesTimestamps;
+    cTkFixedArray<int, 48> maBuildingStates;
+    cTkFixedArray<unsigned __int64, 48> maLastBuildingUpgradesTimestamps;
     cTkFixedString<64,char> macName;
     cGcDiscoveryOwner mOwner;
     cGcSettlementJudgementType mPendingJudgementType;
     TkID<128> mPendingCustomJudgementID;
-    cTkFixedArray<int> maStats;
-    cTkDynamicArray<TkID<128> > maPerks;
+    cTkFixedArray<int, 7> maStats;
+    cTkDynamicArray<TkID<128>1> maPerks;
     unsigned __int64 mui64LastJudgementTime;
     unsigned __int64 mui64LastUpkeepDebtCheckTime;
     unsigned __int64 mui64LastDebtChangeTime;
@@ -30,7 +31,7 @@ class cGcSettlementState
     cTkFixedString<64,char> macDbResourceId;
     unsigned __int64 mui64DbTimestamp;
     int miDbVersion;
-    cTkFixedArray<cGcSettlementProductionSlotData> maProductionState;
+    cTkFixedArray<cGcSettlementProductionSlotData, 2> maProductionState;
     bool mbIsReported;
     int miNextBuildingUpgradeIndex;
     cGcBuildingClassification mNextBuildingUpgradeClass;

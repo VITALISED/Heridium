@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcReplacementEffectData
 {
+public:
     static const unsigned __int64 muNameHash = 0x7C3FC7921ED5983A;
     static const unsigned __int64 muTemplateHash = 0xC9DAD52BAE1B52A0;
     static const int miNumMembers = 2;

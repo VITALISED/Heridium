@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureGenerationArchetypes
 {
+public:
     static const unsigned __int64 muNameHash = 0xCFE07CC2C3280EC;
     static const unsigned __int64 muTemplateHash = 0x696350FCE04E777F;
     static const int miNumMembers = 4;
 
-    cTkDynamicArray<cGcCreatureGenerationDomainTable> maGroundArchetypes;
-    cTkDynamicArray<cGcCreatureGenerationDomainTable> maAirArchetypes;
-    cTkDynamicArray<cGcCreatureGenerationDomainTable> maWaterArchetypes;
-    cTkDynamicArray<cGcCreatureGenerationDomainTable> maCaveArchetypes;
+    cTkDynamicArray<cGcCreatureGenerationDomainTable1> maGroundArchetypes;
+    cTkDynamicArray<cGcCreatureGenerationDomainTable1> maAirArchetypes;
+    cTkDynamicArray<cGcCreatureGenerationDomainTable1> maWaterArchetypes;
+    cTkDynamicArray<cGcCreatureGenerationDomainTable1> maCaveArchetypes;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

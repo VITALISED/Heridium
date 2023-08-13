@@ -1,19 +1,20 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkEngineSettingsMapping
 {
+public:
     static const unsigned __int64 muNameHash = 0xC02F1D19584B44D;
     static const unsigned __int64 muTemplateHash = 0x32F9FD324E2BDA4C;
     static const int miNumMembers = 7;
 
-    cTkFixedArray<float> maShadowMultiplier;
-    cTkFixedArray<float> maReflectionMultiplier;
-    cTkFixedArray<float> maReflectionProbesMultiplier;
-    cTkFixedArray<float> maIKFullBodyIterations;
-    cTkFixedArray<float> maCloudsResolutionScale;
-    cTkFixedArray<int> maCloudsMaxIterations;
-    cTkFixedArray<bool> maNeedsGameRestart;
+    cTkFixedArray<float, 4> maShadowMultiplier;
+    cTkFixedArray<float, 4> maReflectionMultiplier;
+    cTkFixedArray<float, 4> maReflectionProbesMultiplier;
+    cTkFixedArray<float, 4> maIKFullBodyIterations;
+    cTkFixedArray<float, 4> maCloudsResolutionScale;
+    cTkFixedArray<int, 4> maCloudsMaxIterations;
+    cTkFixedArray<bool, 50> maNeedsGameRestart;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

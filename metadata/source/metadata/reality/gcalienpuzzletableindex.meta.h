@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eIndexType
 {
@@ -10,6 +10,7 @@ enum eIndexType
 
 class cGcAlienPuzzleTableIndex
 {
+public:
     static const unsigned __int64 muNameHash = 0x83E66770853FCA27;
     static const unsigned __int64 muTemplateHash = 0xD6F53AAC13DAE4D;
     static const int miNumMembers = 1;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eSettlementStatType
 {
@@ -14,6 +14,7 @@ enum eSettlementStatType
 
 class cGcSettlementStatType
 {
+public:
     static const unsigned __int64 muNameHash = 0x9394F46EDEDBE660;
     static const unsigned __int64 muTemplateHash = 0x7C86AE119BC952DC;
     static const int miNumMembers = 1;

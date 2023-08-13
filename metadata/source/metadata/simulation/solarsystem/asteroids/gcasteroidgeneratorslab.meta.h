@@ -1,17 +1,18 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAsteroidGeneratorAssignment;
 
 class cGcAsteroidGeneratorSlab
 {
+public:
     static const unsigned __int64 muNameHash = 0xA7877CF3CA740744;
     static const unsigned __int64 muTemplateHash = 0x973E87BA87F7C61A;
     static const int miNumMembers = 6;
 
     cGcAsteroidGeneratorAssignment mAssignment;
-    cTkVector mRotation;
-    cTkVector mScale;
+    cTkVector3 mRotation;
+    cTkVector3 mScale;
     float mfNoiseOffset;
     float mfNoiseScale;
     float mfNoiseApply;

@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCombatEffectsComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x74FCF5B2A55D262B;
     static const unsigned __int64 muTemplateHash = 0x7A3EA8ABB3E5F243;
     static const int miNumMembers = 1;
 
-    cTkFixedArray<cGcCombatEffectsProperties> maEffectsProperties;
+    cTkFixedArray<cGcCombatEffectsProperties, 4> maEffectsProperties;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

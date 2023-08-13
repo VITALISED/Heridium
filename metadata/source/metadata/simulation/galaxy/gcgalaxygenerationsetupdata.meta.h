@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcGalaxyGenerationSetupData
 {
+public:
     static const unsigned __int64 muNameHash = 0x74E6E445263E30C1;
     static const unsigned __int64 muTemplateHash = 0xCD69498AB6E7B213;
     static const int miNumMembers = 32;
@@ -11,7 +12,7 @@ class cGcGalaxyGenerationSetupData
     cTkVector2 mSpiralInclusion;
     cTkVector2 mSpiralFlex;
     float mfSpiralTwistMult;
-    cTkVector mSpiralPull;
+    cTkVector3 mSpiralPull;
     cTkVector2 mSpiralSizeScale;
     float mfRareSunChance;
     cTkVector2 mConnectionAttractorMax;
@@ -20,7 +21,7 @@ class cGcGalaxyGenerationSetupData
     float mfConnectionDistortionTMult;
     float mfConnectionDistanceLimit;
     cTkVector2 mBaseSize;
-    cTkFixedArray<cTkVector2> maStarSize;
+    cTkFixedArray<cTkVector2, 4> maStarSize;
     float mfBaseTurbulenceScale;
     float mfBaseTurbulenceLac;
     float mfBaseTurbulenceGain;
@@ -38,7 +39,7 @@ class cGcGalaxyGenerationSetupData
     cTkVector2 mStarHighlightAlpha;
     cTkVector2 mStarHighlightSize;
     float mfColourBaseBlendOnSize;
-    cTkFixedArray<cTkColour> maInnerSectorColours;
+    cTkFixedArray<cTkColour, 10> maInnerSectorColours;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

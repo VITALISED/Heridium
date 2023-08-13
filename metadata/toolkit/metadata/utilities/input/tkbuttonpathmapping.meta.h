@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkInputEnum;
 class cTkInputHandEnum;
 
 class cTkButtonPathMapping
 {
+public:
     static const unsigned __int64 muNameHash = 0xBC97B5A50FBB25EA;
     static const unsigned __int64 muTemplateHash = 0x8365A040716E781C;
     static const int miNumMembers = 7;

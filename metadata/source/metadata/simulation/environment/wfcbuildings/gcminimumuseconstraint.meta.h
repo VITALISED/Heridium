@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMinimumUseConstraint
 {
+public:
     static const unsigned __int64 muNameHash = 0xBA72D7FB7D17FABE;
     static const unsigned __int64 muTemplateHash = 0xEEB2E8E5ED50946A;
     static const int miNumMembers = 3;
 
-    cTkDynamicArray<TkID<128> > maModules;
+    cTkDynamicArray<TkID<128>1> maModules;
     int miMinUses;
     TkID<128> mGroup;
 

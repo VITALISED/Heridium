@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eCharacterState
 {
@@ -25,6 +25,7 @@ enum eCharacterState
 
 class cGcPlayerCharacterStateType
 {
+public:
     static const unsigned __int64 muNameHash = 0xDACE1F471447B685;
     static const unsigned __int64 muTemplateHash = 0xFFA0D6143FE0142C;
     static const int miNumMembers = 1;

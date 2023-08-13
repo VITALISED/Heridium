@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkSketchComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xBE4097172440769E;
     static const unsigned __int64 muTemplateHash = 0xE91336066F8AE79A;
     static const int miNumMembers = 5;
@@ -11,7 +12,7 @@ class cTkSketchComponentData
     float mfGraphPosY;
     float mfGraphZoom;
     float mfUpdateRateMultiplier;
-    cTkDynamicArray<cTkSketchNodeData> maNodes;
+    cTkDynamicArray<cTkSketchNodeData1> maNodes;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

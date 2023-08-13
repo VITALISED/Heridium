@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAlienRace;
 
 class cGcNPCComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x5289598B4907DC8E;
     static const unsigned __int64 muTemplateHash = 0xEDE9BF0DD3A33F8F;
     static const int miNumMembers = 6;
@@ -13,8 +14,8 @@ class cGcNPCComponentData
     TkID<128> mHologramEffect;
     bool mbIsOldStyleNPC;
     bool mbIsMech;
-    cTkDynamicArray<cGcCharacterAlternateAnimation> maAlternateAnims;
-    cTkDynamicArray<TkID<128> > maTags;
+    cTkDynamicArray<cGcCharacterAlternateAnimation1> maAlternateAnims;
+    cTkDynamicArray<TkID<128>1> maTags;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

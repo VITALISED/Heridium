@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eBaseAutoPowerSetting
 {
@@ -10,6 +10,7 @@ enum eBaseAutoPowerSetting
 
 class cGcBaseAutoPowerSetting
 {
+public:
     static const unsigned __int64 muNameHash = 0x801DCAAD4B4FAC26;
     static const unsigned __int64 muTemplateHash = 0xD00027FD44908DFE;
     static const int miNumMembers = 1;

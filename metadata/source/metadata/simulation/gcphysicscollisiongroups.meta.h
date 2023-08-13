@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eCollisionGroup
 {
@@ -23,6 +23,7 @@ enum eCollisionGroup
 
 class cGcPhysicsCollisionGroups
 {
+public:
     static const unsigned __int64 muNameHash = 0x29A5D23AA5A4C794;
     static const unsigned __int64 muTemplateHash = 0x33871F8C1A70C814;
     static const int miNumMembers = 1;

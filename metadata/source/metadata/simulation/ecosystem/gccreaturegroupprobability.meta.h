@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureGroupProbability
 {
+public:
     static const unsigned __int64 muNameHash = 0xF0E840DA05227000;
     static const unsigned __int64 muTemplateHash = 0xFEECAE1AE6297591;
     static const int miNumMembers = 2;

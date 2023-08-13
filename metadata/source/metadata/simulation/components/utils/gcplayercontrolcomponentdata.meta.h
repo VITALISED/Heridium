@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlayerControlInput;
 class cTkBlackboardKey;
@@ -8,6 +8,7 @@ class cTkBlackboardKey;
 
 class cGcPlayerControlComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE15445D2CE8FD16D;
     static const unsigned __int64 muTemplateHash = 0xA1DBD4B57660CA14;
     static const int miNumMembers = 7;
@@ -15,7 +16,7 @@ class cGcPlayerControlComponentData
     TkID<128> mInitialState;
     cGcPlayerControlInput mBaseInput;
     TkID<128> mBaseCamera;
-    cTkDynamicArray<cGcPlayerControlState> maStates;
+    cTkDynamicArray<cGcPlayerControlState1> maStates;
     cTkBlackboardKey mAimDir;
     cTkBlackboardKey mTorchDir;
     cTkBlackboardKey mCrosshairDir;

@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCustomisationCameraData;
 
 class cGcCustomisationGroup
 {
+public:
     static const unsigned __int64 muNameHash = 0xB5A01AE676FD46D;
     static const unsigned __int64 muTemplateHash = 0x867D5B3F13938F63;
     static const int miNumMembers = 9;
@@ -14,10 +15,10 @@ class cGcCustomisationGroup
     bool mbIsBannerGroup;
     bool mbForceShowAllColourOptions;
     cGcCustomisationCameraData mCameraData;
-    cTkDynamicArray<cGcCustomisationDescriptorGroupOptions> maDescriptorOptions;
-    cTkDynamicArray<cGcCustomisationTextureGroup> maTextureGroups;
-    cTkDynamicArray<cGcCustomisationColourGroup> maColourGroups;
-    cTkDynamicArray<cGcCustomisationBoneScales> maBoneScales;
+    cTkDynamicArray<cGcCustomisationDescriptorGroupOptions1> maDescriptorOptions;
+    cTkDynamicArray<cGcCustomisationTextureGroup1> maTextureGroups;
+    cTkDynamicArray<cGcCustomisationColourGroup1> maColourGroups;
+    cTkDynamicArray<cGcCustomisationBoneScales1> maBoneScales;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

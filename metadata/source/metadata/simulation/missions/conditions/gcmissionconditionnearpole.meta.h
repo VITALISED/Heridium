@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum ePoleCondition
 {
@@ -9,6 +9,7 @@ enum ePoleCondition
 
 class cGcMissionConditionNearPole
 {
+public:
     static const unsigned __int64 muNameHash = 0x5D8EF27FCF8A3E08;
     static const unsigned __int64 muTemplateHash = 0x694723CFD80EC95E;
     static const int miNumMembers = 2;

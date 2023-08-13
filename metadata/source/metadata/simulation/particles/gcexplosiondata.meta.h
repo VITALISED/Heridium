@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkModelResource;
 class cGcAudioWwiseEvents;
 
 class cGcExplosionData
 {
+public:
     static const unsigned __int64 muNameHash = 0x8318BC4815036659;
     static const unsigned __int64 muTemplateHash = 0xBEE64C539734FC9B;
     static const int miNumMembers = 17;
@@ -13,7 +14,7 @@ class cGcExplosionData
     TkID<128> mId;
     cTkModelResource mModel;
     cGcAudioWwiseEvents mAudioEvent;
-    cTkDynamicArray<cGcDebrisData> maDebris;
+    cTkDynamicArray<cGcDebrisData1> maDebris;
     float mfLife;
     float mfScale;
     float mfDistanceScale;

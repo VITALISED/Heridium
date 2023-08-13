@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkModelResource;
 class cTkModelResource;
@@ -9,6 +9,7 @@ class cTkModelResource;
 
 class cGcWeatherHazardMeteorData
 {
+public:
     static const unsigned __int64 muNameHash = 0x89A5F03E5191DE14;
     static const unsigned __int64 muTemplateHash = 0x2D274E737EA18C13;
     static const int miNumMembers = 21;

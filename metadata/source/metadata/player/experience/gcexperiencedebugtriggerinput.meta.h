@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eKeyPress
 {
@@ -20,12 +20,13 @@ enum eKeyPress
 
 class cGcExperienceDebugTriggerInput
 {
+public:
     static const unsigned __int64 muNameHash = 0xBCDA670B36E2534;
     static const unsigned __int64 muTemplateHash = 0xC72994D29824460B;
     static const int miNumMembers = 2;
 
     eKeyPress meKeyPress;
-    cTkDynamicArray<cGcExperienceDebugTriggerAction> maActions;
+    cTkDynamicArray<cGcExperienceDebugTriggerAction1> maActions;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

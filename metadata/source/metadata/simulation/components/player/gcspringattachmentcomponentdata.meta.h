@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSpringAttachmentComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x70622F0C8DD198C;
     static const unsigned __int64 muTemplateHash = 0xDD52EA8B2A261D7;
     static const int miNumMembers = 3;
 
     bool mbEnabled;
     cTkFixedString<64,char> macName;
-    cTkDynamicArray<cGcSpringLink> maSpringLinks;
+    cTkDynamicArray<cGcSpringLink1> maSpringLinks;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

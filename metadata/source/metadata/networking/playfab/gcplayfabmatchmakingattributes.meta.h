@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlayfabMatchmakingAttributes
 {
+public:
     static const unsigned __int64 muNameHash = 0x49457F0F4ABEDEE6;
     static const unsigned __int64 muTemplateHash = 0x7CB74261EDC1603B;
     static const int miNumMembers = 9;

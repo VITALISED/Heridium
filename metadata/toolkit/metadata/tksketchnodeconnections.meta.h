@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 class cTkSketchNodeConnections
 {
+public:
     static const unsigned __int64 muNameHash = 0x53B11FA3B3AD5912;
     static const unsigned __int64 muTemplateHash = 0xF4D131800E71B906;
     static const int miNumMembers = 1;
 
-    cTkDynamicArray<unsigned int> maConnections;
+    cTkDynamicArray<unsigned int1> maConnections;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

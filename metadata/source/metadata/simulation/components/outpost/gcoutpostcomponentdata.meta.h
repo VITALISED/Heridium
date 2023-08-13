@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcOutpostComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x184558FBF0A370E2;
     static const unsigned __int64 muTemplateHash = 0xEB9332FF5C26A774;
     static const int miNumMembers = 29;
@@ -35,7 +36,7 @@ class cGcOutpostComponentData
     float mfPostTakeOffExtraPlayerHeight;
     float mfPostTakeOffExtraPlayerSpeed;
     float mfTakeOffProgressForExtraHeight;
-    cTkDynamicArray<cGcOutpostLSystemPair> maLSystems;
+    cTkDynamicArray<cGcOutpostLSystemPair1> maLSystems;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

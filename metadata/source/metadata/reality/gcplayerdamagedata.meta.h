@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkTextureResource;
 class cGcAudioWwiseEvents;
@@ -16,6 +16,7 @@ enum ePlayerDamageType
 
 class cGcPlayerDamageData
 {
+public:
     static const unsigned __int64 muNameHash = 0x5F9BF82F9925D932;
     static const unsigned __int64 muTemplateHash = 0x1E4BCD483220FC93;
     static const int miNumMembers = 20;
@@ -38,7 +39,7 @@ class cGcPlayerDamageData
     bool mbForceDamageInInteraction;
     bool mbAllowDeathInInteraction;
     ePlayerDamageType mePlayerDamageType;
-    cTkDynamicArray<cGcBreakTechByStatData> maDamageTechWithStat;
+    cTkDynamicArray<cGcBreakTechByStatData1> maDamageTechWithStat;
     float mfTechDamageChance;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

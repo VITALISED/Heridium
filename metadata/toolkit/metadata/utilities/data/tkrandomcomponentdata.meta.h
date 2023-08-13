@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkRandomComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x3F3E8EB071CC5CC0;
     static const unsigned __int64 muTemplateHash = 0x277D09510E5C253;
     static const int miNumMembers = 1;

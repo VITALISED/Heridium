@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcEncounterType;
 
 class cGcEncounterComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x1BAD68301EABDA5C;
     static const unsigned __int64 muTemplateHash = 0x8B81EF15449C5259;
     static const int miNumMembers = 2;
 
     cGcEncounterType mEncounterType;
-    cTkDynamicArray<TkID<128> > maInteractMissionTable;
+    cTkDynamicArray<TkID<128>1> maInteractMissionTable;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAttachmentPointData
 {
+public:
     static const unsigned __int64 muNameHash = 0x5E18E1A975BA4573;
     static const unsigned __int64 muTemplateHash = 0x6692F03A70252030;
     static const int miNumMembers = 4;
 
-    cTkVector mPosition;
+    cTkVector3 mPosition;
     int miSimP;
     float mfAttractionStrength;
     float mfAttractionStartDistance;

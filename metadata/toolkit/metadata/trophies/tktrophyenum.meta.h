@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eTrophy
 {
@@ -13,6 +13,7 @@ enum eTrophy
 
 class cTkTrophyEnum
 {
+public:
     static const unsigned __int64 muNameHash = 0xF50D34444AC02C1E;
     static const unsigned __int64 muTemplateHash = 0xDCDC4D1713C4B17A;
     static const int miNumMembers = 1;

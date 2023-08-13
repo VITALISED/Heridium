@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkInputAxisEnum;
 class cTkInputHandEnum;
 
 class cTkAxisPathMapping
 {
+public:
     static const unsigned __int64 muNameHash = 0x19C4AA7DA3B42958;
     static const unsigned __int64 muTemplateHash = 0x60587FED618E0B51;
     static const int miNumMembers = 7;

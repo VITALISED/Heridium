@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcTexturePrefetchData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE2910F7CA28A0271;
     static const unsigned __int64 muTemplateHash = 0xF38ACC62091E1E75;
     static const int miNumMembers = 1;
 
-    cTkDynamicArray<cTkFixedString<128,char> > maTextures;
+    cTkDynamicArray<cTkFixedString<128,char>1> maTextures;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

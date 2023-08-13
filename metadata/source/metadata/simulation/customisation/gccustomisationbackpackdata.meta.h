@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCustomisationBackpackData
 {
+public:
     static const unsigned __int64 muNameHash = 0xF9391B96F83DAF40;
     static const unsigned __int64 muTemplateHash = 0xB44E6EA2FA256B5F;
     static const int miNumMembers = 2;
 
     cTkFixedString<32,char> macNodeName;
-    cTkVector mActiveJetOffset;
+    cTkVector3 mActiveJetOffset;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

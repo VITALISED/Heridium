@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInputActions;
 class cTkTriggerFeedbackData;
 
 class cGcTriggerFeedbackState
 {
+public:
     static const unsigned __int64 muNameHash = 0x6310315CF52D5A45;
     static const unsigned __int64 muTemplateHash = 0x776D4FC8EF2794A4;
     static const int miNumMembers = 3;

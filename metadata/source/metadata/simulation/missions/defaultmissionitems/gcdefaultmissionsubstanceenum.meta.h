@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eDefaultSubstanceType
 {
@@ -10,6 +10,7 @@ enum eDefaultSubstanceType
 
 class cGcDefaultMissionSubstanceEnum
 {
+public:
     static const unsigned __int64 muNameHash = 0x1BAC8ECF2C7CC8FC;
     static const unsigned __int64 muTemplateHash = 0xB51C8F9B01D93DC9;
     static const int miNumMembers = 1;

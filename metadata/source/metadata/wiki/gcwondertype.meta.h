@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eWonderType
 {
@@ -14,6 +14,7 @@ enum eWonderType
 
 class cGcWonderType
 {
+public:
     static const unsigned __int64 muNameHash = 0xBA9101F9B520DE21;
     static const unsigned __int64 muTemplateHash = 0x8FDB3630AB843ADE;
     static const int miNumMembers = 1;

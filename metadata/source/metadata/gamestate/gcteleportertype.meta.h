@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eTeleporterDestinationType
 {
@@ -17,6 +17,7 @@ enum eTeleporterDestinationType
 
 class cGcTeleporterType
 {
+public:
     static const unsigned __int64 muNameHash = 0xECE6F42F8A522B34;
     static const unsigned __int64 muTemplateHash = 0xC9A0D4A857566650;
     static const int miNumMembers = 1;

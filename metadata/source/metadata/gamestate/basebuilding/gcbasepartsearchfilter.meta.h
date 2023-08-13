@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBaseGridSearchFilter;
 
 class cGcBasePartSearchFilter
 {
+public:
     static const unsigned __int64 muNameHash = 0x471C446618668C68;
     static const unsigned __int64 muTemplateHash = 0xE31DCBB6E6BAA484;
     static const int miNumMembers = 7;

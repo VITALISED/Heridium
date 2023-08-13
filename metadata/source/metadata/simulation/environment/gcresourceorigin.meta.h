@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eResourceOrigin
 {
@@ -12,6 +12,7 @@ enum eResourceOrigin
 
 class cGcResourceOrigin
 {
+public:
     static const unsigned __int64 muNameHash = 0xA7C99AD4BD0E24FB;
     static const unsigned __int64 muTemplateHash = 0xA9B211D37A8AEB9A;
     static const int miNumMembers = 1;

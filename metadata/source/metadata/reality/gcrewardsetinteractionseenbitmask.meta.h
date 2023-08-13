@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInteractionType;
 
 class cGcRewardSetInteractionSeenBitmask
 {
+public:
     static const unsigned __int64 muNameHash = 0x719D093BDEC85E0D;
     static const unsigned __int64 muTemplateHash = 0xB947F0E8EA6C4333;
     static const int miNumMembers = 3;

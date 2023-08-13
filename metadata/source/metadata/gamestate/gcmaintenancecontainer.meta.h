@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInventoryContainer;
 
 class cGcMaintenanceContainer
 {
+public:
     static const unsigned __int64 muNameHash = 0x4AF1E9D7AD4CC1C7;
     static const unsigned __int64 muTemplateHash = 0xEF4B1C508C663D7;
     static const int miNumMembers = 7;
@@ -13,8 +14,8 @@ class cGcMaintenanceContainer
     unsigned __int64 mui64LastUpdateTimestamp;
     unsigned __int64 mui64LastCompletedTimestamp;
     unsigned __int64 mui64LastBrokenTimestamp;
-    cTkDynamicArray<float> maDamageTimers;
-    cTkDynamicArray<float> maAmountAccumulators;
+    cTkDynamicArray<float1> maDamageTimers;
+    cTkDynamicArray<float1> maAmountAccumulators;
     unsigned __int16 muiFlags;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

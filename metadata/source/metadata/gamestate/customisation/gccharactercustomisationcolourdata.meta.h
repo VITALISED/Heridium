@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkPaletteTexture;
 
 class cGcCharacterCustomisationColourData
 {
+public:
     static const unsigned __int64 muNameHash = 0x8AC0161286DB6A30;
     static const unsigned __int64 muTemplateHash = 0x1976F3E0C8D8242A;
     static const int miNumMembers = 2;

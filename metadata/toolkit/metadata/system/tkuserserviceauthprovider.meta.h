@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eAuthProvider
 {
@@ -14,6 +14,7 @@ enum eAuthProvider
 
 class cTkUserServiceAuthProvider
 {
+public:
     static const unsigned __int64 muNameHash = 0x91EF3068AEC32FB7;
     static const unsigned __int64 muTemplateHash = 0xBEFB647B9E09BAE7;
     static const int miNumMembers = 1;

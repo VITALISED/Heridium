@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eFreighterBattleStatus
 {
@@ -12,6 +12,7 @@ class cTkEqualityEnum;
 
 class cGcMissionConditionFreighterBattle
 {
+public:
     static const unsigned __int64 muNameHash = 0xF8A296780D76172F;
     static const unsigned __int64 muTemplateHash = 0xCB7F989D6DA449DA;
     static const int miNumMembers = 3;

@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkRotationComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xB808E542DB69E5FE;
     static const unsigned __int64 muTemplateHash = 0x409E58991CD749D8;
     static const int miNumMembers = 4;
 
     float mfSpeed;
-    cTkVector mAxis;
+    cTkVector3 mAxis;
     bool mbAlwaysUpdate;
     int miSyncGroup;
 

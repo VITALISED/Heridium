@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcGroupCondition
 {
+public:
     static const unsigned __int64 muNameHash = 0x342750A176F374A4;
     static const unsigned __int64 muTemplateHash = 0x502E9F43682A9C6;
     static const int miNumMembers = 2;
 
-    cTkDynamicArray<cTkClassPointer> maConditions;
+    cTkDynamicArray<cTkClassPointer1> maConditions;
     bool mbORConditions;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eTextureAddressMode
 {
@@ -18,6 +18,7 @@ enum eTextureFilterMode
 
 class cTkMaterialSampler
 {
+public:
     static const unsigned __int64 muNameHash = 0x330286CE11647D4C;
     static const unsigned __int64 muTemplateHash = 0xB1F00BB1F804178A;
     static const int miNumMembers = 10;

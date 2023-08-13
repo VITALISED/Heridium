@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkPaletteTexture;
 
 class cGcCustomisationColourGroup
 {
+public:
     static const unsigned __int64 muNameHash = 0x7E7DCFD2B65C6AD6;
     static const unsigned __int64 muTemplateHash = 0x4D85AD56BC0E475B;
     static const int miNumMembers = 3;

@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSentinelSpawnSequenceGroupList
 {
+public:
     static const unsigned __int64 muNameHash = 0xA4724D07435E3B7C;
     static const unsigned __int64 muTemplateHash = 0x1504D07F20F2659A;
     static const int miNumMembers = 2;
 
-    cTkDynamicArray<TkID<128> > maSequences;
-    cTkDynamicArray<TkID<128> > maExtremeSequences;
+    cTkDynamicArray<TkID<128>1> maSequences;
+    cTkDynamicArray<TkID<128>1> maExtremeSequences;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

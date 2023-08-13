@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eHazardModifier
 {
@@ -12,6 +12,7 @@ enum eHazardModifier
 
 class cGcHazardModifiers
 {
+public:
     static const unsigned __int64 muNameHash = 0x8D86E8499B88B845;
     static const unsigned __int64 muTemplateHash = 0x17F28D0AC13F281E;
     static const int miNumMembers = 1;

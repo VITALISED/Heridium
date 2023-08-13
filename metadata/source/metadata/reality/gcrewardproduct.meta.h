@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcRealitySubstanceCategory;
 class cGcRarity;
 
 class cGcRewardProduct
 {
+public:
     static const unsigned __int64 muNameHash = 0x893933F89479A7D8;
     static const unsigned __int64 muTemplateHash = 0x45FAC0221192A379;
     static const int miNumMembers = 6;
@@ -13,7 +14,7 @@ class cGcRewardProduct
     cGcRealitySubstanceCategory mItemCategory;
     cGcRarity mItemRarity;
     int miItemLevel;
-    cTkFixedArray<bool> maAllowedProductTypes;
+    cTkFixedArray<bool, 9> maAllowedProductTypes;
     int miAmountMin;
     int miAmountMax;
 

@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkCurveType;
 
 class cTkAnimVectorBlendNodeData
 {
+public:
     static const unsigned __int64 muNameHash = 0x541BE758514502E3;
     static const unsigned __int64 muTemplateHash = 0x9113B80EAEF3248A;
     static const int miNumMembers = 8;

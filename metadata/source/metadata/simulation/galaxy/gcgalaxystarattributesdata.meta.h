@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcGalaxyStarTypes;
 class cGcGalaxyStarAnomaly;
@@ -9,6 +9,7 @@ class cGcAlienRace;
 
 class cGcGalaxyStarAttributesData
 {
+public:
     static const unsigned __int64 muNameHash = 0xEDE680300A536215;
     static const unsigned __int64 muTemplateHash = 0x636E887ED3223018;
     static const int miNumMembers = 13;
@@ -17,9 +18,9 @@ class cGcGalaxyStarAttributesData
     cGcGalaxyStarAnomaly mAnomaly;
     int miNumberOfPlanets;
     int miNumberOfPrimePlanets;
-    cTkFixedArray<cGcPlanetSize> maPlanetSizes;
-    cTkFixedArray<int> maPlanetParentIndices;
-    cTkFixedArray<cTkSeed> maPlanetSeeds;
+    cTkFixedArray<cGcPlanetSize, 16> maPlanetSizes;
+    cTkFixedArray<int, 16> maPlanetParentIndices;
+    cTkFixedArray<cTkSeed, 16> maPlanetSeeds;
     cGcPlanetTradingData mTradingData;
     cGcPlayerConflictData mConflictData;
     cGcAlienRace mRace;

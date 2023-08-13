@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkCurveType;
 class cTkCurveType;
 
 class cGcPhotoModeAdjustData
 {
+public:
     static const unsigned __int64 muNameHash = 0x6F5F53519B901CD4;
     static const unsigned __int64 muTemplateHash = 0x89656832E5D5FE94;
     static const int miNumMembers = 6;

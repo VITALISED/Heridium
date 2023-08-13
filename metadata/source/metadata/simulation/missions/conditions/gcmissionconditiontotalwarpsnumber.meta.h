@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMissionConditionTotalWarpsNumber
 {
+public:
     static const unsigned __int64 muNameHash = 0x56EB6A9B67B1834D;
     static const unsigned __int64 muTemplateHash = 0x981F260136F9536A;
     static const int miNumMembers = 1;

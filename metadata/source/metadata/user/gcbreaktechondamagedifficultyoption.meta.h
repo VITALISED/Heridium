@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eBreakTechOnDamageProbability
 {
@@ -10,6 +10,7 @@ enum eBreakTechOnDamageProbability
 
 class cGcBreakTechOnDamageDifficultyOption
 {
+public:
     static const unsigned __int64 muNameHash = 0x1858CF2F851302AE;
     static const unsigned __int64 muTemplateHash = 0x2C81FD0FE4E2CBFB;
     static const int miNumMembers = 1;

@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkBlackboardDefaultValueInteger;
 class cTkBlackboardComparisonTypeEnum;
 
 class cGcBlackboardIntCompareDecoratorData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE8C35E70B4AA8A05;
     static const unsigned __int64 muTemplateHash = 0xB21B60117023F6EC;
     static const int miNumMembers = 5;

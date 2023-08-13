@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eMissionPageHint
 {
@@ -19,6 +19,7 @@ enum eMissionPageHint
 
 class cGcMissionPageHint
 {
+public:
     static const unsigned __int64 muNameHash = 0xBC45706D394C0853;
     static const unsigned __int64 muTemplateHash = 0xC0BFCC224C77B187;
     static const int miNumMembers = 1;

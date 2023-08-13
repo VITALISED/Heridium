@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAISpaceshipTypes;
 class cGcSpaceshipClasses;
@@ -8,6 +8,7 @@ class cTkModelResource;
 
 class cGcAISpaceshipComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x4F5433BCFC028B49;
     static const unsigned __int64 muTemplateHash = 0xC53919B53D4EA93E;
     static const int miNumMembers = 5;

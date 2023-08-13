@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eInputAxis
 {
@@ -58,6 +58,7 @@ enum eInputAxis
 
 class cTkInputAxisEnum
 {
+public:
     static const unsigned __int64 muNameHash = 0x6DC70ADC2461C621;
     static const unsigned __int64 muTemplateHash = 0xE2086B32C63C0768;
     static const int miNumMembers = 1;

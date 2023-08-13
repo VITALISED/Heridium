@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcHUDComponent;
 
 class cGcHUDLayerData
 {
+public:
     static const unsigned __int64 muNameHash = 0xCA155452FD6149EC;
     static const unsigned __int64 muTemplateHash = 0xED03E29B05715C43;
     static const int miNumMembers = 2;
 
     cGcHUDComponent mData;
-    cTkDynamicArray<cTkClassPointer> maChildren;
+    cTkDynamicArray<cTkClassPointer1> maChildren;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

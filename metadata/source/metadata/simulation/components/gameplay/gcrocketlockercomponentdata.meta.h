@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcRocketLockerComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x1824B1C4CA260A88;
     static const unsigned __int64 muTemplateHash = 0xCEBCD654214EE1DD;
     static const int miNumMembers = 1;

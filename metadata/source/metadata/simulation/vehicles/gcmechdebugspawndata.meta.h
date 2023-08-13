@@ -1,18 +1,19 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCharacterCustomisationSaveData;
 
 class cGcMechDebugSpawnData
 {
+public:
     static const unsigned __int64 muNameHash = 0xCD20631E8DC06987;
     static const unsigned __int64 muTemplateHash = 0xD488D7A5FF6D3F2D;
     static const int miNumMembers = 9;
 
-    cTkVector mPosition;
-    cTkVector mFacing;
-    cTkVector mUp;
-    cTkVector mDestination;
+    cTkVector3 mPosition;
+    cTkVector3 mFacing;
+    cTkVector3 mUp;
+    cTkVector3 mDestination;
     bool mbRunning;
     float mfTitanFallDelay;
     float mfMoveDelay;

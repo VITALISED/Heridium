@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eKillTarget
 {
@@ -18,6 +18,7 @@ enum eKillTarget
 
 class cGcMissionSequenceKill
 {
+public:
     static const unsigned __int64 muNameHash = 0xF2F929BD28DDCD6B;
     static const unsigned __int64 muTemplateHash = 0x79A38FA0B68F95E0;
     static const int miNumMembers = 5;

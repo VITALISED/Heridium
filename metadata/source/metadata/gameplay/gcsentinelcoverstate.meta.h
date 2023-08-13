@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eSentinelCoverState
 {
@@ -11,6 +11,7 @@ enum eSentinelCoverState
 
 class cGcSentinelCoverState
 {
+public:
     static const unsigned __int64 muNameHash = 0x9AFBFA1C253ADF63;
     static const unsigned __int64 muTemplateHash = 0x22072DF17EC2DAE;
     static const int miNumMembers = 1;

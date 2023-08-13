@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eZoomType
 {
@@ -11,6 +11,7 @@ enum eZoomType
 
 class cGcZoomData
 {
+public:
     static const unsigned __int64 muNameHash = 0x2E92A561CA97070C;
     static const unsigned __int64 muTemplateHash = 0x94899B4FFFB85110;
     static const int miNumMembers = 7;

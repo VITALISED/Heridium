@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkLSystemGlobalVariation
 {
+public:
     static const unsigned __int64 muNameHash = 0xF818362C38FEA359;
     static const unsigned __int64 muTemplateHash = 0x90BB4D028350EF77;
     static const int miNumMembers = 3;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eInsideOutside
 {
@@ -23,6 +23,7 @@ class cGcWFCDecorationFace;
 
 class cGcWFCDecorationItem
 {
+public:
     static const unsigned __int64 muNameHash = 0x9DDB490E0E777CD8;
     static const unsigned __int64 muTemplateHash = 0x37516E17AC76EC4E;
     static const int miNumMembers = 20;
@@ -32,8 +33,8 @@ class cGcWFCDecorationItem
     float mfRelativeProbability;
     float mfNoSceneProbability;
     bool mbInclude;
-    cTkDynamicArray<cGcWeightedResource> maScenes;
-    cTkDynamicArray<TkID<128> > maApplicableModules;
+    cTkDynamicArray<cGcWeightedResource1> maScenes;
+    cTkDynamicArray<TkID<128>1> maApplicableModules;
     bool mbRotate;
     bool mbRequireReachable;
     int miMaxPerBuilding;

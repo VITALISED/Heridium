@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkAnimNodeFrameHalfData;
 
 class cTkAnimCompactMetadata
 {
+public:
     static const unsigned __int64 muNameHash = 0x8D1F8DB67274D95A;
     static const unsigned __int64 muTemplateHash = 0x4BFF64F3341B71C2;
     static const int miNumMembers = 6;
 
-    cTkDynamicArray<cTkAnimNodeData> maNodeData;
-    cTkDynamicArray<cTkAnimNodeFrameHalfData> maAnimFrameData;
+    cTkDynamicArray<cTkAnimNodeData1> maNodeData;
+    cTkDynamicArray<cTkAnimNodeFrameHalfData1> maAnimFrameData;
     cTkAnimNodeFrameHalfData mStillFrameData;
     int miFrameCount;
     int miNodeCount;

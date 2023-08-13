@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSpaceMapObjectData
 {
+public:
     static const unsigned __int64 muNameHash = 0x47334DD09E6C3FE9;
     static const unsigned __int64 muTemplateHash = 0x465E44C5E61B503;
     static const int miNumMembers = 9;

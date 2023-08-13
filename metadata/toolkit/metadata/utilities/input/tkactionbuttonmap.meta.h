@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkInputEnum;
 
 class cTkActionButtonMap
 {
+public:
     static const unsigned __int64 muNameHash = 0xC1A3BA40B3A88476;
     static const unsigned __int64 muTemplateHash = 0x4BE89D8B8314E3BD;
     static const int miNumMembers = 4;
@@ -12,7 +13,7 @@ class cTkActionButtonMap
     TkID<128> mActionId;
     bool mbScaleToFitFont;
     cTkInputEnum mPadButtonId;
-    cTkDynamicArray<cTkPlatformButtonPair> maPlatforms;
+    cTkDynamicArray<cTkPlatformButtonPair1> maPlatforms;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

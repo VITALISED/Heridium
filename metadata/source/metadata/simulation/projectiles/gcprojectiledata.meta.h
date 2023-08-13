@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcResourceElement;
 class cGcAudioWwiseEvents;
@@ -29,6 +29,7 @@ enum eClass
 
 class cGcProjectileData
 {
+public:
     static const unsigned __int64 muNameHash = 0x98B648B5C054B7F7;
     static const unsigned __int64 muTemplateHash = 0x37F1B214BC74234A;
     static const int miNumMembers = 44;
@@ -74,9 +75,9 @@ class cGcProjectileData
     eClass meClass;
     TkID<128> mDefaultImpact;
     TkID<128> mCriticalImpact;
-    cTkDynamicArray<cGcProjectileImpactData> maImpacts;
-    cTkVector mImpactOffset;
-    cTkDynamicArray<cGcImpactCombatEffectData> maCombatEffectsOnImpact;
+    cTkDynamicArray<cGcProjectileImpactData1> maImpacts;
+    cTkVector3 mImpactOffset;
+    cTkDynamicArray<cGcImpactCombatEffectData1> maCombatEffectsOnImpact;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

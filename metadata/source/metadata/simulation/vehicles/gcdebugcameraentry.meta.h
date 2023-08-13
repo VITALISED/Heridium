@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDebugCameraEntry
 {
+public:
     static const unsigned __int64 muNameHash = 0xCF22467E41623053;
     static const unsigned __int64 muTemplateHash = 0x76B2659569080EDE;
     static const int miNumMembers = 7;
 
-    cTkVector mOffset;
-    cTkVector mLocal;
-    cTkVector mFacing;
-    cTkVector mUp;
+    cTkVector3 mOffset;
+    cTkVector3 mLocal;
+    cTkVector3 mFacing;
+    cTkVector3 mUp;
     float mfFOV;
     float mfSpeedModifier;
     float mfDistance;

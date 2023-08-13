@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkTransformData
 {
+public:
     static const unsigned __int64 muNameHash = 0x984D549B93F94207;
     static const unsigned __int64 muTemplateHash = 0x94371FCE320374EC;
     static const int miNumMembers = 9;

@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkModelResource;
 
 class cGcLootProbability
 {
+public:
     static const unsigned __int64 muNameHash = 0xFCFB8A97D2A5B063;
     static const unsigned __int64 muTemplateHash = 0x8283F0189C3113D4;
     static const int miNumMembers = 2;

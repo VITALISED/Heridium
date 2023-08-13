@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eInputValidation
 {
@@ -11,6 +11,7 @@ enum eInputValidation
 
 class cTkInputValidation
 {
+public:
     static const unsigned __int64 muNameHash = 0xE57F8ACB51D80972;
     static const unsigned __int64 muTemplateHash = 0x30AC58313BDDBA37;
     static const int miNumMembers = 1;

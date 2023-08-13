@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkTextureResource;
 class cTkTextureResource;
 
 class cGcStoryCategory
 {
+public:
     static const unsigned __int64 muNameHash = 0x276FB03774F36C9F;
     static const unsigned __int64 muTemplateHash = 0x67F2EBF4F9D4B4B4;
     static const int miNumMembers = 5;
@@ -14,7 +15,7 @@ class cGcStoryCategory
     TkID<256> mCategoryIDUpper;
     cTkTextureResource mIconOn;
     cTkTextureResource mIconOff;
-    cTkDynamicArray<cGcStoryPage> maPages;
+    cTkDynamicArray<cGcStoryPage1> maPages;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

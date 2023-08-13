@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eOptionsUIHeaderIconType
 {
@@ -12,6 +12,7 @@ enum eOptionsUIHeaderIconType
 
 class cGcOptionsUIHeaderIcons
 {
+public:
     static const unsigned __int64 muNameHash = 0x3CD82FC9BE1CC713;
     static const unsigned __int64 muTemplateHash = 0xD47702419626C73A;
     static const int miNumMembers = 1;

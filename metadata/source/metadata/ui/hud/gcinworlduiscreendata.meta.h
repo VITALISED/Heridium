@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInWorldUIScreenData
 {
+public:
     static const unsigned __int64 muNameHash = 0xFFAAB9AB630ACB70;
     static const unsigned __int64 muTemplateHash = 0x5948C9BA5BF28374;
     static const int miNumMembers = 3;
 
     float mfScreenScale;
-    cTkVector mScreenOffset;
+    cTkVector3 mScreenOffset;
     cTkVector4 mScreenRotation;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

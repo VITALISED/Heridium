@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPaletteData;
 class cGcCustomisationColourPaletteExtraData;
@@ -8,11 +8,12 @@ class cGcCustomisationColourPaletteExtraData;
 
 class cGcCustomisationBannerGroup
 {
+public:
     static const unsigned __int64 muNameHash = 0xD679E7C47BC9313C;
     static const unsigned __int64 muTemplateHash = 0xA9D290FD12C9A030;
     static const int miNumMembers = 5;
 
-    cTkDynamicArray<cGcCustomisationBannerImageData> maBannerImages;
+    cTkDynamicArray<cGcCustomisationBannerImageData1> maBannerImages;
     cGcPaletteData mMainColours;
     cGcCustomisationColourPaletteExtraData mMainColoursExtraData;
     cGcPaletteData mBackgroundColours;

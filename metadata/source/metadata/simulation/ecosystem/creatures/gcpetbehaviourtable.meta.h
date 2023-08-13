@@ -1,25 +1,26 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPetBehaviourTable
 {
+public:
     static const unsigned __int64 muNameHash = 0x39BD1ED2FC8D7524;
     static const unsigned __int64 muTemplateHash = 0x78F621A5B62DEA07;
     static const int miNumMembers = 18;
 
-    cTkFixedArray<cGcPetBehaviourData> maBehaviours;
+    cTkFixedArray<cGcPetBehaviourData, 28> maBehaviours;
     float mfGlobalCooldownModifier;
     float mfUsefulBehaviourLinkedCooldownAmount;
     float mfPlayerActivityIncreaseTime;
     float mfPlayerActivityDecreaseTime;
-    cTkFixedArray<float> maMoodIncreaseTime;
-    cTkFixedArray<cGcPetTraitMoodModifierList> maTraitMoodModifiers;
-    cTkFixedArray<cGcPetActionMoodModifier> maRewardMoodModifier;
-    cTkFixedArray<cGcCreaturePetTraitRanges> maTraitRanges;
-    cTkFixedArray<float> maMoodValuesOnAdopt;
-    cTkFixedArray<float> maMoodValuesOnHatch;
-    cTkDynamicArray<cGcPetTraitStaminaModifier> maTraitStaminaModifiers;
-    cTkDynamicArray<cGcPetMoodStaminaModifier> maMoodStaminaModifiers;
+    cTkFixedArray<float, 2> maMoodIncreaseTime;
+    cTkFixedArray<cGcPetTraitMoodModifierList, 3> maTraitMoodModifiers;
+    cTkFixedArray<cGcPetActionMoodModifier, 9> maRewardMoodModifier;
+    cTkFixedArray<cGcCreaturePetTraitRanges, 11> maTraitRanges;
+    cTkFixedArray<float, 2> maMoodValuesOnAdopt;
+    cTkFixedArray<float, 2> maMoodValuesOnHatch;
+    cTkDynamicArray<cGcPetTraitStaminaModifier1> maTraitStaminaModifiers;
+    cTkDynamicArray<cGcPetMoodStaminaModifier1> maMoodStaminaModifiers;
     float mfAccessoryGyroFollowMotionStrength;
     float mfAccessoryGyroToNeutralStrength;
     float mfAccessoryGyroDamping;

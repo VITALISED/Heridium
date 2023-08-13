@@ -1,17 +1,18 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcTerrainTileType;
 
 class cGcObjectSpawnDataArray
 {
+public:
     static const unsigned __int64 muNameHash = 0x3AAEFA9CCB9353C1;
     static const unsigned __int64 muTemplateHash = 0x501E9D30483F120B;
     static const int miNumMembers = 3;
 
     cGcTerrainTileType mTileType;
     int miMaxObjectsToSpawn;
-    cTkDynamicArray<cGcObjectSpawnData> maObjects;
+    cTkDynamicArray<cGcObjectSpawnData1> maObjects;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

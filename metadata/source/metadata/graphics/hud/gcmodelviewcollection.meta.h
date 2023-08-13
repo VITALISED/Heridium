@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcModelViewCollection
 {
+public:
     static const unsigned __int64 muNameHash = 0xC3362B34D26192B6;
     static const unsigned __int64 muTemplateHash = 0x7B1249563A2BFE0;
     static const int miNumMembers = 1;
 
-    cTkFixedArray<cTkModelRendererData> maModelViews;
+    cTkFixedArray<cTkModelRendererData, 41> maModelViews;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

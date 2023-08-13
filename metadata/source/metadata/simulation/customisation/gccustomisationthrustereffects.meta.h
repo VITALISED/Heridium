@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCustomisationThrusterEffects
 {
+public:
     static const unsigned __int64 muNameHash = 0xFD3FA61F96564C04;
     static const unsigned __int64 muTemplateHash = 0xB4ACBB424E77732B;
     static const int miNumMembers = 4;
 
-    cTkDynamicArray<cGcCustomisationThrusterEffect> maJetpackEffects;
-    cTkDynamicArray<cGcCustomisationBackpackData> maBackpackData;
-    cTkDynamicArray<cGcCustomisationShipTrails> maShipEffects;
-    cTkDynamicArray<cGcCustomisationFreighterEngineEffect> maFreighterEngineEffects;
+    cTkDynamicArray<cGcCustomisationThrusterEffect1> maJetpackEffects;
+    cTkDynamicArray<cGcCustomisationBackpackData1> maBackpackData;
+    cTkDynamicArray<cGcCustomisationShipTrails1> maShipEffects;
+    cTkDynamicArray<cGcCustomisationFreighterEngineEffect1> maFreighterEngineEffects;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcGroundWormComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x93C5F18EADCD6C3C;
     static const unsigned __int64 muTemplateHash = 0x5D4EF68A1BE622F5;
     static const int miNumMembers = 41;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eDialogueTree
 {
@@ -14,6 +14,7 @@ enum eDialogueTree
 
 class cGcShipDialogueTreeEnum
 {
+public:
     static const unsigned __int64 muNameHash = 0xBC8B5F2250F65891;
     static const unsigned __int64 muTemplateHash = 0xCBD94A72AECBA114;
     static const int miNumMembers = 1;

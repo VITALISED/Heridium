@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcClothComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x89A5D7902BDAFE9B;
     static const unsigned __int64 muTemplateHash = 0xBC8BF2EA3F3EEA7F;
     static const int miNumMembers = 6;
 
     bool mbEnabled;
     int miNumConstraintSolvingIterations;
-    cTkDynamicArray<cGcClothPiece> maClothPieces;
+    cTkDynamicArray<cGcClothPiece1> maClothPieces;
     float mfClothScale;
     float mfCollisionScale;
     float mfAttachmentScale;

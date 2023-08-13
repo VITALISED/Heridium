@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eProductListRewardOrder
 {
@@ -11,11 +11,12 @@ enum eProductListRewardOrder
 
 class cGcRewardSpecificProductRecipeFromList
 {
+public:
     static const unsigned __int64 muNameHash = 0xCD501C8D037C74A5;
     static const unsigned __int64 muTemplateHash = 0x70D4DBB1996C8F42;
     static const int miNumMembers = 2;
 
-    cTkDynamicArray<TkID<128> > maProductList;
+    cTkDynamicArray<TkID<128>1> maProductList;
     eProductListRewardOrder meProductListRewardOrder;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

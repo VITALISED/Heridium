@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 class cTkCameraWanderData
 {
+public:
     static const unsigned __int64 muNameHash = 0xF23D44C69F4360D8;
     static const unsigned __int64 muTemplateHash = 0xDBA93D8744C56CD0;
     static const int miNumMembers = 3;

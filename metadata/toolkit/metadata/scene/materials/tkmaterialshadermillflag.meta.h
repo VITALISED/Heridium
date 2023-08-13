@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkMaterialShaderMillFlag
 {
+public:
     static const unsigned __int64 muNameHash = 0x7DE82A903A56D9F4;
     static const unsigned __int64 muTemplateHash = 0xD243D11C651E135;
     static const int miNumMembers = 1;

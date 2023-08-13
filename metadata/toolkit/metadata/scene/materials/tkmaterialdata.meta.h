@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkMaterialData
 {
+public:
     static const unsigned __int64 muNameHash = 0xCEE695A798E64B92;
     static const unsigned __int64 muTemplateHash = 0x8EDA510D7237BB69;
     static const int miNumMembers = 13;
@@ -16,9 +17,9 @@ class cTkMaterialData
     bool mbCreateFur;
     cTkFixedString<128,char> macLink;
     cTkFixedString<128,char> macShader;
-    cTkDynamicArray<cTkMaterialFlags> maFlags;
-    cTkDynamicArray<cTkMaterialUniform> maUniforms;
-    cTkDynamicArray<cTkMaterialSampler> maSamplers;
+    cTkDynamicArray<cTkMaterialFlags1> maFlags;
+    cTkDynamicArray<cTkMaterialUniform1> maUniforms;
+    cTkDynamicArray<cTkMaterialSampler1> maSamplers;
     __int64 mi64ShaderMillDataHash;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkCurveType;
 class cGcAudioWwiseEvents;
@@ -7,6 +7,7 @@ class cGcAudioWwiseEvents;
 
 class cGcInventorySlotActionData
 {
+public:
     static const unsigned __int64 muNameHash = 0xC08D0836890AA2D6;
     static const unsigned __int64 muTemplateHash = 0xAB981CE0AB2C1075;
     static const int miNumMembers = 9;

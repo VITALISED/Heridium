@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eReplicateTo
 {
@@ -16,6 +16,7 @@ class cGcStatusMessageMissionMarkup;
 
 class cGcStatusMessageDefinition
 {
+public:
     static const unsigned __int64 muNameHash = 0x93C1244DBEE0E0CF;
     static const unsigned __int64 muTemplateHash = 0xDE28BA6FB5EB5CDE;
     static const int miNumMembers = 13;

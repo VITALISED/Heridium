@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eDiscoverTarget
 {
@@ -10,6 +10,7 @@ enum eDiscoverTarget
 
 class cGcMissionSequenceDiscover
 {
+public:
     static const unsigned __int64 muNameHash = 0x61016ED971A59B9A;
     static const unsigned __int64 muTemplateHash = 0xEE9CFABE1CF4D7A;
     static const int miNumMembers = 7;

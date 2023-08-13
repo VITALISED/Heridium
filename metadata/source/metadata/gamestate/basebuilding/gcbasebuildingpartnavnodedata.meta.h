@@ -1,20 +1,21 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNPCNavSubgraphNodeType;
 
 class cGcBaseBuildingPartNavNodeData
 {
+public:
     static const unsigned __int64 muNameHash = 0xAE95337199B47CD;
     static const unsigned __int64 muTemplateHash = 0xACE410E33E2B84B0;
     static const int miNumMembers = 6;
 
     cGcNPCNavSubgraphNodeType mType;
-    cTkVector mLocalPos;
+    cTkVector3 mLocalPos;
     float mfArriveDist;
-    cTkVector mAtDir;
+    cTkVector3 mAtDir;
     TkID<128> mInteractionID;
-    cTkDynamicArray<unsigned int> maConnectedNodeIndices;
+    cTkDynamicArray<unsigned int1> maConnectedNodeIndices;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

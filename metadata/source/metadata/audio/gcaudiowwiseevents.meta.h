@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eAkEvent
 {
@@ -2482,6 +2482,7 @@ enum eAkEvent
 
 class cGcAudioWwiseEvents
 {
+public:
     static const unsigned __int64 muNameHash = 0x8B94093DC3901046;
     static const unsigned __int64 muTemplateHash = 0xF761FD349F49D28E;
     static const int miNumMembers = 1;

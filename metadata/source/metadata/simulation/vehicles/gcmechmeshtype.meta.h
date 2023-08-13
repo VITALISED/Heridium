@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eMechMeshType
 {
@@ -9,6 +9,7 @@ enum eMechMeshType
 
 class cGcMechMeshType
 {
+public:
     static const unsigned __int64 muNameHash = 0x86E6B8042A598341;
     static const unsigned __int64 muTemplateHash = 0x6DD48563EABDB3FD;
     static const int miNumMembers = 1;

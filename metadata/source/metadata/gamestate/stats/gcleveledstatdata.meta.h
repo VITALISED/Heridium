@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eStatMessageType
 {
@@ -11,6 +11,7 @@ class cTkTextureResource;
 
 class cGcLeveledStatData
 {
+public:
     static const unsigned __int64 muNameHash = 0x987EE8E8873AED6B;
     static const unsigned __int64 muTemplateHash = 0x975312EAEE5209F4;
     static const int miNumMembers = 11;
@@ -23,7 +24,7 @@ class cGcLeveledStatData
     bool mbShowInTerminal;
     bool mbShowStatLevel;
     cTkTextureResource mIcon;
-    cTkFixedArray<cGcStatLevelData> maStatLevels;
+    cTkFixedArray<cGcStatLevelData, 11> maStatLevels;
     bool mbUseRankNotStats;
     bool mbTelemetryUpload;
 

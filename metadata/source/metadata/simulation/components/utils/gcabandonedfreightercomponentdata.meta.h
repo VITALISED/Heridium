@@ -1,17 +1,18 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkModelResource;
 class cTkTextureResource;
 
 class cGcAbandonedFreighterComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x95028D8CB7957BEF;
     static const unsigned __int64 muTemplateHash = 0xDFC505E8066AB0E7;
     static const int miNumMembers = 4;
 
     cTkModelResource mDungeonRootScene;
-    cTkDynamicArray<cGcFreighterDungeonChoice> maDungeonOptions;
+    cTkDynamicArray<cGcFreighterDungeonChoice1> maDungeonOptions;
     TkID<256> mMarkerLabel;
     cTkTextureResource mMarkerIcon;
 

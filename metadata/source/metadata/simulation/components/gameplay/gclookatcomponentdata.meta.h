@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eLookAtType
 {
@@ -8,6 +8,7 @@ enum eLookAtType
 
 class cGcLookAtComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xC264A609B1BBACB5;
     static const unsigned __int64 muTemplateHash = 0x53145C2A847F1078;
     static const int miNumMembers = 4;

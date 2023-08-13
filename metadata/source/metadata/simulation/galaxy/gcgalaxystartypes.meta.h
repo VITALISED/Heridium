@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eGalaxyStarType
 {
@@ -11,6 +11,7 @@ enum eGalaxyStarType
 
 class cGcGalaxyStarTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0x737DC36BC0894840;
     static const unsigned __int64 muTemplateHash = 0xE3336B93F6817965;
     static const int miNumMembers = 1;

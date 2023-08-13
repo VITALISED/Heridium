@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eScanEventGPSHint
 {
@@ -14,6 +14,7 @@ enum eScanEventGPSHint
 
 class cGcScanEventGPSHint
 {
+public:
     static const unsigned __int64 muNameHash = 0x5582642D1376644E;
     static const unsigned __int64 muTemplateHash = 0x82D9D45B58591222;
     static const int miNumMembers = 1;

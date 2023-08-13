@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMissionCategory;
 class cGcAudioWwiseEvents;
@@ -14,6 +14,7 @@ enum eOSDMessageStyle
 
 class cGcMissionSequenceShowMessage
 {
+public:
     static const unsigned __int64 muNameHash = 0xECE8B28E154961E9;
     static const unsigned __int64 muTemplateHash = 0x3CEFDBC5D500634;
     static const int miNumMembers = 14;
@@ -30,7 +31,7 @@ class cGcMissionSequenceShowMessage
     bool mbOSDUseMissionIcon;
     bool mbDisableIcon;
     bool mbDisableTitlePrefix;
-    cTkDynamicArray<cTkClassPointer> maUseConditionsForTextFormatting;
+    cTkDynamicArray<cTkClassPointer1> maUseConditionsForTextFormatting;
     cTkFixedString<128,char> macDebugText;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

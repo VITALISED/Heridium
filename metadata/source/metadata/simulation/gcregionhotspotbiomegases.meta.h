@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcRegionHotspotBiomeGases
 {
+public:
     static const unsigned __int64 muNameHash = 0xDEE18E7D4FF23F39;
     static const unsigned __int64 muTemplateHash = 0x2471F8D3AEC4B278;
     static const int miNumMembers = 2;

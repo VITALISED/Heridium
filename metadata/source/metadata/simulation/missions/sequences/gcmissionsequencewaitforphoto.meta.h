@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMissionSequenceWaitForPhoto
 {
+public:
     static const unsigned __int64 muNameHash = 0x2EB82866D685EFBF;
     static const unsigned __int64 muTemplateHash = 0xEB0CC38D5B31E41;
     static const int miNumMembers = 9;
@@ -10,10 +11,10 @@ class cGcMissionSequenceWaitForPhoto
     cTkFixedString<128,char> macMessage;
     cTkFixedString<128,char> macMessageSecondary;
     cTkFixedString<128,char> macMessageSuccess;
-    cTkDynamicArray<cGcBiomeType> maBiomes;
-    cTkDynamicArray<cGcPhotoFauna> maFauna;
-    cTkDynamicArray<cGcPhotoFlora> maFlora;
-    cTkDynamicArray<cGcPhotoBuildings> maBuildings;
+    cTkDynamicArray<cGcBiomeType1> maBiomes;
+    cTkDynamicArray<cGcPhotoFauna1> maFauna;
+    cTkDynamicArray<cGcPhotoFlora1> maFlora;
+    cTkDynamicArray<cGcPhotoBuildings1> maBuildings;
     bool mbTakeAmountFromSeasonData;
     cTkFixedString<128,char> macDebugText;
 

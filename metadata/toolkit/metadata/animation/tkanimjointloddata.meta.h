@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkAnimJointLODData
 {
+public:
     static const unsigned __int64 muNameHash = 0x6316491205B3FC32;
     static const unsigned __int64 muTemplateHash = 0x9EB487CAB4D10F3F;
     static const int miNumMembers = 2;
 
     int miLOD;
-    cTkDynamicArray<cTkFixedString<64,char> > maJointNames;
+    cTkDynamicArray<cTkFixedString<64,char>1> maJointNames;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

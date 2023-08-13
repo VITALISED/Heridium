@@ -1,19 +1,20 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkAnimPoseComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x6DF806B869216436;
     static const unsigned __int64 muTemplateHash = 0xC073B9F61779E1C7;
     static const int miNumMembers = 8;
 
-    cTkDynamicArray<cTkAnimPoseData> maPoseAnims;
+    cTkDynamicArray<cTkAnimPoseData1> maPoseAnims;
     cTkFixedString<128,char> macFilename;
-    cTkDynamicArray<cTkAnimPoseCorrelationData> maCorrelations;
-    cTkDynamicArray<cTkAnimPoseExampleData> maExamples;
-    cTkDynamicArray<float> maCorrelationMat;
+    cTkDynamicArray<cTkAnimPoseCorrelationData1> maCorrelations;
+    cTkDynamicArray<cTkAnimPoseExampleData1> maExamples;
+    cTkDynamicArray<float1> maCorrelationMat;
     float mfAdultCorrelationValue;
-    cTkDynamicArray<cTkAnimPoseBabyModifier> maBabyModifiers;
+    cTkDynamicArray<cTkAnimPoseBabyModifier1> maBabyModifiers;
     bool mbShouldRandomise;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

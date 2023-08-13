@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcWonderRecord
 {
+public:
     static const unsigned __int64 muNameHash = 0xB6F9D0E7CC7397EC;
     static const unsigned __int64 muTemplateHash = 0xADA26EA67A0AA85C;
     static const int miNumMembers = 3;
 
-    cTkFixedArray<unsigned __int64> maGenerationID;
+    cTkFixedArray<unsigned __int64, 2> maGenerationID;
     float mfWonderStatValue;
     bool mbSeenInFrontend;
 

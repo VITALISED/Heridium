@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eResponseType
 {
@@ -11,6 +11,7 @@ enum eResponseType
 
 class cGcRewardInterventionResponse
 {
+public:
     static const unsigned __int64 muNameHash = 0x3E904C2466567A08;
     static const unsigned __int64 muTemplateHash = 0x985634C4BE6A9411;
     static const int miNumMembers = 2;

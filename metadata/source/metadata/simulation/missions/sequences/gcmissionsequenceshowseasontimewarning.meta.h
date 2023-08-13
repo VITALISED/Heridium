@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMissionSequenceShowSeasonTimeWarning
 {
+public:
     static const unsigned __int64 muNameHash = 0x232C5143BAE4E2F9;
     static const unsigned __int64 muTemplateHash = 0xDF027FC6EF251E3D;
     static const int miNumMembers = 3;

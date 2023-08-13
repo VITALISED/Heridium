@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eCombatTimerDifficultyOption
 {
@@ -11,6 +11,7 @@ enum eCombatTimerDifficultyOption
 
 class cGcCombatTimerDifficultyOption
 {
+public:
     static const unsigned __int64 muNameHash = 0xF407DE9312D729B0;
     static const unsigned __int64 muTemplateHash = 0x39060AAC417BAD2A;
     static const int miNumMembers = 1;

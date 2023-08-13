@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkAudioAnimTrigger
 {
+public:
     static const unsigned __int64 muNameHash = 0x537216694166E761;
     static const unsigned __int64 muTemplateHash = 0xDEBAF7F07732068B;
     static const int miNumMembers = 3;

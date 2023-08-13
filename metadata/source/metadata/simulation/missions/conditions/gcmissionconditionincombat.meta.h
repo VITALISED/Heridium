@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eCombatType
 {
@@ -14,6 +14,7 @@ enum eCombatType
 
 class cGcMissionConditionInCombat
 {
+public:
     static const unsigned __int64 muNameHash = 0x326A8803E3B79519;
     static const unsigned __int64 muTemplateHash = 0xC05E3E5570BE569E;
     static const int miNumMembers = 4;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInventoryLayoutGenerationData;
 class cGcInventoryCostData;
@@ -9,21 +9,22 @@ class cGcWeaponInventoryMaxUpgradeCapacity;
 
 class cGcInventoryTable
 {
+public:
     static const unsigned __int64 muNameHash = 0x32822FA2FD268A65;
     static const unsigned __int64 muTemplateHash = 0x9D2794859AD00F81;
     static const int miNumMembers = 12;
 
-    cTkDynamicArray<cGcInventoryTableEntry> maTable;
+    cTkDynamicArray<cGcInventoryTableEntry1> maTable;
     cGcInventoryLayoutGenerationData mGenerationData;
     cGcInventoryCostData mShipCostData;
-    cTkFixedArray<cGcInventoryCostDataEntry> maWeaponCostData;
+    cTkFixedArray<cGcInventoryCostDataEntry, 5> maWeaponCostData;
     cGcInventoryCostDataEntry mVehicleCostData;
-    cTkFixedArray<cGcInventoryClassProbabilities> maClassProbabilityData;
+    cTkFixedArray<cGcInventoryClassProbabilities, 4> maClassProbabilityData;
     cGcInventoryGenerationBaseStatData mVehicleBaseStatsData;
-    cTkFixedArray<cGcInventoryGenerationBaseStatData> maShipBaseStatsData;
-    cTkFixedArray<cGcInventoryGenerationBaseStatData> maWeaponBaseStatsData;
-    cTkDynamicArray<cGcInventoryBaseStat> maBaseStats;
-    cTkFixedArray<cGcShipInventoryMaxUpgradeCapacity> maShipInventoryMaxUpgradeSize;
+    cTkFixedArray<cGcInventoryGenerationBaseStatData, 9> maShipBaseStatsData;
+    cTkFixedArray<cGcInventoryGenerationBaseStatData, 5> maWeaponBaseStatsData;
+    cTkDynamicArray<cGcInventoryBaseStat1> maBaseStats;
+    cTkFixedArray<cGcShipInventoryMaxUpgradeCapacity, 9> maShipInventoryMaxUpgradeSize;
     cGcWeaponInventoryMaxUpgradeCapacity mWeaponInventoryMaxUpgradeSize;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

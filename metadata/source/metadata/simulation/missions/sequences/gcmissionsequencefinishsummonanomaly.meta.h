@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMissionSequenceFinishSummonAnomaly
 {
+public:
     static const unsigned __int64 muNameHash = 0x5CD1BB11C495E87F;
     static const unsigned __int64 muTemplateHash = 0x8A98BF2B62B3AA64;
     static const int miNumMembers = 1;

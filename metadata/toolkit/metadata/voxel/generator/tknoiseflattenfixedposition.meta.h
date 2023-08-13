@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkNoiseFlattenPoint;
 
 class cTkNoiseFlattenFixedPosition
 {
+public:
     static const unsigned __int64 muNameHash = 0x5BFC087E90D1520B;
     static const unsigned __int64 muTemplateHash = 0x5A87539A1008BB44;
     static const int miNumMembers = 2;
 
-    cTkVector mPosition;
+    cTkVector3 mPosition;
     cTkNoiseFlattenPoint mFlattenPoint;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

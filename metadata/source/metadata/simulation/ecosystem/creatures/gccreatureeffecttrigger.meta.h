@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureEffectTrigger
 {
+public:
     static const unsigned __int64 muNameHash = 0x4E07F5FB46E3BD82;
     static const unsigned __int64 muTemplateHash = 0xF2C93E6788CE0821;
     static const int miNumMembers = 6;
 
     TkID<128> mEffect;
-    cTkDynamicArray<cTkFixedString<256,char> > maJointName;
+    cTkDynamicArray<cTkFixedString<256,char>1> maJointName;
     float mfScale;
     TkID<128> mAnim;
     int miFrame;

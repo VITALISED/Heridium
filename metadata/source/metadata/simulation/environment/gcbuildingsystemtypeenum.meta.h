@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eBuildingSystemType
 {
@@ -9,6 +9,7 @@ enum eBuildingSystemType
 
 class cGcBuildingSystemTypeEnum
 {
+public:
     static const unsigned __int64 muNameHash = 0xB4AC262382F5910E;
     static const unsigned __int64 muTemplateHash = 0xD529A470EDDCF735;
     static const int miNumMembers = 1;

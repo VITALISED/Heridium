@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMiningSubstanceData;
 class cGcMiningSubstanceData;
@@ -10,6 +10,7 @@ class cGcTerrainControls;
 
 class cGcBiomeData
 {
+public:
     static const unsigned __int64 muNameHash = 0x2FD5560612237D4D;
     static const unsigned __int64 muTemplateHash = 0xA369C87DCDDF335B;
     static const int miNumMembers = 17;
@@ -24,12 +25,12 @@ class cGcBiomeData
     cGcMiningSubstanceData mMiningSubstance3;
     float mfFuelMultiplier;
     cGcPlanetWaterData mWater;
-    cTkDynamicArray<cGcExternalObjectListOptions> maExternalObjectLists;
-    cTkFixedArray<cGcWeatherWeightings> maWeatherOptions;
+    cTkDynamicArray<cGcExternalObjectListOptions1> maExternalObjectLists;
+    cTkFixedArray<cGcWeatherWeightings, 4> maWeatherOptions;
     cTkVector2 mWeatherChangeTime;
     cGcBiomeCloudSettings mCloudSettings;
     cGcTerrainControls mTerrain;
-    cTkDynamicArray<cGcScreenFilterOption> maFilterOptions;
+    cTkDynamicArray<cGcScreenFilterOption1> maFilterOptions;
     TkID<256> mFloraLifeLocID;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

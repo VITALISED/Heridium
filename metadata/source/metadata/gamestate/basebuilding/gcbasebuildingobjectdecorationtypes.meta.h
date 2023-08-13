@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eBaseBuildingDecorationType
 {
@@ -14,6 +14,7 @@ enum eBaseBuildingDecorationType
 
 class cGcBaseBuildingObjectDecorationTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0xCBF38A24719D032E;
     static const unsigned __int64 muTemplateHash = 0x83AB64738650BC1D;
     static const int miNumMembers = 1;

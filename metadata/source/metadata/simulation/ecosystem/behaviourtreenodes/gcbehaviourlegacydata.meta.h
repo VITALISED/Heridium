@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eLegacyBehaviour
 {
@@ -16,6 +16,7 @@ enum eLegacyBehaviour
 
 class cGcBehaviourLegacyData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE727C698F36AF1CA;
     static const unsigned __int64 muTemplateHash = 0x81663F7AA75A4A81;
     static const int miNumMembers = 1;

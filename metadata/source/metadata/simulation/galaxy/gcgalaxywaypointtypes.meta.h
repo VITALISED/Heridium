@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eGalaxyWaypointType
 {
@@ -13,6 +13,7 @@ enum eGalaxyWaypointType
 
 class cGcGalaxyWaypointTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0xF808614547AF2B25;
     static const unsigned __int64 muTemplateHash = 0x35632D9AFE0F476F;
     static const int miNumMembers = 1;

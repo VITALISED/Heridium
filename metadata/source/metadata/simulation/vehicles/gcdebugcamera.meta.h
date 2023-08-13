@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDebugCamera
 {
+public:
     static const unsigned __int64 muNameHash = 0xC7724B26F8E50BC5;
     static const unsigned __int64 muTemplateHash = 0x4115B5E6806757B5;
     static const int miNumMembers = 5;
 
     float mfBaseSpeed;
     float mfSmoothing;
-    cTkDynamicArray<cGcDebugCameraEntry> maWaypoints;
+    cTkDynamicArray<cGcDebugCameraEntry1> maWaypoints;
     int miCurrentWaypoint;
     float mfCurrentWaypointProgress;
 

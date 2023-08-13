@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eFaceDir
 {
@@ -10,6 +10,7 @@ enum eFaceDir
 
 class cGcPlayerExperienceSpawnData
 {
+public:
     static const unsigned __int64 muNameHash = 0x76E523097495B90;
     static const unsigned __int64 muTemplateHash = 0xB547ACA99002043A;
     static const int miNumMembers = 10;
@@ -21,8 +22,8 @@ class cGcPlayerExperienceSpawnData
     eFaceDir meFaceDir;
     float mfMinDist;
     float mfMaxDist;
-    cTkFixedArray<int> maMinNum;
-    cTkFixedArray<int> maMaxNum;
+    cTkFixedArray<int, 7> maMinNum;
+    cTkFixedArray<int, 7> maMaxNum;
     float mfActiveTime;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

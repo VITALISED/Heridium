@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlayerMissionProgress
 {
+public:
     static const unsigned __int64 muNameHash = 0x1611798444BC0C13;
     static const unsigned __int64 muTemplateHash = 0xC4054BE6D6E72C73;
     static const int miNumMembers = 5;
@@ -11,7 +12,7 @@ class cGcPlayerMissionProgress
     int miProgress;
     unsigned __int64 mui64Seed;
     unsigned __int64 mui64Data;
-    cTkFixedArray<cGcPlayerMissionParticipant> maParticipants;
+    cTkFixedArray<cGcPlayerMissionParticipant, 13> maParticipants;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

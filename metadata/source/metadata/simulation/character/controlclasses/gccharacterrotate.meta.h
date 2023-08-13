@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPrimaryAxis;
 
 class cGcCharacterRotate
 {
+public:
     static const unsigned __int64 muNameHash = 0x1BC08C4BC1CAA288;
     static const unsigned __int64 muTemplateHash = 0x8711BCE724BA3946;
     static const int miNumMembers = 4;

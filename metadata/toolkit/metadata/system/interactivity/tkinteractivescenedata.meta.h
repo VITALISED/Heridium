@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkInteractiveSceneData
 {
+public:
     static const unsigned __int64 muNameHash = 0x89317714328CB341;
     static const unsigned __int64 muTemplateHash = 0x71813D42DFD08760;
     static const int miNumMembers = 2;
 
     cTkFixedString<32,char> macId;
-    cTkDynamicArray<cTkInteractiveControlData> maControls;
+    cTkDynamicArray<cTkInteractiveControlData1> maControls;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

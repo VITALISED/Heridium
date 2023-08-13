@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkModelResource;
 
@@ -17,6 +17,7 @@ enum eDecorationLayer
 
 class cGcGeneratedBaseDecorationTemplate
 {
+public:
     static const unsigned __int64 muNameHash = 0x6370110DC5DC47D2;
     static const unsigned __int64 muTemplateHash = 0x320EC0C308ECA15C;
     static const int miNumMembers = 6;
@@ -26,7 +27,7 @@ class cGcGeneratedBaseDecorationTemplate
     float mfProbability;
     int miMaxPerRoom;
     eDecorationLayer meDecorationLayer;
-    cTkDynamicArray<int> maInvalidRoomIndexes;
+    cTkDynamicArray<int1> maInvalidRoomIndexes;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

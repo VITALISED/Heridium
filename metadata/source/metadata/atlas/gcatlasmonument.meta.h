@@ -1,17 +1,18 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcUniverseAddressData;
 
 class cGcAtlasMonument
 {
+public:
     static const unsigned __int64 muNameHash = 0xBD4D110E1D076CE;
     static const unsigned __int64 muTemplateHash = 0xA60747DE40AB1CA5;
     static const int miNumMembers = 9;
 
     cGcUniverseAddressData mUniverseAddress;
-    cTkVector mPosition;
-    cTkVector mAt;
+    cTkVector3 mPosition;
+    cTkVector3 mAt;
     cTkFixedString<64,char> macRID;
     cTkFixedString<64,char> macCreatorName;
     cTkFixedString<64,char> macCreatorOnlineID;

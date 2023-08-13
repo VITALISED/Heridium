@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDungeonQuestParams
 {
+public:
     static const unsigned __int64 muNameHash = 0xCE00C5120C432BB0;
     static const unsigned __int64 muTemplateHash = 0x7DEA97C7B2C9C11C;
     static const int miNumMembers = 2;
 
     float mfProbability;
-    cTkDynamicArray<TkID<128> > maQuestItems;
+    cTkDynamicArray<TkID<128>1> maQuestItems;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

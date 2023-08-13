@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDifficultyPresetType;
 
@@ -10,6 +10,7 @@ enum exPersistentBaseDifficultyFlags
 
 class cGcPersistentBaseDifficultyData
 {
+public:
     static const unsigned __int64 muNameHash = 0x6E51E89E7E62BE51;
     static const unsigned __int64 muTemplateHash = 0x287BA08F43914FB5;
     static const int miNumMembers = 2;

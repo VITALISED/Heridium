@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eAuthoring
 {
@@ -12,6 +12,7 @@ class cTkCurveType;
 
 class cTkEmitterFloatProperty
 {
+public:
     static const unsigned __int64 muNameHash = 0x6ECA0FF0AE9F9E21;
     static const unsigned __int64 muTemplateHash = 0x6E3C701067AF1AF0;
     static const int miNumMembers = 12;

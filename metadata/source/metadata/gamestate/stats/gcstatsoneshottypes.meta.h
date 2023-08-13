@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eStatsOneShot
 {
@@ -11,6 +11,7 @@ enum eStatsOneShot
 
 class cGcStatsOneShotTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0x32707F0D00335D4F;
     static const unsigned __int64 muTemplateHash = 0x26885B9B57AC27F0;
     static const int miNumMembers = 1;

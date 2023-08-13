@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eMissionSystemType
 {
@@ -10,6 +10,7 @@ enum eMissionSystemType
 
 class cGcMissionConditionAbandonedOrEmptySystem
 {
+public:
     static const unsigned __int64 muNameHash = 0x651218B208D538A0;
     static const unsigned __int64 muTemplateHash = 0x1EB28DC3AE2177C7;
     static const int miNumMembers = 1;

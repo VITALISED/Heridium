@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eMovementDirection
 {
@@ -11,6 +11,7 @@ enum eMovementDirection
 
 class cGcMovementDirection
 {
+public:
     static const unsigned __int64 muNameHash = 0x59A54DA2535D6C79;
     static const unsigned __int64 muTemplateHash = 0x4499ADCE00A38AC7;
     static const int miNumMembers = 1;

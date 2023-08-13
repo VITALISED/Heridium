@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAISpaceshipWeightingData
 {
+public:
     static const unsigned __int64 muNameHash = 0xD66342935A1B2735;
     static const unsigned __int64 muTemplateHash = 0x3D82E412D71EA3E3;
     static const int miNumMembers = 1;
 
-    cTkFixedArray<float> maCivilianClassWeightings;
+    cTkFixedArray<float, 9> maCivilianClassWeightings;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

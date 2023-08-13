@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkLSystemLocatorEntry
 {
+public:
     static const unsigned __int64 muNameHash = 0x5FB32B8921A7FE69;
     static const unsigned __int64 muTemplateHash = 0x800D4593B5370A32;
     static const int miNumMembers = 3;
 
     cTkFixedString<128,char> macModel;
     float mfProbability;
-    cTkDynamicArray<cTkLSystemRestrictionData> maRestrictions;
+    cTkDynamicArray<cTkLSystemRestrictionData1> maRestrictions;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcScannerIconTypes;
 
@@ -14,6 +14,7 @@ enum eScannableType
 
 class cGcScannableComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x74BA808E86F0EC01;
     static const unsigned __int64 muTemplateHash = 0x99F74C03F8948E2C;
     static const int miNumMembers = 20;

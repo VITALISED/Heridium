@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkAnimDetailSettings
 {
+public:
     static const unsigned __int64 muNameHash = 0x2FAF173AC809FC4C;
     static const unsigned __int64 muTemplateHash = 0xED9F600E1FD8040;
     static const int miNumMembers = 3;
 
     float mfMaxVisibleAngle;
-    cTkDynamicArray<cTkAnimDetailSettingsData> maAnimDistanceSettings;
-    cTkFixedArray<float> maAnimLODDistances;
+    cTkDynamicArray<cTkAnimDetailSettingsData1> maAnimDistanceSettings;
+    cTkFixedArray<float, 3> maAnimLODDistances;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

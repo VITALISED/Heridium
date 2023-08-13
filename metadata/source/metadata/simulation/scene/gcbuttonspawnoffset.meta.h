@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcRealityCommonFactions;
 class cGcAISpaceshipRoles;
 
 class cGcButtonSpawnOffset
 {
+public:
     static const unsigned __int64 muNameHash = 0x42A6687A1AF1F42A;
     static const unsigned __int64 muTemplateHash = 0x31748E19E8D4B7B8;
     static const int miNumMembers = 8;

@@ -1,17 +1,18 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkLODSettingsData
 {
+public:
     static const unsigned __int64 muNameHash = 0xA0C253D5A5EF8A51;
     static const unsigned __int64 muTemplateHash = 0x4C8D2C5D711DF5C7;
     static const int miNumMembers = 14;
 
-    cTkFixedArray<float> maLODAdjust;
-    cTkFixedArray<int> maImposterOverrideRange;
-    cTkFixedArray<int> maMaxObjectDistanceOverride;
-    cTkFixedArray<int> maRegionLODHiddenRanges;
-    cTkFixedArray<int> maRegionLODRadius;
+    cTkFixedArray<float, 5> maLODAdjust;
+    cTkFixedArray<int, 6> maImposterOverrideRange;
+    cTkFixedArray<int, 6> maMaxObjectDistanceOverride;
+    cTkFixedArray<int, 6> maRegionLODHiddenRanges;
+    cTkFixedArray<int, 6> maRegionLODRadius;
     bool mbEnableOctahedralImposters;
     bool mbViewImpostersFromSpace;
     int miNumberOfImposterViews;

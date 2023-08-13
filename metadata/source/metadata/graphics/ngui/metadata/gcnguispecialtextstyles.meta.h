@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNGuiSpecialTextStyles
 {
+public:
     static const unsigned __int64 muNameHash = 0x9E60066285AC5880;
     static const unsigned __int64 muTemplateHash = 0xFF5CA38F118A0405;
     static const int miNumMembers = 1;
 
-    cTkDynamicArray<cGcNGuiSpecialTextStyleData> maSpecialStyles;
+    cTkDynamicArray<cGcNGuiSpecialTextStyleData1> maSpecialStyles;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

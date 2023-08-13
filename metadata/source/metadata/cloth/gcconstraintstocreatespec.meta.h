@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcConstraintsToCreateSpec
 {
+public:
     static const unsigned __int64 muNameHash = 0x6C0B3270B9591BB1;
     static const unsigned __int64 muTemplateHash = 0x2796FFF182A8F194;
     static const int miNumMembers = 20;

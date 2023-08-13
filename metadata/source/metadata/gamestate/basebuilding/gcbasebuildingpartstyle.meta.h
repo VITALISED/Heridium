@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eStyle
 {
@@ -14,6 +14,7 @@ enum eStyle
 
 class cGcBaseBuildingPartStyle
 {
+public:
     static const unsigned __int64 muNameHash = 0xCEBA5F1259779D68;
     static const unsigned __int64 muTemplateHash = 0xA63C1943EC1792A2;
     static const int miNumMembers = 1;

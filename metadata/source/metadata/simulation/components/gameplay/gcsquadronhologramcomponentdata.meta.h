@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSquadronHologramComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x8E4A63D8D3818019;
     static const unsigned __int64 muTemplateHash = 0x11879F8426DFCD89;
     static const int miNumMembers = 4;
 
     float mfHologramRotationSpeedDegPerSec;
     float mfPilotScale;
-    cTkVector mSpawnOffset;
+    cTkVector3 mSpawnOffset;
     float mfSpawnRotation;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

@@ -1,18 +1,19 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcGalaxySolarSystemOrbitParams;
 class cGcGalaxySolarSystemOrbitParams;
 
 class cGcGalaxySolarSystemParams
 {
+public:
     static const unsigned __int64 muNameHash = 0x3454C9AB7AAC46D9;
     static const unsigned __int64 muTemplateHash = 0x46D508F9992D3331;
     static const int miNumMembers = 7;
 
     cGcGalaxySolarSystemOrbitParams mPlanetParameters;
     cGcGalaxySolarSystemOrbitParams mMoonParameters;
-    cTkFixedArray<float> maPlanetRadii;
+    cTkFixedArray<float, 4> maPlanetRadii;
     float mfSystemTilt;
     float mfDefaultDistance;
     float mfVisitedPlanetAlpha;

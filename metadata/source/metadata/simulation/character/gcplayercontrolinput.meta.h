@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlayerControlInput
 {
+public:
     static const unsigned __int64 muNameHash = 0xD2873CCA9A0EDD77;
     static const unsigned __int64 muTemplateHash = 0x3195411FB3EE778B;
     static const int miNumMembers = 4;
 
     bool mbInterceptAllInputs;
-    cTkDynamicArray<cGcInputActions> maInterceptInputWhitelist;
-    cTkDynamicArray<cGcInputActions> maInterceptInputBlackList;
-    cTkDynamicArray<cTkClassPointer> maInputs;
+    cTkDynamicArray<cGcInputActions1> maInterceptInputWhitelist;
+    cTkDynamicArray<cGcInputActions1> maInterceptInputBlackList;
+    cTkDynamicArray<cTkClassPointer1> maInputs;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

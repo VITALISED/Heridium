@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcQuickMenuActions;
 class cGcInventoryIndex;
 
 class cGcQuickMenuActionSaveData
 {
+public:
     static const unsigned __int64 muNameHash = 0x15BEBD4BD6DD1244;
     static const unsigned __int64 muTemplateHash = 0xA7329F7D002F1EE4;
     static const int miNumMembers = 4;

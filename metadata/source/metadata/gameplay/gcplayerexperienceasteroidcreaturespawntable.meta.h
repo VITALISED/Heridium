@@ -1,18 +1,19 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlayerExperienceAsteroidCreatureSpawnTable
 {
+public:
     static const unsigned __int64 muNameHash = 0xC49FE6E5B9227EF6;
     static const unsigned __int64 muTemplateHash = 0x13686FB01961A6D;
     static const int miNumMembers = 6;
 
     float mfSmallAsteroidSpawnPercent;
-    cTkDynamicArray<cGcPlayerExperienceAsteroidCreatureSpawnData> maSmallAsteroidSpawns;
+    cTkDynamicArray<cGcPlayerExperienceAsteroidCreatureSpawnData1> maSmallAsteroidSpawns;
     float mfMediumAsteroidSpawnPercent;
-    cTkDynamicArray<cGcPlayerExperienceAsteroidCreatureSpawnData> maMediumAsteroidSpawns;
+    cTkDynamicArray<cGcPlayerExperienceAsteroidCreatureSpawnData1> maMediumAsteroidSpawns;
     float mfLargeAsteroidSpawnPercent;
-    cTkDynamicArray<cGcPlayerExperienceAsteroidCreatureSpawnData> maLargeAsteroidSpawns;
+    cTkDynamicArray<cGcPlayerExperienceAsteroidCreatureSpawnData1> maLargeAsteroidSpawns;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

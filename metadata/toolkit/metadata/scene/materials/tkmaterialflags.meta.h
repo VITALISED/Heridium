@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eMaterialFlag
 {
@@ -71,6 +71,7 @@ enum eMaterialFlag
 
 class cTkMaterialFlags
 {
+public:
     static const unsigned __int64 muNameHash = 0x71610F70BA400437;
     static const unsigned __int64 muTemplateHash = 0xEA132F026E55C047;
     static const int miNumMembers = 1;

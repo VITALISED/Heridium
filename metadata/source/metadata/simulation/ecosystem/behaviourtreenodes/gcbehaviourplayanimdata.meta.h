@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBehaviourPlayAnimData
 {
+public:
     static const unsigned __int64 muNameHash = 0xBFB26332AE955464;
     static const unsigned __int64 muTemplateHash = 0xD8B574543FC643C2;
     static const int miNumMembers = 4;
@@ -10,7 +11,7 @@ class cGcBehaviourPlayAnimData
     TkID<128> mAnim;
     float mfBlendInTime;
     float mfBlendOutAt;
-    cTkDynamicArray<cGcBehaviourPlayAnimTrigger> maTriggers;
+    cTkDynamicArray<cGcBehaviourPlayAnimTrigger1> maTriggers;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

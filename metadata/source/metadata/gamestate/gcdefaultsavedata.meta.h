@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlayerStateData;
 class cGcPlayerSpawnStateData;
 
 class cGcDefaultSaveData
 {
+public:
     static const unsigned __int64 muNameHash = 0xF0829DCD8555A52E;
     static const unsigned __int64 muTemplateHash = 0x9C67E3A79F37ACA0;
     static const int miNumMembers = 2;

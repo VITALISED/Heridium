@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eDensity
 {
@@ -11,6 +11,7 @@ enum eDensity
 
 class cGcCreatureGenerationDensity
 {
+public:
     static const unsigned __int64 muNameHash = 0x2CD4E62B393F6930;
     static const unsigned __int64 muTemplateHash = 0x6C76550BC2D8BBE4;
     static const int miNumMembers = 1;

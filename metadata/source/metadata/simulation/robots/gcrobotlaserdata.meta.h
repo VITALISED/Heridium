@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcRobotLaserData
 {
+public:
     static const unsigned __int64 muNameHash = 0xAAC69095D4C233F5;
     static const unsigned __int64 muTemplateHash = 0x3588D6B453B06BE1;
     static const int miNumMembers = 10;
@@ -15,7 +16,7 @@ class cGcRobotLaserData
     float mfLaserTime;
     float mfLaserLightChargeSize;
     float mfLaserLightAttackSize;
-    cTkVector mLaserLightOffset;
+    cTkVector3 mLaserLightOffset;
     cTkColour mLaserColour;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

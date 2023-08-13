@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCurrency;
 
 class cGcSettlementBuildingCostData
 {
+public:
     static const unsigned __int64 muNameHash = 0x1746DC1EE79AD525;
     static const unsigned __int64 muTemplateHash = 0xB4313B57BEE95EF8;
     static const int miNumMembers = 5;
 
-    cTkDynamicArray<TkID<128> > maProducts;
-    cTkDynamicArray<TkID<128> > maSubstances;
+    cTkDynamicArray<TkID<128>1> maProducts;
+    cTkDynamicArray<TkID<128>1> maSubstances;
     int miAmountMin;
     int miAmountMax;
     cGcCurrency mCurrency;

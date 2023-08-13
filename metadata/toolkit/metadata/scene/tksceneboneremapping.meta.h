@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkSceneBoneRemapping
 {
+public:
     static const unsigned __int64 muNameHash = 0x8EBBD5819BF9FEBA;
     static const unsigned __int64 muTemplateHash = 0x4303F72D523C7C23;
     static const int miNumMembers = 2;

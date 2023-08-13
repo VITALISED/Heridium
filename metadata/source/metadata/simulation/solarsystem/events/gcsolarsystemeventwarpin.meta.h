@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSolarSystemLocatorChoice;
 class cGcRealityCommonFactions;
@@ -7,6 +7,7 @@ class cGcAISpaceshipRoles;
 
 class cGcSolarSystemEventWarpIn
 {
+public:
     static const unsigned __int64 muNameHash = 0x71B66F631708B3B1;
     static const unsigned __int64 muTemplateHash = 0x64B0FDB2C959986B;
     static const int miNumMembers = 14;
@@ -21,7 +22,7 @@ class cGcSolarSystemEventWarpIn
     cTkSeed mSeed;
     cGcRealityCommonFactions mFaction;
     cGcAISpaceshipRoles mShipRole;
-    cTkDynamicArray<int> maShipChoiceSequence;
+    cTkDynamicArray<int1> maShipChoiceSequence;
     cTkVector2 mShipCountRange;
     cTkVector2 mWarpIntervalRange;
     cTkVector2 mSpeedRange;

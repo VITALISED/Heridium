@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkImGuiWindowData;
 
 class cTkImGuiData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE8F15AD4B3CB30AC;
     static const unsigned __int64 muTemplateHash = 0x401F7F6C34A94AA4;
     static const int miNumMembers = 7;
@@ -13,8 +14,8 @@ class cTkImGuiData
     bool mbMaximised;
     int miDimensionX;
     int miDimensionY;
-    cTkFixedArray<cTkFixedString<128,char> > maRecentToolbox;
-    cTkFixedArray<cTkImGuiWindowData> maWindowTable;
+    cTkFixedArray<cTkFixedString<128,char>, 10> maRecentToolbox;
+    cTkFixedArray<cTkImGuiWindowData, 128> maWindowTable;
     int miWindowCount;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

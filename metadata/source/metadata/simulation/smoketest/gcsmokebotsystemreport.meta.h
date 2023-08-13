@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSmokeBotStats;
 class cGcSmokeBotStats;
 
 class cGcSmokeBotSystemReport
 {
+public:
     static const unsigned __int64 muNameHash = 0xFB50309B36475BDE;
     static const unsigned __int64 muTemplateHash = 0x96998FEC48744CE6;
     static const int miNumMembers = 4;
@@ -13,7 +14,7 @@ class cGcSmokeBotSystemReport
     unsigned __int64 mui64UA;
     cGcSmokeBotStats mSystemStats;
     cGcSmokeBotStats mSpaceStats;
-    cTkDynamicArray<cGcSmokeBotPlanetReport> maPlanetReports;
+    cTkDynamicArray<cGcSmokeBotPlanetReport1> maPlanetReports;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

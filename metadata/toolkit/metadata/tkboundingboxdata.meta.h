@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 class cTkBoundingBoxData
 {
+public:
     static const unsigned __int64 muNameHash = 0x46C380A7C1CCD790;
     static const unsigned __int64 muTemplateHash = 0x5C6349F5B7C88586;
     static const int miNumMembers = 2;
 
-    cTkVector mMin;
-    cTkVector mMax;
+    cTkVector3 mMin;
+    cTkVector3 mMax;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eMarkovSelector
 {
@@ -15,6 +15,7 @@ enum eMarkovSelector
 
 class cGcNameGeneratorTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0xC9FA06A9CF2CE65D;
     static const unsigned __int64 muTemplateHash = 0xF92787E043F5AC70;
     static const int miNumMembers = 1;

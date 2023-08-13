@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eVROverride_Layout
 {
@@ -12,6 +12,7 @@ enum eVROverride_Layout
 
 class cGcVROverride_Layout
 {
+public:
     static const unsigned __int64 muNameHash = 0xE16B8EC5F09E6041;
     static const unsigned __int64 muTemplateHash = 0xFEC3DBA59D002B84;
     static const int miNumMembers = 2;

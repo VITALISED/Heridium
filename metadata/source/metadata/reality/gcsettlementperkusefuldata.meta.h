@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSettlementStatType;
 
 class cGcSettlementPerkUsefulData
 {
+public:
     static const unsigned __int64 muNameHash = 0xDEB32057FC4A2AC1;
     static const unsigned __int64 muTemplateHash = 0x27EC480E87BC3618;
     static const int miNumMembers = 6;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcGenericIconTypes;
 
@@ -13,6 +13,7 @@ class cGcRealityGameIcons;
 
 class cGcMarkerComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x499B7E363F46B54F;
     static const unsigned __int64 muTemplateHash = 0x9EE88E874E595E65;
     static const int miNumMembers = 7;

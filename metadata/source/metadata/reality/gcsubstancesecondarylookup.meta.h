@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSubstanceSecondaryLookup
 {
+public:
     static const unsigned __int64 muNameHash = 0x5AF4540465F27753;
     static const unsigned __int64 muTemplateHash = 0xF6D1A7B47F42D3C7;
     static const int miNumMembers = 2;
 
     TkID<128> mPrimaryID;
-    cTkDynamicArray<cGcSubstanceSecondary> maSecondaryChances;
+    cTkDynamicArray<cGcSubstanceSecondary1> maSecondaryChances;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

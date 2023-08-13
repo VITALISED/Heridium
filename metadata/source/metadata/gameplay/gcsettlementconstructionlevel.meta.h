@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eSettlementConstructionLevel
 {
@@ -13,6 +13,7 @@ enum eSettlementConstructionLevel
 
 class cGcSettlementConstructionLevel
 {
+public:
     static const unsigned __int64 muNameHash = 0x69E9FB65CE773F84;
     static const unsigned __int64 muTemplateHash = 0xA96B50DDF3B522E4;
     static const int miNumMembers = 1;

@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDefaultMissionProductEnum;
 
 class cGcRewardSpecificProduct
 {
+public:
     static const unsigned __int64 muNameHash = 0x691B32769ECE3BC6;
     static const unsigned __int64 muTemplateHash = 0x54DD0DBD5DAB09E9;
     static const int miNumMembers = 10;

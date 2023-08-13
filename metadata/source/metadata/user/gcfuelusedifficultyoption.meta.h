@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eFuelUseDifficulty
 {
@@ -11,6 +11,7 @@ enum eFuelUseDifficulty
 
 class cGcFuelUseDifficultyOption
 {
+public:
     static const unsigned __int64 muNameHash = 0x920A215A167E01E2;
     static const unsigned __int64 muTemplateHash = 0x16E68CFACEBF2BA6;
     static const int miNumMembers = 1;

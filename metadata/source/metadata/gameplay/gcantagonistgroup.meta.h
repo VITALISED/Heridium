@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eAntagonistGroup
 {
@@ -13,6 +13,7 @@ enum eAntagonistGroup
 
 class cGcAntagonistGroup
 {
+public:
     static const unsigned __int64 muNameHash = 0x39B4070AE5C76F6F;
     static const unsigned __int64 muTemplateHash = 0x389DCB7F89EAC210;
     static const int miNumMembers = 1;

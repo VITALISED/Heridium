@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureGenerationWeightedList;
 
 class cGcCreatureGenerationOptionalWeightedList
 {
+public:
     static const unsigned __int64 muNameHash = 0x3FE2B5A3043E562F;
     static const unsigned __int64 muTemplateHash = 0xB5C0A19A1E4CC50C;
     static const int miNumMembers = 3;

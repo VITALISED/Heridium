@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eBuildingDensity
 {
@@ -13,6 +13,7 @@ enum eBuildingDensity
 
 class cGcBuildingDensityLevels
 {
+public:
     static const unsigned __int64 muNameHash = 0x43EB5D40DE6AD28E;
     static const unsigned __int64 muTemplateHash = 0x84AE876DD70E705A;
     static const int miNumMembers = 1;

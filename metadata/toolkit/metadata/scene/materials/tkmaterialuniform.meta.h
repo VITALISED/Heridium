@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkMaterialUniform
 {
+public:
     static const unsigned __int64 muNameHash = 0x8CB8B180BCADFD4B;
     static const unsigned __int64 muTemplateHash = 0x38835CA9D5770C34;
     static const int miNumMembers = 3;
 
     cTkFixedString<32,char> macName;
     cTkVector4 mValues;
-    cTkDynamicArray<cTkVector4> maExtendedValues;
+    cTkDynamicArray<cTkVector41> maExtendedValues;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

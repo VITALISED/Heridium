@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eDirection
 {
@@ -29,6 +29,7 @@ enum eTerrain
 
 class cGcWFCTerrainConstraint
 {
+public:
     static const unsigned __int64 muNameHash = 0xF0679B25F5343B25;
     static const unsigned __int64 muTemplateHash = 0x48FCC1BDF4A692B3;
     static const int miNumMembers = 3;

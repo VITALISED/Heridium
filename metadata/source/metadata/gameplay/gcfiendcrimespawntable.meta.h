@@ -1,17 +1,18 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcFiendCrime;
 
 class cGcFiendCrimeSpawnTable
 {
+public:
     static const unsigned __int64 muNameHash = 0x4EBB7BDC5EE300EA;
     static const unsigned __int64 muTemplateHash = 0xF11ACFCECBC95ACF;
     static const int miNumMembers = 3;
 
     cGcFiendCrime mCrime;
     float mfResponseRate;
-    cTkDynamicArray<cGcFiendCrimeSpawnData> maSpawns;
+    cTkDynamicArray<cGcFiendCrimeSpawnData1> maSpawns;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

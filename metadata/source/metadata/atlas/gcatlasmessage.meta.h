@@ -1,17 +1,18 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcUniverseAddressData;
 
 class cGcAtlasMessage
 {
+public:
     static const unsigned __int64 muNameHash = 0x81E5018BD0B4C94D;
     static const unsigned __int64 muTemplateHash = 0x5C61E84BEA8B2ECE;
     static const int miNumMembers = 4;
 
     cGcUniverseAddressData mUniverseAddress;
     cTkFixedString<128,char> macCustomName;
-    cTkVector mPosition;
+    cTkVector3 mPosition;
     int miColourIndex;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

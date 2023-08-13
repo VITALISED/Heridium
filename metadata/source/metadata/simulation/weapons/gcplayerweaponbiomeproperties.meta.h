@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBiomeType;
 
 class cGcPlayerWeaponBiomeProperties
 {
+public:
     static const unsigned __int64 muNameHash = 0x7F61AD955291D8A9;
     static const unsigned __int64 muTemplateHash = 0x7B5757AA4A71E8A4;
     static const int miNumMembers = 14;
@@ -22,7 +23,7 @@ class cGcPlayerWeaponBiomeProperties
     TkID<128> mWeaponFireParticlesId;
     TkID<128> mProjectile;
     cTkColour mUpgradeColourOverride;
-    cTkDynamicArray<cGcStatsBonus> maStatBonusesOverride;
+    cTkDynamicArray<cGcStatsBonus1> maStatBonusesOverride;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

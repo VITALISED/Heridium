@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMissionType;
 class cGcMissionDifficulty;
@@ -15,6 +15,7 @@ enum eDefaultItemTypeForInitialWarp
 
 class cGcMissionBoardOptions
 {
+public:
     static const unsigned __int64 muNameHash = 0xDD272E15749CCDF5;
     static const unsigned __int64 muTemplateHash = 0xFC68B7B7649C4567;
     static const int miNumMembers = 15;
@@ -27,13 +28,13 @@ class cGcMissionBoardOptions
     bool mbIsPlanetProcMission;
     bool mbIsMultiplayerEventMission;
     TkID<128> mRewardPenaltyOnAbandon;
-    cTkDynamicArray<cGcMissionFaction> maFaction;
+    cTkDynamicArray<cGcMissionFaction1> maFaction;
     int miWeighting;
     bool mbIgnoreCalculatedObjective;
     TkID<256> mMultiplayerMissionInitialWarpScanEvent;
-    cTkDynamicArray<TkID<256> > maDefaultItemInitialWarpScanEvents;
+    cTkDynamicArray<TkID<256>1> maDefaultItemInitialWarpScanEvents;
     eDefaultItemTypeForInitialWarp meDefaultItemTypeForInitialWarp;
-    cTkDynamicArray<TkID<128> > maBasePartBlueprints;
+    cTkDynamicArray<TkID<128>1> maBasePartBlueprints;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

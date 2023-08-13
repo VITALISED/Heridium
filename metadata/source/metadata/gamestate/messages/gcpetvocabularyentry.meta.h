@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPetVocabularyEntry
 {
+public:
     static const unsigned __int64 muNameHash = 0x370A2ECAE460B961;
     static const unsigned __int64 muTemplateHash = 0x3574C34B687AFFE5;
     static const int miNumMembers = 3;
 
     TkID<256> mGenericFallback;
     float mfOddsOfProcReplacement;
-    cTkDynamicArray<cGcPetVocabularyTraitEntry> maVocabulary;
+    cTkDynamicArray<cGcPetVocabularyTraitEntry1> maVocabulary;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

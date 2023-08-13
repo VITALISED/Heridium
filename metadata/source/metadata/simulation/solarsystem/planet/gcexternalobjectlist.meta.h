@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcEnvironmentSpawnData;
 
 class cGcExternalObjectList
 {
+public:
     static const unsigned __int64 muNameHash = 0xF94F95509B2D4135;
     static const unsigned __int64 muTemplateHash = 0x86CE7F6CAA5AADC1;
     static const int miNumMembers = 1;

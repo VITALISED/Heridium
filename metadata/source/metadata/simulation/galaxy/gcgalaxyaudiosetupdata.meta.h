@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAudioWwiseEvents;
 class cGcAudioWwiseEvents;
@@ -19,6 +19,7 @@ class cGcAudioWwiseRTPCs;
 
 class cGcGalaxyAudioSetupData
 {
+public:
     static const unsigned __int64 muNameHash = 0xA3F156D44BBFB2B9;
     static const unsigned __int64 muTemplateHash = 0xCD1747D3733E529B;
     static const int miNumMembers = 17;

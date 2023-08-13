@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkRagdollData
 {
+public:
     static const unsigned __int64 muNameHash = 0x52912F535A46A50C;
     static const unsigned __int64 muTemplateHash = 0x4C15A6F0B63EEF90;
     static const int miNumMembers = 4;
 
     float mfDensity;
     float mfGravity;
-    cTkDynamicArray<cTkFixedString<32,char> > maChainEnds;
-    cTkDynamicArray<cTkFixedString<32,char> > maExcludeJoints;
+    cTkDynamicArray<cTkFixedString<32,char>1> maChainEnds;
+    cTkDynamicArray<cTkFixedString<32,char>1> maExcludeJoints;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

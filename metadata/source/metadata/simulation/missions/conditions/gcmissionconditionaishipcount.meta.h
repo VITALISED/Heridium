@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcRealityCommonFactions;
 class cTkEqualityEnum;
 
 class cGcMissionConditionAIShipCount
 {
+public:
     static const unsigned __int64 muNameHash = 0xC1D7229530508055;
     static const unsigned __int64 muTemplateHash = 0xE09E786120C0434;
     static const int miNumMembers = 3;

@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNPCInteractiveObjectType;
 
 class cGcNPCInteractiveObjectComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x6EB308F16DDC755C;
     static const unsigned __int64 muTemplateHash = 0xD5ECDD0A3503E78F;
     static const int miNumMembers = 5;
@@ -13,7 +14,7 @@ class cGcNPCInteractiveObjectComponentData
     int miMaxCapacity;
     float mfDurationMin;
     float mfDurationMax;
-    cTkDynamicArray<cGcNPCInteractiveObjectState> maStates;
+    cTkDynamicArray<cGcNPCInteractiveObjectState1> maStates;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

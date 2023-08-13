@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eShape
 {
@@ -25,6 +25,7 @@ enum eGradient
 
 class cTkNGuiGraphicStyleData
 {
+public:
     static const unsigned __int64 muNameHash = 0x250B60FD6373D170;
     static const unsigned __int64 muTemplateHash = 0xD456283B718F9F11;
     static const int miNumMembers = 26;

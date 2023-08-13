@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcExperienceDebugTriggerActionTypes;
 
 class cGcExperienceDebugTriggerAction
 {
+public:
     static const unsigned __int64 muNameHash = 0x3339FF1DC3ABF146;
     static const unsigned __int64 muTemplateHash = 0x788DA6C52270D6C0;
     static const int miNumMembers = 2;

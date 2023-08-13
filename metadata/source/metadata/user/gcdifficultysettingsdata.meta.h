@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDeathConsequencesDifficultyOption;
 class cGcDamageReceivedDifficultyOption;
@@ -24,6 +24,7 @@ class cGcBreakTechOnDamageDifficultyOption;
 
 class cGcDifficultySettingsData
 {
+public:
     static const unsigned __int64 muNameHash = 0x640D4FDC2A95A771;
     static const unsigned __int64 muTemplateHash = 0x26F84C6D1073784E;
     static const int miNumMembers = 28;

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAudio3PointDopplerData
 {
+public:
     static const unsigned __int64 muNameHash = 0x8E9A21977A683E5A;
     static const unsigned __int64 muTemplateHash = 0x74CC72D7620360B2;
     static const int miNumMembers = 3;

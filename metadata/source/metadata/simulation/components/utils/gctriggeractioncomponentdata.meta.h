@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcTriggerActionComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x7F5DF5820C8BDB22;
     static const unsigned __int64 muTemplateHash = 0x298A43DD86113262;
     static const int miNumMembers = 7;
 
     bool mbHideModel;
     bool mbStartInactive;
-    cTkDynamicArray<cGcActionTriggerState> maStates;
+    cTkDynamicArray<cGcActionTriggerState1> maStates;
     bool mbPersistent;
     TkID<128> mPersistentState;
     bool mbResetShotTimeOnStateChange;

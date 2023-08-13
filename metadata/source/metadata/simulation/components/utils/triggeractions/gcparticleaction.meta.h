@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBroadcastLevel;
 
 class cGcParticleAction
 {
+public:
     static const unsigned __int64 muNameHash = 0x88C11D6208F25864;
     static const unsigned __int64 muTemplateHash = 0x692A75E313548729;
     static const int miNumMembers = 4;

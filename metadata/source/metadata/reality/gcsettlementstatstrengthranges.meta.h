@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSettlementStatStrengthRanges
 {
+public:
     static const unsigned __int64 muNameHash = 0xCE277CF591D7A4A9;
     static const unsigned __int64 muTemplateHash = 0xAC70928D1A18CD;
     static const int miNumMembers = 2;

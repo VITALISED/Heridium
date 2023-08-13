@@ -1,19 +1,20 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNPCAnimationSetData
 {
+public:
     static const unsigned __int64 muNameHash = 0xF3A35A6135FAD505;
     static const unsigned __int64 muTemplateHash = 0xE00D51FF9EA5A779;
     static const int miNumMembers = 7;
 
-    cTkDynamicArray<cGcNPCProbabilityAnimationData> maIdleAnimations;
-    cTkDynamicArray<cGcNPCProbabilityAnimationData> maIdleFlavourAnimations;
-    cTkDynamicArray<cGcNPCProbabilityAnimationData> maChatterAnimations;
-    cTkDynamicArray<cGcNPCProbabilityAnimationData> maListenAnimations;
-    cTkDynamicArray<cGcNPCProbabilityAnimationData> maGreetAnimations;
-    cTkFixedArray<cGcNPCAnimationList> maMoodAnims;
-    cTkFixedArray<TkID<128> > maMoodLoops;
+    cTkDynamicArray<cGcNPCProbabilityAnimationData1> maIdleAnimations;
+    cTkDynamicArray<cGcNPCProbabilityAnimationData1> maIdleFlavourAnimations;
+    cTkDynamicArray<cGcNPCProbabilityAnimationData1> maChatterAnimations;
+    cTkDynamicArray<cGcNPCProbabilityAnimationData1> maListenAnimations;
+    cTkDynamicArray<cGcNPCProbabilityAnimationData1> maGreetAnimations;
+    cTkFixedArray<cGcNPCAnimationList, 9> maMoodAnims;
+    cTkFixedArray<TkID<128>, 9> maMoodLoops;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

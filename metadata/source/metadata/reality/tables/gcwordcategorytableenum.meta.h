@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum egcwordcategorytableEnum
 {
@@ -14,6 +14,7 @@ enum egcwordcategorytableEnum
 
 class cgcwordcategorytableEnum
 {
+public:
     static const unsigned __int64 muNameHash = 0x4F41C5DCED5937F1;
     static const unsigned __int64 muTemplateHash = 0x54D577DD4FC76430;
     static const int miNumMembers = 1;

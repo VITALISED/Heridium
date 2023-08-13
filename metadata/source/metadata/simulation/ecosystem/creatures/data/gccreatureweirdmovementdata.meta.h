@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eMoveMode
 {
@@ -10,6 +10,7 @@ enum eMoveMode
 
 class cGcCreatureWeirdMovementData
 {
+public:
     static const unsigned __int64 muNameHash = 0xBE42E310FC94C8E3;
     static const unsigned __int64 muTemplateHash = 0xE92FCC2DF81C6C7D;
     static const int miNumMembers = 7;
@@ -20,7 +21,7 @@ class cGcCreatureWeirdMovementData
     float mfBobAmount;
     float mfSpinSpeed;
     float mfJumpAngle;
-    cTkDynamicArray<cTkFixedString<256,char> > maFeetNames;
+    cTkDynamicArray<cTkFixedString<256,char>1> maFeetNames;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

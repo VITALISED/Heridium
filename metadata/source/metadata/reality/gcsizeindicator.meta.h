@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eSizeIndicator
 {
@@ -10,6 +10,7 @@ enum eSizeIndicator
 
 class cGcSizeIndicator
 {
+public:
     static const unsigned __int64 muNameHash = 0x22715A99B359A960;
     static const unsigned __int64 muTemplateHash = 0xDADE724C336C1487;
     static const int miNumMembers = 1;

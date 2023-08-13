@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBaseBuildingPartStyle;
 class cTkMagicModelData;
 
 class cGcBaseBuildingPartData
 {
+public:
     static const unsigned __int64 muNameHash = 0x4F6F7504AD1EBFFC;
     static const unsigned __int64 muTemplateHash = 0x7744F71486CD147D;
     static const int miNumMembers = 12;

@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNGuiStyleAnimationData;
 
 class cGcNGuiSpecialTextStyleData
 {
+public:
     static const unsigned __int64 muNameHash = 0x9C498422BDBE21FE;
     static const unsigned __int64 muTemplateHash = 0x3DE2EB0549638644;
     static const int miNumMembers = 3;
 
     TkID<128> mName;
-    cTkDynamicArray<cTkClassPointer> maStyleProperties;
+    cTkDynamicArray<cTkClassPointer1> maStyleProperties;
     cGcNGuiStyleAnimationData mAnimation;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

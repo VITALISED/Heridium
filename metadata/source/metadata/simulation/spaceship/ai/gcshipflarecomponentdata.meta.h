@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eFlareType
 {
@@ -8,6 +8,7 @@ enum eFlareType
 
 class cGcShipFlareComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xCF633C20574F7F38;
     static const unsigned __int64 muTemplateHash = 0xAC35861E5E356A4C;
     static const int miNumMembers = 1;

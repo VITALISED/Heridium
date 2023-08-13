@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureRidingPartModifier
 {
+public:
     static const unsigned __int64 muNameHash = 0xB9A3955D41C87D67;
     static const unsigned __int64 muTemplateHash = 0x66B10ABD887EC31F;
     static const int miNumMembers = 16;
@@ -14,15 +15,15 @@ class cGcCreatureRidingPartModifier
     cTkFixedString<256,char> macAdditionalScaleJoint;
     bool mbBreakIfNotSelected;
     bool mbRelativeOffset;
-    cTkVector mOffset;
-    cTkVector mRotationOffset;
-    cTkVector mVROffset;
+    cTkVector3 mOffset;
+    cTkVector3 mRotationOffset;
+    cTkVector3 mVROffset;
     float mfHeadCounterRotation;
     float mfLegSpreadOffset;
     bool mbOverrideAnims;
     TkID<128> mIdleRidingAnim;
     TkID<128> mDefaultRidingAnim;
-    cTkDynamicArray<cGcCreatureRidingAnimation> maRidingAnims;
+    cTkDynamicArray<cGcCreatureRidingAnimation1> maRidingAnims;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

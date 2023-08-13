@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPrimaryAxis;
 class cTkCreatureTailParams;
 
 class cTkCreatureTailComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x787641F134B1AFBD;
     static const unsigned __int64 muTemplateHash = 0x38F8BA7B7D94CFC6;
     static const int miNumMembers = 4;
@@ -13,7 +14,7 @@ class cTkCreatureTailComponentData
     cGcPrimaryAxis mLengthAxis;
     bool mbCanUseDefaultParams;
     cTkCreatureTailParams mDefaultParams;
-    cTkDynamicArray<cTkCreatureTailParams> maParamVariations;
+    cTkDynamicArray<cTkCreatureTailParams1> maParamVariations;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

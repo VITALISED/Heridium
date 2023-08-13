@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcShieldComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x65A5F4EB293453CD;
     static const unsigned __int64 muTemplateHash = 0xE30F638ED55676AC;
     static const int miNumMembers = 1;

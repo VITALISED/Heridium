@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDifficultyFuelUseOptionData
 {
+public:
     static const unsigned __int64 muNameHash = 0x15072D4E11178622;
     static const unsigned __int64 muTemplateHash = 0xDDB5F6B408399220;
     static const int miNumMembers = 2;
 
     float mfMultiplier;
-    cTkDynamicArray<cGcDifficultyFuelUseTechOverride> maTechOverrides;
+    cTkDynamicArray<cGcDifficultyFuelUseTechOverride1> maTechOverrides;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

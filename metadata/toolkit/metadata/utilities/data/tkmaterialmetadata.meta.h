@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eShader
 {
@@ -22,6 +22,7 @@ class cTkMaterialShaderMillData;
 
 class cTkMaterialMetaData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE39CB7AA4D818260;
     static const unsigned __int64 muTemplateHash = 0xC4E74407D409755F;
     static const int miNumMembers = 118;
@@ -136,13 +137,13 @@ class cTkMaterialMetaData
     bool mbDisplacementWave;
     bool mbDisplacementPositionOffset;
     float mfWaveOneSpeed;
-    cTkVector mWaveOneAmplitude;
-    cTkVector mWaveOneFrequency;
-    cTkVector mWaveOneFallOff;
+    cTkVector3 mWaveOneAmplitude;
+    cTkVector3 mWaveOneFrequency;
+    cTkVector3 mWaveOneFallOff;
     float mfWaveTwoSpeed;
-    cTkVector mWaveTwoAmplitude;
-    cTkVector mWaveTwoFrequency;
-    cTkVector mWaveTwoFallOff;
+    cTkVector3 mWaveTwoAmplitude;
+    cTkVector3 mWaveTwoFrequency;
+    cTkVector3 mWaveTwoFallOff;
     cTkMaterialShaderMillData mShaderMillData;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

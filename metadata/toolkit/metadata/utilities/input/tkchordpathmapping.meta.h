@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkChordPathMapping
 {
+public:
     static const unsigned __int64 muNameHash = 0xA012CD9DA9418E41;
     static const unsigned __int64 muTemplateHash = 0xBF2A55B37578B2B0;
     static const int miNumMembers = 6;
 
-    cTkDynamicArray<cTkInputEnum> maButtonIds;
+    cTkDynamicArray<cTkInputEnum1> maButtonIds;
     TkID<256> mName;
     TkID<128> mTextTag;
     cTkFixedString<128,char> macSolidIcon;

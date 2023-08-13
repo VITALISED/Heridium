@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkOpenVRControllerLookup
 {
+public:
     static const unsigned __int64 muNameHash = 0x5AFD5621E9999DDA;
     static const unsigned __int64 muTemplateHash = 0x865DC7F91B663645;
     static const int miNumMembers = 3;

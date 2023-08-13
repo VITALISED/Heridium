@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcColourModifier;
 class cGcColourModifier;
@@ -13,6 +13,7 @@ class cGcColourModifier;
 
 class cGcWeatherColourModifiers
 {
+public:
     static const unsigned __int64 muNameHash = 0x63BA6E198CA6237E;
     static const unsigned __int64 muTemplateHash = 0xD425864C90EB0317;
     static const int miNumMembers = 10;
@@ -26,7 +27,7 @@ class cGcWeatherColourModifiers
     cGcColourModifier mLightColour;
     cGcColourModifier mCloudColour1;
     cGcColourModifier mCloudColour2;
-    cTkFixedArray<cGcColourModifier> maHeavyAirColour;
+    cTkFixedArray<cGcColourModifier, 5> maHeavyAirColour;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkModelResource;
 class cTkTextureResource;
@@ -24,6 +24,7 @@ enum eWikiCategory
 
 class cGcProductData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE831C8A241FD8276;
     static const unsigned __int64 muTemplateHash = 0xC8BD0ABA9E49767F;
     static const int miNumMembers = 44;
@@ -51,8 +52,8 @@ class cGcProductData
     int miDefaultCraftAmount;
     int miCraftAmountStepSize;
     int miCraftAmountMultiplier;
-    cTkDynamicArray<cGcTechnologyRequirement> maRequirements;
-    cTkDynamicArray<cGcTechnologyRequirement> maAltRequirements;
+    cTkDynamicArray<cGcTechnologyRequirement1> maRequirements;
+    cTkDynamicArray<cGcTechnologyRequirement1> maAltRequirements;
     cGcItemPriceModifiers mCost;
     int miRecipeCost;
     bool mbSpecificChargeOnly;

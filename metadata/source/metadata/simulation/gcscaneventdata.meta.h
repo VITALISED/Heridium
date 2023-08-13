@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInteractionType;
 class cGcAlienRace;
@@ -88,6 +88,7 @@ class cGcResourceElement;
 
 class cGcScanEventData
 {
+public:
     static const unsigned __int64 muNameHash = 0x7BBBCE7D7BC0F1F4;
     static const unsigned __int64 muTemplateHash = 0x5D2C5B4A197F412A;
     static const int miNumMembers = 55;
@@ -130,7 +131,7 @@ class cGcScanEventData
     TkID<128> mHasReward;
     TkID<256> mNextOption;
     cGcScanEventTriggers mTriggerActions;
-    cTkDynamicArray<cTkFixedString<256,char> > maUAsList;
+    cTkDynamicArray<cTkFixedString<256,char>1> maUAsList;
     cGcTechnologyCategory mTechShopType;
     cTkFixedString<32,char> macOSDMessage;
     cTkFixedString<32,char> macInterstellarOSDMessage;

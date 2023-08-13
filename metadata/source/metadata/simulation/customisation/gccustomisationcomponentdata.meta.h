@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eCustomisationDataType
 {
@@ -30,6 +30,7 @@ enum eCustomisationDataType
 
 class cGcCustomisationComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x52B0589631E97AC5;
     static const unsigned __int64 muTemplateHash = 0xD42BD8870A05E97F;
     static const int miNumMembers = 1;

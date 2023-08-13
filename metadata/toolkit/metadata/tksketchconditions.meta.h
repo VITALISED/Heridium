@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 enum eCondition
 {
@@ -13,6 +13,7 @@ enum eCondition
 
 class cTkSketchConditions
 {
+public:
     static const unsigned __int64 muNameHash = 0x42F1604851DA7F02;
     static const unsigned __int64 muTemplateHash = 0x1B9710CC397E213C;
     static const int miNumMembers = 1;

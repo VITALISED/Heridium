@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkParticleBurstData;
 class cTkEmitterFloatProperty;
@@ -72,6 +72,7 @@ class cTkFloatRange;
 
 class cTkParticleData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE9525144C4F949EB;
     static const unsigned __int64 muTemplateHash = 0x353F8C32388B38B0;
     static const int miNumMembers = 54;
@@ -91,7 +92,7 @@ class cTkParticleData
     cTkCurveType mEmitterLifeCurve2;
     float mfEmitterSpreadAngle;
     float mfEmitterSpreadAngleMin;
-    cTkVector mEmitterDirection;
+    cTkVector3 mEmitterDirection;
     cTkEmitterFloatProperty mParticleSpeedMultiplier;
     cTkEmitterFloatProperty mParticleGravity;
     cTkEmitterFloatProperty mParticleDamping;
@@ -100,20 +101,20 @@ class cTkParticleData
     float mfVariation;
     float mfStartOffset;
     eSpawnOffsetType meSpawnOffsetType;
-    cTkVector mSpawnOffsetParams;
+    cTkVector3 mSpawnOffsetParams;
     cTkEmitterFloatProperty mParticleSize;
     cTkEmitterFloatProperty mParticleSizeY;
     float mfStartRotationVariation;
     cTkEmitterFloatProperty mRotation;
     eAlignment meAlignment;
     eBillboardAlignment meBillboardAlignment;
-    cTkVector mRotationPivot;
+    cTkVector3 mRotationPivot;
     cTkCoordinateOrientation mUCoordinate;
     cTkCoordinateOrientation mVCoordinate;
     float mfVelocityInheritance;
     float mfTrackEmitterPosition;
     float mfRotateAroundEmitter;
-    cTkVector mRotateAroundEmitterAxis;
+    cTkVector3 mRotateAroundEmitterAxis;
     eFlipbookPlaybackRate meFlipbookPlaybackRate;
     float mfHueVariance;
     float mfSaturationVariance;

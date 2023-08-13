@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSurvivalBarBoolArray
 {
+public:
     static const unsigned __int64 muNameHash = 0xF323538389A223A0;
     static const unsigned __int64 muTemplateHash = 0x421515CBE9E0A82;
     static const int miNumMembers = 1;
 
-    cTkFixedArray<bool> maValues;
+    cTkFixedArray<bool, 3> maValues;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

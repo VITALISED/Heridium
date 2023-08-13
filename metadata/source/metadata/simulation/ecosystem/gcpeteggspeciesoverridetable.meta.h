@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPetEggSpeciesOverrideTable
 {
+public:
     static const unsigned __int64 muNameHash = 0x6110D9A6BE68E9B8;
     static const unsigned __int64 muTemplateHash = 0x2788A7B4909B43C0;
     static const int miNumMembers = 1;
 
-    cTkDynamicArray<cGcPetEggSpeciesOverrideData> maSpeciesOverrides;
+    cTkDynamicArray<cGcPetEggSpeciesOverrideData1> maSpeciesOverrides;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

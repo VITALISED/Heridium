@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkSceneNodeAttributeData
 {
+public:
     static const unsigned __int64 muNameHash = 0x502F1C3425CDC8EC;
     static const unsigned __int64 muTemplateHash = 0x3584805A4D182B6F;
     static const int miNumMembers = 3;

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlayAudioAction
 {
+public:
     static const unsigned __int64 muNameHash = 0x7C82C5EBE3916386;
     static const unsigned __int64 muTemplateHash = 0xC1A655F641271435;
     static const int miNumMembers = 3;

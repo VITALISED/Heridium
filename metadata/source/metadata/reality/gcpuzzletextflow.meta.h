@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAlienMood;
 
@@ -20,6 +20,7 @@ class cGcAudioWwiseEvents;
 
 class cGcPuzzleTextFlow
 {
+public:
     static const unsigned __int64 muNameHash = 0x44CB81CE83D73B16;
     static const unsigned __int64 muTemplateHash = 0x6322BA74C87A2DBB;
     static const int miNumMembers = 8;

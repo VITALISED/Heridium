@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 class cTkPaletteTexture;
 
@@ -12,6 +12,7 @@ enum eTextureGameplayUse
 
 class cTkProceduralTexture
 {
+public:
     static const unsigned __int64 muNameHash = 0x75816D38B6B42FE4;
     static const unsigned __int64 muTemplateHash = 0xA9AA4969DCF153B8;
     static const int miNumMembers = 9;

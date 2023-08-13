@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eWeaponMode
 {
@@ -26,6 +26,7 @@ enum eWeaponMode
 
 class cGcPlayerWeapons
 {
+public:
     static const unsigned __int64 muNameHash = 0x8A17532BB2410967;
     static const unsigned __int64 muTemplateHash = 0xBE69B1FFFEBFE9FD;
     static const int miNumMembers = 1;

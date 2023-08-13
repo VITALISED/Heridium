@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcExoMechWeaponData
 {
+public:
     static const unsigned __int64 muNameHash = 0xAB111A88D43A92B4;
     static const unsigned __int64 muTemplateHash = 0x34E79E36B5462BA;
     static const int miNumMembers = 10;
 
-    cTkDynamicArray<cGcMechWeaponLocation> maLocationPriority;
+    cTkDynamicArray<cGcMechWeaponLocation1> maLocationPriority;
     float mfMaintainFireLocationMinTime;
-    cTkFixedArray<TkID<128> > maMuzzleFlashDataID;
+    cTkFixedArray<TkID<128>, 4> maMuzzleFlashDataID;
     float mfAngleToleranceForArmAiming;
     float mfCooldownTimeMin;
     float mfCooldownTimeMax;

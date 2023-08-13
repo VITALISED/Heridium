@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eQuality
 {
@@ -15,6 +15,7 @@ class cGcWeightingCurve;
 
 class cGcProceduralTechnologyData
 {
+public:
     static const unsigned __int64 muNameHash = 0x6B8472FADE3C492C;
     static const unsigned __int64 muTemplateHash = 0x771B3CF67E3FD8A8;
     static const int miNumMembers = 15;
@@ -33,7 +34,7 @@ class cGcProceduralTechnologyData
     int miNumStatsMax;
     cGcWeightingCurve mWeightingCurve;
     cTkColour mUpgradeColour;
-    cTkDynamicArray<cGcProceduralTechnologyStatLevel> maStatLevels;
+    cTkDynamicArray<cGcProceduralTechnologyStatLevel1> maStatLevels;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

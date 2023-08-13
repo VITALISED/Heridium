@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 enum eTriggerType
 {
@@ -13,6 +13,7 @@ enum eTriggerType
 
 class cTkSketchNodeData
 {
+public:
     static const unsigned __int64 muNameHash = 0x34A0F43E0ECB3765;
     static const unsigned __int64 muTemplateHash = 0x42A7CE67E1CAAAA6;
     static const int miNumMembers = 7;
@@ -22,8 +23,8 @@ class cTkSketchNodeData
     int miSelectedVariant;
     int miPositionX;
     int miPositionY;
-    cTkDynamicArray<cTkSketchNodeConnections> maConnections;
-    cTkDynamicArray<unsigned __int8> maCustomData;
+    cTkDynamicArray<cTkSketchNodeConnections1> maConnections;
+    cTkDynamicArray<unsigned __int81> maCustomData;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

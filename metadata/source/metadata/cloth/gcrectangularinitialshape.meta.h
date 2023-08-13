@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcRectangularInitialShape
 {
+public:
     static const unsigned __int64 muNameHash = 0xD1F40E0F6517D194;
     static const unsigned __int64 muTemplateHash = 0xC54F39F8901E7E52;
     static const int miNumMembers = 4;
 
-    cTkVector mTopLineStart;
-    cTkVector mTopLineEnd;
-    cTkVector mBottomLineStart;
-    cTkVector mBottomLineEnd;
+    cTkVector3 mTopLineStart;
+    cTkVector3 mTopLineEnd;
+    cTkVector3 mBottomLineStart;
+    cTkVector3 mBottomLineEnd;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

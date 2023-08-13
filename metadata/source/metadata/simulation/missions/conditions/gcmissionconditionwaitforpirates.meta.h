@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkEqualityEnum;
 
 class cGcMissionConditionWaitForPirates
 {
+public:
     static const unsigned __int64 muNameHash = 0x978040CE6A2C247B;
     static const unsigned __int64 muTemplateHash = 0x358310F2D3B8F7E8;
     static const int miNumMembers = 6;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSolarSystemClass;
 class cGcGalaxyStarTypes;
@@ -23,6 +23,7 @@ class cGcPlayerConflictData;
 
 class cGcSolarSystemData
 {
+public:
     static const unsigned __int64 muNameHash = 0x9B09276BB2795541;
     static const unsigned __int64 muTemplateHash = 0xA2E4A21CCF757F1A;
     static const int miNumMembers = 35;
@@ -32,11 +33,11 @@ class cGcSolarSystemData
     cGcSolarSystemClass mClass;
     cGcGalaxyStarTypes mStarType;
     int miPlanets;
-    cTkFixedArray<cTkVector> maPlanetPositions;
-    cTkFixedArray<cGcPlanetGenerationInputData> maPlanetGenerationInputs;
-    cTkFixedArray<int> maPlanetOrbits;
+    cTkFixedArray<cTkVector3, 8> maPlanetPositions;
+    cTkFixedArray<cGcPlanetGenerationInputData, 8> maPlanetGenerationInputs;
+    cTkFixedArray<int, 8> maPlanetOrbits;
     int miPrimePlanets;
-    cTkVector mSunPosition;
+    cTkVector3 mSunPosition;
     TkID<128> mAsteroidSubstanceID;
     int miNumTradeRoutes;
     int miNumVisibleTradeRoutes;
@@ -50,15 +51,15 @@ class cGcSolarSystemData
     cGcSpaceStationSpawnData mSpaceStationSpawn;
     cGcSolarSystemTraderSpawnData mTraderSpawnOnOutposts;
     cGcSolarSystemTraderSpawnData mTraderSpawnInStations;
-    cTkDynamicArray<cGcSolarSystemLocator> maLocators;
-    cTkDynamicArray<cTkClassPointer> maAsteroidGenerators;
+    cTkDynamicArray<cGcSolarSystemLocator1> maLocators;
+    cTkDynamicArray<cTkClassPointer1> maAsteroidGenerators;
     eAsteroidLevel meAsteroidLevel;
     cGcPlanetColourData mColours;
     cGcLightProperties mLight;
     cGcSpaceSkyProperties mSky;
     cGcScreenFilters mScreenFilter;
     cTkFixedString<128,char> macHeavyAir;
-    cTkDynamicArray<cGcAISpaceshipPreloadCacheData> maSystemShips;
+    cTkDynamicArray<cGcAISpaceshipPreloadCacheData1> maSystemShips;
     cGcAlienRace mInhabitingRace;
     cGcPlanetTradingData mTradingData;
     cGcPlayerConflictData mConflictData;

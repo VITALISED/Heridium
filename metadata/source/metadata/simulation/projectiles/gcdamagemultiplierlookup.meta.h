@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDamageMultiplierLookup
 {
+public:
     static const unsigned __int64 muNameHash = 0x792FD0F5EBBA55E9;
     static const unsigned __int64 muTemplateHash = 0x7C4E219CEB4F33C3;
     static const int miNumMembers = 3;
 
     TkID<128> mId;
     float mfDefault;
-    cTkDynamicArray<cGcDamageMultiplier> maMultipliers;
+    cTkDynamicArray<cGcDamageMultiplier1> maMultipliers;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

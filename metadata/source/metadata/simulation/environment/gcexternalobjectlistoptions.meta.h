@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcTerrainTileType;
 
 class cGcExternalObjectListOptions
 {
+public:
     static const unsigned __int64 muNameHash = 0x51E8334202D1B952;
     static const unsigned __int64 muTemplateHash = 0xB27A8358427627CA;
     static const int miNumMembers = 9;
@@ -17,7 +18,7 @@ class cGcExternalObjectListOptions
     cGcTerrainTileType mTileType;
     bool mbAllowLimiting;
     bool mbChooseUsingLifeLevel;
-    cTkDynamicArray<cTkFixedString<128,char> > maOptions;
+    cTkDynamicArray<cTkFixedString<128,char>1> maOptions;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

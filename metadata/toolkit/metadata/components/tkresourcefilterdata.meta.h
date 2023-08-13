@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkResourceFilterData
 {
+public:
     static const unsigned __int64 muNameHash = 0xB015A154CC664705;
     static const unsigned __int64 muTemplateHash = 0x5E1C7F3BA587A759;
     static const int miNumMembers = 2;
 
     TkID<128> mFilterName;
-    cTkDynamicArray<TkID<256> > maFilteredResources;
+    cTkDynamicArray<TkID<256>1> maFilteredResources;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

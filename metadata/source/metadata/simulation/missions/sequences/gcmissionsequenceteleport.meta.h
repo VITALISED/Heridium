@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcTeleporterType;
 
 class cGcMissionSequenceTeleport
 {
+public:
     static const unsigned __int64 muNameHash = 0xE586E1C6C9A10307;
     static const unsigned __int64 muTemplateHash = 0xBB4A61849CB9F4C8;
     static const int miNumMembers = 7;

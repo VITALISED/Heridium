@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eGeneratorUnitType
 {
@@ -11,13 +11,14 @@ class cGcMaintenanceComponentData;
 
 class cGcGeneratorUnitComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE7D049A3A9D077A8;
     static const unsigned __int64 muTemplateHash = 0xFB38EAEFCC344295;
     static const int miNumMembers = 4;
 
     eGeneratorUnitType meGeneratorUnitType;
     int miResourceMaintenanceSlotOverride;
-    cTkFixedArray<TkID<128> > maBiomeGasRewards;
+    cTkFixedArray<TkID<128>, 16> maBiomeGasRewards;
     cGcMaintenanceComponentData mMaintenanceData;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCustomNotifyTimerOptions
 {
+public:
     static const unsigned __int64 muNameHash = 0xB254C2F2874C6D05;
     static const unsigned __int64 muTemplateHash = 0x1B04EBF0C9459B33;
     static const int miNumMembers = 3;

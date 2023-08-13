@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eRarity
 {
@@ -10,6 +10,7 @@ enum eRarity
 
 class cGcRarity
 {
+public:
     static const unsigned __int64 muNameHash = 0x85BD8B90D73C1D42;
     static const unsigned __int64 muTemplateHash = 0x8E5033B6253D925C;
     static const int miNumMembers = 1;

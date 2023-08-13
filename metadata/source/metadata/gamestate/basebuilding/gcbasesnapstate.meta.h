@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eSnapState
 {
@@ -9,6 +9,7 @@ enum eSnapState
 
 class cGcBaseSnapState
 {
+public:
     static const unsigned __int64 muNameHash = 0x1C08FB02D59766DB;
     static const unsigned __int64 muTemplateHash = 0x18D4335A77D190EA;
     static const int miNumMembers = 1;

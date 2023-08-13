@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureGenerationDomainTable
 {
+public:
     static const unsigned __int64 muNameHash = 0xCE47B2B5ED8374E1;
     static const unsigned __int64 muTemplateHash = 0x87BF5DF8DA96608C;
     static const int miNumMembers = 4;
 
     TkID<128> mId;
-    cTkDynamicArray<cGcCreatureGenerationDomainEntry> maTables;
+    cTkDynamicArray<cGcCreatureGenerationDomainEntry1> maTables;
     float mfChanceOfHemisphereLimit;
     int miMaxToHemisphereLimit;
 

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eMissionMarkup
 {
@@ -24,6 +24,7 @@ enum eMissionMarkup
 
 class cGcStatusMessageMissionMarkup
 {
+public:
     static const unsigned __int64 muNameHash = 0x8E8EC2C807363E97;
     static const unsigned __int64 muTemplateHash = 0xBE39D03F2CDE8335;
     static const int miNumMembers = 1;

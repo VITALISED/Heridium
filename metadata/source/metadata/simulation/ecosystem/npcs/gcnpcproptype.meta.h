@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eNPCProp
 {
@@ -20,6 +20,7 @@ enum eNPCProp
 
 class cGcNPCPropType
 {
+public:
     static const unsigned __int64 muNameHash = 0x69F60839059BF3CD;
     static const unsigned __int64 muTemplateHash = 0x6A5117479225A1A;
     static const int miNumMembers = 1;

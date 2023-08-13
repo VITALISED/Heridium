@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCurrency;
 
@@ -25,11 +25,12 @@ enum eIndexProvider
 
 class cGcCostMoneyList
 {
+public:
     static const unsigned __int64 muNameHash = 0x22A3BF55F268EEBE;
     static const unsigned __int64 muTemplateHash = 0x58EF17D19A623F12;
     static const int miNumMembers = 5;
 
-    cTkDynamicArray<int> maCosts;
+    cTkDynamicArray<int1> maCosts;
     cGcCurrency mCostCurrency;
     bool mbAssertIfOutOfBounds;
     eOutOfBoundsBehaviour meOutOfBoundsBehaviour;

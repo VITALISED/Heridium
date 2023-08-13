@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eLinesPosition
 {
@@ -9,6 +9,7 @@ enum eLinesPosition
 
 class cTkSpeedLineData
 {
+public:
     static const unsigned __int64 muNameHash = 0xEC9FF9AD5EDADEFF;
     static const unsigned __int64 muTemplateHash = 0xE445E4110EBDBDAC;
     static const int miNumMembers = 15;

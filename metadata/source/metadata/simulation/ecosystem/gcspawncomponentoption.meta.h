@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcResourceElement;
 
 class cGcSpawnComponentOption
 {
+public:
     static const unsigned __int64 muNameHash = 0xA7EE5AECC28F3591;
     static const unsigned __int64 muTemplateHash = 0x4A7AB9CCAC08262;
     static const int miNumMembers = 3;

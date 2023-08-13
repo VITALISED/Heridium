@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInventoryCostDataEntry
 {
+public:
     static const unsigned __int64 muNameHash = 0xD9472E9B798FC3B5;
     static const unsigned __int64 muTemplateHash = 0xB4708CCEB9DC9B88;
     static const int miNumMembers = 7;
@@ -13,7 +14,7 @@ class cGcInventoryCostDataEntry
     float mfMaxValueInMillions;
     float mfCoolMultiplier;
     float mfTradeInMultiplier;
-    cTkFixedArray<float> maClassMultiplier;
+    cTkFixedArray<float, 4> maClassMultiplier;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

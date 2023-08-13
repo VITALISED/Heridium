@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcWorldUISettings
 {
+public:
     static const unsigned __int64 muNameHash = 0x1805828080FC646E;
     static const unsigned __int64 muTemplateHash = 0x4913DD4F5BD20BEF;
     static const int miNumMembers = 20;

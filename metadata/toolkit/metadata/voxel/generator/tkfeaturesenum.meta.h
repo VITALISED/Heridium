@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eFeatureTypes
 {
@@ -14,6 +14,7 @@ enum eFeatureTypes
 
 class cTkFeaturesEnum
 {
+public:
     static const unsigned __int64 muNameHash = 0x34E815E84B84D42B;
     static const unsigned __int64 muTemplateHash = 0x21B18A160AD77B69;
     static const int miNumMembers = 1;

@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPunctuationDelayTable
 {
+public:
     static const unsigned __int64 muNameHash = 0x8A35BC3F94D0949F;
     static const unsigned __int64 muTemplateHash = 0x98FAEC01CF3A50C7;
     static const int miNumMembers = 1;
 
-    cTkFixedArray<cGcPunctuationDelayData> maPunctuationDelays;
+    cTkFixedArray<cGcPunctuationDelayData, 5> maPunctuationDelays;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

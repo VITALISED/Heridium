@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMissionSequenceCollectMultiProducts
 {
+public:
     static const unsigned __int64 muNameHash = 0x114C4232C254BE54;
     static const unsigned __int64 muTemplateHash = 0x87A7D49A988122DE;
     static const int miNumMembers = 5;
 
     cTkFixedString<128,char> macMessage;
-    cTkDynamicArray<cGcProductToCollect> maProducts;
+    cTkDynamicArray<cGcProductToCollect1> maProducts;
     bool mbWaitForSelected;
     bool mbSearchCookingIngredients;
     cTkFixedString<128,char> macDebugText;

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkGravityComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x3EB24220A135426C;
     static const unsigned __int64 muTemplateHash = 0xFFFB0FD90DBE99B2;
     static const int miNumMembers = 2;

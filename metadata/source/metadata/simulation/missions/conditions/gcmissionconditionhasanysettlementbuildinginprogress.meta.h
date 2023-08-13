@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMissionConditionHasAnySettlementBuildingInProgress
 {
+public:
     static const unsigned __int64 muNameHash = 0xFBAEC9AC6033BD5A;
     static const unsigned __int64 muTemplateHash = 0x581BD1663F042826;
     static const int miNumMembers = 1;

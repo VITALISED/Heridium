@@ -1,18 +1,19 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNGuiLayoutData;
 
 class cGcNGuiPreset
 {
+public:
     static const unsigned __int64 muNameHash = 0x31B2A19D40422178;
     static const unsigned __int64 muTemplateHash = 0xB5733CBA8C6D4D8;
     static const int miNumMembers = 5;
 
     cTkFixedString<128,char> macFont;
-    cTkFixedArray<cGcNGuiPresetGraphic> maLayer;
-    cTkFixedArray<cGcNGuiPresetGraphic> maGraphic;
-    cTkFixedArray<cGcNGuiPresetText> maText;
+    cTkFixedArray<cGcNGuiPresetGraphic, 10> maLayer;
+    cTkFixedArray<cGcNGuiPresetGraphic, 10> maGraphic;
+    cTkFixedArray<cGcNGuiPresetText, 10> maText;
     cGcNGuiLayoutData mSpacingLayout;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

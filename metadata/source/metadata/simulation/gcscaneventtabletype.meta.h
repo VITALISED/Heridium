@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eScanTable
 {
@@ -15,6 +15,7 @@ enum eScanTable
 
 class cGcScanEventTableType
 {
+public:
     static const unsigned __int64 muNameHash = 0x34D109FC6FD5709;
     static const unsigned __int64 muTemplateHash = 0x1815B0A103BF81B7;
     static const int miNumMembers = 1;

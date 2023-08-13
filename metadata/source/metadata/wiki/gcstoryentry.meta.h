@@ -1,17 +1,18 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAlienRace;
 
 class cGcStoryEntry
 {
+public:
     static const unsigned __int64 muNameHash = 0x7D4184057E24E50A;
     static const unsigned __int64 muTemplateHash = 0x94B5A44747517D29;
     static const int miNumMembers = 6;
 
     TkID<256> mTitle;
     TkID<256> mEntry;
-    cTkDynamicArray<cGcStoryEntryBranch> maBranchedEntries;
+    cTkDynamicArray<cGcStoryEntryBranch1> maBranchedEntries;
     TkID<256> mAlienText;
     bool mbAutoPrefixWithAlienText;
     cGcAlienRace mAlienTextForceRace;

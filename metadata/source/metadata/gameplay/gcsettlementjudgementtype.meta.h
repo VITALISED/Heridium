@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eSettlementJudgementType
 {
@@ -14,6 +14,7 @@ enum eSettlementJudgementType
 
 class cGcSettlementJudgementType
 {
+public:
     static const unsigned __int64 muNameHash = 0x9B6A014776B1F8BB;
     static const unsigned __int64 muTemplateHash = 0xBCAE176B666C6AF7;
     static const int miNumMembers = 1;

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcGeneratedBaseRoomTemplate
 {
+public:
     static const unsigned __int64 muNameHash = 0x11A53087B029E4F;
     static const unsigned __int64 muTemplateHash = 0x3990C837CE0F70A1;
     static const int miNumMembers = 13;
@@ -19,7 +20,7 @@ class cGcGeneratedBaseRoomTemplate
     int miMinContiguousHeight;
     int miMinContiguousDepth;
     float mfShrinkFactor;
-    cTkDynamicArray<TkID<128> > maDecorationThemes;
+    cTkDynamicArray<TkID<128>1> maDecorationThemes;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

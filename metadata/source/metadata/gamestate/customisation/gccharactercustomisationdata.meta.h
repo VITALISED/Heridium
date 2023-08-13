@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCharacterCustomisationData
 {
+public:
     static const unsigned __int64 muNameHash = 0xBF5911FBC471448F;
     static const unsigned __int64 muTemplateHash = 0xE5C56396D3246AA4;
     static const int miNumMembers = 5;
 
-    cTkDynamicArray<TkID<128> > maDescriptorGroups;
-    cTkDynamicArray<cGcCharacterCustomisationColourData> maColours;
-    cTkDynamicArray<cGcCharacterCustomisationTextureOptionData> maTextureOptions;
-    cTkDynamicArray<cGcCharacterCustomisationBoneScaleData> maBoneScales;
+    cTkDynamicArray<TkID<128>1> maDescriptorGroups;
+    cTkDynamicArray<cGcCharacterCustomisationColourData1> maColours;
+    cTkDynamicArray<cGcCharacterCustomisationTextureOptionData1> maTextureOptions;
+    cTkDynamicArray<cGcCharacterCustomisationBoneScaleData1> maBoneScales;
     float mfScale;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

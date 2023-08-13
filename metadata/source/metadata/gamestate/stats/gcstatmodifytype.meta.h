@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eModifyType
 {
@@ -10,6 +10,7 @@ enum eModifyType
 
 class cGcStatModifyType
 {
+public:
     static const unsigned __int64 muNameHash = 0xA2CE4FB30A13249B;
     static const unsigned __int64 muTemplateHash = 0xEBD2B9A30628DD26;
     static const int miNumMembers = 1;

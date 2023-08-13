@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 class cTkModelResource
 {
+public:
     static const unsigned __int64 muNameHash = 0xBE5E5CB33D0EB022;
     static const unsigned __int64 muTemplateHash = 0xE51AD91853C53588;
     static const int miNumMembers = 2;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eWealthClass
 {
@@ -11,6 +11,7 @@ enum eWealthClass
 
 class cGcWealthClass
 {
+public:
     static const unsigned __int64 muNameHash = 0xC0B928F5E2599F60;
     static const unsigned __int64 muTemplateHash = 0xEF25EE5283DBF5E4;
     static const int miNumMembers = 1;

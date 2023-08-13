@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlanetWeatherColourData
 {
+public:
     static const unsigned __int64 muNameHash = 0xA699A80ACABBB3C5;
     static const unsigned __int64 muTemplateHash = 0x79EC01ECC601AA7F;
     static const int miNumMembers = 11;
@@ -14,7 +15,7 @@ class cGcPlanetWeatherColourData
     cTkColour mSunColour;
     cTkColour mFogColour;
     cTkColour mHeightFogColour;
-    cTkVector mSkyGradientSpeed;
+    cTkVector3 mSkyGradientSpeed;
     cTkColour mLightColour;
     cTkColour mCloudColour1;
     cTkColour mCloudColour2;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eInventory
 {
@@ -8,11 +8,12 @@ enum eInventory
 
 class cGcTechnologyAttachmentComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x7CCA2E6781CC7070;
     static const unsigned __int64 muTemplateHash = 0x7168E53F55CDAD62;
     static const int miNumMembers = 3;
 
-    cTkDynamicArray<TkID<128> > maTechs;
+    cTkDynamicArray<TkID<128>1> maTechs;
     eInventory meInventory;
     bool mbInverted;
 

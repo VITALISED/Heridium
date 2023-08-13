@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAtlasSendSubmitContribution
 {
+public:
     static const unsigned __int64 muNameHash = 0x489FC19669F32DA6;
     static const unsigned __int64 muTemplateHash = 0xF9ABC14D825E9E66;
     static const int miNumMembers = 2;

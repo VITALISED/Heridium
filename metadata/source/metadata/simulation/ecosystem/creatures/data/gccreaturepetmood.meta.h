@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 enum ePetMood
 {
@@ -9,6 +9,7 @@ enum ePetMood
 
 class cGcCreaturePetMood
 {
+public:
     static const unsigned __int64 muNameHash = 0x2581D5C5DE2A6E6;
     static const unsigned __int64 muTemplateHash = 0xC92DB9B4AA0DC105;
     static const int miNumMembers = 1;

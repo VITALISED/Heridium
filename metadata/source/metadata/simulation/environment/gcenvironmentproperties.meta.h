@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcEnvironmentProperties
 {
+public:
     static const unsigned __int64 muNameHash = 0xB125AED843BB9164;
     static const unsigned __int64 muTemplateHash = 0x5878DB43951227CC;
     static const int miNumMembers = 27;
@@ -21,7 +22,7 @@ class cGcEnvironmentProperties
     float mfPlanetLodSwitch3;
     float mfAsteroidFadeHeightMin;
     float mfAsteroidFadeHeightMax;
-    cTkFixedArray<float> maSkyHeight;
+    cTkFixedArray<float, 4> maSkyHeight;
     float mfSkyAtmosphereHeight;
     float mfHorizonBlendHeight;
     float mfHorizonBlendLength;

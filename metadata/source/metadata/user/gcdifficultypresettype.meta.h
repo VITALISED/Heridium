@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eDifficultyPresetType
 {
@@ -14,6 +14,7 @@ enum eDifficultyPresetType
 
 class cGcDifficultyPresetType
 {
+public:
     static const unsigned __int64 muNameHash = 0x5401230062A6D869;
     static const unsigned __int64 muTemplateHash = 0x3EFADB6935A48DD6;
     static const int miNumMembers = 1;

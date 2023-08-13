@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eBasePartAudioLocation
 {
@@ -12,6 +12,7 @@ enum eBasePartAudioLocation
 
 class cGcBasePartAudioLocation
 {
+public:
     static const unsigned __int64 muNameHash = 0x832159F5794C47D5;
     static const unsigned __int64 muTemplateHash = 0x2E789F51CF31C9D9;
     static const int miNumMembers = 1;

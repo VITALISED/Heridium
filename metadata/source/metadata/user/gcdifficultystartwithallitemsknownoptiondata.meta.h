@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcKnownThingsPreset;
 class cGcInventoryContainer;
@@ -7,6 +7,7 @@ class cGcInventoryContainer;
 
 class cGcDifficultyStartWithAllItemsKnownOptionData
 {
+public:
     static const unsigned __int64 muNameHash = 0xBE7C831F4A1A69E6;
     static const unsigned __int64 muTemplateHash = 0xE7DD51918761C06;
     static const int miNumMembers = 3;

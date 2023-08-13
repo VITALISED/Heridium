@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBasePartSearchFilter;
 
 class cGcBaseSearchFilter
 {
+public:
     static const unsigned __int64 muNameHash = 0x53636362EAB448BF;
     static const unsigned __int64 muTemplateHash = 0xB3DC3F536A016394;
     static const int miNumMembers = 11;
@@ -16,7 +17,7 @@ class cGcBaseSearchFilter
     unsigned __int64 mui64OnSpecificPlanet;
     unsigned __int64 mui64InSpecificSystem;
     TkID<256> mOnSpecificPlanetScanEvent;
-    cTkDynamicArray<cGcPersistentBaseTypes> maMatchingTypes;
+    cTkDynamicArray<cGcPersistentBaseTypes1> maMatchingTypes;
     cGcBasePartSearchFilter mBasePartFilter;
     int miContainsMinParts;
     int miContainsMaxParts;

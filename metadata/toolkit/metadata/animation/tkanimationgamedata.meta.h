@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eBlockPlayerWeapon
 {
@@ -10,6 +10,7 @@ enum eBlockPlayerWeapon
 
 class cTkAnimationGameData
 {
+public:
     static const unsigned __int64 muNameHash = 0x4CC02B5A253167FD;
     static const unsigned __int64 muTemplateHash = 0x2B2AAF52924FA65D;
     static const int miNumMembers = 3;

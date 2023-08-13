@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 class cTkLanguages;
 
 class cTkLanguagesAllowedData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE421F6E8B9AA4E70;
     static const unsigned __int64 muTemplateHash = 0xE3A1447498994FC3;
     static const int miNumMembers = 2;
 
-    cTkDynamicArray<cTkLanguages> maAllowed;
+    cTkDynamicArray<cTkLanguages1> maAllowed;
     cTkLanguages mFallback;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

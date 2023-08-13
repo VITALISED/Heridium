@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcResourceElement;
 class cGcResourceElement;
@@ -12,6 +12,7 @@ class cGcRarity;
 
 class cGcCreatureSpawnData
 {
+public:
     static const unsigned __int64 muNameHash = 0x17AC2C984675F276;
     static const unsigned __int64 muTemplateHash = 0xD643FA7CFC3A8317;
     static const int miNumMembers = 24;

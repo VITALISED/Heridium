@@ -2,6 +2,11 @@
 
 void Dumper::Dump(const char* lpacFilename, const cTkMetaDataClass* lpMetaDataClass)
 {
+	std::ofstream outfile;
+
+	outfile.open("./HERMIDIUM/heridium.h", std::ios_base::app); // append instead of overwrite
+	outfile << "Data\n";
+
 	std::string localPath = fmt::format("/HERIDIUM/{}", lpacFilename);
 	std::string root = std::filesystem::current_path().string();
 	std::string fullPath = fmt::format("{}{}", root, localPath);
@@ -24,13 +29,13 @@ void Dumper::Dump(const char* lpacFilename, const cTkMetaDataClass* lpMetaDataCl
 
 	std::string pchDepth = "pch.h";
 
-	if ((depth - 2) > 0)
-	{
-		for (int i = 0; i < depth; i++)
-		{
-			pchDepth.insert(0, "../");
-		}
-	}
+	//if ((depth - 2) > 0)
+	//{
+	//	for (int i = 0; i < depth; i++)
+	//	{
+	//		pchDepth.insert(0, "../");
+	//	}
+	//}
 
 	std::string pchInclude = fmt::format("#include \"{}\"\n\n", pchDepth);
 	Header << pchInclude.c_str();
@@ -40,7 +45,7 @@ void Dumper::Dump(const char* lpacFilename, const cTkMetaDataClass* lpMetaDataCl
 		Dumper::ResolveMembersFirstPass(&Header, lpMetaDataClass);
 	}
 
-	Header << "class " << lpMetaDataClass->mpacName; Header << "\n{\n";
+	Header << "class " << lpMetaDataClass->mpacName; Header << "\n{\npublic:\n";
 
 	std::string hashString = fmt::format("    static const unsigned __int64 muNameHash = 0x{:X};\n", lpMetaDataClass->muNameHash);
 	std::string templateHashString = fmt::format("    static const unsigned __int64 muTemplateHash = 0x{:X};\n", lpMetaDataClass->muTemplateHash);
@@ -143,6 +148,8 @@ void Dumper::ResolveMembers(std::ofstream* Header, const cTkMetaDataClass* lpMet
 				innerString->append(laMember->mpClassMetadata->mpacName);
 
 			innerString->append(Dumper::EnumToChar(laMember->mInnerType));
+			if (laMember->mType == cTkMetaDataMember::EType_StaticArray)
+				innerString->append(", "); innerString->append(std::to_string(laMember->miCount));
 			if (innerString->back() == '>')
 				innerString->append(" ");
 			innerString->append(">");
@@ -265,7 +272,7 @@ const char* Dumper::EnumToChar(cTkMetaDataMember::eType leType)
 		case cTkMetaDataMember::EType_UniqueId:
 			return "cTkNetworkID"; 
 		case cTkMetaDataMember::EType_Vector:
-			return "cTkVector";
+			return "cTkVector3";
 		case cTkMetaDataMember::EType_Vector2:
 			return "cTkVector2";
 		case cTkMetaDataMember::EType_Vector4:

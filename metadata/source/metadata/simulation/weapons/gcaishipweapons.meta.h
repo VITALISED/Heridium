@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eAIShipWeapon
 {
@@ -10,6 +10,7 @@ enum eAIShipWeapon
 
 class cGcAIShipWeapons
 {
+public:
     static const unsigned __int64 muNameHash = 0x1C73992CC7DA5C9A;
     static const unsigned __int64 muTemplateHash = 0xF9C5E33D19947755;
     static const int miNumMembers = 1;

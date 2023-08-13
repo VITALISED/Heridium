@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureRoles;
 class cGcCreatureTypes;
@@ -10,6 +10,7 @@ class cGcCreatureActiveTime;
 
 class cGcCreatureRoleDescription
 {
+public:
     static const unsigned __int64 muNameHash = 0xA1B4C2EA26DFEA74;
     static const unsigned __int64 muTemplateHash = 0x6875F7793735EEE2;
     static const int miNumMembers = 13;

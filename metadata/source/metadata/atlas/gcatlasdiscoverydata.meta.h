@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcUniverseAddressData;
 class cGcDiscoveryType;
 
 class cGcAtlasDiscoveryData
 {
+public:
     static const unsigned __int64 muNameHash = 0x34272E24BB717FCB;
     static const unsigned __int64 muTemplateHash = 0x96A8C4489DAC50F2;
     static const int miNumMembers = 4;
@@ -13,7 +14,7 @@ class cGcAtlasDiscoveryData
     cGcUniverseAddressData mUniverseAddress;
     cGcDiscoveryType mType;
     int miPayloadElements;
-    cTkFixedArray<unsigned __int64> maPayload;
+    cTkFixedArray<unsigned __int64, 5> maPayload;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

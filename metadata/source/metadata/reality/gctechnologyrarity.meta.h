@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eTechnologyRarity
 {
@@ -14,6 +14,7 @@ enum eTechnologyRarity
 
 class cGcTechnologyRarity
 {
+public:
     static const unsigned __int64 muNameHash = 0xDB3D22C1C68F20C3;
     static const unsigned __int64 muTemplateHash = 0x39B9A7A9078A0304;
     static const int miNumMembers = 1;

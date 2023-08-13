@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcScannerIcon;
 class cGcScannerIcon;
@@ -69,6 +69,7 @@ class cGcScannerIcon;
 
 class cGcScannerIcons
 {
+public:
     static const unsigned __int64 muNameHash = 0x392CEA8FE98D0F4;
     static const unsigned __int64 muTemplateHash = 0x136B9B1D27C723B6;
     static const int miNumMembers = 82;
@@ -103,13 +104,13 @@ class cGcScannerIcons
     cGcScannerIcon mDiamondAnimation;
     cGcScannerIcon mArrowSmall;
     cGcScannerIcon mArrowLarge;
-    cTkFixedArray<cGcScannerIcon> maGenericIcons;
-    cTkFixedArray<cGcScannerIcon> maBuildingIcons;
-    cTkFixedArray<cGcScannerIcon> maBuildingIconsBinocs;
-    cTkFixedArray<cGcScannerIcon> maBuildingIconsHuge;
-    cTkFixedArray<cGcScannerIcon> maScannableIcons;
-    cTkFixedArray<cGcScannerIcon> maScannableIconsBinocs;
-    cTkFixedArray<cTkColour> maScannableColours;
+    cTkFixedArray<cGcScannerIcon, 6> maGenericIcons;
+    cTkFixedArray<cGcScannerIcon, 33> maBuildingIcons;
+    cTkFixedArray<cGcScannerIcon, 33> maBuildingIconsBinocs;
+    cTkFixedArray<cGcScannerIcon, 33> maBuildingIconsHuge;
+    cTkFixedArray<cGcScannerIcon, 54> maScannableIcons;
+    cTkFixedArray<cGcScannerIcon, 54> maScannableIconsBinocs;
+    cTkFixedArray<cTkColour, 54> maScannableColours;
     cTkColour mBuildingColour;
     cTkColour mGenericColour;
     cTkColour mRelicColour;
@@ -127,10 +128,10 @@ class cGcScannerIcons
     cGcScannerIcon mNetworkPlayerMarker;
     cGcScannerIcon mNetworkPlayerMarkerShip;
     cGcScannerIcon mNetworkPlayerMarkerVehicle;
-    cTkFixedArray<cGcScannerIcon> maNetworkFSPlayerMarkers;
-    cTkFixedArray<cGcScannerIcon> maNetworkFSPlayerMarkersShip;
-    cTkFixedArray<cTkColour> maNetworkFSPlayerColours;
-    cTkFixedArray<cGcScannerIcon> maNetworkPlayerFreighter;
+    cTkFixedArray<cGcScannerIcon, 4> maNetworkFSPlayerMarkers;
+    cTkFixedArray<cGcScannerIcon, 4> maNetworkFSPlayerMarkersShip;
+    cTkFixedArray<cTkColour, 4> maNetworkFSPlayerColours;
+    cTkFixedArray<cGcScannerIcon, 4> maNetworkPlayerFreighter;
     cGcScannerIcon mPortalMarker;
     cGcScannerIcon mBlackHole;
     cGcScannerIcon mCreatureCurious;
@@ -139,7 +140,7 @@ class cGcScannerIcons
     cGcScannerIcon mCreatureDanger;
     cGcScannerIcon mCreatureFiend;
     cGcScannerIcon mCreatureMilk;
-    cTkFixedArray<cTkTextureResource> maHighlightIcons;
+    cTkFixedArray<cTkTextureResource, 5> maHighlightIcons;
     cGcScannerIcon mMissionEnterOrbit;
     cGcScannerIcon mMissionEnterBuilding;
     cGcScannerIcon mMissionEnterStation;

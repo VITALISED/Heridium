@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eItemPurpose
 {
@@ -13,6 +13,7 @@ enum eItemPurpose
 
 class cGcItemNeedPurpose
 {
+public:
     static const unsigned __int64 muNameHash = 0xE637310E185BAB51;
     static const unsigned __int64 muTemplateHash = 0xD494B90ACEB9A99C;
     static const int miNumMembers = 1;

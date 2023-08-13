@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcGeneratedBaseLockDoorPair
 {
+public:
     static const unsigned __int64 muNameHash = 0xD8474E74CF9A3BB;
     static const unsigned __int64 muTemplateHash = 0xC115C0BF13722829;
     static const int miNumMembers = 2;

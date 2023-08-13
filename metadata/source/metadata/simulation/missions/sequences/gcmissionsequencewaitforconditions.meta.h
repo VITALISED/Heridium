@@ -1,18 +1,19 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMissionConditionTest;
 class cGcStatusMessageMissionMarkup;
 
 class cGcMissionSequenceWaitForConditions
 {
+public:
     static const unsigned __int64 muNameHash = 0x677779252EE27773;
     static const unsigned __int64 muTemplateHash = 0xBA4ADED1901B82DD;
     static const int miNumMembers = 8;
 
     cTkFixedString<128,char> macMessage;
     cGcMissionConditionTest mConditionTest;
-    cTkDynamicArray<cTkClassPointer> maConditions;
+    cTkDynamicArray<cTkClassPointer1> maConditions;
     bool mbAllowedToFormatObjectives;
     bool mbForceAllowMissionRestart;
     TkID<256> mForceAllowMissionRestartEvent;

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkJointMirrorAxis
 {
+public:
     static const unsigned __int64 muNameHash = 0xC37B87DF4F026633;
     static const unsigned __int64 muTemplateHash = 0x68E1534AA565849E;
     static const int miNumMembers = 11;

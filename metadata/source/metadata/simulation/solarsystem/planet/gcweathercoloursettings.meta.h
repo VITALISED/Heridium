@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcWeatherColourSettingList;
 
 class cGcWeatherColourSettings
 {
+public:
     static const unsigned __int64 muNameHash = 0x156BFFBB5A2228FA;
     static const unsigned __int64 muTemplateHash = 0x49916E75AC6E9D46;
     static const int miNumMembers = 2;
 
     cGcWeatherColourSettingList mGenericSettings;
-    cTkFixedArray<cGcWeatherColourSettingList> maPerBiomeSettings;
+    cTkFixedArray<cGcWeatherColourSettingList, 16> maPerBiomeSettings;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

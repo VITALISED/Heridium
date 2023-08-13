@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eNPCTrigger
 {
@@ -22,6 +22,7 @@ enum eNPCTrigger
 
 class cGcNPCTriggerTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0xED4A21D9F7E3058B;
     static const unsigned __int64 muTemplateHash = 0x34827E14E7CDCAFA;
     static const int miNumMembers = 1;

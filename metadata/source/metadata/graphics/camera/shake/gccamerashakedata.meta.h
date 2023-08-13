@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCameraShakeCapturedData;
 class cGcCameraShakeMechanicalData;
 
 class cGcCameraShakeData
 {
+public:
     static const unsigned __int64 muNameHash = 0x381A76E400DE3EE7;
     static const unsigned __int64 muTemplateHash = 0xA1B74654E438150;
     static const int miNumMembers = 11;

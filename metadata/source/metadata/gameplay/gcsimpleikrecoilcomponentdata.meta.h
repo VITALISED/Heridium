@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSimpleIkRecoilComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xF516885AE98E72E8;
     static const unsigned __int64 muTemplateHash = 0x53F711196A6BD582;
     static const int miNumMembers = 9;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNumberedTextList;
 class cGcNumberedTextList;
@@ -14,12 +14,13 @@ class cGcNumberedTextList;
 
 class cGcExpeditionEventData
 {
+public:
     static const unsigned __int64 muNameHash = 0x48A0FEC50BBF269C;
     static const unsigned __int64 muTemplateHash = 0x228F0F1AFB532DB0;
     static const int miNumMembers = 19;
 
     TkID<256> mID;
-    cTkFixedArray<float> maStatContribution;
+    cTkFixedArray<float, 5> maStatContribution;
     int miDifficultyModifier;
     int miDifficultyVarianceModifier;
     int miAdditionalShipDifficultyIncrease;

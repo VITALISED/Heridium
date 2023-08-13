@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCharacterJetpackEffect
 {
+public:
     static const unsigned __int64 muNameHash = 0x62232E26DA2D21F1;
     static const unsigned __int64 muTemplateHash = 0x3FE1762E262C2474;
     static const int miNumMembers = 2;

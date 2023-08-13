@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcByteBeatToken;
 
 class cGcByteBeatTemplate
 {
+public:
     static const unsigned __int64 muNameHash = 0xB764F802BDE36ADF;
     static const unsigned __int64 muTemplateHash = 0x972ED2E5C097966E;
     static const int miNumMembers = 5;
@@ -13,7 +14,7 @@ class cGcByteBeatTemplate
     cGcByteBeatToken mTokenType;
     int miMinValue;
     int miMaxValue;
-    cTkDynamicArray<cGcByteBeatTemplate> maChildren;
+    cTkDynamicArray<cGcByteBeatTemplate1> maChildren;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

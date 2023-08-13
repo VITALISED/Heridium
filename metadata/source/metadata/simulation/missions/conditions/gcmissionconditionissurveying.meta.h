@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eForHotspotType
 {
@@ -11,6 +11,7 @@ enum eForHotspotType
 
 class cGcMissionConditionIsSurveying
 {
+public:
     static const unsigned __int64 muNameHash = 0xD3E5CFFA024865D7;
     static const unsigned __int64 muTemplateHash = 0x3F14B5FCAAEFF5F;
     static const int miNumMembers = 2;

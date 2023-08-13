@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkNoiseVoxelTypeEnum;
 class cTkNoiseVoxelTypeEnum;
 
 class cTkVoxelGeneratorData
 {
+public:
     static const unsigned __int64 muNameHash = 0x7A347325F1154095;
     static const unsigned __int64 muTemplateHash = 0x3541FEC673F2CB77;
     static const int miNumMembers = 17;
@@ -16,10 +17,10 @@ class cTkVoxelGeneratorData
     float mfNoSeaBaseLevel;
     cTkNoiseVoxelTypeEnum mBuildingVoxelType;
     cTkNoiseVoxelTypeEnum mResourceVoxelType;
-    cTkFixedArray<cTkNoiseUberLayerData> maNoiseLayers;
-    cTkFixedArray<cTkNoiseGridData> maGridLayers;
-    cTkFixedArray<cTkNoiseFeatureData> maFeatures;
-    cTkFixedArray<cTkNoiseCaveData> maCaves;
+    cTkFixedArray<cTkNoiseUberLayerData, 8> maNoiseLayers;
+    cTkFixedArray<cTkNoiseGridData, 9> maGridLayers;
+    cTkFixedArray<cTkNoiseFeatureData, 7> maFeatures;
+    cTkFixedArray<cTkNoiseCaveData, 1> maCaves;
     float mfMinimumCaveDepth;
     float mfCaveRoofSmoothingDist;
     float mfMaximumSeaLevelCaveDepth;

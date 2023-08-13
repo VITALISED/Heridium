@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInputBindings
 {
+public:
     static const unsigned __int64 muNameHash = 0xC710DABB91F38817;
     static const unsigned __int64 muTemplateHash = 0x19E797FB82481381;
     static const int miNumMembers = 1;
 
-    cTkDynamicArray<cGcInputBindingSet> maInputBindingSets;
+    cTkDynamicArray<cGcInputBindingSet1> maInputBindingSets;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

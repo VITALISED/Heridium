@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureHealthData
 {
+public:
     static const unsigned __int64 muNameHash = 0x8554BC1ADD990AB6;
     static const unsigned __int64 muTemplateHash = 0xD3C5FD5ACDF2D4F6;
     static const int miNumMembers = 7;
@@ -13,7 +14,7 @@ class cGcCreatureHealthData
     TkID<128> mHurtAudio;
     TkID<128> mDeathAudio;
     bool mbDespawnOnDeath;
-    cTkDynamicArray<TkID<256> > maDespawnOnDeathDescriptors;
+    cTkDynamicArray<TkID<256>1> maDespawnOnDeathDescriptors;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

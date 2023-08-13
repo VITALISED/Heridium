@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkEmitterData
 {
+public:
     static const unsigned __int64 muNameHash = 0xF37361EE179B2EF6;
     static const unsigned __int64 muTemplateHash = 0x56DA4E182E5F6BFF;
     static const int miNumMembers = 1;

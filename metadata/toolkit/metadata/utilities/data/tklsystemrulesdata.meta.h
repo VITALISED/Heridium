@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkLSystemRulesData
 {
+public:
     static const unsigned __int64 muNameHash = 0x8ECE9ECB68A7E994;
     static const unsigned __int64 muTemplateHash = 0x7BEC79BB9EE655A1;
     static const int miNumMembers = 4;
 
-    cTkDynamicArray<cTkLSystemGlobalRestriction> maGlobalRestriction;
-    cTkDynamicArray<cTkLSystemGlobalVariation> maGlobalVariation;
-    cTkDynamicArray<cTkLSystemRule> maRules;
-    cTkDynamicArray<cTkLSystemRuleTemplate> maTemplates;
+    cTkDynamicArray<cTkLSystemGlobalRestriction1> maGlobalRestriction;
+    cTkDynamicArray<cTkLSystemGlobalVariation1> maGlobalVariation;
+    cTkDynamicArray<cTkLSystemRule1> maRules;
+    cTkDynamicArray<cTkLSystemRuleTemplate1> maTemplates;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

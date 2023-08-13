@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcScanEventTableType;
 class cGcPlayerMissionParticipantType;
 
 class cGcMissionSequenceStartScanEvent
 {
+public:
     static const unsigned __int64 muNameHash = 0x84E26BAA3B367507;
     static const unsigned __int64 muTemplateHash = 0x42C7729718B0EBF7;
     static const int miNumMembers = 7;

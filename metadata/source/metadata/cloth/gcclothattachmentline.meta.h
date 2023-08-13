@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cAxisSpecification;
 
 class cGcClothAttachmentLine
 {
+public:
     static const unsigned __int64 muNameHash = 0x44CED54C76C8DDA0;
     static const unsigned __int64 muTemplateHash = 0x2639E8BCA820BC3C;
     static const int miNumMembers = 13;
@@ -12,8 +13,8 @@ class cGcClothAttachmentLine
     bool mbEnabled;
     cTkFixedString<64,char> macDebugName;
     cTkFixedString<64,char> macBoneName;
-    cTkVector mStart;
-    cTkVector mEnd;
+    cTkVector3 mStart;
+    cTkVector3 mEnd;
     cAxisSpecification mClothDirection;
     int miNumRowsOfSameJToFix;
     int miRowToFixJ;

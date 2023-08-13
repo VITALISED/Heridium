@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcResourceElement;
 class cGcBuildingClassification;
@@ -7,6 +7,7 @@ class cTkNoiseFlattenOptions;
 
 class cGcBuildingSpawnData
 {
+public:
     static const unsigned __int64 muNameHash = 0x2FE28DE7841506AF;
     static const unsigned __int64 muTemplateHash = 0xFFDC604437C8CD16;
     static const int miNumMembers = 25;
@@ -19,7 +20,7 @@ class cGcBuildingSpawnData
     bool mbAutoCollision;
     cTkSeed mSeed;
     cGcBuildingClassification mClassification;
-    cTkFixedArray<int> maClusterLayouts;
+    cTkFixedArray<int, 8> maClusterLayouts;
     int miClusterLayoutCount;
     float mfClusterSpacing;
     cTkNoiseFlattenOptions mFlattenType;
@@ -32,8 +33,8 @@ class cGcBuildingSpawnData
     float mfMinHeight;
     float mfMaxHeight;
     int miInstanceID;
-    cTkVector mAABBMin;
-    cTkVector mAABBMax;
+    cTkVector3 mAABBMin;
+    cTkVector3 mAABBMax;
     bool mbBuildingSizeCalculated;
     bool mbIgnoreParticlesAABB;
 

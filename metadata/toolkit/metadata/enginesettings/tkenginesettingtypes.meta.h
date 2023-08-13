@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eEngineSetting
 {
@@ -57,6 +57,7 @@ enum eEngineSetting
 
 class cTkEngineSettingTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0x943946549DEC2216;
     static const unsigned __int64 muTemplateHash = 0x644B852D83365033;
     static const int miNumMembers = 1;

@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkModelResource;
 
 class cGcObjectSpawnerComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x8EEA012026874C5C;
     static const unsigned __int64 muTemplateHash = 0x668542673C3E202F;
     static const int miNumMembers = 3;

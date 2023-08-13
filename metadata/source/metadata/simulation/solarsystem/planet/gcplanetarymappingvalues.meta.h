@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlanetSize;
 
 class cGcPlanetaryMappingValues
 {
+public:
     static const unsigned __int64 muNameHash = 0x314960F4DFCC0B34;
     static const unsigned __int64 muTemplateHash = 0x94AC076DB1249E22;
     static const int miNumMembers = 3;

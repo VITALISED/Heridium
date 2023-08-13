@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlayerWeaponClass;
 class cGcStatsTypes;
@@ -7,6 +7,7 @@ class cGcRemoteWeapons;
 
 class cGcPlayerWeaponPropertiesData
 {
+public:
     static const unsigned __int64 muNameHash = 0xD0F82AE353636444;
     static const unsigned __int64 muTemplateHash = 0x2F1095FDA8B8012A;
     static const int miNumMembers = 38;
@@ -48,7 +49,7 @@ class cGcPlayerWeaponPropertiesData
     bool mbUsesCustomBiomeFireAnims;
     bool mbUsesCustomBiomeFireParticles;
     bool mbUsesCustomBiomeStats;
-    cTkDynamicArray<cGcPlayerWeaponBiomeProperties> maBiomeProperties;
+    cTkDynamicArray<cGcPlayerWeaponBiomeProperties1> maBiomeProperties;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

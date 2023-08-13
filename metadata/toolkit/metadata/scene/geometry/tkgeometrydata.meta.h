@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkVertexLayout;
 class cTkVertexLayout;
 
 class cTkGeometryData
 {
+public:
     static const unsigned __int64 muNameHash = 0xA74EA06001E7577E;
     static const unsigned __int64 muTemplateHash = 0x3705D946A3B218D4;
     static const int miNumMembers = 21;
@@ -14,23 +15,23 @@ class cTkGeometryData
     int miIndexCount;
     int miIndices16Bit;
     int miCollisionIndexCount;
-    cTkDynamicArray<cTkJointBindingData> maJointBindings;
-    cTkDynamicArray<cTkJointExtentData> maJointExtents;
-    cTkDynamicArray<int> maJointMirrorPairs;
-    cTkDynamicArray<cTkJointMirrorAxis> maJointMirrorAxes;
-    cTkDynamicArray<int> maSkinMatrixLayout;
-    cTkDynamicArray<int> maMeshVertRStart;
-    cTkDynamicArray<int> maMeshVertREnd;
-    cTkDynamicArray<int> maBoundHullVertSt;
-    cTkDynamicArray<int> maBoundHullVertEd;
-    cTkDynamicArray<int> maMeshBaseSkinMat;
-    cTkDynamicArray<cTkVector4> maMeshAABBMin;
-    cTkDynamicArray<cTkVector4> maMeshAABBMax;
-    cTkDynamicArray<cTkVector4> maBoundHullVerts;
+    cTkDynamicArray<cTkJointBindingData1> maJointBindings;
+    cTkDynamicArray<cTkJointExtentData1> maJointExtents;
+    cTkDynamicArray<int1> maJointMirrorPairs;
+    cTkDynamicArray<cTkJointMirrorAxis1> maJointMirrorAxes;
+    cTkDynamicArray<int1> maSkinMatrixLayout;
+    cTkDynamicArray<int1> maMeshVertRStart;
+    cTkDynamicArray<int1> maMeshVertREnd;
+    cTkDynamicArray<int1> maBoundHullVertSt;
+    cTkDynamicArray<int1> maBoundHullVertEd;
+    cTkDynamicArray<int1> maMeshBaseSkinMat;
+    cTkDynamicArray<cTkVector41> maMeshAABBMin;
+    cTkDynamicArray<cTkVector41> maMeshAABBMax;
+    cTkDynamicArray<cTkVector41> maBoundHullVerts;
     cTkVertexLayout mVertexLayout;
     cTkVertexLayout mSmallVertexLayout;
-    cTkDynamicArray<int> maIndexBuffer;
-    cTkDynamicArray<cTkMeshMetaData> maStreamMetaDataArray;
+    cTkDynamicArray<int1> maIndexBuffer;
+    cTkDynamicArray<cTkMeshMetaData1> maStreamMetaDataArray;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

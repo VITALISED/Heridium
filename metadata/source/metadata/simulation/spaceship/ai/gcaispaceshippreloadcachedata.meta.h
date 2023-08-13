@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcRealityCommonFactions;
 class cGcAISpaceshipRoles;
@@ -8,6 +8,7 @@ class cGcFrigateClass;
 
 class cGcAISpaceshipPreloadCacheData
 {
+public:
     static const unsigned __int64 muNameHash = 0x74723646531009E2;
     static const unsigned __int64 muTemplateHash = 0x4339BE7A302ECC05;
     static const int miNumMembers = 5;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkTextureResource;
 class cTkTextureResource;
@@ -10,6 +10,7 @@ class cGcSeasonalMilestoneEncryption;
 
 class cGcSeasonalMilestone
 {
+public:
     static const unsigned __int64 muNameHash = 0x4EDC167332F6B824;
     static const unsigned __int64 muTemplateHash = 0x5D65FBCDFF91C956;
     static const int miNumMembers = 24;

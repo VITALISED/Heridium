@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkBlackboardDefaultValueFloat;
 
@@ -12,6 +12,7 @@ enum eBehaviourMoveSpeed
 
 class cGcBehaviourMoveToTargetData
 {
+public:
     static const unsigned __int64 muNameHash = 0x6CCA924D787E12E;
     static const unsigned __int64 muTemplateHash = 0x48738CDF0B50AEFB;
     static const int miNumMembers = 6;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eMenuToClose
 {
@@ -11,6 +11,7 @@ enum eMenuToClose
 
 class cGcMissionSequenceCloseMenu
 {
+public:
     static const unsigned __int64 muNameHash = 0xE62B86A237CB0756;
     static const unsigned __int64 muTemplateHash = 0xC1ACA35E74A19273;
     static const int miNumMembers = 3;

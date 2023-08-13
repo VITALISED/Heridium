@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNGuiStyleAnimationKeyframeData
 {
+public:
     static const unsigned __int64 muNameHash = 0x9A051A6D204FA9F2;
     static const unsigned __int64 muTemplateHash = 0x1B8AD43A964FB688;
     static const int miNumMembers = 2;
 
     float mfPosition;
-    cTkDynamicArray<cTkClassPointer> maStyleProperties;
+    cTkDynamicArray<cTkClassPointer1> maStyleProperties;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

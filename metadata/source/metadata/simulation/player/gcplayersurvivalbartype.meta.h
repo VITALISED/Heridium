@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eSurvivalBar
 {
@@ -10,6 +10,7 @@ enum eSurvivalBar
 
 class cGcPlayerSurvivalBarType
 {
+public:
     static const unsigned __int64 muNameHash = 0xBF11E8FC1185AE00;
     static const unsigned __int64 muTemplateHash = 0x6B865C4DF7135393;
     static const int miNumMembers = 1;

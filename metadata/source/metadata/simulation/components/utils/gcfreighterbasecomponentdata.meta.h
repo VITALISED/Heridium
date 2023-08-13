@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eFreighterBaseGenerationMode
 {
@@ -9,12 +9,13 @@ enum eFreighterBaseGenerationMode
 
 class cGcFreighterBaseComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x8201F7ADD0F5959D;
     static const unsigned __int64 muTemplateHash = 0xF6A553967FD2E51B;
     static const int miNumMembers = 4;
 
     eFreighterBaseGenerationMode meFreighterBaseGenerationMode;
-    cTkFixedArray<cGcFreighterBaseOptions> maFreighterBaseOptions;
+    cTkFixedArray<cGcFreighterBaseOptions, 4> maFreighterBaseOptions;
     cTkFixedString<128,char> macFreighterBaseForPlayerReset;
     cTkFixedString<128,char> macWFCBuildingFile;
 

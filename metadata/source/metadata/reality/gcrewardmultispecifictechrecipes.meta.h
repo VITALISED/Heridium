@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcRewardMultiSpecificTechRecipes
 {
+public:
     static const unsigned __int64 muNameHash = 0x345E30DE4D2B5AAC;
     static const unsigned __int64 muTemplateHash = 0xB2FA3A7BA33B4B6A;
     static const int miNumMembers = 4;
 
-    cTkDynamicArray<TkID<128> > maTechIds;
+    cTkDynamicArray<TkID<128>1> maTechIds;
     TkID<128> mDisplayTechId;
     TkID<256> mSetName;
     bool mbSilent;

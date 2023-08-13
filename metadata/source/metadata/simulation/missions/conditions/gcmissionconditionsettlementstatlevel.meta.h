@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSettlementStatType;
 class cTkEqualityEnum;
 
 class cGcMissionConditionSettlementStatLevel
 {
+public:
     static const unsigned __int64 muNameHash = 0x1DD776B0B61E916;
     static const unsigned __int64 muTemplateHash = 0xCB22A7DF308235AC;
     static const int miNumMembers = 3;

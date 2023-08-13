@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInventoryLayoutGenerationBounds
 {
+public:
     static const unsigned __int64 muNameHash = 0xDCCAA3DA4C5BEA87;
     static const unsigned __int64 muTemplateHash = 0x720A2A40D7CB74F4;
     static const int miNumMembers = 6;

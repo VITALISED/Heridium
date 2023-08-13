@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInventoryType;
 
 class cGcRefinerRecipeElement
 {
+public:
     static const unsigned __int64 muNameHash = 0xE6D47DFF06BD69E5;
     static const unsigned __int64 muTemplateHash = 0x2A52F99B28DA3492;
     static const int miNumMembers = 3;

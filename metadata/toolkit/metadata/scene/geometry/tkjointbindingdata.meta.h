@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkJointBindingData
 {
+public:
     static const unsigned __int64 muNameHash = 0xCABBB7951E50DCAF;
     static const unsigned __int64 muTemplateHash = 0xDE7DC3F8636A4191;
     static const int miNumMembers = 4;
 
-    cTkFixedArray<float> maInvBindMatrix;
-    cTkFixedArray<float> maBindTranslate;
-    cTkFixedArray<float> maBindRotate;
-    cTkFixedArray<float> maBindScale;
+    cTkFixedArray<float, 16> maInvBindMatrix;
+    cTkFixedArray<float, 3> maBindTranslate;
+    cTkFixedArray<float, 4> maBindRotate;
+    cTkFixedArray<float, 3> maBindScale;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

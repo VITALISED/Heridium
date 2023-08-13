@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eShipType
 {
@@ -14,6 +14,7 @@ enum eShipType
 
 class cGcAISpaceshipTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0x8CBF91F9F8428E08;
     static const unsigned __int64 muTemplateHash = 0xE01BE0B6BD142C64;
     static const int miNumMembers = 1;

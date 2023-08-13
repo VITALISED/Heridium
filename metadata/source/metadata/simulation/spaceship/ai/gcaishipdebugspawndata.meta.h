@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAIShipDebugSpawnData
 {
+public:
     static const unsigned __int64 muNameHash = 0xDFA8A7A9DD3ACC08;
     static const unsigned __int64 muTemplateHash = 0xD616A0433497617;
     static const int miNumMembers = 13;
 
-    cTkVector mPosition;
-    cTkVector mFacing;
-    cTkVector mUp;
-    cTkVector mFlightDir;
+    cTkVector3 mPosition;
+    cTkVector3 mFacing;
+    cTkVector3 mUp;
+    cTkVector3 mFlightDir;
     float mfSpeed;
     float mfIgnitionDelay;
     float mfTakeOffDelay;

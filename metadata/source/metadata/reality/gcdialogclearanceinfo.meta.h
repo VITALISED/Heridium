@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDialogClearanceInfo
 {
+public:
     static const unsigned __int64 muNameHash = 0x97DBB6FC681295D3;
     static const unsigned __int64 muTemplateHash = 0x7A03DF972A353920;
     static const int miNumMembers = 2;

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkBehaviourTreePriorityDecoratorData
 {
+public:
     static const unsigned __int64 muNameHash = 0x8941C010DEA33BFC;
     static const unsigned __int64 muTemplateHash = 0x858B6F011096E331;
     static const int miNumMembers = 1;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBaseBuildingPartStyle;
 class cTkModelResource;
@@ -7,6 +7,7 @@ class cTkModelResource;
 
 class cGcBaseBuildingPartStyleModel
 {
+public:
     static const unsigned __int64 muNameHash = 0x92F24A976CBF224B;
     static const unsigned __int64 muTemplateHash = 0xB8D71ACB4123A953;
     static const int miNumMembers = 3;

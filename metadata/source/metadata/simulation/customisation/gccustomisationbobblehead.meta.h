@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkModelResource;
 
 class cGcCustomisationBobbleHead
 {
+public:
     static const unsigned __int64 muNameHash = 0x2137035790C4EDC0;
     static const unsigned __int64 muTemplateHash = 0xE2E229E8595D4D81;
     static const int miNumMembers = 2;

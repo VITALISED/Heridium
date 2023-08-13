@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureDiscoveryThumbnailOverride
 {
+public:
     static const unsigned __int64 muNameHash = 0xF81E00514EB73ED9;
     static const unsigned __int64 muTemplateHash = 0xD6147A31EF214E7B;
     static const int miNumMembers = 3;
 
     TkID<256> mContainsDescriptor;
     float mfDiscoveryUIScaler;
-    cTkVector mDiscoveryUIOffset;
+    cTkVector3 mDiscoveryUIOffset;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

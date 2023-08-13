@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlayerHazardType;
 
 class cGcHazardAction
 {
+public:
     static const unsigned __int64 muNameHash = 0x2FCEFF0AE05742C0;
     static const unsigned __int64 muTemplateHash = 0xF973957877E0F6AF;
     static const int miNumMembers = 4;

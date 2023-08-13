@@ -1,4 +1,5 @@
 #include "heridium.h"
+#include "framework.h"
 
 BOOL APIENTRY DllMain(HMODULE hModule,
     DWORD  ul_reason_for_call,

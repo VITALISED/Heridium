@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDamageType;
 
@@ -12,6 +12,7 @@ enum eHitType
 
 class cGcMessageProjectileImpact
 {
+public:
     static const unsigned __int64 muNameHash = 0x7EBC25FE326CF24B;
     static const unsigned __int64 muTemplateHash = 0xB7A09FEF0808E840;
     static const int miNumMembers = 12;
@@ -24,10 +25,10 @@ class cGcMessageProjectileImpact
     bool mbLaserHeatBoost;
     TkHandle mNode;
     eHitType meHitType;
-    cTkVector mPosLocal;
-    cTkVector mPosOffset;
-    cTkDynamicArray<cGcImpactCombatEffectData> maCombatEffects;
-    cTkDynamicArray<cGcCombatEffectDamageMultiplier> maDamageMultipliers;
+    cTkVector3 mPosLocal;
+    cTkVector3 mPosOffset;
+    cTkDynamicArray<cGcImpactCombatEffectData1> maCombatEffects;
+    cTkDynamicArray<cGcCombatEffectDamageMultiplier1> maDamageMultipliers;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

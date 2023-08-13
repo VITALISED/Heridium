@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureGenerationOptionalWeightedList;
 class cGcCreatureGenerationOptionalWeightedList;
@@ -7,26 +7,27 @@ class cGcCreatureGenerationWeightedList;
 
 class cGcCreatureGenerationData
 {
+public:
     static const unsigned __int64 muNameHash = 0x4742E3FE43A533C7;
     static const unsigned __int64 muTemplateHash = 0xB997A39B7E5F90C3;
     static const int miNumMembers = 17;
 
-    cTkFixedArray<cGcCreatureGenerationOptionalWeightedList> maBiomeSpecific;
-    cTkFixedArray<cGcCreatureGenerationOptionalWeightedList> maSubBiomeSpecific;
+    cTkFixedArray<cGcCreatureGenerationOptionalWeightedList, 16> maBiomeSpecific;
+    cTkFixedArray<cGcCreatureGenerationOptionalWeightedList, 27> maSubBiomeSpecific;
     cGcCreatureGenerationOptionalWeightedList mAbandonedSystemSpecific;
     cGcCreatureGenerationOptionalWeightedList mEmptySystemSpecific;
     cGcCreatureGenerationWeightedList mGeneric;
-    cTkDynamicArray<cGcCreatureGenerationWeightedListDomainEntry> maAirArchetypesForEmptyGround;
-    cTkFixedArray<float> maSandwormPresenceChance;
-    cTkFixedArray<float> maLifeChance;
-    cTkFixedArray<float> maRoleFrequencyModifiers;
-    cTkFixedArray<float> maRarityFrequencyModifiers;
-    cTkFixedArray<float> maGroundGroupsPerKm;
-    cTkFixedArray<float> maWaterGroupsPerKm;
-    cTkFixedArray<float> maAirGroupsPerKm;
-    cTkFixedArray<float> maCaveGroupsPerKm;
-    cTkFixedArray<float> maDensityModifiers;
-    cTkFixedArray<float> maLifeLevelDensityModifiers;
+    cTkDynamicArray<cGcCreatureGenerationWeightedListDomainEntry1> maAirArchetypesForEmptyGround;
+    cTkFixedArray<float, 16> maSandwormPresenceChance;
+    cTkFixedArray<float, 4> maLifeChance;
+    cTkFixedArray<float, 4> maRoleFrequencyModifiers;
+    cTkFixedArray<float, 4> maRarityFrequencyModifiers;
+    cTkFixedArray<float, 4> maGroundGroupsPerKm;
+    cTkFixedArray<float, 4> maWaterGroupsPerKm;
+    cTkFixedArray<float, 4> maAirGroupsPerKm;
+    cTkFixedArray<float, 4> maCaveGroupsPerKm;
+    cTkFixedArray<float, 4> maDensityModifiers;
+    cTkFixedArray<float, 4> maLifeLevelDensityModifiers;
     float mfHerdCreaturePenalty;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

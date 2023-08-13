@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcExpeditionEventOccurrenceRate
 {
+public:
     static const unsigned __int64 muNameHash = 0x217B9012F2F7FC1F;
     static const unsigned __int64 muTemplateHash = 0x3613A42A357A3D5B;
     static const int miNumMembers = 1;
 
-    cTkFixedArray<cGcExpeditionCategoryStrength> maExpeditionCategory;
+    cTkFixedArray<cGcExpeditionCategoryStrength, 5> maExpeditionCategory;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

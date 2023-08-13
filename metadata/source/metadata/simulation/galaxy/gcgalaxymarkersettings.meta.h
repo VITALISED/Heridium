@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcGalaxyMarkerSettings
 {
+public:
     static const unsigned __int64 muNameHash = 0xB24FD22ADB1D885D;
     static const unsigned __int64 muTemplateHash = 0x9D337FA7A210A1B8;
     static const int miNumMembers = 16;
 
-    cTkFixedArray<cTkColour> maColours;
+    cTkFixedArray<cTkColour, 3> maColours;
     cTkColour mOutlineColour;
     float mfOutlineWidth;
     int miEdgeCount;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcUniverseAddressData;
 
@@ -20,13 +20,14 @@ enum eTeleporterType
 
 class cGcTeleportEndpoint
 {
+public:
     static const unsigned __int64 muNameHash = 0x18CD621AAAB1F01D;
     static const unsigned __int64 muTemplateHash = 0xEA4F0B98C8572FC;
     static const int miNumMembers = 7;
 
     cGcUniverseAddressData mUniverseAddress;
-    cTkVector mPosition;
-    cTkVector mFacing;
+    cTkVector3 mPosition;
+    cTkVector3 mFacing;
     eTeleporterType meTeleporterType;
     cTkFixedString<64,char> macName;
     bool mbCalcWarpOffset;

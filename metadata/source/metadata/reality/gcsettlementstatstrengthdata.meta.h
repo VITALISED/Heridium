@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSettlementStatStrengthData
 {
+public:
     static const unsigned __int64 muNameHash = 0x3548FD5B88130DA1;
     static const unsigned __int64 muTemplateHash = 0x593F4DF3CFBC0F94;
     static const int miNumMembers = 1;
 
-    cTkFixedArray<cGcSettlementStatStrengthRanges> maPerkStatStrengthValues;
+    cTkFixedArray<cGcSettlementStatStrengthRanges, 7> maPerkStatStrengthValues;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMissionSequenceVisitPlanets
 {
+public:
     static const unsigned __int64 muNameHash = 0xA6EC06362FCAD424;
     static const unsigned __int64 muTemplateHash = 0xFD0F5CEB9C4534CA;
     static const int miNumMembers = 6;
 
     cTkFixedString<128,char> macMessage;
-    cTkDynamicArray<cGcBiomeType> maPlanetTypesToWatch;
+    cTkDynamicArray<cGcBiomeType1> maPlanetTypesToWatch;
     bool mbMustAlsoDiscover;
     int miNumberOfEachToDiscover;
     bool mbTakeNumberFromSeasonalData;

@@ -1,21 +1,22 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInventoryClass;
 class cGcInventoryStackSizeGroup;
 
 class cGcInventoryContainer
 {
+public:
     static const unsigned __int64 muNameHash = 0xAF875892F81EDE11;
     static const unsigned __int64 muTemplateHash = 0x6B0445D97609452D;
     static const int miNumMembers = 11;
 
-    cTkDynamicArray<cGcInventoryElement> maSlots;
-    cTkDynamicArray<cGcInventoryIndex> maValidSlotIndices;
+    cTkDynamicArray<cGcInventoryElement1> maSlots;
+    cTkDynamicArray<cGcInventoryIndex1> maValidSlotIndices;
     cGcInventoryClass mClass;
     cGcInventoryStackSizeGroup mStackSizeGroup;
-    cTkDynamicArray<cGcInventoryBaseStatEntry> maBaseStatValues;
-    cTkDynamicArray<cGcInventorySpecialSlot> maSpecialSlots;
+    cTkDynamicArray<cGcInventoryBaseStatEntry1> maBaseStatValues;
+    cTkDynamicArray<cGcInventorySpecialSlot1> maSpecialSlots;
     int miWidth;
     int miHeight;
     bool mbIsCool;

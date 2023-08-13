@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eSucceedWhen
 {
@@ -15,6 +15,7 @@ enum eFailWhen
 
 class cTkBehaviourTreeConcurrentSelectorData
 {
+public:
     static const unsigned __int64 muNameHash = 0x5A80A9FE39381A77;
     static const unsigned __int64 muTemplateHash = 0x27BAAF4A069EC62C;
     static const int miNumMembers = 4;
@@ -22,7 +23,7 @@ class cTkBehaviourTreeConcurrentSelectorData
     TkID<128> mName;
     eSucceedWhen meSucceedWhen;
     eFailWhen meFailWhen;
-    cTkDynamicArray<cTkClassPointer> maChildren;
+    cTkDynamicArray<cTkClassPointer1> maChildren;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

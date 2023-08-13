@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCustomisationDescriptorGroupOptions
 {
+public:
     static const unsigned __int64 muNameHash = 0x57CBFDF164E923E9;
     static const unsigned __int64 muTemplateHash = 0x3E6EE8A3313E1086;
     static const int miNumMembers = 4;
 
     TkID<256> mGroupTitle;
     bool mbFirstOptionIsEmpty;
-    cTkDynamicArray<cGcCustomisationDescriptorGroupOption> maDescriptorGroupOptions;
-    cTkDynamicArray<TkID<128> > maPrerequisiteGroup;
+    cTkDynamicArray<cGcCustomisationDescriptorGroupOption1> maDescriptorGroupOptions;
+    cTkDynamicArray<TkID<128>1> maPrerequisiteGroup;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

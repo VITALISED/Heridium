@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNGuiElementData;
 class cTkNGuiGraphicStyle;
@@ -13,6 +13,7 @@ enum eAltMode
 
 class cGcNGuiLayerData
 {
+public:
     static const unsigned __int64 muNameHash = 0x585832A31F4C2EA1;
     static const unsigned __int64 muTemplateHash = 0x73FAEAF445FBDC01;
     static const int miNumMembers = 6;
@@ -20,7 +21,7 @@ class cGcNGuiLayerData
     cGcNGuiElementData mElementData;
     cTkNGuiGraphicStyle mStyle;
     cTkFixedString<128,char> macImage;
-    cTkDynamicArray<cTkClassPointer> maChildren;
+    cTkDynamicArray<cTkClassPointer1> maChildren;
     cTkFixedString<128,char> macDataFilename;
     eAltMode meAltMode;
 

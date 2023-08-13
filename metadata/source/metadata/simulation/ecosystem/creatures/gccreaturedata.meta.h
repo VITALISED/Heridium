@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureTypes;
 class cGcCreatureTypes;
@@ -17,6 +17,7 @@ class cGcCreatureRoleFrequencyModifier;
 
 class cGcCreatureData
 {
+public:
     static const unsigned __int64 muNameHash = 0x132EB7906E53B7A7;
     static const unsigned __int64 muTemplateHash = 0xE8545DE962F52F8E;
     static const int miNumMembers = 17;
@@ -27,7 +28,7 @@ class cGcCreatureData
     cGcCreatureTypes mRealType;
     bool mbEcoSystemCreature;
     bool mbCanBeFemale;
-    cTkDynamicArray<cGcCreatureTagAndRarity> maTags;
+    cTkDynamicArray<cGcCreatureTagAndRarity1> maTags;
     eMoveArea meMoveArea;
     float mfMinScale;
     float mfMaxScale;
@@ -37,7 +38,7 @@ class cGcCreatureData
     cGcCreatureRarity mRarity;
     cGcCreatureRoleFrequencyModifier mPredatorProbabilityModifier;
     cGcCreatureRoleFrequencyModifier mHerbivoreProbabilityModifier;
-    cTkDynamicArray<cTkClassPointer> maData;
+    cTkDynamicArray<cTkClassPointer1> maData;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eCreatureHemiSphere
 {
@@ -10,6 +10,7 @@ enum eCreatureHemiSphere
 
 class cGcCreatureHemiSphere
 {
+public:
     static const unsigned __int64 muNameHash = 0x1BE056BC4F556CAA;
     static const unsigned __int64 muTemplateHash = 0xB74FEC78503E10A1;
     static const int miNumMembers = 1;

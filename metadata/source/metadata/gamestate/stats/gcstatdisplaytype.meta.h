@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eStatDisplayType
 {
@@ -10,6 +10,7 @@ enum eStatDisplayType
 
 class cGcStatDisplayType
 {
+public:
     static const unsigned __int64 muNameHash = 0x7E6B18F25C0843D4;
     static const unsigned __int64 muTemplateHash = 0x7F577FBFBDC87668;
     static const int miNumMembers = 1;

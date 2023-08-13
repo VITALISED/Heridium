@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eAnimationIntensity
 {
@@ -11,6 +11,7 @@ enum eAnimationIntensity
 
 class cGcNPCProbabilityAnimationData
 {
+public:
     static const unsigned __int64 muNameHash = 0x6ECD1E12A5E7A194;
     static const unsigned __int64 muTemplateHash = 0xF23879D569337348;
     static const int miNumMembers = 5;
@@ -18,8 +19,8 @@ class cGcNPCProbabilityAnimationData
     TkID<128> mName;
     float mfProbability;
     eAnimationIntensity meAnimationIntensity;
-    cTkDynamicArray<cGcAlienRace> maExcludeRace;
-    cTkDynamicArray<TkID<128> > maTags;
+    cTkDynamicArray<cGcAlienRace1> maExcludeRace;
+    cTkDynamicArray<TkID<128>1> maTags;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

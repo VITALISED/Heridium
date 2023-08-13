@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eDiscoveryType
 {
@@ -24,6 +24,7 @@ enum eDiscoveryType
 
 class cGcDiscoveryType
 {
+public:
     static const unsigned __int64 muNameHash = 0x5BB97397B6B70C3A;
     static const unsigned __int64 muTemplateHash = 0x9066D5BF2A5AAA32;
     static const int miNumMembers = 1;

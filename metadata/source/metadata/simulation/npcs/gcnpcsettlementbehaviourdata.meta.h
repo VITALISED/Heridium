@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNPCSettlementBehaviourEntry;
 
 class cGcNPCSettlementBehaviourData
 {
+public:
     static const unsigned __int64 muNameHash = 0x87BC5043F293743D;
     static const unsigned __int64 muTemplateHash = 0x59E06023F9468849;
     static const int miNumMembers = 2;
 
     cGcNPCSettlementBehaviourEntry mBaseBehaviour;
-    cTkFixedArray<cGcNPCSettlementBehaviourEntry> maBehaviourOverrides;
+    cTkFixedArray<cGcNPCSettlementBehaviourEntry, 5> maBehaviourOverrides;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

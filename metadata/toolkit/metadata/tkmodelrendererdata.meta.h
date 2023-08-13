@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 class cTkModelRendererCameraData;
 
@@ -20,6 +20,7 @@ enum eFocusType
 
 class cTkModelRendererData
 {
+public:
     static const unsigned __int64 muNameHash = 0x53EC68060BE631FB;
     static const unsigned __int64 muTemplateHash = 0x4B24E25067FB7537;
     static const int miNumMembers = 16;
@@ -30,7 +31,7 @@ class cTkModelRendererData
     eThumbnailMode meThumbnailMode;
     eFocusType meFocusType;
     TkID<256> mFocusLocator;
-    cTkVector mFocusOffset;
+    cTkVector3 mFocusOffset;
     float mfFocusInterpTime;
     float mfBlendInTime;
     float mfBlendInOffset;

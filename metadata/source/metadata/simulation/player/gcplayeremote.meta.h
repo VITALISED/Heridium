@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlayerEmotePropData;
 class cTkTextureResource;
@@ -7,6 +7,7 @@ class cTkTextureResource;
 
 class cGcPlayerEmote
 {
+public:
     static const unsigned __int64 muNameHash = 0xBD1382185246DF07;
     static const unsigned __int64 muTemplateHash = 0xC0C272905A6A0283;
     static const int miNumMembers = 19;

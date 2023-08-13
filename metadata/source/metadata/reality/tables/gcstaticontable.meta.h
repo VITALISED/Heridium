@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcStatIconTable
 {
+public:
     static const unsigned __int64 muNameHash = 0x266F5269ED2C5661;
     static const unsigned __int64 muTemplateHash = 0x42F48C491DACAEF8;
     static const int miNumMembers = 1;
 
-    cTkFixedArray<cTkFixedString<128,char> > maStatIcons;
+    cTkFixedArray<cTkFixedString<128,char>, 189> maStatIcons;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

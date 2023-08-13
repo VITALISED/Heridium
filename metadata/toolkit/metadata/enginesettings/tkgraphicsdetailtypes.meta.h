@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eGraphicDetail
 {
@@ -11,6 +11,7 @@ enum eGraphicDetail
 
 class cTkGraphicsDetailTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0xAACA1A6A0194D948;
     static const unsigned __int64 muTemplateHash = 0x4EF1F56CF5CA5B73;
     static const int miNumMembers = 1;

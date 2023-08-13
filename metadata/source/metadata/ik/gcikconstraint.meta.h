@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureIkType;
 class cGcPlayerCharacterIKOverrideData;
 
 class cGcIKConstraint
 {
+public:
     static const unsigned __int64 muNameHash = 0x9A9B4993026AA411;
     static const unsigned __int64 muTemplateHash = 0x6D52BE7161729552;
     static const int miNumMembers = 5;
@@ -14,7 +15,7 @@ class cGcIKConstraint
     cTkFixedString<256,char> macJointName;
     cGcCreatureIkType mType;
     cGcPlayerCharacterIKOverrideData mDefaultState;
-    cTkDynamicArray<cGcPlayerCharacterIKStateData> maStates;
+    cTkDynamicArray<cGcPlayerCharacterIKStateData1> maStates;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

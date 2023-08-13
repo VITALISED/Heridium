@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNGuiFileBrowserRecents
 {
+public:
     static const unsigned __int64 muNameHash = 0x1683B0270AE180;
     static const unsigned __int64 muTemplateHash = 0xBA4458954448454D;
     static const int miNumMembers = 1;
 
-    cTkFixedArray<cTkFixedString<256,char> > maRecents;
+    cTkFixedArray<cTkFixedString<256,char>, 10> maRecents;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

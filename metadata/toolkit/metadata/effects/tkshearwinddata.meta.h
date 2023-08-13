@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkShearWindOctaveData;
 class cTkShearWindOctaveData;
@@ -8,6 +8,7 @@ class cTkShearWindOctaveData;
 
 class cTkShearWindData
 {
+public:
     static const unsigned __int64 muNameHash = 0xB9B8ADD8C9FFC2D8;
     static const unsigned __int64 muTemplateHash = 0xC462D4F8119851CF;
     static const int miNumMembers = 13;

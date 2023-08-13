@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eMoveSpeed
 {
@@ -10,6 +10,7 @@ enum eMoveSpeed
 
 class cGcCreatureFootParticleSingleData
 {
+public:
     static const unsigned __int64 muNameHash = 0x8CD0B53079BD773C;
     static const unsigned __int64 muTemplateHash = 0x90B7FF87196B15B6;
     static const int miNumMembers = 5;

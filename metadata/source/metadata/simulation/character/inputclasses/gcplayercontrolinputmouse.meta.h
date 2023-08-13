@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCharacterControlInputValidity;
 
@@ -11,6 +11,7 @@ class cGcCharacterControlOutputSpace;
 
 class cGcPlayerControlInputMouse
 {
+public:
     static const unsigned __int64 muNameHash = 0x8CC79014E9CB899E;
     static const unsigned __int64 muTemplateHash = 0x680E1192FFA80143;
     static const int miNumMembers = 5;

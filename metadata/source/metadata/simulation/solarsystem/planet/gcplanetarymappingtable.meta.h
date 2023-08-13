@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlanetaryMappingTable
 {
+public:
     static const unsigned __int64 muNameHash = 0xB47263D5F2CB7D5D;
     static const unsigned __int64 muTemplateHash = 0x7D5EA61AE5C87574;
     static const int miNumMembers = 1;
 
-    cTkFixedArray<cGcPlanetaryMappingValues> maMappingInfo;
+    cTkFixedArray<cGcPlanetaryMappingValues, 4> maMappingInfo;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

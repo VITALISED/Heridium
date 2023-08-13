@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAttachedNode
 {
+public:
     static const unsigned __int64 muNameHash = 0x6F644A9834B845DB;
     static const unsigned __int64 muTemplateHash = 0xCE61FFF81577D8E8;
     static const int miNumMembers = 11;
@@ -14,10 +15,10 @@ class cGcAttachedNode
     float mfMaxRenderIFraction;
     float mfMaxRenderJFraction;
     float mfBlendStrength;
-    cTkVector mRelativeTransform_Axis0;
-    cTkVector mRelativeTransform_Axis1;
-    cTkVector mRelativeTransform_Axis2;
-    cTkVector mRelativeTransform_Position;
+    cTkVector3 mRelativeTransform_Axis0;
+    cTkVector3 mRelativeTransform_Axis1;
+    cTkVector3 mRelativeTransform_Axis2;
+    cTkVector3 mRelativeTransform_Position;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureBehaviourTreeData
 {
+public:
     static const unsigned __int64 muNameHash = 0xC0220D51AA0E426;
     static const unsigned __int64 muTemplateHash = 0x65FDAF58354B649A;
     static const int miNumMembers = 2;
 
     TkID<128> mId;
-    cTkDynamicArray<cTkClassPointer> maNodes;
+    cTkDynamicArray<cTkClassPointer1> maNodes;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

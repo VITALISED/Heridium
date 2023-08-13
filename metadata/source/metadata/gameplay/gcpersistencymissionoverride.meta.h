@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInteractionBufferType;
 
 class cGcPersistencyMissionOverride
 {
+public:
     static const unsigned __int64 muNameHash = 0xD595098569C459AF;
     static const unsigned __int64 muTemplateHash = 0xCFC2C403668DBF4E;
     static const int miNumMembers = 2;

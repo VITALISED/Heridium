@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcTerrainOverlayColours
 {
+public:
     static const unsigned __int64 muNameHash = 0x61E7123A54EFD252;
     static const unsigned __int64 muTemplateHash = 0xAEE9281A2F2D8A63;
     static const int miNumMembers = 6;

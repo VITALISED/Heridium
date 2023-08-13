@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNPCAnimationSetData;
 class cGcNPCAnimationSetData;
@@ -8,6 +8,7 @@ class cGcNPCAnimationSetData;
 
 class cGcNPCAnimationsData
 {
+public:
     static const unsigned __int64 muNameHash = 0x5344C3D579450D7B;
     static const unsigned __int64 muTemplateHash = 0x5316AB210357681B;
     static const int miNumMembers = 4;

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcHeightAdjustComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x50D15C24A84DFBF0;
     static const unsigned __int64 muTemplateHash = 0x60BB2921BB92E2E;
     static const int miNumMembers = 1;

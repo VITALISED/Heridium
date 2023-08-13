@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAsteroidGenerationData;
 class cGcAsteroidGenerationData;
@@ -8,6 +8,7 @@ class cGcAsteroidGenerationData;
 
 class cGcAsteroidSystemGenerationData
 {
+public:
     static const unsigned __int64 muNameHash = 0x6D874860E2F7237A;
     static const unsigned __int64 muTemplateHash = 0x58D85EFD3CD1B909;
     static const int miNumMembers = 4;

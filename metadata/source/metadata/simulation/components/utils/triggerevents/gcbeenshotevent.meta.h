@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eShotBy
 {
@@ -10,6 +10,7 @@ enum eShotBy
 
 class cGcBeenShotEvent
 {
+public:
     static const unsigned __int64 muNameHash = 0xF554DC208673EE3D;
     static const unsigned __int64 muTemplateHash = 0xC7EECD09781E1870;
     static const int miNumMembers = 3;

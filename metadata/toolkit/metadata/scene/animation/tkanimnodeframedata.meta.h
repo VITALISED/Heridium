@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkAnimNodeFrameData
 {
+public:
     static const unsigned __int64 muNameHash = 0x270204EDCEE4DB62;
     static const unsigned __int64 muTemplateHash = 0xC4C8B7669C8C9D44;
     static const int miNumMembers = 3;
 
-    cTkDynamicArray<unsigned __int16> maRotations;
-    cTkDynamicArray<cTkVector> maTranslations;
-    cTkDynamicArray<cTkVector> maScales;
+    cTkDynamicArray<unsigned __int161> maRotations;
+    cTkDynamicArray<cTkVector31> maTranslations;
+    cTkDynamicArray<cTkVector31> maScales;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

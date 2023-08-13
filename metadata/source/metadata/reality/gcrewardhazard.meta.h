@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcRewardHazard
 {
+public:
     static const unsigned __int64 muNameHash = 0xB9BE65CA55BBE004;
     static const unsigned __int64 muTemplateHash = 0x23AB40C2528DCAC0;
     static const int miNumMembers = 3;

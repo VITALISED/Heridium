@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMissionConditionOnPlanetWithSandwormsOverriden
 {
+public:
     static const unsigned __int64 muNameHash = 0xA65D2D8631795E30;
     static const unsigned __int64 muTemplateHash = 0xE44317772FCBC767;
     static const int miNumMembers = 2;

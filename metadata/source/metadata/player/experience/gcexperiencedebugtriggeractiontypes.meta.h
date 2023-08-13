@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eExperienceDebugTriggerAction
 {
@@ -48,6 +48,7 @@ enum eExperienceDebugTriggerAction
 
 class cGcExperienceDebugTriggerActionTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0x902E6B8A4F1B75A6;
     static const unsigned __int64 muTemplateHash = 0xE55FAD85F8721A06;
     static const int miNumMembers = 1;

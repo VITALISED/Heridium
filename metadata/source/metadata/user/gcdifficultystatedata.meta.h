@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDifficultyPresetType;
 class cGcDifficultyPresetType;
@@ -8,6 +8,7 @@ class cGcDifficultySettingsData;
 
 class cGcDifficultyStateData
 {
+public:
     static const unsigned __int64 muNameHash = 0x814973F0DDEB62C8;
     static const unsigned __int64 muTemplateHash = 0x336C024001BFA1B3;
     static const int miNumMembers = 4;

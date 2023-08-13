@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMechMeshPartTypeData
 {
+public:
     static const unsigned __int64 muNameHash = 0x29EEF8B053EA8F56;
     static const unsigned __int64 muTemplateHash = 0x845B85A6E3BCC156;
     static const int miNumMembers = 2;
 
     cTkFixedString<32,char> macLocatorNodeName;
-    cTkDynamicArray<TkID<128> > maRequiredTechs;
+    cTkDynamicArray<TkID<128>1> maRequiredTechs;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNumberedTextList
 {
+public:
     static const unsigned __int64 muNameHash = 0x2C7E1C9121ED92E2;
     static const unsigned __int64 muTemplateHash = 0xA81FF2AEC999F301;
     static const int miNumMembers = 2;

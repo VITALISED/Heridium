@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAudioWwiseEvents;
 class cTkTextureResource;
 
 class cGcRewardOSDMessage
 {
+public:
     static const unsigned __int64 muNameHash = 0x53D72723F082671D;
     static const unsigned __int64 muTemplateHash = 0x1D2C471ADB92C5D9;
     static const int miNumMembers = 6;

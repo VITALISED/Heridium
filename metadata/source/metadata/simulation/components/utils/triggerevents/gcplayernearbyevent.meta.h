@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eRequirePlayerAction
 {
@@ -19,6 +19,7 @@ enum eDistanceCheckType
 
 class cGcPlayerNearbyEvent
 {
+public:
     static const unsigned __int64 muNameHash = 0x8A8D7D07807BE9DC;
     static const unsigned __int64 muTemplateHash = 0x3AA04401A1C10893;
     static const int miNumMembers = 13;

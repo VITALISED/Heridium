@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eBlackboardType
 {
@@ -14,6 +14,7 @@ enum eBlackboardType
 
 class cTkBlackboardType
 {
+public:
     static const unsigned __int64 muNameHash = 0x490DAD35C9B137EF;
     static const unsigned __int64 muTemplateHash = 0x82614740EF36942A;
     static const int miNumMembers = 1;

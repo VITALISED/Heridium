@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkBlackboardCategory;
 
 class cTkBlackboardDefaultValueId
 {
+public:
     static const unsigned __int64 muNameHash = 0x51BC6BBE6D56FC99;
     static const unsigned __int64 muTemplateHash = 0x8120304A040520DE;
     static const int miNumMembers = 3;

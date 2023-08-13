@@ -1,18 +1,19 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcKnownThingsPreset
 {
+public:
     static const unsigned __int64 muNameHash = 0x50D7C1FE13F7260D;
     static const unsigned __int64 muTemplateHash = 0xCEACB9E8E146424;
     static const int miNumMembers = 6;
 
-    cTkDynamicArray<TkID<128> > maKnownTech;
-    cTkDynamicArray<TkID<128> > maKnownProducts;
-    cTkDynamicArray<TkID<128> > maKnownSpecials;
-    cTkDynamicArray<TkID<256> > maKnownRefinerRecipes;
-    cTkDynamicArray<cGcWordKnowledge> maKnownWords;
-    cTkDynamicArray<cGcWordGroupKnowledge> maKnownWordGroups;
+    cTkDynamicArray<TkID<128>1> maKnownTech;
+    cTkDynamicArray<TkID<128>1> maKnownProducts;
+    cTkDynamicArray<TkID<128>1> maKnownSpecials;
+    cTkDynamicArray<TkID<256>1> maKnownRefinerRecipes;
+    cTkDynamicArray<cGcWordKnowledge1> maKnownWords;
+    cTkDynamicArray<cGcWordGroupKnowledge1> maKnownWordGroups;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

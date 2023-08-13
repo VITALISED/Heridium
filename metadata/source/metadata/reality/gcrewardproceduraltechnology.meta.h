@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcProceduralTechnologyCategory;
 
 class cGcRewardProceduralTechnology
 {
+public:
     static const unsigned __int64 muNameHash = 0xDA4D44513B3F283C;
     static const unsigned __int64 muTemplateHash = 0xA70A8D8521C1BCBF;
     static const int miNumMembers = 1;

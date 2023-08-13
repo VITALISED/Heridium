@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDifficultySettingEnum;
 
 class cGcDifficultySettingUIOption
 {
+public:
     static const unsigned __int64 muNameHash = 0x44DB3EF040C4347F;
     static const unsigned __int64 muTemplateHash = 0xD72C2D74B018BA23;
     static const int miNumMembers = 2;
 
     cGcDifficultySettingEnum mMainOption;
-    cTkDynamicArray<cGcDifficultySettingEnum> maAlsoChangeOptions;
+    cTkDynamicArray<cGcDifficultySettingEnum1> maAlsoChangeOptions;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

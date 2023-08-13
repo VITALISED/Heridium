@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkTransformData;
 
 class cTkSceneNodeData
 {
+public:
     static const unsigned __int64 muNameHash = 0x2C1B6B0E807F7193;
     static const unsigned __int64 muTemplateHash = 0x1DCCBBEBB4547EB4;
     static const int miNumMembers = 6;
@@ -13,8 +14,8 @@ class cTkSceneNodeData
     unsigned int muiNameHash;
     TkID<128> mType;
     cTkTransformData mTransform;
-    cTkDynamicArray<cTkSceneNodeAttributeData> maAttributes;
-    cTkDynamicArray<cTkSceneNodeData> maChildren;
+    cTkDynamicArray<cTkSceneNodeAttributeData1> maAttributes;
+    cTkDynamicArray<cTkSceneNodeData1> maChildren;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

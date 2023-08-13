@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcStatsEnum;
 class cTkModelResource;
 
 class cGcDestructableComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE24B3D78ED0634BD;
     static const unsigned __int64 muTemplateHash = 0x1A7644BF35CD170;
     static const int miNumMembers = 43;
@@ -24,16 +25,16 @@ class cGcDestructableComponentData
     int miLootRewardAmountMin;
     int miLootRewardAmountMax;
     bool mbCanDestroyFromStoredInteraction;
-    cTkDynamicArray<cGcSubstanceAmount> maGivesSubstances;
+    cTkDynamicArray<cGcSubstanceAmount1> maGivesSubstances;
     cGcStatsEnum mStatToTrack;
     TkID<128> mGivesReward;
     TkID<128> mPirateSystemAltReward;
     bool mbRewardIfDestroyedByOther;
     bool mbHideReward;
     TkID<256> mOverrideRewardLoc;
-    cTkDynamicArray<cGcRewardMissionOverride> maRewardOverrideTable;
+    cTkDynamicArray<cGcRewardMissionOverride1> maRewardOverrideTable;
     bool mbActivateLocatorsFromRarity;
-    cTkFixedArray<TkID<128> > maRarityLocators;
+    cTkFixedArray<TkID<128>, 3> maRarityLocators;
     bool mbUseSystemColorsForTexture;
     bool mbRemoveModel;
     bool mbHideModel;
@@ -52,7 +53,7 @@ class cGcDestructableComponentData
     bool mbHideInteractWhenAllArmourDestroyed;
     float mfShowInteractRange;
     bool mbGrenadeSingleHit;
-    cTkDynamicArray<cGcLootProbability> maLootItems;
+    cTkDynamicArray<cGcLootProbability1> maLootItems;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

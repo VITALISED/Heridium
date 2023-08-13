@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcResourceElement;
 class cGcInventoryLayout;
@@ -10,6 +10,7 @@ class cGcInventoryLayoutSizeType;
 
 class cGcRewardSpecificShip
 {
+public:
     static const unsigned __int64 muNameHash = 0x977CF58471E48CD1;
     static const unsigned __int64 muTemplateHash = 0x9CAEDE34EE21604C;
     static const int miNumMembers = 12;

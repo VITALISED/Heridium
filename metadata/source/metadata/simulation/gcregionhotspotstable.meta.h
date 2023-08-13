@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcRegionHotspotsTable
 {
+public:
     static const unsigned __int64 muNameHash = 0x7F0D775900CDB2FD;
     static const unsigned __int64 muTemplateHash = 0x1EEB6E34193A8D63;
     static const int miNumMembers = 8;
@@ -12,9 +13,9 @@ class cGcRegionHotspotsTable
     float mfRegionHotspotsPerPoleMax;
     float mfRegionHotspotsMinSameCategorySpacing;
     float mfRegionHotspotsMaxDifferentCategoryOverlap;
-    cTkFixedArray<cGcRegionHotspotData> maRegionHotspots;
-    cTkFixedArray<cGcRegionHotspotBiomeGases> maRegionHotspotBiomeGases;
-    cTkDynamicArray<cGcRegionHotspotSubstance> maRegionHotspotSubstances;
+    cTkFixedArray<cGcRegionHotspotData, 6> maRegionHotspots;
+    cTkFixedArray<cGcRegionHotspotBiomeGases, 16> maRegionHotspotBiomeGases;
+    cTkDynamicArray<cGcRegionHotspotSubstance1> maRegionHotspotSubstances;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

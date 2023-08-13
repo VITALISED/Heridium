@@ -1,17 +1,18 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkBlackboardCategory;
 
 class cTkBlackboardDefaultValueVector
 {
+public:
     static const unsigned __int64 muNameHash = 0x8E91F497B8C8D2F3;
     static const unsigned __int64 muTemplateHash = 0x5AC84CD0356FFBAD;
     static const int miNumMembers = 3;
 
     cTkBlackboardCategory mBlackboardCategory;
     TkID<128> mBlackboardKey;
-    cTkVector mDefaultValue;
+    cTkVector3 mDefaultValue;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

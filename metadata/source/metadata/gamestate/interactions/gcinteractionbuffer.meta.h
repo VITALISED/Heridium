@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInteractionBuffer
 {
+public:
     static const unsigned __int64 muNameHash = 0x7355BB5E5AC6EB4A;
     static const unsigned __int64 muTemplateHash = 0x66D42310D501E21;
     static const int miNumMembers = 2;
 
-    cTkDynamicArray<cGcInteractionData> maInteractions;
+    cTkDynamicArray<cGcInteractionData1> maInteractions;
     int miCurrentPos;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

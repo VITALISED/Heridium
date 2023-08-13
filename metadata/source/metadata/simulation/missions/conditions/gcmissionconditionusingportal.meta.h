@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum ePortalType
 {
@@ -10,6 +10,7 @@ enum ePortalType
 
 class cGcMissionConditionUsingPortal
 {
+public:
     static const unsigned __int64 muNameHash = 0x93D7C024B58A671;
     static const unsigned __int64 muTemplateHash = 0xC578ECEEBCAAE131;
     static const int miNumMembers = 1;

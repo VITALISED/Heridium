@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkEmitterFloatProperty;
 class cTkEmitterFloatProperty;
 
 class cTkParticleBurstData
 {
+public:
     static const unsigned __int64 muNameHash = 0x523281BEC01AA0F4;
     static const unsigned __int64 muTemplateHash = 0x6026455A2E436CAA;
     static const int miNumMembers = 3;

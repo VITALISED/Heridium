@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBlockListPersistence
 {
+public:
     static const unsigned __int64 muNameHash = 0xFD630C0F790F1BCB;
     static const unsigned __int64 muTemplateHash = 0x6018730138103927;
     static const int miNumMembers = 6;
 
-    cTkFixedArray<cGcBlockedUser> maBlockedUserArray;
+    cTkFixedArray<cGcBlockedUser, 50> maBlockedUserArray;
     int miNextSlot;
     int miListSize;
-    cTkFixedArray<cGcBlockedMessage> maBlockedMessageArray;
+    cTkFixedArray<cGcBlockedMessage, 50> maBlockedMessageArray;
     int miMessageNextSlot;
     int miMessageListSize;
 

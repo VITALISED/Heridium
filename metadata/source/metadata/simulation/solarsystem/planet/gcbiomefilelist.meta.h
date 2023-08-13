@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBiomeFileList
 {
+public:
     static const unsigned __int64 muNameHash = 0x369AF9F4E4E055D0;
     static const unsigned __int64 muTemplateHash = 0xCBE51C9993608260;
     static const int miNumMembers = 4;
 
-    cTkFixedArray<cGcBiomeFileListOptions> maBiomeFiles;
-    cTkDynamicArray<cGcBiomeType> maValidStartPlanetBiome;
-    cTkDynamicArray<cGcExternalObjectListOptions> maCommonExternalObjectLists;
-    cTkDynamicArray<cGcExternalObjectFileList> maOptionalExternalObjectLists;
+    cTkFixedArray<cGcBiomeFileListOptions, 16> maBiomeFiles;
+    cTkDynamicArray<cGcBiomeType1> maValidStartPlanetBiome;
+    cTkDynamicArray<cGcExternalObjectListOptions1> maCommonExternalObjectLists;
+    cTkDynamicArray<cGcExternalObjectFileList1> maOptionalExternalObjectLists;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcGalaxyVoxelAttributesData
 {
+public:
     static const unsigned __int64 muNameHash = 0x967BB69D82846BE5;
     static const unsigned __int64 muTemplateHash = 0xF2B85C926A79352B;
     static const int miNumMembers = 11;
@@ -16,8 +17,8 @@ class cGcGalaxyVoxelAttributesData
     int miGuideStarRenegadeCount;
     int miBlackholeCount;
     int miAtlasStationCount;
-    cTkFixedArray<int> maBlackholeIndices;
-    cTkFixedArray<int> maAtlasStationIndices;
+    cTkFixedArray<int, 12> maBlackholeIndices;
+    cTkFixedArray<int, 12> maAtlasStationIndices;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

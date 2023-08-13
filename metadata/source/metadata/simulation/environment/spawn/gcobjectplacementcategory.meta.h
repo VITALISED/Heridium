@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eObjectPlacement
 {
@@ -12,6 +12,7 @@ enum eObjectPlacement
 
 class cGcObjectPlacementCategory
 {
+public:
     static const unsigned __int64 muNameHash = 0x79F70E3905C45C6D;
     static const unsigned __int64 muTemplateHash = 0xAD8E71D1E344A2D0;
     static const int miNumMembers = 1;

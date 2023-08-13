@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCameraAmbientBuildingData
 {
+public:
     static const unsigned __int64 muNameHash = 0xDF9F37F8504FFE4D;
     static const unsigned __int64 muTemplateHash = 0x120CDC0D966EB569;
     static const int miNumMembers = 7;
@@ -12,8 +13,8 @@ class cGcCameraAmbientBuildingData
     float mfOffset;
     bool mbUseLookAt;
     bool mbAvoidTerrain;
-    cTkFixedArray<bool> maAvailableBuildings;
-    cTkFixedArray<bool> maAvailableRaces;
+    cTkFixedArray<bool, 52> maAvailableBuildings;
+    cTkFixedArray<bool, 8> maAvailableRaces;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

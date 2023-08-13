@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eNavAreaType
 {
@@ -16,6 +16,7 @@ enum eNavAreaType
 
 class cGcNPCNavigationAreaComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xB4FC959D6A910DEB;
     static const unsigned __int64 muTemplateHash = 0xA0E00875B7A6ABD0;
     static const int miNumMembers = 7;

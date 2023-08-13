@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAmbientModeCameras
 {
+public:
     static const unsigned __int64 muNameHash = 0xAF2F2B2DB8C8446A;
     static const unsigned __int64 muTemplateHash = 0x33FA353B288C9430;
     static const int miNumMembers = 3;
 
-    cTkDynamicArray<cGcCameraAmbientBuildingData> maBuildingCameraAnimations;
-    cTkDynamicArray<cGcCameraAmbientSpaceData> maSpaceCameraAnimations;
-    cTkDynamicArray<cGcCameraAmbientSpecialData> maSpecialCameraAnimations;
+    cTkDynamicArray<cGcCameraAmbientBuildingData1> maBuildingCameraAnimations;
+    cTkDynamicArray<cGcCameraAmbientSpaceData1> maSpaceCameraAnimations;
+    cTkDynamicArray<cGcCameraAmbientSpecialData1> maSpecialCameraAnimations;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

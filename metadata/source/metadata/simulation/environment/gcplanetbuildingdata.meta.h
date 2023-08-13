@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlanetBuildingData
 {
+public:
     static const unsigned __int64 muNameHash = 0xF6213EDD899A8CAE;
     static const unsigned __int64 muTemplateHash = 0x9E12FCC020E66CD3;
     static const int miNumMembers = 10;
 
-    cTkDynamicArray<cGcBuildingSpawnSlot> maBuildingSlots;
-    cTkDynamicArray<cGcBuildingSpawnData> maBuildings;
-    cTkDynamicArray<cGcBuildingOverrideData> maOverrideBuildings;
+    cTkDynamicArray<cGcBuildingSpawnSlot1> maBuildingSlots;
+    cTkDynamicArray<cGcBuildingSpawnData1> maBuildings;
+    cTkDynamicArray<cGcBuildingOverrideData1> maOverrideBuildings;
     float mfSpacing;
     float mfPlanetRadius;
     float mfVoronoiPointDivisions;

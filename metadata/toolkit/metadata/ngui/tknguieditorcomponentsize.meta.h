@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eNGuiEditorComponentSize
 {
@@ -55,6 +55,7 @@ enum eNGuiEditorComponentSize
 
 class cTKNGuiEditorComponentSize
 {
+public:
     static const unsigned __int64 muNameHash = 0xB649393FB6E397AE;
     static const unsigned __int64 muTemplateHash = 0x15C71D80B19E4AE8;
     static const int miNumMembers = 1;

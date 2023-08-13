@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eMultiItemRewardType
 {
@@ -15,6 +15,7 @@ class cGcRarity;
 
 class cGcMultiSpecificItemEntry
 {
+public:
     static const unsigned __int64 muNameHash = 0x7439D28A897F0ACC;
     static const unsigned __int64 muTemplateHash = 0xE83D9C2444D3380;
     static const int miNumMembers = 14;
@@ -29,7 +30,7 @@ class cGcMultiSpecificItemEntry
     bool mbAlsoTeachTechBoxRecipe;
     cGcProceduralProductCategory mProcProdType;
     cGcRarity mProcProdRarity;
-    cTkDynamicArray<TkID<128> > maCommunityTierProductList;
+    cTkDynamicArray<TkID<128>1> maCommunityTierProductList;
     bool mbHideInSeasonRewards;
     TkID<128> mSeasonRewardListFormat;
     TkID<256> mCustomRewardLocID;

@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcJudgementMessageOptions;
 
 class cGcMissionSequenceCompleteSettlementJudgement
 {
+public:
     static const unsigned __int64 muNameHash = 0x35FB9E28116A4F2A;
     static const unsigned __int64 muTemplateHash = 0xEC55DBADBB2207F2;
     static const int miNumMembers = 3;
 
-    cTkFixedArray<cGcJudgementMessageOptions> maMessageOptions;
+    cTkFixedArray<cGcJudgementMessageOptions, 7> maMessageOptions;
     cGcJudgementMessageOptions mMessageNoOffice;
     cTkFixedString<128,char> macDebugText;
 

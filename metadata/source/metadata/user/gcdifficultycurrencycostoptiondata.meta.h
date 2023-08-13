@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDifficultyCurrencyCostOptionData
 {
+public:
     static const unsigned __int64 muNameHash = 0x9061069311B1AB2E;
     static const unsigned __int64 muTemplateHash = 0x66A507799BC31D19;
     static const int miNumMembers = 5;
 
-    cTkFixedArray<float> maMultipliers;
-    cTkFixedArray<bool> maFreeCostTypes;
+    cTkFixedArray<float, 3> maMultipliers;
+    cTkFixedArray<bool, 3> maFreeCostTypes;
     float mfTradeBuyPriceMarkupMod;
     bool mbInteractionsCostsAreFree;
     bool mbCostManagerCostsAreFree;

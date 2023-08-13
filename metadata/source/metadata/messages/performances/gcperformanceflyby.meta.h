@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPerformanceFlyby
 {
+public:
     static const unsigned __int64 muNameHash = 0x5384022399CAF09;
     static const unsigned __int64 muTemplateHash = 0x5AD90024C7365E53;
     static const int miNumMembers = 6;

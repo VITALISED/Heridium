@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAlienRace;
 
@@ -11,6 +11,7 @@ enum eRequirement
 
 class cGcCostWordKnowledge
 {
+public:
     static const unsigned __int64 muNameHash = 0x67494CEE3CE0F9F6;
     static const unsigned __int64 muTemplateHash = 0xC4F9F786BC08F74;
     static const int miNumMembers = 2;

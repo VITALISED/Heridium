@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSyncBufferSaveData
 {
+public:
     static const unsigned __int64 muNameHash = 0xEFA8947B437770B8;
     static const unsigned __int64 muTemplateHash = 0x42BCA060447AA539;
     static const int miNumMembers = 5;

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkPlatformButtonPair
 {
+public:
     static const unsigned __int64 muNameHash = 0xC728D4342BAC4AC8;
     static const unsigned __int64 muTemplateHash = 0x58E4F308E63BA84A;
     static const int miNumMembers = 3;

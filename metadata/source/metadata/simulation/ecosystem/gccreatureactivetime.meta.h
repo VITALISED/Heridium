@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eCreatureActiveTime
 {
@@ -12,6 +12,7 @@ enum eCreatureActiveTime
 
 class cGcCreatureActiveTime
 {
+public:
     static const unsigned __int64 muNameHash = 0x8A8A7AA901A0FC93;
     static const unsigned __int64 muTemplateHash = 0x25FB62A959721723;
     static const int miNumMembers = 1;

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMissionConditionIsScanEventRepaired
 {
+public:
     static const unsigned __int64 muNameHash = 0xA601980170B475C0;
     static const unsigned __int64 muTemplateHash = 0xA4633034F695960A;
     static const int miNumMembers = 2;

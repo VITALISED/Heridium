@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcObjectiveTextFormatOptions
 {
+public:
     static const unsigned __int64 muNameHash = 0x2B3787F904F75390;
     static const unsigned __int64 muTemplateHash = 0x49DC6D819EDE244D;
     static const int miNumMembers = 3;

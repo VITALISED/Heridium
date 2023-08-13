@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eActionUseType
 {
@@ -14,6 +14,7 @@ enum eActionUseType
 
 class cGcActionUseType
 {
+public:
     static const unsigned __int64 muNameHash = 0x498BFDCD029948EF;
     static const unsigned __int64 muTemplateHash = 0x52A5A4E9BF42BBF;
     static const int miNumMembers = 1;

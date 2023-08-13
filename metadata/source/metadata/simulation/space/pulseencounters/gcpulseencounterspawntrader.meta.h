@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcResourceElement;
 class cGcPlayerCommunicatorMessage;
 
 class cGcPulseEncounterSpawnTrader
 {
+public:
     static const unsigned __int64 muNameHash = 0x61E014828AD14CD;
     static const unsigned __int64 muTemplateHash = 0x7BE1C328EE224011;
     static const int miNumMembers = 4;

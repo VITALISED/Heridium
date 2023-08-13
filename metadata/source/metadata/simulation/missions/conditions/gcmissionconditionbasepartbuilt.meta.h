@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBuildingPartSearchType;
 
@@ -11,6 +11,7 @@ enum ePartInCurrentBase
 
 class cGcMissionConditionBasePartBuilt
 {
+public:
     static const unsigned __int64 muNameHash = 0x75A4AF2BCC689FD2;
     static const unsigned __int64 muTemplateHash = 0xFC34477E2A2EDC37;
     static const int miNumMembers = 5;

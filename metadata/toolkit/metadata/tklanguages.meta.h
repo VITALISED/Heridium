@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 enum eLanguage
 {
@@ -25,6 +25,7 @@ enum eLanguage
 
 class cTkLanguages
 {
+public:
     static const unsigned __int64 muNameHash = 0xEA37791FF01A5AF4;
     static const unsigned __int64 muTemplateHash = 0x370D5A3B36E0E0F1;
     static const int miNumMembers = 1;

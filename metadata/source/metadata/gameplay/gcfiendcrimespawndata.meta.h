@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureTypes;
 
 class cGcFiendCrimeSpawnData
 {
+public:
     static const unsigned __int64 muNameHash = 0x9F76738BACABEAD2;
     static const unsigned __int64 muTemplateHash = 0xDEB0FEF9EC99F1EC;
     static const int miNumMembers = 5;
@@ -12,8 +13,8 @@ class cGcFiendCrimeSpawnData
     cGcCreatureTypes mType;
     float mfMinDist;
     float mfMaxDist;
-    cTkFixedArray<int> maMinNum;
-    cTkFixedArray<int> maMaxNum;
+    cTkFixedArray<int, 4> maMinNum;
+    cTkFixedArray<int, 4> maMaxNum;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

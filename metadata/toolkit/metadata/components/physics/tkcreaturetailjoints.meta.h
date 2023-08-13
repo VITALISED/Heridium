@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkCreatureTailJoints
 {
+public:
     static const unsigned __int64 muNameHash = 0x38D7F8085AD4CE3;
     static const unsigned __int64 muTemplateHash = 0xC6CBA4BB1305622B;
     static const int miNumMembers = 10;

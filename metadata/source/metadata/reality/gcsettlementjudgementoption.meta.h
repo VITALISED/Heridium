@@ -1,17 +1,18 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSettlementJudgementOption
 {
+public:
     static const unsigned __int64 muNameHash = 0x64786DD8F4475C9B;
     static const unsigned __int64 muTemplateHash = 0xBADC6797B5A16762;
     static const int miNumMembers = 11;
 
     TkID<256> mOptionText;
-    cTkDynamicArray<cGcSettlementJudgementPerkOption> maPerks;
+    cTkDynamicArray<cGcSettlementJudgementPerkOption1> maPerks;
     bool mbHidePerkInJudgement;
-    cTkDynamicArray<cGcSettlementStatChange> maStatChanges;
-    cTkDynamicArray<TkID<128> > maAdditionalRewards;
+    cTkDynamicArray<cGcSettlementStatChange1> maStatChanges;
+    cTkDynamicArray<TkID<128>1> maAdditionalRewards;
     TkID<128> mChainedJudgementID;
     bool mbUsePolicyPerk;
     bool mbUsePolicyStat;

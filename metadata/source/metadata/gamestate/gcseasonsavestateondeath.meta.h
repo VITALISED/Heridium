@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eSeasonSaveStateOnDeath
 {
@@ -11,6 +11,7 @@ enum eSeasonSaveStateOnDeath
 
 class cGcSeasonSaveStateOnDeath
 {
+public:
     static const unsigned __int64 muNameHash = 0x800386833E2445B5;
     static const unsigned __int64 muTemplateHash = 0xBEF45E7C90B2A83C;
     static const int miNumMembers = 1;

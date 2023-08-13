@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMaintenanceElementGroups;
 class cGcInventoryType;
@@ -32,6 +32,7 @@ enum eCompletionRequirement
 
 class cGcMaintenanceElement
 {
+public:
     static const unsigned __int64 muNameHash = 0x79BDBA7746F3C796;
     static const unsigned __int64 muTemplateHash = 0xC7878A2059B371AB;
     static const int miNumMembers = 12;

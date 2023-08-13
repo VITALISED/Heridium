@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkModelResource;
 
 class cGcGeneratedBaseStructuralTemplate
 {
+public:
     static const unsigned __int64 muNameHash = 0x5E598DA86B66C4A9;
     static const unsigned __int64 muTemplateHash = 0x1AE86A6A6F69BC24;
     static const int miNumMembers = 2;

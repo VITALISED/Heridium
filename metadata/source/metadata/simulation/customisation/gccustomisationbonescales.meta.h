@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCustomisationBoneScales
 {
+public:
     static const unsigned __int64 muNameHash = 0x79EA3335C4095B8E;
     static const unsigned __int64 muTemplateHash = 0xBB9FCA6782A31A70;
     static const int miNumMembers = 3;
 
     TkID<256> mGroupTitle;
     TkID<128> mScaleBoneName;
-    cTkDynamicArray<float> maPositions;
+    cTkDynamicArray<float1> maPositions;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

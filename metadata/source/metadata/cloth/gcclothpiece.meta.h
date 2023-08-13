@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eScaleInTransformApplicationOnCloth
 {
@@ -34,6 +34,7 @@ class cGcAdvancedTweaks;
 
 class cGcClothPiece
 {
+public:
     static const unsigned __int64 muNameHash = 0x7596FBA2C232AC37;
     static const unsigned __int64 muTemplateHash = 0xABA3C17DBE6EBD46;
     static const int miNumMembers = 40;
@@ -61,22 +62,22 @@ class cGcClothPiece
     eScaleInTransformApplicationOnAttachment meScaleInTransformApplicationOnAttachment;
     eInitialShapeSource meInitialShapeSource;
     cGcRectangularInitialShape mRectangularInitialShape;
-    cTkDynamicArray<cTkVector> maInitialShapePoints;
-    cTkDynamicArray<cGcClothCollisionBone> maCollisionBones;
-    cTkDynamicArray<cGcClothAttachmentCirlce> maAttachmentCircles;
-    cTkDynamicArray<cGcClothAttachmentLine> maAttachmentLines;
-    cTkDynamicArray<cGcAttachmentPointSet> maAttachmentPointSets;
+    cTkDynamicArray<cTkVector31> maInitialShapePoints;
+    cTkDynamicArray<cGcClothCollisionBone1> maCollisionBones;
+    cTkDynamicArray<cGcClothAttachmentCirlce1> maAttachmentCircles;
+    cTkDynamicArray<cGcClothAttachmentLine1> maAttachmentLines;
+    cTkDynamicArray<cGcAttachmentPointSet1> maAttachmentPointSets;
     cGcConstraintsToCreateSpec mConstraintsToCreate;
-    cTkDynamicArray<cTkFixedString<64,char> > maNodesThatMustBePresent;
-    cTkDynamicArray<cTkFixedString<64,char> > maNodesToHide;
+    cTkDynamicArray<cTkFixedString<64,char>1> maNodesThatMustBePresent;
+    cTkDynamicArray<cTkFixedString<64,char>1> maNodesToHide;
     cGcAdvancedTweaks mAdvanced;
     bool mbVertexBasedClothRenderingEnabled;
     bool mbAttachedNodesEnabled;
-    cTkDynamicArray<cGcAttachedNode> maAttachedNodes;
+    cTkDynamicArray<cGcAttachedNode1> maAttachedNodes;
     float mfAttachedNodesOverallBlendStrength;
-    cTkDynamicArray<int> maDeletedSimPoints;
-    cTkDynamicArray<int> maDeletedConstraintsI;
-    cTkDynamicArray<int> maDeletedConstraintsJ;
+    cTkDynamicArray<int1> maDeletedSimPoints;
+    cTkDynamicArray<int1> maDeletedConstraintsI;
+    cTkDynamicArray<int1> maDeletedConstraintsJ;
     bool mbLeaveRenderedTrianglesUnaffected;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

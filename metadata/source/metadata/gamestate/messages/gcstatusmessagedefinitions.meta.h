@@ -1,17 +1,18 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcStatusMessageDefinitions
 {
+public:
     static const unsigned __int64 muNameHash = 0x434379BF90DDF679;
     static const unsigned __int64 muTemplateHash = 0x16C04EDC7948B399;
     static const int miNumMembers = 5;
 
-    cTkDynamicArray<cGcStatusMessageDefinition> maMessages;
+    cTkDynamicArray<cGcStatusMessageDefinition1> maMessages;
     cTkColour mMissionMarkupColour;
-    cTkFixedArray<cGcPetVocabularyEntry> maPetVocabulary;
-    cTkFixedArray<cGcPetVocabularyEntry> maPetChatTemplates;
-    cTkFixedArray<cGcFriendlyDroneVocabularyEntry> maFriendlyDroneChatTemplates;
+    cTkFixedArray<cGcPetVocabularyEntry, 15> maPetVocabulary;
+    cTkFixedArray<cGcPetVocabularyEntry, 21> maPetChatTemplates;
+    cTkFixedArray<cGcFriendlyDroneVocabularyEntry, 5> maFriendlyDroneChatTemplates;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

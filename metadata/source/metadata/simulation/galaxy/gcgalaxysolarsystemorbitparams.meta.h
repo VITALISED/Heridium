@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcGalaxySolarSystemOrbitParams
 {
+public:
     static const unsigned __int64 muNameHash = 0x9A190BDD7FF30DF9;
     static const unsigned __int64 muTemplateHash = 0xE97CCE7C769A7D42;
     static const int miNumMembers = 7;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eFrigateFlybyType
 {
@@ -12,6 +12,7 @@ enum eFrigateFlybyType
 
 class cGcFrigateFlybyType
 {
+public:
     static const unsigned __int64 muNameHash = 0x20BC4D823F8443DB;
     static const unsigned __int64 muTemplateHash = 0x73ED7A3684434697;
     static const int miNumMembers = 1;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eUniqueIdType
 {
@@ -10,6 +10,7 @@ enum eUniqueIdType
 
 class cGcUniqueIdData
 {
+public:
     static const unsigned __int64 muNameHash = 0xCA58D35FFFB37091;
     static const unsigned __int64 muTemplateHash = 0xB0959B82BA453EF8;
     static const int miNumMembers = 5;

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcModuleOverride
 {
+public:
     static const unsigned __int64 muNameHash = 0x2ABA38292ED14515;
     static const unsigned __int64 muTemplateHash = 0x426EFE251C152DC5;
     static const int miNumMembers = 4;
@@ -10,7 +11,7 @@ class cGcModuleOverride
     TkID<128> mModule;
     float mfProbabilityMultiplier;
     float mfOriginalSceneProbability;
-    cTkDynamicArray<cGcWeightedResource> maScenes;
+    cTkDynamicArray<cGcWeightedResource1> maScenes;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

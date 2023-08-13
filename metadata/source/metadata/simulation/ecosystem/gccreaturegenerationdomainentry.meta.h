@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureGenerationDensity;
 
 class cGcCreatureGenerationDomainEntry
 {
+public:
     static const unsigned __int64 muNameHash = 0x79E2609CF7F155CE;
     static const unsigned __int64 muTemplateHash = 0x6F71AA2B77D5938C;
     static const int miNumMembers = 2;

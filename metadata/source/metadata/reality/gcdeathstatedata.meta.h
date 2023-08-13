@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcTextPreset;
 class cGcTextPreset;
@@ -7,11 +7,12 @@ class cGcTextPreset;
 
 class cGcDeathStateData
 {
+public:
     static const unsigned __int64 muNameHash = 0x5B824AD343C4561E;
     static const unsigned __int64 muTemplateHash = 0x5EC2AD5973679FDE;
     static const int miNumMembers = 4;
 
-    cTkDynamicArray<cGcDeathQuote> maQuotes;
+    cTkDynamicArray<cGcDeathQuote1> maQuotes;
     cGcTextPreset mReasonFont;
     cGcTextPreset mQuoteFont;
     cGcTextPreset mAuthorFont;

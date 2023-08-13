@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcExpeditionHologramComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xDCBE648F7DED1A9F;
     static const unsigned __int64 muTemplateHash = 0x1E2E4E9836123C36;
     static const int miNumMembers = 4;
@@ -10,7 +11,7 @@ class cGcExpeditionHologramComponentData
     float mfHologramRotationSpeedDegPerSec;
     float mfCaptainScale;
     float mfFrigateScale;
-    cTkVector mSpawnOffset;
+    cTkVector3 mSpawnOffset;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

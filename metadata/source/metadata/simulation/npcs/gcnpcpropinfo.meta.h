@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcScanEffectData;
 class cGcTechnologyCategory;
 
 class cGcNPCPropInfo
 {
+public:
     static const unsigned __int64 muNameHash = 0x9441C44CA7215426;
     static const unsigned __int64 muTemplateHash = 0x38C77ECB344C2FB4;
     static const int miNumMembers = 6;

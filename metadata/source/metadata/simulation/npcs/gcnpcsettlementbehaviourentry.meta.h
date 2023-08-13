@@ -1,18 +1,19 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNPCSettlementBehaviourEntry
 {
+public:
     static const unsigned __int64 muNameHash = 0xB268E74AC135A1A5;
     static const unsigned __int64 muTemplateHash = 0xDC67D89D62DABC7C;
     static const int miNumMembers = 6;
 
     float mfRunWhenOutdoorsProbability;
     bool mbOnlyUseIndoorPOIs;
-    cTkDynamicArray<cGcNPCSettlementBehaviourBuildingClassCapacityEntry> maBuildingClassCapacities;
-    cTkDynamicArray<cGcNPCSettlementBehaviourAreaPropertyWeightEntry> maAreaPropertyWeights;
-    cTkDynamicArray<cGcNPCSettlementBehaviourBuildingClassWeightEntry> maBuildingClassWeights;
-    cTkDynamicArray<cGcNPCSettlementBehaviourObjectTypeWeightEntry> maObjectTypeWeights;
+    cTkDynamicArray<cGcNPCSettlementBehaviourBuildingClassCapacityEntry1> maBuildingClassCapacities;
+    cTkDynamicArray<cGcNPCSettlementBehaviourAreaPropertyWeightEntry1> maAreaPropertyWeights;
+    cTkDynamicArray<cGcNPCSettlementBehaviourBuildingClassWeightEntry1> maBuildingClassWeights;
+    cTkDynamicArray<cGcNPCSettlementBehaviourObjectTypeWeightEntry1> maObjectTypeWeights;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

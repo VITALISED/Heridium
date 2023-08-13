@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNPCWordReactionList;
 
 class cGcNPCWordReactionCategory
 {
+public:
     static const unsigned __int64 muNameHash = 0x68CB2B62199F1EFA;
     static const unsigned __int64 muTemplateHash = 0xC4EEDF35BA1C202B;
     static const int miNumMembers = 2;
 
-    cTkFixedArray<cGcNPCWordReactionList> maCategories;
+    cTkFixedArray<cGcNPCWordReactionList, 7> maCategories;
     cGcNPCWordReactionList mFallback;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

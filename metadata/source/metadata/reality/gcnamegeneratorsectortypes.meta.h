@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eSectorName
 {
@@ -19,6 +19,7 @@ enum eSectorName
 
 class cGcNameGeneratorSectorTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0x2FBB792E633BA89B;
     static const unsigned __int64 muTemplateHash = 0x7DFB66DB33ABB5EA;
     static const int miNumMembers = 1;

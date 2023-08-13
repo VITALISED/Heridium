@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eGenericIconType
 {
@@ -13,6 +13,7 @@ enum eGenericIconType
 
 class cGcGenericIconTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0xA4091406380F5113;
     static const unsigned __int64 muTemplateHash = 0xC364E4B5E5B16679;
     static const int miNumMembers = 1;

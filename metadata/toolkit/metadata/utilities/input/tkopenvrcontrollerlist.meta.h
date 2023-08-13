@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkOpenVRControllerList
 {
+public:
     static const unsigned __int64 muNameHash = 0x9BF04097261BBFEA;
     static const unsigned __int64 muTemplateHash = 0x37F80B4F24A556F4;
     static const int miNumMembers = 1;
 
-    cTkDynamicArray<cTkOpenVRControllerLookup> maDevices;
+    cTkDynamicArray<cTkOpenVRControllerLookup1> maDevices;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

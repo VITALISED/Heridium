@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkFoliageData
 {
+public:
     static const unsigned __int64 muNameHash = 0x678F6A0ACE397B4;
     static const unsigned __int64 muTemplateHash = 0xCF5018310EDBC8A2;
     static const int miNumMembers = 7;

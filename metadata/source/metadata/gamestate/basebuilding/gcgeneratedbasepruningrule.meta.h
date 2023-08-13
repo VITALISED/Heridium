@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcGeneratedBasePruningRule
 {
+public:
     static const unsigned __int64 muNameHash = 0x37476C35069E0A8F;
     static const unsigned __int64 muTemplateHash = 0x360C266CF8B4160B;
     static const int miNumMembers = 5;
@@ -11,7 +12,7 @@ class cGcGeneratedBasePruningRule
     TkID<128> mNodeName;
     int miMaxPerRoom;
     int miMaxPerDungeon;
-    cTkDynamicArray<TkID<128> > maRoomFilters;
+    cTkDynamicArray<TkID<128>1> maRoomFilters;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

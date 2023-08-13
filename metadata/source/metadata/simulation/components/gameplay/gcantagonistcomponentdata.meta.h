@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAntagonistGroup;
 
 class cGcAntagonistComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xFAE78D5DE55087ED;
     static const unsigned __int64 muTemplateHash = 0xB4F5A3CBC47938A4;
     static const int miNumMembers = 8;
@@ -14,9 +15,9 @@ class cGcAntagonistComponentData
     float mfShockedFactor;
     float mfComprehensionFactor;
     float mfCommunicationDelay;
-    cTkFixedArray<cGcAntagonistFriend> maFriends;
-    cTkFixedArray<cGcAntagonistEnemy> maEnemies;
-    cTkDynamicArray<cGcAntagonistPerception> maPerceptions;
+    cTkFixedArray<cGcAntagonistFriend, 6> maFriends;
+    cTkFixedArray<cGcAntagonistEnemy, 6> maEnemies;
+    cTkDynamicArray<cGcAntagonistPerception1> maPerceptions;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

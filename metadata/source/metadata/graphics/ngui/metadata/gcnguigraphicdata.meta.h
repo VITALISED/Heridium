@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNGuiElementData;
 class cTkNGuiGraphicStyle;
 
 class cGcNGuiGraphicData
 {
+public:
     static const unsigned __int64 muNameHash = 0x264B878043DA20B3;
     static const unsigned __int64 muTemplateHash = 0xFA260C4B6F9A60E0;
     static const int miNumMembers = 3;

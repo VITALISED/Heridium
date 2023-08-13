@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcHand;
 class cGcScanEffectData;
 
 class cGcPlayerEmotePropData
 {
+public:
     static const unsigned __int64 muNameHash = 0x7E08658A660A58D4;
     static const unsigned __int64 muTemplateHash = 0x3E4771511FBAD7C7;
     static const int miNumMembers = 7;

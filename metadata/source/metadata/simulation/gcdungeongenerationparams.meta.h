@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDungeonGenerationParams
 {
+public:
     static const unsigned __int64 muNameHash = 0xFD9E29934900184E;
     static const unsigned __int64 muTemplateHash = 0xAA790A943816F13C;
     static const int miNumMembers = 16;
@@ -18,11 +19,11 @@ class cGcDungeonGenerationParams
     float mfYProbability;
     float mfZProbability;
     float mfStraightMultiplier;
-    cTkDynamicArray<cGcDungeonRoomParams> maMainRoomTypes;
-    cTkDynamicArray<TkID<128> > maBranchRoomTypes;
-    cTkDynamicArray<cGcDungeonQuestParams> maQuests;
-    cTkDynamicArray<cTkClassPointer> maGenerationRules;
-    cTkDynamicArray<TkID<128> > maPruningRules;
+    cTkDynamicArray<cGcDungeonRoomParams1> maMainRoomTypes;
+    cTkDynamicArray<TkID<128>1> maBranchRoomTypes;
+    cTkDynamicArray<cGcDungeonQuestParams1> maQuests;
+    cTkDynamicArray<cTkClassPointer1> maGenerationRules;
+    cTkDynamicArray<TkID<128>1> maPruningRules;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

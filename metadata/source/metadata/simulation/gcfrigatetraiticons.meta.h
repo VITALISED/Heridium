@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcFrigateTraitIcons
 {
+public:
     static const unsigned __int64 muNameHash = 0xE4A4F7A4BE98467D;
     static const unsigned __int64 muTemplateHash = 0xBD8FEBF92EA3C645;
     static const int miNumMembers = 1;
 
-    cTkFixedArray<cTkFixedString<128,char> > maIcons;
+    cTkFixedArray<cTkFixedString<128,char>, 11> maIcons;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

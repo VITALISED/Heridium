@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcWeatherOptions;
 class cGcPlanetHeavyAirData;
@@ -28,6 +28,7 @@ class cGcRainbowType;
 
 class cGcPlanetWeatherData
 {
+public:
     static const unsigned __int64 muNameHash = 0xEBF08BE1E3CAE3AC;
     static const unsigned __int64 muTemplateHash = 0x69F3C1EFE29BC64E;
     static const int miNumMembers = 11;

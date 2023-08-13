@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eEmitterShape
 {
@@ -10,6 +10,7 @@ enum eEmitterShape
 
 class cTkHeavyAirData
 {
+public:
     static const unsigned __int64 muNameHash = 0xCB25F378CA730AFC;
     static const unsigned __int64 muTemplateHash = 0x5ED48C0489FB7DD4;
     static const int miNumMembers = 22;
@@ -27,12 +28,12 @@ class cTkHeavyAirData
     float mfMaxVisibleSpeed;
     float mfSoftFadeStrength;
     float mfSpawnRotationRange;
-    cTkVector mMajorDirection;
-    cTkVector mScaleRange;
-    cTkVector mRotationSpeedRange;
-    cTkVector mTwinkleRange;
-    cTkVector mAmplitudeMin;
-    cTkVector mAmplitudeMax;
+    cTkVector3 mMajorDirection;
+    cTkVector3 mScaleRange;
+    cTkVector3 mRotationSpeedRange;
+    cTkVector3 mTwinkleRange;
+    cTkVector3 mAmplitudeMin;
+    cTkVector3 mAmplitudeMax;
     cTkColour mColour1;
     cTkColour mColour2;
     eEmitterShape meEmitterShape;

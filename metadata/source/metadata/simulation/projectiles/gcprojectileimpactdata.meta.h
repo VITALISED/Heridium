@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcProjectileImpactType;
 
@@ -17,6 +17,7 @@ enum eImpactAttachment
 
 class cGcProjectileImpactData
 {
+public:
     static const unsigned __int64 muNameHash = 0x2F2FAFA4A7023B71;
     static const unsigned __int64 muTemplateHash = 0xA4AFE56500C79074;
     static const int miNumMembers = 4;

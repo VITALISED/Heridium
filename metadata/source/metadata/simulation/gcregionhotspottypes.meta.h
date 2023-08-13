@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eHotspotType
 {
@@ -13,6 +13,7 @@ enum eHotspotType
 
 class cGcRegionHotspotTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0x1B2443FC607CC2A;
     static const unsigned __int64 muTemplateHash = 0x2D148480DFB092DA;
     static const int miNumMembers = 1;

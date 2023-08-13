@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDebugShipTravelLine
 {
+public:
     static const unsigned __int64 muNameHash = 0x639D09D542659F2F;
     static const unsigned __int64 muTemplateHash = 0xE5E0C2C9BFB8D83D;
     static const int miNumMembers = 4;
 
-    cTkVector mOrigin;
-    cTkVector mDir;
+    cTkVector3 mOrigin;
+    cTkVector3 mDir;
     float mfLength;
     float mfInfluenceRange;
 

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eSprintingCostDifficulty
 {
@@ -10,6 +10,7 @@ enum eSprintingCostDifficulty
 
 class cGcSprintingCostDifficultyOption
 {
+public:
     static const unsigned __int64 muNameHash = 0x81A38020A4FC78BE;
     static const unsigned __int64 muTemplateHash = 0xB2CC5E20D1D2FA20;
     static const int miNumMembers = 1;

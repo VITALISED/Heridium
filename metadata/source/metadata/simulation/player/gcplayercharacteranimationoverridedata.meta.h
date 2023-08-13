@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlayerCharacterIKOverrideData;
 
 class cGcPlayerCharacterAnimationOverrideData
 {
+public:
     static const unsigned __int64 muNameHash = 0x78D4180CEDFDC316;
     static const unsigned __int64 muTemplateHash = 0xE1E8F5FEA4CE3E2D;
     static const int miNumMembers = 2;

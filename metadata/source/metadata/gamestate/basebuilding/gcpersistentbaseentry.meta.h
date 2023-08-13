@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPersistentBaseEntry
 {
+public:
     static const unsigned __int64 muNameHash = 0xD040D4124F0456EF;
     static const unsigned __int64 muTemplateHash = 0xDB39E3870A3CBC82;
     static const int miNumMembers = 7;
@@ -10,9 +11,9 @@ class cGcPersistentBaseEntry
     unsigned __int64 mui64Timestamp;
     TkID<128> mObjectID;
     unsigned __int64 mui64UserData;
-    cTkVector mPosition;
-    cTkVector mUp;
-    cTkVector mAt;
+    cTkVector3 mPosition;
+    cTkVector3 mUp;
+    cTkVector3 mAt;
     cTkFixedString<64,char> macMessage;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

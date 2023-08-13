@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMissionConditionTest;
 
 class cGcMissionSequenceConditionalReward
 {
+public:
     static const unsigned __int64 muNameHash = 0x4A3E875FBE0AEA1D;
     static const unsigned __int64 muTemplateHash = 0xD0089B6F057AF2B;
     static const int miNumMembers = 5;
@@ -12,7 +13,7 @@ class cGcMissionSequenceConditionalReward
     TkID<128> mRewardIfTrue;
     TkID<128> mRewardIfFalse;
     cGcMissionConditionTest mConditionTest;
-    cTkDynamicArray<cTkClassPointer> maConditions;
+    cTkDynamicArray<cTkClassPointer1> maConditions;
     cTkFixedString<128,char> macDebugText;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

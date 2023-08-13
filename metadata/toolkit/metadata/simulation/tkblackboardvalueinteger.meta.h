@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkBlackboardValueInteger
 {
+public:
     static const unsigned __int64 muNameHash = 0x66E627EC0C57305C;
     static const unsigned __int64 muTemplateHash = 0xAF041AAB56FCE9C3;
     static const int miNumMembers = 2;

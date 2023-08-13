@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eCloudiness
 {
@@ -9,6 +9,7 @@ enum eCloudiness
 
 class cGcPlanetCloudProperties
 {
+public:
     static const unsigned __int64 muNameHash = 0x96E42AD217EA55B2;
     static const unsigned __int64 muTemplateHash = 0x9F922C89C96A1B4F;
     static const int miNumMembers = 12;

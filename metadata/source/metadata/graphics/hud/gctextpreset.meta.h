@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcFontTypesEnum;
 
 class cGcTextPreset
 {
+public:
     static const unsigned __int64 muNameHash = 0x4CF465C68C10EBB4;
     static const unsigned __int64 muTemplateHash = 0x31219BCC0FF4CD30;
     static const int miNumMembers = 4;

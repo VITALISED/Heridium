@@ -1,17 +1,18 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkResourceDescriptorData
 {
+public:
     static const unsigned __int64 muNameHash = 0xC24CCFE195015403;
     static const unsigned __int64 muTemplateHash = 0x4F8F0561C7986C88;
     static const int miNumMembers = 5;
 
     TkID<256> mId;
     cTkFixedString<128,char> macName;
-    cTkDynamicArray<cTkFixedString<128,char> > maReferencePaths;
+    cTkDynamicArray<cTkFixedString<128,char>1> maReferencePaths;
     float mfChance;
-    cTkDynamicArray<cTkClassPointer> maChildren;
+    cTkDynamicArray<cTkClassPointer1> maChildren;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

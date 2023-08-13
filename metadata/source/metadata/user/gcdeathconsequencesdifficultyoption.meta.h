@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eDeathConsequencesDifficulty
 {
@@ -11,6 +11,7 @@ enum eDeathConsequencesDifficulty
 
 class cGcDeathConsequencesDifficultyOption
 {
+public:
     static const unsigned __int64 muNameHash = 0x369AA9FC9BDA7A5E;
     static const unsigned __int64 muTemplateHash = 0xE8CBB25AF0B05F86;
     static const int miNumMembers = 1;

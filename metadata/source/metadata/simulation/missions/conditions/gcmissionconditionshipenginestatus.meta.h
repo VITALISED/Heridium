@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eEngineStatus
 {
@@ -15,6 +15,7 @@ enum eEngineStatus
 
 class cGcMissionConditionShipEngineStatus
 {
+public:
     static const unsigned __int64 muNameHash = 0x9A43A9B870251F8C;
     static const unsigned __int64 muTemplateHash = 0x39385853D394BC7C;
     static const int miNumMembers = 1;

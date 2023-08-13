@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkNGuiLayoutListData
 {
+public:
     static const unsigned __int64 muNameHash = 0xF50715D349F22A12;
     static const unsigned __int64 muTemplateHash = 0x4D0A817667D4BAA9;
     static const int miNumMembers = 4;

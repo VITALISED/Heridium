@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eNPCHabitationType
 {
@@ -12,6 +12,7 @@ enum eNPCHabitationType
 
 class cGcNPCHabitationType
 {
+public:
     static const unsigned __int64 muNameHash = 0x2A6BB71EAF092577;
     static const unsigned __int64 muTemplateHash = 0xFDB46411B06AA1C;
     static const int miNumMembers = 1;

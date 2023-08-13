@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBaseBuildingPartStyle;
 class cTkModelResource;
@@ -16,6 +16,7 @@ class cTkModelResource;
 
 class cGcBaseBuildingEntry
 {
+public:
     static const unsigned __int64 muNameHash = 0xA6F7B710166F6076;
     static const unsigned __int64 muTemplateHash = 0x2E18738D74B90B8C;
     static const int miNumMembers = 50;
@@ -44,7 +45,7 @@ class cGcBaseBuildingEntry
     bool mbCheckPlayerCollision;
     bool mbCanRotate3D;
     bool mbCanScale;
-    cTkDynamicArray<cGcBaseBuildingEntryGroup> maGroups;
+    cTkDynamicArray<cGcBaseBuildingEntryGroup1> maGroups;
     int miStorageContainerIndex;
     TkID<256> mColourPaletteGroupId;
     TkID<256> mDefaultColourPaletteId;
@@ -54,8 +55,8 @@ class cGcBaseBuildingEntry
     bool mbCanChangeMaterial;
     bool mbCanPickUp;
     bool mbShowInBuildMenu;
-    cTkDynamicArray<TkID<128> > maCompositePartObjectIDs;
-    cTkDynamicArray<TkID<128> > maFamilyIDs;
+    cTkDynamicArray<TkID<128>1> maCompositePartObjectIDs;
+    cTkDynamicArray<TkID<128>1> maFamilyIDs;
     float mfBuildEffectAccelerator;
     bool mbRemovesAttachedDecoration;
     bool mbRemovesWhenUnsnapped;

@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcEcosystemSpawnData
 {
+public:
     static const unsigned __int64 muNameHash = 0xB2F82AE85A5CD5EE;
     static const unsigned __int64 muTemplateHash = 0x7B710B6ECC0C1CD5;
     static const int miNumMembers = 3;
 
-    cTkDynamicArray<cGcEcosystemCreatureData> maCreatures;
+    cTkDynamicArray<cGcEcosystemCreatureData1> maCreatures;
     float mfCreatureMinNoise;
     float mfCreatureMaxNoise;
 

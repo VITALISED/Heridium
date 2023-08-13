@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcHand;
 
@@ -13,6 +13,7 @@ enum eGrabType
 
 class cGcGrabbableData
 {
+public:
     static const unsigned __int64 muNameHash = 0xEF85A351ABA84D63;
     static const unsigned __int64 muTemplateHash = 0xC52A83607CC704B8;
     static const int miNumMembers = 17;

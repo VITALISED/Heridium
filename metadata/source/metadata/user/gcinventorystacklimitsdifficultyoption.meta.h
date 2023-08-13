@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eInventoryStackLimitsDifficulty
 {
@@ -10,6 +10,7 @@ enum eInventoryStackLimitsDifficulty
 
 class cGcInventoryStackLimitsDifficultyOption
 {
+public:
     static const unsigned __int64 muNameHash = 0xBC2BBF55EEB95C06;
     static const unsigned __int64 muTemplateHash = 0x5F13D862186143AB;
     static const int miNumMembers = 1;

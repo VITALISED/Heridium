@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDifficultyOptionUIGroup
 {
+public:
     static const unsigned __int64 muNameHash = 0x6341093281E2ADC1;
     static const unsigned __int64 muTemplateHash = 0x748832DDC7606FA0;
     static const int miNumMembers = 2;
 
     TkID<256> mHeadingLocID;
-    cTkDynamicArray<cGcDifficultySettingUIOption> maDifficultyOptions;
+    cTkDynamicArray<cGcDifficultySettingUIOption1> maDifficultyOptions;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

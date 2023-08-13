@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcFrigateClass;
 
 class cGcFrigateFlybyOption
 {
+public:
     static const unsigned __int64 muNameHash = 0x7219E3FF7006060F;
     static const unsigned __int64 muTemplateHash = 0xE8D8F0C9A4D20C4C;
     static const int miNumMembers = 4;

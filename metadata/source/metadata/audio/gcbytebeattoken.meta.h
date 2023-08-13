@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eByteBeatToken
 {
@@ -25,6 +25,7 @@ enum eByteBeatToken
 
 class cGcByteBeatToken
 {
+public:
     static const unsigned __int64 muNameHash = 0x1FC756C2E641CC49;
     static const unsigned __int64 muTemplateHash = 0xA3F301BA6206E62D;
     static const int miNumMembers = 1;

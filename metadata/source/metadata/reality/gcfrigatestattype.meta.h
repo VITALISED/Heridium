@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eFrigateStatType
 {
@@ -18,6 +18,7 @@ enum eFrigateStatType
 
 class cGcFrigateStatType
 {
+public:
     static const unsigned __int64 muNameHash = 0x5B21B72DF30D668C;
     static const unsigned __int64 muTemplateHash = 0xA354D70279797182;
     static const int miNumMembers = 1;

@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPrimaryAxis;
 
 class cGcCreatureComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x28E8DAB19EC55198;
     static const unsigned __int64 muTemplateHash = 0x1639F80C9E1E506E;
     static const int miNumMembers = 14;
@@ -14,15 +15,15 @@ class cGcCreatureComponentData
     float mfScaler;
     float mfPetIndoorScaler;
     TkID<128> mDeathEffect;
-    cTkDynamicArray<cGcReplacementEffectData> maReplacementImpacts;
+    cTkDynamicArray<cGcReplacementEffectData1> maReplacementImpacts;
     float mfAccessoryPitchOffset;
     float mfDiscoveryFurScaler;
     float mfDiscoveryUIScaler;
-    cTkVector mDiscoveryUIOffset;
-    cTkDynamicArray<cGcCreatureDiscoveryThumbnailOverride> maThumbnailOverrides;
+    cTkVector3 mDiscoveryUIOffset;
+    cTkDynamicArray<cGcCreatureDiscoveryThumbnailOverride1> maThumbnailOverrides;
     bool mbUsePetLargeUIOverride;
     float mfPetLargeUIOverrideScaler;
-    cTkVector mPetLargeUIOverrideOffset;
+    cTkVector3 mPetLargeUIOverrideOffset;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

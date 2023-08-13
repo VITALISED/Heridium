@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlanetRingData
 {
+public:
     static const unsigned __int64 muNameHash = 0x458BD6BED0D5C445;
     static const unsigned __int64 muTemplateHash = 0x9DC3BCA8345F0164;
     static const int miNumMembers = 12;
 
     bool mbHasRings;
-    cTkVector mUp;
+    cTkVector3 mUp;
     cTkColour mColour1;
     cTkColour mColour2;
     float mfLargeScale1;

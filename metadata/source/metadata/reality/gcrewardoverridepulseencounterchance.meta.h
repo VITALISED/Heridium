@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcRewardOverridePulseEncounterChance
 {
+public:
     static const unsigned __int64 muNameHash = 0xBF5651AA301FD576;
     static const unsigned __int64 muTemplateHash = 0x6F6CF54C4C7DD57F;
     static const int miNumMembers = 1;

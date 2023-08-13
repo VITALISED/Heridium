@@ -1,25 +1,26 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCustomisationDescriptorGroupOption
 {
+public:
     static const unsigned __int64 muNameHash = 0xA29C133FB960AEB2;
     static const unsigned __int64 muTemplateHash = 0xA4966141B9DA7E53;
     static const int miNumMembers = 13;
 
     TkID<128> mDescriptorOption;
-    cTkDynamicArray<cGcCustomisationTextureGroup> maTextureGroups;
+    cTkDynamicArray<cGcCustomisationTextureGroup1> maTextureGroups;
     bool mbReplaceBaseColours;
-    cTkDynamicArray<cGcCustomisationColourGroup> maColourGroups;
+    cTkDynamicArray<cGcCustomisationColourGroup1> maColourGroups;
     bool mbReplaceBaseBoneScales;
-    cTkDynamicArray<cGcCustomisationBoneScales> maBoneScales;
+    cTkDynamicArray<cGcCustomisationBoneScales1> maBoneScales;
     int miInteractionCameraIndexOverride;
     cTkFixedString<32,char> macInteracttionCameraFocusJointOverride;
-    cTkDynamicArray<TkID<128> > maHideIfGroupActive;
-    cTkDynamicArray<TkID<128> > maSelectingRemovesGroup;
-    cTkDynamicArray<TkID<128> > maSelectingAddsGroup;
-    cTkDynamicArray<TkID<128> > maUnselectingRemovesGroup;
-    cTkDynamicArray<TkID<128> > maUnselectingAddsGroup;
+    cTkDynamicArray<TkID<128>1> maHideIfGroupActive;
+    cTkDynamicArray<TkID<128>1> maSelectingRemovesGroup;
+    cTkDynamicArray<TkID<128>1> maSelectingAddsGroup;
+    cTkDynamicArray<TkID<128>1> maUnselectingRemovesGroup;
+    cTkDynamicArray<TkID<128>1> maUnselectingAddsGroup;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

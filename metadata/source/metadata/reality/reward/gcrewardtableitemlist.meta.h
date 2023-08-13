@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eRewardChoice
 {
@@ -17,6 +17,7 @@ enum eRewardChoice
 
 class cGcRewardTableItemList
 {
+public:
     static const unsigned __int64 muNameHash = 0xF97DB1C704357E47;
     static const unsigned __int64 muTemplateHash = 0xECD3D5DCA792D16;
     static const int miNumMembers = 4;
@@ -24,7 +25,7 @@ class cGcRewardTableItemList
     eRewardChoice meRewardChoice;
     bool mbOverrideZeroSeed;
     bool mbUseInventoryChoiceOverride;
-    cTkDynamicArray<cGcRewardTableItem> maList;
+    cTkDynamicArray<cGcRewardTableItem1> maList;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

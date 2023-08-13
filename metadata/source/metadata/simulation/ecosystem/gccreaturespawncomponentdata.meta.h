@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureTypes;
 class cGcAISpaceshipTypes;
@@ -15,6 +15,7 @@ class cGcResourceElement;
 
 class cGcCreatureSpawnComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xCC070D1A8B81739E;
     static const unsigned __int64 muTemplateHash = 0x7D4866C5B23CFEE2;
     static const int miNumMembers = 15;
@@ -33,7 +34,7 @@ class cGcCreatureSpawnComponentData
     bool mbSpawnAlert;
     eSpawnerMode meSpawnerMode;
     cGcResourceElement mSpecificModel;
-    cTkDynamicArray<cGcSpawnComponentOption> maSpawnOptionList;
+    cTkDynamicArray<cGcSpawnComponentOption1> maSpawnOptionList;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

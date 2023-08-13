@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkModelResource;
 class cTkModelResource;
@@ -14,6 +14,7 @@ class cGcBaseBuildingGroup;
 
 class cGcBaseBuildingTable
 {
+public:
     static const unsigned __int64 muNameHash = 0x69B43206529CA591;
     static const unsigned __int64 muTemplateHash = 0x699CA7FB32674596;
     static const int miNumMembers = 17;
@@ -26,14 +27,14 @@ class cGcBaseBuildingTable
     cTkModelResource mWiringFirefly;
     cTkModelResource mWiringSnapPoint;
     cTkModelResource mWiringSnapSelected;
-    cTkDynamicArray<cGcBaseBuildingEntry> maObjects;
-    cTkDynamicArray<cGcBaseBuildingGroup> maGroups;
-    cTkDynamicArray<cGcBaseBuildingPalette> maPalettes;
-    cTkDynamicArray<cGcId256List> maPaletteGroups;
-    cTkDynamicArray<cGcBaseBuildingMaterial> maMaterials;
-    cTkDynamicArray<cGcId256List> maMaterialGroups;
+    cTkDynamicArray<cGcBaseBuildingEntry1> maObjects;
+    cTkDynamicArray<cGcBaseBuildingGroup1> maGroups;
+    cTkDynamicArray<cGcBaseBuildingPalette1> maPalettes;
+    cTkDynamicArray<cGcId256List1> maPaletteGroups;
+    cTkDynamicArray<cGcBaseBuildingMaterial1> maMaterials;
+    cTkDynamicArray<cGcId256List1> maMaterialGroups;
     cGcBaseBuildingProperties mProperties;
-    cTkDynamicArray<cGcBaseBuildingFamily> maFamilies;
+    cTkDynamicArray<cGcBaseBuildingFamily1> maFamilies;
     cGcBaseBuildingGroup mRelativesTabSetupData;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

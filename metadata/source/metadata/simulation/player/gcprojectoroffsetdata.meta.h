@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInWorldUIScreenData;
 class cGcInWorldUIScreenData;
 
 class cGcProjectorOffsetData
 {
+public:
     static const unsigned __int64 muNameHash = 0xB9DD91F357A56979;
     static const unsigned __int64 muTemplateHash = 0x9E692218EF2AC71A;
     static const int miNumMembers = 4;

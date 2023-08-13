@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcObjectSpawnDataVariant
 {
+public:
     static const unsigned __int64 muNameHash = 0xB5D7AD8F4482D8AE;
     static const unsigned __int64 muTemplateHash = 0x338FD10AF4E1E015;
     static const int miNumMembers = 11;
@@ -17,7 +18,7 @@ class cGcObjectSpawnDataVariant
     float mfFadeOutStartDistance;
     float mfFadeOutEndDistance;
     float mfFadeOutOffsetDistance;
-    cTkFixedArray<float> maLodDistances;
+    cTkFixedArray<float, 5> maLodDistances;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

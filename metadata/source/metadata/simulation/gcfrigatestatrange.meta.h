@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcFrigateStatRange
 {
+public:
     static const unsigned __int64 muNameHash = 0x2962BA5BB3EC43E1;
     static const unsigned __int64 muTemplateHash = 0xE2A9742A320EFC44;
     static const int miNumMembers = 2;

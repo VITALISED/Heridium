@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAudioNPCDoppler
 {
+public:
     static const unsigned __int64 muNameHash = 0xC02D1C8C9CF91C83;
     static const unsigned __int64 muTemplateHash = 0x866658EDEE3C2AC8;
     static const int miNumMembers = 1;
 
-    cTkFixedArray<cGcAudio3PointDopplerData> maConfig;
+    cTkFixedArray<cGcAudio3PointDopplerData, 7> maConfig;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cAxisSpecification;
 class cAxisSpecification;
@@ -7,6 +7,7 @@ class cAxisSpecification;
 
 class cGcClothAttachmentCirlce
 {
+public:
     static const unsigned __int64 muNameHash = 0xE5DC8328938D3562;
     static const unsigned __int64 muTemplateHash = 0x22A3925ECEBE9AB2;
     static const int miNumMembers = 19;
@@ -15,7 +16,7 @@ class cGcClothAttachmentCirlce
     cTkFixedString<64,char> macDebugName;
     cTkFixedString<64,char> macBoneName;
     float mfRadius;
-    cTkVector mCenter;
+    cTkVector3 mCenter;
     cAxisSpecification mRightAxis;
     cAxisSpecification mForwardAxis;
     cAxisSpecification mClothDirection;

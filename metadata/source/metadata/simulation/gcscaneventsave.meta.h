@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBuildingClassification;
 class cGcPlayerMissionParticipantType;
 
 class cGcScanEventSave
 {
+public:
     static const unsigned __int64 muNameHash = 0x434C17159AF37265;
     static const unsigned __int64 muTemplateHash = 0xBB2142F8AFF05E7A;
     static const int miNumMembers = 10;
@@ -14,7 +15,7 @@ class cGcScanEventSave
     TkID<256> mEvent;
     unsigned __int64 mui64GalacticAddress;
     cTkSeed mBuildingSeed;
-    cTkVector mBuildingLocation;
+    cTkVector3 mBuildingLocation;
     cGcBuildingClassification mBuildingClass;
     float mfTime;
     TkID<128> mMissionID;

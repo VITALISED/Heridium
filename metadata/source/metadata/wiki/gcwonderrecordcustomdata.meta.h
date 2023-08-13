@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcWonderType;
 
 class cGcWonderRecordCustomData
 {
+public:
     static const unsigned __int64 muNameHash = 0x223C08FAB30D9754;
     static const unsigned __int64 muTemplateHash = 0x47532B4C506CB5A9;
     static const int miNumMembers = 2;

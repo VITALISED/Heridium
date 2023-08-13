@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAudioWwiseEvents;
 
 class cGcMissionSequenceDetailMessage
 {
+public:
     static const unsigned __int64 muNameHash = 0xA29EE4D703004484;
     static const unsigned __int64 muTemplateHash = 0x660FF7F8D21AAB38;
     static const int miNumMembers = 6;
@@ -13,7 +14,7 @@ class cGcMissionSequenceDetailMessage
     TkID<256> mDescription;
     TkID<256> mImage;
     cGcAudioWwiseEvents mAudioEvent;
-    cTkDynamicArray<cGcMissionSequenceDetailMessagePoint> maPoints;
+    cTkDynamicArray<cGcMissionSequenceDetailMessagePoint1> maPoints;
     cTkFixedString<128,char> macDebugText;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

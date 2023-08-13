@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBaseLinkGridConnectionData;
 
@@ -20,6 +20,7 @@ enum eDependsOnHotspots
 
 class cGcBaseLinkGridData
 {
+public:
     static const unsigned __int64 muNameHash = 0x3FBB55C99E667F9E;
     static const unsigned __int64 muTemplateHash = 0xE8F66D1290EEC0E7;
     static const int miNumMembers = 6;
@@ -29,7 +30,7 @@ class cGcBaseLinkGridData
     int miStorage;
     eDependsOnEnvironment meDependsOnEnvironment;
     eDependsOnHotspots meDependsOnHotspots;
-    cTkDynamicArray<cGcBaseLinkGridConnectionDependency> maDependentConnections;
+    cTkDynamicArray<cGcBaseLinkGridConnectionDependency1> maDependentConnections;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

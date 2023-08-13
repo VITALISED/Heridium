@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eViewShape
 {
@@ -9,6 +9,7 @@ enum eViewShape
 
 class cGcAntagonistPerception
 {
+public:
     static const unsigned __int64 muNameHash = 0x44D6DFC8A512D8CB;
     static const unsigned __int64 muTemplateHash = 0x8BCCD4CF815D841F;
     static const int miNumMembers = 7;

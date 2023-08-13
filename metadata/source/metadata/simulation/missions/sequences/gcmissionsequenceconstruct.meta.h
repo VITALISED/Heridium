@@ -1,17 +1,18 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBuildingPartSearchType;
 
 class cGcMissionSequenceConstruct
 {
+public:
     static const unsigned __int64 muNameHash = 0x694A21AA8BC8BAD4;
     static const unsigned __int64 muTemplateHash = 0xC3530D73DF7B4A6A;
     static const int miNumMembers = 5;
 
     cTkFixedString<128,char> macMessage;
     int miNumUniquePartsRequired;
-    cTkDynamicArray<cGcConstructionPart> maPotentialParts;
+    cTkDynamicArray<cGcConstructionPart1> maPotentialParts;
     cGcBuildingPartSearchType mType;
     cTkFixedString<128,char> macDebugText;
 

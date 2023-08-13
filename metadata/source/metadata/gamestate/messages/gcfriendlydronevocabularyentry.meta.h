@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcFriendlyDroneVocabularyEntry
 {
+public:
     static const unsigned __int64 muNameHash = 0x994450FB174886C5;
     static const unsigned __int64 muTemplateHash = 0xEBC33030C0F15DEB;
     static const int miNumMembers = 1;

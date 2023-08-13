@@ -1,22 +1,23 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcByteBeatTemplates
 {
+public:
     static const unsigned __int64 muNameHash = 0xBBB68492659143C4;
     static const unsigned __int64 muTemplateHash = 0x34F44B119AE0F661;
     static const int miNumMembers = 10;
 
-    cTkDynamicArray<cTkFixedString<64,char> > maInitialTrees;
-    cTkDynamicArray<cGcByteBeatTemplate> maTemplates;
-    cTkFixedArray<float> maCombinerWeights;
-    cTkDynamicArray<cGcByteBeatDrum> maKickDrums;
-    cTkDynamicArray<cGcByteBeatDrum> maSnareDrums;
-    cTkDynamicArray<cGcByteBeatDrum> maHiHats;
+    cTkDynamicArray<cTkFixedString<64,char>1> maInitialTrees;
+    cTkDynamicArray<cGcByteBeatTemplate1> maTemplates;
+    cTkFixedArray<float, 18> maCombinerWeights;
+    cTkDynamicArray<cGcByteBeatDrum1> maKickDrums;
+    cTkDynamicArray<cGcByteBeatDrum1> maSnareDrums;
+    cTkDynamicArray<cGcByteBeatDrum1> maHiHats;
     float mfOperatorPermuteChance;
     float mfTemplateCombineChanceAtRoot;
     float mfTemplateCombineChance;
-    cTkDynamicArray<cGcByteBeatSong> maSongs;
+    cTkDynamicArray<cGcByteBeatSong1> maSongs;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

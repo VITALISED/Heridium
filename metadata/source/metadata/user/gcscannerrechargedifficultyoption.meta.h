@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eScannerRechargeDifficulty
 {
@@ -11,6 +11,7 @@ enum eScannerRechargeDifficulty
 
 class cGcScannerRechargeDifficultyOption
 {
+public:
     static const unsigned __int64 muNameHash = 0x5980B3D90F168F60;
     static const unsigned __int64 muTemplateHash = 0x2C77C6A1D7CCA517;
     static const int miNumMembers = 1;

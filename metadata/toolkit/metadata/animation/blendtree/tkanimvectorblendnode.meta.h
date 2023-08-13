@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eBlendOperation
 {
@@ -9,12 +9,13 @@ enum eBlendOperation
 
 class cTkAnimVectorBlendNode
 {
+public:
     static const unsigned __int64 muNameHash = 0xCEE7FEFDA2096939;
     static const unsigned __int64 muTemplateHash = 0xB4535ED711FA64FF;
     static const int miNumMembers = 2;
 
     eBlendOperation meBlendOperation;
-    cTkDynamicArray<cTkAnimVectorBlendNodeData> maBlendChildren;
+    cTkDynamicArray<cTkAnimVectorBlendNodeData1> maBlendChildren;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

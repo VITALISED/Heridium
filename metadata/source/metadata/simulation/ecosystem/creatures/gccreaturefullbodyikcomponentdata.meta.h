@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eHeadUpAxis
 {
@@ -13,12 +13,13 @@ enum eHeadUpAxis
 
 class cGcCreatureFullBodyIKComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x741554C15123D097;
     static const unsigned __int64 muTemplateHash = 0xD746E629D444C041;
     static const int miNumMembers = 17;
 
-    cTkDynamicArray<cGcCreatureIkData> maJointData;
-    cTkDynamicArray<cGcIkPistonData> maPistonData;
+    cTkDynamicArray<cGcCreatureIkData1> maJointData;
+    cTkDynamicArray<cGcIkPistonData1> maPistonData;
     eHeadUpAxis meHeadUpAxis;
     float mfMaxHeadPitch;
     float mfMaxHeadRoll;

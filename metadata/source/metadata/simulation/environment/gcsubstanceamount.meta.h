@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcRealitySubstanceCategory;
 class cGcRarity;
 
 class cGcSubstanceAmount
 {
+public:
     static const unsigned __int64 muNameHash = 0x87586DC48C5F162B;
     static const unsigned __int64 muTemplateHash = 0x7D55DCD74C988166;
     static const int miNumMembers = 6;

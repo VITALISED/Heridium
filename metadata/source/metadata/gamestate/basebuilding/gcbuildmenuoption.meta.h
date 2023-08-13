@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eBuildMenuOption
 {
@@ -23,6 +23,7 @@ enum eBuildMenuOption
 
 class cGcBuildMenuOption
 {
+public:
     static const unsigned __int64 muNameHash = 0xCF846F604521AD4F;
     static const unsigned __int64 muTemplateHash = 0x655CD9EAB6B8C9B5;
     static const int miNumMembers = 1;

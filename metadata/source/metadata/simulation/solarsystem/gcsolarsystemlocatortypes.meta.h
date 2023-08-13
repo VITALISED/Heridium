@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eLocatorType
 {
@@ -11,6 +11,7 @@ enum eLocatorType
 
 class cGcSolarSystemLocatorTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0xB1D42EFA923F8574;
     static const unsigned __int64 muTemplateHash = 0xEA28003C2F8842CB;
     static const int miNumMembers = 1;

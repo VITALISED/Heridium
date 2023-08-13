@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMessageTrackTargetAlert
 {
+public:
     static const unsigned __int64 muNameHash = 0xACD740CC9B208196;
     static const unsigned __int64 muTemplateHash = 0xF90EE308A4458A80;
     static const int miNumMembers = 4;
 
     int miAttacker;
     int miVictim;
-    cTkVector mAlertPos;
+    cTkVector3 mAlertPos;
     bool mbPrimary;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcFrigateFlybyType;
 class cGcPlayerCommunicatorMessage;
@@ -9,6 +9,7 @@ class cGcAudioWwiseEvents;
 
 class cGcRewardFrigateFlyby
 {
+public:
     static const unsigned __int64 muNameHash = 0x3FACFB36175544A6;
     static const unsigned __int64 muTemplateHash = 0xEC3F6AAE52BA8457;
     static const int miNumMembers = 8;

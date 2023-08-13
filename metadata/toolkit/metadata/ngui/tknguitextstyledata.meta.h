@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkNGuiAlignment;
 
 class cTkNGuiTextStyleData
 {
+public:
     static const unsigned __int64 muNameHash = 0x91FBF976CBE15B5F;
     static const unsigned __int64 muTemplateHash = 0x22A52D3E97156EEF;
     static const int miNumMembers = 19;

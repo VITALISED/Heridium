@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eBuildPartSearchType
 {
@@ -11,12 +11,13 @@ enum eBuildPartSearchType
 
 class cGcBuildingPartSearchType
 {
+public:
     static const unsigned __int64 muNameHash = 0xAEBE0762190D9B2;
     static const unsigned __int64 muTemplateHash = 0xED77BBD7595FB24A;
     static const int miNumMembers = 4;
 
     eBuildPartSearchType meBuildPartSearchType;
-    cTkDynamicArray<cGcPersistentBaseTypes> maBaseSearchFilters;
+    cTkDynamicArray<cGcPersistentBaseTypes1> maBaseSearchFilters;
     bool mbIncludeOnlyOverlappingBases;
     bool mbIncludeGlobalBaseObjects;
 

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkTextureResource;
 class cTkTextureResource;
@@ -7,6 +7,7 @@ class cGcActionSetType;
 
 class cGcWikiTopic
 {
+public:
     static const unsigned __int64 muNameHash = 0x55D566D2C6EFD1C1;
     static const unsigned __int64 muTemplateHash = 0x457A094003702400;
     static const int miNumMembers = 10;
@@ -15,7 +16,7 @@ class cGcWikiTopic
     TkID<256> mShortDescriptionID;
     cTkTextureResource mIcon;
     cTkTextureResource mNotifyIcon;
-    cTkDynamicArray<cGcWikiPage> maPages;
+    cTkDynamicArray<cGcWikiPage1> maPages;
     TkID<128> mMission;
     TkID<256> mMissionButtonText;
     bool mbSeen;

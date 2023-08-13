@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eAccessibleOverride_Text
 {
@@ -8,6 +8,7 @@ enum eAccessibleOverride_Text
 
 class cGcAccessibleOverride_Text
 {
+public:
     static const unsigned __int64 muNameHash = 0x13FCF5FDFA2BFA4E;
     static const unsigned __int64 muTemplateHash = 0x792A5B0DEA01629E;
     static const int miNumMembers = 2;

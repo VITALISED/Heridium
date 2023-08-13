@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcUniverseAddressData;
 class cGcGameMode;
 
 class cGcAtlasBaseQuery
 {
+public:
     static const unsigned __int64 muNameHash = 0xC263B56059CD6513;
     static const unsigned __int64 muTemplateHash = 0xF3CB570D765D079;
     static const int miNumMembers = 4;
@@ -13,7 +14,7 @@ class cGcAtlasBaseQuery
     cGcUniverseAddressData mUniverseAddress;
     cGcGameMode mGameMode;
     cTkFixedString<32,char> macUserId;
-    cTkVector mPosition;
+    cTkVector3 mPosition;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

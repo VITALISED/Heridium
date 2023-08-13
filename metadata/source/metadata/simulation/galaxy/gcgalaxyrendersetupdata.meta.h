@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcGalaxyRenderSetupData
 {
+public:
     static const unsigned __int64 muNameHash = 0xC3AAF93B598F92B7;
     static const unsigned __int64 muTemplateHash = 0x4935C058DDB98084;
     static const int miNumMembers = 38;
@@ -41,10 +42,10 @@ class cGcGalaxyRenderSetupData
     float mfVignetteSizeIncreaseFilter;
     float mfVignetteSizeIncreaseSelected;
     cTkVector2 mLensFlareExpandTowards;
-    cTkFixedArray<cTkColour> maMapLargeAreaPrimaryDefaultColours;
-    cTkFixedArray<cTkColour> maMapLargeAreaPrimaryHighContrastColours;
-    cTkFixedArray<cTkColour> maMapLargeAreaSecondaryDefaultColours;
-    cTkFixedArray<cTkColour> maMapLargeAreaSecondaryHighContrastColours;
+    cTkFixedArray<cTkColour, 10> maMapLargeAreaPrimaryDefaultColours;
+    cTkFixedArray<cTkColour, 10> maMapLargeAreaPrimaryHighContrastColours;
+    cTkFixedArray<cTkColour, 10> maMapLargeAreaSecondaryDefaultColours;
+    cTkFixedArray<cTkColour, 10> maMapLargeAreaSecondaryHighContrastColours;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

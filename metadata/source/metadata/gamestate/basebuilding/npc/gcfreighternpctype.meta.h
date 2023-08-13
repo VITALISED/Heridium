@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eFreighterNPCType
 {
@@ -12,6 +12,7 @@ enum eFreighterNPCType
 
 class cGcFreighterNPCType
 {
+public:
     static const unsigned __int64 muNameHash = 0xC53DA60AB5E3B8A5;
     static const unsigned __int64 muTemplateHash = 0xFB83EA1F426900E2;
     static const int miNumMembers = 1;

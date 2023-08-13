@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eDownloadType
 {
@@ -11,6 +11,7 @@ enum eDownloadType
 
 class cGcAtlasDownloadType
 {
+public:
     static const unsigned __int64 muNameHash = 0x73783FC8636BAB3E;
     static const unsigned __int64 muTemplateHash = 0xC1A12C832D4AC62A;
     static const int miNumMembers = 1;

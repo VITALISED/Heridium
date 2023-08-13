@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcGeneratedBaseTemplatesTable
 {
+public:
     static const unsigned __int64 muNameHash = 0x7F0943EC9DBC0BDD;
     static const unsigned __int64 muTemplateHash = 0xE28A64C055994FBA;
     static const int miNumMembers = 4;
 
-    cTkDynamicArray<cGcGeneratedBaseDecorationTemplate> maDecorationTemplates;
-    cTkDynamicArray<cGcGeneratedBaseRoomTemplate> maRoomTemplates;
-    cTkDynamicArray<cGcGeneratedBaseThemeTemplate> maThemeTemplates;
-    cTkDynamicArray<cGcGeneratedBasePruningRule> maPruningRules;
+    cTkDynamicArray<cGcGeneratedBaseDecorationTemplate1> maDecorationTemplates;
+    cTkDynamicArray<cGcGeneratedBaseRoomTemplate1> maRoomTemplates;
+    cTkDynamicArray<cGcGeneratedBaseThemeTemplate1> maThemeTemplates;
+    cTkDynamicArray<cGcGeneratedBasePruningRule1> maPruningRules;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

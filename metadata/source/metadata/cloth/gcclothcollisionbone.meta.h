@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cAxisSpecification;
 
 class cGcClothCollisionBone
 {
+public:
     static const unsigned __int64 muNameHash = 0x3183C2CA4E0D9600;
     static const unsigned __int64 muTemplateHash = 0x1DC689F860E9E48F;
     static const int miNumMembers = 8;
@@ -12,7 +13,7 @@ class cGcClothCollisionBone
     bool mbEnabled;
     cTkFixedString<64,char> macDebugName;
     cTkFixedString<64,char> macBoneName;
-    cTkVector mCapsuleCentre;
+    cTkVector3 mCapsuleCentre;
     cAxisSpecification mCapsuleAxis;
     float mfCapsuleRadius;
     float mfCapsuleLength;

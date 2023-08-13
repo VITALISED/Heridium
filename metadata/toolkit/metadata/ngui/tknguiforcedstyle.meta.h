@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eNGuiForcedStyle
 {
@@ -11,6 +11,7 @@ enum eNGuiForcedStyle
 
 class cTkNGuiForcedStyle
 {
+public:
     static const unsigned __int64 muNameHash = 0xB90A6A8C6ACFE0BC;
     static const unsigned __int64 muTemplateHash = 0x9BEB641914C9DFD6;
     static const int miNumMembers = 1;

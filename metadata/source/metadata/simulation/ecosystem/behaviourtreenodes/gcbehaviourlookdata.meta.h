@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkBlackboardDefaultValueBool;
 class cTkBlackboardDefaultValueBool;
@@ -7,6 +7,7 @@ class cTkBlackboardDefaultValueBool;
 
 class cGcBehaviourLookData
 {
+public:
     static const unsigned __int64 muNameHash = 0x79CECC228E0EBC79;
     static const unsigned __int64 muTemplateHash = 0xF530CA0023DD90CA;
     static const int miNumMembers = 5;

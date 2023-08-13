@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eType
 {
@@ -43,6 +43,7 @@ class cGcObjectSpawnDataVariant;
 
 class cGcObjectSpawnData
 {
+public:
     static const unsigned __int64 muNameHash = 0x43EBB2E6AFAC5863;
     static const unsigned __int64 muTemplateHash = 0xD5427D42870E991C;
     static const int miNumMembers = 39;
@@ -50,8 +51,8 @@ class cGcObjectSpawnData
     TkID<128> mDebugName;
     eType meType;
     cGcResourceElement mResource;
-    cTkDynamicArray<cGcResourceElement> maAltResources;
-    cTkDynamicArray<cGcTerrainTileType> maExtraTileTypes;
+    cTkDynamicArray<cGcResourceElement1> maAltResources;
+    cTkDynamicArray<cGcTerrainTileType1> maExtraTileTypes;
     TkID<128> mPlacement;
     cTkSeed mSeed;
     ePlacementPriority mePlacementPriority;
@@ -85,7 +86,7 @@ class cGcObjectSpawnData
     float mfShearWindStrength;
     TkID<128> mDestroyedByVehicleEffect;
     cGcObjectSpawnDataVariant mQualityVariantData;
-    cTkDynamicArray<cGcObjectSpawnDataVariant> maQualityVariants;
+    cTkDynamicArray<cGcObjectSpawnDataVariant1> maQualityVariants;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

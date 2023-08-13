@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSelectableObjectSpawnList
 {
+public:
     static const unsigned __int64 muNameHash = 0xA8FBF05C737FA4E2;
     static const unsigned __int64 muTemplateHash = 0xDDCC50E4A9E9724D;
     static const int miNumMembers = 2;
 
     TkID<128> mName;
-    cTkDynamicArray<cGcSelectableObjectSpawnData> maObjects;
+    cTkDynamicArray<cGcSelectableObjectSpawnData1> maObjects;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

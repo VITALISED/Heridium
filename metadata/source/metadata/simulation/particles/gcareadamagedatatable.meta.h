@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAreaDamageDataTable
 {
+public:
     static const unsigned __int64 muNameHash = 0xFB7EF63CCFF49839;
     static const unsigned __int64 muTemplateHash = 0xA8A20AE70F75825C;
     static const int miNumMembers = 1;
 
-    cTkDynamicArray<cGcAreaDamageData> maTable;
+    cTkDynamicArray<cGcAreaDamageData1> maTable;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

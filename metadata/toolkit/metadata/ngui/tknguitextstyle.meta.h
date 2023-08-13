@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkNGuiTextStyleData;
 class cTkNGuiTextStyleData;
@@ -7,6 +7,7 @@ class cTkNGuiTextStyleData;
 
 class cTkNGuiTextStyle
 {
+public:
     static const unsigned __int64 muNameHash = 0x55D8E71C0A29B511;
     static const unsigned __int64 muTemplateHash = 0x424E9B3FF9745E24;
     static const int miNumMembers = 3;

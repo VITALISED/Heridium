@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkNGuiEditorStyleColour
 {
+public:
     static const unsigned __int64 muNameHash = 0x6719A275CA7E9C08;
     static const unsigned __int64 muTemplateHash = 0x98FD9ADEAECEC4BB;
     static const int miNumMembers = 2;

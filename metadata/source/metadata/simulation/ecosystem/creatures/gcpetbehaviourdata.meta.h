@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum ePetBehaviourValidity
 {
@@ -9,6 +9,7 @@ enum ePetBehaviourValidity
 
 class cGcPetBehaviourData
 {
+public:
     static const unsigned __int64 muNameHash = 0x309337FC0812738C;
     static const unsigned __int64 muTemplateHash = 0x285F130A426C7C92;
     static const int miNumMembers = 15;
@@ -23,10 +24,10 @@ class cGcPetBehaviourData
     float mfApproachPlayerDist;
     float mfSearchDist;
     ePetBehaviourValidity mePetBehaviourValidity;
-    cTkDynamicArray<cGcPetFollowUpBehaviour> maFollowUpBehaviours;
-    cTkDynamicArray<cGcPetBehaviourTraitModifier> maTraitBehaviourModifiers;
-    cTkDynamicArray<cGcPetBehaviourMoodModifier> maMoodBehaviourModifiers;
-    cTkFixedArray<float> maMoodModifyOnComplete;
+    cTkDynamicArray<cGcPetFollowUpBehaviour1> maFollowUpBehaviours;
+    cTkDynamicArray<cGcPetBehaviourTraitModifier1> maTraitBehaviourModifiers;
+    cTkDynamicArray<cGcPetBehaviourMoodModifier1> maMoodBehaviourModifiers;
+    cTkFixedArray<float, 2> maMoodModifyOnComplete;
     TkID<256> mLabelText;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

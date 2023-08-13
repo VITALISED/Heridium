@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcFreighterNPCSpawnPriority
 {
+public:
     static const unsigned __int64 muNameHash = 0x98356EEBB5BF8A56;
     static const unsigned __int64 muTemplateHash = 0x8259DE5F6B600B8E;
     static const int miNumMembers = 1;
 
-    cTkDynamicArray<float> maPriorityScale;
+    cTkDynamicArray<float1> maPriorityScale;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

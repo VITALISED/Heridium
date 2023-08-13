@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eTestEncounterType
 {
@@ -13,6 +13,7 @@ enum eTestEncounterType
 
 class cGcMissionConditionPulseEncounterActive
 {
+public:
     static const unsigned __int64 muNameHash = 0x56207A2C2009340;
     static const unsigned __int64 muTemplateHash = 0xAB5AE414E5866353;
     static const int miNumMembers = 3;

@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 class cTkLanguageFontTable
 {
+public:
     static const unsigned __int64 muNameHash = 0xF4500CD57E96D069;
     static const unsigned __int64 muTemplateHash = 0x134490C18B700546;
     static const int miNumMembers = 1;
 
-    cTkDynamicArray<cTkLanguageFontTableEntry> maTable;
+    cTkDynamicArray<cTkLanguageFontTableEntry1> maTable;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

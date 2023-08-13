@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eDifficultySettingEditability
 {
@@ -12,6 +12,7 @@ enum eDifficultySettingEditability
 
 class cGcDifficultySettingEditability
 {
+public:
     static const unsigned __int64 muNameHash = 0x215639935EEC2DFE;
     static const unsigned __int64 muTemplateHash = 0xCEE62246904BB76D;
     static const int miNumMembers = 1;

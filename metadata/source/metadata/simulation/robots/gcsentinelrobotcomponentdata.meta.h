@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSentinelTypes;
 
 class cGcSentinelRobotComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xC3E852EF937E74B5;
     static const unsigned __int64 muTemplateHash = 0x55375AD08ED4684E;
     static const int miNumMembers = 2;

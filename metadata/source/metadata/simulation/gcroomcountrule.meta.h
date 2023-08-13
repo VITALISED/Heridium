@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcRoomCountRule
 {
+public:
     static const unsigned __int64 muNameHash = 0x847F4524E9703A38;
     static const unsigned __int64 muTemplateHash = 0x1AB7E133476CBD7;
     static const int miNumMembers = 3;

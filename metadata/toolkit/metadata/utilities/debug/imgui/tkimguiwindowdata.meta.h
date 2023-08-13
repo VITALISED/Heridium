@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkImGuiWindowData
 {
+public:
     static const unsigned __int64 muNameHash = 0x431A784D584CBE50;
     static const unsigned __int64 muTemplateHash = 0x14273A3293A528F0;
     static const int miNumMembers = 13;

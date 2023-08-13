@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eExperienceSpawnType
 {
@@ -9,6 +9,7 @@ enum eExperienceSpawnType
 
 class cGcPlayerExperienceSpawnTable
 {
+public:
     static const unsigned __int64 muNameHash = 0xA1B202DE9A10A705;
     static const unsigned __int64 muTemplateHash = 0xE2D862A8402D7F11;
     static const int miNumMembers = 6;
@@ -18,7 +19,7 @@ class cGcPlayerExperienceSpawnTable
     float mfResponseRate;
     float mfPerSpawnDelay;
     bool mbDestroy;
-    cTkDynamicArray<cGcPlayerExperienceSpawnData> maSpawns;
+    cTkDynamicArray<cGcPlayerExperienceSpawnData1> maSpawns;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

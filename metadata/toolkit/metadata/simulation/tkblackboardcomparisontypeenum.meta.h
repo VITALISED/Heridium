@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eComparisonType
 {
@@ -13,6 +13,7 @@ enum eComparisonType
 
 class cTkBlackboardComparisonTypeEnum
 {
+public:
     static const unsigned __int64 muNameHash = 0x2412AB95A81851E8;
     static const unsigned __int64 muTemplateHash = 0x42A415F679C0191E;
     static const int miNumMembers = 1;

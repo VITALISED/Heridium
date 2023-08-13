@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eSimpleInteractionType
 {
@@ -49,6 +49,7 @@ class cGcDiscoveryType;
 
 class cGcSimpleInteractionComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xEAE36C86E1479AF5;
     static const unsigned __int64 muTemplateHash = 0xA08E96856580D0A8;
     static const int miNumMembers = 37;
@@ -83,10 +84,10 @@ class cGcSimpleInteractionComponentData
     TkID<256> mScanData;
     cGcDiscoveryType mScanIcon;
     bool mbActivateLocatorsFromRarity;
-    cTkFixedArray<TkID<128> > maRarityLocators;
-    cTkDynamicArray<cGcInteractionBaseBuildingState> maBaseBuildingTriggerActions;
-    cTkDynamicArray<cGcRewardMissionOverride> maRewardOverrideTable;
-    cTkDynamicArray<cGcPersistencyMissionOverride> maPersistencyBufferOverride;
+    cTkFixedArray<TkID<128>, 3> maRarityLocators;
+    cTkDynamicArray<cGcInteractionBaseBuildingState1> maBaseBuildingTriggerActions;
+    cTkDynamicArray<cGcRewardMissionOverride1> maRewardOverrideTable;
+    cTkDynamicArray<cGcPersistencyMissionOverride1> maPersistencyBufferOverride;
     bool mbUsePersonalPersistentBuffer;
     bool mbReseedOnRewardSuccess;
     bool mbCanCollectInMech;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eCreatureRoleFrequencyModifier
 {
@@ -11,6 +11,7 @@ enum eCreatureRoleFrequencyModifier
 
 class cGcCreatureRoleFrequencyModifier
 {
+public:
     static const unsigned __int64 muNameHash = 0x8F2EED19BC2FFF5D;
     static const unsigned __int64 muTemplateHash = 0x15D26A60973A874A;
     static const int miNumMembers = 1;

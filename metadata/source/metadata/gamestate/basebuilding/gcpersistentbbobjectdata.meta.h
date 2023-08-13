@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPersistentBBObjectData
 {
+public:
     static const unsigned __int64 muNameHash = 0xCD3485C140AE7B57;
     static const unsigned __int64 muTemplateHash = 0xFAD41A8138D2B51E;
     static const int miNumMembers = 8;
@@ -12,9 +13,9 @@ class cGcPersistentBBObjectData
     unsigned __int64 mui64GalacticAddress;
     unsigned __int64 mui64RegionSeed;
     unsigned __int64 mui64UserData;
-    cTkVector mPosition;
-    cTkVector mUp;
-    cTkVector mAt;
+    cTkVector3 mPosition;
+    cTkVector3 mUp;
+    cTkVector3 mAt;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

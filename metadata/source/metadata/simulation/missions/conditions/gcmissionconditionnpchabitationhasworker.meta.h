@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNPCHabitationType;
 
@@ -12,6 +12,7 @@ enum eWorkerInCurrentBase
 
 class cGcMissionConditionNPCHabitationHasWorker
 {
+public:
     static const unsigned __int64 muNameHash = 0x41BFFB2F8544AD51;
     static const unsigned __int64 muTemplateHash = 0x5B414C643A992848;
     static const int miNumMembers = 2;

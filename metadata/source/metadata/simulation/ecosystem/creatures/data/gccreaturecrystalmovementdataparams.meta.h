@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAudioWwiseEvents;
 class cTkCurveType;
@@ -22,12 +22,13 @@ enum eSubType
 
 class cGcCreatureCrystalMovementDataParams
 {
+public:
     static const unsigned __int64 muNameHash = 0x1232AC16AD2DF95C;
     static const unsigned __int64 muTemplateHash = 0x918FDBF743EC6311;
     static const int miNumMembers = 54;
 
-    cTkDynamicArray<cGcBiomeSubType> maValidBiomes;
-    cTkDynamicArray<TkID<256> > maValidDescriptors;
+    cTkDynamicArray<cGcBiomeSubType1> maValidBiomes;
+    cTkDynamicArray<TkID<256>1> maValidDescriptors;
     int miNumShards;
     bool mbUseTerrainAngle;
     bool mbScaleOnAppear;

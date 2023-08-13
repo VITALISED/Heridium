@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cgcwordcategorytableEnum;
 class cGcAlienRace;
 
 class cGcMissionConditionWordCategoryKnown
 {
+public:
     static const unsigned __int64 muNameHash = 0xC1BA5468EA0625B9;
     static const unsigned __int64 muTemplateHash = 0xC5F87D79D6A96A8A;
     static const int miNumMembers = 2;

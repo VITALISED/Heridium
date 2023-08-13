@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eInventorySpecialSlotType
 {
@@ -12,6 +12,7 @@ enum eInventorySpecialSlotType
 
 class cGcInventorySpecialSlotType
 {
+public:
     static const unsigned __int64 muNameHash = 0xA9800C505F52A54E;
     static const unsigned __int64 muTemplateHash = 0xB249CC7F519AAE0D;
     static const int miNumMembers = 1;

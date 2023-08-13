@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eAtlasPathProgressType
 {
@@ -9,6 +9,7 @@ enum eAtlasPathProgressType
 
 class cGcRewardAtlasPathProgress
 {
+public:
     static const unsigned __int64 muNameHash = 0x2FFD5C572426F075;
     static const unsigned __int64 muTemplateHash = 0x29D761D8EFF76D18;
     static const int miNumMembers = 1;

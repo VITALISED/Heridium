@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAtlasFeaturedBaseStateChange
 {
+public:
     static const unsigned __int64 muNameHash = 0x63DAFA0869073279;
     static const unsigned __int64 muTemplateHash = 0x7AFE826662D10562;
     static const int miNumMembers = 5;

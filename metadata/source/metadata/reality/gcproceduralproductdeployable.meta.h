@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcProceduralProductDeployable
 {
+public:
     static const unsigned __int64 muNameHash = 0x2B250A75A37497B9;
     static const unsigned __int64 muTemplateHash = 0x45BD80565B6789F4;
     static const int miNumMembers = 2;

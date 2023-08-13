@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMonthlyRecurrence
 {
+public:
     static const unsigned __int64 muNameHash = 0x5CB869EED69B0A9;
     static const unsigned __int64 muTemplateHash = 0x59C5D6F7DA3AEBA7;
     static const int miNumMembers = 4;

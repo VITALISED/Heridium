@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eOnComplete
 {
@@ -10,13 +10,14 @@ enum eOnComplete
 
 class cGcCreatureDebugSpawnData
 {
+public:
     static const unsigned __int64 muNameHash = 0x5995CC3B21976698;
     static const unsigned __int64 muTemplateHash = 0x4804062C877D7175;
     static const int miNumMembers = 9;
 
     int miCreatureIndex;
     float mfInitialDelay;
-    cTkDynamicArray<cGcCreatureDebugWaypoint> maWaypoints;
+    cTkDynamicArray<cGcCreatureDebugWaypoint1> maWaypoints;
     eOnComplete meOnComplete;
     float mfSmoothTime;
     int miCurrentWaypoint;

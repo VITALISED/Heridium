@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAudioWwiseEvents;
 
 class cGcMechAudioEvent
 {
+public:
     static const unsigned __int64 muNameHash = 0x58C0C35FA839BA96;
     static const unsigned __int64 muTemplateHash = 0xA9ECBC396833D80B;
     static const int miNumMembers = 2;
 
     cGcAudioWwiseEvents mDefaultEvent;
-    cTkDynamicArray<cGcMechPartAudioEventOverride> maMeshPartOverrides;
+    cTkDynamicArray<cGcMechPartAudioEventOverride1> maMeshPartOverrides;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

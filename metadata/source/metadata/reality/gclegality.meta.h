@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eLegality
 {
@@ -9,6 +9,7 @@ enum eLegality
 
 class cGcLegality
 {
+public:
     static const unsigned __int64 muNameHash = 0x769CBCB21A7D4913;
     static const unsigned __int64 muTemplateHash = 0xADA9902A1B950F4D;
     static const int miNumMembers = 1;

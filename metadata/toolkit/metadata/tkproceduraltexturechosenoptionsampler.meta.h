@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 class cTkProceduralTextureChosenOptionSampler
 {
+public:
     static const unsigned __int64 muNameHash = 0x949DC1DF3C62FC0A;
     static const unsigned __int64 muTemplateHash = 0x6A53DA81FD27816;
     static const int miNumMembers = 1;
 
-    cTkDynamicArray<cTkProceduralTextureChosenOption> maOptions;
+    cTkDynamicArray<cTkProceduralTextureChosenOption1> maOptions;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

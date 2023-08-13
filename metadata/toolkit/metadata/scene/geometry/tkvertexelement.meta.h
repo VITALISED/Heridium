@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eInstancing
 {
@@ -9,6 +9,7 @@ enum eInstancing
 
 class cTkVertexElement
 {
+public:
     static const unsigned __int64 muNameHash = 0x8687A0CA8457FC32;
     static const unsigned __int64 muTemplateHash = 0x1E084E1510B4A072;
     static const int miNumMembers = 7;

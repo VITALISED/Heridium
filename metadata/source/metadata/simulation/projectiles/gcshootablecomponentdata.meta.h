@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcProjectileImpactType;
 class cGcFiendCrime;
 
 class cGcShootableComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x387AC5FC8E642A15;
     static const unsigned __int64 muTemplateHash = 0x879D011DADF3E614;
     static const int miNumMembers = 25;

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBuildingDensity
 {
+public:
     static const unsigned __int64 muNameHash = 0xFC703DAD77E37E30;
     static const unsigned __int64 muTemplateHash = 0xD05438BAE2A32DFB;
     static const int miNumMembers = 1;

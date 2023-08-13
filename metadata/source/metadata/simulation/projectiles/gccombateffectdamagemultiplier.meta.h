@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCombatEffectType;
 
 class cGcCombatEffectDamageMultiplier
 {
+public:
     static const unsigned __int64 muNameHash = 0xD755EBC8945CB867;
     static const unsigned __int64 muTemplateHash = 0x5EA00CEF7BC6D386;
     static const int miNumMembers = 2;

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDistanceScaleComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xB150A87B0DD42807;
     static const unsigned __int64 muTemplateHash = 0xEE335C704F87FFA8;
     static const int miNumMembers = 7;

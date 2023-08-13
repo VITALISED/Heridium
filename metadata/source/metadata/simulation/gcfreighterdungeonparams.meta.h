@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDungeonGenerationParams;
 
 class cGcFreighterDungeonParams
 {
+public:
     static const unsigned __int64 muNameHash = 0x1186D86C82D48E4E;
     static const unsigned __int64 muTemplateHash = 0xA0D3F2E5C001BA81;
     static const int miNumMembers = 2;

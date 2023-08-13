@@ -1,19 +1,20 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCameraShakeMechanicalData
 {
+public:
     static const unsigned __int64 muNameHash = 0x40BF52C4D8757B1A;
     static const unsigned __int64 muTemplateHash = 0xDDC3F5342C985F9F;
     static const int miNumMembers = 7;
 
     bool mbActive;
-    cTkVector mShakeStrength;
-    cTkVector mShakeFrequency;
-    cTkVector mExtraShakeFrequency;
-    cTkVector mVibrateStrength;
-    cTkVector mVibrateFrequency;
-    cTkVector mExtraVibrateFrequency;
+    cTkVector3 mShakeStrength;
+    cTkVector3 mShakeFrequency;
+    cTkVector3 mExtraShakeFrequency;
+    cTkVector3 mVibrateStrength;
+    cTkVector3 mVibrateFrequency;
+    cTkVector3 mExtraVibrateFrequency;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

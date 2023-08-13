@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlanetSectionData
 {
+public:
     static const unsigned __int64 muNameHash = 0x408CCAADC93DEEFE;
     static const unsigned __int64 muTemplateHash = 0x4BFC6055460243D3;
     static const int miNumMembers = 3;
 
     unsigned __int64 mui64DiscovererUID;
-    cTkFixedArray<unsigned __int8> maDiscovererPlatform;
+    cTkFixedArray<unsigned __int8, 2> maDiscovererPlatform;
     bool mbDiscoveredState;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

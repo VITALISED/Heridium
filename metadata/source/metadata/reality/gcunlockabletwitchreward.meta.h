@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcUnlockableTwitchReward
 {
+public:
     static const unsigned __int64 muNameHash = 0xE9EC3242091011CC;
     static const unsigned __int64 muTemplateHash = 0xE7150D917844F3DF;
     static const int miNumMembers = 3;

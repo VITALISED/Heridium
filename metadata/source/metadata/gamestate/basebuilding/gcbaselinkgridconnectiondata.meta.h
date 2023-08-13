@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcLinkNetworkTypes;
 
 class cGcBaseLinkGridConnectionData
 {
+public:
     static const unsigned __int64 muNameHash = 0xD8133C6FC444E667;
     static const unsigned __int64 muTemplateHash = 0xB473568C6A036D67;
     static const int miNumMembers = 7;
@@ -14,8 +15,8 @@ class cGcBaseLinkGridConnectionData
     int miNetworkMask;
     float mfConnectionDistance;
     bool mbUseMinDistance;
-    cTkDynamicArray<cTkVector> maLinkSocketPositions;
-    cTkDynamicArray<int> maLinkSocketSubGroups;
+    cTkDynamicArray<cTkVector31> maLinkSocketPositions;
+    cTkDynamicArray<int1> maLinkSocketSubGroups;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

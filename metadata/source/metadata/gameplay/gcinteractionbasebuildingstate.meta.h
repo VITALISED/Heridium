@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInteractionBaseBuildingState
 {
+public:
     static const unsigned __int64 muNameHash = 0x914E2AF518E30AB2;
     static const unsigned __int64 muTemplateHash = 0x96073F904BB26814;
     static const int miNumMembers = 2;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcTextPreset;
 class cGcTextPreset;
@@ -9,6 +9,7 @@ class cTkCurveType;
 
 class cGcHUDManagerData
 {
+public:
     static const unsigned __int64 muNameHash = 0x756972574B9CCB08;
     static const unsigned __int64 muTemplateHash = 0x205BFEB3B8061079;
     static const int miNumMembers = 33;

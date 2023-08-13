@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBiomeCloudSettings
 {
+public:
     static const unsigned __int64 muNameHash = 0x7F6183B8DF97F0B3;
     static const unsigned __int64 muTemplateHash = 0xAA8CFAD7052E64F3;
     static const int miNumMembers = 11;

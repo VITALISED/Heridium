@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eInventoryToInstallIn
 {
@@ -14,6 +14,7 @@ enum eInventoryToInstallIn
 
 class cGcRewardInstallTech
 {
+public:
     static const unsigned __int64 muNameHash = 0x75DF796697F3DB0A;
     static const unsigned __int64 muTemplateHash = 0x21F8F59124D39327;
     static const int miNumMembers = 4;

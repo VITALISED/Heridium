@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAlienRace;
 class cGcInteractionType;
@@ -24,6 +24,7 @@ class cGcAudioWwiseEvents;
 
 class cGcAlienPuzzleEntry
 {
+public:
     static const unsigned __int64 muNameHash = 0xDE1F17CE7E01A8C2;
     static const unsigned __int64 muTemplateHash = 0x7922B45DF52C43C3;
     static const int miNumMembers = 24;
@@ -42,12 +43,12 @@ class cGcAlienPuzzleEntry
     bool mbTranslationBrackets;
     bool mbProgressiveDialogue;
     TkID<256> mRequiresScanEvent;
-    cTkDynamicArray<cGcAlienPuzzleOption> maOptions;
-    cTkDynamicArray<TkID<256> > maAdditionalText;
-    cTkDynamicArray<TkID<256> > maAdditionalTextAlien;
+    cTkDynamicArray<cGcAlienPuzzleOption1> maOptions;
+    cTkDynamicArray<TkID<256>1> maAdditionalText;
+    cTkDynamicArray<TkID<256>1> maAdditionalTextAlien;
     cGcAlienMood mMood;
     cGcNPCPropType mProp;
-    cTkDynamicArray<cGcPuzzleTextFlow> maAdvancedInteractionFlow;
+    cTkDynamicArray<cGcPuzzleTextFlow1> maAdvancedInteractionFlow;
     ePersistancyBufferOverride mePersistancyBufferOverride;
     int miCustomFreighterTextIndex;
     bool mbRadialInteraction;

@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSubstanceSecondaryBiome
 {
+public:
     static const unsigned __int64 muNameHash = 0xA95856C785F7F5CB;
     static const unsigned __int64 muTemplateHash = 0x9D54C9A287EAD2CE;
     static const int miNumMembers = 1;
 
-    cTkFixedArray<cGcSubstanceSecondary> maSecondarySubstanceByBiome;
+    cTkFixedArray<cGcSubstanceSecondary, 16> maSecondarySubstanceByBiome;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

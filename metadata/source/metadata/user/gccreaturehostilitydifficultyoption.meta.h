@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eCreatureHostilityDifficulty
 {
@@ -10,6 +10,7 @@ enum eCreatureHostilityDifficulty
 
 class cGcCreatureHostilityDifficultyOption
 {
+public:
     static const unsigned __int64 muNameHash = 0x2B740202A0E2CC57;
     static const unsigned __int64 muTemplateHash = 0xD86131FEFF826FFC;
     static const int miNumMembers = 1;

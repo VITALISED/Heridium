@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eEnergyDrainDifficulty
 {
@@ -10,6 +10,7 @@ enum eEnergyDrainDifficulty
 
 class cGcEnergyDrainDifficultyOption
 {
+public:
     static const unsigned __int64 muNameHash = 0xCB8A748BB740CFAE;
     static const unsigned __int64 muTemplateHash = 0x8110581C7BD94717;
     static const int miNumMembers = 1;

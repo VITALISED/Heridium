@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eBroadcastLevel
 {
@@ -10,6 +10,7 @@ enum eBroadcastLevel
 
 class cGcBroadcastLevel
 {
+public:
     static const unsigned __int64 muNameHash = 0x788C67D6B87C29E3;
     static const unsigned __int64 muTemplateHash = 0x3BCCD8E73F2DF785;
     static const int miNumMembers = 1;

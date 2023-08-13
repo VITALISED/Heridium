@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkPhysicsData;
 class cTkVolumeTriggerType;
@@ -12,6 +12,7 @@ enum eSurfaceProperties
 
 class cTkPhysicsComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xC58660803669C46F;
     static const unsigned __int64 muTemplateHash = 0x25CD3FFA8E448F4E;
     static const int miNumMembers = 18;

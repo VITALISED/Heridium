@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcFrigateFlybyType;
 
 class cGcFrigateFlybyLayout
 {
+public:
     static const unsigned __int64 muNameHash = 0xB1B9570C76B5EA49;
     static const unsigned __int64 muTemplateHash = 0xD44EF10C0EADCEC5;
     static const int miNumMembers = 6;
@@ -14,7 +15,7 @@ class cGcFrigateFlybyLayout
     float mfTargetSpeed;
     float mfInterestTime;
     float mfInterestDistance;
-    cTkDynamicArray<cGcFrigateFlybyOption> maFrigates;
+    cTkDynamicArray<cGcFrigateFlybyOption1> maFrigates;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

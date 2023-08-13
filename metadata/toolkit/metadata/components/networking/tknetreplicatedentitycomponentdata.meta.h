@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eReplicationRange
 {
@@ -21,11 +21,12 @@ enum eSpawnType
 
 class cTkNetReplicatedEntityComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xDB0FD87A0597E5FD;
     static const unsigned __int64 muTemplateHash = 0x4A0243DD40AA8081;
     static const int miNumMembers = 4;
 
-    cTkDynamicArray<cTkFixedString<128,char> > maReplicaComponentMask;
+    cTkDynamicArray<cTkFixedString<128,char>1> maReplicaComponentMask;
     eReplicationRange meReplicationRange;
     eSpawnType meSpawnType;
     bool mbIgnoreComponents;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eSpawnConditions
 {
@@ -27,13 +27,14 @@ class cGcAudioWwiseEvents;
 
 class cGcWeatherEffect
 {
+public:
     static const unsigned __int64 muNameHash = 0x419E50F8E497D496;
     static const unsigned __int64 muTemplateHash = 0xFBBD7E692B03EE3;
     static const int miNumMembers = 41;
 
     TkID<128> mId;
     TkID<256> mOSDMessage;
-    cTkDynamicArray<cGcWeightedFilename> maEffects;
+    cTkDynamicArray<cGcWeightedFilename1> maEffects;
     eSpawnConditions meSpawnConditions;
     int miMaxHazardsOfThisTypeActive;
     TkID<128> mForcedOnByHazard;

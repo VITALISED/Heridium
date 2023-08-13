@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eAlienPuzzleCategory
 {
@@ -60,6 +60,7 @@ enum eAlienPuzzleCategory
 
 class cGcAlienPuzzleCategory
 {
+public:
     static const unsigned __int64 muNameHash = 0x428DC2A675E89B6D;
     static const unsigned __int64 muTemplateHash = 0x62BB97425837BAD1;
     static const int miNumMembers = 1;

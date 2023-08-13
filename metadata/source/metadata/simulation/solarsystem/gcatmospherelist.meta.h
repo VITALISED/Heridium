@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAtmosphereList
 {
+public:
     static const unsigned __int64 muNameHash = 0x594FCBE47D02F5DF;
     static const unsigned __int64 muTemplateHash = 0xF7CD6DB20A539DD3;
     static const int miNumMembers = 1;
 
-    cTkDynamicArray<cTkFixedString<128,char> > maAtmospheres;
+    cTkDynamicArray<cTkFixedString<128,char>1> maAtmospheres;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

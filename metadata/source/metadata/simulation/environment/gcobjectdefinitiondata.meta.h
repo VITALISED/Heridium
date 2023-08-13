@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eObjectRenderType
 {
@@ -51,6 +51,7 @@ enum eObjectAlignment
 
 class cGcObjectDefinitionData
 {
+public:
     static const unsigned __int64 muNameHash = 0xF6BC04E88CDBB164;
     static const unsigned __int64 muTemplateHash = 0xFCD04DEEE7D62DFD;
     static const int miNumMembers = 9;

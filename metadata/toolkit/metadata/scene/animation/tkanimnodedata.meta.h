@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkAnimNodeData
 {
+public:
     static const unsigned __int64 muNameHash = 0x6E19250A34E2CE86;
     static const unsigned __int64 muTemplateHash = 0x201D028F2C6CBDB7;
     static const int miNumMembers = 5;

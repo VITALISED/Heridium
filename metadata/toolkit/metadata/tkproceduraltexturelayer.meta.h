@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 class cTkProceduralTextureLayer
 {
+public:
     static const unsigned __int64 muNameHash = 0x6AA5D445686C3721;
     static const unsigned __int64 muTemplateHash = 0x5648BBC63F6738C3;
     static const int miNumMembers = 5;
@@ -11,7 +12,7 @@ class cTkProceduralTextureLayer
     float mfProbability;
     TkID<128> mGroup;
     bool mbSelectToMatchBase;
-    cTkDynamicArray<cTkProceduralTexture> maTextures;
+    cTkDynamicArray<cTkProceduralTexture1> maTextures;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

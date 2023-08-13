@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkNoiseSuperFormulaData
 {
+public:
     static const unsigned __int64 muNameHash = 0xA6B67E169F13BBDE;
     static const unsigned __int64 muTemplateHash = 0xBCB1AB50F898FC35;
     static const int miNumMembers = 4;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eInteractionAction
 {
@@ -26,6 +26,7 @@ enum eOverrideInteriorExteriorMarker
 
 class cGcInteractionComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xDAB0554EA36957B5;
     static const unsigned __int64 muTemplateHash = 0x345DED12B36153C4;
     static const int miNumMembers = 38;
@@ -51,11 +52,11 @@ class cGcInteractionComponentData
     bool mbInteractInvertFace;
     cGcInteractionType mSecondaryInteractionType;
     cGcInteractionActivationCost mSecondaryActivationCost;
-    cTkDynamicArray<cTkModelRendererData> maEventRenderers;
-    cTkDynamicArray<cTkModelRendererData> maEventRenderersAlt;
+    cTkDynamicArray<cTkModelRendererData1> maEventRenderers;
+    cTkDynamicArray<cTkModelRendererData1> maEventRenderersAlt;
     float mfSecondaryCameraTransitionTime;
     cGcInteractionDof mDepthOfField;
-    cTkDynamicArray<cGcAlienPuzzleMissionOverride> maPuzzleMissionOverrideTable;
+    cTkDynamicArray<cGcAlienPuzzleMissionOverride1> maPuzzleMissionOverrideTable;
     cGcStoryUtilityOverride mStoryUtilityOverrideData;
     eOverrideInteriorExteriorMarker meOverrideInteriorExteriorMarker;
     bool mbReseedAfterRewardSuccess;

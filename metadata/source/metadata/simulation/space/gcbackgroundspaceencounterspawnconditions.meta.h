@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBackgroundSpaceEncounterSpawnConditions
 {
+public:
     static const unsigned __int64 muNameHash = 0xD0217E81661C9C1D;
     static const unsigned __int64 muTemplateHash = 0x9136E5530A583E47;
     static const int miNumMembers = 4;

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkMaterialShaderMillNode
 {
+public:
     static const unsigned __int64 muNameHash = 0x465D81033D79E7BB;
     static const unsigned __int64 muTemplateHash = 0x575762FEBAEE8163;
     static const int miNumMembers = 11;
@@ -14,8 +15,8 @@ class cTkMaterialShaderMillNode
     int miIValue2;
     float mfFValue;
     float mfFValue2;
-    cTkDynamicArray<cTkMaterialShaderMillConnect> maInputs;
-    cTkDynamicArray<cTkMaterialShaderMillConnect> maOutputs;
+    cTkDynamicArray<cTkMaterialShaderMillConnect1> maInputs;
+    cTkDynamicArray<cTkMaterialShaderMillConnect1> maOutputs;
     int miWindowX;
     int miWindowY;
 

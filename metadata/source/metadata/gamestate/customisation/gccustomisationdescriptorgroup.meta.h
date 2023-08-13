@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCustomisationDescriptorGroup
 {
+public:
     static const unsigned __int64 muNameHash = 0x80953B08573D31B6;
     static const unsigned __int64 muTemplateHash = 0x8E931346CFC5A9A5;
     static const int miNumMembers = 8;
@@ -10,8 +11,8 @@ class cGcCustomisationDescriptorGroup
     TkID<128> mGroupID;
     TkID<256> mTitle;
     cTkFixedString<128,char> macImage;
-    cTkDynamicArray<cTkFixedString<32,char> > maDescriptors;
-    cTkDynamicArray<cTkFixedString<32,char> > maSuffixInclusionList;
+    cTkDynamicArray<cTkFixedString<32,char>1> maDescriptors;
+    cTkDynamicArray<cTkFixedString<32,char>1> maSuffixInclusionList;
     TkID<128> mLinkedSpecialID;
     TkID<256> mTip;
     bool mbHiddenInCustomiser;

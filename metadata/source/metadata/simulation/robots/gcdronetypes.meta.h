@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eDroneType
 {
@@ -10,6 +10,7 @@ enum eDroneType
 
 class cGcDroneTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0x3FBE708907C655EF;
     static const unsigned __int64 muTemplateHash = 0x889DD9771C5E2DD0;
     static const int miNumMembers = 1;

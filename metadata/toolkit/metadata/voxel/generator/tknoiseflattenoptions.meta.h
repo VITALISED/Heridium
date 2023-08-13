@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eFlattening
 {
@@ -18,6 +18,7 @@ enum eWaterPlacement
 
 class cTkNoiseFlattenOptions
 {
+public:
     static const unsigned __int64 muNameHash = 0xB92478FDE531276E;
     static const unsigned __int64 muTemplateHash = 0x34687CDAF17A671D;
     static const int miNumMembers = 2;

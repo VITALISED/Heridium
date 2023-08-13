@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcResourceCollectEffect
 {
+public:
     static const unsigned __int64 muNameHash = 0xCD8F8BFF2399836A;
     static const unsigned __int64 muTemplateHash = 0x9127D9C65177A897;
     static const int miNumMembers = 13;

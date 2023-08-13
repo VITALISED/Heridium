@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 class cTkLanguages;
 
 class cTkLanguageFontTableEntry
 {
+public:
     static const unsigned __int64 muNameHash = 0x5D212FC5B6A065A4;
     static const unsigned __int64 muTemplateHash = 0x1CB96E51BF81FD77;
     static const int miNumMembers = 5;

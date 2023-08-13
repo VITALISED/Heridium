@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAlienPuzzleMissionOverride
 {
+public:
     static const unsigned __int64 muNameHash = 0x4A57F915F84ABBCD;
     static const unsigned __int64 muTemplateHash = 0x9609A1E09A79B15;
     static const int miNumMembers = 5;

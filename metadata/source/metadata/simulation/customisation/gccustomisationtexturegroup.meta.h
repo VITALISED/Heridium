@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCustomisationTextureGroup
 {
+public:
     static const unsigned __int64 muNameHash = 0xB88B7FCF1DD9F40B;
     static const unsigned __int64 muTemplateHash = 0xE2C5D3805FB5F7ED;
     static const int miNumMembers = 3;

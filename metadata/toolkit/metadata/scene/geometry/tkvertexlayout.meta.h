@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkVertexLayout
 {
+public:
     static const unsigned __int64 muNameHash = 0xDD31F212063601F7;
     static const unsigned __int64 muTemplateHash = 0x74A979AD2A0CECB6;
     static const int miNumMembers = 4;
@@ -10,7 +11,7 @@ class cTkVertexLayout
     int miElementCount;
     int miStride;
     __int64 mi64PlatformData;
-    cTkDynamicArray<cTkVertexElement> maVertexElements;
+    cTkDynamicArray<cTkVertexElement1> maVertexElements;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

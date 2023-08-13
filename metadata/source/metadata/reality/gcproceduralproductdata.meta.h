@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNameGeneratorWord;
 class cGcProductData;
@@ -7,15 +7,16 @@ class cGcBiomeList;
 
 class cGcProceduralProductData
 {
+public:
     static const unsigned __int64 muNameHash = 0xC449167C8DE081CD;
     static const unsigned __int64 muTemplateHash = 0x96CA6F8639C9CC2A;
     static const int miNumMembers = 8;
 
     cGcNameGeneratorWord mNameGeneratorBase;
-    cTkDynamicArray<cGcProceduralProductWord> maNameGeneratorWordList;
+    cTkDynamicArray<cGcProceduralProductWord1> maNameGeneratorWordList;
     int miNameGeneratorLegacyRolls;
     cGcProductData mProduct;
-    cTkFixedArray<cGcProductProceduralOnlyData> maProceduralData;
+    cTkFixedArray<cGcProductProceduralOnlyData, 3> maProceduralData;
     cGcBiomeList mPerBiomeDropWeights;
     cTkFixedString<32,char> macDeployableProductID;
     bool mbRecordsStat;

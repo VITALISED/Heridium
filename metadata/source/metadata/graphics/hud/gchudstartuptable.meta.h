@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcHUDStartupTable
 {
+public:
     static const unsigned __int64 muNameHash = 0xB0A39161047DD10D;
     static const unsigned __int64 muTemplateHash = 0xF927FCB2A4A44546;
     static const int miNumMembers = 7;
@@ -13,7 +14,7 @@ class cGcHUDStartupTable
     float mfButtonFlashRate;
     float mfButtonFlashAlpha;
     float mfBackgroundAlpha;
-    cTkFixedArray<cGcHUDStartup> maHUDStartup;
+    cTkFixedArray<cGcHUDStartup, 13> maHUDStartup;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

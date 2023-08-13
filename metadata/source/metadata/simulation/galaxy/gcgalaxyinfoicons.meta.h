@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkTextureResource;
 class cTkTextureResource;
@@ -9,15 +9,16 @@ class cTkTextureResource;
 
 class cGcGalaxyInfoIcons
 {
+public:
     static const unsigned __int64 muNameHash = 0x1DE42844C3529A0B;
     static const unsigned __int64 muTemplateHash = 0x7D3DB4E4A1077EA3;
     static const int miNumMembers = 9;
 
-    cTkFixedArray<cTkTextureResource> maRaceIcons;
-    cTkFixedArray<cTkTextureResource> maEconomyIcons;
+    cTkFixedArray<cTkTextureResource, 8> maRaceIcons;
+    cTkFixedArray<cTkTextureResource, 7> maEconomyIcons;
     cTkTextureResource mEconomyTechNotInstalledIcon;
-    cTkFixedArray<cTkTextureResource> maWealthIcons;
-    cTkFixedArray<cTkTextureResource> maConflictIcons;
+    cTkFixedArray<cTkTextureResource, 4> maWealthIcons;
+    cTkFixedArray<cTkTextureResource, 4> maConflictIcons;
     cTkTextureResource mConflictTechNotInstalledIcon;
     cTkTextureResource mWarpIcon;
     cTkTextureResource mWarpErrorIcon;

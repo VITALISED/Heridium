@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureMovementData
 {
+public:
     static const unsigned __int64 muNameHash = 0x1F15CCCBBBCEC86A;
     static const unsigned __int64 muTemplateHash = 0x13D85FADF967EDC;
     static const int miNumMembers = 8;
 
-    cTkDynamicArray<cGcCreatureMoveAnimData> maAnims;
+    cTkDynamicArray<cGcCreatureMoveAnimData1> maAnims;
     float mfMoveRange;
     float mfMoveSpeedScale;
     float mfTurnRadiusScale;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkNoiseVoxelTypeEnum;
 
@@ -12,6 +12,7 @@ class cTkNoiseOffsetEnum;
 
 class cTkNoiseFeatureData
 {
+public:
     static const unsigned __int64 muNameHash = 0xBC975A8E0D580FFA;
     static const unsigned __int64 muTemplateHash = 0x11FD8C247496B7E8;
     static const int miNumMembers = 18;

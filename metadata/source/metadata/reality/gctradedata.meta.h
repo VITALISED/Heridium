@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcTradeData
 {
+public:
     static const unsigned __int64 muNameHash = 0x66FAEFAF4E8E7167;
     static const unsigned __int64 muTemplateHash = 0x6788A16C7C9B141A;
     static const int miNumMembers = 19;
 
-    cTkDynamicArray<TkID<128> > maAlwaysPresentProducts;
-    cTkDynamicArray<TkID<128> > maAlwaysPresentSubstances;
-    cTkDynamicArray<TkID<128> > maOptionalProducts;
-    cTkDynamicArray<TkID<128> > maOptionalSubstances;
+    cTkDynamicArray<TkID<128>1> maAlwaysPresentProducts;
+    cTkDynamicArray<TkID<128>1> maAlwaysPresentSubstances;
+    cTkDynamicArray<TkID<128>1> maOptionalProducts;
+    cTkDynamicArray<TkID<128>1> maOptionalSubstances;
     int miMinItemsForSale;
     int miMaxItemsForSale;
     float mfPercentageOfItemsAreProducts;
@@ -19,13 +20,13 @@ class cGcTradeData
     float mfSellPriceIncreaseGreenThreshold;
     float mfSellPriceDecreaseRedThreshold;
     bool mbShowSeasonRewards;
-    cTkFixedArray<int> maMinAmountOfProductAvailable;
-    cTkFixedArray<int> maMaxAmountOfProductAvailable;
-    cTkFixedArray<int> maMinAmountOfSubstanceAvailable;
-    cTkFixedArray<int> maMaxAmountOfSubstanceAvailable;
-    cTkFixedArray<int> maMinExtraSystemProducts;
-    cTkFixedArray<int> maMaxExtraSystemProducts;
-    cTkFixedArray<float> maTradeProductsPriceImprovements;
+    cTkFixedArray<int, 4> maMinAmountOfProductAvailable;
+    cTkFixedArray<int, 4> maMaxAmountOfProductAvailable;
+    cTkFixedArray<int, 4> maMinAmountOfSubstanceAvailable;
+    cTkFixedArray<int, 4> maMaxAmountOfSubstanceAvailable;
+    cTkFixedArray<int, 4> maMinExtraSystemProducts;
+    cTkFixedArray<int, 4> maMaxExtraSystemProducts;
+    cTkFixedArray<float, 4> maTradeProductsPriceImprovements;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

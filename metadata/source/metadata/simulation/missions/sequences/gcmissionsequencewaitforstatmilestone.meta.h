@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eMilestone
 {
@@ -10,6 +10,7 @@ enum eMilestone
 
 class cGcMissionSequenceWaitForStatMilestone
 {
+public:
     static const unsigned __int64 muNameHash = 0xCD771E985A27F526;
     static const unsigned __int64 muTemplateHash = 0xC0D46638AF53103D;
     static const int miNumMembers = 5;

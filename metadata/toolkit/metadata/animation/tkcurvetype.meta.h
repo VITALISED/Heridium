@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eCurve
 {
@@ -47,6 +47,7 @@ enum eCurve
 
 class cTkCurveType
 {
+public:
     static const unsigned __int64 muNameHash = 0x48849654049904EA;
     static const unsigned __int64 muTemplateHash = 0xA0AA35E82CAB5940;
     static const int miNumMembers = 1;

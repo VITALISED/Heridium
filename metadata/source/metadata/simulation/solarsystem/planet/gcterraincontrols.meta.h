@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcTerrainControls
 {
+public:
     static const unsigned __int64 muNameHash = 0x2AD2911065D6EA2;
     static const unsigned __int64 muTemplateHash = 0x6E82971E628F0C68;
     static const int miNumMembers = 9;
 
-    cTkFixedArray<float> maNoiseLayers;
-    cTkFixedArray<float> maGridLayers;
-    cTkFixedArray<float> maFeatures;
-    cTkFixedArray<float> maCaves;
+    cTkFixedArray<float, 8> maNoiseLayers;
+    cTkFixedArray<float, 9> maGridLayers;
+    cTkFixedArray<float, 7> maFeatures;
+    cTkFixedArray<float, 1> maCaves;
     float mfWaterActiveFrequency;
     float mfHighWaterActiveFrequency;
     float mfRockTileFrequency;

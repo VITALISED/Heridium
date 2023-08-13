@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkInputFrame
 {
+public:
     static const unsigned __int64 muNameHash = 0xF3DC604B80A24AD;
     static const unsigned __int64 muTemplateHash = 0xFEBE52C18D488494;
     static const int miNumMembers = 5;

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcVehicleData
 {
+public:
     static const unsigned __int64 muNameHash = 0x904DB42CF570F4BB;
     static const unsigned __int64 muTemplateHash = 0xB5249A3FF5B2717C;
     static const int miNumMembers = 142;
@@ -24,17 +25,17 @@ class cGcVehicleData
     float mfVisualRollOffsetY;
     float mfSteeringWheelSpringMultiplier;
     float mfSteeringWheelPushRange;
-    cTkFixedArray<cTkVector> maWheelLocs;
-    cTkFixedArray<cTkFixedString<32,char> > maWheelNames;
-    cTkFixedArray<cTkFixedString<32,char> > maWheelSuspensionNames;
-    cTkFixedArray<float> maWheelRayFakeWidthFactor;
-    cTkFixedArray<float> maWheelRadiusMultiplier;
-    cTkFixedArray<TkID<128> > maSuspensionAnimNames;
+    cTkFixedArray<cTkVector3, 10> maWheelLocs;
+    cTkFixedArray<cTkFixedString<32,char>, 10> maWheelNames;
+    cTkFixedArray<cTkFixedString<32,char>, 10> maWheelSuspensionNames;
+    cTkFixedArray<float, 10> maWheelRayFakeWidthFactor;
+    cTkFixedArray<float, 10> maWheelRadiusMultiplier;
+    cTkFixedArray<TkID<128>, 10> maSuspensionAnimNames;
     bool mbCustomCollision;
-    cTkVector mCollOffset;
-    cTkVector mExtraCollOffset;
-    cTkVector mCollDimensions;
-    cTkVector mInertiaDimensions;
+    cTkVector3 mCollOffset;
+    cTkVector3 mExtraCollOffset;
+    cTkVector3 mCollDimensions;
+    cTkVector3 mInertiaDimensions;
     float mfCollRadius;
     float mfInertiaMul;
     float mfWheelSuspensionlength;
@@ -67,10 +68,10 @@ class cGcVehicleData
     float mfTurningWheelFrictionOmega;
     float mfTurningWheelFrictionNonBraking;
     float mfTurningWheelFrictionBraking;
-    cTkVector mWheelForwardAngularFactor;
-    cTkVector mWheelTurnAngularFactor;
-    cTkVector mWheelSuspensionAngularFactor;
-    cTkVector mWheelSideAngularFactor;
+    cTkVector3 mWheelForwardAngularFactor;
+    cTkVector3 mWheelTurnAngularFactor;
+    cTkVector3 mWheelSuspensionAngularFactor;
+    cTkVector3 mWheelSideAngularFactor;
     float mfVehicleGravity;
     float mfVehicleGravityWater;
     float mfVehicleJumpForce;
@@ -143,11 +144,11 @@ class cGcVehicleData
     float mfWheelGrassPusherWobble;
     float mfWheelGrassPusherFrequency;
     float mfWheelGrassPusherReduce;
-    cTkFixedArray<cTkVector> maWheelGrassPushers;
+    cTkFixedArray<cTkVector3, 10> maWheelGrassPushers;
     float mfCreatureMassScale;
-    cTkFixedArray<cTkFixedString<256,char> > maHeadlightNames;
-    cTkFixedArray<cTkFixedString<256,char> > maVolumetricHeadlightNames;
-    cTkFixedArray<cTkFixedString<256,char> > maCockpitHeadlightNames;
+    cTkFixedArray<cTkFixedString<256,char>, 2> maHeadlightNames;
+    cTkFixedArray<cTkFixedString<256,char>, 2> maVolumetricHeadlightNames;
+    cTkFixedArray<cTkFixedString<256,char>, 2> maCockpitHeadlightNames;
     float mfHeadlightIntensity;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

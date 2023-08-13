@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkVoxelGeneratorSettingsArray
 {
+public:
     static const unsigned __int64 muNameHash = 0x62EA167F11DA4F86;
     static const unsigned __int64 muTemplateHash = 0x13DCDF1DF2EC7FBE;
     static const int miNumMembers = 1;
 
-    cTkFixedArray<cTkVoxelGeneratorSettingsElement> maTerrainSettings;
+    cTkFixedArray<cTkVoxelGeneratorSettingsElement, 21> maTerrainSettings;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

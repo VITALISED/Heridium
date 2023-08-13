@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eHand
 {
@@ -9,6 +9,7 @@ enum eHand
 
 class cGcHand
 {
+public:
     static const unsigned __int64 muNameHash = 0xDF2E636EA66DCE65;
     static const unsigned __int64 muTemplateHash = 0x6932E051A4A23022;
     static const int miNumMembers = 1;

@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcTradingClassTable
 {
+public:
     static const unsigned __int64 muNameHash = 0x8CBF7A7EE4372A7F;
     static const unsigned __int64 muTemplateHash = 0x12960A97D242887;
     static const int miNumMembers = 4;
 
-    cTkFixedArray<cGcTradingClassData> maTradingClassesData;
-    cTkFixedArray<cGcTradingCategoryData> maCategoryData;
+    cTkFixedArray<cGcTradingClassData, 7> maTradingClassesData;
+    cTkFixedArray<cGcTradingCategoryData, 9> maCategoryData;
     float mfMaxTradingMultiplier;
     float mfMinTradingMultiplier;
 

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eWonderCustomCategory
 {
@@ -19,6 +19,7 @@ enum eWonderCustomCategory
 
 class cGcWonderCustomCategory
 {
+public:
     static const unsigned __int64 muNameHash = 0x3ACABCA885CFF7F2;
     static const unsigned __int64 muTemplateHash = 0xB2A2231AC6C1C0E0;
     static const int miNumMembers = 1;

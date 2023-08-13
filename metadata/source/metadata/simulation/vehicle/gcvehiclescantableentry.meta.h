@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkTextureResource;
 
 class cGcVehicleScanTableEntry
 {
+public:
     static const unsigned __int64 muNameHash = 0xBAC942D350F478B1;
     static const unsigned __int64 muTemplateHash = 0x757E6C85353294DA;
     static const int miNumMembers = 4;
 
-    cTkDynamicArray<TkID<256> > maScanList;
+    cTkDynamicArray<TkID<256>1> maScanList;
     TkID<256> mName;
     TkID<128> mRequiredTech;
     cTkTextureResource mIcon;

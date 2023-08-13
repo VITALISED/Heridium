@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureRoleFilename
 {
+public:
     static const unsigned __int64 muNameHash = 0x6474461C1BF89153;
     static const unsigned __int64 muTemplateHash = 0xF6F70602F611DE61;
     static const int miNumMembers = 2;
 
     cTkFixedString<128,char> macFile;
-    cTkFixedArray<float> maBiomeProbability;
+    cTkFixedArray<float, 4> maBiomeProbability;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

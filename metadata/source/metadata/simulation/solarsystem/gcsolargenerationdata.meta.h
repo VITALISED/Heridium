@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSolarGenerationData
 {
+public:
     static const unsigned __int64 muNameHash = 0x62C0729D49C7216D;
     static const unsigned __int64 muTemplateHash = 0xD316469F371CCF5B;
     static const int miNumMembers = 1;

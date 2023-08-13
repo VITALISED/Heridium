@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcFrigateClass;
 
 class cGcCostFleetStoredIncome
 {
+public:
     static const unsigned __int64 muNameHash = 0x77F73B95EA71A04C;
     static const unsigned __int64 muTemplateHash = 0xF052E979247D7E39;
     static const int miNumMembers = 2;

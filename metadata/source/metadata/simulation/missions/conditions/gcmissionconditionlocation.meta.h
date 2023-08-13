@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eMissionPlayerLocation
 {
@@ -34,6 +34,7 @@ enum eMissionPlayerLocation
 
 class cGcMissionConditionLocation
 {
+public:
     static const unsigned __int64 muNameHash = 0x64A394B637C25752;
     static const unsigned __int64 muTemplateHash = 0xF1FF349FCBFB33CA;
     static const int miNumMembers = 1;

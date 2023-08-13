@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNPCProbabilityReactionData
 {
+public:
     static const unsigned __int64 muNameHash = 0x260459086692280D;
     static const unsigned __int64 muTemplateHash = 0xC871D35B9F8AAF33;
     static const int miNumMembers = 3;
 
     TkID<128> mName;
     float mfProbability;
-    cTkDynamicArray<cGcNPCRaceProbabilityModifierData> maRaceModifiers;
+    cTkDynamicArray<cGcNPCRaceProbabilityModifierData1> maRaceModifiers;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

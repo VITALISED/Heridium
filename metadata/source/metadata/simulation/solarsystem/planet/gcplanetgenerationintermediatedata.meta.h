@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcGalaxyStarTypes;
 class cGcPlanetClass;
@@ -11,6 +11,7 @@ class cGcBiomeSubType;
 
 class cGcPlanetGenerationIntermediateData
 {
+public:
     static const unsigned __int64 muNameHash = 0x166980043AF05C9E;
     static const unsigned __int64 muTemplateHash = 0x115882CCFDCC17BA;
     static const int miNumMembers = 19;
@@ -31,8 +32,8 @@ class cGcPlanetGenerationIntermediateData
     cTkFixedString<128,char> macCreatureExtraWaterFile;
     cTkFixedString<128,char> macCreatureAirFile;
     cTkFixedString<128,char> macCreatureRobotFile;
-    cTkDynamicArray<cGcExternalObjectListOptions> maExternalObjectLists;
-    cTkDynamicArray<int> maExternalObjectListIndices;
+    cTkDynamicArray<cGcExternalObjectListOptions1> maExternalObjectLists;
+    cTkDynamicArray<int1> maExternalObjectListIndices;
     bool mbPrime;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

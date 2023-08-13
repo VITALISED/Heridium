@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eAIFaction
 {
@@ -12,6 +12,7 @@ enum eAIFaction
 
 class cGcRealityCommonFactions
 {
+public:
     static const unsigned __int64 muNameHash = 0xA57475D6E3E6E9A5;
     static const unsigned __int64 muTemplateHash = 0xF861B887610499B7;
     static const int miNumMembers = 1;

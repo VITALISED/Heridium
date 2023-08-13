@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eScreenFilter
 {
@@ -89,6 +89,7 @@ enum eScreenFilter
 
 class cGcScreenFilters
 {
+public:
     static const unsigned __int64 muNameHash = 0xE50E9B26CC742B3D;
     static const unsigned __int64 muTemplateHash = 0x131CD98CFBBC51F;
     static const int miNumMembers = 1;

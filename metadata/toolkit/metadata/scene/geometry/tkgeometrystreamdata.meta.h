@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkGeometryStreamData
 {
+public:
     static const unsigned __int64 muNameHash = 0xA8D08B04A442318C;
     static const unsigned __int64 muTemplateHash = 0xC59E7E150ECDC89B;
     static const int miNumMembers = 1;
 
-    cTkDynamicArray<cTkMeshData> maStreamDataArray;
+    cTkDynamicArray<cTkMeshData1> maStreamDataArray;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

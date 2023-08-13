@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcThirdPersonAnimParams
 {
+public:
     static const unsigned __int64 muNameHash = 0x2AA340CCDBA01EAD;
     static const unsigned __int64 muTemplateHash = 0x4BA36A3444947135;
     static const int miNumMembers = 20;

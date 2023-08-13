@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eInventoryToCheck
 {
@@ -13,6 +13,7 @@ enum eInventoryToCheck
 
 class cGcCostInstalledTech
 {
+public:
     static const unsigned __int64 muNameHash = 0xF6CA47F9F51F553F;
     static const unsigned __int64 muTemplateHash = 0xA1DCDC3F66BF2F2D;
     static const int miNumMembers = 2;

@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkInOutCurve;
 
 class cTkHitCurveData
 {
+public:
     static const unsigned __int64 muNameHash = 0xA954F03559C40EB5;
     static const unsigned __int64 muTemplateHash = 0x324B0B3907C18BEF;
     static const int miNumMembers = 2;

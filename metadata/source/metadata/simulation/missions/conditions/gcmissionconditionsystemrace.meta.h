@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAlienRace;
 
 class cGcMissionConditionSystemRace
 {
+public:
     static const unsigned __int64 muNameHash = 0x62AA54DDD6FE7CC1;
     static const unsigned __int64 muTemplateHash = 0xFD6FB69A0F88A76F;
     static const int miNumMembers = 1;

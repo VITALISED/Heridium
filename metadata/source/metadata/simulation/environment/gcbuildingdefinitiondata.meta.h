@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkNoiseFlattenOptions;
 
 class cGcBuildingDefinitionData
 {
+public:
     static const unsigned __int64 muNameHash = 0x59A43238181BB69F;
     static const unsigned __int64 muTemplateHash = 0x4EB2192DB02EF8F2;
     static const int miNumMembers = 13;
@@ -12,7 +13,7 @@ class cGcBuildingDefinitionData
     cTkNoiseFlattenOptions mFlattenType;
     TkID<128> mClusterLayout;
     float mfClusterSpacing;
-    cTkFixedArray<float> maDensity;
+    cTkFixedArray<float, 6> maDensity;
     bool mbEnabledWhenPlanetHasNoNPCs;
     int miNumOverridesToGenerate;
     int miNumModelsToGenerate;

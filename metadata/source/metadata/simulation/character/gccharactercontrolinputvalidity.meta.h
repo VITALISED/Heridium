@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eCharacterControlInputValidity
 {
@@ -10,6 +10,7 @@ enum eCharacterControlInputValidity
 
 class cGcCharacterControlInputValidity
 {
+public:
     static const unsigned __int64 muNameHash = 0x1A9351C5A8C07BA4;
     static const unsigned __int64 muTemplateHash = 0x28FD8E5FE5649E4B;
     static const int miNumMembers = 1;

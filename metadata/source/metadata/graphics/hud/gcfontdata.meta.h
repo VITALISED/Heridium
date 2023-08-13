@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcFontData
 {
+public:
     static const unsigned __int64 muNameHash = 0x1297324AF39B5F4E;
     static const unsigned __int64 muTemplateHash = 0x7119B895413DD133;
     static const int miNumMembers = 2;

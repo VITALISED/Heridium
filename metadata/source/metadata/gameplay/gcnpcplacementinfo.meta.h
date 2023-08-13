@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAlienRace;
 class cGcInteractionType;
@@ -7,6 +7,7 @@ class cGcTechnologyCategory;
 
 class cGcNPCPlacementInfo
 {
+public:
     static const unsigned __int64 muNameHash = 0xA12AC584067DF8E0;
     static const unsigned __int64 muTemplateHash = 0xBC234D69742168C;
     static const int miNumMembers = 21;
@@ -24,13 +25,13 @@ class cGcNPCPlacementInfo
     cGcInteractionType mInteractionOverride;
     cGcTechnologyCategory mTechShopCategory;
     TkID<256> mForceInteraction;
-    cTkDynamicArray<cGcAlienPuzzleMissionOverride> maPuzzleMissionOverrideTable;
+    cTkDynamicArray<cGcAlienPuzzleMissionOverride1> maPuzzleMissionOverrideTable;
     bool mbDisableInteraction;
     bool mbUseFreighterNPC;
     bool mbPlaceAtLeastOne;
     bool mbSpawnMoving;
     bool mbSpawnInAbandoned;
-    cTkDynamicArray<TkID<128> > maHideDuringMissions;
+    cTkDynamicArray<TkID<128>1> maHideDuringMissions;
     bool mbOnlyUsePuzzleOverridesIfPlayerOwned;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

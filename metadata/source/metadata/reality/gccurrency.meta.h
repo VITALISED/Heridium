@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eCurrency
 {
@@ -10,6 +10,7 @@ enum eCurrency
 
 class cGcCurrency
 {
+public:
     static const unsigned __int64 muNameHash = 0x17AE5B83C6E9DF12;
     static const unsigned __int64 muTemplateHash = 0x80368A509B1B150A;
     static const int miNumMembers = 1;

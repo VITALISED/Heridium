@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcRefinerRecipeElement;
 
 class cGcRefinerRecipe
 {
+public:
     static const unsigned __int64 muNameHash = 0x309D52938C546138;
     static const unsigned __int64 muTemplateHash = 0xE6B0B3233CA22BC9;
     static const int miNumMembers = 7;
@@ -15,7 +16,7 @@ class cGcRefinerRecipe
     float mfTimeToMake;
     bool mbCooking;
     cGcRefinerRecipeElement mResult;
-    cTkDynamicArray<cGcRefinerRecipeElement> maIngredients;
+    cTkDynamicArray<cGcRefinerRecipeElement1> maIngredients;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

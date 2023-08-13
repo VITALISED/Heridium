@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum ePointState
 {
@@ -10,6 +10,7 @@ enum ePointState
 
 class cGcMissionSequenceDetailMessagePoint
 {
+public:
     static const unsigned __int64 muNameHash = 0xC2F4FABD9EDAFE6A;
     static const unsigned __int64 muTemplateHash = 0x111193B7216264B4;
     static const int miNumMembers = 3;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eMonth
 {
@@ -19,6 +19,7 @@ enum eMonth
 
 class cGcMonth
 {
+public:
     static const unsigned __int64 muNameHash = 0x498BE03D1C172203;
     static const unsigned __int64 muTemplateHash = 0x7212715AB678D0C3;
     static const int miNumMembers = 1;

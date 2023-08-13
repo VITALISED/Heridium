@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBiomeSubType;
 
 class cGcBiomeFileListOption
 {
+public:
     static const unsigned __int64 muNameHash = 0xA1666CAA6E88F270;
     static const unsigned __int64 muTemplateHash = 0x70DC795EA39D0AA1;
     static const int miNumMembers = 3;

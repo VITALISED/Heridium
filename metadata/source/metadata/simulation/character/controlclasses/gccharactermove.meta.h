@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eMode
 {
@@ -9,6 +9,7 @@ enum eMode
 
 class cGcCharacterMove
 {
+public:
     static const unsigned __int64 muNameHash = 0x7E96F40C0051D69C;
     static const unsigned __int64 muTemplateHash = 0x69D4C6F5C5341C1B;
     static const int miNumMembers = 3;

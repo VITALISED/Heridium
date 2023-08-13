@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkProceduralModelComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xC8EB42FD9114CC21;
     static const unsigned __int64 muTemplateHash = 0x8E7B6DB16C3C8DEB;
     static const int miNumMembers = 1;
 
-    cTkDynamicArray<cTkFixedString<128,char> > maList;
+    cTkDynamicArray<cTkFixedString<128,char>1> maList;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

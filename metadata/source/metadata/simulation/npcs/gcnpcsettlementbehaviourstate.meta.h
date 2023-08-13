@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eNPCSettlementBehaviourState
 {
@@ -12,6 +12,7 @@ enum eNPCSettlementBehaviourState
 
 class cGcNPCSettlementBehaviourState
 {
+public:
     static const unsigned __int64 muNameHash = 0x36730B94549148DE;
     static const unsigned __int64 muTemplateHash = 0xCE0743B4909D405A;
     static const int miNumMembers = 1;

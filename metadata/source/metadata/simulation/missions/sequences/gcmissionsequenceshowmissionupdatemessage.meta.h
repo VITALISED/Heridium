@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eMissionUpdateMessage
 {
@@ -16,6 +16,7 @@ enum ePlayMusicSting
 
 class cGcMissionSequenceShowMissionUpdateMessage
 {
+public:
     static const unsigned __int64 muNameHash = 0x2431FBC75DE4AEB6;
     static const unsigned __int64 muTemplateHash = 0xD729431BCB083995;
     static const int miNumMembers = 8;

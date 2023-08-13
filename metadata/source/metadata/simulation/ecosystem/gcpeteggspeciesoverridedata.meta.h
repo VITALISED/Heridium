@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPetEggSpeciesOverrideData
 {
+public:
     static const unsigned __int64 muNameHash = 0x66A7186A5DDD202A;
     static const unsigned __int64 muTemplateHash = 0x6B85B3F076600E6D;
     static const int miNumMembers = 7;

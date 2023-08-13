@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcActionUseType;
 class cGcInputActions;
 
 class cGcActionSetAction
 {
+public:
     static const unsigned __int64 muNameHash = 0xF69368BA4545C60E;
     static const unsigned __int64 muTemplateHash = 0xDA8E64ABBB9ABBC9;
     static const int miNumMembers = 2;

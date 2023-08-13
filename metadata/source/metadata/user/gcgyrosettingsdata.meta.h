@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eActiveModeOnFoot
 {
@@ -85,6 +85,7 @@ enum ePitchAxisDirection
 
 class cGcGyroSettingsData
 {
+public:
     static const unsigned __int64 muNameHash = 0x4EA99277E076565E;
     static const unsigned __int64 muTemplateHash = 0xDC3376240A715E64;
     static const int miNumMembers = 34;

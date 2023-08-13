@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkPhysicsData;
 class cTkVolumeTriggerType;
 
 class cTkStaticPhysicsComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x4955878C6E8051DB;
     static const unsigned __int64 muTemplateHash = 0x99BA278E9CAE3BE9;
     static const int miNumMembers = 9;

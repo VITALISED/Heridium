@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eAkRTPC
 {
@@ -103,6 +103,7 @@ enum eAkRTPC
 
 class cGcAudioWwiseRTPCs
 {
+public:
     static const unsigned __int64 muNameHash = 0x92D4879C17049BD7;
     static const unsigned __int64 muTemplateHash = 0x2BFA17ACBA2A7F13;
     static const int miNumMembers = 1;

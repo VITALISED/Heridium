@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNGuiSpecialTextImageData
 {
+public:
     static const unsigned __int64 muNameHash = 0xF594D54B778D6517;
     static const unsigned __int64 muTemplateHash = 0x7026F5C51A6E08D0;
     static const int miNumMembers = 4;

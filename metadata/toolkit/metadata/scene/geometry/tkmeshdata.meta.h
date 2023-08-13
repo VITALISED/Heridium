@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkMeshData
 {
+public:
     static const unsigned __int64 muNameHash = 0xF671716161E708E3;
     static const unsigned __int64 muTemplateHash = 0xD3AC8F6F7A4D55FC;
     static const int miNumMembers = 5;
@@ -11,7 +12,7 @@ class cTkMeshData
     unsigned __int64 mui64Hash;
     int miVertexDataSize;
     int miIndexDataSize;
-    cTkDynamicArray<unsigned __int8> maMeshDataStream;
+    cTkDynamicArray<unsigned __int81> maMeshDataStream;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

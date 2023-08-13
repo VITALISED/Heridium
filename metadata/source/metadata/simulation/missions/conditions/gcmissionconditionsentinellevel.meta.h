@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eRequiredSentinelLevel
 {
@@ -11,6 +11,7 @@ enum eRequiredSentinelLevel
 
 class cGcMissionConditionSentinelLevel
 {
+public:
     static const unsigned __int64 muNameHash = 0xB45DF78C123D703E;
     static const unsigned __int64 muTemplateHash = 0xAF04E8DDD3E651FB;
     static const int miNumMembers = 1;

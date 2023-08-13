@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkInputEnum;
 
@@ -15,6 +15,7 @@ class cGcButtonSpawnOffset;
 
 class cGcButtonSpawn
 {
+public:
     static const unsigned __int64 muNameHash = 0x7F9FCEDE7E2CBFC0;
     static const unsigned __int64 muTemplateHash = 0xEB2525B3E0B9F658;
     static const int miNumMembers = 3;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkTextureResource;
 class cTkTextureResource;
@@ -8,11 +8,12 @@ class cTkTextureResource;
 
 class cGcByteBeatIcons
 {
+public:
     static const unsigned __int64 muNameHash = 0xB0AEFBA1BDCC6569;
     static const unsigned __int64 muTemplateHash = 0x15AE941666ED5A7C;
     static const int miNumMembers = 5;
 
-    cTkFixedArray<cTkTextureResource> maIcons;
+    cTkFixedArray<cTkTextureResource, 18> maIcons;
     cTkTextureResource mSawTooth;
     cTkTextureResource mSine;
     cTkTextureResource mSquare;

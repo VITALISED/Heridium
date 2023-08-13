@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eEggItemType
 {
@@ -9,6 +9,7 @@ enum eEggItemType
 
 class cGcMissionConditionHasCreatureEggItem
 {
+public:
     static const unsigned __int64 muNameHash = 0x6FDB38E1B65AEDCB;
     static const unsigned __int64 muTemplateHash = 0xEDFECED53D39F1A8;
     static const int miNumMembers = 2;

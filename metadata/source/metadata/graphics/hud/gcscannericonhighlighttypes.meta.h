@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eScannerIconHighlightType
 {
@@ -12,6 +12,7 @@ enum eScannerIconHighlightType
 
 class cGcScannerIconHighlightTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0x1E73CF8A2A7FA65D;
     static const unsigned __int64 muTemplateHash = 0x34F3912D22FD83AB;
     static const int miNumMembers = 1;

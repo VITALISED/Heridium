@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eSwatchPrimaryColour
 {
@@ -19,6 +19,7 @@ enum eSwatchSecondaryColour
 
 class cGcBaseBuildingPalette
 {
+public:
     static const unsigned __int64 muNameHash = 0xB499CC97C0515963;
     static const unsigned __int64 muTemplateHash = 0xCC9B662A4D061ACE;
     static const int miNumMembers = 8;

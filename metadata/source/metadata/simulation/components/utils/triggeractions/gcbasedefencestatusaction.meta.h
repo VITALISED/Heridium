@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBaseDefenceStatusType;
 
 class cGcBaseDefenceStatusAction
 {
+public:
     static const unsigned __int64 muNameHash = 0x22FF5652DE949103;
     static const unsigned __int64 muTemplateHash = 0x98ACD53757126EE1;
     static const int miNumMembers = 1;

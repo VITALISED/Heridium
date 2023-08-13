@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eWeightingCurve
 {
@@ -14,6 +14,7 @@ enum eWeightingCurve
 
 class cGcWeightingCurve
 {
+public:
     static const unsigned __int64 muNameHash = 0xB33B21B3131CD08D;
     static const unsigned __int64 muTemplateHash = 0x8A2194B184BA1590;
     static const int miNumMembers = 1;

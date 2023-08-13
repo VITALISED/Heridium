@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eRewardInventoryOverride
 {
@@ -12,6 +12,7 @@ enum eRewardInventoryOverride
 
 class cGcMissionSequenceReward
 {
+public:
     static const unsigned __int64 muNameHash = 0x7471FD77815538C2;
     static const unsigned __int64 muTemplateHash = 0x3589DA89D687D2BD;
     static const int miNumMembers = 6;

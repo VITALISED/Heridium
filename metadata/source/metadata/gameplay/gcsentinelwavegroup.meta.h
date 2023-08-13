@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSentinelWaveGroup
 {
+public:
     static const unsigned __int64 muNameHash = 0xE866662BD040EDFB;
     static const unsigned __int64 muTemplateHash = 0xAD3F352CAAE1C6AA;
     static const int miNumMembers = 2;
 
-    cTkDynamicArray<TkID<128> > maWaves;
-    cTkDynamicArray<TkID<128> > maExtremeWaves;
+    cTkDynamicArray<TkID<128>1> maWaves;
+    cTkDynamicArray<TkID<128>1> maExtremeWaves;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

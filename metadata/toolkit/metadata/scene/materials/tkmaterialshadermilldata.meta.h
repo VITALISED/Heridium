@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkMaterialShaderMillData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE5F4152C8F8FC861;
     static const unsigned __int64 muTemplateHash = 0xD94EC79A8F14C379;
     static const int miNumMembers = 9;
 
-    cTkDynamicArray<cTkMaterialShaderMillNode> maShaderMillNodes;
-    cTkDynamicArray<cTkMaterialShaderMillLink> maShaderMillLinks;
-    cTkDynamicArray<cTkMaterialShaderMillFlag> maShaderMillFlags;
-    cTkDynamicArray<cTkMaterialShaderMillComment> maShaderMillCmts;
+    cTkDynamicArray<cTkMaterialShaderMillNode1> maShaderMillNodes;
+    cTkDynamicArray<cTkMaterialShaderMillLink1> maShaderMillLinks;
+    cTkDynamicArray<cTkMaterialShaderMillFlag1> maShaderMillFlags;
+    cTkDynamicArray<cTkMaterialShaderMillComment1> maShaderMillCmts;
     float mfScrollX;
     float mfScrollY;
     float mfZoom;

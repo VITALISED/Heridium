@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcRegionHotspotData
 {
+public:
     static const unsigned __int64 muNameHash = 0x36E137A2EA118340;
     static const unsigned __int64 muTemplateHash = 0x2990BF8415EA9388;
     static const int miNumMembers = 6;
@@ -10,8 +11,8 @@ class cGcRegionHotspotData
     float mfProbabilityWeighting;
     float mfMinRange;
     float mfMaxRange;
-    cTkFixedArray<float> maClassWeightings;
-    cTkFixedArray<float> maClassStrengths;
+    cTkFixedArray<float, 4> maClassWeightings;
+    cTkFixedArray<float, 4> maClassStrengths;
     float mfDiscoveryDistanceThreshold;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

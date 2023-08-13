@@ -1,17 +1,18 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureRidingData
 {
+public:
     static const unsigned __int64 muNameHash = 0xCBC8926C6C9D9A51;
     static const unsigned __int64 muTemplateHash = 0xAEDEBE610D3F2531;
     static const int miNumMembers = 16;
 
     cTkFixedString<256,char> macJointName;
     cTkFixedString<256,char> macAdditionalScaleJoint;
-    cTkVector mOffset;
-    cTkVector mRotationOffset;
-    cTkVector mVROffset;
+    cTkVector3 mOffset;
+    cTkVector3 mRotationOffset;
+    cTkVector3 mVROffset;
     float mfHeadCounterRotation;
     float mfUprightStrength;
     bool mbLegSpread;
@@ -19,10 +20,10 @@ class cGcCreatureRidingData
     float mfScaleForMinLegSpread;
     float mfScaleForMaxLegSpread;
     bool mbRequiresMatchingPartModifier;
-    cTkDynamicArray<cGcCreatureRidingPartModifier> maPartModifiers;
+    cTkDynamicArray<cGcCreatureRidingPartModifier1> maPartModifiers;
     TkID<128> mIdleRidingAnim;
     TkID<128> mDefaultRidingAnim;
-    cTkDynamicArray<cGcCreatureRidingAnimation> maRidingAnims;
+    cTkDynamicArray<cGcCreatureRidingAnimation1> maRidingAnims;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

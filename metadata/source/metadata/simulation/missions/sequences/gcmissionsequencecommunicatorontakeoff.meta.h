@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlayerCommunicatorMessage;
 
 class cGcMissionSequenceCommunicatorOnTakeOff
 {
+public:
     static const unsigned __int64 muNameHash = 0x8667E548FE078CD2;
     static const unsigned __int64 muTemplateHash = 0x379F8CD07C145925;
     static const int miNumMembers = 3;

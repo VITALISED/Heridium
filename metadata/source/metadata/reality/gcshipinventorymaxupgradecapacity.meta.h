@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcShipInventoryMaxUpgradeCapacity
 {
+public:
     static const unsigned __int64 muNameHash = 0xC51C8A0A49F892DC;
     static const unsigned __int64 muTemplateHash = 0xCC46D1E97F0D733C;
     static const int miNumMembers = 3;
 
-    cTkFixedArray<int> maMaxInventoryCapacity;
-    cTkFixedArray<int> maMaxTechInventoryCapacity;
-    cTkFixedArray<int> maMaxCargoInventoryCapacity;
+    cTkFixedArray<int, 4> maMaxInventoryCapacity;
+    cTkFixedArray<int, 4> maMaxTechInventoryCapacity;
+    cTkFixedArray<int, 4> maMaxCargoInventoryCapacity;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

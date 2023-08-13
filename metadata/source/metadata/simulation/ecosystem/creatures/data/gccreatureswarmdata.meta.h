@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eSwarmMovementType
 {
@@ -13,6 +13,7 @@ enum eSwarmMovementType
 
 class cGcCreatureSwarmData
 {
+public:
     static const unsigned __int64 muNameHash = 0x87C83AD7D0C1D117;
     static const unsigned __int64 muTemplateHash = 0xB3AED157D9B5E63;
     static const int miNumMembers = 6;
@@ -22,7 +23,7 @@ class cGcCreatureSwarmData
     float mfSwarmMovementSpeed;
     float mfSwarmMovementRadius;
     eSwarmMovementType meSwarmMovementType;
-    cTkDynamicArray<cGcCreatureSwarmDataParams> maParams;
+    cTkDynamicArray<cGcCreatureSwarmDataParams1> maParams;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

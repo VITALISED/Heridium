@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eHUDTextDisplayType
 {
@@ -13,6 +13,7 @@ class cGcAlienRace;
 
 class cGcDisplayText
 {
+public:
     static const unsigned __int64 muNameHash = 0x39E3C3DE16466069;
     static const unsigned __int64 muTemplateHash = 0xD668510B347FF09D;
     static const int miNumMembers = 6;
@@ -22,7 +23,7 @@ class cGcDisplayText
     cTkFixedString<256,char> macSubtitle1;
     cTkFixedString<256,char> macSubtitle2;
     cGcAlienRace mUseAlienLanguage;
-    cTkDynamicArray<TkID<256> > maChooseRandomTextOptions;
+    cTkDynamicArray<TkID<256>1> maChooseRandomTextOptions;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

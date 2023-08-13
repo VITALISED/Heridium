@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureHoverMovementDataParams
 {
+public:
     static const unsigned __int64 muNameHash = 0x2862D9C79079A037;
     static const unsigned __int64 muTemplateHash = 0x8E185E70D1EAA16D;
     static const int miNumMembers = 19;
 
-    cTkDynamicArray<TkID<256> > maValidDescriptors;
+    cTkDynamicArray<TkID<256>1> maValidDescriptors;
     float mfNavOffsetY;
     float mfNavOffsetZ;
     float mfGroundHeightOffset;
@@ -25,7 +26,7 @@ class cGcCreatureHoverMovementDataParams
     float mfHeightForMinGroundAvoid;
     float mfGroundAvoidTimeModifier;
     bool mbCanJump;
-    cTkDynamicArray<cGcCreatureHoverTintableEffect> maTintableEffects;
+    cTkDynamicArray<cGcCreatureHoverTintableEffect1> maTintableEffects;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

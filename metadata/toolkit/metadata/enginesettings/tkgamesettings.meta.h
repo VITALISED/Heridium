@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkGameSettings
 {
+public:
     static const unsigned __int64 muNameHash = 0x18F53DCA811C8E56;
     static const unsigned __int64 muTemplateHash = 0x64289A7C149B1115;
     static const int miNumMembers = 2;
 
-    cTkDynamicArray<cGcInputActionMapping> maKeyMapping;
-    cTkDynamicArray<cGcInputActionMapping2> maKeyMapping2;
+    cTkDynamicArray<cGcInputActionMapping1> maKeyMapping;
+    cTkDynamicArray<cGcInputActionMapping21> maKeyMapping2;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

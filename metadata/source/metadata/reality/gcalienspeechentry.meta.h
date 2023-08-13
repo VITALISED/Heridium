@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cgcwordcategorytableEnum;
 
@@ -12,6 +12,7 @@ class cGcAlienRace;
 
 class cGcAlienSpeechEntry
 {
+public:
     static const unsigned __int64 muNameHash = 0xB81D78F21EBE37;
     static const unsigned __int64 muTemplateHash = 0xC9729B0D1412C4AB;
     static const int miNumMembers = 8;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eOrigin
 {
@@ -15,6 +15,7 @@ enum eOrigin
 
 class cGcCameraAmbientSpaceData
 {
+public:
     static const unsigned __int64 muNameHash = 0x3B1EFAD66E07132E;
     static const unsigned __int64 muTemplateHash = 0xA4725CF1C9F5609E;
     static const int miNumMembers = 3;

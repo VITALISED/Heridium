@@ -20,7 +20,12 @@ add_library(HermidiumDLL SHARED
 	"common/xml/XMLClear.h"
 	"common/xml/XMLNode.h"
 	"common/metadata/TkID.h"
-)
+	"common/maths/TkVector2.h"
+	"common/maths/TkVector3.h"
+	"common/maths/TkVector4.h"
+	"common/maths/TkPhysRelVec3.h"
+	"common/utilities/TkNetworkID.h"
+	"common/maths/TkHalfVector4.h")
 
 target_include_directories(HermidiumDLL PRIVATE ${CMAKE_SOURCE_DIR}/metadata)
 

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBlockedUser
 {
+public:
     static const unsigned __int64 muNameHash = 0x3317FE9999913ADE;
     static const unsigned __int64 muTemplateHash = 0x7072D0794DC08252;
     static const int miNumMembers = 3;

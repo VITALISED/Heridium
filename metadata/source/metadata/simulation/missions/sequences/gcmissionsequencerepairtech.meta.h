@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMissionSequenceRepairTech
 {
+public:
     static const unsigned __int64 muNameHash = 0xF83A832D3507037F;
     static const unsigned __int64 muTemplateHash = 0x968BA03C12A75A61;
     static const int miNumMembers = 3;
 
     cTkFixedString<128,char> macMessage;
-    cTkDynamicArray<TkID<128> > maTechsToRepair;
+    cTkDynamicArray<TkID<128>1> maTechsToRepair;
     cTkFixedString<128,char> macDebugText;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

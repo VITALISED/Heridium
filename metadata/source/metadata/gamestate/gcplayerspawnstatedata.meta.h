@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eLastKnownPlayerState
 {
@@ -14,6 +14,7 @@ enum eLastKnownPlayerState
 
 class cGcPlayerSpawnStateData
 {
+public:
     static const unsigned __int64 muNameHash = 0x6F8C3831DC1540EC;
     static const unsigned __int64 muTemplateHash = 0xC0D8ABF2503E00DC;
     static const int miNumMembers = 13;

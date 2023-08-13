@@ -1,21 +1,22 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSeasonSaveStateOnDeath;
 
 class cGcSeasonStateData
 {
+public:
     static const unsigned __int64 muNameHash = 0x4BC716CF849F5A74;
     static const unsigned __int64 muTemplateHash = 0xF922077B7CBF3B33;
     static const int miNumMembers = 8;
 
-    cTkDynamicArray<float> maMilestoneValues;
-    cTkDynamicArray<__int16> maRewardCollected;
+    cTkDynamicArray<float1> maMilestoneValues;
+    cTkDynamicArray<__int161> maRewardCollected;
     int miPinnedStage;
     int miPinnedMilestone;
-    cTkDynamicArray<unsigned __int64> maRendezvousUAs;
+    cTkDynamicArray<unsigned __int641> maRendezvousUAs;
     bool mbHasCollectedFinalReward;
-    cTkDynamicArray<cGcUAProtectedLocations> maProtectedEvents;
+    cTkDynamicArray<cGcUAProtectedLocations1> maProtectedEvents;
     cGcSeasonSaveStateOnDeath mStateOnDeath;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

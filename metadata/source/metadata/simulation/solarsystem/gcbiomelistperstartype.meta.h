@@ -1,20 +1,21 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBiomeList;
 class cGcBiomeList;
 
 class cGcBiomeListPerStarType
 {
+public:
     static const unsigned __int64 muNameHash = 0xFABB438AC71DAB8D;
     static const unsigned __int64 muTemplateHash = 0xDB25A53E0EB949F6;
     static const int miNumMembers = 6;
 
-    cTkFixedArray<cGcBiomeList> maStarType;
+    cTkFixedArray<cGcBiomeList, 4> maStarType;
     cGcBiomeList mLushYellow;
     cGcBiomeList mAbandonedYellow;
-    cTkFixedArray<float> maLifeChance;
-    cTkFixedArray<float> maAbandonedLifeChance;
+    cTkFixedArray<float, 4> maLifeChance;
+    cTkFixedArray<float, 4> maAbandonedLifeChance;
     float mfConvertDeadToWeird;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eItemOutOfBoundsBehaviour
 {
@@ -17,11 +17,12 @@ enum eItemIndexProvider
 
 class cGcCostItemListIndexed
 {
+public:
     static const unsigned __int64 muNameHash = 0xA57C34B1B939D649;
     static const unsigned __int64 muTemplateHash = 0x3C8007CCCC34B3A4;
     static const int miNumMembers = 5;
 
-    cTkDynamicArray<TkID<128> > maCosts;
+    cTkDynamicArray<TkID<128>1> maCosts;
     int miAmount;
     bool mbAssertIfOutOfBounds;
     eItemOutOfBoundsBehaviour meItemOutOfBoundsBehaviour;

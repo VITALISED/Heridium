@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eWikiTopicType
 {
@@ -36,6 +36,7 @@ enum eWikiTopicType
 
 class cGcWikiTopicType
 {
+public:
     static const unsigned __int64 muNameHash = 0x72439AF10F4C849F;
     static const unsigned __int64 muTemplateHash = 0x89F7B9EF1A67D94F;
     static const int miNumMembers = 1;

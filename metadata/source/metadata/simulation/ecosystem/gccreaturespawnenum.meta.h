@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eIncrementor
 {
@@ -33,6 +33,7 @@ enum eIncrementor
 
 class cGcCreatureSpawnEnum
 {
+public:
     static const unsigned __int64 muNameHash = 0xF1142B73FBEC2939;
     static const unsigned __int64 muTemplateHash = 0xC4D3D498FA5EAF4B;
     static const int miNumMembers = 1;

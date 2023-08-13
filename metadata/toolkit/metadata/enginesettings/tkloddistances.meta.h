@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkLODDistances
 {
+public:
     static const unsigned __int64 muNameHash = 0xEBE7C90449AD2F8E;
     static const unsigned __int64 muTemplateHash = 0xDC34F25308700516;
     static const int miNumMembers = 1;
 
-    cTkFixedArray<float> maDistances;
+    cTkFixedArray<float, 5> maDistances;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

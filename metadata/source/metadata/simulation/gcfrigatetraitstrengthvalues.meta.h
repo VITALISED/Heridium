@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcFrigateTraitStrengthValues
 {
+public:
     static const unsigned __int64 muNameHash = 0xED358CC87699CBEA;
     static const unsigned __int64 muTemplateHash = 0x71A916A9EEA62B74;
     static const int miNumMembers = 3;
 
-    cTkFixedArray<int> maStatAlteration;
+    cTkFixedArray<int, 10> maStatAlteration;
     TkID<256> mStatLocID;
     bool mbStatDisplaysPositive;
 

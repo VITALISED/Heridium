@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eMissionClass
 {
@@ -54,6 +54,7 @@ class cGcMissionConditionTest;
 
 class cGcGenericMissionSequence
 {
+public:
     static const unsigned __int64 muNameHash = 0xFAE86B2801335B6D;
     static const unsigned __int64 muTemplateHash = 0xA5D439E96EBCE89D;
     static const int miNumMembers = 55;
@@ -92,17 +93,17 @@ class cGcGenericMissionSequence
     bool mbRestartOnCompletion;
     bool mbCancelSetsComplete;
     cGcAlienPuzzleTable mDialog;
-    cTkDynamicArray<cGcScanEventData> maScanEvents;
-    cTkDynamicArray<cGcGenericRewardTableEntry> maRewards;
-    cTkDynamicArray<cGcCostTableEntry> maCosts;
+    cTkDynamicArray<cGcScanEventData1> maScanEvents;
+    cTkDynamicArray<cGcGenericRewardTableEntry1> maRewards;
+    cTkDynamicArray<cGcCostTableEntry1> maCosts;
     cGcTradeData mTradingDataOverride;
     cGcMissionConditionTest mStartConditionTest;
     cGcMissionConditionTest mCancelConditionTest;
     bool mbStartIsCancel;
-    cTkDynamicArray<cTkClassPointer> maStartingConditions;
-    cTkDynamicArray<cTkClassPointer> maCancelingConditions;
-    cTkDynamicArray<cGcGenericMissionVersionProgress> maFinalStageVersions;
-    cTkDynamicArray<cGcGenericMissionStage> maStages;
+    cTkDynamicArray<cTkClassPointer1> maStartingConditions;
+    cTkDynamicArray<cTkClassPointer1> maCancelingConditions;
+    cTkDynamicArray<cGcGenericMissionVersionProgress1> maFinalStageVersions;
+    cTkDynamicArray<cGcGenericMissionStage1> maStages;
     bool mbForcesPageHint;
     bool mbForcesBuildMenuHint;
     bool mbIsProceduralAllowed;

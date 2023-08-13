@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAlienRace;
 
 class cGcNPCRaceProbabilityModifierData
 {
+public:
     static const unsigned __int64 muNameHash = 0x7C31C15F3BD6DD7E;
     static const unsigned __int64 muTemplateHash = 0xB85C5DBA1A7AB4B2;
     static const int miNumMembers = 2;

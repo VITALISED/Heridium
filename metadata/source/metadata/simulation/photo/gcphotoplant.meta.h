@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum ePhotoPlantType
 {
@@ -10,6 +10,7 @@ enum ePhotoPlantType
 
 class cGcPhotoPlant
 {
+public:
     static const unsigned __int64 muNameHash = 0xEFC8FCE1F6004590;
     static const unsigned __int64 muTemplateHash = 0xAEC58C1CD705E809;
     static const int miNumMembers = 1;

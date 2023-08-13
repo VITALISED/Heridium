@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eRainbowType
 {
@@ -11,6 +11,7 @@ enum eRainbowType
 
 class cGcRainbowType
 {
+public:
     static const unsigned __int64 muNameHash = 0x71FCE9DED22FE107;
     static const unsigned __int64 muTemplateHash = 0xBEA479D78D467F2B;
     static const int miNumMembers = 1;

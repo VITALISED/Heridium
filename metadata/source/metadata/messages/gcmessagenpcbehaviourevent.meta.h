@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNPCTriggerTypes;
 
 class cGcMessageNPCBehaviourEvent
 {
+public:
     static const unsigned __int64 muNameHash = 0x40F7E71C83A33DA0;
     static const unsigned __int64 muTemplateHash = 0x3FC636475190B910;
     static const int miNumMembers = 6;
@@ -13,7 +14,7 @@ class cGcMessageNPCBehaviourEvent
     TkID<128> mUserData;
     cGcNPCTriggerTypes mInteractionTrigger;
     int miInteractionSubType;
-    cTkVector mPosition;
+    cTkVector3 mPosition;
     TkHandle mSourceNode;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

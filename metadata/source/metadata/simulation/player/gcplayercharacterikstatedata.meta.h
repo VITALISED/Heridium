@@ -1,18 +1,19 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlayerCharacterStateType;
 class cGcPlayerCharacterIKOverrideData;
 
 class cGcPlayerCharacterIKStateData
 {
+public:
     static const unsigned __int64 muNameHash = 0x4D3FB3BF1BEB7DAE;
     static const unsigned __int64 muTemplateHash = 0x42ECAED236415D8B;
     static const int miNumMembers = 3;
 
     cGcPlayerCharacterStateType mState;
     cGcPlayerCharacterIKOverrideData mData;
-    cTkDynamicArray<cGcPlayerCharacterAnimationOverrideData> maAnimOverrides;
+    cTkDynamicArray<cGcPlayerCharacterAnimationOverrideData1> maAnimOverrides;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

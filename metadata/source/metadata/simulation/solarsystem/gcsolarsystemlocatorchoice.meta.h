@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eChoice
 {
@@ -12,6 +12,7 @@ class cGcSolarSystemLocatorTypes;
 
 class cGcSolarSystemLocatorChoice
 {
+public:
     static const unsigned __int64 muNameHash = 0x84B1F1D780A31A2A;
     static const unsigned __int64 muTemplateHash = 0xFCC48A5DDF4D778C;
     static const int miNumMembers = 4;

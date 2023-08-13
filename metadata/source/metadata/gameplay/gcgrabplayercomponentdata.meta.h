@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAudioWwiseEvents;
 class cGcAudioWwiseEvents;
 
 class cGcGrabPlayerComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xDE6FCE33E294F619;
     static const unsigned __int64 muTemplateHash = 0xB96D2F285E0ABF27;
     static const int miNumMembers = 39;
@@ -28,7 +29,7 @@ class cGcGrabPlayerComponentData
     float mfGrabAttachStrength;
     float mfGrabBlendTime;
     float mfEjectImpulse;
-    cTkVector mGrabOffset;
+    cTkVector3 mGrabOffset;
     float mfHoldTime;
     float mfCooldownTime;
     float mfRestTime;

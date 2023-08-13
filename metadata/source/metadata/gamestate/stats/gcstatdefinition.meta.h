@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcStatType;
 class cGcStatTrackType;
@@ -8,6 +8,7 @@ class cGcStatValueData;
 
 class cGcStatDefinition
 {
+public:
     static const unsigned __int64 muNameHash = 0xC70BF0DB96EC45A3;
     static const unsigned __int64 muTemplateHash = 0xC7EB0E264D2085A6;
     static const int miNumMembers = 8;

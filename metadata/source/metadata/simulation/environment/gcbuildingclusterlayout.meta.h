@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBuildingClusterLayout
 {
+public:
     static const unsigned __int64 muNameHash = 0x8A9F48B72B9E5588;
     static const unsigned __int64 muTemplateHash = 0x1633F75A5B07F722;
     static const int miNumMembers = 5;
 
     TkID<128> mID;
     float mfRelativeProbability;
-    cTkDynamicArray<cGcBuildingClusterLayoutEntry> maClusterBuildings;
+    cTkDynamicArray<cGcBuildingClusterLayoutEntry1> maClusterBuildings;
     int miAlignmentSteps;
     float mfAlignmentJitter;
 

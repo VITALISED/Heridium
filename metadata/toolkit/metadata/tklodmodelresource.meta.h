@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 class cTkModelResource;
 
 class cTkLODModelResource
 {
+public:
     static const unsigned __int64 muNameHash = 0xC626640FD5AAB001;
     static const unsigned __int64 muTemplateHash = 0x1E17BECA4DE7169E;
     static const int miNumMembers = 3;

@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMessageUpdateFrigateSpeed
 {
+public:
     static const unsigned __int64 muNameHash = 0xE81087792E50B0E9;
     static const unsigned __int64 muTemplateHash = 0xEE3A7C989C10A3D6;
     static const int miNumMembers = 2;

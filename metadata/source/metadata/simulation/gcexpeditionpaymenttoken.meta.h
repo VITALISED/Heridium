@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcExpeditionPaymentToken
 {
+public:
     static const unsigned __int64 muNameHash = 0xF4416360D2B155D6;
     static const unsigned __int64 muTemplateHash = 0x25EF5B34653E792A;
     static const int miNumMembers = 2;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eSpawnMode
 {
@@ -10,6 +10,7 @@ enum eSpawnMode
 
 class cGcSpaceStationSpawnData
 {
+public:
     static const unsigned __int64 muNameHash = 0x1FD33D08A7082C22;
     static const unsigned __int64 muTemplateHash = 0xB2FF18440DA1DBF7;
     static const int miNumMembers = 5;
@@ -17,8 +18,8 @@ class cGcSpaceStationSpawnData
     eSpawnMode meSpawnMode;
     cTkSeed mSeed;
     cTkFixedString<256,char> macAltId;
-    cTkVector mSpawnPosition;
-    cTkVector mSpawnFacing;
+    cTkVector3 mSpawnPosition;
+    cTkVector3 mSpawnFacing;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

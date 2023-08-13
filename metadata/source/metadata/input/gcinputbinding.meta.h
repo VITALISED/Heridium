@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInputActions;
 class cTkInputEnum;
@@ -7,6 +7,7 @@ class cTkInputAxisEnum;
 
 class cGcInputBinding
 {
+public:
     static const unsigned __int64 muNameHash = 0x4A8D0B35C3429A12;
     static const unsigned __int64 muTemplateHash = 0x3A6A47E184830B13;
     static const int miNumMembers = 3;

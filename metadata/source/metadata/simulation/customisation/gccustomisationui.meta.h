@@ -1,17 +1,18 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCustomisationCameraData;
 class cGcCustomisationGroups;
 
 class cGcCustomisationUI
 {
+public:
     static const unsigned __int64 muNameHash = 0x9391BB23A2DA934;
     static const unsigned __int64 muTemplateHash = 0x37661AA774E72C52;
     static const int miNumMembers = 3;
 
     cGcCustomisationCameraData mRacesCameraData;
-    cTkDynamicArray<cGcCustomisationRace> maRaces;
+    cTkDynamicArray<cGcCustomisationRace1> maRaces;
     cGcCustomisationGroups mCommon;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

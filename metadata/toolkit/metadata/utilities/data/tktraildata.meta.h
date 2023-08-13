@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkTrailData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE0F2CCB358CDA3EE;
     static const unsigned __int64 muTemplateHash = 0xB28F8694B7AEA50;
     static const int miNumMembers = 7;

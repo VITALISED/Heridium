@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eAction
 {
@@ -11,6 +11,7 @@ enum eAction
 
 class cGcNGuiActionData
 {
+public:
     static const unsigned __int64 muNameHash = 0x2D0ED597896EB5AF;
     static const unsigned __int64 muTemplateHash = 0x79A76EAFBFCDDB6B;
     static const int miNumMembers = 3;

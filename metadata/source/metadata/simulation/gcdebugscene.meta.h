@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPetBehaviours;
 class cTkCurveType;
 
 class cGcDebugScene
 {
+public:
     static const unsigned __int64 muNameHash = 0xB5B196A1179FFE00;
     static const unsigned __int64 muTemplateHash = 0x6795C586BE70BA4E;
     static const int miNumMembers = 67;
@@ -13,27 +14,27 @@ class cGcDebugScene
     bool mbActive;
     bool mbDebugDraw;
     bool mbAutoSave;
-    cTkDynamicArray<cGcExperienceDebugTriggerInput> maTriggerActions;
+    cTkDynamicArray<cGcExperienceDebugTriggerInput1> maTriggerActions;
     bool mbFlyCamSmooth;
     float mfFlyCamSmoothFactor;
     float mfFlyCamSpeedModifier;
     float mfNPCIdleMinDelay;
     float mfNPCIdleMaxDelay;
-    cTkDynamicArray<TkID<128> > maDefaultNPCIdles;
-    cTkDynamicArray<cGcNPCDebugSpawnData> maDebugNPCSpawns;
+    cTkDynamicArray<TkID<128>1> maDefaultNPCIdles;
+    cTkDynamicArray<cGcNPCDebugSpawnData1> maDebugNPCSpawns;
     bool mbLoadPetsFromDebugScene;
     bool mbUpdatePetMoods;
     bool mbResetMoodsOnSummon;
     bool mbShowAccessoryMoods;
     cGcPetBehaviours mPetForceBehaviour;
-    cTkFixedArray<cGcPetData> maPets;
-    cTkFixedArray<cGcPetCustomisationData> maPetAccessoryCustomisation;
+    cTkFixedArray<cGcPetData, 18> maPets;
+    cTkFixedArray<cGcPetCustomisationData, 18> maPetAccessoryCustomisation;
     bool mbForcePlayerWalk;
     float mfPlayerWalkSpeed;
     int miPetRideIndex;
-    cTkDynamicArray<cTkVector> maPetRideWayPoints;
+    cTkDynamicArray<cTkVector31> maPetRideWayPoints;
     bool mbForceSunPosition;
-    cTkVector mForcedSunPosition;
+    cTkVector3 mForcedSunPosition;
     bool mbControlClouds;
     float mfCloudCover;
     float mfCloudAnimScale;
@@ -42,31 +43,31 @@ class cGcDebugScene
     bool mbBusyShips;
     float mfCustomShipDockedTime;
     float mfShipSpawningMultiplier;
-    cTkDynamicArray<cGcDebugShipTravelLine> maDebugShipPaths;
-    cTkDynamicArray<cGcDebugCamera> maDebugCameraPaths;
-    cTkDynamicArray<cGcCreatureDebugSpawnData> maDebugCreatureSpawns;
-    cTkDynamicArray<cGcMechDebugSpawnData> maDebugMechSpawns;
-    cTkDynamicArray<cGcAIShipDebugSpawnData> maDebugEnemyShipSpawns;
-    cTkDynamicArray<cGcAIShipDebugSpawnData> maDebugShipSpawns;
-    cTkFixedArray<cGcCameraFollowSettings> maVehicleCameraOverride;
+    cTkDynamicArray<cGcDebugShipTravelLine1> maDebugShipPaths;
+    cTkDynamicArray<cGcDebugCamera1> maDebugCameraPaths;
+    cTkDynamicArray<cGcCreatureDebugSpawnData1> maDebugCreatureSpawns;
+    cTkDynamicArray<cGcMechDebugSpawnData1> maDebugMechSpawns;
+    cTkDynamicArray<cGcAIShipDebugSpawnData1> maDebugEnemyShipSpawns;
+    cTkDynamicArray<cGcAIShipDebugSpawnData1> maDebugShipSpawns;
+    cTkFixedArray<cGcCameraFollowSettings, 7> maVehicleCameraOverride;
     bool mbDebugDroneScanPlayer;
-    cTkVector mDebugDroneSpawn;
-    cTkVector mDebugDroneTarget;
+    cTkVector3 mDebugDroneSpawn;
+    cTkVector3 mDebugDroneTarget;
     int miDebugNumDrones;
-    cTkVector mDebugWalkerSpawn;
-    cTkVector mDebugWalkerTarget;
-    cTkVector mDebugFlybyTarget;
-    cTkVector mDebugFlybyDir;
+    cTkVector3 mDebugWalkerSpawn;
+    cTkVector3 mDebugWalkerTarget;
+    cTkVector3 mDebugFlybyTarget;
+    cTkVector3 mDebugFlybyDir;
     float mfDebugFlybyRange;
     cTkSeed mDebugFlybySeed;
     TkID<128> mDebugExperienceCamShake;
-    cTkVector mDebugShipSpawnPos;
-    cTkVector mDebugShipSpawnFacing;
-    cTkVector mDebugShipSpawnUp;
+    cTkVector3 mDebugShipSpawnPos;
+    cTkVector3 mDebugShipSpawnFacing;
+    cTkVector3 mDebugShipSpawnUp;
     TkID<128> mPulseEncounter;
     TkID<128> mBackgroundSpaceEncounter;
-    cTkVector mSandwormSpawnPos;
-    cTkVector mDebugFrigateFlybySpawnPos;
+    cTkVector3 mSandwormSpawnPos;
+    cTkVector3 mDebugFrigateFlybySpawnPos;
     float mfDebugFrigateFlybyRotation;
     float mfDebugFrigateFlybyHeightOffset;
     TkID<128> mNormandyReward;
@@ -76,7 +77,7 @@ class cGcDebugScene
     float mfCameraSpinVerticalOffset;
     float mfCameraSpinDistanceOffset;
     cTkCurveType mCameraSpinEasing;
-    cTkFixedArray<cGcDebugPlanetPos> maPlanetPositions;
+    cTkFixedArray<cGcDebugPlanetPos, 6> maPlanetPositions;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcInventorySpecialSlotType;
 class cGcInventoryIndex;
 
 class cGcInventorySpecialSlot
 {
+public:
     static const unsigned __int64 muNameHash = 0xB2EA0121EEE71A2B;
     static const unsigned __int64 muTemplateHash = 0x69322AB0FB28C055;
     static const int miNumMembers = 2;

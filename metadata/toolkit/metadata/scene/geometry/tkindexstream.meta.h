@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkIndexStream
 {
+public:
     static const unsigned __int64 muNameHash = 0x4E6048B326CC903A;
     static const unsigned __int64 muTemplateHash = 0x5DE90A99B7A2C564;
     static const int miNumMembers = 1;
 
-    cTkDynamicArray<int> maIndexStream;
+    cTkDynamicArray<int1> maIndexStream;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

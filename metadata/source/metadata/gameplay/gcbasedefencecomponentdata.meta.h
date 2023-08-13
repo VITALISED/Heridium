@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBaseDefenceComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x2D868A2A5696416C;
     static const unsigned __int64 muTemplateHash = 0x2C014DBAB0A74271;
     static const int miNumMembers = 5;
 
-    cTkDynamicArray<cGcBaseDefenceTrigger> maTriggers;
+    cTkDynamicArray<cGcBaseDefenceTrigger1> maTriggers;
     float mfLostUncertaintyThreshold;
     float mfSearchTime;
     bool mbPrioritiseThreats;

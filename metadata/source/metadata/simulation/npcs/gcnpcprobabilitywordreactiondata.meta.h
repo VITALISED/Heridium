@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNPCProbabilityWordReactionData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE83E88B1C1909A3F;
     static const unsigned __int64 muTemplateHash = 0x5E3AFAEDE336DCCD;
     static const int miNumMembers = 2;

@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkAnimationGameData;
 
 class cTkAnimBlendTree
 {
+public:
     static const unsigned __int64 muNameHash = 0x1C442B06A4F945F4;
     static const unsigned __int64 muTemplateHash = 0xC6C8FE7E3EC66B68;
     static const int miNumMembers = 4;

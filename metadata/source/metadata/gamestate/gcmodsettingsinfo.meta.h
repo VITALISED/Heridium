@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcModSettingsInfo
 {
+public:
     static const unsigned __int64 muNameHash = 0xC0CE6220E5E98BD9;
     static const unsigned __int64 muTemplateHash = 0xF658C5CC0A4A78DE;
     static const int miNumMembers = 9;
@@ -15,7 +16,7 @@ class cGcModSettingsInfo
     unsigned __int16 muiLoadOrder;
     bool mbEnabled;
     bool mbEnabledVR;
-    cTkDynamicArray<unsigned __int64> maDependencies;
+    cTkDynamicArray<unsigned __int641> maDependencies;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

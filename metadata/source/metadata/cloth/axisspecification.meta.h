@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eAxis
 {
@@ -14,12 +14,13 @@ enum eAxis
 
 class cAxisSpecification
 {
+public:
     static const unsigned __int64 muNameHash = 0xE46A33ECA1AA62F7;
     static const unsigned __int64 muTemplateHash = 0xE064B06A0D53FBE6;
     static const int miNumMembers = 2;
 
     eAxis meAxis;
-    cTkVector mCustomAxis;
+    cTkVector3 mCustomAxis;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBootLogoData
 {
+public:
     static const unsigned __int64 muNameHash = 0x1667364CB586EB42;
     static const unsigned __int64 muTemplateHash = 0x87DB90412F957DEF;
     static const int miNumMembers = 2;
 
-    cTkFixedArray<cTkFixedString<256,char> > maTextures;
-    cTkFixedArray<float> maDisplayTime;
+    cTkFixedArray<cTkFixedString<256,char>, 4> maTextures;
+    cTkFixedArray<float, 4> maDisplayTime;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

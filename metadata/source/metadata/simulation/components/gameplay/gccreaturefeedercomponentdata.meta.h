@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcMaintenanceComponentData;
 
 class cGcCreatureFeederComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x32441F8B4528DF91;
     static const unsigned __int64 muTemplateHash = 0x3861907A552DE380;
     static const int miNumMembers = 6;
@@ -12,7 +13,7 @@ class cGcCreatureFeederComponentData
     cGcMaintenanceComponentData mMaintenanceData;
     int miNumInputs;
     int miNumMealsPerBait;
-    cTkDynamicArray<cTkFixedString<256,char> > maDispenseNodes;
+    cTkDynamicArray<cTkFixedString<256,char>1> maDispenseNodes;
     float mfDispenseVelocity;
     float mfDispensePeriod;
 

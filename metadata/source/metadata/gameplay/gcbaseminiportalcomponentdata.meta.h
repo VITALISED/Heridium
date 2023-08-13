@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eDestinationSortType
 {
@@ -11,6 +11,7 @@ enum eDestinationSortType
 
 class cGcBaseMiniPortalComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xBBBD45634207B79F;
     static const unsigned __int64 muTemplateHash = 0x6B51F3B80FECAB80;
     static const int miNumMembers = 11;

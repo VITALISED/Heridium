@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 class cTkMetadataFilenameList
 {
+public:
     static const unsigned __int64 muNameHash = 0x3F42E6C415489AAF;
     static const unsigned __int64 muTemplateHash = 0xCF02F7B7FB501FAB;
     static const int miNumMembers = 1;
 
-    cTkDynamicArray<cTkFixedString<128,char> > maFilenames;
+    cTkDynamicArray<cTkFixedString<128,char>1> maFilenames;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

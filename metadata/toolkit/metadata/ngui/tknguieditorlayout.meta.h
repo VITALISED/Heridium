@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkNGuiEditorLayout
 {
+public:
     static const unsigned __int64 muNameHash = 0x7CDF4EDAA0962EA0;
     static const unsigned __int64 muTemplateHash = 0xDB8062CC3F7B6833;
     static const int miNumMembers = 1;
 
-    cTkFixedArray<cTkNGuiWindowLayoutData> maWindows;
+    cTkFixedArray<cTkNGuiWindowLayoutData, 256> maWindows;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

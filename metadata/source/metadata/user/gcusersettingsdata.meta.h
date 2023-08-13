@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBlockListPersistence;
 
@@ -77,6 +77,7 @@ class cGcInWorldUIScreenData;
 
 class cGcUserSettingsData
 {
+public:
     static const unsigned __int64 muNameHash = 0x3A50D683FD1CF4BF;
     static const unsigned __int64 muTemplateHash = 0xB1245EFE662ED9AE;
     static const int miNumMembers = 91;
@@ -107,16 +108,16 @@ class cGcUserSettingsData
     bool mbXboxOneXHighResolutionMode;
     bool mbPS4VignetteAndScanlines;
     eBaseSharingMode meBaseSharingMode;
-    cTkDynamicArray<TkID<128> > maSeenSubstances;
-    cTkDynamicArray<TkID<128> > maSeenTechnologies;
-    cTkDynamicArray<TkID<128> > maSeenProducts;
-    cTkDynamicArray<TkID<256> > maSeenWikiTopics;
-    cTkDynamicArray<TkID<256> > maUnlockedWikiTopics;
-    cTkDynamicArray<TkID<128> > maUnlockedTitles;
-    cTkDynamicArray<TkID<128> > maUnlockedSpecials;
-    cTkDynamicArray<TkID<128> > maUnlockedSeasonRewards;
-    cTkDynamicArray<TkID<128> > maUnlockedTwitchRewards;
-    cTkDynamicArray<TkID<128> > maUnlockedPlatformRewards;
+    cTkDynamicArray<TkID<128>1> maSeenSubstances;
+    cTkDynamicArray<TkID<128>1> maSeenTechnologies;
+    cTkDynamicArray<TkID<128>1> maSeenProducts;
+    cTkDynamicArray<TkID<256>1> maSeenWikiTopics;
+    cTkDynamicArray<TkID<256>1> maUnlockedWikiTopics;
+    cTkDynamicArray<TkID<128>1> maUnlockedTitles;
+    cTkDynamicArray<TkID<128>1> maUnlockedSpecials;
+    cTkDynamicArray<TkID<128>1> maUnlockedSeasonRewards;
+    cTkDynamicArray<TkID<128>1> maUnlockedTwitchRewards;
+    cTkDynamicArray<TkID<128>1> maUnlockedPlatformRewards;
     bool mbVoiceChat;
     bool mbMultiplayer;
     bool mbInstantUIInputs;
@@ -152,7 +153,7 @@ class cGcUserSettingsData
     int miCamerShakeStrength;
     int miTriggerFeedbackStrength;
     eSpaceCombatFollowMode meSpaceCombatFollowMode;
-    cTkDynamicArray<cTkFixedString<128,char> > maUpgradedUsers;
+    cTkDynamicArray<cTkFixedString<128,char>1> maUpgradedUsers;
     bool mbAllowWhiteScreenTransitions;
     bool mbAccessibleText;
     bool mbAutoScanDiscoveries;

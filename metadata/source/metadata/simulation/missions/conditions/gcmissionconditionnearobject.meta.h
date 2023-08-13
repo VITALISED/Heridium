@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eMissionObject
 {
@@ -11,6 +11,7 @@ enum eMissionObject
 
 class cGcMissionConditionNearObject
 {
+public:
     static const unsigned __int64 muNameHash = 0x748605335FA1C427;
     static const unsigned __int64 muTemplateHash = 0x98A8088CCBCB2360;
     static const int miNumMembers = 2;

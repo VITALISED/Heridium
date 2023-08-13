@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkMeshMetaData
 {
+public:
     static const unsigned __int64 muNameHash = 0x4CF5A27A1458612D;
     static const unsigned __int64 muTemplateHash = 0xCD95EDB97D142FC;
     static const int miNumMembers = 7;

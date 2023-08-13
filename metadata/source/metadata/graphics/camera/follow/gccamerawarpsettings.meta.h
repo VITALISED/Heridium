@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkCurveType;
 
 class cGcCameraWarpSettings
 {
+public:
     static const unsigned __int64 muNameHash = 0x72EE2F7B202E1811;
     static const unsigned __int64 muTemplateHash = 0x910D11CA9F5339A1;
     static const int miNumMembers = 21;

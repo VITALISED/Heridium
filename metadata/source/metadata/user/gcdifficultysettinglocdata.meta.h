@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDifficultySettingLocData
 {
+public:
     static const unsigned __int64 muNameHash = 0xA5678FC7AA545FDE;
     static const unsigned __int64 muTemplateHash = 0x76E028AF25C921AF;
     static const int miNumMembers = 2;

@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNPCHabitationType;
 
 class cGcCostNPCHabitation
 {
+public:
     static const unsigned __int64 muNameHash = 0x6FDD00442DB9926C;
     static const unsigned __int64 muTemplateHash = 0x967AAA5F1ABBD644;
     static const int miNumMembers = 2;

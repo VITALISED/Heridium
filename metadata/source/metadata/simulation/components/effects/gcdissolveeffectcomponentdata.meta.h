@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDissolveEffectComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x7BBDF0D5167BC705;
     static const unsigned __int64 muTemplateHash = 0x3F6833AEF79D84C4;
     static const int miNumMembers = 2;

@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../pch.h"
+#include "pch.h"
 
 class cTkPaletteTexture;
 
 class cTkProceduralTextureChosenOption
 {
+public:
     static const unsigned __int64 muNameHash = 0x4BFAC826445A23F2;
     static const unsigned __int64 muTemplateHash = 0xEF693901D9F148D0;
     static const int miNumMembers = 6;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkCurveType;
 
@@ -17,6 +17,7 @@ enum eBlendOp
 
 class cTkAnim2dBlendNode
 {
+public:
     static const unsigned __int64 muNameHash = 0xB08E12209E446AC4;
     static const unsigned __int64 muTemplateHash = 0xFF4AD3EEDA81AD59;
     static const int miNumMembers = 9;
@@ -29,7 +30,7 @@ class cTkAnim2dBlendNode
     cTkCurveType mPositionCurve;
     eCoordinates meCoordinates;
     eBlendOp meBlendOp;
-    cTkDynamicArray<cTkAnim2dBlendNodeData> maBlendChildren;
+    cTkDynamicArray<cTkAnim2dBlendNodeData1> maBlendChildren;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

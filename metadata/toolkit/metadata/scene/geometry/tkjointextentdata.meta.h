@@ -1,16 +1,17 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkJointExtentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xB538605B35EDD12C;
     static const unsigned __int64 muTemplateHash = 0xBFECB029B47E76AA;
     static const int miNumMembers = 4;
 
-    cTkFixedArray<float> maJointExtentMin;
-    cTkFixedArray<float> maJointExtentMax;
-    cTkFixedArray<float> maJointExtentCenter;
-    cTkFixedArray<float> maJointExtentStdDev;
+    cTkFixedArray<float, 3> maJointExtentMin;
+    cTkFixedArray<float, 3> maJointExtentMax;
+    cTkFixedArray<float, 3> maJointExtentCenter;
+    cTkFixedArray<float, 3> maJointExtentStdDev;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

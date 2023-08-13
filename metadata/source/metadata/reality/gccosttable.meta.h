@@ -1,17 +1,18 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCostTable
 {
+public:
     static const unsigned __int64 muNameHash = 0x6E62CCB542C4E505;
     static const unsigned __int64 muTemplateHash = 0xE48BA78CFF998BDE;
     static const int miNumMembers = 5;
 
-    cTkDynamicArray<cGcCostTableEntry> maSimpleInteractionTable;
-    cTkDynamicArray<cGcCostTableEntry> maInteractionTable;
-    cTkDynamicArray<cGcCostTableEntry> maItemCostsTable;
-    cTkDynamicArray<cGcCostTableEntry> maAtlasPathCosts;
-    cTkDynamicArray<cGcCostTableEntry> maUnusedCostsTable;
+    cTkDynamicArray<cGcCostTableEntry1> maSimpleInteractionTable;
+    cTkDynamicArray<cGcCostTableEntry1> maInteractionTable;
+    cTkDynamicArray<cGcCostTableEntry1> maItemCostsTable;
+    cTkDynamicArray<cGcCostTableEntry1> maAtlasPathCosts;
+    cTkDynamicArray<cGcCostTableEntry1> maUnusedCostsTable;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

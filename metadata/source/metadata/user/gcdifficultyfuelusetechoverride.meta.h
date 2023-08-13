@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcDifficultyFuelUseTechOverride
 {
+public:
     static const unsigned __int64 muNameHash = 0x5C80910526A4BAE9;
     static const unsigned __int64 muTemplateHash = 0x2EEAF1C185BF493D;
     static const int miNumMembers = 2;

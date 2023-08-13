@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eWaypointType
 {
@@ -10,11 +10,12 @@ enum eWaypointType
 
 class cGcCreatureDebugWaypoint
 {
+public:
     static const unsigned __int64 muNameHash = 0x4C03886F1A1C1DF7;
     static const unsigned __int64 muTemplateHash = 0xACAF195392879AE9;
     static const int miNumMembers = 4;
 
-    cTkVector mPosition;
+    cTkVector3 mPosition;
     eWaypointType meWaypointType;
     TkID<128> mAnim;
     float mfTime;

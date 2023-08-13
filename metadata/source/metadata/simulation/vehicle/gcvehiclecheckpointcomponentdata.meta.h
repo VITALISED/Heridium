@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eCheckpointType
 {
@@ -15,6 +15,7 @@ enum eRaceType
 
 class cGcVehicleCheckpointComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xF8F75E88F695BE94;
     static const unsigned __int64 muTemplateHash = 0x998ECAC2D8278FE3;
     static const int miNumMembers = 3;

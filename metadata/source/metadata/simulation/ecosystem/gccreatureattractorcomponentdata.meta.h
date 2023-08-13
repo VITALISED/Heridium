@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eAttractorType
 {
@@ -9,6 +9,7 @@ enum eAttractorType
 
 class cGcCreatureAttractorComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x2F505B818F28B755;
     static const unsigned __int64 muTemplateHash = 0x5920DDCD5658E969;
     static const int miNumMembers = 4;

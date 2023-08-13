@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eInteractable
 {
@@ -20,11 +20,12 @@ class cGcBroadcastLevel;
 
 class cGcMaintenanceComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x479CFCB871ABBE0;
     static const unsigned __int64 muTemplateHash = 0x508485AA3B7F83E0;
     static const int miNumMembers = 38;
 
-    cTkDynamicArray<cGcMaintenanceElement> maPreInstalledTech;
+    cTkDynamicArray<cGcMaintenanceElement1> maPreInstalledTech;
     int miVisibleMaintenanceSlots;
     bool mbAllowRepair;
     bool mbAllowCharge;

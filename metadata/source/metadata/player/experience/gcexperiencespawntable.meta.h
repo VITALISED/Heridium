@@ -1,44 +1,45 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcPlayerExperienceAsteroidCreatureSpawnTable;
 class cGcSentinelWaveGroup;
 
 class cGcExperienceSpawnTable
 {
+public:
     static const unsigned __int64 muNameHash = 0x5F4CA33999F0D259;
     static const unsigned __int64 muTemplateHash = 0xBFCF7EAF13124D91;
     static const int miNumMembers = 29;
 
-    cTkDynamicArray<cGcAIShipSpawnData> maFlybySpawns;
-    cTkDynamicArray<cGcAIShipSpawnData> maOutpostSpawns;
-    cTkDynamicArray<cGcAIShipSpawnData> maSpaceFlybySpawns;
-    cTkDynamicArray<cGcAIShipSpawnData> maMiningFlybySpawns;
-    cTkDynamicArray<cGcAIShipSpawnData> maPirateSpawns;
-    cTkDynamicArray<cGcAIShipSpawnData> maPlanetaryPirateFlybySpawns;
-    cTkDynamicArray<cGcAIShipSpawnData> maPlanetaryPirateRaidSpawns;
-    cTkDynamicArray<cGcAIShipSpawnData> maPirateBattleSpawns;
-    cTkDynamicArray<cGcAIShipSpawnData> maPoliceSpawns;
-    cTkDynamicArray<cGcAIShipSpawnData> maTraderSpawns;
-    cTkDynamicArray<cGcAIShipSpawnData> maAmbientSpawns;
-    cTkDynamicArray<cGcAIShipSpawnData> maBattleSpawns;
-    cTkDynamicArray<cGcAIShipSpawnData> maAbandonedFreighterSpawns;
-    cTkDynamicArray<cGcAIShipSpawnData> maBattleInitialStandardSpawns;
-    cTkDynamicArray<cGcAIShipSpawnData> maBattleInitialPirateSpawns;
-    cTkDynamicArray<cGcAIShipSpawnData> maBattleSecondaryPirateSpawns;
-    cTkDynamicArray<cGcBountySpawnInfo> maPirateBountySpawns;
-    cTkDynamicArray<cGcPulseEncounterInfo> maPulseEncounters;
-    cTkDynamicArray<cGcBackgroundSpaceEncounterInfo> maBackgroundSpaceEncounters;
-    cTkDynamicArray<cGcPlayerExperienceSpawnTable> maCreatureSpawnTable;
-    cTkDynamicArray<cGcPlayerExperienceSpawnArchetypeData> maCreatureSpawnArchetypes;
+    cTkDynamicArray<cGcAIShipSpawnData1> maFlybySpawns;
+    cTkDynamicArray<cGcAIShipSpawnData1> maOutpostSpawns;
+    cTkDynamicArray<cGcAIShipSpawnData1> maSpaceFlybySpawns;
+    cTkDynamicArray<cGcAIShipSpawnData1> maMiningFlybySpawns;
+    cTkDynamicArray<cGcAIShipSpawnData1> maPirateSpawns;
+    cTkDynamicArray<cGcAIShipSpawnData1> maPlanetaryPirateFlybySpawns;
+    cTkDynamicArray<cGcAIShipSpawnData1> maPlanetaryPirateRaidSpawns;
+    cTkDynamicArray<cGcAIShipSpawnData1> maPirateBattleSpawns;
+    cTkDynamicArray<cGcAIShipSpawnData1> maPoliceSpawns;
+    cTkDynamicArray<cGcAIShipSpawnData1> maTraderSpawns;
+    cTkDynamicArray<cGcAIShipSpawnData1> maAmbientSpawns;
+    cTkDynamicArray<cGcAIShipSpawnData1> maBattleSpawns;
+    cTkDynamicArray<cGcAIShipSpawnData1> maAbandonedFreighterSpawns;
+    cTkDynamicArray<cGcAIShipSpawnData1> maBattleInitialStandardSpawns;
+    cTkDynamicArray<cGcAIShipSpawnData1> maBattleInitialPirateSpawns;
+    cTkDynamicArray<cGcAIShipSpawnData1> maBattleSecondaryPirateSpawns;
+    cTkDynamicArray<cGcBountySpawnInfo1> maPirateBountySpawns;
+    cTkDynamicArray<cGcPulseEncounterInfo1> maPulseEncounters;
+    cTkDynamicArray<cGcBackgroundSpaceEncounterInfo1> maBackgroundSpaceEncounters;
+    cTkDynamicArray<cGcPlayerExperienceSpawnTable1> maCreatureSpawnTable;
+    cTkDynamicArray<cGcPlayerExperienceSpawnArchetypeData1> maCreatureSpawnArchetypes;
     cGcPlayerExperienceAsteroidCreatureSpawnTable mAsteroidCreatureSpawns;
-    cTkDynamicArray<cGcAIShipSpawnData> maFrigateFlybySpawns;
-    cTkFixedArray<cGcSentinelSpawnSequenceGroupList> maWantedLevelSpawns;
-    cTkFixedArray<cGcSentinelSpawnSequenceGroupList> maEncounterSpawns;
-    cTkDynamicArray<cGcSentinelEncounterOverride> maEncounterOverrides;
+    cTkDynamicArray<cGcAIShipSpawnData1> maFrigateFlybySpawns;
+    cTkFixedArray<cGcSentinelSpawnSequenceGroupList, 6> maWantedLevelSpawns;
+    cTkFixedArray<cGcSentinelSpawnSequenceGroupList, 7> maEncounterSpawns;
+    cTkDynamicArray<cGcSentinelEncounterOverride1> maEncounterOverrides;
     cGcSentinelWaveGroup mSummonerSpawns;
-    cTkDynamicArray<cGcSentinelSpawnNamedSequence> maSentinelSequences;
-    cTkDynamicArray<cGcSentinelSpawnWave> maSentinelSpawns;
+    cTkDynamicArray<cGcSentinelSpawnNamedSequence1> maSentinelSequences;
+    cTkDynamicArray<cGcSentinelSpawnWave1> maSentinelSpawns;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkBlackboardDefaultValueFloat;
 class cTkBlackboardDefaultValueFloat;
 
 class cGcBehaviourMaintainRangeFromTargetData
 {
+public:
     static const unsigned __int64 muNameHash = 0x7C8B3A3A3EEFC49F;
     static const unsigned __int64 muTemplateHash = 0x8959480696CF2F28;
     static const int miNumMembers = 7;

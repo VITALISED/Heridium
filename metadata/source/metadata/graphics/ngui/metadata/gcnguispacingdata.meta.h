@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNGuiElementData;
 
 class cGcNGuiSpacingData
 {
+public:
     static const unsigned __int64 muNameHash = 0x8CD96EF98765772B;
     static const unsigned __int64 muTemplateHash = 0x40A400E7C7B319D0;
     static const int miNumMembers = 1;

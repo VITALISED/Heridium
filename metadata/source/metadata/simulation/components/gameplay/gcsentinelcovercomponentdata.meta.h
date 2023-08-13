@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcSentinelCoverComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE1F35851383555E2;
     static const unsigned __int64 muTemplateHash = 0x4EAD1F33EAED6BC9;
     static const int miNumMembers = 6;
@@ -12,7 +13,7 @@ class cGcSentinelCoverComponentData
     TkID<128> mSpawnEffectId;
     TkID<128> mDestroyEffectId;
     cTkFixedString<32,char> macEffectLocator;
-    cTkFixedArray<TkID<128> > maCoverStateAnims;
+    cTkFixedArray<TkID<128>, 4> maCoverStateAnims;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

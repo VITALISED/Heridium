@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eAerialViewMode
 {
@@ -13,6 +13,7 @@ class cTkCurveType;
 
 class cGcCameraAerialViewData
 {
+public:
     static const unsigned __int64 muNameHash = 0x7AB4D686179F9F82;
     static const unsigned __int64 muTemplateHash = 0xF1087A135ED0653B;
     static const int miNumMembers = 12;

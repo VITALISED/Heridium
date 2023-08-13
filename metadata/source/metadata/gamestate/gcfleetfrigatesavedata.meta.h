@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcFrigateClass;
 class cGcAlienRace;
@@ -7,6 +7,7 @@ class cGcInventoryClass;
 
 class cGcFleetFrigateSaveData
 {
+public:
     static const unsigned __int64 muNameHash = 0xE6F863FE26F77270;
     static const unsigned __int64 muTemplateHash = 0x1C0EB21E6164191A;
     static const int miNumMembers = 16;
@@ -23,8 +24,8 @@ class cGcFleetFrigateSaveData
     int miTotalNumberOfSuccessfulEvents;
     int miTotalNumberOfFailedEvents;
     int miNumberOfTimesDamaged;
-    cTkDynamicArray<TkID<128> > maTraitIDs;
-    cTkDynamicArray<int> maStats;
+    cTkDynamicArray<TkID<128>1> maTraitIDs;
+    cTkDynamicArray<int1> maStats;
     int miRepairsMade;
     int miDamageTaken;
 

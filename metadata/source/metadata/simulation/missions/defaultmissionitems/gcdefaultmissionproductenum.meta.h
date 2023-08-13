@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 enum eDefaultProductType
 {
@@ -10,6 +10,7 @@ enum eDefaultProductType
 
 class cGcDefaultMissionProductEnum
 {
+public:
     static const unsigned __int64 muNameHash = 0x20AE1E70418EDA80;
     static const unsigned __int64 muTemplateHash = 0x666451205CCD88E3;
     static const int miNumMembers = 1;

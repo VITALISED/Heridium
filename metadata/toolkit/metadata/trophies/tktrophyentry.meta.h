@@ -1,8 +1,9 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkTrophyEntry
 {
+public:
     static const unsigned __int64 muNameHash = 0x51D536C649733342;
     static const unsigned __int64 muTemplateHash = 0xA2014717593869BC;
     static const int miNumMembers = 4;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eGalaxyMarkerType
 {
@@ -23,6 +23,7 @@ enum eGalaxyMarkerType
 
 class cGcGalaxyMarkerTypes
 {
+public:
     static const unsigned __int64 muNameHash = 0x29324EF951272232;
     static const unsigned __int64 muTemplateHash = 0x7B7270127FD40BB2;
     static const int miNumMembers = 1;

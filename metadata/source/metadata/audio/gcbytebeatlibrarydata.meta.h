@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcByteBeatLibraryData
 {
+public:
     static const unsigned __int64 muNameHash = 0x1D3FECE6AC6A7E9F;
     static const unsigned __int64 muTemplateHash = 0x77725A322F5E2BE8;
     static const int miNumMembers = 6;
 
-    cTkFixedArray<cGcByteBeatSong> maMySongs;
-    cTkFixedArray<TkID<128> > maPlaylist;
+    cTkFixedArray<cGcByteBeatSong, 8> maMySongs;
+    cTkFixedArray<TkID<128>, 16> maPlaylist;
     bool mbShuffle;
     bool mbAutoplayOnFoot;
     bool mbAutoplayInShip;

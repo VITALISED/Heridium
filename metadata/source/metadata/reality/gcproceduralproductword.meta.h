@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNameGeneratorWord;
 class cGcNameGeneratorWord;
@@ -7,6 +7,7 @@ class cGcNameGeneratorWord;
 
 class cGcProceduralProductWord
 {
+public:
     static const unsigned __int64 muNameHash = 0xB732A8EFDEA74BA;
     static const unsigned __int64 muTemplateHash = 0xD6EF0AF761A6413;
     static const int miNumMembers = 4;

@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eNPCInteractiveObjectType
 {
@@ -15,6 +15,7 @@ enum eNPCInteractiveObjectType
 
 class cGcNPCInteractiveObjectType
 {
+public:
     static const unsigned __int64 muNameHash = 0x6C6EDC3D5C0DA932;
     static const unsigned __int64 muTemplateHash = 0x57DED3CFF0EFEFEB;
     static const int miNumMembers = 1;

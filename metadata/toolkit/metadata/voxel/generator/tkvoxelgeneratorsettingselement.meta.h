@@ -1,11 +1,12 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cTkVoxelGeneratorData;
 class cTkVoxelGeneratorData;
 
 class cTkVoxelGeneratorSettingsElement
 {
+public:
     static const unsigned __int64 muNameHash = 0x780D9DC36193A771;
     static const unsigned __int64 muTemplateHash = 0x3D98FE5EE18D5592;
     static const int miNumMembers = 2;

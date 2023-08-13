@@ -1,13 +1,14 @@
 #pragma once
-#include "../../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcCreatureNearbyEvent
 {
+public:
     static const unsigned __int64 muNameHash = 0x42869E79D40A84C1;
     static const unsigned __int64 muTemplateHash = 0x150A3F080C5CF432;
     static const int miNumMembers = 2;
 
-    cTkDynamicArray<cGcCreatureAlertData> maAlertTable;
+    cTkDynamicArray<cGcCreatureAlertData1> maAlertTable;
     bool mbInverse;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

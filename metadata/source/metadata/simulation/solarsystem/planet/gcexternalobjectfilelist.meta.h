@@ -1,10 +1,11 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcBiomeType;
 
 class cGcExternalObjectFileList
 {
+public:
     static const unsigned __int64 muNameHash = 0x76D3572C2A9662D2;
     static const unsigned __int64 muTemplateHash = 0x333FC04513700C76;
     static const int miNumMembers = 14;
@@ -22,7 +23,7 @@ class cGcExternalObjectFileList
     float mfProbabilityOfBeingActive;
     int miMinFilesToChoose;
     int miMaxFilesToChoose;
-    cTkDynamicArray<cGcExternalObjectListOptions> maExternalObjectFiles;
+    cTkDynamicArray<cGcExternalObjectListOptions1> maExternalObjectFiles;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

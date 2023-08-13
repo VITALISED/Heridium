@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcNPCColourGroup
 {
+public:
     static const unsigned __int64 muNameHash = 0x2E19620D3EC8F3AC;
     static const unsigned __int64 muTemplateHash = 0x21A8E9B6B9F97971;
     static const int miNumMembers = 3;
 
     float mfRarity;
     cTkColour mPrimary;
-    cTkDynamicArray<cTkColour> maSecondary;
+    cTkDynamicArray<cTkColour1> maSecondary;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

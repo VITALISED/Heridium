@@ -1,14 +1,15 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcOutpostLSystemPair
 {
+public:
     static const unsigned __int64 muNameHash = 0x3C7F32FAD34D5752;
     static const unsigned __int64 muTemplateHash = 0x5648049D69F3A0BB;
     static const int miNumMembers = 2;
 
     cTkFixedString<32,char> macLocator;
-    cTkFixedArray<cTkFixedString<128,char> > maLSystems;
+    cTkFixedArray<cTkFixedString<128,char>, 8> maLSystems;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

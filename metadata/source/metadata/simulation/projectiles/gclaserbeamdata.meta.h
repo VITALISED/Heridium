@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcAudioWwiseEvents;
 class cGcAudioWwiseEvents;
@@ -8,6 +8,7 @@ class cGcDamageType;
 
 class cGcLaserBeamData
 {
+public:
     static const unsigned __int64 muNameHash = 0x1AA966F8BA4E3153;
     static const unsigned __int64 muTemplateHash = 0xF076564F20014911;
     static const int miNumMembers = 35;
@@ -30,7 +31,7 @@ class cGcLaserBeamData
     float mfCriticalHitModifier;
     TkID<128> mPlayerDamage;
     TkID<128> mImpactEffect;
-    cTkDynamicArray<cGcProjectileImpactData> maImpacts;
+    cTkDynamicArray<cGcProjectileImpactData1> maImpacts;
     float mfHitRate;
     bool mbSingleHit;
     float mfRagdollPush;
@@ -44,9 +45,9 @@ class cGcLaserBeamData
     float mfLightIntensity;
     cTkColour mLightColour;
     cTkColour mColour;
-    cTkVector mImpactOffset;
-    cTkDynamicArray<cGcImpactCombatEffectData> maCombatEffectsOnImpact;
-    cTkDynamicArray<cGcCombatEffectDamageMultiplier> maCombatEffectDamageMultipliers;
+    cTkVector3 mImpactOffset;
+    cTkDynamicArray<cGcImpactCombatEffectData1> maCombatEffectsOnImpact;
+    cTkDynamicArray<cGcCombatEffectDamageMultiplier1> maCombatEffectDamageMultipliers;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

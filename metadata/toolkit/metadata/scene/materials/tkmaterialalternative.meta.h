@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../pch.h"
+#include "pch.h"
 
 enum eTextureType
 {
@@ -11,6 +11,7 @@ enum eTextureType
 
 class cTkMaterialAlternative
 {
+public:
     static const unsigned __int64 muNameHash = 0xB49AE407F95DCEE4;
     static const unsigned __int64 muTemplateHash = 0xE3B091D0EE62D8B6;
     static const int miNumMembers = 3;

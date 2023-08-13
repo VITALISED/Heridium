@@ -1,21 +1,22 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcWFCModuleSet
 {
+public:
     static const unsigned __int64 muNameHash = 0x12D00A471DB28074;
     static const unsigned __int64 muTemplateHash = 0x717FDA53500C424;
     static const int miNumMembers = 10;
 
     cTkFixedString<32,char> macName;
-    cTkVector mBlockSize;
+    cTkVector3 mBlockSize;
     bool mbApplyWallThemes;
-    cTkDynamicArray<cGcWFCModulePrototype> maModulePrototypes;
-    cTkDynamicArray<cTkFixedString<32,char> > maConnectorsOnUpperBoundary;
-    cTkDynamicArray<cTkFixedString<32,char> > maConnectorsOnLowerBoundary;
-    cTkDynamicArray<cTkFixedString<32,char> > maConnectorsOnHorizontalBoundary;
-    cTkDynamicArray<TkID<128> > maDefaultGroups;
-    cTkDynamicArray<cGcIDPair> maCompatibleConnectors;
+    cTkDynamicArray<cGcWFCModulePrototype1> maModulePrototypes;
+    cTkDynamicArray<cTkFixedString<32,char>1> maConnectorsOnUpperBoundary;
+    cTkDynamicArray<cTkFixedString<32,char>1> maConnectorsOnLowerBoundary;
+    cTkDynamicArray<cTkFixedString<32,char>1> maConnectorsOnHorizontalBoundary;
+    cTkDynamicArray<TkID<128>1> maDefaultGroups;
+    cTkDynamicArray<cGcIDPair1> maCompatibleConnectors;
     float mfVerticalOffset;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);

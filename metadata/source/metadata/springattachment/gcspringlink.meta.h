@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum ePivotAnchorsTo
 {
@@ -46,17 +46,18 @@ enum eApplyAngularLimitsIn
 
 class cGcSpringLink
 {
+public:
     static const unsigned __int64 muNameHash = 0x4B56CD3D914485CF;
     static const unsigned __int64 muTemplateHash = 0x7DA8BF75E7FFBA01;
     static const int miNumMembers = 38;
 
     bool mbEnabled;
     cTkFixedString<64,char> macName;
-    cTkDynamicArray<cTkFixedString<64,char> > maNodeNames;
-    cTkVector mCentreOfMassLocal;
-    cTkVector mPivotLocal;
+    cTkDynamicArray<cTkFixedString<64,char>1> maNodeNames;
+    cTkVector3 mCentreOfMassLocal;
+    cTkVector3 mPivotLocal;
     ePivotAnchorsTo mePivotAnchorsTo;
-    cTkVector mPivotAnchorLocal;
+    cTkVector3 mPivotAnchorLocal;
     cTkFixedString<64,char> macPivotAnchorNode;
     float mfApplyGameGravity;
     float mfApplyGameWind;
@@ -68,12 +69,12 @@ class cGcSpringLink
     bool mbApplySpringInMovingFrame;
     eApplyMotionScaleIn meApplyMotionScaleIn;
     float mfMotionScale_Uniform;
-    cTkVector mMotionScale;
+    cTkVector3 mMotionScale;
     eApplyMotionLimitsIn meApplyMotionLimitsIn;
     float mfMotionLimit_MaxDetachmentDistance;
-    cTkVector mMotionLimitMin;
-    cTkVector mMotionLimitMax;
-    cTkVector mMotionLimitBounciness;
+    cTkVector3 mMotionLimitMin;
+    cTkVector3 mMotionLimitMax;
+    cTkVector3 mMotionLimitBounciness;
     bool mbAngularSpringEnabled;
     float mfInfluenceOfTranslation;
     float mfApplyInfluenceOfTranslationInMovingFrame;
@@ -83,11 +84,11 @@ class cGcSpringLink
     float mfApplyAngularSpringInMovingFrame;
     eApplyAngularMotionScaleIn meApplyAngularMotionScaleIn;
     float mfAngularMotionScale_Uniform;
-    cTkVector mAngularMotionScale;
+    cTkVector3 mAngularMotionScale;
     eApplyAngularLimitsIn meApplyAngularLimitsIn;
-    cTkVector mAngularLimitMinDeg;
-    cTkVector mAngularLimitMaxDeg;
-    cTkVector mAngularMotionLimitBounciness;
+    cTkVector3 mAngularLimitMinDeg;
+    cTkVector3 mAngularLimitMaxDeg;
+    cTkVector3 mAngularMotionLimitBounciness;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);

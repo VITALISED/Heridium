@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 enum eMedalType
 {
@@ -17,6 +17,7 @@ enum eMedalType
 
 class cGcJourneyMedalType
 {
+public:
     static const unsigned __int64 muNameHash = 0x50569DD5AA245CF0;
     static const unsigned __int64 muTemplateHash = 0xE4FDDBB5F69B5771;
     static const int miNumMembers = 1;

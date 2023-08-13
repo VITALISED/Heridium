@@ -1,5 +1,5 @@
 #pragma once
-#include "../../../../../../../../pch.h"
+#include "pch.h"
 
 class cGcIKConstraint;
 class cGcIKConstraint;
@@ -17,21 +17,22 @@ class cGcCharacterLookAtData;
 
 class cGcPlayerFullBodyIKComponentData
 {
+public:
     static const unsigned __int64 muNameHash = 0x80648B8FC1E7CB4D;
     static const unsigned __int64 muTemplateHash = 0x1050DC441F582ECB;
     static const int miNumMembers = 13;
 
     bool mbEnabled;
     bool mbEnableFootRaycasts;
-    cTkDynamicArray<cGcIKConstraint> maHeadConstraints;
-    cTkDynamicArray<cGcIKConstraint> maLegConstraints;
+    cTkDynamicArray<cGcIKConstraint1> maHeadConstraints;
+    cTkDynamicArray<cGcIKConstraint1> maLegConstraints;
     cGcIKConstraint mCOGConstraint;
-    cTkDynamicArray<cGcIKConstraint> maRestrictConstraints;
-    cTkDynamicArray<cTkFixedString<32,char> > maHandBones;
-    cTkDynamicArray<cTkFixedString<32,char> > maCameraNeckBones;
+    cTkDynamicArray<cGcIKConstraint1> maRestrictConstraints;
+    cTkDynamicArray<cTkFixedString<32,char>1> maHandBones;
+    cTkDynamicArray<cTkFixedString<32,char>1> maCameraNeckBones;
     cGcIKConstraint mSitConstraint;
     ePlayerHeadUpAxis mePlayerHeadUpAxis;
-    cTkDynamicArray<cGcCreatureIkData> maJointDataDeprecated;
+    cTkDynamicArray<cGcCreatureIkData1> maJointDataDeprecated;
     bool mbUseFootGlue;
     cGcCharacterLookAtData mLookAtSettings;
 

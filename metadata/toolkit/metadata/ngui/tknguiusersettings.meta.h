@@ -1,15 +1,16 @@
 #pragma once
-#include "../../../../../../pch.h"
+#include "pch.h"
 
 class cTkNGuiUserSettings
 {
+public:
     static const unsigned __int64 muNameHash = 0x40643395614391FA;
     static const unsigned __int64 muTemplateHash = 0xEEB4228A1493C3FB;
     static const int miNumMembers = 3;
 
     cTkFixedString<256,char> macLastLoadedModel;
     cTkFixedString<256,char> macLastActiveLayout;
-    cTkFixedArray<cTkFixedString<256,char> > maFileBrowserRecents;
+    cTkFixedArray<cTkFixedString<256,char>, 10> maFileBrowserRecents;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);
