@@ -1,8 +1,7 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../../pch.h"
 
-class cGcIKConstraint;
-class cGcIKConstraint;
+#include "../../../../../../metadata/source/metadata/ik/gcikconstraint.meta.h"
 
 enum ePlayerHeadUpAxis
 {
@@ -13,7 +12,8 @@ enum ePlayerHeadUpAxis
     EPlayerHeadUpAxis_Z = 4,
     EPlayerHeadUpAxis_ZNeg = 5,
 };
-class cGcCharacterLookAtData;
+#include "../../../../../../metadata/source/metadata/simulation/ecosystem/gccreatureikdata.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/character/gccharacterlookatdata.meta.h"
 
 class cGcPlayerFullBodyIKComponentData
 {
@@ -24,15 +24,15 @@ public:
 
     bool mbEnabled;
     bool mbEnableFootRaycasts;
-    cTkDynamicArray<cGcIKConstraint1> maHeadConstraints;
-    cTkDynamicArray<cGcIKConstraint1> maLegConstraints;
+    cTkDynamicArray<cGcIKConstraint> maHeadConstraints;
+    cTkDynamicArray<cGcIKConstraint> maLegConstraints;
     cGcIKConstraint mCOGConstraint;
-    cTkDynamicArray<cGcIKConstraint1> maRestrictConstraints;
-    cTkDynamicArray<cTkFixedString<32,char>1> maHandBones;
-    cTkDynamicArray<cTkFixedString<32,char>1> maCameraNeckBones;
+    cTkDynamicArray<cGcIKConstraint> maRestrictConstraints;
+    cTkDynamicArray<cTkFixedString<32,char> > maHandBones;
+    cTkDynamicArray<cTkFixedString<32,char> > maCameraNeckBones;
     cGcIKConstraint mSitConstraint;
     ePlayerHeadUpAxis mePlayerHeadUpAxis;
-    cTkDynamicArray<cGcCreatureIkData1> maJointDataDeprecated;
+    cTkDynamicArray<cGcCreatureIkData> maJointDataDeprecated;
     bool mbUseFootGlue;
     cGcCharacterLookAtData mLookAtSettings;
 
@@ -41,10 +41,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

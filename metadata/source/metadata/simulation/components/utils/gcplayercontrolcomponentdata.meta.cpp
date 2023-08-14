@@ -9,12 +9,54 @@ void cGcPlayerControlComponentData::ClassPointerRead(cTkClassPointer* lPtr, XMLN
 bool cGcPlayerControlComponentData::ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename)
 {
     __HERIDIUM_ClassPointerSave classPtrSaveFunc = (__HERIDIUM_ClassPointerSave)__HERIDIUM_OFFSET(28605888);
-    return classPtrReadFunc(lPtr, lpacFilename);
+    return classPtrSaveFunc(lPtr, lpacFilename);
 }
 
-void cGcPlayerControlComponentData::ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator)
+void cGcPlayerControlComponentData::ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm)
 {
     __HERIDIUM_ClassPointerWrite classPtrWriteFunc = (__HERIDIUM_ClassPointerWrite)__HERIDIUM_OFFSET(28606960);
-    return classPtrWriteFunc(lPtr, lDataNode, lpAllocator);
+    return classPtrWriteFunc(lPtr, lDataNode, lbForceShortForm);
+}
+
+void cGcPlayerControlComponentData::ClassPointerCreateDefault(cTkClassPointer *lPtr, cTkLinearMemoryPool *lpAllocator)
+{
+    __HERIDIUM_ClassPointerCreateDefault classPtrDefaultFunc = (__HERIDIUM_ClassPointerCreateDefault)__HERIDIUM_OFFSET(28590240);
+    return classPtrDefaultFunc(lPtr, lpAllocator);
+}
+
+void cGcPlayerControlComponentData::ClassPointerFix(cTkClassPointer *lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset)
+{
+    __HERIDIUM_ClassPointerFix classPtrFixFunc = (__HERIDIUM_ClassPointerFix)__HERIDIUM_OFFSET(28593632);
+    return classPtrFixFunc(lPtr, lbFixUp, liDynamicOffset);
+}
+
+bool cGcPlayerControlComponentData::ClassPointerCompare(const cTkClassPointer *lPtr, const cTkClassPointer *lOtherPtr)
+{
+    __HERIDIUM_ClassPointerCompare classPtrEqualsFunc = (__HERIDIUM_ClassPointerCompare)__HERIDIUM_OFFSET(28574224);
+    return classPtrEqualsFunc(lPtr, lOtherPtr);
+}
+
+void cGcPlayerControlComponentData::ClassPointerCopy(cTkClassPointer *lDest, const cTkClassPointer *lSource)
+{
+    __HERIDIUM_ClassPointerCopy classPtrCopyFunc = (__HERIDIUM_ClassPointerCopy)__HERIDIUM_OFFSET(28579216);
+    return classPtrCopyFunc(lDest, lSource);
+}
+
+cTkClassPointer* cGcPlayerControlComponentData::ClassPointerCreate(cTkClassPointer *result)
+{
+    __HERIDIUM_ClassPointerCreate classPtrCreateFunc = (__HERIDIUM_ClassPointerCreate)__HERIDIUM_OFFSET(28584544);
+    return classPtrCreateFunc(result);
+}
+
+unsigned __int64 cGcPlayerControlComponentData::ClassPointerGenerateHash(const cTkClassPointer *lPtr, unsigned __int64 luHash, bool lbDeep)
+{
+    __HERIDIUM_ClassPointerGenerateHash classPtrHashFunc = (__HERIDIUM_ClassPointerGenerateHash)__HERIDIUM_OFFSET(28596432);
+    return classPtrHashFunc(lPtr, luHash, lbDeep);
+}
+
+void cGcPlayerControlComponentData::ClassPointerDestroy(cTkClassPointer* lPtr)
+{
+    __HERIDIUM_ClassPointerDestroy classPtrDestroyFunc = (__HERIDIUM_ClassPointerDestroy)__HERIDIUM_OFFSET(28592320);
+    return classPtrDestroyFunc(lPtr);
 }
 

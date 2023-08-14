@@ -9,12 +9,54 @@ void cGcCreatureEffectComponentData::ClassPointerRead(cTkClassPointer* lPtr, XML
 bool cGcCreatureEffectComponentData::ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename)
 {
     __HERIDIUM_ClassPointerSave classPtrSaveFunc = (__HERIDIUM_ClassPointerSave)__HERIDIUM_OFFSET(27669376);
-    return classPtrReadFunc(lPtr, lpacFilename);
+    return classPtrSaveFunc(lPtr, lpacFilename);
 }
 
-void cGcCreatureEffectComponentData::ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator)
+void cGcCreatureEffectComponentData::ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm)
 {
     __HERIDIUM_ClassPointerWrite classPtrWriteFunc = (__HERIDIUM_ClassPointerWrite)__HERIDIUM_OFFSET(27670560);
-    return classPtrWriteFunc(lPtr, lDataNode, lpAllocator);
+    return classPtrWriteFunc(lPtr, lDataNode, lbForceShortForm);
+}
+
+void cGcCreatureEffectComponentData::ClassPointerCreateDefault(cTkClassPointer *lPtr, cTkLinearMemoryPool *lpAllocator)
+{
+    __HERIDIUM_ClassPointerCreateDefault classPtrDefaultFunc = (__HERIDIUM_ClassPointerCreateDefault)__HERIDIUM_OFFSET(27654448);
+    return classPtrDefaultFunc(lPtr, lpAllocator);
+}
+
+void cGcCreatureEffectComponentData::ClassPointerFix(cTkClassPointer *lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset)
+{
+    __HERIDIUM_ClassPointerFix classPtrFixFunc = (__HERIDIUM_ClassPointerFix)__HERIDIUM_OFFSET(27659120);
+    return classPtrFixFunc(lPtr, lbFixUp, liDynamicOffset);
+}
+
+bool cGcCreatureEffectComponentData::ClassPointerCompare(const cTkClassPointer *lPtr, const cTkClassPointer *lOtherPtr)
+{
+    __HERIDIUM_ClassPointerCompare classPtrEqualsFunc = (__HERIDIUM_ClassPointerCompare)__HERIDIUM_OFFSET(27642448);
+    return classPtrEqualsFunc(lPtr, lOtherPtr);
+}
+
+void cGcCreatureEffectComponentData::ClassPointerCopy(cTkClassPointer *lDest, const cTkClassPointer *lSource)
+{
+    __HERIDIUM_ClassPointerCopy classPtrCopyFunc = (__HERIDIUM_ClassPointerCopy)__HERIDIUM_OFFSET(27645456);
+    return classPtrCopyFunc(lDest, lSource);
+}
+
+cTkClassPointer* cGcCreatureEffectComponentData::ClassPointerCreate(cTkClassPointer *result)
+{
+    __HERIDIUM_ClassPointerCreate classPtrCreateFunc = (__HERIDIUM_ClassPointerCreate)__HERIDIUM_OFFSET(27649680);
+    return classPtrCreateFunc(result);
+}
+
+unsigned __int64 cGcCreatureEffectComponentData::ClassPointerGenerateHash(const cTkClassPointer *lPtr, unsigned __int64 luHash, bool lbDeep)
+{
+    __HERIDIUM_ClassPointerGenerateHash classPtrHashFunc = (__HERIDIUM_ClassPointerGenerateHash)__HERIDIUM_OFFSET(27661088);
+    return classPtrHashFunc(lPtr, luHash, lbDeep);
+}
+
+void cGcCreatureEffectComponentData::ClassPointerDestroy(cTkClassPointer* lPtr)
+{
+    __HERIDIUM_ClassPointerDestroy classPtrDestroyFunc = (__HERIDIUM_ClassPointerDestroy)__HERIDIUM_OFFSET(27657920);
+    return classPtrDestroyFunc(lPtr);
 }
 

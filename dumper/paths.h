@@ -1860,7 +1860,7 @@ const std::vector<std::pair<const char*, const char*> > classPaths = {
         std::pair<const char*, const char*>("cgccameraaerialviewdata", "metadata/source/metadata/graphics/camera/effects/gccameraaerialviewdata.meta.h"),
         std::pair<const char*, const char*>("cgccamerafollowsettings", "metadata/source/metadata/graphics/camera/follow/gccamerafollowsettings.meta.h"),
         std::pair<const char*, const char*>("cgccamerawarpsettings", "metadata/source/metadata/graphics/camera/follow/gccamerawarpsettings.meta.h"),
-        std::pair<const char*, const char*>("cgcdebugoptions", "metadata/source/metadata/globals/gcdebugoptions.meta.h"),
+        //std::pair<const char*, const char*>("cgcdebugoptions", "metadata/source/metadata/globals/gcdebugoptions.meta.h"),
         std::pair<const char*, const char*>("cgctelemetrystat", "metadata/source/metadata/gamestate/telemetry/gctelemetrystat.meta.h"),
         std::pair<const char*, const char*>("cgcitemcosttable", "metadata/source/metadata/gamestate/trading/gcitemcosttable.meta.h"),
         std::pair<const char*, const char*>("cgcplayertitle", "metadata/source/metadata/gamestate/playerdata/gcplayertitle.meta.h"),

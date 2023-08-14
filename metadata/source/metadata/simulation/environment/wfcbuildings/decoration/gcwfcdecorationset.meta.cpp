@@ -9,12 +9,54 @@ void cGcWFCDecorationSet::ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lData
 bool cGcWFCDecorationSet::ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename)
 {
     __HERIDIUM_ClassPointerSave classPtrSaveFunc = (__HERIDIUM_ClassPointerSave)__HERIDIUM_OFFSET(26927120);
-    return classPtrReadFunc(lPtr, lpacFilename);
+    return classPtrSaveFunc(lPtr, lpacFilename);
 }
 
-void cGcWFCDecorationSet::ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator)
+void cGcWFCDecorationSet::ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm)
 {
     __HERIDIUM_ClassPointerWrite classPtrWriteFunc = (__HERIDIUM_ClassPointerWrite)__HERIDIUM_OFFSET(26928272);
-    return classPtrWriteFunc(lPtr, lDataNode, lpAllocator);
+    return classPtrWriteFunc(lPtr, lDataNode, lbForceShortForm);
+}
+
+void cGcWFCDecorationSet::ClassPointerCreateDefault(cTkClassPointer *lPtr, cTkLinearMemoryPool *lpAllocator)
+{
+    __HERIDIUM_ClassPointerCreateDefault classPtrDefaultFunc = (__HERIDIUM_ClassPointerCreateDefault)__HERIDIUM_OFFSET(26913808);
+    return classPtrDefaultFunc(lPtr, lpAllocator);
+}
+
+void cGcWFCDecorationSet::ClassPointerFix(cTkClassPointer *lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset)
+{
+    __HERIDIUM_ClassPointerFix classPtrFixFunc = (__HERIDIUM_ClassPointerFix)__HERIDIUM_OFFSET(26918400);
+    return classPtrFixFunc(lPtr, lbFixUp, liDynamicOffset);
+}
+
+bool cGcWFCDecorationSet::ClassPointerCompare(const cTkClassPointer *lPtr, const cTkClassPointer *lOtherPtr)
+{
+    __HERIDIUM_ClassPointerCompare classPtrEqualsFunc = (__HERIDIUM_ClassPointerCompare)__HERIDIUM_OFFSET(26902224);
+    return classPtrEqualsFunc(lPtr, lOtherPtr);
+}
+
+void cGcWFCDecorationSet::ClassPointerCopy(cTkClassPointer *lDest, const cTkClassPointer *lSource)
+{
+    __HERIDIUM_ClassPointerCopy classPtrCopyFunc = (__HERIDIUM_ClassPointerCopy)__HERIDIUM_OFFSET(26904880);
+    return classPtrCopyFunc(lDest, lSource);
+}
+
+cTkClassPointer* cGcWFCDecorationSet::ClassPointerCreate(cTkClassPointer *result)
+{
+    __HERIDIUM_ClassPointerCreate classPtrCreateFunc = (__HERIDIUM_ClassPointerCreate)__HERIDIUM_OFFSET(26909232);
+    return classPtrCreateFunc(result);
+}
+
+unsigned __int64 cGcWFCDecorationSet::ClassPointerGenerateHash(const cTkClassPointer *lPtr, unsigned __int64 luHash, bool lbDeep)
+{
+    __HERIDIUM_ClassPointerGenerateHash classPtrHashFunc = (__HERIDIUM_ClassPointerGenerateHash)__HERIDIUM_OFFSET(26919472);
+    return classPtrHashFunc(lPtr, luHash, lbDeep);
+}
+
+void cGcWFCDecorationSet::ClassPointerDestroy(cTkClassPointer* lPtr)
+{
+    __HERIDIUM_ClassPointerDestroy classPtrDestroyFunc = (__HERIDIUM_ClassPointerDestroy)__HERIDIUM_OFFSET(26916992);
+    return classPtrDestroyFunc(lPtr);
 }
 

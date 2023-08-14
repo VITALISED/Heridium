@@ -1,7 +1,9 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../pch.h"
 
-class cGcPrimaryAxis;
+#include "../../../../../metadata/source/metadata/simulation/ecosystem/creatures/behaviours/data/gcprimaryaxis.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/particles/gcreplacementeffectdata.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/particles/gccreaturediscoverythumbnailoverride.meta.h"
 
 class cGcCreatureComponentData
 {
@@ -15,12 +17,12 @@ public:
     float mfScaler;
     float mfPetIndoorScaler;
     TkID<128> mDeathEffect;
-    cTkDynamicArray<cGcReplacementEffectData1> maReplacementImpacts;
+    cTkDynamicArray<cGcReplacementEffectData> maReplacementImpacts;
     float mfAccessoryPitchOffset;
     float mfDiscoveryFurScaler;
     float mfDiscoveryUIScaler;
     cTkVector3 mDiscoveryUIOffset;
-    cTkDynamicArray<cGcCreatureDiscoveryThumbnailOverride1> maThumbnailOverrides;
+    cTkDynamicArray<cGcCreatureDiscoveryThumbnailOverride> maThumbnailOverrides;
     bool mbUsePetLargeUIOverride;
     float mfPetLargeUIOverrideScaler;
     cTkVector3 mPetLargeUIOverrideOffset;
@@ -30,10 +32,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

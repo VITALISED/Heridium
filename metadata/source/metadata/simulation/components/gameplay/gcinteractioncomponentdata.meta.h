@@ -1,5 +1,5 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../../pch.h"
 
 enum eInteractionAction
 {
@@ -7,15 +7,13 @@ enum eInteractionAction
     EInteractionAction_HoldButton = 1,
     EInteractionAction_Shoot = 2,
 };
-class cGcInteractionType;
-class cTkModelRendererData;
-class cTkModelRendererData;
-class cGcAlienRace;
-class cGcInteractionActivationCost;
-class cGcInteractionType;
-class cGcInteractionActivationCost;
-class cGcInteractionDof;
-class cGcStoryUtilityOverride;
+#include "../../../../../../metadata/source/metadata/simulation/components/gameplay/gcinteractiontype.meta.h"
+#include "../../../../../../metadata/toolkit/metadata/tkmodelrendererdata.meta.h"
+#include "../../../../../../metadata/source/metadata/reality/gcalienrace.meta.h"
+#include "../../../../../../metadata/source/metadata/gameplay/gcinteractionactivationcost.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/components/gameplay/gcinteractiondof.meta.h"
+#include "../../../../../../metadata/source/metadata/reality/gcalienpuzzlemissionoverride.meta.h"
+#include "../../../../../../metadata/source/metadata/reality/gcstoryutilityoverride.meta.h"
 
 enum eOverrideInteriorExteriorMarker
 {
@@ -52,11 +50,11 @@ public:
     bool mbInteractInvertFace;
     cGcInteractionType mSecondaryInteractionType;
     cGcInteractionActivationCost mSecondaryActivationCost;
-    cTkDynamicArray<cTkModelRendererData1> maEventRenderers;
-    cTkDynamicArray<cTkModelRendererData1> maEventRenderersAlt;
+    cTkDynamicArray<cTkModelRendererData> maEventRenderers;
+    cTkDynamicArray<cTkModelRendererData> maEventRenderersAlt;
     float mfSecondaryCameraTransitionTime;
     cGcInteractionDof mDepthOfField;
-    cTkDynamicArray<cGcAlienPuzzleMissionOverride1> maPuzzleMissionOverrideTable;
+    cTkDynamicArray<cGcAlienPuzzleMissionOverride> maPuzzleMissionOverrideTable;
     cGcStoryUtilityOverride mStoryUtilityOverrideData;
     eOverrideInteriorExteriorMarker meOverrideInteriorExteriorMarker;
     bool mbReseedAfterRewardSuccess;
@@ -75,10 +73,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

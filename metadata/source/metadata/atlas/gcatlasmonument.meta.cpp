@@ -9,12 +9,54 @@ void cGcAtlasMonument::ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNod
 bool cGcAtlasMonument::ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename)
 {
     __HERIDIUM_ClassPointerSave classPtrSaveFunc = (__HERIDIUM_ClassPointerSave)__HERIDIUM_OFFSET(35111328);
-    return classPtrReadFunc(lPtr, lpacFilename);
+    return classPtrSaveFunc(lPtr, lpacFilename);
 }
 
-void cGcAtlasMonument::ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator)
+void cGcAtlasMonument::ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm)
 {
     __HERIDIUM_ClassPointerWrite classPtrWriteFunc = (__HERIDIUM_ClassPointerWrite)__HERIDIUM_OFFSET(35112016);
-    return classPtrWriteFunc(lPtr, lDataNode, lpAllocator);
+    return classPtrWriteFunc(lPtr, lDataNode, lbForceShortForm);
+}
+
+void cGcAtlasMonument::ClassPointerCreateDefault(cTkClassPointer *lPtr, cTkLinearMemoryPool *lpAllocator)
+{
+    __HERIDIUM_ClassPointerCreateDefault classPtrDefaultFunc = (__HERIDIUM_ClassPointerCreateDefault)__HERIDIUM_OFFSET(35102672);
+    return classPtrDefaultFunc(lPtr, lpAllocator);
+}
+
+void cGcAtlasMonument::ClassPointerFix(cTkClassPointer *lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset)
+{
+    __HERIDIUM_ClassPointerFix classPtrFixFunc = (__HERIDIUM_ClassPointerFix)__HERIDIUM_OFFSET(35104480);
+    return classPtrFixFunc(lPtr, lbFixUp, liDynamicOffset);
+}
+
+bool cGcAtlasMonument::ClassPointerCompare(const cTkClassPointer *lPtr, const cTkClassPointer *lOtherPtr)
+{
+    __HERIDIUM_ClassPointerCompare classPtrEqualsFunc = (__HERIDIUM_ClassPointerCompare)__HERIDIUM_OFFSET(35092656);
+    return classPtrEqualsFunc(lPtr, lOtherPtr);
+}
+
+void cGcAtlasMonument::ClassPointerCopy(cTkClassPointer *lDest, const cTkClassPointer *lSource)
+{
+    __HERIDIUM_ClassPointerCopy classPtrCopyFunc = (__HERIDIUM_ClassPointerCopy)__HERIDIUM_OFFSET(35095696);
+    return classPtrCopyFunc(lDest, lSource);
+}
+
+cTkClassPointer* cGcAtlasMonument::ClassPointerCreate(cTkClassPointer *result)
+{
+    __HERIDIUM_ClassPointerCreate classPtrCreateFunc = (__HERIDIUM_ClassPointerCreate)__HERIDIUM_OFFSET(35099168);
+    return classPtrCreateFunc(result);
+}
+
+unsigned __int64 cGcAtlasMonument::ClassPointerGenerateHash(const cTkClassPointer *lPtr, unsigned __int64 luHash, bool lbDeep)
+{
+    __HERIDIUM_ClassPointerGenerateHash classPtrHashFunc = (__HERIDIUM_ClassPointerGenerateHash)__HERIDIUM_OFFSET(35105616);
+    return classPtrHashFunc(lPtr, luHash, lbDeep);
+}
+
+void cGcAtlasMonument::ClassPointerDestroy(cTkClassPointer* lPtr)
+{
+    __HERIDIUM_ClassPointerDestroy classPtrDestroyFunc = (__HERIDIUM_ClassPointerDestroy)__HERIDIUM_OFFSET(35103760);
+    return classPtrDestroyFunc(lPtr);
 }
 

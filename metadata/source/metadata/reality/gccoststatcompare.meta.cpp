@@ -9,12 +9,54 @@ void cGcCostStatCompare::ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataN
 bool cGcCostStatCompare::ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename)
 {
     __HERIDIUM_ClassPointerSave classPtrSaveFunc = (__HERIDIUM_ClassPointerSave)__HERIDIUM_OFFSET(30687040);
-    return classPtrReadFunc(lPtr, lpacFilename);
+    return classPtrSaveFunc(lPtr, lpacFilename);
 }
 
-void cGcCostStatCompare::ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator)
+void cGcCostStatCompare::ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm)
 {
     __HERIDIUM_ClassPointerWrite classPtrWriteFunc = (__HERIDIUM_ClassPointerWrite)__HERIDIUM_OFFSET(30688336);
-    return classPtrWriteFunc(lPtr, lDataNode, lpAllocator);
+    return classPtrWriteFunc(lPtr, lDataNode, lbForceShortForm);
+}
+
+void cGcCostStatCompare::ClassPointerCreateDefault(cTkClassPointer *lPtr, cTkLinearMemoryPool *lpAllocator)
+{
+    __HERIDIUM_ClassPointerCreateDefault classPtrDefaultFunc = (__HERIDIUM_ClassPointerCreateDefault)__HERIDIUM_OFFSET(30668816);
+    return classPtrDefaultFunc(lPtr, lpAllocator);
+}
+
+void cGcCostStatCompare::ClassPointerFix(cTkClassPointer *lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset)
+{
+    __HERIDIUM_ClassPointerFix classPtrFixFunc = (__HERIDIUM_ClassPointerFix)__HERIDIUM_OFFSET(1578992);
+    return classPtrFixFunc(lPtr, lbFixUp, liDynamicOffset);
+}
+
+bool cGcCostStatCompare::ClassPointerCompare(const cTkClassPointer *lPtr, const cTkClassPointer *lOtherPtr)
+{
+    __HERIDIUM_ClassPointerCompare classPtrEqualsFunc = (__HERIDIUM_ClassPointerCompare)__HERIDIUM_OFFSET(30653472);
+    return classPtrEqualsFunc(lPtr, lOtherPtr);
+}
+
+void cGcCostStatCompare::ClassPointerCopy(cTkClassPointer *lDest, const cTkClassPointer *lSource)
+{
+    __HERIDIUM_ClassPointerCopy classPtrCopyFunc = (__HERIDIUM_ClassPointerCopy)__HERIDIUM_OFFSET(30657296);
+    return classPtrCopyFunc(lDest, lSource);
+}
+
+cTkClassPointer* cGcCostStatCompare::ClassPointerCreate(cTkClassPointer *result)
+{
+    __HERIDIUM_ClassPointerCreate classPtrCreateFunc = (__HERIDIUM_ClassPointerCreate)__HERIDIUM_OFFSET(30662656);
+    return classPtrCreateFunc(result);
+}
+
+unsigned __int64 cGcCostStatCompare::ClassPointerGenerateHash(const cTkClassPointer *lPtr, unsigned __int64 luHash, bool lbDeep)
+{
+    __HERIDIUM_ClassPointerGenerateHash classPtrHashFunc = (__HERIDIUM_ClassPointerGenerateHash)__HERIDIUM_OFFSET(30676128);
+    return classPtrHashFunc(lPtr, luHash, lbDeep);
+}
+
+void cGcCostStatCompare::ClassPointerDestroy(cTkClassPointer* lPtr)
+{
+    __HERIDIUM_ClassPointerDestroy classPtrDestroyFunc = (__HERIDIUM_ClassPointerDestroy)__HERIDIUM_OFFSET(30670944);
+    return classPtrDestroyFunc(lPtr);
 }
 

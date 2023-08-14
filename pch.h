@@ -19,6 +19,10 @@
 #include "common/maths/TkVector3.h"
 #include "common/maths/TkVector4.h"
 #include "common/utilities/TkNetworkID.h"
+#include "common/simulation/TkSeed.h"
+#include "common/graphics/TkColour.h"
+#include "common/resources/TkSmartResHandle.h"
+#include "common/attachments/TkHandle.h"
 
 #define __HERIDIUM_BASE (uintptr_t)GetModuleHandleA("NMS.exe")
 #define __HERIDIUM_OFFSET(offset) (LPVOID)(__HERIDIUM_BASE + (uintptr_t)offset)
@@ -29,6 +33,7 @@ typedef cTkClassPointer*(*__HERIDIUM_ClassPointerCreate)(cTkClassPointer * resul
 typedef void (*__HERIDIUM_ClassPointerCreateDefault)(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
 typedef void (*__HERIDIUM_ClassPointerDestroy)(cTkClassPointer* lPtr);
 typedef void (*__HERIDIUM_ClassPointerValidateData)(cTkClassPointer* lPtr);
+typedef void (*__HERIDIUM_ClassPointerFix)(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
 typedef unsigned __int64 (*__HERIDIUM_ClassPointerGenerateHash)(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
 typedef void (*__HERIDIUM_ClassPointerRead)(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
 typedef void (*__HERIDIUM_ClassPointerRender)(cTkClassPointer* lPtr);

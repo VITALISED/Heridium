@@ -1,8 +1,8 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../../pch.h"
 
-class cGcWeatherOptions;
-class cGcPlanetHeavyAirData;
+#include "../../../../../../metadata/source/metadata/simulation/environment/weather/gcweatheroptions.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/solarsystem/planet/gcplanetheavyairdata.meta.h"
 
 enum eWeatherIntensity
 {
@@ -22,9 +22,8 @@ enum eAtmosphereType
     EAtmosphereType_None = 0,
     EAtmosphereType_Normal = 1,
 };
-class cGcScreenFilters;
-class cGcScreenFilters;
-class cGcRainbowType;
+#include "../../../../../../metadata/source/metadata/graphics/gcscreenfilters.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/solarsystem/planet/gcrainbowtype.meta.h"
 
 class cGcPlanetWeatherData
 {
@@ -50,10 +49,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

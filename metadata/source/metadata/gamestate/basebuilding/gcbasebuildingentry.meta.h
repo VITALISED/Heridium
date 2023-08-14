@@ -1,18 +1,18 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../pch.h"
 
-class cGcBaseBuildingPartStyle;
-class cTkModelResource;
-class cGcBaseBuildingObjectDecorationTypes;
-class cGcBiomeType;
+#include "../../../../../metadata/source/metadata/gamestate/basebuilding/gcbasebuildingpartstyle.meta.h"
+#include "../../../../../metadata/toolkit/metadata/tkmodelresource.meta.h"
+#include "../../../../../metadata/source/metadata/gamestate/basebuilding/gcbasebuildingobjectdecorationtypes.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/solarsystem/planet/gcbiometype.meta.h"
+#include "../../../../../metadata/source/metadata/gamestate/basebuilding/gcbasebuildingentrygroup.meta.h"
 
 enum eBaseTerrainEditShape
 {
     EBaseTerrainEditShape_Cube = 0,
     EBaseTerrainEditShape_Cylinder = 1,
 };
-class cGcBaseLinkGridData;
-class cTkModelResource;
+#include "../../../../../metadata/source/metadata/gamestate/basebuilding/gcbaselinkgriddata.meta.h"
 
 class cGcBaseBuildingEntry
 {
@@ -45,7 +45,7 @@ public:
     bool mbCheckPlayerCollision;
     bool mbCanRotate3D;
     bool mbCanScale;
-    cTkDynamicArray<cGcBaseBuildingEntryGroup1> maGroups;
+    cTkDynamicArray<cGcBaseBuildingEntryGroup> maGroups;
     int miStorageContainerIndex;
     TkID<256> mColourPaletteGroupId;
     TkID<256> mDefaultColourPaletteId;
@@ -55,8 +55,8 @@ public:
     bool mbCanChangeMaterial;
     bool mbCanPickUp;
     bool mbShowInBuildMenu;
-    cTkDynamicArray<TkID<128>1> maCompositePartObjectIDs;
-    cTkDynamicArray<TkID<128>1> maFamilyIDs;
+    cTkDynamicArray<TkID<128> > maCompositePartObjectIDs;
+    cTkDynamicArray<TkID<128> > maFamilyIDs;
     float mfBuildEffectAccelerator;
     bool mbRemovesAttachedDecoration;
     bool mbRemovesWhenUnsnapped;
@@ -77,10 +77,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

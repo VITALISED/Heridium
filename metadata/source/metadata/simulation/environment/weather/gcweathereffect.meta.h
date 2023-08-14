@@ -1,5 +1,7 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../../pch.h"
+
+#include "../../../../../../metadata/source/metadata/reality/gcweightedfilename.meta.h"
 
 enum eSpawnConditions
 {
@@ -23,7 +25,7 @@ enum eWeatherEffectSpawnType
     EWeatherEffectSpawnType_Cluster = 1,
     EWeatherEffectSpawnType_Patch = 2,
 };
-class cGcAudioWwiseEvents;
+#include "../../../../../../metadata/source/metadata/audio/gcaudiowwiseevents.meta.h"
 
 class cGcWeatherEffect
 {
@@ -34,7 +36,7 @@ public:
 
     TkID<128> mId;
     TkID<256> mOSDMessage;
-    cTkDynamicArray<cGcWeightedFilename1> maEffects;
+    cTkDynamicArray<cGcWeightedFilename> maEffects;
     eSpawnConditions meSpawnConditions;
     int miMaxHazardsOfThisTypeActive;
     TkID<128> mForcedOnByHazard;
@@ -79,10 +81,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

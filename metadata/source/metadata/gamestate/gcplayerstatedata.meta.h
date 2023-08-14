@@ -1,73 +1,55 @@
 #pragma once
-#include "pch.h"
+#include "../../../../pch.h"
 
-class cGcUniverseAddressData;
-class cGcUniverseAddressData;
-class cGcDifficultyStateData;
-class cGcInventoryContainer;
-class cGcInventoryContainer;
-class cGcInventoryContainer;
-class cGcInventoryContainer;
-class cGcInventoryContainer;
-class cGcByteBeatLibraryData;
-class cGcInventoryContainer;
-class cGcUniverseAddressData;
-class cGcInventoryLayout;
-class cGcInventoryLayout;
-class cGcResourceElement;
-class cGcExactResource;
-class cGcInteractionData;
-class cGcInteractionData;
-class cGcInteractionData;
-class cGcUniverseAddressData;
-class cGcUniverseAddressData;
-class cGcResourceElement;
-class cGcInventoryLayout;
-class cGcInventoryLayout;
-class cGcInventoryContainer;
-class cGcInventoryContainer;
-class cGcInventoryContainer;
-class cGcUniverseAddressData;
-class cGcTerrainEditsBuffer;
-class cGcInventoryLayout;
-class cGcInventoryContainer;
-class cGcInventoryLayout;
-class cGcInventoryContainer;
-class cGcInventoryLayout;
-class cGcInventoryContainer;
-class cGcInventoryLayout;
-class cGcInventoryContainer;
-class cGcInventoryLayout;
-class cGcInventoryContainer;
-class cGcInventoryLayout;
-class cGcInventoryContainer;
-class cGcInventoryLayout;
-class cGcInventoryContainer;
-class cGcInventoryLayout;
-class cGcInventoryContainer;
-class cGcInventoryLayout;
-class cGcInventoryContainer;
-class cGcInventoryLayout;
-class cGcInventoryContainer;
-class cGcInventoryLayout;
-class cGcInventoryContainer;
-class cGcInventoryLayout;
-class cGcInventoryContainer;
-class cGcInventoryLayout;
-class cGcInventoryContainer;
-class cGcInventoryLayout;
-class cGcInventoryContainer;
-class cGcResourceElement;
-class cGcPortalSaveData;
-class cGcTeleportEndpoint;
-class cGcPlayerWeapons;
-class cGcPlayerWeapons;
-class cGcUniverseAddressData;
-class cGcPlayerSpawnStateData;
-class cGcUniverseAddressData;
-class cGcPhotoModeSettings;
-class cGcSeasonalGameModeData;
-class cGcSeasonStateData;
+#include "../../../../metadata/source/metadata/gamestate/gcuniverseaddressdata.meta.h"
+#include "../../../../metadata/source/metadata/user/gcdifficultystatedata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcinventorycontainer.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcmultitooldata.meta.h"
+#include "../../../../metadata/source/metadata/audio/gcbytebeatlibrarydata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcpetdata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcpetcustomisationdata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcinventorylayout.meta.h"
+#include "../../../../metadata/source/metadata/utilities/data/gcresourceelement.meta.h"
+#include "../../../../metadata/source/metadata/resource/gcexactresource.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcwordknowledge.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcwordgroupknowledge.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcplayermissionprogress.meta.h"
+#include "../../../../metadata/source/metadata/simulation/missions/scheduling/gcmissionidepochpair.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/interactions/gcinteractiondata.meta.h"
+#include "../../../../metadata/source/metadata/simulation/gcscaneventsave.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/stats/gcplayerstatsgroup.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/telemetry/gctelemetrystat.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/interactions/gcinteractionbuffer.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcmaintenancecontainer.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/interactions/gcsavedinteractionracedata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/interactions/gcsavedinteractiondialogdata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcsavedentitlement.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcsquadronpilotdata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/basebuilding/gcpersistentbbobjectdata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/interactions/gcterraineditsbuffer.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/basebuilding/gcnpcworkerdata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/basebuilding/gcpersistentbase.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcteleportendpoint.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcplayerownershipdata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gctradingsupplydata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcportalsavedata.meta.h"
+#include "../../../../metadata/source/metadata/simulation/weapons/gcplayerweapons.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/customisation/gccharactercustomisationsavedata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/customisation/gccharactercustomisationdata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcfleetfrigatesavedata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcfleetexpeditionsavedata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcplayerspawnstatedata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcrepairtechdata.meta.h"
+#include "../../../../metadata/source/metadata/ui/hud/quickmenu/gchotactionssavedata.meta.h"
+#include "../../../../metadata/source/metadata/user/gcphotomodesettings.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcseasonalgamemodedata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcseasonstatedata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcsettlementstate.meta.h"
+#include "../../../../metadata/source/metadata/wiki/gcstorypageseendataarray.meta.h"
+#include "../../../../metadata/source/metadata/wiki/gcwonderrecord.meta.h"
+#include "../../../../metadata/source/metadata/wiki/gcwonderrecordcustomdata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcsyncbuffersavedataarray.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcmaintenancesavekey.meta.h"
 
 class cGcPlayerStateData
 {
@@ -105,20 +87,20 @@ public:
     cGcInventoryLayout mWeaponLayout;
     cGcResourceElement mCurrentShip;
     cGcExactResource mCurrentWeapon;
-    cTkDynamicArray<TkID<128>1> maKnownTech;
-    cTkDynamicArray<TkID<128>1> maKnownProducts;
-    cTkDynamicArray<TkID<128>1> maKnownSpecials;
-    cTkDynamicArray<TkID<256>1> maKnownRefinerRecipes;
-    cTkDynamicArray<cGcWordKnowledge1> maKnownWords;
-    cTkDynamicArray<cGcWordGroupKnowledge1> maKnownWordGroups;
-    cTkDynamicArray<cGcPlayerMissionProgress1> maMissionProgress;
+    cTkDynamicArray<TkID<128> > maKnownTech;
+    cTkDynamicArray<TkID<128> > maKnownProducts;
+    cTkDynamicArray<TkID<128> > maKnownSpecials;
+    cTkDynamicArray<TkID<256> > maKnownRefinerRecipes;
+    cTkDynamicArray<cGcWordKnowledge> maKnownWords;
+    cTkDynamicArray<cGcWordGroupKnowledge> maKnownWordGroups;
+    cTkDynamicArray<cGcPlayerMissionProgress> maMissionProgress;
     int miPostMissionIndex;
     TkID<128> mCurrentMissionID;
     unsigned __int64 mui64CurrentMissionSeed;
     TkID<128> mPreviousMissionID;
     unsigned __int64 mui64PreviousMissionSeed;
     int miMissionVersion;
-    cTkDynamicArray<cGcMissionIDEpochPair1> maMissionRecurrences;
+    cTkDynamicArray<cGcMissionIDEpochPair> maMissionRecurrences;
     cGcInteractionData mHoloExplorerInteraction;
     cGcInteractionData mHoloScepticInteraction;
     cGcInteractionData mHoloNooneInteraction;
@@ -133,16 +115,16 @@ public:
     bool mbThirdPersonShip;
     unsigned __int64 mui64TimeAlive;
     unsigned __int64 mui64TotalPlayTime;
-    cTkDynamicArray<cGcScanEventSave1> maMarkerStack;
-    cTkDynamicArray<cGcScanEventSave1> maNewMPMarkerStack;
-    cTkDynamicArray<cTkVector31> maSurveyedEventPositions;
+    cTkDynamicArray<cGcScanEventSave> maMarkerStack;
+    cTkDynamicArray<cGcScanEventSave> maNewMPMarkerStack;
+    cTkDynamicArray<cTkVector3> maSurveyedEventPositions;
     int miNextSurveyedEventPositionIndex;
-    cTkDynamicArray<cGcPlayerStatsGroup1> maStats;
-    cTkDynamicArray<cGcTelemetryStat1> maTelemetryStats;
+    cTkDynamicArray<cGcPlayerStatsGroup> maStats;
+    cTkDynamicArray<cGcTelemetryStat> maTelemetryStats;
     cTkFixedArray<cGcInteractionBuffer, 11> maStoredInteractions;
-    cTkDynamicArray<cGcMaintenanceContainer1> maMaintenanceInteractions;
-    cTkDynamicArray<cGcMaintenanceContainer1> maPersonalMaintenanceInteractions;
-    cTkDynamicArray<unsigned __int641> maVisitedSystems;
+    cTkDynamicArray<cGcMaintenanceContainer> maMaintenanceInteractions;
+    cTkDynamicArray<cGcMaintenanceContainer> maPersonalMaintenanceInteractions;
+    cTkDynamicArray<unsigned __int64> maVisitedSystems;
     cTkFixedArray<float, 6> maHazard;
     int miBoltAmmo;
     int miScatterAmmo;
@@ -150,18 +132,18 @@ public:
     int miLaserAmmo;
     cTkVector4 mFirstSpawnPosition;
     cTkFixedArray<cGcSavedInteractionRaceData, 131> maSavedInteractionIndicies;
-    cTkDynamicArray<cGcSavedInteractionDialogData1> maSavedInteractionDialogTable;
-    cTkDynamicArray<TkID<256>1> maInteractionProgressTable;
+    cTkDynamicArray<cGcSavedInteractionDialogData> maSavedInteractionDialogTable;
+    cTkDynamicArray<TkID<256> > maInteractionProgressTable;
     cTkFixedArray<cGcUniverseAddressData, 10> maAtlasStationAdressData;
     cTkFixedArray<cGcUniverseAddressData, 11> maNewAtlasStationAdressData;
-    cTkDynamicArray<cGcUniverseAddressData1> maVisitedAtlasStationsData;
+    cTkDynamicArray<cGcUniverseAddressData> maVisitedAtlasStationsData;
     bool mbFirstAtlasStationDiscovered;
     bool mbUsesThirdPersonCharacterCam;
     int miProgressionLevel;
     int miProcTechIndex;
     bool mbIsNew;
     bool mbUseSmallerBlackholeJumps;
-    cTkDynamicArray<cGcSavedEntitlement1> maUsedEntitlements;
+    cTkDynamicArray<cGcSavedEntitlement> maUsedEntitlements;
     cTkFixedArray<cTkVector3, 16> maPlanetPositions;
     cTkFixedArray<cTkSeed, 16> maPlanetSeeds;
     int miPrimaryPlanet;
@@ -193,12 +175,12 @@ public:
     cTkVector3 mFreighterMatrixPos;
     cTkFixedArray<bool, 4> maSquadronUnlockedPilotSlots;
     cTkFixedArray<cGcSquadronPilotData, 4> maSquadronPilots;
-    cTkDynamicArray<TkID<128>1> maSeenBaseBuildingObjects;
-    cTkDynamicArray<cGcPersistentBBObjectData1> maBaseBuildingObjects;
+    cTkDynamicArray<TkID<128> > maSeenBaseBuildingObjects;
+    cTkDynamicArray<cGcPersistentBBObjectData> maBaseBuildingObjects;
     cGcTerrainEditsBuffer mTerrainEditData;
     cTkFixedArray<cGcNPCWorkerData, 5> maNPCWorkers;
-    cTkDynamicArray<cGcPersistentBase1> maPersistentPlayerBases;
-    cTkDynamicArray<cGcTeleportEndpoint1> maTeleportEndpoints;
+    cTkDynamicArray<cGcPersistentBase> maPersistentPlayerBases;
+    cTkDynamicArray<cGcTeleportEndpoint> maTeleportEndpoints;
     cGcInventoryLayout mChest1Layout;
     cGcInventoryContainer mChest1Inventory;
     cGcInventoryLayout mChest2Layout;
@@ -238,8 +220,8 @@ public:
     cTkVector4 mStartGameShipPosition;
     bool mbShipNeedsTerrainPositioning;
     int miTradingSupplyDataIndex;
-    cTkDynamicArray<cGcTradingSupplyData1> maTradingSupplyData;
-    cTkDynamicArray<cGcPortalSaveData1> maLastPortal;
+    cTkDynamicArray<cGcTradingSupplyData> maTradingSupplyData;
+    cTkDynamicArray<cGcPortalSaveData> maLastPortal;
     cGcPortalSaveData mVisitedPortal;
     int miKnownPortalRunes;
     bool mbOnOtherSideOfPortal;
@@ -254,15 +236,15 @@ public:
     TkID<128> mJetpackEffect;
     TkID<128> mFreighterEngineEffect;
     cTkSeed mFleetSeed;
-    cTkDynamicArray<cGcFleetFrigateSaveData1> maFleetFrigates;
-    cTkDynamicArray<cGcFleetExpeditionSaveData1> maFleetExpeditions;
-    cTkDynamicArray<unsigned __int641> maExpeditionSeedsSelectedToday;
+    cTkDynamicArray<cGcFleetFrigateSaveData> maFleetFrigates;
+    cTkDynamicArray<cGcFleetExpeditionSaveData> maFleetExpeditions;
+    cTkDynamicArray<unsigned __int64> maExpeditionSeedsSelectedToday;
     unsigned __int64 mui64LastKnownDay;
     unsigned __int64 mui64SunTimer;
     unsigned __int64 mui64MultiplayerLobbyID;
     cGcUniverseAddressData mMultiplayerUA;
     cGcPlayerSpawnStateData mMultiplayerSpawn;
-    cTkDynamicArray<cGcRepairTechData1> maRepairTechBuffer;
+    cTkDynamicArray<cGcRepairTechData> maRepairTechBuffer;
     unsigned __int64 mui64MultiplayerPrivileges;
     cTkFixedArray<cGcHotActionsSaveData, 3> maHotActions;
     unsigned __int64 mui64LastUABeforePortalWarp;
@@ -285,9 +267,9 @@ public:
     cGcSeasonalGameModeData mSeasonData;
     cGcSeasonStateData mSeasonState;
     bool mbRestartAllInactiveSeasonalMissions;
-    cTkDynamicArray<TkID<128>1> maRedeemedSeasonRewards;
-    cTkDynamicArray<TkID<128>1> maRedeemedTwitchRewards;
-    cTkDynamicArray<TkID<128>1> maRedeemedPlatformRewards;
+    cTkDynamicArray<TkID<128> > maRedeemedSeasonRewards;
+    cTkDynamicArray<TkID<128> > maRedeemedTwitchRewards;
+    cTkDynamicArray<TkID<128> > maRedeemedPlatformRewards;
     cTkFixedArray<cGcSettlementState, 100> maSettlementStatesV2;
     int miSettlementStateRingBufferIndexV2;
     bool mbNextLoadSpawnsWithFreshStart;
@@ -301,18 +283,17 @@ public:
     cTkFixedArray<cGcWonderRecord, 12> maWonderCustomRecords;
     cTkFixedArray<cGcWonderRecordCustomData, 12> maWonderCustomRecordsExtraData;
     cTkFixedArray<cGcSyncBufferSaveDataArray, 4> maSyncBuffersData;
-    cTkDynamicArray<cGcMaintenanceSaveKey1> maRefinerBufferKeys;
-    cTkDynamicArray<cGcMaintenanceContainer1> maRefinerBufferData;
+    cTkDynamicArray<cGcMaintenanceSaveKey> maRefinerBufferKeys;
+    cTkDynamicArray<cGcMaintenanceContainer> maRefinerBufferData;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

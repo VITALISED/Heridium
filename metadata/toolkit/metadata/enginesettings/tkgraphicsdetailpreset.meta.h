@@ -1,15 +1,7 @@
 #pragma once
-#include "pch.h"
+#include "../../../../pch.h"
 
-class cTkGraphicsDetailTypes;
-class cTkGraphicsDetailTypes;
-class cTkGraphicsDetailTypes;
-class cTkGraphicsDetailTypes;
-class cTkGraphicsDetailTypes;
-class cTkGraphicsDetailTypes;
-class cTkGraphicsDetailTypes;
-class cTkGraphicsDetailTypes;
-class cTkGraphicsDetailTypes;
+#include "../../../../metadata/toolkit/metadata/enginesettings/tkgraphicsdetailtypes.meta.h"
 
 enum eUIQuality
 {
@@ -83,7 +75,7 @@ enum eAntiAliasing
     EAntiAliasing_DLAA = 6,
     EAntiAliasing_XESS = 7,
 };
-class cTkDynamicResScalingSettings;
+#include "../../../../metadata/toolkit/metadata/enginesettings/tkdynamicresscalingsettings.meta.h"
 
 class cTkGraphicsDetailPreset
 {
@@ -116,10 +108,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

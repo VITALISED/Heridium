@@ -1,22 +1,25 @@
 #pragma once
-#include "pch.h"
+#include "../../../../pch.h"
 
-class cGcGameMode;
-class cGcDifficultyPresetType;
-class cGcDifficultySettingsData;
-class cTkTextureResource;
-class cGcSpaceshipClasses;
-class cGcAlienRace;
-class cGcInventoryLayout;
-class cGcInventoryLayout;
-class cGcInventoryLayout;
-class cGcInventoryContainer;
-class cGcInventoryContainer;
-class cGcInventoryContainer;
-class cGcInventoryContainer;
-class cGcInventoryContainer;
-class cGcScanEventTable;
-class cGcTradeData;
+#include "../../../../metadata/source/metadata/gamestate/gcgamemode.meta.h"
+#include "../../../../metadata/source/metadata/user/gcdifficultypresettype.meta.h"
+#include "../../../../metadata/source/metadata/user/gcdifficultysettingsdata.meta.h"
+#include "../../../../metadata/toolkit/metadata/tktextureresource.meta.h"
+#include "../../../../metadata/source/metadata/simulation/gcspaceshipclasses.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcalienrace.meta.h"
+#include "../../../../metadata/source/metadata/simulation/environment/gcbuildingclassification.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcinventorylayout.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcinventorycontainer.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcseasonpetconstraints.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcpetdata.meta.h"
+#include "../../../../metadata/source/metadata/simulation/ecosystem/gcsandwormtimerandfrequencyoverride.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcseasonalstage.meta.h"
+#include "../../../../metadata/source/metadata/simulation/gcscaneventtable.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcpersistedstatdata.meta.h"
+#include "../../../../metadata/source/metadata/reality/gctechnology.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcproductdata.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcrealitysubstancedata.meta.h"
+#include "../../../../metadata/source/metadata/reality/gctradedata.meta.h"
 
 class cGcSeasonalGameModeData
 {
@@ -54,8 +57,8 @@ public:
     bool mbDoCommunityMissionTextSubstitutions;
     bool mbDefaultToPvPOff;
     bool mbMustCraftInBases;
-    cTkDynamicArray<TkID<128>1> maAdditionalTradeProducts;
-    cTkDynamicArray<TkID<128>1> maNeverTradeProducts;
+    cTkDynamicArray<TkID<128> > maAdditionalTradeProducts;
+    cTkDynamicArray<TkID<128> > maNeverTradeProducts;
     int miStartingSuitSlots;
     int miStartingSuitTechSlots;
     int miStartingSuitCargoSlots;
@@ -68,7 +71,7 @@ public:
     bool mbStartAboardFreighter;
     bool mbForceStartSystemTernary;
     bool mbForceStartSystemAbandoned;
-    cTkDynamicArray<cGcBuildingClassification1> maValidSpawnBuildings;
+    cTkDynamicArray<cGcBuildingClassification> maValidSpawnBuildings;
     cGcInventoryLayout mWeaponInventoryLayout;
     cGcInventoryLayout mShipInventoryLayout;
     cGcInventoryLayout mShipTechInventoryLayout;
@@ -79,9 +82,9 @@ public:
     cGcInventoryContainer mShipInventory;
     cGcInventoryContainer mWeaponInventory;
     bool mbUseRandomPet;
-    cTkDynamicArray<cGcSeasonPetConstraints1> maRandomPetConstraints;
+    cTkDynamicArray<cGcSeasonPetConstraints> maRandomPetConstraints;
     cTkFixedArray<cGcPetData, 18> maSpecificPets;
-    cTkDynamicArray<cGcSandwormTimerAndFrequencyOverride1> maSandwormOverrides;
+    cTkDynamicArray<cGcSandwormTimerAndFrequencyOverride> maSandwormOverrides;
     bool mbSandwormGlobalOverride;
     float mfSandwormGlobalOverrideTimer;
     float mfSandwormGlobalOverrideSpawnChance;
@@ -95,22 +98,22 @@ public:
     int miFreighterBattleEarlyWarpsOverride;
     bool mbForceDeepSpaceAmbientFrigatesOnInfested;
     int miTechCostMultiplier;
-    cTkDynamicArray<TkID<128>1> maNeverLearnableTech;
-    cTkDynamicArray<TkID<128>1> maForgottenProducts;
+    cTkDynamicArray<TkID<128> > maNeverLearnableTech;
+    cTkDynamicArray<TkID<128> > maForgottenProducts;
     bool mbIncreaseXClassTechOddsWithCommTier;
     float mfAbandonedFreighterHazardProtectionMul;
     float mfHazardProtectionDrainMultiplier;
     float mfEnergyDrainMultiplier;
     int miQuestSubstanceReducer;
-    cTkDynamicArray<cGcSeasonalStage1> maStages;
+    cTkDynamicArray<cGcSeasonalStage> maStages;
     cGcScanEventTable mScanEventTable;
     bool mbResetSaveOnDeath;
-    cTkDynamicArray<cGcPersistedStatData1> maStatsToPersistOnReset;
+    cTkDynamicArray<cGcPersistedStatData> maStatsToPersistOnReset;
     bool mbCompatibleWithState;
     bool mbHasBeenConverted;
-    cTkDynamicArray<cGcTechnology1> maTechnologyTable;
-    cTkDynamicArray<cGcProductData1> maProductTable;
-    cTkDynamicArray<cGcRealitySubstanceData1> maSubstanceTable;
+    cTkDynamicArray<cGcTechnology> maTechnologyTable;
+    cTkDynamicArray<cGcProductData> maProductTable;
+    cTkDynamicArray<cGcRealitySubstanceData> maSubstanceTable;
     cGcTradeData mSeasonalUAStationTradeData;
     bool mbUseSeasonalUAStationTradeData;
 
@@ -119,10 +122,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

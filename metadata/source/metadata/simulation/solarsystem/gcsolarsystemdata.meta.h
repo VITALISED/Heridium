@@ -1,11 +1,12 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../pch.h"
 
-class cGcSolarSystemClass;
-class cGcGalaxyStarTypes;
-class cGcSpaceStationSpawnData;
-class cGcSolarSystemTraderSpawnData;
-class cGcSolarSystemTraderSpawnData;
+#include "../../../../../metadata/source/metadata/simulation/solarsystem/planet/gcsolarsystemclass.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/galaxy/gcgalaxystartypes.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/solarsystem/planet/gcplanetgenerationinputdata.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/solarsystem/gcspacestationspawndata.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/solarsystem/gcsolarsystemtraderspawndata.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/solarsystem/gcsolarsystemlocator.meta.h"
 
 enum eAsteroidLevel
 {
@@ -13,13 +14,14 @@ enum eAsteroidLevel
     EAsteroidLevel_SomeRares = 1,
     EAsteroidLevel_LotsOfRares = 2,
 };
-class cGcPlanetColourData;
-class cGcLightProperties;
-class cGcSpaceSkyProperties;
-class cGcScreenFilters;
-class cGcAlienRace;
-class cGcPlanetTradingData;
-class cGcPlayerConflictData;
+#include "../../../../../metadata/source/metadata/simulation/solarsystem/planet/gcplanetcolourdata.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/environment/gclightproperties.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/environment/gcspaceskyproperties.meta.h"
+#include "../../../../../metadata/source/metadata/graphics/gcscreenfilters.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/spaceship/ai/gcaispaceshippreloadcachedata.meta.h"
+#include "../../../../../metadata/source/metadata/reality/gcalienrace.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/solarsystem/planet/gcplanettradingdata.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/solarsystem/planet/gcplayerconflictdata.meta.h"
 
 class cGcSolarSystemData
 {
@@ -51,15 +53,15 @@ public:
     cGcSpaceStationSpawnData mSpaceStationSpawn;
     cGcSolarSystemTraderSpawnData mTraderSpawnOnOutposts;
     cGcSolarSystemTraderSpawnData mTraderSpawnInStations;
-    cTkDynamicArray<cGcSolarSystemLocator1> maLocators;
-    cTkDynamicArray<cTkClassPointer1> maAsteroidGenerators;
+    cTkDynamicArray<cGcSolarSystemLocator> maLocators;
+    cTkDynamicArray<cTkClassPointer> maAsteroidGenerators;
     eAsteroidLevel meAsteroidLevel;
     cGcPlanetColourData mColours;
     cGcLightProperties mLight;
     cGcSpaceSkyProperties mSky;
     cGcScreenFilters mScreenFilter;
     cTkFixedString<128,char> macHeavyAir;
-    cTkDynamicArray<cGcAISpaceshipPreloadCacheData1> maSystemShips;
+    cTkDynamicArray<cGcAISpaceshipPreloadCacheData> maSystemShips;
     cGcAlienRace mInhabitingRace;
     cGcPlanetTradingData mTradingData;
     cGcPlayerConflictData mConflictData;
@@ -69,10 +71,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

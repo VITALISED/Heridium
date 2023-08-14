@@ -1,11 +1,11 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../../pch.h"
 
-class cGcGalaxyStarTypes;
-class cGcPlanetClass;
-class cGcPlanetSize;
-class cGcBiomeType;
-class cGcBiomeSubType;
+#include "../../../../../../metadata/source/metadata/simulation/galaxy/gcgalaxystartypes.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/solarsystem/planet/gcplanetclass.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/solarsystem/planet/gcplanetsize.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/solarsystem/planet/gcbiometype.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/solarsystem/planet/gcbiomesubtype.meta.h"
 
 class cGcPlanetGenerationInputData
 {
@@ -35,10 +35,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

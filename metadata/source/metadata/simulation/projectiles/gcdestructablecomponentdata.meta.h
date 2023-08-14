@@ -1,8 +1,11 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../pch.h"
 
-class cGcStatsEnum;
-class cTkModelResource;
+#include "../../../../../metadata/source/metadata/simulation/environment/gcsubstanceamount.meta.h"
+#include "../../../../../metadata/source/metadata/reality/gcstatsenum.meta.h"
+#include "../../../../../metadata/source/metadata/reality/gcrewardmissionoverride.meta.h"
+#include "../../../../../metadata/toolkit/metadata/tkmodelresource.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/components/utils/gclootprobability.meta.h"
 
 class cGcDestructableComponentData
 {
@@ -25,14 +28,14 @@ public:
     int miLootRewardAmountMin;
     int miLootRewardAmountMax;
     bool mbCanDestroyFromStoredInteraction;
-    cTkDynamicArray<cGcSubstanceAmount1> maGivesSubstances;
+    cTkDynamicArray<cGcSubstanceAmount> maGivesSubstances;
     cGcStatsEnum mStatToTrack;
     TkID<128> mGivesReward;
     TkID<128> mPirateSystemAltReward;
     bool mbRewardIfDestroyedByOther;
     bool mbHideReward;
     TkID<256> mOverrideRewardLoc;
-    cTkDynamicArray<cGcRewardMissionOverride1> maRewardOverrideTable;
+    cTkDynamicArray<cGcRewardMissionOverride> maRewardOverrideTable;
     bool mbActivateLocatorsFromRarity;
     cTkFixedArray<TkID<128>, 3> maRarityLocators;
     bool mbUseSystemColorsForTexture;
@@ -53,17 +56,16 @@ public:
     bool mbHideInteractWhenAllArmourDestroyed;
     float mfShowInteractRange;
     bool mbGrenadeSingleHit;
-    cTkDynamicArray<cGcLootProbability1> maLootItems;
+    cTkDynamicArray<cGcLootProbability> maLootItems;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

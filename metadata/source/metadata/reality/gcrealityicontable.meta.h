@@ -1,9 +1,9 @@
 #pragma once
-#include "pch.h"
+#include "../../../../pch.h"
 
-class cTkTextureResource;
-class cTkTextureResource;
-class cTkTextureResource;
+#include "../../../../metadata/toolkit/metadata/tktextureresource.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcplanetresourceiconlookup.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcrealityicon.meta.h"
 
 class cGcRealityIconTable
 {
@@ -24,11 +24,11 @@ public:
     cTkTextureResource mDiscoveryPageTradingUnknown;
     cTkTextureResource mDiscoveryPageConflictUnknown;
     cTkTextureResource mDiscoveryPageRaceUnknown;
-    cTkDynamicArray<cGcPlanetResourceIconLookup1> maTerrainIconLookups;
-    cTkDynamicArray<cGcPlanetResourceIconLookup1> maPlanetResourceIconLookups;
-    cTkDynamicArray<cTkTextureResource1> maRepairTechIcons;
+    cTkDynamicArray<cGcPlanetResourceIconLookup> maTerrainIconLookups;
+    cTkDynamicArray<cGcPlanetResourceIconLookup> maPlanetResourceIconLookups;
+    cTkDynamicArray<cTkTextureResource> maRepairTechIcons;
     cTkFixedArray<cTkTextureResource, 86> maGameIcons;
-    cTkDynamicArray<cGcRealityIcon1> maMissionDetailIcons;
+    cTkDynamicArray<cGcRealityIcon> maMissionDetailIcons;
     cTkFixedArray<cTkTextureResource, 7> maDifficultyPresetIcons;
     cTkFixedArray<cTkTextureResource, 4> maDifficultyUIOptionIcons;
     cTkFixedArray<cTkTextureResource, 5> maOptionsUIHeaderIcons;
@@ -39,10 +39,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

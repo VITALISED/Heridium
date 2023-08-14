@@ -1,7 +1,10 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../../pch.h"
 
-class cGcAntagonistGroup;
+#include "../../../../../../metadata/source/metadata/gameplay/gcantagonistgroup.meta.h"
+#include "../../../../../../metadata/source/metadata/gameplay/gcantagonistfriend.meta.h"
+#include "../../../../../../metadata/source/metadata/gameplay/gcantagonistenemy.meta.h"
+#include "../../../../../../metadata/source/metadata/gameplay/gcantagonistperception.meta.h"
 
 class cGcAntagonistComponentData
 {
@@ -17,17 +20,16 @@ public:
     float mfCommunicationDelay;
     cTkFixedArray<cGcAntagonistFriend, 6> maFriends;
     cTkFixedArray<cGcAntagonistEnemy, 6> maEnemies;
-    cTkDynamicArray<cGcAntagonistPerception1> maPerceptions;
+    cTkDynamicArray<cGcAntagonistPerception> maPerceptions;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

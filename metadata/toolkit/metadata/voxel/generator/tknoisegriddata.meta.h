@@ -1,7 +1,7 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../pch.h"
 
-class cTkNoiseVoxelTypeEnum;
+#include "../../../../../metadata/toolkit/metadata/voxel/generator/tknoisevoxeltypeenum.meta.h"
 
 enum eNoiseGridType
 {
@@ -28,11 +28,10 @@ enum eNoiseGridType
     ENoiseGridType_SuperPrimitive = 20,
     ENoiseGridType_File = 21,
 };
-class cTkNoiseOffsetEnum;
-class cTkNoiseUberLayerData;
-class cTkNoiseSuperFormulaData;
-class cTkNoiseSuperFormulaData;
-class cTkNoiseSuperPrimitiveData;
+#include "../../../../../metadata/toolkit/metadata/voxel/generator/tknoiseoffsetenum.meta.h"
+#include "../../../../../metadata/toolkit/metadata/voxel/generator/tknoiseuberlayerdata.meta.h"
+#include "../../../../../metadata/toolkit/metadata/voxel/generator/tknoisesuperformuladata.meta.h"
+#include "../../../../../metadata/toolkit/metadata/voxel/generator/tknoisesuperprimitivedata.meta.h"
 
 class cTkNoiseGridData
 {
@@ -79,10 +78,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

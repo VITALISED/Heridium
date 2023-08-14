@@ -1,5 +1,5 @@
 #pragma once
-#include "pch.h"
+#include "../../../../pch.h"
 
 enum eSimpleInteractionType
 {
@@ -40,12 +40,15 @@ enum eSimpleInteractionType
     ESimpleInteractionType_MiniPortalTrigger = 34,
     ESimpleInteractionType_SuperDoopaScanner = 35,
 };
-class cGcRarity;
-class cGcSizeIndicator;
-class cGcFiendCrime;
-class cGcInteractionActivationCost;
-class cGcStatsEnum;
-class cGcDiscoveryType;
+#include "../../../../metadata/source/metadata/reality/gcrarity.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcsizeindicator.meta.h"
+#include "../../../../metadata/source/metadata/gameplay/gcfiendcrime.meta.h"
+#include "../../../../metadata/source/metadata/gameplay/gcinteractionactivationcost.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcstatsenum.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcdiscoverytype.meta.h"
+#include "../../../../metadata/source/metadata/gameplay/gcinteractionbasebuildingstate.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcrewardmissionoverride.meta.h"
+#include "../../../../metadata/source/metadata/gameplay/gcpersistencymissionoverride.meta.h"
 
 class cGcSimpleInteractionComponentData
 {
@@ -85,9 +88,9 @@ public:
     cGcDiscoveryType mScanIcon;
     bool mbActivateLocatorsFromRarity;
     cTkFixedArray<TkID<128>, 3> maRarityLocators;
-    cTkDynamicArray<cGcInteractionBaseBuildingState1> maBaseBuildingTriggerActions;
-    cTkDynamicArray<cGcRewardMissionOverride1> maRewardOverrideTable;
-    cTkDynamicArray<cGcPersistencyMissionOverride1> maPersistencyBufferOverride;
+    cTkDynamicArray<cGcInteractionBaseBuildingState> maBaseBuildingTriggerActions;
+    cTkDynamicArray<cGcRewardMissionOverride> maRewardOverrideTable;
+    cTkDynamicArray<cGcPersistencyMissionOverride> maPersistencyBufferOverride;
     bool mbUsePersonalPersistentBuffer;
     bool mbReseedOnRewardSuccess;
     bool mbCanCollectInMech;
@@ -97,10 +100,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

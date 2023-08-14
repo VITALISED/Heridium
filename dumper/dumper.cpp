@@ -29,20 +29,20 @@ void Dumper::Dump(const char* lpacFilename, const cTkMetaDataClass* lpMetaDataCl
 
 	std::string pchDepth = "pch.h";
 
-	//if ((depth - 2) > 0)
-	//{
-	//	for (int i = 0; i < depth; i++)
-	//	{
-	//		pchDepth.insert(0, "../");
-	//	}
-	//}
+	if ((depth - 2) > 0)
+	{
+		for (int i = 0; i < (depth - 2); i++)
+		{
+			pchDepth.insert(0, "../");
+		}
+	}
 
 	std::string pchInclude = fmt::format("#include \"{}\"\n\n", pchDepth);
 	Header << pchInclude.c_str();
 
 	if (lpMetaDataClass->miNumMembers)
 	{
-		Dumper::ResolveMembersFirstPass(&Header, lpMetaDataClass);
+		Dumper::ResolveMembersFirstPass(&Header, lpMetaDataClass, depth);
 	}
 
 	Header << "class " << lpMetaDataClass->mpacName; Header << "\n{\npublic:\n";
@@ -64,22 +64,92 @@ void Dumper::Dump(const char* lpacFilename, const cTkMetaDataClass* lpMetaDataCl
 	Header.close();
 }
 
-void Dumper::ResolveMembersFirstPass(std::ofstream* Header, const cTkMetaDataClass* lpMetaDataClass)
+void Dumper::ResolveMembersFirstPass(std::ofstream* Header, const cTkMetaDataClass* lpMetaDataClass, int depth)
 {
 	cTkMetaDataMember* laMember = (cTkMetaDataMember*)lpMetaDataClass->maMembers;
 
 	bool hasIterated = false;
+
+	std::vector<const char*> currentDeclarations = std::vector<const char*>();
 
 	for (int i = 0; i < lpMetaDataClass->miNumMembers; i++)
 	{
 		if (!laMember)
 			break;
 
-		if (laMember->mType == cTkMetaDataMember::EType_Class && laMember->mpClassMetadata->mpacName)
+		if (laMember->mType == cTkMetaDataMember::EType_Class && !(std::find(currentDeclarations.begin(), currentDeclarations.end(), laMember->mpClassMetadata->mpacName) != currentDeclarations.end()) && laMember->mpClassMetadata->mpacName)
 		{
 			hasIterated = true;
-			*Header << "class "; *Header << laMember->mpClassMetadata->mpacName; *Header << ";\n";
-		} else 
+			currentDeclarations.push_back(laMember->mpClassMetadata->mpacName);
+			//*Header << "class "; *Header << laMember->mpClassMetadata->mpacName; *Header << ";\n";
+
+			for (int i = 0; i < classPaths.size(); i++)
+			{
+				std::string includeDepth = "";
+
+				std::string my_str = laMember->mpClassMetadata->mpacName;
+				std::string string2 = classPaths[i].first;
+				std::transform(my_str.begin(), my_str.end(), my_str.begin(), ::tolower);
+				std::transform(string2.begin(), string2.end(), string2.begin(), ::tolower);
+
+				if (my_str.compare(string2) == 0)
+				{
+					if ((depth - 2) > 0)
+					{
+						for (int i = 0; i < (depth - 2); i++)
+						{
+							includeDepth.insert(0, "../");
+						}
+					}
+
+					includeDepth.append(classPaths[i].second);
+				}
+
+				if (!includeDepth.empty())
+				{
+					std::string includePath = fmt::format("#include \"{}\"\n", includeDepth);
+
+					*Header << includePath.c_str();
+				}
+			}
+		}
+
+		if(laMember->mInnerType == cTkMetaDataMember::EType_Class && !(std::find(currentDeclarations.begin(), currentDeclarations.end(), laMember->mpClassMetadata->mpacName) != currentDeclarations.end()) && laMember->mpClassMetadata->mpacName)
+		{
+			hasIterated = true;
+			currentDeclarations.push_back(laMember->mpClassMetadata->mpacName);
+			//*Header << "class "; *Header << laMember->mpClassMetadata->mpacName; *Header << ";\n";
+
+			for (int i = 0; i < classPaths.size(); i++)
+			{
+				std::string includeDepth = "";
+
+				std::string my_str = laMember->mpClassMetadata->mpacName;
+				std::string string2 = classPaths[i].first;
+				std::transform(my_str.begin(), my_str.end(), my_str.begin(), ::tolower);
+				std::transform(string2.begin(), string2.end(), string2.begin(), ::tolower);
+
+				if (my_str.compare(string2) == 0)
+				{
+					if ((depth - 2) > 0)
+					{
+						for (int i = 0; i < (depth - 2); i++)
+						{
+							includeDepth.insert(0, "../");
+						}
+					}
+
+					includeDepth.append(classPaths[i].second);
+				}
+
+				if (!includeDepth.empty())
+				{
+					std::string includePath = fmt::format("#include \"{}\"\n", includeDepth);
+
+					*Header << includePath.c_str();
+				}
+			}
+		}
 
 		if (laMember->mType == cTkMetaDataMember::EType_Enum || laMember->mType == cTkMetaDataMember::EType_Flags)
 		{
@@ -148,8 +218,13 @@ void Dumper::ResolveMembers(std::ofstream* Header, const cTkMetaDataClass* lpMet
 				innerString->append(laMember->mpClassMetadata->mpacName);
 
 			innerString->append(Dumper::EnumToChar(laMember->mInnerType));
+
 			if (laMember->mType == cTkMetaDataMember::EType_StaticArray)
-				innerString->append(", "); innerString->append(std::to_string(laMember->miCount));
+			{
+				innerString->append(", ");
+				innerString->append(std::to_string(laMember->miCount));
+			}
+
 			if (innerString->back() == '>')
 				innerString->append(" ");
 			innerString->append(">");
@@ -183,10 +258,9 @@ void Dumper::ResolveMembers(std::ofstream* Header, const cTkMetaDataClass* lpMet
 	*Header << "    static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);\n";
 	*Header << "    static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);\n";
 	*Header << "    static void ClassPointerDestroy(cTkClassPointer* lPtr);\n";
-	*Header << "    static void ClassPointerValidateData(cTkClassPointer* lPtr);\n";
+	*Header << "    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);\n";
 	*Header << "    static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);\n";
 	*Header << "    static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);\n";
-	*Header << "    static void ClassPointerRender(cTkClassPointer* lPtr);\n";
 	*Header << "    static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);\n";
 	*Header << "    static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);\n";
 }

@@ -1,5 +1,5 @@
 #pragma once
-#include "pch.h"
+#include "../../../../pch.h"
 
 enum eQuality
 {
@@ -10,8 +10,9 @@ enum eQuality
     EQuality_Illegal = 4,
     EQuality_Sentinel = 5,
 };
-class cGcProceduralTechnologyCategory;
-class cGcWeightingCurve;
+#include "../../../../metadata/source/metadata/reality/gcproceduraltechnologycategory.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcweightingcurve.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcproceduraltechnologystatlevel.meta.h"
 
 class cGcProceduralTechnologyData
 {
@@ -34,17 +35,16 @@ public:
     int miNumStatsMax;
     cGcWeightingCurve mWeightingCurve;
     cTkColour mUpgradeColour;
-    cTkDynamicArray<cGcProceduralTechnologyStatLevel1> maStatLevels;
+    cTkDynamicArray<cGcProceduralTechnologyStatLevel> maStatLevels;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

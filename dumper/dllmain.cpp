@@ -2,7 +2,6 @@
 #include "dllmain.h" 
 
 cTkMetaData::Register fpRegister = NULL;
-std::ofstream gPrimaryHeader;
 
 void RegisterHook(const cTkMetaDataClass* lpClassMetadata,
     void(__fastcall* lDefaultFunction)(cTkClassPointer*, cTkLinearMemoryPool*),
@@ -32,18 +31,40 @@ void RegisterHook(const cTkMetaDataClass* lpClassMetadata,
         if (classPaths[i].first == key)
             pathOptional = classPaths[i].second;
     }
-    gPrimaryHeader << fmt::format("#include \"{}\"\n", pathOptional).c_str();
     Dumper::Dump(pathOptional.c_str(), lpClassMetadata);
-    MethodDumper::Dump(pathOptional.c_str(), lpClassMetadata);
+
+    // we can't call GetLookup since this func comes before it, bit hacky.
+    std::vector<uintptr_t> classPointerFuncs =
+    {
+        (uintptr_t)lDefaultFunction,
+        (uintptr_t)lFixingFunction,
+        (uintptr_t)lValidateFunction,
+        (uintptr_t)lRenderFunction,
+        (uintptr_t)lEqualsFunction,
+        (uintptr_t)lCopyFunction,
+        (uintptr_t)lCreateFunction,
+        (uintptr_t)lHashFunction,
+        (uintptr_t)lDestroyFunction
+    };
+
+    MethodDumper::Dump(pathOptional.c_str(), lpClassMetadata, &classPointerFuncs);
     return fpRegister(lpClassMetadata, lDefaultFunction, lFixingFunction, lValidateFunction, lRenderFunction, lEqualsFunction, lCopyFunction, lCreateFunction, lHashFunction, lDestroyFunction);
 }
 
 DWORD WINAPI MainThread(LPVOID lpReserved)
 {
     spdlog::info("Starting");
-    gPrimaryHeader = std::ofstream("./HERIDIUM/heridium.h");
-    gPrimaryHeader << "#pragma once\n\n";
     ADDHOOK(OFFSET(0x248ABC0), RegisterHook, reinterpret_cast<LPVOID*>(&fpRegister), cTkMetaData::Register);
+
+    std::ofstream PrimaryHeader("./HERIDIUM/heridium.h");
+
+    PrimaryHeader << "#pragma once\n\n";
+    for (int i = 0; i < classPaths.size(); i++)
+    {
+        PrimaryHeader << "#include \""; PrimaryHeader << classPaths[i].second; PrimaryHeader << "\"\n";
+    }
+    PrimaryHeader.close();
+
 
     return TRUE;
 }

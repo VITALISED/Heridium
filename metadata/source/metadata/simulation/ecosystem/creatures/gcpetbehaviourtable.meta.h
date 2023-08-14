@@ -1,5 +1,12 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../../pch.h"
+
+#include "../../../../../../metadata/source/metadata/simulation/ecosystem/creatures/gcpetbehaviourdata.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/ecosystem/creatures/gcpettraitmoodmodifierlist.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/ecosystem/creatures/gcpetactionmoodmodifier.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/ecosystem/creatures/data/gccreaturepettraitranges.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/ecosystem/creatures/gcpettraitstaminamodifier.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/ecosystem/creatures/gcpetmoodstaminamodifier.meta.h"
 
 class cGcPetBehaviourTable
 {
@@ -19,8 +26,8 @@ public:
     cTkFixedArray<cGcCreaturePetTraitRanges, 11> maTraitRanges;
     cTkFixedArray<float, 2> maMoodValuesOnAdopt;
     cTkFixedArray<float, 2> maMoodValuesOnHatch;
-    cTkDynamicArray<cGcPetTraitStaminaModifier1> maTraitStaminaModifiers;
-    cTkDynamicArray<cGcPetMoodStaminaModifier1> maMoodStaminaModifiers;
+    cTkDynamicArray<cGcPetTraitStaminaModifier> maTraitStaminaModifiers;
+    cTkDynamicArray<cGcPetMoodStaminaModifier> maMoodStaminaModifiers;
     float mfAccessoryGyroFollowMotionStrength;
     float mfAccessoryGyroToNeutralStrength;
     float mfAccessoryGyroDamping;
@@ -32,10 +39,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

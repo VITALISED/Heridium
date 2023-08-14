@@ -1,7 +1,8 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../pch.h"
 
-class cTkAnimNodeFrameData;
+#include "../../../../../metadata/toolkit/metadata/scene/animation/tkanimnodedata.meta.h"
+#include "../../../../../metadata/toolkit/metadata/scene/animation/tkanimnodeframedata.meta.h"
 
 class cTkAnimMetadata
 {
@@ -10,8 +11,8 @@ public:
     static const unsigned __int64 muTemplateHash = 0x8FCA4C586CEF8D34;
     static const int miNumMembers = 6;
 
-    cTkDynamicArray<cTkAnimNodeData1> maNodeData;
-    cTkDynamicArray<cTkAnimNodeFrameData1> maAnimFrameData;
+    cTkDynamicArray<cTkAnimNodeData> maNodeData;
+    cTkDynamicArray<cTkAnimNodeFrameData> maAnimFrameData;
     cTkAnimNodeFrameData mStillFrameData;
     int miFrameCount;
     int miNodeCount;
@@ -22,10 +23,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

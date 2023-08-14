@@ -1,11 +1,12 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../pch.h"
 
-class cGcDiscoveryOwner;
-class cGcPersistentBaseTypes;
-class cGcGameMode;
-class cGcPersistentBaseDifficultyData;
-class cGcBaseAutoPowerSetting;
+#include "../../../../../metadata/source/metadata/gamestate/basebuilding/gcpersistentbaseentry.meta.h"
+#include "../../../../../metadata/source/metadata/reality/gcdiscoveryowner.meta.h"
+#include "../../../../../metadata/source/metadata/gamestate/basebuilding/gcpersistentbasetypes.meta.h"
+#include "../../../../../metadata/source/metadata/gamestate/gcgamemode.meta.h"
+#include "../../../../../metadata/source/metadata/user/gcpersistentbasedifficultydata.meta.h"
+#include "../../../../../metadata/source/metadata/gamestate/basebuilding/gcbaseautopowersetting.meta.h"
 
 class cGcPersistentBase
 {
@@ -21,7 +22,7 @@ public:
     cTkVector3 mForward;
     unsigned __int64 mui64UserData;
     unsigned __int64 mui64LastUpdateTimestamp;
-    cTkDynamicArray<cGcPersistentBaseEntry1> maObjects;
+    cTkDynamicArray<cGcPersistentBaseEntry> maObjects;
     cTkFixedString<64,char> macRID;
     cGcDiscoveryOwner mOwner;
     cTkFixedString<64,char> macName;
@@ -42,10 +43,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

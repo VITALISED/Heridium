@@ -13,6 +13,6 @@ namespace Dumper
 	void Dump(const char* lpacFilename, const cTkMetaDataClass* lpMetaDataClass);
 	void ResolveMembers(std::ofstream* Header, const cTkMetaDataClass* lpMetaDataClass);
 	const char* EnumToChar(cTkMetaDataMember::eType leType);
-	void ResolveMembersFirstPass(std::ofstream* Header, const cTkMetaDataClass* lpMetaDataClass);
+	void ResolveMembersFirstPass(std::ofstream* Header, const cTkMetaDataClass* lpMetaDataClass, int depth);
 	const char* CreateHungarainNotationForMember(cTkMetaDataMember::eType leType);
 }

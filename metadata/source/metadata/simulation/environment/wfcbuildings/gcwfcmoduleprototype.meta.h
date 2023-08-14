@@ -1,5 +1,7 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../../pch.h"
+
+#include "../../../../../../metadata/source/metadata/simulation/environment/wfcbuildings/gcweightedresource.meta.h"
 
 enum eTerrainEdits
 {
@@ -8,12 +10,8 @@ enum eTerrainEdits
     ETerrainEdits_UseScene = 2,
     ETerrainEdits_UseBasebuildingEdits = 3,
 };
-class cGcWFCFace;
-class cGcWFCFace;
-class cGcWFCFace;
-class cGcWFCFace;
-class cGcWFCFace;
-class cGcWFCFace;
+#include "../../../../../../metadata/source/metadata/simulation/environment/wfcbuildings/gcwfcterrainconstraint.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/environment/wfcbuildings/gcwfcface.meta.h"
 
 enum eFreighterModuleType
 {
@@ -41,9 +39,9 @@ public:
     bool mbExcludeRotatedVariants;
     bool mbDontRotateModel;
     TkID<128> mLayoutGroup;
-    cTkDynamicArray<cGcWeightedResource1> maScenes;
+    cTkDynamicArray<cGcWeightedResource> maScenes;
     eTerrainEdits meTerrainEdits;
-    cTkDynamicArray<cGcWFCTerrainConstraint1> maTerrainConstraints;
+    cTkDynamicArray<cGcWFCTerrainConstraint> maTerrainConstraints;
     cGcWFCFace mLeft;
     cGcWFCFace mDown;
     cGcWFCFace mBack;
@@ -57,10 +55,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

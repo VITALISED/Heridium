@@ -1,5 +1,5 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../pch.h"
 
 enum eAnimationIntensity
 {
@@ -8,6 +8,7 @@ enum eAnimationIntensity
     EAnimationIntensity_High = 2,
     EAnimationIntensity_None = 3,
 };
+#include "../../../../../metadata/source/metadata/reality/gcalienrace.meta.h"
 
 class cGcNPCProbabilityAnimationData
 {
@@ -19,18 +20,17 @@ public:
     TkID<128> mName;
     float mfProbability;
     eAnimationIntensity meAnimationIntensity;
-    cTkDynamicArray<cGcAlienRace1> maExcludeRace;
-    cTkDynamicArray<TkID<128>1> maTags;
+    cTkDynamicArray<cGcAlienRace> maExcludeRace;
+    cTkDynamicArray<TkID<128> > maTags;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

@@ -1,5 +1,7 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../../../pch.h"
+
+#include "../../../../../../../metadata/source/metadata/simulation/ecosystem/creatures/data/gccreaturehovertintableeffect.meta.h"
 
 class cGcCreatureHoverMovementDataParams
 {
@@ -8,7 +10,7 @@ public:
     static const unsigned __int64 muTemplateHash = 0x8E185E70D1EAA16D;
     static const int miNumMembers = 19;
 
-    cTkDynamicArray<TkID<256>1> maValidDescriptors;
+    cTkDynamicArray<TkID<256> > maValidDescriptors;
     float mfNavOffsetY;
     float mfNavOffsetZ;
     float mfGroundHeightOffset;
@@ -26,17 +28,16 @@ public:
     float mfHeightForMinGroundAvoid;
     float mfGroundAvoidTimeModifier;
     bool mbCanJump;
-    cTkDynamicArray<cGcCreatureHoverTintableEffect1> maTintableEffects;
+    cTkDynamicArray<cGcCreatureHoverTintableEffect> maTintableEffects;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

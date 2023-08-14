@@ -1,9 +1,9 @@
 #pragma once
-#include "pch.h"
+#include "../../../../pch.h"
 
-class cTkTextureResource;
-class cTkTextureResource;
-class cGcWikiTopicType;
+#include "../../../../metadata/toolkit/metadata/tktextureresource.meta.h"
+#include "../../../../metadata/source/metadata/wiki/gcwikitopic.meta.h"
+#include "../../../../metadata/source/metadata/wiki/gcwikitopictype.meta.h"
 
 class cGcWikiCategory
 {
@@ -16,9 +16,9 @@ public:
     TkID<256> mCategoryIDUpper;
     cTkTextureResource mIconOn;
     cTkTextureResource mIconOff;
-    cTkDynamicArray<cGcWikiTopic1> maTopics;
+    cTkDynamicArray<cGcWikiTopic> maTopics;
     cGcWikiTopicType mType;
-    cTkDynamicArray<TkID<128>1> maItems;
+    cTkDynamicArray<TkID<128> > maItems;
     int miUnseenCount;
     int miUnlockedCount;
 
@@ -27,10 +27,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

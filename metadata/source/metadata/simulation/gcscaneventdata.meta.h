@@ -1,8 +1,8 @@
 #pragma once
-#include "pch.h"
+#include "../../../../pch.h"
 
-class cGcInteractionType;
-class cGcAlienRace;
+#include "../../../../metadata/source/metadata/simulation/components/gameplay/gcinteractiontype.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcalienrace.meta.h"
 
 enum eEventStartType
 {
@@ -66,7 +66,7 @@ enum eBuildingType
     EBuildingType_NPC_HideOut = 21,
     EBuildingType_FriendlyDrone = 22,
 };
-class cGcBuildingClassification;
+#include "../../../../metadata/source/metadata/simulation/environment/gcbuildingclassification.meta.h"
 
 enum eSolarSystemLocation
 {
@@ -77,14 +77,13 @@ enum eSolarSystemLocation
     ESolarSystemLocation_FromList = 4,
     ESolarSystemLocation_SeasonParty = 5,
 };
-class cGcScanEventSolarSystemLookup;
-class cGcScanEventSolarSystemLookup;
-class cGcScanEventTriggers;
-class cGcTechnologyCategory;
-class cTkTextureResource;
-class cGcScannerIconHighlightTypes;
-class cGcAudioWwiseEvents;
-class cGcResourceElement;
+#include "../../../../metadata/source/metadata/simulation/gcscaneventsolarsystemlookup.meta.h"
+#include "../../../../metadata/source/metadata/simulation/gcscaneventtriggers.meta.h"
+#include "../../../../metadata/source/metadata/reality/gctechnologycategory.meta.h"
+#include "../../../../metadata/toolkit/metadata/tktextureresource.meta.h"
+#include "../../../../metadata/source/metadata/graphics/hud/gcscannericonhighlighttypes.meta.h"
+#include "../../../../metadata/source/metadata/audio/gcaudiowwiseevents.meta.h"
+#include "../../../../metadata/source/metadata/utilities/data/gcresourceelement.meta.h"
 
 class cGcScanEventData
 {
@@ -131,7 +130,7 @@ public:
     TkID<128> mHasReward;
     TkID<256> mNextOption;
     cGcScanEventTriggers mTriggerActions;
-    cTkDynamicArray<cTkFixedString<256,char>1> maUAsList;
+    cTkDynamicArray<cTkFixedString<256,char> > maUAsList;
     cGcTechnologyCategory mTechShopType;
     cTkFixedString<32,char> macOSDMessage;
     cTkFixedString<32,char> macInterstellarOSDMessage;
@@ -154,10 +153,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

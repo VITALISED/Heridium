@@ -6,7 +6,9 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_C_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_library(HermidiumDLL SHARED
+file(GLOB_RECURSE METADATA ${CMAKE_SOURCE_DIR}/metadata/*)
+
+add_library(HermidiumDLL STATIC
 	"dllmain.cpp"
 	"framework.h"
 	"heridium.h"
@@ -25,11 +27,19 @@ add_library(HermidiumDLL SHARED
 	"common/maths/TkVector4.h"
 	"common/maths/TkPhysRelVec3.h"
 	"common/utilities/TkNetworkID.h"
-	"common/maths/TkHalfVector4.h")
+	"common/maths/TkHalfVector4.h"
+	"common/simulation/TkSeed.h"
+	"common/resources/TkSmartResHandle.h"
+	"common/utilities/TkStrongType.h"
+	"common/graphics/TkColour.h"
+	${METADATA}
+ "common/attachments/TkHandle.h"
+)
+
+ target_precompile_headers(HermidiumDLL PRIVATE pch.h)
+
 
 target_include_directories(HermidiumDLL PRIVATE ${CMAKE_SOURCE_DIR}/metadata)
-
-target_precompile_headers(HermidiumDLL PRIVATE pch.h metadata.h)
 
 set_target_properties(HermidiumDLL PROPERTIES
         OUTPUT_NAME HermidiumDLL

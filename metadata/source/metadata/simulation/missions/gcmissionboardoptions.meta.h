@@ -1,8 +1,9 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../pch.h"
 
-class cGcMissionType;
-class cGcMissionDifficulty;
+#include "../../../../../metadata/source/metadata/simulation/missions/types/gcmissiontype.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/missions/types/gcmissiondifficulty.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/missions/types/gcmissionfaction.meta.h"
 
 enum eDefaultItemTypeForInitialWarp
 {
@@ -28,23 +29,22 @@ public:
     bool mbIsPlanetProcMission;
     bool mbIsMultiplayerEventMission;
     TkID<128> mRewardPenaltyOnAbandon;
-    cTkDynamicArray<cGcMissionFaction1> maFaction;
+    cTkDynamicArray<cGcMissionFaction> maFaction;
     int miWeighting;
     bool mbIgnoreCalculatedObjective;
     TkID<256> mMultiplayerMissionInitialWarpScanEvent;
-    cTkDynamicArray<TkID<256>1> maDefaultItemInitialWarpScanEvents;
+    cTkDynamicArray<TkID<256> > maDefaultItemInitialWarpScanEvents;
     eDefaultItemTypeForInitialWarp meDefaultItemTypeForInitialWarp;
-    cTkDynamicArray<TkID<128>1> maBasePartBlueprints;
+    cTkDynamicArray<TkID<128> > maBasePartBlueprints;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

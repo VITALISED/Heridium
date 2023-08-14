@@ -1,12 +1,13 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../../pch.h"
 
-class cGcMiningSubstanceData;
-class cGcMiningSubstanceData;
-class cGcMiningSubstanceData;
-class cGcPlanetWaterData;
-class cGcBiomeCloudSettings;
-class cGcTerrainControls;
+#include "../../../../../../metadata/source/metadata/simulation/solarsystem/planet/gcminingsubstancedata.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/solarsystem/planet/gcplanetwaterdata.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/environment/gcexternalobjectlistoptions.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/solarsystem/planet/gcweatherweightings.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/solarsystem/planet/gcbiomecloudsettings.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/solarsystem/planet/gcterraincontrols.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/solarsystem/planet/gcscreenfilteroption.meta.h"
 
 class cGcBiomeData
 {
@@ -25,12 +26,12 @@ public:
     cGcMiningSubstanceData mMiningSubstance3;
     float mfFuelMultiplier;
     cGcPlanetWaterData mWater;
-    cTkDynamicArray<cGcExternalObjectListOptions1> maExternalObjectLists;
+    cTkDynamicArray<cGcExternalObjectListOptions> maExternalObjectLists;
     cTkFixedArray<cGcWeatherWeightings, 4> maWeatherOptions;
     cTkVector2 mWeatherChangeTime;
     cGcBiomeCloudSettings mCloudSettings;
     cGcTerrainControls mTerrain;
-    cTkDynamicArray<cGcScreenFilterOption1> maFilterOptions;
+    cTkDynamicArray<cGcScreenFilterOption> maFilterOptions;
     TkID<256> mFloraLifeLocID;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
@@ -38,10 +39,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

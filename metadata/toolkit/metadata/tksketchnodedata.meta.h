@@ -1,5 +1,5 @@
 #pragma once
-#include "pch.h"
+#include "../../../pch.h"
 
 enum eTriggerType
 {
@@ -10,6 +10,7 @@ enum eTriggerType
     ETriggerType_QueueLatest = 4,
     ETriggerType_QueueAll = 5,
 };
+#include "../../../metadata/toolkit/metadata/tksketchnodeconnections.meta.h"
 
 class cTkSketchNodeData
 {
@@ -23,18 +24,17 @@ public:
     int miSelectedVariant;
     int miPositionX;
     int miPositionY;
-    cTkDynamicArray<cTkSketchNodeConnections1> maConnections;
-    cTkDynamicArray<unsigned __int81> maCustomData;
+    cTkDynamicArray<cTkSketchNodeConnections> maConnections;
+    cTkDynamicArray<unsigned __int8> maCustomData;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

@@ -1,9 +1,9 @@
 #pragma once
-#include "pch.h"
+#include "../../../../pch.h"
 
-class cGcAlienRace;
-class cGcInteractionType;
-class cGcAlienPuzzleCategory;
+#include "../../../../metadata/source/metadata/reality/gcalienrace.meta.h"
+#include "../../../../metadata/source/metadata/simulation/components/gameplay/gcinteractiontype.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcalienpuzzlecategory.meta.h"
 
 enum eAdditionalOptions
 {
@@ -11,8 +11,10 @@ enum eAdditionalOptions
     EAdditionalOptions_LearnWord = 1,
     EAdditionalOptions_SayWord = 2,
 };
-class cGcAlienMood;
-class cGcNPCPropType;
+#include "../../../../metadata/source/metadata/reality/gcalienpuzzleoption.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcalienmood.meta.h"
+#include "../../../../metadata/source/metadata/simulation/ecosystem/npcs/gcnpcproptype.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcpuzzletextflow.meta.h"
 
 enum ePersistancyBufferOverride
 {
@@ -20,7 +22,7 @@ enum ePersistancyBufferOverride
     EPersistancyBufferOverride_AlwaysPersonal = 1,
     EPersistancyBufferOverride_AlwaysFireteam = 2,
 };
-class cGcAudioWwiseEvents;
+#include "../../../../metadata/source/metadata/audio/gcaudiowwiseevents.meta.h"
 
 class cGcAlienPuzzleEntry
 {
@@ -43,12 +45,12 @@ public:
     bool mbTranslationBrackets;
     bool mbProgressiveDialogue;
     TkID<256> mRequiresScanEvent;
-    cTkDynamicArray<cGcAlienPuzzleOption1> maOptions;
-    cTkDynamicArray<TkID<256>1> maAdditionalText;
-    cTkDynamicArray<TkID<256>1> maAdditionalTextAlien;
+    cTkDynamicArray<cGcAlienPuzzleOption> maOptions;
+    cTkDynamicArray<TkID<256> > maAdditionalText;
+    cTkDynamicArray<TkID<256> > maAdditionalTextAlien;
     cGcAlienMood mMood;
     cGcNPCPropType mProp;
-    cTkDynamicArray<cGcPuzzleTextFlow1> maAdvancedInteractionFlow;
+    cTkDynamicArray<cGcPuzzleTextFlow> maAdvancedInteractionFlow;
     ePersistancyBufferOverride mePersistancyBufferOverride;
     int miCustomFreighterTextIndex;
     bool mbRadialInteraction;
@@ -59,10 +61,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

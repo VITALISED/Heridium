@@ -1,5 +1,5 @@
 #pragma once
-#include "pch.h"
+#include "../../../../pch.h"
 
 enum eScaleInTransformApplicationOnCloth
 {
@@ -28,9 +28,14 @@ enum eInitialShapeSource
     EInitialShapeSource_TakenFromRenderMesh = 1,
     EInitialShapeSource_Saved = 2,
 };
-class cGcRectangularInitialShape;
-class cGcConstraintsToCreateSpec;
-class cGcAdvancedTweaks;
+#include "../../../../metadata/source/metadata/cloth/gcrectangularinitialshape.meta.h"
+#include "../../../../metadata/source/metadata/cloth/gcclothcollisionbone.meta.h"
+#include "../../../../metadata/source/metadata/cloth/gcclothattachmentcirlce.meta.h"
+#include "../../../../metadata/source/metadata/cloth/gcclothattachmentline.meta.h"
+#include "../../../../metadata/source/metadata/cloth/gcattachmentpointset.meta.h"
+#include "../../../../metadata/source/metadata/cloth/gcconstraintstocreatespec.meta.h"
+#include "../../../../metadata/source/metadata/cloth/gcadvancedtweaks.meta.h"
+#include "../../../../metadata/source/metadata/cloth/gcattachednode.meta.h"
 
 class cGcClothPiece
 {
@@ -62,22 +67,22 @@ public:
     eScaleInTransformApplicationOnAttachment meScaleInTransformApplicationOnAttachment;
     eInitialShapeSource meInitialShapeSource;
     cGcRectangularInitialShape mRectangularInitialShape;
-    cTkDynamicArray<cTkVector31> maInitialShapePoints;
-    cTkDynamicArray<cGcClothCollisionBone1> maCollisionBones;
-    cTkDynamicArray<cGcClothAttachmentCirlce1> maAttachmentCircles;
-    cTkDynamicArray<cGcClothAttachmentLine1> maAttachmentLines;
-    cTkDynamicArray<cGcAttachmentPointSet1> maAttachmentPointSets;
+    cTkDynamicArray<cTkVector3> maInitialShapePoints;
+    cTkDynamicArray<cGcClothCollisionBone> maCollisionBones;
+    cTkDynamicArray<cGcClothAttachmentCirlce> maAttachmentCircles;
+    cTkDynamicArray<cGcClothAttachmentLine> maAttachmentLines;
+    cTkDynamicArray<cGcAttachmentPointSet> maAttachmentPointSets;
     cGcConstraintsToCreateSpec mConstraintsToCreate;
-    cTkDynamicArray<cTkFixedString<64,char>1> maNodesThatMustBePresent;
-    cTkDynamicArray<cTkFixedString<64,char>1> maNodesToHide;
+    cTkDynamicArray<cTkFixedString<64,char> > maNodesThatMustBePresent;
+    cTkDynamicArray<cTkFixedString<64,char> > maNodesToHide;
     cGcAdvancedTweaks mAdvanced;
     bool mbVertexBasedClothRenderingEnabled;
     bool mbAttachedNodesEnabled;
-    cTkDynamicArray<cGcAttachedNode1> maAttachedNodes;
+    cTkDynamicArray<cGcAttachedNode> maAttachedNodes;
     float mfAttachedNodesOverallBlendStrength;
-    cTkDynamicArray<int1> maDeletedSimPoints;
-    cTkDynamicArray<int1> maDeletedConstraintsI;
-    cTkDynamicArray<int1> maDeletedConstraintsJ;
+    cTkDynamicArray<int> maDeletedSimPoints;
+    cTkDynamicArray<int> maDeletedConstraintsI;
+    cTkDynamicArray<int> maDeletedConstraintsJ;
     bool mbLeaveRenderedTrianglesUnaffected;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
@@ -85,10 +90,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

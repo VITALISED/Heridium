@@ -1,9 +1,10 @@
 #pragma once
-#include "pch.h"
+#include "../../../../pch.h"
 
-class cGcAlienRace;
-class cGcInteractionType;
-class cGcTechnologyCategory;
+#include "../../../../metadata/source/metadata/reality/gcalienrace.meta.h"
+#include "../../../../metadata/source/metadata/simulation/components/gameplay/gcinteractiontype.meta.h"
+#include "../../../../metadata/source/metadata/reality/gctechnologycategory.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcalienpuzzlemissionoverride.meta.h"
 
 class cGcNPCPlacementInfo
 {
@@ -25,13 +26,13 @@ public:
     cGcInteractionType mInteractionOverride;
     cGcTechnologyCategory mTechShopCategory;
     TkID<256> mForceInteraction;
-    cTkDynamicArray<cGcAlienPuzzleMissionOverride1> maPuzzleMissionOverrideTable;
+    cTkDynamicArray<cGcAlienPuzzleMissionOverride> maPuzzleMissionOverrideTable;
     bool mbDisableInteraction;
     bool mbUseFreighterNPC;
     bool mbPlaceAtLeastOne;
     bool mbSpawnMoving;
     bool mbSpawnInAbandoned;
-    cTkDynamicArray<TkID<128>1> maHideDuringMissions;
+    cTkDynamicArray<TkID<128> > maHideDuringMissions;
     bool mbOnlyUsePuzzleOverridesIfPlayerOwned;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
@@ -39,10 +40,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

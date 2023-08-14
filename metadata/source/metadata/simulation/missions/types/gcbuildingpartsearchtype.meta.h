@@ -1,5 +1,5 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../../pch.h"
 
 enum eBuildPartSearchType
 {
@@ -8,6 +8,7 @@ enum eBuildPartSearchType
     EBuildPartSearchType_AllPlayerOwned = 2,
     EBuildPartSearchType_OtherPlayerBase = 3,
 };
+#include "../../../../../../metadata/source/metadata/gamestate/basebuilding/gcpersistentbasetypes.meta.h"
 
 class cGcBuildingPartSearchType
 {
@@ -17,7 +18,7 @@ public:
     static const int miNumMembers = 4;
 
     eBuildPartSearchType meBuildPartSearchType;
-    cTkDynamicArray<cGcPersistentBaseTypes1> maBaseSearchFilters;
+    cTkDynamicArray<cGcPersistentBaseTypes> maBaseSearchFilters;
     bool mbIncludeOnlyOverlappingBases;
     bool mbIncludeGlobalBaseObjects;
 
@@ -26,10 +27,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

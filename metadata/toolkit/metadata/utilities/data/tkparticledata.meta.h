@@ -1,17 +1,10 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../pch.h"
 
-class cTkParticleBurstData;
-class cTkEmitterFloatProperty;
-class cTkEmitFromParticleInfo;
-class cTkEmitterFloatProperty;
-class cTkEmitterFloatProperty;
-class cTkCurveType;
-class cTkCurveType;
-class cTkEmitterFloatProperty;
-class cTkEmitterFloatProperty;
-class cTkEmitterFloatProperty;
-class cTkEmitterFloatProperty;
+#include "../../../../../metadata/toolkit/metadata/utilities/data/tkparticleburstdata.meta.h"
+#include "../../../../../metadata/toolkit/metadata/utilities/data/tkemitterfloatproperty.meta.h"
+#include "../../../../../metadata/toolkit/metadata/utilities/data/tkemitfromparticleinfo.meta.h"
+#include "../../../../../metadata/toolkit/metadata/animation/tkcurvetype.meta.h"
 
 enum eDragType
 {
@@ -29,9 +22,6 @@ enum eSpawnOffsetType
     ESpawnOffsetType_Donut = 4,
     ESpawnOffsetType_Point = 5,
 };
-class cTkEmitterFloatProperty;
-class cTkEmitterFloatProperty;
-class cTkEmitterFloatProperty;
 
 enum eAlignment
 {
@@ -51,8 +41,7 @@ enum eBillboardAlignment
     EBillboardAlignment_NegativeZLocal = 6,
     EBillboardAlignment_ScreenWorld = 7,
 };
-class cTkCoordinateOrientation;
-class cTkCoordinateOrientation;
+#include "../../../../../metadata/toolkit/metadata/utilities/data/tkcoordinateorientation.meta.h"
 
 enum eFlipbookPlaybackRate
 {
@@ -61,14 +50,13 @@ enum eFlipbookPlaybackRate
     EFlipbookPlaybackRate_OnceToCompletion = 2,
     EFlipbookPlaybackRate_Random = 3,
 };
-class cTkEmitterFloatProperty;
 
 enum eOnRefractionsDisabled
 {
     EOnRefractionsDisabled_Hide = 0,
     EOnRefractionsDisabled_AlphaBlend = 1,
 };
-class cTkFloatRange;
+#include "../../../../../metadata/toolkit/metadata/tkfloatrange.meta.h"
 
 class cTkParticleData
 {
@@ -137,10 +125,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

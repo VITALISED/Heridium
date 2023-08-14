@@ -1,8 +1,11 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../pch.h"
 
-class cTkVertexLayout;
-class cTkVertexLayout;
+#include "../../../../../metadata/toolkit/metadata/scene/geometry/tkjointbindingdata.meta.h"
+#include "../../../../../metadata/toolkit/metadata/scene/geometry/tkjointextentdata.meta.h"
+#include "../../../../../metadata/toolkit/metadata/scene/geometry/tkjointmirroraxis.meta.h"
+#include "../../../../../metadata/toolkit/metadata/scene/geometry/tkvertexlayout.meta.h"
+#include "../../../../../metadata/toolkit/metadata/scene/geometry/tkmeshmetadata.meta.h"
 
 class cTkGeometryData
 {
@@ -15,33 +18,32 @@ public:
     int miIndexCount;
     int miIndices16Bit;
     int miCollisionIndexCount;
-    cTkDynamicArray<cTkJointBindingData1> maJointBindings;
-    cTkDynamicArray<cTkJointExtentData1> maJointExtents;
-    cTkDynamicArray<int1> maJointMirrorPairs;
-    cTkDynamicArray<cTkJointMirrorAxis1> maJointMirrorAxes;
-    cTkDynamicArray<int1> maSkinMatrixLayout;
-    cTkDynamicArray<int1> maMeshVertRStart;
-    cTkDynamicArray<int1> maMeshVertREnd;
-    cTkDynamicArray<int1> maBoundHullVertSt;
-    cTkDynamicArray<int1> maBoundHullVertEd;
-    cTkDynamicArray<int1> maMeshBaseSkinMat;
-    cTkDynamicArray<cTkVector41> maMeshAABBMin;
-    cTkDynamicArray<cTkVector41> maMeshAABBMax;
-    cTkDynamicArray<cTkVector41> maBoundHullVerts;
+    cTkDynamicArray<cTkJointBindingData> maJointBindings;
+    cTkDynamicArray<cTkJointExtentData> maJointExtents;
+    cTkDynamicArray<int> maJointMirrorPairs;
+    cTkDynamicArray<cTkJointMirrorAxis> maJointMirrorAxes;
+    cTkDynamicArray<int> maSkinMatrixLayout;
+    cTkDynamicArray<int> maMeshVertRStart;
+    cTkDynamicArray<int> maMeshVertREnd;
+    cTkDynamicArray<int> maBoundHullVertSt;
+    cTkDynamicArray<int> maBoundHullVertEd;
+    cTkDynamicArray<int> maMeshBaseSkinMat;
+    cTkDynamicArray<cTkVector4> maMeshAABBMin;
+    cTkDynamicArray<cTkVector4> maMeshAABBMax;
+    cTkDynamicArray<cTkVector4> maBoundHullVerts;
     cTkVertexLayout mVertexLayout;
     cTkVertexLayout mSmallVertexLayout;
-    cTkDynamicArray<int1> maIndexBuffer;
-    cTkDynamicArray<cTkMeshMetaData1> maStreamMetaDataArray;
+    cTkDynamicArray<int> maIndexBuffer;
+    cTkDynamicArray<cTkMeshMetaData> maStreamMetaDataArray;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

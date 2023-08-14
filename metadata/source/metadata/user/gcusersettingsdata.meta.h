@@ -1,7 +1,7 @@
 #pragma once
-#include "pch.h"
+#include "../../../../pch.h"
 
-class cGcBlockListPersistence;
+#include "../../../../metadata/source/metadata/user/gcblocklistpersistence.meta.h"
 
 enum ePS4FixedFPS
 {
@@ -30,8 +30,7 @@ enum eMovementMode
     EMovementMode_Teleporter = 0,
     EMovementMode_Smooth = 1,
 };
-class cGcMovementDirection;
-class cGcMovementDirection;
+#include "../../../../metadata/source/metadata/simulation/player/gcmovementdirection.meta.h"
 
 enum eTurnMode
 {
@@ -61,19 +60,16 @@ enum exEyeTrackingFlags
     EEyeTrackingFlags_LookVector = 4,
     EEyeTrackingFlags_BinocScanner = 8,
 };
-class cGcGyroSettingsData;
-class cTkLanguages;
-class cGcHand;
+#include "../../../../metadata/source/metadata/user/gcgyrosettingsdata.meta.h"
+#include "../../../../metadata/toolkit/metadata/tklanguages.meta.h"
+#include "../../../../metadata/source/metadata/simulation/player/gchand.meta.h"
 
 enum eHighResVRUI
 {
     EHighResVRUI_High = 0,
     EHighResVRUI_Low = 1,
 };
-class cGcInWorldUIScreenData;
-class cGcInWorldUIScreenData;
-class cGcInWorldUIScreenData;
-class cGcInWorldUIScreenData;
+#include "../../../../metadata/source/metadata/ui/hud/gcinworlduiscreendata.meta.h"
 
 class cGcUserSettingsData
 {
@@ -108,16 +104,16 @@ public:
     bool mbXboxOneXHighResolutionMode;
     bool mbPS4VignetteAndScanlines;
     eBaseSharingMode meBaseSharingMode;
-    cTkDynamicArray<TkID<128>1> maSeenSubstances;
-    cTkDynamicArray<TkID<128>1> maSeenTechnologies;
-    cTkDynamicArray<TkID<128>1> maSeenProducts;
-    cTkDynamicArray<TkID<256>1> maSeenWikiTopics;
-    cTkDynamicArray<TkID<256>1> maUnlockedWikiTopics;
-    cTkDynamicArray<TkID<128>1> maUnlockedTitles;
-    cTkDynamicArray<TkID<128>1> maUnlockedSpecials;
-    cTkDynamicArray<TkID<128>1> maUnlockedSeasonRewards;
-    cTkDynamicArray<TkID<128>1> maUnlockedTwitchRewards;
-    cTkDynamicArray<TkID<128>1> maUnlockedPlatformRewards;
+    cTkDynamicArray<TkID<128> > maSeenSubstances;
+    cTkDynamicArray<TkID<128> > maSeenTechnologies;
+    cTkDynamicArray<TkID<128> > maSeenProducts;
+    cTkDynamicArray<TkID<256> > maSeenWikiTopics;
+    cTkDynamicArray<TkID<256> > maUnlockedWikiTopics;
+    cTkDynamicArray<TkID<128> > maUnlockedTitles;
+    cTkDynamicArray<TkID<128> > maUnlockedSpecials;
+    cTkDynamicArray<TkID<128> > maUnlockedSeasonRewards;
+    cTkDynamicArray<TkID<128> > maUnlockedTwitchRewards;
+    cTkDynamicArray<TkID<128> > maUnlockedPlatformRewards;
     bool mbVoiceChat;
     bool mbMultiplayer;
     bool mbInstantUIInputs;
@@ -153,7 +149,7 @@ public:
     int miCamerShakeStrength;
     int miTriggerFeedbackStrength;
     eSpaceCombatFollowMode meSpaceCombatFollowMode;
-    cTkDynamicArray<cTkFixedString<128,char>1> maUpgradedUsers;
+    cTkDynamicArray<cTkFixedString<128,char> > maUpgradedUsers;
     bool mbAllowWhiteScreenTransitions;
     bool mbAccessibleText;
     bool mbAutoScanDiscoveries;
@@ -179,10 +175,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

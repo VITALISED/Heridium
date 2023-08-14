@@ -1,9 +1,10 @@
 #pragma once
-#include "pch.h"
+#include "../../../../pch.h"
 
-class cGcDiscoveryOwner;
-class cGcSettlementJudgementType;
-class cGcBuildingClassification;
+#include "../../../../metadata/source/metadata/reality/gcdiscoveryowner.meta.h"
+#include "../../../../metadata/source/metadata/gameplay/gcsettlementjudgementtype.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcsettlementproductionslotdata.meta.h"
+#include "../../../../metadata/source/metadata/simulation/environment/gcbuildingclassification.meta.h"
 
 class cGcSettlementState
 {
@@ -23,7 +24,7 @@ public:
     cGcSettlementJudgementType mPendingJudgementType;
     TkID<128> mPendingCustomJudgementID;
     cTkFixedArray<int, 7> maStats;
-    cTkDynamicArray<TkID<128>1> maPerks;
+    cTkDynamicArray<TkID<128> > maPerks;
     unsigned __int64 mui64LastJudgementTime;
     unsigned __int64 mui64LastUpkeepDebtCheckTime;
     unsigned __int64 mui64LastDebtChangeTime;
@@ -42,10 +43,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

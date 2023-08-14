@@ -10,7 +10,7 @@
 
 namespace MethodDumper
 {
-	void Dump(const char* lpacFilename, const cTkMetaDataClass* lpMetaDataClass);
+	void Dump(const char* lpacFilename, const cTkMetaDataClass* lpMetaDataClass, std::vector<uintptr_t>* functionLookup);
 	void DoXMLFunctions(std::ofstream* Source, const cTkMetaDataClass* lpMetaDataClass);
-	void DoGenericFunctions(std::ofstream* Source, const cTkMetaDataClass* lpMetaDataClass);
+	void DoGenericFunctions(std::ofstream* Source, const cTkMetaDataClass* lpMetaDataClass, std::vector<uintptr_t>* functionLookup);
 }

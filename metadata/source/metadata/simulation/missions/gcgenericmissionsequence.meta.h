@@ -1,5 +1,5 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../pch.h"
 
 enum eMissionClass
 {
@@ -11,19 +11,11 @@ enum eMissionClass
     EMissionClass_Seasonal = 5,
     EMissionClass_Milestone = 6,
 };
-class cGcNumberedTextList;
-class cGcNumberedTextList;
-class cGcNumberedTextList;
-class cGcNumberedTextList;
-class cGcNumberedTextList;
-class cGcNumberedTextList;
-class cGcNumberedTextList;
-class cTkTextureResource;
-class cTkTextureResource;
-class cTkTextureResource;
-class cGcMissionCategory;
-class cGcMissionPageHint;
-class cGcDefaultMissionItemsTable;
+#include "../../../../../metadata/source/metadata/reality/gcnumberedtextlist.meta.h"
+#include "../../../../../metadata/toolkit/metadata/tktextureresource.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/missions/types/gcmissioncategory.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/missions/types/gcmissionpagehint.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/missions/defaultmissionitems/gcdefaultmissionitemstable.meta.h"
 
 enum eMessageComplete
 {
@@ -38,7 +30,7 @@ enum eMessageStart
     EMessageStart_Always = 1,
     EMessageStart_Never = 2,
 };
-class cGcMissionBoardOptions;
+#include "../../../../../metadata/source/metadata/simulation/missions/gcmissionboardoptions.meta.h"
 
 enum eAutoStart
 {
@@ -47,10 +39,14 @@ enum eAutoStart
     EAutoStart_Seasonal = 2,
     EAutoStart_OnSelected = 3,
 };
-class cGcAlienPuzzleTable;
-class cGcTradeData;
-class cGcMissionConditionTest;
-class cGcMissionConditionTest;
+#include "../../../../../metadata/source/metadata/reality/gcalienpuzzletable.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/gcscaneventdata.meta.h"
+#include "../../../../../metadata/source/metadata/reality/gcgenericrewardtableentry.meta.h"
+#include "../../../../../metadata/source/metadata/reality/gccosttableentry.meta.h"
+#include "../../../../../metadata/source/metadata/reality/gctradedata.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/missions/types/gcmissionconditiontest.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/missions/gcgenericmissionversionprogress.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/missions/gcgenericmissionstage.meta.h"
 
 class cGcGenericMissionSequence
 {
@@ -93,17 +89,17 @@ public:
     bool mbRestartOnCompletion;
     bool mbCancelSetsComplete;
     cGcAlienPuzzleTable mDialog;
-    cTkDynamicArray<cGcScanEventData1> maScanEvents;
-    cTkDynamicArray<cGcGenericRewardTableEntry1> maRewards;
-    cTkDynamicArray<cGcCostTableEntry1> maCosts;
+    cTkDynamicArray<cGcScanEventData> maScanEvents;
+    cTkDynamicArray<cGcGenericRewardTableEntry> maRewards;
+    cTkDynamicArray<cGcCostTableEntry> maCosts;
     cGcTradeData mTradingDataOverride;
     cGcMissionConditionTest mStartConditionTest;
     cGcMissionConditionTest mCancelConditionTest;
     bool mbStartIsCancel;
-    cTkDynamicArray<cTkClassPointer1> maStartingConditions;
-    cTkDynamicArray<cTkClassPointer1> maCancelingConditions;
-    cTkDynamicArray<cGcGenericMissionVersionProgress1> maFinalStageVersions;
-    cTkDynamicArray<cGcGenericMissionStage1> maStages;
+    cTkDynamicArray<cTkClassPointer> maStartingConditions;
+    cTkDynamicArray<cTkClassPointer> maCancelingConditions;
+    cTkDynamicArray<cGcGenericMissionVersionProgress> maFinalStageVersions;
+    cTkDynamicArray<cGcGenericMissionStage> maStages;
     bool mbForcesPageHint;
     bool mbForcesBuildMenuHint;
     bool mbIsProceduralAllowed;
@@ -120,10 +116,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

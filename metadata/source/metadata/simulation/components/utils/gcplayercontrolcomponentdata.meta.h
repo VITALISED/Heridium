@@ -1,10 +1,9 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../../pch.h"
 
-class cGcPlayerControlInput;
-class cTkBlackboardKey;
-class cTkBlackboardKey;
-class cTkBlackboardKey;
+#include "../../../../../../metadata/source/metadata/simulation/character/gcplayercontrolinput.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/character/gcplayercontrolstate.meta.h"
+#include "../../../../../../metadata/toolkit/metadata/simulation/tkblackboardkey.meta.h"
 
 class cGcPlayerControlComponentData
 {
@@ -16,7 +15,7 @@ public:
     TkID<128> mInitialState;
     cGcPlayerControlInput mBaseInput;
     TkID<128> mBaseCamera;
-    cTkDynamicArray<cGcPlayerControlState1> maStates;
+    cTkDynamicArray<cGcPlayerControlState> maStates;
     cTkBlackboardKey mAimDir;
     cTkBlackboardKey mTorchDir;
     cTkBlackboardKey mCrosshairDir;
@@ -26,10 +25,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

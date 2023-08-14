@@ -1,8 +1,19 @@
 #pragma once
-#include "pch.h"
+#include "../../../../pch.h"
 
-class cGcPetBehaviours;
-class cTkCurveType;
+#include "../../../../metadata/source/metadata/player/experience/gcexperiencedebugtriggerinput.meta.h"
+#include "../../../../metadata/source/metadata/simulation/npcs/gcnpcdebugspawndata.meta.h"
+#include "../../../../metadata/source/metadata/simulation/ecosystem/creatures/gcpetbehaviours.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcpetdata.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcpetcustomisationdata.meta.h"
+#include "../../../../metadata/source/metadata/simulation/space/spaceship/gcdebugshiptravelline.meta.h"
+#include "../../../../metadata/source/metadata/simulation/vehicles/gcdebugcamera.meta.h"
+#include "../../../../metadata/source/metadata/simulation/ecosystem/gccreaturedebugspawndata.meta.h"
+#include "../../../../metadata/source/metadata/simulation/vehicles/gcmechdebugspawndata.meta.h"
+#include "../../../../metadata/source/metadata/simulation/spaceship/ai/gcaishipdebugspawndata.meta.h"
+#include "../../../../metadata/source/metadata/graphics/camera/follow/gccamerafollowsettings.meta.h"
+#include "../../../../metadata/toolkit/metadata/animation/tkcurvetype.meta.h"
+#include "../../../../metadata/source/metadata/simulation/spaceship/ai/gcdebugplanetpos.meta.h"
 
 class cGcDebugScene
 {
@@ -14,14 +25,14 @@ public:
     bool mbActive;
     bool mbDebugDraw;
     bool mbAutoSave;
-    cTkDynamicArray<cGcExperienceDebugTriggerInput1> maTriggerActions;
+    cTkDynamicArray<cGcExperienceDebugTriggerInput> maTriggerActions;
     bool mbFlyCamSmooth;
     float mfFlyCamSmoothFactor;
     float mfFlyCamSpeedModifier;
     float mfNPCIdleMinDelay;
     float mfNPCIdleMaxDelay;
-    cTkDynamicArray<TkID<128>1> maDefaultNPCIdles;
-    cTkDynamicArray<cGcNPCDebugSpawnData1> maDebugNPCSpawns;
+    cTkDynamicArray<TkID<128> > maDefaultNPCIdles;
+    cTkDynamicArray<cGcNPCDebugSpawnData> maDebugNPCSpawns;
     bool mbLoadPetsFromDebugScene;
     bool mbUpdatePetMoods;
     bool mbResetMoodsOnSummon;
@@ -32,7 +43,7 @@ public:
     bool mbForcePlayerWalk;
     float mfPlayerWalkSpeed;
     int miPetRideIndex;
-    cTkDynamicArray<cTkVector31> maPetRideWayPoints;
+    cTkDynamicArray<cTkVector3> maPetRideWayPoints;
     bool mbForceSunPosition;
     cTkVector3 mForcedSunPosition;
     bool mbControlClouds;
@@ -43,12 +54,12 @@ public:
     bool mbBusyShips;
     float mfCustomShipDockedTime;
     float mfShipSpawningMultiplier;
-    cTkDynamicArray<cGcDebugShipTravelLine1> maDebugShipPaths;
-    cTkDynamicArray<cGcDebugCamera1> maDebugCameraPaths;
-    cTkDynamicArray<cGcCreatureDebugSpawnData1> maDebugCreatureSpawns;
-    cTkDynamicArray<cGcMechDebugSpawnData1> maDebugMechSpawns;
-    cTkDynamicArray<cGcAIShipDebugSpawnData1> maDebugEnemyShipSpawns;
-    cTkDynamicArray<cGcAIShipDebugSpawnData1> maDebugShipSpawns;
+    cTkDynamicArray<cGcDebugShipTravelLine> maDebugShipPaths;
+    cTkDynamicArray<cGcDebugCamera> maDebugCameraPaths;
+    cTkDynamicArray<cGcCreatureDebugSpawnData> maDebugCreatureSpawns;
+    cTkDynamicArray<cGcMechDebugSpawnData> maDebugMechSpawns;
+    cTkDynamicArray<cGcAIShipDebugSpawnData> maDebugEnemyShipSpawns;
+    cTkDynamicArray<cGcAIShipDebugSpawnData> maDebugShipSpawns;
     cTkFixedArray<cGcCameraFollowSettings, 7> maVehicleCameraOverride;
     bool mbDebugDroneScanPlayer;
     cTkVector3 mDebugDroneSpawn;
@@ -84,10 +95,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

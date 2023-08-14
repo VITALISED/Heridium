@@ -1,14 +1,13 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../../pch.h"
 
-class cGcFogProperties;
-class cGcFogProperties;
-class cGcFogProperties;
-class cGcFogProperties;
-class cGcWeatherColourModifiers;
-class cGcSkyProperties;
-class cGcLightShaftProperties;
-class cGcLightShaftProperties;
+#include "../../../../../../metadata/source/metadata/simulation/environment/gcfogproperties.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/environment/weather/gcweathercolourmodifiers.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/environment/gcstormproperties.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/environment/weather/gchazardvalues.meta.h"
+#include "../../../../../../metadata/source/metadata/graphics/gcscreenfilters.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/environment/gcskyproperties.meta.h"
+#include "../../../../../../metadata/source/metadata/simulation/environment/gclightshaftproperties.meta.h"
 
 class cGcWeatherProperties
 {
@@ -25,8 +24,8 @@ public:
     cGcFogProperties mExtremeFog;
     cGcWeatherColourModifiers mExtremeColourModifiers;
     cTkFixedArray<float, 4> maRainbowChance;
-    cTkDynamicArray<cGcStormProperties1> maStorms;
-    cTkDynamicArray<cTkFixedString<128,char>1> maHeavyAir;
+    cTkDynamicArray<cGcStormProperties> maStorms;
+    cTkDynamicArray<cTkFixedString<128,char> > maHeavyAir;
     float mfLowStormsChance;
     float mfHighStormsChance;
     float mfExtremeWeatherChance;
@@ -37,25 +36,24 @@ public:
     bool mbOverrideRadiation;
     cTkFixedArray<cGcHazardValues, 5> maRadiation;
     cTkFixedArray<cGcHazardValues, 5> maLifeSupportDrain;
-    cTkDynamicArray<cGcScreenFilters1> maStormFilterOptions;
+    cTkDynamicArray<cGcScreenFilters> maStormFilterOptions;
     bool mbUseWeatherSky;
     cGcSkyProperties mSky;
     bool mbUseLightShaftProperties;
     cGcLightShaftProperties mLightShaftProperties;
     bool mbUseStormLightShaftProperties;
     cGcLightShaftProperties mStormLightShaftProperties;
-    cTkDynamicArray<TkID<128>1> maWeatherEffectsIds;
-    cTkDynamicArray<TkID<128>1> maWeatherHazardsIds;
+    cTkDynamicArray<TkID<128> > maWeatherEffectsIds;
+    cTkDynamicArray<TkID<128> > maWeatherHazardsIds;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

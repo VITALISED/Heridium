@@ -1,26 +1,25 @@
 #pragma once
-#include "pch.h"
+#include "../../../../pch.h"
 
-class cGcDeathConsequencesDifficultyOption;
-class cGcDamageReceivedDifficultyOption;
-class cGcDamageGivenDifficultyOption;
-class cGcActiveSurvivalBarsDifficultyOption;
-class cGcHazardDrainDifficultyOption;
-class cGcEnergyDrainDifficultyOption;
-class cGcSubstanceCollectionDifficultyOption;
-class cGcInventoryStackLimitsDifficultyOption;
-class cGcChargingRequirementsDifficultyOption;
-class cGcFuelUseDifficultyOption;
-class cGcLaunchFuelCostDifficultyOption;
-class cGcCurrencyCostDifficultyOption;
-class cGcItemShopAvailabilityDifficultyOption;
-class cGcScannerRechargeDifficultyOption;
-class cGcReputationGainDifficultyOption;
-class cGcCreatureHostilityDifficultyOption;
-class cGcCombatTimerDifficultyOption;
-class cGcCombatTimerDifficultyOption;
-class cGcSprintingCostDifficultyOption;
-class cGcBreakTechOnDamageDifficultyOption;
+#include "../../../../metadata/source/metadata/user/gcdeathconsequencesdifficultyoption.meta.h"
+#include "../../../../metadata/source/metadata/user/gcdamagereceiveddifficultyoption.meta.h"
+#include "../../../../metadata/source/metadata/user/gcdamagegivendifficultyoption.meta.h"
+#include "../../../../metadata/source/metadata/user/gcactivesurvivalbarsdifficultyoption.meta.h"
+#include "../../../../metadata/source/metadata/user/gchazarddraindifficultyoption.meta.h"
+#include "../../../../metadata/source/metadata/user/gcenergydraindifficultyoption.meta.h"
+#include "../../../../metadata/source/metadata/user/gcsubstancecollectiondifficultyoption.meta.h"
+#include "../../../../metadata/source/metadata/user/gcinventorystacklimitsdifficultyoption.meta.h"
+#include "../../../../metadata/source/metadata/user/gcchargingrequirementsdifficultyoption.meta.h"
+#include "../../../../metadata/source/metadata/user/gcfuelusedifficultyoption.meta.h"
+#include "../../../../metadata/source/metadata/user/gclaunchfuelcostdifficultyoption.meta.h"
+#include "../../../../metadata/source/metadata/user/gccurrencycostdifficultyoption.meta.h"
+#include "../../../../metadata/source/metadata/user/gcitemshopavailabilitydifficultyoption.meta.h"
+#include "../../../../metadata/source/metadata/user/gcscannerrechargedifficultyoption.meta.h"
+#include "../../../../metadata/source/metadata/user/gcreputationgaindifficultyoption.meta.h"
+#include "../../../../metadata/source/metadata/user/gccreaturehostilitydifficultyoption.meta.h"
+#include "../../../../metadata/source/metadata/user/gccombattimerdifficultyoption.meta.h"
+#include "../../../../metadata/source/metadata/user/gcsprintingcostdifficultyoption.meta.h"
+#include "../../../../metadata/source/metadata/user/gcbreaktechondamagedifficultyoption.meta.h"
 
 class cGcDifficultySettingsData
 {
@@ -63,10 +62,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

@@ -2133,4 +2133,8 @@
 #include "metadata/source/metadata/atlas/gcatlasbasesrequest.meta.h"
 #include "metadata/source/metadata/atlas/gcatlasdiscovery.meta.h"
 #include "metadata/source/metadata/atlas/gcatlasdiscoverydata.meta.h"
-#include "metadata/source/metadata/atlas/gcatla
+#include "metadata/source/metadata/atlas/gcatlasdiscoverymetadata.meta.h"
+#include "metadata/source/metadata/atlas/gcatlasdownloadtype.meta.h"
+#include "metadata/source/metadata/atlas/gcatlasfeaturedbasestatechange.meta.h"
+#include "metadata/source/metadata/atlas/gcatlasmessage.meta.h"
+#include "metadata/source/metadata/atlas/gcatlasmonument.meta.h"

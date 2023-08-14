@@ -1,9 +1,11 @@
 #pragma once
-#include "pch.h"
+#include "../../../../pch.h"
 
-class cGcNameGeneratorWord;
-class cGcProductData;
-class cGcBiomeList;
+#include "../../../../metadata/source/metadata/reality/gcnamegeneratorword.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcproceduralproductword.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcproductdata.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcproductproceduralonlydata.meta.h"
+#include "../../../../metadata/source/metadata/simulation/solarsystem/planet/gcbiomelist.meta.h"
 
 class cGcProceduralProductData
 {
@@ -13,7 +15,7 @@ public:
     static const int miNumMembers = 8;
 
     cGcNameGeneratorWord mNameGeneratorBase;
-    cTkDynamicArray<cGcProceduralProductWord1> maNameGeneratorWordList;
+    cTkDynamicArray<cGcProceduralProductWord> maNameGeneratorWordList;
     int miNameGeneratorLegacyRolls;
     cGcProductData mProduct;
     cTkFixedArray<cGcProductProceduralOnlyData, 3> maProceduralData;
@@ -26,10 +28,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

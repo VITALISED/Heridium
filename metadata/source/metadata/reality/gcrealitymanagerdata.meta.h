@@ -1,16 +1,26 @@
 #pragma once
-#include "pch.h"
+#include "../../../../pch.h"
 
-class cGcSubstanceSecondaryBiome;
-class cGcRealityIconTable;
-class cGcTechList;
-class cGcTradeSettings;
-class cGcInventoryLayout;
-class cGcInventoryLayout;
-class cGcInventoryLayout;
-class cGcInventoryLayout;
-class cGcInventoryLayout;
-class cGcInventoryLayout;
+#include "../../../../metadata/source/metadata/reality/gcdiscoveryworth.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcsubstancesecondarylookup.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcsubstancesecondarybiome.meta.h"
+#include "../../../../metadata/toolkit/metadata/tkrawid.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcalienpuzzletableindex.meta.h"
+#include "../../../../metadata/toolkit/metadata/animation/tkcurvetype.meta.h"
+#include "../../../../metadata/source/metadata/simulation/projectiles/gcdamagemultiplierlookup.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcfreightercargooption.meta.h"
+#include "../../../../metadata/source/metadata/simulation/weapons/gcshipweapondata.meta.h"
+#include "../../../../metadata/source/metadata/simulation/weapons/gcplayerweapondata.meta.h"
+#include "../../../../metadata/toolkit/metadata/tkidarray.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcnumberedtextlist.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcrealityicontable.meta.h"
+#include "../../../../metadata/toolkit/metadata/tktextureresource.meta.h"
+#include "../../../../metadata/source/metadata/reality/gcstats.meta.h"
+#include "../../../../metadata/source/metadata/reality/gctechlist.meta.h"
+#include "../../../../metadata/source/metadata/reality/gctradesettings.meta.h"
+#include "../../../../metadata/source/metadata/gamestate/gcinventorylayout.meta.h"
+#include "../../../../metadata/source/metadata/gameplay/gcfiendcrimespawntable.meta.h"
+#include "../../../../metadata/source/metadata/simulation/environment/wfcbuildings/gcidpair.meta.h"
 
 class cGcRealityManagerData
 {
@@ -23,7 +33,7 @@ public:
     unsigned __int16 muiRealityIteration;
     cTkFixedArray<cGcDiscoveryWorth, 17> maDiscoveryWorth;
     cTkFixedArray<float, 4> maCreatureDiscoverySizeMultiplier;
-    cTkDynamicArray<cGcSubstanceSecondaryLookup1> maSubstanceSecondaryLookups;
+    cTkDynamicArray<cGcSubstanceSecondaryLookup> maSubstanceSecondaryLookups;
     cGcSubstanceSecondaryBiome mSubstanceSecondaryBiome;
     cTkFixedString<128,char> macTechnologyTable;
     cTkFixedString<128,char> macSubstanceTable;
@@ -31,17 +41,17 @@ public:
     cTkFixedString<128,char> macProceduralProductTable;
     cTkFixedString<128,char> macProceduralTechnologyTable;
     cTkFixedString<128,char> macLegacyItemConversionTable;
-    cTkDynamicArray<cTkRawID1> maLegacyRepairTable;
+    cTkDynamicArray<cTkRawID> maLegacyRepairTable;
     cTkFixedString<128,char> macConsumableItemTable;
     cTkFixedString<128,char> macRecipeTable;
     cTkFixedString<128,char> macStoriesTable;
     cTkFixedString<128,char> macDialogClearanceTable;
     cTkFixedString<128,char> macAlienWordsTable;
-    cTkDynamicArray<cTkFixedString<128,char>1> maAlienPuzzleTables;
+    cTkDynamicArray<cTkFixedString<128,char> > maAlienPuzzleTables;
     cTkFixedArray<bool, 131> maLoopInteractionPuzzles;
     cTkFixedArray<cGcAlienPuzzleTableIndex, 131> maInteractionPuzzlesIndexTypes;
     cTkFixedArray<cTkCurveType, 7> maWeightingCurves;
-    cTkDynamicArray<cGcDamageMultiplierLookup1> maDamageMultiplierTable;
+    cTkDynamicArray<cGcDamageMultiplierLookup> maDamageMultiplierTable;
     cTkFixedString<128,char> macRewardTable;
     cTkFixedString<128,char> macDiscoveryRewardTable;
     cTkFixedString<128,char> macInventoryTable;
@@ -60,7 +70,7 @@ public:
     cTkFixedString<128,char> macPlayerWeaponPropertiesTable;
     cTkFixedString<128,char> macCombatEffectsTable;
     cTkFixedString<128,char> macTechBoxTable;
-    cTkDynamicArray<cGcFreighterCargoOption1> maFreighterCargoOptions;
+    cTkDynamicArray<cGcFreighterCargoOption> maFreighterCargoOptions;
     cTkFixedArray<cGcShipWeaponData, 7> maShipWeapons;
     cTkFixedArray<cGcPlayerWeaponData, 19> maPlayerWeapons;
     cTkFixedArray<cTkIdArray, 7> maDefaultVehicleLoadout;
@@ -83,21 +93,21 @@ public:
     cGcTechList mStationTechShops;
     cTkFixedArray<cGcTechList, 16> maPlanetTechShops;
     cGcTradeSettings mTradeSettings;
-    cTkDynamicArray<TkID<128>1> maPirateStationExtraProds;
+    cTkDynamicArray<TkID<128> > maPirateStationExtraProds;
     cGcInventoryLayout mSuitStartingSlotLayout;
     cGcInventoryLayout mSuitTechOnlyStartingSlotLayout;
     cGcInventoryLayout mSuitCargoStartingSlotLayout;
     cGcInventoryLayout mShipStartingLayout;
     cGcInventoryLayout mShipTechOnlyStartingLayout;
     cGcInventoryLayout mShipCargoOnlyStartingLayout;
-    cTkDynamicArray<int1> maSuitUpgradePrices;
-    cTkDynamicArray<int1> maSuitTechOnlyUpgradePrices;
-    cTkDynamicArray<int1> maSuitCargoUpgradePrices;
-    cTkDynamicArray<TkID<128>1> maNeverSellableItems;
-    cTkDynamicArray<TkID<128>1> maNeverOfferedForSale;
+    cTkDynamicArray<int> maSuitUpgradePrices;
+    cTkDynamicArray<int> maSuitTechOnlyUpgradePrices;
+    cTkDynamicArray<int> maSuitCargoUpgradePrices;
+    cTkDynamicArray<TkID<128> > maNeverSellableItems;
+    cTkDynamicArray<TkID<128> > maNeverOfferedForSale;
     cTkFixedArray<float, 5> maNormalisedPriceLimits;
-    cTkDynamicArray<cGcFiendCrimeSpawnTable1> maFiendCrimeSpawnTable;
-    cTkDynamicArray<cGcIDPair1> maFreighterBaseItemPairs;
+    cTkDynamicArray<cGcFiendCrimeSpawnTable> maFiendCrimeSpawnTable;
+    cTkDynamicArray<cGcIDPair> maFreighterBaseItemPairs;
     cTkFixedArray<cTkFixedString<128,char>, 5> maCatalogues;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
@@ -105,10 +115,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

@@ -1,16 +1,15 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../pch.h"
 
-class cTkModelResource;
-class cTkModelResource;
-class cTkModelResource;
-class cTkMaterialResource;
-class cTkModelResource;
-class cTkModelResource;
-class cTkModelResource;
-class cTkModelResource;
-class cGcBaseBuildingProperties;
-class cGcBaseBuildingGroup;
+#include "../../../../../metadata/toolkit/metadata/tkmodelresource.meta.h"
+#include "../../../../../metadata/toolkit/metadata/tkmaterialresource.meta.h"
+#include "../../../../../metadata/source/metadata/gamestate/basebuilding/gcbasebuildingentry.meta.h"
+#include "../../../../../metadata/source/metadata/gamestate/basebuilding/gcbasebuildinggroup.meta.h"
+#include "../../../../../metadata/source/metadata/gamestate/basebuilding/gcbasebuildingpalette.meta.h"
+#include "../../../../../metadata/source/metadata/gamestate/basebuilding/gcid256list.meta.h"
+#include "../../../../../metadata/source/metadata/gamestate/basebuilding/gcbasebuildingmaterial.meta.h"
+#include "../../../../../metadata/source/metadata/gamestate/basebuilding/gcbasebuildingproperties.meta.h"
+#include "../../../../../metadata/source/metadata/gamestate/basebuilding/gcbasebuildingfamily.meta.h"
 
 class cGcBaseBuildingTable
 {
@@ -27,14 +26,14 @@ public:
     cTkModelResource mWiringFirefly;
     cTkModelResource mWiringSnapPoint;
     cTkModelResource mWiringSnapSelected;
-    cTkDynamicArray<cGcBaseBuildingEntry1> maObjects;
-    cTkDynamicArray<cGcBaseBuildingGroup1> maGroups;
-    cTkDynamicArray<cGcBaseBuildingPalette1> maPalettes;
-    cTkDynamicArray<cGcId256List1> maPaletteGroups;
-    cTkDynamicArray<cGcBaseBuildingMaterial1> maMaterials;
-    cTkDynamicArray<cGcId256List1> maMaterialGroups;
+    cTkDynamicArray<cGcBaseBuildingEntry> maObjects;
+    cTkDynamicArray<cGcBaseBuildingGroup> maGroups;
+    cTkDynamicArray<cGcBaseBuildingPalette> maPalettes;
+    cTkDynamicArray<cGcId256List> maPaletteGroups;
+    cTkDynamicArray<cGcBaseBuildingMaterial> maMaterials;
+    cTkDynamicArray<cGcId256List> maMaterialGroups;
     cGcBaseBuildingProperties mProperties;
-    cTkDynamicArray<cGcBaseBuildingFamily1> maFamilies;
+    cTkDynamicArray<cGcBaseBuildingFamily> maFamilies;
     cGcBaseBuildingGroup mRelativesTabSetupData;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
@@ -42,10 +41,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

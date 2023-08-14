@@ -1,12 +1,9 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../../../pch.h"
 
-class cGcAudioWwiseEvents;
-class cTkCurveType;
-class cGcAudioWwiseEvents;
-class cGcAudioWwiseEvents;
-class cGcAudioWwiseEvents;
-class cGcAudioWwiseEvents;
+#include "../../../../../../../metadata/source/metadata/simulation/solarsystem/planet/gcbiomesubtype.meta.h"
+#include "../../../../../../../metadata/source/metadata/audio/gcaudiowwiseevents.meta.h"
+#include "../../../../../../../metadata/toolkit/metadata/animation/tkcurvetype.meta.h"
 
 enum eDeathType
 {
@@ -27,8 +24,8 @@ public:
     static const unsigned __int64 muTemplateHash = 0x918FDBF743EC6311;
     static const int miNumMembers = 54;
 
-    cTkDynamicArray<cGcBiomeSubType1> maValidBiomes;
-    cTkDynamicArray<TkID<256>1> maValidDescriptors;
+    cTkDynamicArray<cGcBiomeSubType> maValidBiomes;
+    cTkDynamicArray<TkID<256> > maValidDescriptors;
     int miNumShards;
     bool mbUseTerrainAngle;
     bool mbScaleOnAppear;
@@ -87,10 +84,9 @@ public:
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

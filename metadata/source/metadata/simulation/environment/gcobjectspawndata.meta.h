@@ -1,12 +1,13 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../pch.h"
 
 enum eType
 {
     EType_Instanced = 0,
     EType_Single = 1,
 };
-class cGcResourceElement;
+#include "../../../../../metadata/source/metadata/utilities/data/gcresourceelement.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/environment/gcterraintiletype.meta.h"
 
 enum ePlacementPriority
 {
@@ -39,7 +40,7 @@ enum eGroundColourIndex
     EGroundColourIndex_Main = 1,
     EGroundColourIndex_Patch = 2,
 };
-class cGcObjectSpawnDataVariant;
+#include "../../../../../metadata/source/metadata/simulation/environment/gcobjectspawndatavariant.meta.h"
 
 class cGcObjectSpawnData
 {
@@ -51,8 +52,8 @@ public:
     TkID<128> mDebugName;
     eType meType;
     cGcResourceElement mResource;
-    cTkDynamicArray<cGcResourceElement1> maAltResources;
-    cTkDynamicArray<cGcTerrainTileType1> maExtraTileTypes;
+    cTkDynamicArray<cGcResourceElement> maAltResources;
+    cTkDynamicArray<cGcTerrainTileType> maExtraTileTypes;
     TkID<128> mPlacement;
     cTkSeed mSeed;
     ePlacementPriority mePlacementPriority;
@@ -86,17 +87,16 @@ public:
     float mfShearWindStrength;
     TkID<128> mDestroyedByVehicleEffect;
     cGcObjectSpawnDataVariant mQualityVariantData;
-    cTkDynamicArray<cGcObjectSpawnDataVariant1> maQualityVariants;
+    cTkDynamicArray<cGcObjectSpawnDataVariant> maQualityVariants;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };

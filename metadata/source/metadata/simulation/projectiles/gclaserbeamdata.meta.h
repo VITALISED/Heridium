@@ -1,10 +1,11 @@
 #pragma once
-#include "pch.h"
+#include "../../../../../pch.h"
 
-class cGcAudioWwiseEvents;
-class cGcAudioWwiseEvents;
-class cGcAudioWwiseEvents;
-class cGcDamageType;
+#include "../../../../../metadata/source/metadata/audio/gcaudiowwiseevents.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/projectiles/gcdamagetype.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/projectiles/gcprojectileimpactdata.meta.h"
+#include "../../../../../metadata/source/metadata/gameplay/gcimpactcombateffectdata.meta.h"
+#include "../../../../../metadata/source/metadata/simulation/projectiles/gccombateffectdamagemultiplier.meta.h"
 
 class cGcLaserBeamData
 {
@@ -31,7 +32,7 @@ public:
     float mfCriticalHitModifier;
     TkID<128> mPlayerDamage;
     TkID<128> mImpactEffect;
-    cTkDynamicArray<cGcProjectileImpactData1> maImpacts;
+    cTkDynamicArray<cGcProjectileImpactData> maImpacts;
     float mfHitRate;
     bool mbSingleHit;
     float mfRagdollPush;
@@ -46,18 +47,17 @@ public:
     cTkColour mLightColour;
     cTkColour mColour;
     cTkVector3 mImpactOffset;
-    cTkDynamicArray<cGcImpactCombatEffectData1> maCombatEffectsOnImpact;
-    cTkDynamicArray<cGcCombatEffectDamageMultiplier1> maCombatEffectDamageMultipliers;
+    cTkDynamicArray<cGcImpactCombatEffectData> maCombatEffectsOnImpact;
+    cTkDynamicArray<cGcCombatEffectDamageMultiplier> maCombatEffectDamageMultipliers;
 
     static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
     static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);
-    static void ClassPointerValidateData(cTkClassPointer* lPtr);
+    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);
     static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);
     static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);
-    static void ClassPointerRender(cTkClassPointer* lPtr);
     static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);
     static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);
 };
