@@ -59,6 +59,18 @@ void Dumper::Dump(const char* lpacFilename, const cTkMetaDataClass* lpMetaDataCl
 		Dumper::ResolveMembers(&Header, lpMetaDataClass);
 	}
 
+	//Class pointer funcs, will update to have addresses later.
+	Header << "    static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);\n";
+	Header << "    static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);\n";
+	Header << "    static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);\n";
+	Header << "    static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);\n";
+	Header << "    static void ClassPointerDestroy(cTkClassPointer* lPtr);\n";
+	Header << "    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);\n";
+	Header << "    static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);\n";
+	Header << "    static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);\n";
+	Header << "    static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);\n";
+	Header << "    static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);\n";
+
 	Header << "};\n";
 
 	Header.close();
@@ -251,18 +263,6 @@ void Dumper::ResolveMembers(std::ofstream* Header, const cTkMetaDataClass* lpMet
 	}
 
 	*Header << "\n";
-
-	//Class pointer funcs, will update to have addresses later.
-	*Header << "    static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);\n";
-	*Header << "    static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);\n";
-	*Header << "    static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);\n";
-	*Header << "    static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);\n";
-	*Header << "    static void ClassPointerDestroy(cTkClassPointer* lPtr);\n";
-	*Header << "    static void ClassPointerFix(cTkClassPointer* lPtr, bool lbFixUp, unsigned __int64 liDynamicOffset);\n";
-	*Header << "    static unsigned __int64 ClassPointerGenerateHash(const cTkClassPointer* lPtr, unsigned __int64 luHash, bool lbDeep);\n";
-	*Header << "    static void ClassPointerRead(cTkClassPointer* lPtr, XMLNode* lDataNode, cTkLinearMemoryPool* lpAllocator);\n";
-	*Header << "    static bool ClassPointerSave(const cTkClassPointer* lPtr, const char* lpacFilename);\n";
-	*Header << "    static void ClassPointerWrite(const cTkClassPointer* lPtr, XMLNode* lDataNode, bool lbForceShortForm);\n";
 }
 
 const char* Dumper::EnumToChar(cTkMetaDataMember::eType leType)

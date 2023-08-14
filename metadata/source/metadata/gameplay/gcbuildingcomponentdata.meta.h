@@ -8,8 +8,8 @@ public:
     static const unsigned __int64 muTemplateHash = 0x4F7AEBE8FD1C877E;
     static const int miNumMembers = 0;
 
-    static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer* lOtherPtr);
-    static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer* lSource);
+    static bool ClassPointerCompare(const cTkClassPointer* lPtr, const cTkClassPointer *lOtherPtr);
+    static void ClassPointerCopy(cTkClassPointer* lDest, const cTkClassPointer *lSource);
     static cTkClassPointer* ClassPointerCreate(cTkClassPointer* result);
     static void ClassPointerCreateDefault(cTkClassPointer* lPtr, cTkLinearMemoryPool* lpAllocator);
     static void ClassPointerDestroy(cTkClassPointer* lPtr);

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
 
-project(Hermidium CXX)
+project(Heridium CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_C_STANDARD 17)
@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 file(GLOB_RECURSE METADATA ${CMAKE_SOURCE_DIR}/metadata/*)
 
-add_library(HermidiumDLL STATIC
+add_library(Heridium STATIC
 	"dllmain.cpp"
 	"framework.h"
 	"heridium.h"
@@ -32,17 +32,17 @@ add_library(HermidiumDLL STATIC
 	"common/resources/TkSmartResHandle.h"
 	"common/utilities/TkStrongType.h"
 	"common/graphics/TkColour.h"
+	"common/attachments/TkHandle.h"
 	${METADATA}
- "common/attachments/TkHandle.h"
 )
 
- target_precompile_headers(HermidiumDLL PRIVATE pch.h)
+ target_precompile_headers(Heridium PRIVATE pch.h)
 
 
-target_include_directories(HermidiumDLL PRIVATE ${CMAKE_SOURCE_DIR}/metadata)
+target_include_directories(Heridium PRIVATE ${CMAKE_SOURCE_DIR}/metadata)
 
-set_target_properties(HermidiumDLL PROPERTIES
-        OUTPUT_NAME HermidiumDLL
+set_target_properties(Heridium PROPERTIES
+        OUTPUT_NAME Heridium
 )   
 
 add_subdirectory(dumper)
