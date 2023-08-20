@@ -24,7 +24,7 @@ class cTkMetaData
 {
 public:
 	typedef cTkMetaDataFunctionLookup* (*GetLookup)(unsigned __int64 luiNameHash);
-	typedef void(*Register)(
+	typedef __int64(*Register)(
 		const cTkMetaDataClass* lpClassMetadata,
 		void(__fastcall* lDefaultFunction)(cTkClassPointer*, cTkLinearMemoryPool*),
 		void(__fastcall* lFixingFunction)(cTkClassPointer*, bool, unsigned __int64),

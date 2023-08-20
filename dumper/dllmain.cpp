@@ -3,7 +3,7 @@
 
 cTkMetaData::Register fpRegister = NULL;
 
-void RegisterHook(const cTkMetaDataClass* lpClassMetadata,
+__int64 RegisterHook(const cTkMetaDataClass* lpClassMetadata,
     void(__fastcall* lDefaultFunction)(cTkClassPointer*, cTkLinearMemoryPool*),
     void(__fastcall* lFixingFunction)(cTkClassPointer*, bool, unsigned __int64),
     void(__fastcall* lValidateFunction)(cTkClassPointer*),
@@ -54,7 +54,7 @@ void RegisterHook(const cTkMetaDataClass* lpClassMetadata,
 DWORD WINAPI MainThread(LPVOID lpReserved)
 {
     spdlog::info("Starting");
-    ADDHOOK(OFFSET(0x248ABC0), RegisterHook, reinterpret_cast<LPVOID*>(&fpRegister), cTkMetaData::Register);
+    ADDHOOK(OFFSET(0x2511EC0), RegisterHook, reinterpret_cast<LPVOID*>(&fpRegister), cTkMetaData::Register);
 
     std::ofstream PrimaryHeader("./HERIDIUM/heridium.h");
 

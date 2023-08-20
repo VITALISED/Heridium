@@ -28,7 +28,7 @@ void MethodDumper::Dump(const char* lpacFilename, const cTkMetaDataClass* lpMeta
 
 void MethodDumper::DoXMLFunctions(std::ofstream* Source, const cTkMetaDataClass* lpMetaDataClass)
 {
-	cTkMetaDataXML::GetLookup __GetLookup__ = (cTkMetaDataXML::GetLookup)OFFSET(0x2487970);
+	cTkMetaDataXML::GetLookup __GetLookup__ = (cTkMetaDataXML::GetLookup)OFFSET(0x250EA40);
 
 	cTkMetaDataXMLFunctionLookup* xmlFunctionData = __GetLookup__(lpMetaDataClass->mpacName);
 
